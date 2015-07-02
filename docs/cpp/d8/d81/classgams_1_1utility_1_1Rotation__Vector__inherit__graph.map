@@ -1,0 +1,5 @@
+<map id="gams::utility::Rotation_Vector" name="gams::utility::Rotation_Vector">
+<area shape="rect" id="node2" href="$d0/d36/classgams_1_1utility_1_1Pose__Vector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="5,95,136,136"/>
+<area shape="rect" id="node4" href="$da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. " alt="" coords="160,102,309,129"/>
+<area shape="rect" id="node3" href="$dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="5,184,136,211"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="gams::algorithms::Algorithm_Factory" name="gams::algorithms::Algorithm_Factory">
+<area shape="rect" id="node2" href="$df/d7b/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage__Factory.html" title="A factory class for creating pheremone area coverage algorithms. " alt="" coords="254,5,446,61"/>
+<area shape="rect" id="node3" href="$d9/dd0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage__Factory.html" title="A factory class for creating minimum time area coverage algorithms. " alt="" coords="261,85,439,141"/>
+<area shape="rect" id="node4" href="$d2/d73/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol__Factory.html" title="A factory class for creating perimeter patrol algorithms. " alt="" coords="257,165,443,221"/>
+<area shape="rect" id="node5" href="$d8/d3e/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage__Factory.html" title="A factory class for creating prioritized minimum time coverage algorithms. " alt="" coords="261,246,439,317"/>
+<area shape="rect" id="node6" href="$d6/d42/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage__Factory.html" title="A factory class for creating priority&#45;weighted random area coverage algorithms. " alt="" coords="239,341,461,397"/>
+<area shape="rect" id="node7" href="$d5/da0/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage__Factory.html" title="A factory class for creating snake/lawnmower area coverage algorithms. " alt="" coords="271,421,429,477"/>
+<area shape="rect" id="node8" href="$da/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage__Factory.html" title="A factory class for creating uniform random area coverage algorithms. " alt="" coords="257,501,443,557"/>
+<area shape="rect" id="node9" href="$dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory.html" title="A factory class for creating uniform random edge coverage algorithms. " alt="" coords="257,581,443,637"/>
+<area shape="rect" id="node10" href="$d7/d3a/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage__Factory.html" title="A factory class for creating waypoints area coverage algorithms. " alt="" coords="245,661,455,717"/>
+<area shape="rect" id="node11" href="$d2/dcf/classgams_1_1algorithms_1_1Debug__Algorithm__Factory.html" title="A factory class for creating Debug Algorithms. " alt="" coords="267,742,433,783"/>
+<area shape="rect" id="node12" href="$d7/d6b/classgams_1_1algorithms_1_1Executive__Factory.html" title="A factory class for creating Executive algorithms. " alt="" coords="257,807,443,849"/>
+<area shape="rect" id="node13" href="$d2/d1f/classgams_1_1algorithms_1_1Follow__Factory.html" title="A factory class for creating Follow Algorithms. " alt="" coords="267,873,433,914"/>
+<area shape="rect" id="node14" href="$d2/d7c/classgams_1_1algorithms_1_1Formation__Coverage__Factory.html" title="A factory class for creating Formation Coverage algorithms. " alt="" coords="256,938,444,979"/>
+<area shape="rect" id="node15" href="$d0/dbb/classgams_1_1algorithms_1_1Formation__Flying__Factory.html" title="A factory class for creating Formation Flying algorithms. " alt="" coords="256,1003,444,1045"/>
+<area shape="rect" id="node16" href="$d7/d4b/classgams_1_1algorithms_1_1Land__Factory.html" title="A factory class for creating Landing algorithms. " alt="" coords="271,1069,429,1110"/>
+<area shape="rect" id="node17" href="$d2/d0a/classgams_1_1algorithms_1_1Message__Profiling__Factory.html" title="A factory class for creating Message_Profiling Algorithms. " alt="" coords="259,1134,441,1175"/>
+<area shape="rect" id="node18" href="$d2/df0/classgams_1_1algorithms_1_1Move__Factory.html" title="A factory class for creating Move algorithms. " alt="" coords="270,1199,430,1241"/>
+<area shape="rect" id="node19" href="$dc/da0/classgams_1_1algorithms_1_1Null__Algorithm__Factory.html" title="A factory class for creating Null algorithms. " alt="" coords="274,1265,426,1306"/>
+<area shape="rect" id="node20" href="$db/d02/classgams_1_1algorithms_1_1Takeoff__Factory.html" title="A factory class for creating Null algorithms. " alt="" coords="265,1330,435,1371"/>
+<area shape="rect" id="node21" href="$d1/d7b/classgams_1_1algorithms_1_1Wait__Factory.html" title="A factory class for creating Wait algorithms. " alt="" coords="271,1395,429,1437"/>
+</map>

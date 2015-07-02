@@ -1,0 +1,6 @@
+<map id="gams::platforms::Base_Platform" name="gams::platforms::Base_Platform">
+<area shape="rect" id="node2" href="$d4/d15/classgams_1_1platforms_1_1Debug__Platform.html" title="gams::platforms::Debug\l_Platform" alt="" coords="218,5,378,47"/>
+<area shape="rect" id="node3" href="$df/d3b/classgams_1_1platforms_1_1Drone__RK.html" title="gams::platforms::Drone_RK" alt="" coords="207,71,389,98"/>
+<area shape="rect" id="node4" href="$da/dc8/classgams_1_1platforms_1_1Java__Platform.html" title="gams::platforms::Java\l_Platform" alt="" coords="224,123,372,164"/>
+<area shape="rect" id="node5" href="$da/d8e/classgams_1_1platforms_1_1Null__Platform.html" title="gams::platforms::Null\l_Platform" alt="" coords="225,188,371,229"/>
+</map>

@@ -1,0 +1,27 @@
+var classgams_1_1algorithms_1_1Base__Algorithm =
+[
+    [ "Base_Algorithm", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#acd055ee40704d561938c361bef7a530a", null ],
+    [ "~Base_Algorithm", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a97dfb37b97eb47b338c661f258238baa", null ],
+    [ "analyze", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#acfe6d1834a4ccf5887f9aeac06455900", null ],
+    [ "execute", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#aa660ce919a0402c37d119f614c315245", null ],
+    [ "get_algorithm_status", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#aef8cdd5d13d02fe78c8aac11df3ecffd", null ],
+    [ "get_devices", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a2cfdd65848edd729e2573cb1fc704cc1", null ],
+    [ "get_knowledge_base", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a4dc41c9be77296a16c712323b29e8f22", null ],
+    [ "get_platform", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a92b050383af20038e92528237b39f4af", null ],
+    [ "get_self", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a68cc2a49796c1237b77b1c887f62cae6", null ],
+    [ "get_sensors", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a1bfcef5ac2c513df77074c2498921516", null ],
+    [ "operator=", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#ad51d9e4d88723a94ea36528e0cb80ae6", null ],
+    [ "plan", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a136cf3104374fc8ffb4efcc6019507dd", null ],
+    [ "set_devices", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a9b15f01b53305f90af05df7920800e64", null ],
+    [ "set_platform", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#adafa721c96d710f8619531b33de8f19b", null ],
+    [ "set_self", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a59d05bf2c4659e290da985e04d71d0ea", null ],
+    [ "set_sensors", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#adf06e9a18a927c8fcd15bbc3c0379ead", null ],
+    [ "controllers::Base_Controller", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#afd6f5737b534e8bb0499298bbd39c455", null ],
+    [ "devices_", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a7fa39e19b2b19afa4c5889921f24573b", null ],
+    [ "executions_", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#a69e37c3481157ab3ae3dcdbe2bb197cc", null ],
+    [ "knowledge_", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#af449b8483a96067eb7c963312bbf336f", null ],
+    [ "platform_", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#ae9cbba239fdcc8768d8e6aac72a75ff0", null ],
+    [ "self_", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#ae352b273433745158f3582598b184c2d", null ],
+    [ "sensors_", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#ab458bfbebadb9cc06a171fb067d9bbf8", null ],
+    [ "status_", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#adddf49eab26029d991ff9cccd514b350", null ]
+];

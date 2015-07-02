@@ -1,0 +1,15 @@
+<map id="gams::algorithms::Message_Profiling" name="gams::algorithms::Message_Profiling">
+<area shape="rect" id="node2" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="gams::algorithms::Base\l_Algorithm" alt="" coords="1491,147,1651,189"/>
+<area shape="rect" id="node3" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="1217,203,1371,245"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="826,152,947,179"/>
+<area shape="rect" id="node15" title="STL class. " alt="" coords="1035,12,1148,39"/>
+<area shape="rect" id="node7" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="gams::variables::Self" alt="" coords="815,73,958,100"/>
+<area shape="rect" id="node8" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="gams::variables::Device" alt="" coords="517,72,676,99"/>
+<area shape="rect" id="node10" href="$d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="gams::variables::Accent\l_Status" alt="" coords="5,65,167,106"/>
+<area shape="rect" id="node11" href="$d9/dd1/classgams_1_1variables_1_1Platform__Status.html" title="gams::variables::Platform\l_Status" alt="" coords="803,245,971,286"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="557,336,637,363"/>
+<area shape="rect" id="node14" href="$d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html" title="gams::variables::Algorithm\l_Status" alt="" coords="1004,303,1179,345"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="276,329,403,370"/>
+<area shape="rect" id="node16" href="$d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html" title="Filter for tracking which messages have come in and which have been dropped. " alt="" coords="1203,427,1385,469"/>
+<area shape="rect" id="node19" href="$dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html" title="Message_Data struct. " alt="" coords="505,427,688,483"/>
+</map>

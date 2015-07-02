@@ -1,0 +1,26 @@
+var classgams_1_1variables_1_1Device =
+[
+    [ "Device", "d7/d3b/classgams_1_1variables_1_1Device.html#aeef0e9b9027dab580663c205583b7507", null ],
+    [ "~Device", "d7/d3b/classgams_1_1variables_1_1Device.html#a0d1a0c4387d516282bcfa065fbb9cbff", null ],
+    [ "init_variable_settings", "d7/d3b/classgams_1_1variables_1_1Device.html#a018449f6312d3361d31e41e159563f93", null ],
+    [ "init_vars", "d7/d3b/classgams_1_1variables_1_1Device.html#ad315f419319d1f245fdef410ea048e41", null ],
+    [ "init_vars", "d7/d3b/classgams_1_1variables_1_1Device.html#af8d0f6ac782059d4a0de7e9961e497b3", null ],
+    [ "make_variable_name", "d7/d3b/classgams_1_1variables_1_1Device.html#a647b9ee5616166fe95789bd94e3a9edc", null ],
+    [ "operator=", "d7/d3b/classgams_1_1variables_1_1Device.html#a1bd66fbfeb6c2009a682c3baee52df33", null ],
+    [ "accents", "d7/d3b/classgams_1_1variables_1_1Device.html#a0424a308bc0144727720f5d5f2288801", null ],
+    [ "battery_remaining", "d7/d3b/classgams_1_1variables_1_1Device.html#a2a2ac04d39a68a7890ba3027410fa32a", null ],
+    [ "bridge_id", "d7/d3b/classgams_1_1variables_1_1Device.html#a6f545cc98fd8618638ab0c1f357ff26d", null ],
+    [ "command", "d7/d3b/classgams_1_1variables_1_1Device.html#a36e4b786741c25dca044b52338b45f84", null ],
+    [ "command_args", "d7/d3b/classgams_1_1variables_1_1Device.html#a6b49779ae3545f8eae6a63d9c345da99", null ],
+    [ "coverage_type", "d7/d3b/classgams_1_1variables_1_1Device.html#acee357cc36aebf1325196227a500bbbc", null ],
+    [ "desired_altitude", "d7/d3b/classgams_1_1variables_1_1Device.html#a82d923949191e9b5f7b64a288adf0668", null ],
+    [ "dest", "d7/d3b/classgams_1_1variables_1_1Device.html#a20248b19d35dde107c01f28ca7ea2bc4", null ],
+    [ "home", "d7/d3b/classgams_1_1variables_1_1Device.html#abe3eae5d149401be18c97c9436810dcd", null ],
+    [ "is_mobile", "d7/d3b/classgams_1_1variables_1_1Device.html#a674e41e79475e807edd8a75fccf482aa", null ],
+    [ "location", "d7/d3b/classgams_1_1variables_1_1Device.html#a7500e3167837ba39e6fece197104f9d4", null ],
+    [ "min_alt", "d7/d3b/classgams_1_1variables_1_1Device.html#a8ce69a09b07e6b790611311dc54402e8", null ],
+    [ "next_coverage_type", "d7/d3b/classgams_1_1variables_1_1Device.html#a734856ba5ab55ea7dec37710dfc56d28", null ],
+    [ "search_area_id", "d7/d3b/classgams_1_1variables_1_1Device.html#a50d051bb996cbeab2953f126df53472c", null ],
+    [ "source", "d7/d3b/classgams_1_1variables_1_1Device.html#a0a863dd7e819ddd1ef093f550e6749b1", null ],
+    [ "temperature", "d7/d3b/classgams_1_1variables_1_1Device.html#ade11eb5658b8e7714025715ae83a03dd", null ]
+];

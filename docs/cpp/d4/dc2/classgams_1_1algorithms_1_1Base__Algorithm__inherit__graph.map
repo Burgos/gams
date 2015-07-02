@@ -1,0 +1,24 @@
+<map id="gams::algorithms::Base_Algorithm" name="gams::algorithms::Base_Algorithm">
+<area shape="rect" id="node2" href="$d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Base_Area_Coverage" alt="" coords="213,279,425,321"/>
+<area shape="rect" id="node12" href="$df/d20/classgams_1_1algorithms_1_1Debug__Algorithm.html" title="gams::algorithms::Debug\l_Algorithm" alt="" coords="236,345,403,386"/>
+<area shape="rect" id="node13" href="$dc/d23/classgams_1_1algorithms_1_1Executive.html" title="gams::algorithms::Executive" alt="" coords="226,411,413,437"/>
+<area shape="rect" id="node14" href="$d9/d7a/classgams_1_1algorithms_1_1Follow.html" title="gams::algorithms::Follow" alt="" coords="236,461,403,488"/>
+<area shape="rect" id="node15" href="$d7/d90/classgams_1_1algorithms_1_1Formation__Coverage.html" title="gams::algorithms::Formation\l_Coverage" alt="" coords="225,513,413,554"/>
+<area shape="rect" id="node16" href="$d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html" title="gams::algorithms::Formation\l_Flying" alt="" coords="225,578,413,619"/>
+<area shape="rect" id="node17" href="$db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html" title="gams::algorithms::Java\l_Algorithm" alt="" coords="242,643,397,685"/>
+<area shape="rect" id="node18" href="$d3/d06/classgams_1_1algorithms_1_1Land.html" title="gams::algorithms::Land" alt="" coords="240,709,399,736"/>
+<area shape="rect" id="node19" href="$de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html" title="gams::algorithms::Message\l_Profiling" alt="" coords="228,761,411,802"/>
+<area shape="rect" id="node20" href="$d2/d4c/classgams_1_1algorithms_1_1Move.html" title="gams::algorithms::Move" alt="" coords="239,827,399,853"/>
+<area shape="rect" id="node21" href="$d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html" title="gams::algorithms::Null\l_Algorithm" alt="" coords="243,878,395,919"/>
+<area shape="rect" id="node22" href="$dd/dce/classgams_1_1algorithms_1_1Takeoff.html" title="gams::algorithms::Takeoff" alt="" coords="234,944,405,971"/>
+<area shape="rect" id="node23" href="$d9/d6f/classgams_1_1algorithms_1_1Wait.html" title="gams::algorithms::Wait" alt="" coords="241,995,398,1021"/>
+<area shape="rect" id="node3" href="$da/de7/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Local_Pheremone\l_Area_Coverage" alt="" coords="483,5,675,61"/>
+<area shape="rect" id="node4" href="$de/da0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Min_Time_Area\l_Coverage" alt="" coords="489,85,668,141"/>
+<area shape="rect" id="node6" href="$d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html" title="gams::algorithms::area\l_coverage::Perimeter_Patrol" alt="" coords="486,166,671,207"/>
+<area shape="rect" id="node7" href="$de/dcb/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Priority_Weighted\l_Random_Area_Coverage" alt="" coords="483,232,674,288"/>
+<area shape="rect" id="node8" href="$d9/d9c/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Snake_Area\l_Coverage" alt="" coords="499,312,658,368"/>
+<area shape="rect" id="node9" href="$d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Uniform_Random\l_Area_Coverage" alt="" coords="485,392,672,448"/>
+<area shape="rect" id="node10" href="$d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage.html" title="gams::algorithms::area\l_coverage::Uniform_Random\l_Edge_Coverage" alt="" coords="485,472,672,528"/>
+<area shape="rect" id="node11" href="$d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html" title="gams::algorithms::area\l_coverage::Waypoints_Coverage" alt="" coords="473,553,684,594"/>
+<area shape="rect" id="node5" href="$db/db5/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Prioritized\l_Min_Time_Area_Coverage" alt="" coords="732,85,911,141"/>
+</map>

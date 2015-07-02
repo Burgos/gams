@@ -1,0 +1,9 @@
+<map id="gams::utility::Coordinate_Base" name="gams::utility::Coordinate_Base">
+<area shape="rect" id="node2" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Location \&gt;" alt="" coords="253,5,416,47"/>
+<area shape="rect" id="node4" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="253,71,416,112"/>
+<area shape="rect" id="node6" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Rotation \&gt;" alt="" coords="253,136,416,177"/>
+<area shape="rect" id="node8" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame&#45;dependant can inherit from this class. " alt="" coords="253,201,416,243"/>
+<area shape="rect" id="node3" href="$de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. " alt="" coords="464,13,615,39"/>
+<area shape="rect" id="node5" href="$dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="474,78,605,105"/>
+<area shape="rect" id="node7" href="$da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. " alt="" coords="465,143,614,170"/>
+</map>

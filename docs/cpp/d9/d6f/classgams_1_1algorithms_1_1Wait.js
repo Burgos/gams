@@ -1,0 +1,28 @@
+var classgams_1_1algorithms_1_1Wait =
+[
+    [ "Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a35a64626a12e737e4a95944dcf951190", null ],
+    [ "~Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a42211ef97892c8580fbe9be2401d462a", null ],
+    [ "analyze", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a65192355627311d5f820179cec459ee4", null ],
+    [ "execute", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a192fe56cd1932ce844e1e8c368f3215f", null ],
+    [ "get_algorithm_status", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#aef8cdd5d13d02fe78c8aac11df3ecffd", null ],
+    [ "get_devices", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a2cfdd65848edd729e2573cb1fc704cc1", null ],
+    [ "get_knowledge_base", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a4dc41c9be77296a16c712323b29e8f22", null ],
+    [ "get_platform", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a92b050383af20038e92528237b39f4af", null ],
+    [ "get_self", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a68cc2a49796c1237b77b1c887f62cae6", null ],
+    [ "get_sensors", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a1bfcef5ac2c513df77074c2498921516", null ],
+    [ "operator=", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a03912f0f8ce957fab054b6047eef51b1", null ],
+    [ "plan", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a02d3b7ebc611ea0a1432d9cac00c5bb5", null ],
+    [ "set_devices", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a9b15f01b53305f90af05df7920800e64", null ],
+    [ "set_platform", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#adafa721c96d710f8619531b33de8f19b", null ],
+    [ "set_self", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a59d05bf2c4659e290da985e04d71d0ea", null ],
+    [ "set_sensors", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#adf06e9a18a927c8fcd15bbc3c0379ead", null ],
+    [ "devices_", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a7fa39e19b2b19afa4c5889921f24573b", null ],
+    [ "end_time_", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a93cefe507d6d3490768368d8157866f3", null ],
+    [ "executions_", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a69e37c3481157ab3ae3dcdbe2bb197cc", null ],
+    [ "knowledge_", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#af449b8483a96067eb7c963312bbf336f", null ],
+    [ "platform_", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#ae9cbba239fdcc8768d8e6aac72a75ff0", null ],
+    [ "self_", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#ae352b273433745158f3582598b184c2d", null ],
+    [ "sensors_", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#ab458bfbebadb9cc06a171fb067d9bbf8", null ],
+    [ "status_", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#adddf49eab26029d991ff9cccd514b350", null ],
+    [ "wait_time_", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a6865597356a914050d7fd6cd9b3d6e32", null ]
+];

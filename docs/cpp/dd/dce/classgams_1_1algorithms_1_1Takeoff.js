@@ -1,0 +1,26 @@
+var classgams_1_1algorithms_1_1Takeoff =
+[
+    [ "Takeoff", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a2777c938e7cc15dfdecbd311e7ae03c4", null ],
+    [ "~Takeoff", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#aa71d33ae40122bf0d68765f8bd34d42f", null ],
+    [ "analyze", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a45723673cabf104eab9468c6492abb05", null ],
+    [ "execute", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a6e6f919b4fa2a35c3f0cfeb9b7173aae", null ],
+    [ "get_algorithm_status", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#aef8cdd5d13d02fe78c8aac11df3ecffd", null ],
+    [ "get_devices", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a2cfdd65848edd729e2573cb1fc704cc1", null ],
+    [ "get_knowledge_base", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a4dc41c9be77296a16c712323b29e8f22", null ],
+    [ "get_platform", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a92b050383af20038e92528237b39f4af", null ],
+    [ "get_self", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a68cc2a49796c1237b77b1c887f62cae6", null ],
+    [ "get_sensors", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a1bfcef5ac2c513df77074c2498921516", null ],
+    [ "operator=", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a2d534a5cee58586d3c087e5f330ce100", null ],
+    [ "plan", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a317f6afbace400a6b863e463e11f0d4b", null ],
+    [ "set_devices", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a9b15f01b53305f90af05df7920800e64", null ],
+    [ "set_platform", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#adafa721c96d710f8619531b33de8f19b", null ],
+    [ "set_self", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a59d05bf2c4659e290da985e04d71d0ea", null ],
+    [ "set_sensors", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#adf06e9a18a927c8fcd15bbc3c0379ead", null ],
+    [ "devices_", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a7fa39e19b2b19afa4c5889921f24573b", null ],
+    [ "executions_", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a69e37c3481157ab3ae3dcdbe2bb197cc", null ],
+    [ "knowledge_", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#af449b8483a96067eb7c963312bbf336f", null ],
+    [ "platform_", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#ae9cbba239fdcc8768d8e6aac72a75ff0", null ],
+    [ "self_", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#ae352b273433745158f3582598b184c2d", null ],
+    [ "sensors_", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#ab458bfbebadb9cc06a171fb067d9bbf8", null ],
+    [ "status_", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html#adddf49eab26029d991ff9cccd514b350", null ]
+];

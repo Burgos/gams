@@ -1,0 +1,26 @@
+var namespacegams_1_1utility =
+[
+    [ "java", "da/d6d/namespacegams_1_1utility_1_1java.html", "da/d6d/namespacegams_1_1utility_1_1java" ],
+    [ "Axes", "d0/db6/classgams_1_1utility_1_1Axes.html", "d0/db6/classgams_1_1utility_1_1Axes" ],
+    [ "Axis_Angle_Frame", "d9/db5/classgams_1_1utility_1_1Axis__Angle__Frame.html", "d9/db5/classgams_1_1utility_1_1Axis__Angle__Frame" ],
+    [ "bad_coord_type", "d1/d2e/classgams_1_1utility_1_1bad__coord__type.html", "d1/d2e/classgams_1_1utility_1_1bad__coord__type" ],
+    [ "Cartesian_Frame", "d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html", "d2/d9a/classgams_1_1utility_1_1Cartesian__Frame" ],
+    [ "Coordinate", "da/deb/classgams_1_1utility_1_1Coordinate.html", "da/deb/classgams_1_1utility_1_1Coordinate" ],
+    [ "Coordinate_Base", "d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html", "d0/d6c/classgams_1_1utility_1_1Coordinate__Base" ],
+    [ "GPS_Frame", "d5/dcb/classgams_1_1utility_1_1GPS__Frame.html", "d5/dcb/classgams_1_1utility_1_1GPS__Frame" ],
+    [ "GPS_Position", "de/d23/classgams_1_1utility_1_1GPS__Position.html", "de/d23/classgams_1_1utility_1_1GPS__Position" ],
+    [ "Location", "de/df6/classgams_1_1utility_1_1Location.html", "de/df6/classgams_1_1utility_1_1Location" ],
+    [ "Location_Vector", "d9/db7/classgams_1_1utility_1_1Location__Vector.html", "d9/db7/classgams_1_1utility_1_1Location__Vector" ],
+    [ "Pose", "dd/d85/classgams_1_1utility_1_1Pose.html", "dd/d85/classgams_1_1utility_1_1Pose" ],
+    [ "Pose_Vector", "d0/d36/classgams_1_1utility_1_1Pose__Vector.html", "d0/d36/classgams_1_1utility_1_1Pose__Vector" ],
+    [ "Position", "df/d4e/classgams_1_1utility_1_1Position.html", "df/d4e/classgams_1_1utility_1_1Position" ],
+    [ "Prioritized_Region", "dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html", "dc/d0c/classgams_1_1utility_1_1Prioritized__Region" ],
+    [ "Quaternion", "db/d2d/classgams_1_1utility_1_1Quaternion.html", "db/d2d/classgams_1_1utility_1_1Quaternion" ],
+    [ "Reference_Frame", "d4/da8/classgams_1_1utility_1_1Reference__Frame.html", "d4/da8/classgams_1_1utility_1_1Reference__Frame" ],
+    [ "Region", "da/db7/classgams_1_1utility_1_1Region.html", "da/db7/classgams_1_1utility_1_1Region" ],
+    [ "Rotation", "da/da5/classgams_1_1utility_1_1Rotation.html", "da/da5/classgams_1_1utility_1_1Rotation" ],
+    [ "Rotation_Vector", "df/dee/classgams_1_1utility_1_1Rotation__Vector.html", "df/dee/classgams_1_1utility_1_1Rotation__Vector" ],
+    [ "Search_Area", "d5/d9f/classgams_1_1utility_1_1Search__Area.html", "d5/d9f/classgams_1_1utility_1_1Search__Area" ],
+    [ "undefined_transform", "d0/d94/classgams_1_1utility_1_1undefined__transform.html", "d0/d94/classgams_1_1utility_1_1undefined__transform" ],
+    [ "unrelated_frames", "d5/d1a/classgams_1_1utility_1_1unrelated__frames.html", "d5/d1a/classgams_1_1utility_1_1unrelated__frames" ]
+];

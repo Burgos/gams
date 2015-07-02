@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['undefined_5ftransform',['undefined_transform',['../d0/d94/classgams_1_1utility_1_1undefined__transform.html',1,'gams::utility']]],
+  ['undefined_5ftransform',['undefined_transform',['../d0/d94/classgams_1_1utility_1_1undefined__transform.html#a0f1eba08c627285aa78e106c48d36f81',1,'gams::utility::undefined_transform']]],
+  ['uniform_5frandom_5farea_5fcoverage',['Uniform_Random_Area_Coverage',['../d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage.html',1,'gams::algorithms::area_coverage']]],
+  ['uniform_5frandom_5farea_5fcoverage',['Uniform_Random_Area_Coverage',['../d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage.html#af941cd73f30a02937756301573c17181',1,'gams::algorithms::area_coverage::Uniform_Random_Area_Coverage']]],
+  ['uniform_5frandom_5farea_5fcoverage_2ecpp',['Uniform_Random_Area_Coverage.cpp',['../df/de8/Uniform__Random__Area__Coverage_8cpp.html',1,'']]],
+  ['uniform_5frandom_5farea_5fcoverage_2eh',['Uniform_Random_Area_Coverage.h',['../de/d0a/Uniform__Random__Area__Coverage_8h.html',1,'']]],
+  ['uniform_5frandom_5farea_5fcoverage_5ffactory',['Uniform_Random_Area_Coverage_Factory',['../da/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage__Factory.html',1,'gams::algorithms::area_coverage']]],
+  ['uniform_5frandom_5fedge_5fcoverage',['Uniform_Random_Edge_Coverage',['../d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage.html',1,'gams::algorithms::area_coverage']]],
+  ['uniform_5frandom_5fedge_5fcoverage',['Uniform_Random_Edge_Coverage',['../d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage.html#a5da05a0598744a0e9bac289dbce70079',1,'gams::algorithms::area_coverage::Uniform_Random_Edge_Coverage']]],
+  ['uniform_5frandom_5fedge_5fcoverage_2ecpp',['Uniform_Random_Edge_Coverage.cpp',['../d9/ddb/Uniform__Random__Edge__Coverage_8cpp.html',1,'']]],
+  ['uniform_5frandom_5fedge_5fcoverage_2eh',['Uniform_Random_Edge_Coverage.h',['../db/deb/Uniform__Random__Edge__Coverage_8h.html',1,'']]],
+  ['uniform_5frandom_5fedge_5fcoverage_5ffactory',['Uniform_Random_Edge_Coverage_Factory',['../dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory.html',1,'gams::algorithms::area_coverage']]],
+  ['unknown',['unknown',['../d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html#aa9d939afe8b63a5b9ccf6cdc49f020e9',1,'gams::variables::Algorithm_Status::unknown()'],['../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42af29269c90f4b40e27a6627613fce3533',1,'gams::algorithms::UNKNOWN()'],['../d2/dd3/namespacegams_1_1platforms.html#a51ef35c3ae6a1fb161a245819722a4b4a502dc7dc9be913d8e28b53d4999297f9',1,'gams::platforms::UNKNOWN()']]],
+  ['unrelated_5fframes',['unrelated_frames',['../d5/d1a/classgams_1_1utility_1_1unrelated__frames.html',1,'gams::utility']]],
+  ['unrelated_5fframes',['unrelated_frames',['../d5/d1a/classgams_1_1utility_1_1unrelated__frames.html#adf79b6d3069de52a905eb96f4d14bc6f',1,'gams::utility::unrelated_frames']]],
+  ['unsupported_5frotation',['unsupported_rotation',['../d0/d94/classgams_1_1utility_1_1undefined__transform.html#a9bb7e1c491a854cb6739983b7b2a6c3d',1,'gams::utility::undefined_transform']]]
+];

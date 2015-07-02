@@ -1,0 +1,22 @@
+var namespacegams_1_1algorithms_1_1area__coverage =
+[
+    [ "Base_Area_Coverage", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage" ],
+    [ "Local_Pheremone_Area_Coverage", "da/de7/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage.html", "da/de7/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage" ],
+    [ "Local_Pheremone_Area_Coverage_Factory", "df/d7b/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage__Factory.html", "df/d7b/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage__Factory" ],
+    [ "Min_Time_Area_Coverage", "de/da0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage.html", "de/da0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage" ],
+    [ "Min_Time_Area_Coverage_Factory", "d9/dd0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage__Factory.html", "d9/dd0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage__Factory" ],
+    [ "Perimeter_Patrol", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol" ],
+    [ "Perimeter_Patrol_Factory", "d2/d73/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol__Factory.html", "d2/d73/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol__Factory" ],
+    [ "Prioritized_Min_Time_Area_Coverage", "db/db5/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage.html", "db/db5/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage" ],
+    [ "Prioritized_Min_Time_Area_Coverage_Factory", "d8/d3e/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage__Factory.html", "d8/d3e/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage__Factory" ],
+    [ "Priority_Weighted_Random_Area_Coverage", "de/dcb/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage.html", "de/dcb/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage" ],
+    [ "Priority_Weighted_Random_Area_Coverage_Factory", "d6/d42/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage__Factory.html", "d6/d42/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage__Factory" ],
+    [ "Snake_Area_Coverage", "d9/d9c/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage.html", "d9/d9c/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage" ],
+    [ "Snake_Area_Coverage_Factory", "d5/da0/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage__Factory.html", "d5/da0/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage__Factory" ],
+    [ "Uniform_Random_Area_Coverage", "d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage.html", "d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage" ],
+    [ "Uniform_Random_Area_Coverage_Factory", "da/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage__Factory.html", "da/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage__Factory" ],
+    [ "Uniform_Random_Edge_Coverage", "d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage.html", "d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage" ],
+    [ "Uniform_Random_Edge_Coverage_Factory", "dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory.html", "dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory" ],
+    [ "Waypoints_Coverage", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage" ],
+    [ "Waypoints_Coverage_Factory", "d7/d3a/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage__Factory.html", "d7/d3a/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage__Factory" ]
+];
