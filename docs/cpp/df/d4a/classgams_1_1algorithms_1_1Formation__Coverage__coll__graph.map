@@ -1,5 +1,5 @@
 <map id="gams::algorithms::Formation_Coverage" name="gams::algorithms::Formation_Coverage">
-<area shape="rect" id="node2" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="gams::algorithms::Base\l_Algorithm" alt="" coords="1459,199,1619,241"/>
+<area shape="rect" id="node2" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1459,199,1619,241"/>
 <area shape="rect" id="node16" href="$d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Base_Area_Coverage" alt="" coords="1756,141,1968,182"/>
 <area shape="rect" id="node19" href="$d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html" title="gams::algorithms::Formation\l_Flying" alt="" coords="1768,67,1956,109"/>
 <area shape="rect" id="node3" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="1160,239,1313,281"/>

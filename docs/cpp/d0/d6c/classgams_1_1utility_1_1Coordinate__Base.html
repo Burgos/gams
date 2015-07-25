@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.11</span>
+   &#160;<span id="projectnumber">0.8.13</span>
    </div>
   </td>
  </tr>
@@ -107,7 +107,8 @@ $(document).ready(function(){initNavTree('d0/d6c/classgams_1_1utility_1_1Coordin
 
 <div class="header">
   <div class="summary">
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../d5/dda/classgams_1_1utility_1_1Coordinate__Base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">gams::utility::Coordinate_Base Class Reference</div>  </div>
@@ -130,21 +131,27 @@ Collaboration diagram for gams::utility::Coordinate_Base:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/db2/classgams_1_1utility_1_1Coordinate__Base__coll__graph.png" border="0" usemap="#gams_1_1utility_1_1Coordinate__Base_coll__map" alt="Collaboration graph"/></div>
 <map name="gams_1_1utility_1_1Coordinate__Base_coll__map" id="gams_1_1utility_1_1Coordinate__Base_coll__map">
-<area shape="rect" id="node7" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="105,96,268,137"/><area shape="rect" id="node2" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html" title="Base class for Reference Frames. " alt="" coords="98,289,257,331"/><area shape="rect" id="node3" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="245,200,376,227"/><area shape="rect" id="node4" href="../../d0/d36/classgams_1_1utility_1_1Pose__Vector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="292,96,423,137"/><area shape="rect" id="node5" href="../../d9/db7/classgams_1_1utility_1_1Location__Vector.html" title="Container for Location information, not bound to a frame. " alt="" coords="255,5,406,47"/><area shape="rect" id="node6" href="../../df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="431,5,580,47"/></map>
+<area shape="rect" id="node7" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="105,96,268,137"/><area shape="rect" id="node2" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html" title="Base class for Reference Frames. " alt="" coords="102,289,261,331"/><area shape="rect" id="node3" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="249,200,380,227"/><area shape="rect" id="node4" href="../../d0/d36/classgams_1_1utility_1_1Pose__Vector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="292,96,423,137"/><area shape="rect" id="node5" href="../../d9/db7/classgams_1_1utility_1_1Location__Vector.html" title="Container for Location information, not bound to a frame. " alt="" coords="255,5,406,47"/><area shape="rect" id="node6" href="../../df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="431,5,580,47"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a53396fb0658b07d7807039e9899da684"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html">Reference_Frame</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html#a53396fb0658b07d7807039e9899da684">default_frame</a> = &amp;<a class="el" href="../../da/d4b/namespacegams_1_1utility.html#aafd1b25b21a7f3e5367b2ee1610213f1">cartesian_default_frame</a></td></tr>
-<tr class="separator:a53396fb0658b07d7807039e9899da684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a6d956bab4b5793beeb538934336fc93e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a> const <a class="el" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html">Reference_Frame</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html#a6d956bab4b5793beeb538934336fc93e">default_frame</a> ()</td></tr>
+<tr class="memdesc:a6d956bab4b5793beeb538934336fc93e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the default frame that Coordinates (<a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>, <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a>) that don't specify a frame will use.  <a href="#a6d956bab4b5793beeb538934336fc93e">More...</a><br /></td></tr>
+<tr class="separator:a6d956bab4b5793beeb538934336fc93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:aacbf62f906fe96a1057afff8b43d95e8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a> const <a class="el" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html">Reference_Frame</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html#aacbf62f906fe96a1057afff8b43d95e8">default_frame_</a></td></tr>
+<tr class="separator:aacbf62f906fe96a1057afff8b43d95e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>For internal use. </p>
-<p>Workaround to allow all specializations of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to share the same default frame; </p>
+<p>Allows all specializations of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to share the same default frame. This type serves no other purpose. </p>
 
-<p>Definition at line <a class="el" href="../../d6/df6/Coordinate_8h_source.html#l00083">83</a> of file <a class="el" href="../../d6/df6/Coordinate_8h_source.html">Coordinate.h</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a53396fb0658b07d7807039e9899da684"></a>
+<p>Definition at line <a class="el" href="../../d6/df6/Coordinate_8h_source.html#l00076">76</a> of file <a class="el" href="../../d6/df6/Coordinate_8h_source.html">Coordinate.h</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a6d956bab4b5793beeb538934336fc93e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -152,23 +159,55 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html">Reference_Frame</a> * gams::utility::Coordinate_Base::default_frame = &amp;<a class="el" href="../../da/d4b/namespacegams_1_1utility.html#aafd1b25b21a7f3e5367b2ee1610213f1">cartesian_default_frame</a></td>
+          <td class="memname">const <a class="el" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html">Reference_Frame</a> &amp; gams::utility::Coordinate_Base::default_frame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/df6/Coordinate_8h_source.html#l00086">86</a> of file <a class="el" href="../../d6/df6/Coordinate_8h_source.html">Coordinate.h</a>.</p>
+<p>Retrieves the default frame that Coordinates (<a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>, <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a>) that don't specify a frame will use. </p>
+<dl class="section return"><dt>Returns</dt><dd>a reference to a <a class="el" href="../../d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html" title="Locations represented as meters distance, in x, y, and z, from an origin Rotations represented in Axi...">Cartesian_Frame</a> object that serves as default </dd></dl>
+
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00065">65</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="aacbf62f906fe96a1057afff8b43d95e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html">Reference_Frame</a> * gams::utility::Coordinate_Base::default_frame_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">           &amp;cartesian_default_frame</div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d6/df6/Coordinate_8h_source.html#l00088">88</a> of file <a class="el" href="../../d6/df6/Coordinate_8h_source.html">Coordinate.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/gams/utility/<a class="el" href="../../d6/df6/Coordinate_8h_source.html">Coordinate.h</a></li>
 <li>src/gams/utility/<a class="el" href="../../d2/d70/Cartesian__Frame_8cpp_source.html">Cartesian_Frame.cpp</a></li>
+<li>src/gams/utility/<a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -176,7 +215,7 @@ Static Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html">Coordinate_Base</a></li>
-    <li class="footer">Generated on Thu Jul 2 2015 15:49:28 for GAMS by
+    <li class="footer">Generated on Sat Jul 25 2015 03:30:32 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['waiting',['WAITING',['../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42a2636dca63f00baa0a8890224f20d45a3',1,'gams::algorithms::WAITING()'],['../d2/dd3/namespacegams_1_1platforms.html#a51ef35c3ae6a1fb161a245819722a4b4a7669565f048fd962c429099d1fc81f38',1,'gams::platforms::WAITING()']]]
+  ['unknown',['UNKNOWN',['../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73faf29269c90f4b40e27a6627613fce3533',1,'gams::algorithms::UNKNOWN()'],['../d2/dd3/namespacegams_1_1platforms.html#a1ed36f0b5e84d34eca7d1b8b12d534d3a502dc7dc9be913d8e28b53d4999297f9',1,'gams::platforms::UNKNOWN()']]]
 ];

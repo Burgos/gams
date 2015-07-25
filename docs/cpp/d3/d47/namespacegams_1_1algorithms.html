@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.11</span>
+   &#160;<span id="projectnumber">0.8.13</span>
    </div>
   </td>
  </tr>
@@ -125,6 +125,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for algorithm factories to create Base_Algorithms.  <a href="../../d3/d08/classgams_1_1algorithms_1_1Algorithm__Factory.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html">Base_Algorithm</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base class that algorithms in GAMS use.  <a href="../../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc2/classgams_1_1algorithms_1_1Controller__Algorithm__Factory.html">Controller_Algorithm_Factory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The controller's algorithm factory.  <a href="../../d6/dc2/classgams_1_1algorithms_1_1Controller__Algorithm__Factory.html#details">More...</a><br /></td></tr>
@@ -176,6 +177,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da0/classgams_1_1algorithms_1_1Null__Algorithm__Factory.html">Null_Algorithm_Factory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory class for creating Null algorithms.  <a href="../../dc/da0/classgams_1_1algorithms_1_1Null__Algorithm__Factory.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d12/classgams_1_1algorithms_1_1Performance__Profiling.html">Performance_Profiling</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory.html">Performance_Profiling_Factory</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory class for creating <a class="el" href="../../da/d12/classgams_1_1algorithms_1_1Performance__Profiling.html">Performance_Profiling</a> Algorithms.  <a href="../../d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/classgams_1_1algorithms_1_1Takeoff.html">Takeoff</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d02/classgams_1_1algorithms_1_1Takeoff__Factory.html">Takeoff_Factory</a></td></tr>
@@ -198,18 +204,18 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a690fd2efb9e35b1686f14a2c66af3c42"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42">Status</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42af29269c90f4b40e27a6627613fce3533">UNKNOWN</a> = 0x00000000, 
-<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42a74ffbed977a649fc257004b6a09f554c">OK</a> = 0x00000001, 
-<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42a2636dca63f00baa0a8890224f20d45a3">WAITING</a> = 0x00000002, 
-<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42a134005808a571a5daa4234567ce9021f">DEADLOCKED</a> = 0x00000004, 
+<tr class="memitem:a62f00cbe0ca5c67bb191bdb9e9fac73f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73f">Algorithm_Analyze_Status</a> { <br />
+&#160;&#160;<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73faf29269c90f4b40e27a6627613fce3533">UNKNOWN</a> = 0x00000000, 
+<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73fa74ffbed977a649fc257004b6a09f554c">OK</a> = 0x00000001, 
+<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73fa2636dca63f00baa0a8890224f20d45a3">WAITING</a> = 0x00000002, 
+<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73fa134005808a571a5daa4234567ce9021f">DEADLOCKED</a> = 0x00000004, 
 <br />
-&#160;&#160;<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42a7e753b28b3d19e3573bde0af36a6ebf8">FAILED</a> = 0x00000008, 
-<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42a14eecaebc9c915bd852ed7e5508de045">FINISHED</a> = 0x00000010
+&#160;&#160;<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73fa7e753b28b3d19e3573bde0af36a6ebf8">FAILED</a> = 0x00000008, 
+<a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73fa14eecaebc9c915bd852ed7e5508de045">FINISHED</a> = 0x00000010
 <br />
  }</td></tr>
-<tr class="memdesc:a690fd2efb9e35b1686f14a2c66af3c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible algorithm statuses, as returnable by analyze ()  <a href="../../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42">More...</a><br /></td></tr>
-<tr class="separator:a690fd2efb9e35b1686f14a2c66af3c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a62f00cbe0ca5c67bb191bdb9e9fac73f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible algorithm statuses, as returnable by analyze ()  <a href="../../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73f">More...</a><br /></td></tr>
+<tr class="separator:a62f00cbe0ca5c67bb191bdb9e9fac73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="a439f5a87bc723e9b149f28ecce54a70e"></a>
@@ -222,7 +228,7 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d8e/Base__Algorithm_8h_source.html#l00220">220</a> of file <a class="el" href="../../d3/d8e/Base__Algorithm_8h_source.html">Base_Algorithm.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8e/Base__Algorithm_8h_source.html#l00223">223</a> of file <a class="el" href="../../d3/d8e/Base__Algorithm_8h_source.html">Base_Algorithm.h</a>.</p>
 
 </div>
 </div>
@@ -236,7 +242,7 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d8e/Base__Algorithm_8h_source.html#l00218">218</a> of file <a class="el" href="../../d3/d8e/Base__Algorithm_8h_source.html">Base_Algorithm.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8e/Base__Algorithm_8h_source.html#l00221">221</a> of file <a class="el" href="../../d3/d8e/Base__Algorithm_8h_source.html">Base_Algorithm.h</a>.</p>
 
 </div>
 </div>
@@ -255,29 +261,29 @@ Enumerations</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="a690fd2efb9e35b1686f14a2c66af3c42"></a>
+<a class="anchor" id="a62f00cbe0ca5c67bb191bdb9e9fac73f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a690fd2efb9e35b1686f14a2c66af3c42">gams::algorithms::Status</a></td>
+          <td class="memname">enum <a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73f">gams::algorithms::Algorithm_Analyze_Status</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Possible algorithm statuses, as returnable by analyze () </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a690fd2efb9e35b1686f14a2c66af3c42af29269c90f4b40e27a6627613fce3533"></a>UNKNOWN&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a62f00cbe0ca5c67bb191bdb9e9fac73faf29269c90f4b40e27a6627613fce3533"></a>UNKNOWN&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a690fd2efb9e35b1686f14a2c66af3c42a74ffbed977a649fc257004b6a09f554c"></a>OK&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a62f00cbe0ca5c67bb191bdb9e9fac73fa74ffbed977a649fc257004b6a09f554c"></a>OK&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a690fd2efb9e35b1686f14a2c66af3c42a2636dca63f00baa0a8890224f20d45a3"></a>WAITING&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a62f00cbe0ca5c67bb191bdb9e9fac73fa2636dca63f00baa0a8890224f20d45a3"></a>WAITING&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a690fd2efb9e35b1686f14a2c66af3c42a134005808a571a5daa4234567ce9021f"></a>DEADLOCKED&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a62f00cbe0ca5c67bb191bdb9e9fac73fa134005808a571a5daa4234567ce9021f"></a>DEADLOCKED&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a690fd2efb9e35b1686f14a2c66af3c42a7e753b28b3d19e3573bde0af36a6ebf8"></a>FAILED&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a62f00cbe0ca5c67bb191bdb9e9fac73fa7e753b28b3d19e3573bde0af36a6ebf8"></a>FAILED&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a690fd2efb9e35b1686f14a2c66af3c42a14eecaebc9c915bd852ed7e5508de045"></a>FINISHED&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a62f00cbe0ca5c67bb191bdb9e9fac73fa14eecaebc9c915bd852ed7e5508de045"></a>FINISHED&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -291,7 +297,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html">algorithms</a></li>
-    <li class="footer">Generated on Thu Jul 2 2015 15:49:27 for GAMS by
+    <li class="footer">Generated on Sat Jul 25 2015 03:30:31 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

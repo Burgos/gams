@@ -1,15 +1,16 @@
 var searchData=
 [
-  ['search_5farea_2ecpp',['Search_Area.cpp',['../dd/dfc/utility_2Search__Area_8cpp.html',1,'']]],
-  ['search_5farea_2ecpp',['Search_Area.cpp',['../dc/d61/variables_2Search__Area_8cpp.html',1,'']]],
-  ['search_5farea_2eh',['Search_Area.h',['../d2/d7f/utility_2Search__Area_8h.html',1,'']]],
-  ['search_5farea_2eh',['Search_Area.h',['../dd/dfb/variables_2Search__Area_8h.html',1,'']]],
-  ['self_2ecpp',['Self.cpp',['../dd/ddb/Self_8cpp.html',1,'']]],
-  ['self_2eh',['Self.h',['../da/d3d/Self_8h.html',1,'']]],
-  ['sensor_2ecpp',['Sensor.cpp',['../d7/d16/Sensor_8cpp.html',1,'']]],
-  ['sensor_2eh',['Sensor.h',['../d5/d65/Sensor_8h.html',1,'']]],
-  ['snake_5farea_5fcoverage_2ecpp',['Snake_Area_Coverage.cpp',['../da/dbe/Snake__Area__Coverage_8cpp.html',1,'']]],
-  ['snake_5farea_5fcoverage_2eh',['Snake_Area_Coverage.h',['../d8/dc5/Snake__Area__Coverage_8h.html',1,'']]],
-  ['swarm_2ecpp',['Swarm.cpp',['../d1/d8e/Swarm_8cpp.html',1,'']]],
-  ['swarm_2eh',['Swarm.h',['../dc/d97/Swarm_8h.html',1,'']]]
+  ['reference_5fframe_2ecpp',['Reference_Frame.cpp',['../da/d65/Reference__Frame_8cpp.html',1,'']]],
+  ['reference_5fframe_2eh',['Reference_Frame.h',['../dc/dd4/Reference__Frame_8h.html',1,'']]],
+  ['reference_5fframe_2einl',['Reference_Frame.inl',['../da/dea/Reference__Frame_8inl.html',1,'']]],
+  ['region_2ecpp',['Region.cpp',['../d6/d45/utility_2Region_8cpp.html',1,'']]],
+  ['region_2ecpp',['Region.cpp',['../d5/db6/variables_2Region_8cpp.html',1,'']]],
+  ['region_2eh',['Region.h',['../d5/dd2/variables_2Region_8h.html',1,'']]],
+  ['region_2eh',['Region.h',['../da/d9f/utility_2Region_8h.html',1,'']]],
+  ['ros_5fbase_2ecpp',['ROS_Base.cpp',['../d8/dcb/ROS__Base_8cpp.html',1,'']]],
+  ['ros_5fbase_2eh',['ROS_Base.h',['../dd/dc0/ROS__Base_8h.html',1,'']]],
+  ['ros_5fp3dx_2ecpp',['ROS_P3DX.cpp',['../d7/dd5/ROS__P3DX_8cpp.html',1,'']]],
+  ['ros_5fp3dx_2eh',['ROS_P3DX.h',['../d2/d7a/ROS__P3DX_8h.html',1,'']]],
+  ['rotation_2eh',['Rotation.h',['../d0/d8f/Rotation_8h.html',1,'']]],
+  ['rotation_2einl',['Rotation.inl',['../d8/d6e/Rotation_8inl.html',1,'']]]
 ];

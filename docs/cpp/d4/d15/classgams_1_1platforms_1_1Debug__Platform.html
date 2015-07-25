@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.11</span>
+   &#160;<span id="projectnumber">0.8.13</span>
    </div>
   </td>
  </tr>
@@ -194,7 +194,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a550a43b0c433f834840ace265ede2e16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pauses movement, keeps source and dest at current values.  <a href="#a550a43b0c433f834840ace265ede2e16">More...</a><br /></td></tr>
 <tr class="separator:a550a43b0c433f834840ace265ede2e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d8dc9063450cebe54756a5b08d53653"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#a4d8dc9063450cebe54756a5b08d53653">rotate</a> (const <a class="el" href="../../d0/db6/classgams_1_1utility_1_1Axes.html">utility::Axes</a> &amp;axes)</td></tr>
-<tr class="memdesc:a4d8dc9063450cebe54756a5b08d53653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the platform an angle on a 3D axis.  <a href="#a4d8dc9063450cebe54756a5b08d53653">More...</a><br /></td></tr>
+<tr class="memdesc:a4d8dc9063450cebe54756a5b08d53653"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the platform by an angle on a 3D axis.  <a href="#a4d8dc9063450cebe54756a5b08d53653">More...</a><br /></td></tr>
 <tr class="separator:a4d8dc9063450cebe54756a5b08d53653"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81698bcd294c4cfa94186a9816954d74"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d15/classgams_1_1platforms_1_1Debug__Platform.html#a81698bcd294c4cfa94186a9816954d74">sense</a> (void)</td></tr>
 <tr class="memdesc:a81698bcd294c4cfa94186a9816954d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polls the sensor environment for useful information.  <a href="#a81698bcd294c4cfa94186a9816954d74">More...</a><br /></td></tr>
@@ -345,7 +345,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Analyzes platform information. </p>
 <dl class="section return"><dt>Returns</dt><dd>bitmask status of the platform. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d2/dd3/namespacegams_1_1platforms.html#a51ef35c3ae6a1fb161a245819722a4b4" title="Possible platform statuses, as returnable by analyze () ">Status</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>Status. </dd></dl>
 
 <p>Implements <a class="el" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#a9cda13d188586601feb039fc3af57fc7">gams::platforms::Base_Platform</a>.</p>
 
@@ -900,14 +900,15 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Rotates the platform an angle on a 3D axis. </p>
+<p>Rotates the platform by an angle on a 3D axis. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">axes</td><td>the coordinates to move to </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>1 if currently rotating, 2 if arrived, 0 if error </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the status of the rotate, </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d2/dd3/namespacegams_1_1platforms.html#ad70cdfa6d5ad4bda56a609f45d1f0851" title="Platform return values. ">Platform_Return_Values</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="../../da/dc8/classgams_1_1platforms_1_1Java__Platform.html#a509666613deb3215ad62c497d0169786">gams::platforms::Java_Platform</a>.</p>
 
@@ -1155,7 +1156,7 @@ Protected Attributes</h2></td></tr>
 
 <p>provides access to variables and values </p>
 
-<p>Definition at line <a class="el" href="../../dd/d22/Base__Platform_8h_source.html#l00271">271</a> of file <a class="el" href="../../dd/d22/Base__Platform_8h_source.html">Base_Platform.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d22/Base__Platform_8h_source.html#l00282">282</a> of file <a class="el" href="../../dd/d22/Base__Platform_8h_source.html">Base_Platform.h</a>.</p>
 
 </div>
 </div>
@@ -1179,7 +1180,7 @@ Protected Attributes</h2></td></tr>
 
 <p>movement speed for platform in meters/second </p>
 
-<p>Definition at line <a class="el" href="../../dd/d22/Base__Platform_8h_source.html#l00268">268</a> of file <a class="el" href="../../dd/d22/Base__Platform_8h_source.html">Base_Platform.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d22/Base__Platform_8h_source.html#l00279">279</a> of file <a class="el" href="../../dd/d22/Base__Platform_8h_source.html">Base_Platform.h</a>.</p>
 
 </div>
 </div>
@@ -1227,7 +1228,7 @@ Protected Attributes</h2></td></tr>
 
 <p>provides access to self state </p>
 
-<p>Definition at line <a class="el" href="../../dd/d22/Base__Platform_8h_source.html#l00274">274</a> of file <a class="el" href="../../dd/d22/Base__Platform_8h_source.html">Base_Platform.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d22/Base__Platform_8h_source.html#l00285">285</a> of file <a class="el" href="../../dd/d22/Base__Platform_8h_source.html">Base_Platform.h</a>.</p>
 
 </div>
 </div>
@@ -1251,7 +1252,7 @@ Protected Attributes</h2></td></tr>
 
 <p>provides access to a sensor </p>
 
-<p>Definition at line <a class="el" href="../../dd/d22/Base__Platform_8h_source.html#l00277">277</a> of file <a class="el" href="../../dd/d22/Base__Platform_8h_source.html">Base_Platform.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d22/Base__Platform_8h_source.html#l00288">288</a> of file <a class="el" href="../../dd/d22/Base__Platform_8h_source.html">Base_Platform.h</a>.</p>
 
 </div>
 </div>
@@ -1275,7 +1276,7 @@ Protected Attributes</h2></td></tr>
 
 <p>provides access to status information for this platform </p>
 
-<p>Definition at line <a class="el" href="../../dd/d22/Base__Platform_8h_source.html#l00280">280</a> of file <a class="el" href="../../dd/d22/Base__Platform_8h_source.html">Base_Platform.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d22/Base__Platform_8h_source.html#l00291">291</a> of file <a class="el" href="../../dd/d22/Base__Platform_8h_source.html">Base_Platform.h</a>.</p>
 
 </div>
 </div>
@@ -1289,7 +1290,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a></li><li class="navelem"><a class="el" href="../../d4/d15/classgams_1_1platforms_1_1Debug__Platform.html">Debug_Platform</a></li>
-    <li class="footer">Generated on Thu Jul 2 2015 15:49:28 for GAMS by
+    <li class="footer">Generated on Sat Jul 25 2015 03:30:31 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

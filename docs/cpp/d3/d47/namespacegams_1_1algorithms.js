@@ -23,6 +23,8 @@ var namespacegams_1_1algorithms =
     [ "Move_Factory", "d2/df0/classgams_1_1algorithms_1_1Move__Factory.html", "d2/df0/classgams_1_1algorithms_1_1Move__Factory" ],
     [ "Null_Algorithm", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm" ],
     [ "Null_Algorithm_Factory", "dc/da0/classgams_1_1algorithms_1_1Null__Algorithm__Factory.html", "dc/da0/classgams_1_1algorithms_1_1Null__Algorithm__Factory" ],
+    [ "Performance_Profiling", "da/d12/classgams_1_1algorithms_1_1Performance__Profiling.html", "da/d12/classgams_1_1algorithms_1_1Performance__Profiling" ],
+    [ "Performance_Profiling_Factory", "d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory.html", "d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory" ],
     [ "Takeoff", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html", "dd/dce/classgams_1_1algorithms_1_1Takeoff" ],
     [ "Takeoff_Factory", "db/d02/classgams_1_1algorithms_1_1Takeoff__Factory.html", "db/d02/classgams_1_1algorithms_1_1Takeoff__Factory" ],
     [ "Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html", "d9/d6f/classgams_1_1algorithms_1_1Wait" ],

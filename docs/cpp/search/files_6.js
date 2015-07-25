@@ -7,6 +7,7 @@ var searchData=
   ['global_5flogger_2eh',['Global_Logger.h',['../d0/d19/Global__Logger_8h.html',1,'']]],
   ['gps_5fframe_2ecpp',['GPS_Frame.cpp',['../d0/dce/GPS__Frame_8cpp.html',1,'']]],
   ['gps_5fframe_2eh',['GPS_Frame.h',['../d3/daf/GPS__Frame_8h.html',1,'']]],
+  ['gps_5fframe_2einl',['GPS_Frame.inl',['../d0/dc5/GPS__Frame_8inl.html',1,'']]],
   ['gps_5fposition_2ecpp',['GPS_Position.cpp',['../d9/da4/GPS__Position_8cpp.html',1,'']]],
   ['gps_5fposition_2eh',['GPS_Position.h',['../de/dcf/GPS__Position_8h.html',1,'']]],
   ['grid_2ecpp',['Grid.cpp',['../d6/ddc/Grid_8cpp.html',1,'']]],

@@ -1,21 +1,12 @@
 var searchData=
 [
-  ['parent_5fframe',['parent_frame',['../d0/d94/classgams_1_1utility_1_1undefined__transform.html#ab79be104c2eb04e5844e7964deaf6eef',1,'gams::utility::undefined_transform']]],
-  ['paused',['paused',['../d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html#a20201d351ac74345c6c7bf478aee2289',1,'gams::variables::Algorithm_Status']]],
-  ['paused_5fmoving',['paused_moving',['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#a020034c0bfb46bcb2013403f2af5ee20',1,'gams::variables::Platform_Status']]],
-  ['pheremone_5f',['pheremone_',['../da/de7/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage.html#ae2566fcbe2aea4e1d180f33ad62f9e0b',1,'gams::algorithms::area_coverage::Local_Pheremone_Area_Coverage']]],
-  ['phi_5f',['phi_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a7db390cc5d93dd977b24195bbe840cf8',1,'gams::algorithms::Formation_Flying']]],
-  ['phi_5fdir_5f',['phi_dir_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a982487c4a47e66a64fc938a0ed30dfae',1,'gams::algorithms::Formation_Flying']]],
-  ['plan_5f',['plan_',['../dc/d23/classgams_1_1algorithms_1_1Executive.html#ae5eaa87ea008119cd82c8dbec25a23e8',1,'gams::algorithms::Executive']]],
-  ['plan_5findex_5f',['plan_index_',['../dc/d23/classgams_1_1algorithms_1_1Executive.html#ac0a2fd6ce96dadae1ab1bce5740f8853',1,'gams::algorithms::Executive']]],
-  ['plat_5fset',['plat_set',['../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7',1,'gams_controller.cpp']]],
-  ['platform_5f',['platform_',['../d3/d08/classgams_1_1algorithms_1_1Algorithm__Factory.html#ad6185b1659233af29df39349bb13c8d8',1,'gams::algorithms::Algorithm_Factory::platform_()'],['../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#ae9cbba239fdcc8768d8e6aac72a75ff0',1,'gams::algorithms::Base_Algorithm::platform_()'],['../d6/dc2/classgams_1_1algorithms_1_1Controller__Algorithm__Factory.html#aa7a466f7499d7fff0bad50f8098123ad',1,'gams::algorithms::Controller_Algorithm_Factory::platform_()'],['../d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#aecace84f7b78c1306571fc75b98c5110',1,'gams::controllers::Base_Controller::platform_()']]],
-  ['platform_5ffactory_5f',['platform_factory_',['../d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a07acecc9fd808aad795c6a6881e90681',1,'gams::controllers::Base_Controller']]],
-  ['platforms_5f',['platforms_',['../d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a7e44b4f04c2f90e9749d06c4ffa9a5c1',1,'gams::controllers::Base_Controller::platforms_()'],['../d9/d8d/classgams_1_1platforms_1_1Controller__Platform__Factory.html#a2e239b8f277e35abfc4edff5f6750f7f',1,'gams::platforms::Controller_Platform_Factory::platforms_()'],['../d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html#a7ce161d64ac8bd75ba7a279b87bb1e43',1,'gams::platforms::Platform_Factory::platforms_()']]],
-  ['position_5f',['position_',['../d4/d15/classgams_1_1platforms_1_1Debug__Platform.html#a55c4b245a63efbfec1c0ffbec843ce64',1,'gams::platforms::Debug_Platform::position_()'],['../df/d3b/classgams_1_1platforms_1_1Drone__RK.html#a7a6f885100da81fa4f28a07569b53fcd',1,'gams::platforms::Drone_RK::position_()']]],
-  ['position_5fvalue_5fmap_5f',['position_value_map_',['../de/da0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage.html#aa38c06960477113d4afbcf2a7d38a237',1,'gams::algorithms::area_coverage::Min_Time_Area_Coverage']]],
-  ['present',['present',['../dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html#a3002c0d2ba80f2d0b7c2f0b47de2fe79',1,'gams::algorithms::Message_Profiling::Message_Filter::Message_Data']]],
-  ['previous_5flocations_5f',['previous_locations_',['../d9/d7a/classgams_1_1algorithms_1_1Follow.html#a746736b87c889358ac172c78b671fcb6',1,'gams::algorithms::Follow']]],
-  ['priority',['priority',['../dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html#ade7aa0ea5b45b414dbca9e767865ed68',1,'gams::utility::Prioritized_Region']]],
-  ['priority_5ftotal_5fby_5fregion_5f',['priority_total_by_region_',['../de/dcb/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage.html#ab053c828ab9b199c0b0861dd93a0bf56',1,'gams::algorithms::area_coverage::Priority_Weighted_Random_Area_Coverage']]]
+  ['range_5f',['range_',['../db/d7d/classgams_1_1variables_1_1Sensor.html#adee3d244a5fe1c443e68f5c54bb5bad8',1,'gams::variables::Sensor']]],
+  ['reduced_5fmovement',['reduced_movement',['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#a5439277d775f5d252b5686767df23eb9',1,'gams::variables::Platform_Status']]],
+  ['reduced_5fsensing',['reduced_sensing',['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#af40bd56426de602c7ce2b6140642f0cc',1,'gams::variables::Platform_Status']]],
+  ['region_5f',['region_',['../d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage.html#a66e3a4ee47ae5dc6ab31010b044382f8',1,'gams::algorithms::area_coverage::Uniform_Random_Area_Coverage::region_()'],['../d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage.html#abf863e7ef6822a2ee691b77dfe111360',1,'gams::algorithms::area_coverage::Uniform_Random_Edge_Coverage::region_()']]],
+  ['regions_5f',['regions_',['../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a741b2e7d9bcacf6b95d699bc3b35460e',1,'gams::utility::Search_Area']]],
+  ['rho_5f',['rho_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a98695730298c9b3e78dd495c514d8188',1,'gams::algorithms::Formation_Flying']]],
+  ['rx_5f',['rx_',['../df/dee/classgams_1_1utility_1_1Rotation__Vector.html#a93b222b7bfb4a7c1fa6a64ce533b55e5',1,'gams::utility::Rotation_Vector']]],
+  ['ry_5f',['ry_',['../df/dee/classgams_1_1utility_1_1Rotation__Vector.html#a82c68ab70291f14c101b4d0f71f71160',1,'gams::utility::Rotation_Vector']]],
+  ['rz_5f',['rz_',['../df/dee/classgams_1_1utility_1_1Rotation__Vector.html#ab4e0658e8ccecb6bdf7cc7e45261f9ce',1,'gams::utility::Rotation_Vector']]]
 ];

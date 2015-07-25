@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.11</span>
+   &#160;<span id="projectnumber">0.8.13</span>
    </div>
   </td>
  </tr>
@@ -109,14 +109,14 @@ $(document).ready(function(){initNavTree('d6/dc5/classgams_1_1algorithms_1_1Mess
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d9/d1c/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">gams::algorithms::Message_Profiling::Message_Filter Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Filter for tracking which messages have come in and which have been dropped.  
+<p>Container for counter.  
  <a href="../../d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for gams::algorithms::Message_Profiling::Message_Filter:</div>
@@ -128,7 +128,7 @@ Collaboration diagram for gams::algorithms::Message_Profiling::Message_Filter:</
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d4e/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter__coll__graph.png" border="0" usemap="#gams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_coll__map" alt="Collaboration graph"/></div>
 <map name="gams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_coll__map" id="gams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_coll__map">
-<area shape="rect" id="node4" title="STL class. " alt="" coords="283,62,363,89"/><area shape="rect" id="node5" title="STL class. " alt="" coords="7,55,134,96"/><area shape="rect" id="node6" href="../../dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html" title="Message_Data struct. " alt="" coords="232,113,415,169"/></map>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="239,96,319,123"/><area shape="rect" id="node5" title="STL class. " alt="" coords="215,5,342,47"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -147,16 +147,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a320772dad8084c725837c9cf6df290e3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html#a320772dad8084c725837c9cf6df290e3">missing_messages_string</a> () const </td></tr>
 <tr class="separator:a320772dad8084c725837c9cf6df290e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:aa53bc4b2c34c7c60831abf4df769f64a"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="../../dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html">Message_Data</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html#aa53bc4b2c34c7c60831abf4df769f64a">msg_map_</a></td></tr>
-<tr class="memdesc:aa53bc4b2c34c7c60831abf4df769f64a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keep a <a class="el" href="../../dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html" title="Message_Data struct. ">Message_Data</a> struct for each peer.  <a href="#aa53bc4b2c34c7c60831abf4df769f64a">More...</a><br /></td></tr>
-<tr class="separator:aa53bc4b2c34c7c60831abf4df769f64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ad74c687d36d70730309ee31fb286ac9a"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html#ad74c687d36d70730309ee31fb286ac9a">msg_map</a></td></tr>
+<tr class="memdesc:ad74c687d36d70730309ee31fb286ac9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keep a <a class="el" href="../../dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html" title="Message_Data struct. ">Message_Data</a> struct for each peer.  <a href="#ad74c687d36d70730309ee31fb286ac9a">More...</a><br /></td></tr>
+<tr class="separator:ad74c687d36d70730309ee31fb286ac9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Filter for tracking which messages have come in and which have been dropped. </p>
+<div class="textblock"><p>Container for counter. </p>
+<p>Filter for tracking which messages have come in and which have been dropped </p>
 
-<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00134">134</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00154">154</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a507a2e26c92d12cbb7552bb0279e3d65"></a>
 <div class="memitem">
@@ -181,7 +182,7 @@ Private Attributes</h2></td></tr>
 
 <p>virtual destructor </p>
 
-<p>Definition at line <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html">Message_Profiling.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html#l00204">204</a> of file <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html">Message_Profiling.cpp</a>.</p>
 
 </div>
 </div>
@@ -216,7 +217,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html#l00173">173</a> of file <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html">Message_Profiling.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html#l00209">209</a> of file <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html">Message_Profiling.cpp</a>.</p>
 
 </div>
 </div>
@@ -233,32 +234,24 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html#l00217">217</a> of file <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html">Message_Profiling.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html#l00264">264</a> of file <a class="el" href="../../d9/d9d/Message__Profiling_8cpp_source.html">Message_Profiling.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aa53bc4b2c34c7c60831abf4df769f64a"></a>
+<a class="anchor" id="ad74c687d36d70730309ee31fb286ac9a"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, <a class="el" href="../../dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html">Message_Data</a>&gt; gams::algorithms::Message_Profiling::Message_Filter::msg_map_</td>
+          <td class="memname">std::map&lt;std::string, size_t&gt; gams::algorithms::Message_Profiling::Message_Filter::msg_map</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Keep a <a class="el" href="../../dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html" title="Message_Data struct. ">Message_Data</a> struct for each peer. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00164">164</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00182">182</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
 
 </div>
 </div>
@@ -272,7 +265,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html">algorithms</a></li><li class="navelem"><a class="el" href="../../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html">Message_Profiling</a></li><li class="navelem"><a class="el" href="../../d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html">Message_Filter</a></li>
-    <li class="footer">Generated on Thu Jul 2 2015 15:49:27 for GAMS by
+    <li class="footer">Generated on Sat Jul 25 2015 03:30:31 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,7 +1,7 @@
 <map id="gams::algorithms::area_coverage::Prioritized_Min_Time_Area_Coverage" name="gams::algorithms::area_coverage::Prioritized_Min_Time_Area_Coverage">
 <area shape="rect" id="node2" href="$de/da0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Min_Time_Area\l_Coverage" alt="" coords="2280,432,2459,488"/>
 <area shape="rect" id="node3" href="$d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Base_Area_Coverage" alt="" coords="1937,374,2149,415"/>
-<area shape="rect" id="node4" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="gams::algorithms::Base\l_Algorithm" alt="" coords="1664,218,1824,259"/>
+<area shape="rect" id="node4" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1664,218,1824,259"/>
 <area shape="rect" id="node5" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="1299,115,1452,157"/>
 <area shape="rect" id="node6" title="STL class. " alt="" coords="929,249,1050,276"/>
 <area shape="rect" id="node17" title="STL class. " alt="" coords="1128,320,1241,347"/>

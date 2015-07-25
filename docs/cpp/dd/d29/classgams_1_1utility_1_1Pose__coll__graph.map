@@ -1,8 +1,8 @@
 <map id="gams::utility::Pose" name="gams::utility::Pose">
-<area shape="rect" id="node7" href="$d4/da8/classgams_1_1utility_1_1Reference__Frame.html" title="Base class for Reference Frames. " alt="" coords="607,25,765,66"/>
-<area shape="rect" id="node2" href="$d0/d36/classgams_1_1utility_1_1Pose__Vector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="205,62,336,103"/>
-<area shape="rect" id="node3" href="$d9/db7/classgams_1_1utility_1_1Location__Vector.html" title="Container for Location information, not bound to a frame. " alt="" coords="5,29,156,70"/>
-<area shape="rect" id="node4" href="$df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="6,94,155,135"/>
-<area shape="rect" id="node5" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="1144,33,1307,74"/>
-<area shape="rect" id="node6" href="$d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html" title="For internal use. " alt="" coords="895,40,1095,67"/>
+<area shape="rect" id="node7" href="$d4/da8/classgams_1_1utility_1_1Reference__Frame.html" title="Base class for Reference Frames. " alt="" coords="607,26,765,67"/>
+<area shape="rect" id="node2" href="$d0/d36/classgams_1_1utility_1_1Pose__Vector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="205,63,336,105"/>
+<area shape="rect" id="node3" href="$d9/db7/classgams_1_1utility_1_1Location__Vector.html" title="Container for Location information, not bound to a frame. " alt="" coords="5,30,156,71"/>
+<area shape="rect" id="node4" href="$df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="6,95,155,137"/>
+<area shape="rect" id="node5" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="1152,34,1315,75"/>
+<area shape="rect" id="node6" href="$d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html" title="For internal use. " alt="" coords="903,41,1103,68"/>
 </map>

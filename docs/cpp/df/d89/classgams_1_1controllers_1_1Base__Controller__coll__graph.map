@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="1238,411,1391,453"/>
 <area shape="rect" id="node16" href="$d6/dc2/classgams_1_1algorithms_1_1Controller__Algorithm__Factory.html" title="The controller&#39;s algorithm factory. " alt="" coords="2231,205,2416,246"/>
 <area shape="rect" id="node18" href="$d3/d08/classgams_1_1algorithms_1_1Algorithm__Factory.html" title="Base class for algorithm factories to create Base_Algorithms. " alt="" coords="1595,234,1780,275"/>
-<area shape="rect" id="node26" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="gams::algorithms::Base\l_Algorithm" alt="" coords="1607,509,1767,550"/>
+<area shape="rect" id="node26" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1607,509,1767,550"/>
 <area shape="rect" id="node3" title="STL class. " alt="" coords="862,532,983,559"/>
 <area shape="rect" id="node21" href="$d9/d8d/classgams_1_1platforms_1_1Controller__Platform__Factory.html" title="The controller&#39;s platform factory. " alt="" coords="1911,801,2089,842"/>
 <area shape="rect" id="node23" href="$d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html" title="Base class for platform factories to create Base_Platforms. " alt="" coords="1229,705,1400,746"/>

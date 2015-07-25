@@ -1,15 +1,12 @@
 var searchData=
 [
-  ['_5fdestruct_5forigin',['_destruct_origin',['../d4/da8/classgams_1_1utility_1_1Reference__Frame.html#a4320455355ee6201f12099b387f74996',1,'gams::utility::Reference_Frame']]],
-  ['_5fframe',['_frame',['../da/deb/classgams_1_1utility_1_1Coordinate.html#a66ef5c58ee751a5c54a15c70c7d0b08c',1,'gams::utility::Coordinate']]],
-  ['_5forigin',['_origin',['../d4/da8/classgams_1_1utility_1_1Reference__Frame.html#a612d51974ddf1ddf73035acdf70349ab',1,'gams::utility::Reference_Frame']]],
-  ['_5fplanet_5fradius',['_planet_radius',['../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#a32156c2577c957818363dc6847db1fa4',1,'gams::utility::GPS_Frame']]],
-  ['_5frun_5fonce',['_run_once',['../d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a71e9eb90ab34b2ae2771be35e1fc0b59',1,'gams::controllers::Base_Controller']]],
-  ['_5frx',['_rx',['../df/dee/classgams_1_1utility_1_1Rotation__Vector.html#a32dfe5ad844be94a5325df46b5b53fef',1,'gams::utility::Rotation_Vector']]],
-  ['_5fry',['_ry',['../df/dee/classgams_1_1utility_1_1Rotation__Vector.html#a5f92772e63e17bc3210b5de307589689',1,'gams::utility::Rotation_Vector']]],
-  ['_5frz',['_rz',['../df/dee/classgams_1_1utility_1_1Rotation__Vector.html#ad3ba0e04497694179f5e89999d74c4fc',1,'gams::utility::Rotation_Vector']]],
-  ['_5fw',['_w',['../db/d2d/classgams_1_1utility_1_1Quaternion.html#ae1d0909c9fabd04201d5c9cfd8addf3a',1,'gams::utility::Quaternion']]],
-  ['_5fx',['_x',['../d9/db7/classgams_1_1utility_1_1Location__Vector.html#a7d51c85175c17cd654bcb0ea2354cb66',1,'gams::utility::Location_Vector::_x()'],['../db/d2d/classgams_1_1utility_1_1Quaternion.html#a91b4ee287c158cb63da0172a1fbd67a3',1,'gams::utility::Quaternion::_x()']]],
-  ['_5fy',['_y',['../d9/db7/classgams_1_1utility_1_1Location__Vector.html#a47cd44bd524d3a0ffc6047f3eff3be55',1,'gams::utility::Location_Vector::_y()'],['../db/d2d/classgams_1_1utility_1_1Quaternion.html#a5403b4403fa59cbac256a77af62eb3dc',1,'gams::utility::Quaternion::_y()']]],
-  ['_5fz',['_z',['../d9/db7/classgams_1_1utility_1_1Location__Vector.html#abe50aec4246cf87c00fc0a60b5c7ce97',1,'gams::utility::Location_Vector::_z()'],['../db/d2d/classgams_1_1utility_1_1Quaternion.html#aa45b7eb871ca2c4d8d67a9fca9102a12',1,'gams::utility::Quaternion::_z()']]]
+  ['_5fgams_5futility_5fcartesian_5fframe_5finl_5f',['_GAMS_UTILITY_CARTESIAN_FRAME_INL_',['../db/d81/Cartesian__Frame_8inl.html#ab19131c467a9b128eca4059ab7bd2f24',1,'Cartesian_Frame.inl']]],
+  ['_5fgams_5futility_5fcoordinate_5finl_5f',['_GAMS_UTILITY_COORDINATE_INL_',['../de/d36/Coordinate_8inl.html#a18018c5478ef55400ef3e81eb3cff49d',1,'Coordinate.inl']]],
+  ['_5fgams_5futility_5fgps_5fframe_5finl_5f',['_GAMS_UTILITY_GPS_FRAME_INL_',['../d0/dc5/GPS__Frame_8inl.html#a34b8a74b235bc0695cef38f799782f1a',1,'GPS_Frame.inl']]],
+  ['_5fgams_5futility_5flocation_5finl_5f',['_GAMS_UTILITY_LOCATION_INL_',['../df/d2b/Location_8inl.html#a28107e8f782487296c385b3cd4830e64',1,'Location.inl']]],
+  ['_5fgams_5futility_5fpose_5finl_5f',['_GAMS_UTILITY_POSE_INL_',['../d0/d33/Pose_8inl.html#a04775888de19f450ad2d24284f09a121',1,'Pose.inl']]],
+  ['_5fgams_5futility_5fquaternion_5finl_5f',['_GAMS_UTILITY_QUATERNION_INL_',['../da/db5/Quaternion_8inl.html#af32b7eb87dc8f06b8d8f49198f0da762',1,'Quaternion.inl']]],
+  ['_5fgams_5futility_5freference_5fframe_5finl_5f',['_GAMS_UTILITY_REFERENCE_FRAME_INL_',['../da/dea/Reference__Frame_8inl.html#a27e6f2e9d87db9b10fdd2b62e3bb027a',1,'Reference_Frame.inl']]],
+  ['_5fgams_5futility_5frotation_5finl_5f',['_GAMS_UTILITY_ROTATION_INL_',['../d8/d6e/Rotation_8inl.html#aa4bc4ee93c7d61993014a92cf0cbc812',1,'Rotation.inl']]],
+  ['_5frun_5fonce',['_run_once',['../d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a71e9eb90ab34b2ae2771be35e1fc0b59',1,'gams::controllers::Base_Controller']]]
 ];

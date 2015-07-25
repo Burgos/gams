@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.11</span>
+   &#160;<span id="projectnumber">0.8.13</span>
    </div>
   </td>
  </tr>
@@ -107,8 +107,7 @@ $(document).ready(function(){initNavTree('da/d4b/namespacegams_1_1utility.html',
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">gams::utility Namespace Reference</div>  </div>
 </div><!--header-->
@@ -116,8 +115,6 @@ $(document).ready(function(){initNavTree('da/d4b/namespacegams_1_1utility.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d6/de8/namespacegams_1_1utility_1_1____INTERNAL____"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de8/namespacegams_1_1utility_1_1____INTERNAL____.html">__INTERNAL__</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:da/d6d/namespacegams_1_1utility_1_1java"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6d/namespacegams_1_1utility_1_1java.html">java</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -129,10 +126,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">For internal use.  <a href="../../d9/db5/classgams_1_1utility_1_1Axis__Angle__Frame.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html">bad_coord_type</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when a reference frame function is called with a coordinate type (e.g., <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>, <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a>) that frame does not support.  <a href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when a reference frame function is called with a <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> type (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>, <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a>) that frame does not support.  <a href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html">Cartesian_Frame</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locations represented as meters distance, in x, y, and z, from an origin point Rotations represented as Euler angles, in the origin frame, applied in this order: alpha degrees around X-axis beta degrees around Y-axis gamma degrees around Z-axis.  <a href="../../d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locations represented as meters distance, in x, y, and z, from an origin Rotations represented in Axis Angle notation.  <a href="../../d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">Coordinate</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">New coordinate types which are frame-dependant can inherit from this class.  <a href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#details">More...</a><br /></td></tr>
@@ -141,7 +138,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">For internal use.  <a href="../../d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html">GPS_Frame</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default, Earth): x is Latitude y is Longitude z is Altitude (above assumed perfectly spherical surface) Rotations represented as Euler angles, applied in this order: alpha degrees around axis pointing towards north pole at current location At north pole: points towards 0 Longitude; at south pole, towards 180 Longitude beta degrees around axis pointing west at current location At north and south poles: axis points towards 90W Longitude gamma degrees around axis pointing upwards (i.e, normal vector) at current location.  <a href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default, Earth): x is Latitude y is Longitude z is Altitude (above assumed perfectly spherical surface) Rotations represented in Axis Angle notation Axis rx points towards north pole Axis ry points west at current location Axis rz points upwards (i.e, normal vector)  <a href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,10 +185,10 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a1b5cd2564c6df31018dceb3a4b65c5de"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a1b5cd2564c6df31018dceb3a4b65c5de">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="../../df/dee/classgams_1_1utility_1_1Rotation__Vector.html">Rotation_Vector</a> &amp;rot)</td></tr>
 <tr class="separator:a1b5cd2564c6df31018dceb3a4b65c5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07db801e3554617cc21675a470e72274"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a07db801e3554617cc21675a470e72274">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="../../d0/d36/classgams_1_1utility_1_1Pose__Vector.html">Pose_Vector</a> &amp;pose)</td></tr>
-<tr class="separator:a07db801e3554617cc21675a470e72274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c70b224f898279ec1a98d98b7124089"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a7c70b224f898279ec1a98d98b7124089">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="../../d9/db7/classgams_1_1utility_1_1Location__Vector.html">Location_Vector</a> &amp;loc)</td></tr>
 <tr class="separator:a7c70b224f898279ec1a98d98b7124089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07db801e3554617cc21675a470e72274"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a07db801e3554617cc21675a470e72274">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="../../d0/d36/classgams_1_1utility_1_1Pose__Vector.html">Pose_Vector</a> &amp;pose)</td></tr>
+<tr class="separator:a07db801e3554617cc21675a470e72274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58743caa62d634a4ca068acc191c2e0e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a58743caa62d634a4ca068acc191c2e0e">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;quat)</td></tr>
 <tr class="separator:a58743caa62d634a4ca068acc191c2e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f6adf3bf3718b4482d02d3f3356ca26"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a7f6adf3bf3718b4482d02d3f3356ca26">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html">Location</a> &amp;loc)</td></tr>
@@ -209,11 +206,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aacaadf797c3f059ddb153093ba9d0c56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a> <a class="el" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#aacaadf797c3f059ddb153093ba9d0c56">parse_search_area</a> (Madara::Knowledge_Engine::Knowledge_Base &amp;knowledge, const std::string &amp;prefix)</td></tr>
 <tr class="memdesc:aacaadf797c3f059ddb153093ba9d0c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create Search Area from knowledge base information.  <a href="#aacaadf797c3f059ddb153093ba9d0c56">More...</a><br /></td></tr>
 <tr class="separator:aacaadf797c3f059ddb153093ba9d0c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aafd1b25b21a7f3e5367b2ee1610213f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html">Cartesian_Frame</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#aafd1b25b21a7f3e5367b2ee1610213f1">cartesian_default_frame</a></td></tr>
-<tr class="separator:aafd1b25b21a7f3e5367b2ee1610213f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a1b5cd2564c6df31018dceb3a4b65c5de"></a>
@@ -248,43 +240,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00189">189</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a07db801e3554617cc21675a470e72274"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; gams::utility::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>o</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d0/d36/classgams_1_1utility_1_1Pose__Vector.html">Pose_Vector</a> &amp;&#160;</td>
-          <td class="paramname"><em>pose</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/db5/Pose_8h_source.html#l00190">190</a> of file <a class="el" href="../../d7/db5/Pose_8h_source.html">Pose.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00149">149</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
 
 </div>
 </div>
@@ -320,7 +276,43 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dd3/Location_8h_source.html#l00197">197</a> of file <a class="el" href="../../d2/dd3/Location_8h_source.html">Location.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00157">157</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07db801e3554617cc21675a470e72274"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; gams::utility::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d0/d36/classgams_1_1utility_1_1Pose__Vector.html">Pose_Vector</a> &amp;&#160;</td>
+          <td class="paramname"><em>pose</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00163">163</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -356,7 +348,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00428">428</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00229">229</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -392,7 +384,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00563">563</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dea/Reference__Frame_8inl_source.html#l00390">390</a> of file <a class="el" href="../../da/dea/Reference__Frame_8inl_source.html">Reference_Frame.inl</a>.</p>
 
 </div>
 </div>
@@ -428,7 +420,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00569">569</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dea/Reference__Frame_8inl_source.html#l00396">396</a> of file <a class="el" href="../../da/dea/Reference__Frame_8inl_source.html">Reference_Frame.inl</a>.</p>
 
 </div>
 </div>
@@ -464,7 +456,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00575">575</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dea/Reference__Frame_8inl_source.html#l00402">402</a> of file <a class="el" href="../../da/dea/Reference__Frame_8inl_source.html">Reference_Frame.inl</a>.</p>
 
 </div>
 </div>
@@ -582,28 +574,13 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="aafd1b25b21a7f3e5367b2ee1610213f1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html">Cartesian_Frame</a> gams::utility::cartesian_default_frame</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d2/d70/Cartesian__Frame_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../d2/d70/Cartesian__Frame_8cpp_source.html">Cartesian_Frame.cpp</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li>
-    <li class="footer">Generated on Thu Jul 2 2015 15:49:28 for GAMS by
+    <li class="footer">Generated on Sat Jul 25 2015 03:30:32 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

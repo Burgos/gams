@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['performance_5fprofiling',['Performance_Profiling',['../da/d12/classgams_1_1algorithms_1_1Performance__Profiling.html',1,'gams::algorithms']]],
+  ['performance_5fprofiling_5ffactory',['Performance_Profiling_Factory',['../d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory.html',1,'gams::algorithms']]],
   ['perimeter_5fpatrol',['Perimeter_Patrol',['../d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html',1,'gams::algorithms::area_coverage']]],
   ['perimeter_5fpatrol_5ffactory',['Perimeter_Patrol_Factory',['../d2/d73/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol__Factory.html',1,'gams::algorithms::area_coverage']]],
   ['platform_5ffactory',['Platform_Factory',['../d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html',1,'gams::platforms']]],

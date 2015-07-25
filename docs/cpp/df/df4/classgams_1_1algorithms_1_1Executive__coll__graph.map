@@ -1,5 +1,5 @@
 <map id="gams::algorithms::Executive" name="gams::algorithms::Executive">
-<area shape="rect" id="node2" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="gams::algorithms::Base\l_Algorithm" alt="" coords="1539,247,1699,289"/>
+<area shape="rect" id="node2" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1539,247,1699,289"/>
 <area shape="rect" id="node3" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="1179,430,1332,471"/>
 <area shape="rect" id="node18" href="$d6/dc2/classgams_1_1algorithms_1_1Controller__Algorithm__Factory.html" title="The controller&#39;s algorithm factory. " alt="" coords="2101,399,2287,441"/>
 <area shape="rect" id="node20" href="$d3/d08/classgams_1_1algorithms_1_1Algorithm__Factory.html" title="Base class for algorithm factories to create Base_Algorithms. " alt="" coords="1527,546,1712,587"/>

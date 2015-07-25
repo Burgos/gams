@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['_5f_5finternal_5f_5f',['__INTERNAL__',['../d6/de8/namespacegams_1_1utility_1_1____INTERNAL____.html',1,'gams::utility']]],
   ['algorithms',['algorithms',['../d3/d47/namespacegams_1_1algorithms.html',1,'gams']]],
   ['area_5fcoverage',['area_coverage',['../dc/d75/namespacegams_1_1algorithms_1_1area__coverage.html',1,'gams::algorithms']]],
   ['controllers',['controllers',['../d7/d41/namespacegams_1_1controllers.html',1,'gams']]],

@@ -24,6 +24,7 @@ var hierarchy =
       [ "gams::algorithms::Message_Profiling_Factory", "d2/d0a/classgams_1_1algorithms_1_1Message__Profiling__Factory.html", null ],
       [ "gams::algorithms::Move_Factory", "d2/df0/classgams_1_1algorithms_1_1Move__Factory.html", null ],
       [ "gams::algorithms::Null_Algorithm_Factory", "dc/da0/classgams_1_1algorithms_1_1Null__Algorithm__Factory.html", null ],
+      [ "gams::algorithms::Performance_Profiling_Factory", "d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory.html", null ],
       [ "gams::algorithms::Takeoff_Factory", "db/d02/classgams_1_1algorithms_1_1Takeoff__Factory.html", null ],
       [ "gams::algorithms::Wait_Factory", "d1/d7b/classgams_1_1algorithms_1_1Wait__Factory.html", null ]
     ] ],
@@ -53,6 +54,7 @@ var hierarchy =
       [ "gams::algorithms::Message_Profiling", "de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html", null ],
       [ "gams::algorithms::Move", "d2/d4c/classgams_1_1algorithms_1_1Move.html", null ],
       [ "gams::algorithms::Null_Algorithm", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html", null ],
+      [ "gams::algorithms::Performance_Profiling", "da/d12/classgams_1_1algorithms_1_1Performance__Profiling.html", null ],
       [ "gams::algorithms::Takeoff", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html", null ],
       [ "gams::algorithms::Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html", null ]
     ] ],
@@ -109,10 +111,10 @@ var hierarchy =
         [ "gams::utility::GPS_Frame", "d5/dcb/classgams_1_1utility_1_1GPS__Frame.html", null ]
       ] ]
     ] ],
-    [ "gams::variables::Region", "d1/d5e/classgams_1_1variables_1_1Region.html", null ],
     [ "gams::utility::Region", "da/db7/classgams_1_1utility_1_1Region.html", [
       [ "gams::utility::Prioritized_Region", "dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html", null ]
     ] ],
+    [ "gams::variables::Region", "d1/d5e/classgams_1_1variables_1_1Region.html", null ],
     [ "gams::utility::Rotation_Vector", "df/dee/classgams_1_1utility_1_1Rotation__Vector.html", [
       [ "gams::utility::Pose_Vector", "d0/d36/classgams_1_1utility_1_1Pose__Vector.html", null ],
       [ "gams::utility::Rotation", "da/da5/classgams_1_1utility_1_1Rotation.html", null ]

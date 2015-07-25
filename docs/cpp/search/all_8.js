@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['hamilton_5fproduct',['hamilton_product',['../db/d2d/classgams_1_1utility_1_1Quaternion.html#af59a15495f468e9a7720e88e2ad08368',1,'gams::utility::Quaternion']]],
+  ['hamilton_5fproduct',['hamilton_product',['../db/d2d/classgams_1_1utility_1_1Quaternion.html#ad8c6fd28052581af27753df268716414',1,'gams::utility::Quaternion']]],
   ['handle_5farguments',['handle_arguments',['../dc/d61/gams__controller_8cpp.html#a2cfd518572976845680798882117c286',1,'gams_controller.cpp']]],
   ['head_5f',['head_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a18d5d24b4c9d4c515d03349a1796ee05',1,'gams::algorithms::Formation_Flying']]],
   ['head_5falgo_5f',['head_algo_',['../d7/d90/classgams_1_1algorithms_1_1Formation__Coverage.html#a4aa560de80a2b8533948f4a7b11c813d',1,'gams::algorithms::Formation_Coverage']]],

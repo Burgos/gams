@@ -58,6 +58,11 @@ var dir_51790b9f0ef7b0cc06eb1e76e309c0bc =
       [ "Null_Algorithm", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm" ],
       [ "Null_Algorithm_Factory", "dc/da0/classgams_1_1algorithms_1_1Null__Algorithm__Factory.html", "dc/da0/classgams_1_1algorithms_1_1Null__Algorithm__Factory" ]
     ] ],
+    [ "Performance_Profiling.cpp", "df/de9/Performance__Profiling_8cpp.html", null ],
+    [ "Performance_Profiling.h", "dd/d1f/Performance__Profiling_8h.html", [
+      [ "Performance_Profiling", "da/d12/classgams_1_1algorithms_1_1Performance__Profiling.html", "da/d12/classgams_1_1algorithms_1_1Performance__Profiling" ],
+      [ "Performance_Profiling_Factory", "d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory.html", "d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory" ]
+    ] ],
     [ "Takeoff.cpp", "dc/d50/Takeoff_8cpp.html", null ],
     [ "Takeoff.h", "d0/df4/Takeoff_8h.html", [
       [ "Takeoff", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html", "dd/dce/classgams_1_1algorithms_1_1Takeoff" ],

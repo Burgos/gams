@@ -17,6 +17,7 @@
 <area shape="rect" id="node17" href="$d2/d0a/classgams_1_1algorithms_1_1Message__Profiling__Factory.html" title="A factory class for creating Message_Profiling Algorithms. " alt="" coords="259,1134,441,1175"/>
 <area shape="rect" id="node18" href="$d2/df0/classgams_1_1algorithms_1_1Move__Factory.html" title="A factory class for creating Move algorithms. " alt="" coords="270,1199,430,1241"/>
 <area shape="rect" id="node19" href="$dc/da0/classgams_1_1algorithms_1_1Null__Algorithm__Factory.html" title="A factory class for creating Null algorithms. " alt="" coords="274,1265,426,1306"/>
-<area shape="rect" id="node20" href="$db/d02/classgams_1_1algorithms_1_1Takeoff__Factory.html" title="A factory class for creating Null algorithms. " alt="" coords="265,1330,435,1371"/>
-<area shape="rect" id="node21" href="$d1/d7b/classgams_1_1algorithms_1_1Wait__Factory.html" title="A factory class for creating Wait algorithms. " alt="" coords="271,1395,429,1437"/>
+<area shape="rect" id="node20" href="$d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory.html" title="A factory class for creating Performance_Profiling Algorithms. " alt="" coords="249,1330,451,1371"/>
+<area shape="rect" id="node21" href="$db/d02/classgams_1_1algorithms_1_1Takeoff__Factory.html" title="A factory class for creating Null algorithms. " alt="" coords="265,1395,435,1437"/>
+<area shape="rect" id="node22" href="$d1/d7b/classgams_1_1algorithms_1_1Wait__Factory.html" title="A factory class for creating Wait algorithms. " alt="" coords="271,1461,429,1502"/>
 </map>

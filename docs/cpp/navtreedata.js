@@ -42,16 +42,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d5e/classgams_1_1variables_1_1Region.html#ae82ac571b52b67eed59db3c348f927b0",
-"d2/df2/classgams_1_1platforms_1_1Null__Platform__Factory.html#abc8d42379ab7e5a70bf4c3b55dd3cc47",
-"d5/d1a/classgams_1_1utility_1_1unrelated__frames.html#ae0172bc64ba4758be407a3fc9bacfdf7",
-"d7/d90/classgams_1_1algorithms_1_1Formation__Coverage.html#ae9cbba239fdcc8768d8e6aac72a75ff0",
-"d9/d9c/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage.html#a1d00a88a65e5b5ff562445374097dda7",
-"da/db7/classgams_1_1utility_1_1Region.html#a345692f51f8d0fb6720fbb9397807ade",
-"db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a919df850fe16b5817a20b3386cb6ad91",
-"dd/d85/classgams_1_1utility_1_1Pose.html#ae549a287adc54fd6075add274d46a03e",
-"de/df6/classgams_1_1utility_1_1Location.html#aa9535ee6df25eef18d266a1771652bb0",
-"functions_func_p.html"
+"d1/d47/Debug__Algorithm_8h_source.html",
+"d2/dcf/classgams_1_1algorithms_1_1Debug__Algorithm__Factory.html#ad8e1e08a842ff0e56e028fb1db861c78",
+"d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a3430cc4f7426d0d93597cfc174b7d557",
+"d7/d3a/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage__Factory.html#aac1a20e39bd1387481a31c464f9ffd47",
+"d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#adddf49eab26029d991ff9cccd514b350",
+"da/d12/classgams_1_1algorithms_1_1Performance__Profiling.html#a59d05bf2c4659e290da985e04d71d0ea",
+"da/deb/classgams_1_1utility_1_1Coordinate.html#a6d956bab4b5793beeb538934336fc93e",
+"dc/d61/gams__controller_8cpp.html#aee452f6ed6c9d22ef6d6f158593cebab",
+"de/d23/classgams_1_1utility_1_1GPS__Position.html#aa58d6dbb01bee056ea79be9bc147ac82",
+"df/d3b/classgams_1_1platforms_1_1Drone__RK.html#aad1163c82d42f9b8f38d2d91e20e6ca4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -7,6 +7,6 @@
 <area shape="rect" id="node9" href="$d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Uniform_Random\l_Area_Coverage" alt="" coords="485,392,672,448"/>
 <area shape="rect" id="node10" href="$d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage.html" title="gams::algorithms::area\l_coverage::Uniform_Random\l_Edge_Coverage" alt="" coords="485,472,672,528"/>
 <area shape="rect" id="node11" href="$d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html" title="gams::algorithms::area\l_coverage::Waypoints_Coverage" alt="" coords="473,553,684,594"/>
-<area shape="rect" id="node2" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="gams::algorithms::Base\l_Algorithm" alt="" coords="5,279,165,321"/>
+<area shape="rect" id="node2" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="5,279,165,321"/>
 <area shape="rect" id="node5" href="$db/db5/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage.html" title="gams::algorithms::area\l_coverage::Prioritized\l_Min_Time_Area_Coverage" alt="" coords="732,85,911,141"/>
 </map>

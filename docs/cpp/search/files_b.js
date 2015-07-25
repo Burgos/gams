@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['performance_5fprofiling_2ecpp',['Performance_Profiling.cpp',['../df/de9/Performance__Profiling_8cpp.html',1,'']]],
+  ['performance_5fprofiling_2eh',['Performance_Profiling.h',['../dd/d1f/Performance__Profiling_8h.html',1,'']]],
   ['perimeter_5fpatrol_2ecpp',['Perimeter_Patrol.cpp',['../d2/dc5/Perimeter__Patrol_8cpp.html',1,'']]],
   ['perimeter_5fpatrol_2eh',['Perimeter_Patrol.h',['../d3/d12/Perimeter__Patrol_8h.html',1,'']]],
   ['platform_5ffactory_2ecpp',['Platform_Factory.cpp',['../db/d32/Platform__Factory_8cpp.html',1,'']]],
@@ -7,6 +9,7 @@ var searchData=
   ['platform_5fstatus_2ecpp',['Platform_Status.cpp',['../d2/dec/Platform__Status_8cpp.html',1,'']]],
   ['platform_5fstatus_2eh',['Platform_Status.h',['../d8/d9c/Platform__Status_8h.html',1,'']]],
   ['pose_2eh',['Pose.h',['../d7/db5/Pose_8h.html',1,'']]],
+  ['pose_2einl',['Pose.inl',['../d0/d33/Pose_8inl.html',1,'']]],
   ['position_2ecpp',['Position.cpp',['../d4/df6/Position_8cpp.html',1,'']]],
   ['position_2eh',['Position.h',['../de/dff/Position_8h.html',1,'']]],
   ['prioritized_5fmin_5ftime_5farea_5fcoverage_2ecpp',['Prioritized_Min_Time_Area_Coverage.cpp',['../d8/d21/Prioritized__Min__Time__Area__Coverage_8cpp.html',1,'']]],

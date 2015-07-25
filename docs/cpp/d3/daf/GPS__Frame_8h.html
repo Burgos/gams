@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.11</span>
+   &#160;<span id="projectnumber">0.8.13</span>
    </div>
   </td>
  </tr>
@@ -111,16 +111,14 @@ $(document).ready(function(){initNavTree('d3/daf/GPS__Frame_8h.html','../../');}
 <div class="title">GPS_Frame.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Copyright (c) 2015 Carnegie Mellon University.  
-<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/dc5/GPS__Frame_8inl_source.html">GPS_Frame.inl</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for GPS_Frame.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/d4c/GPS__Frame_8h__incl.png" border="0" usemap="#src_2gams_2utility_2GPS__Frame_8h" alt=""/></div>
 <map name="src_2gams_2utility_2GPS__Frame_8h" id="src_2gams_2utility_2GPS__Frame_8h">
-<area shape="rect" id="node2" href="../../dc/dd4/Reference__Frame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="826,95,961,121"/><area shape="rect" id="node3" href="../../db/d98/GAMS__Export_8h.html" title="gams/GAMS_Export.h" alt="" coords="102,393,255,420"/><area shape="rect" id="node12" href="../../d7/db5/Pose_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="967,169,1102,196"/><area shape="rect" id="node16" href="../../d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="994,244,1147,271"/><area shape="rect" id="node18" href="../../d0/d8f/Rotation_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="817,244,969,271"/><area shape="rect" id="node17" href="../../d6/df6/Coordinate_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="959,319,1126,345"/></map>
+<area shape="rect" id="node2" href="../../dc/dd4/Reference__Frame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="548,169,683,196"/><area shape="rect" id="node23" href="../../d0/dc5/GPS__Frame_8inl.html" title="GPS_Frame.inl" alt="" coords="607,95,717,121"/><area shape="rect" id="node3" href="../../db/d98/GAMS__Export_8h.html" title="gams/GAMS_Export.h" alt="" coords="5,543,159,569"/><area shape="rect" id="node5" href="../../d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="183,543,343,569"/><area shape="rect" id="node9" href="../../da/dea/Reference__Frame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="653,244,794,271"/><area shape="rect" id="node10" href="../../d7/db5/Pose_8h.html" title="gams/utility/Pose.h" alt="" coords="656,319,791,345"/><area shape="rect" id="node12" href="../../d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="875,393,1028,420"/><area shape="rect" id="node19" href="../../d0/d8f/Rotation_8h.html" title="gams/utility/Rotation.h" alt="" coords="647,393,799,420"/><area shape="rect" id="node22" href="../../d0/d33/Pose_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="503,393,573,420"/><area shape="rect" id="node13" href="../../d6/df6/Coordinate_8h.html" title="gams/utility/Coordinate.h" alt="" coords="296,468,463,495"/><area shape="rect" id="node18" href="../../df/d2b/Location_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1037,468,1125,495"/><area shape="rect" id="node15" href="../../de/d36/Coordinate_8inl.html" title="Coordinate.inl" alt="" coords="367,543,469,569"/><area shape="rect" id="node21" href="../../d8/d6e/Rotation_8inl.html" title="Rotation.inl" alt="" coords="875,468,961,495"/></map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -135,7 +133,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html">gams::utility::GPS_Frame</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default, Earth): x is Latitude y is Longitude z is Altitude (above assumed perfectly spherical surface) Rotations represented as Euler angles, applied in this order: alpha degrees around axis pointing towards north pole at current location At north pole: points towards 0 Longitude; at south pole, towards 180 Longitude beta degrees around axis pointing west at current location At north and south poles: axis points towards 90W Longitude gamma degrees around axis pointing upwards (i.e, normal vector) at current location.  <a href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default, Earth): x is Latitude y is Longitude z is Altitude (above assumed perfectly spherical surface) Rotations represented in Axis Angle notation Axis rx points towards north pole Axis ry points west at current location Axis rz points upwards (i.e, normal vector)  <a href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -146,33 +144,13 @@ Namespaces</h2></td></tr>
 <tr class="memitem:da/d4b/namespacegams_1_1utility"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">gams::utility</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Copyright (c) 2015 Carnegie Mellon University. </p>
-<p>All Rights Reserved.</p>
-<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
-<ol type="1">
-<li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following acknowledgments and disclaimers.</li>
-<li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
-<li>The names "Carnegie Mellon University," "SEI" and/or "Software
-   Engineering Institute" shall not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact <a href="#" onclick="location.href='mai'+'lto:'+'per'+'mi'+'ssi'+'on'+'@se'+'i.'+'cmu'+'.e'+'du'; return false;">permi<span style="display: none;">.nosp@m.</span>ssio<span style="display: none;">.nosp@m.</span>n@sei<span style="display: none;">.nosp@m.</span>.cmu<span style="display: none;">.nosp@m.</span>.edu</a>.</li>
-<li>Products derived from this software may not be called "SEI" nor may "SEI" appear in their names without prior written permission of <a href="#" onclick="location.href='mai'+'lto:'+'per'+'mi'+'ssi'+'on'+'@se'+'i.'+'cmu'+'.e'+'du'; return false;">permi<span style="display: none;">.nosp@m.</span>ssio<span style="display: none;">.nosp@m.</span>n@sei<span style="display: none;">.nosp@m.</span>.cmu<span style="display: none;">.nosp@m.</span>.edu</a>.</li>
-<li><p class="startli">Redistributions of any form whatsoever must retain the following acknowledgment:</p>
-<p class="startli">This material is based upon work funded and supported by the Department of Defense under Contract No. FA8721-05-C-0003 with Carnegie Mellon University for the operation of the Software Engineering Institute, a federally funded research and development center. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the United States Department of Defense.</p>
-<p class="startli">NO WARRANTY. THIS CARNEGIE MELLON UNIVERSITY AND SOFTWARE ENGINEERING INSTITUTE MATERIAL IS FURNISHED ON AN "AS-IS" BASIS. CARNEGIE MELLON UNIVERSITY MAKES NO WARRANTIES OF ANY KIND, EITHER EXPRESSED OR IMPLIED, AS TO ANY MATTER INCLUDING, BUT NOT LIMITED TO, WARRANTY OF FITNESS FOR PURPOSE OR MERCHANTABILITY, EXCLUSIVITY, OR RESULTS OBTAINED FROM USE OF THE MATERIAL. CARNEGIE MELLON UNIVERSITY DOES NOT MAKE ANY WARRANTY OF ANY KIND WITH RESPECT TO FREEDOM FROM PATENT, TRADEMARK, OR COPYRIGHT INFRINGEMENT.</p>
-<p class="startli">This material has been approved for public release and unlimited distribution.</p>
-</li>
-</ol>
-<dl class="section author"><dt>Author</dt><dd>James Edmondson <a href="#" onclick="location.href='mai'+'lto:'+'jed'+'mo'+'nds'+'on'+'@gm'+'ai'+'l.c'+'om'; return false;">jedmo<span style="display: none;">.nosp@m.</span>ndso<span style="display: none;">.nosp@m.</span>n@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a></dd></dl>
-<p>This file contains the base reference Frame class </p>
-
-<p>Definition in file <a class="el" href="../../d3/daf/GPS__Frame_8h_source.html">GPS_Frame.h</a>.</p>
-</div></div><!-- contents -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_e1406cd850b444c8c135213175f9bbdb.html">utility</a></li><li class="navelem"><a class="el" href="../../d3/daf/GPS__Frame_8h.html">GPS_Frame.h</a></li>
-    <li class="footer">Generated on Thu Jul 2 2015 15:49:27 for GAMS by
+    <li class="footer">Generated on Sat Jul 25 2015 03:30:30 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

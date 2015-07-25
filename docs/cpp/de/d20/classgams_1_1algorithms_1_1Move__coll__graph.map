@@ -1,5 +1,5 @@
 <map id="gams::algorithms::Move" name="gams::algorithms::Move">
-<area shape="rect" id="node2" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="gams::algorithms::Base\l_Algorithm" alt="" coords="1419,167,1579,209"/>
+<area shape="rect" id="node2" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1419,167,1579,209"/>
 <area shape="rect" id="node3" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="1160,202,1313,243"/>
 <area shape="rect" id="node4" title="STL class. " alt="" coords="793,319,914,345"/>
 <area shape="rect" id="node15" title="STL class. " alt="" coords="992,253,1105,280"/>

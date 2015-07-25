@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.11</span>
+   &#160;<span id="projectnumber">0.8.13</span>
    </div>
   </td>
  </tr>
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d1/d2e/classgams_1_1utility_1_1bad__co
 </div><!--header-->
 <div class="contents">
 
-<p>Thrown when a reference frame function is called with a coordinate type (e.g., <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>, <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a>) that frame does not support.  
+<p>Thrown when a reference frame function is called with a <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> type (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>, <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a>) that frame does not support.  
  <a href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>&gt;</code></p>
@@ -143,6 +143,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:acadfb61e01007d6ad12a02e23085c8d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#acadfb61e01007d6ad12a02e23085c8d7">bad_coord_type</a> (const <a class="el" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html">Reference_Frame</a> &amp;<a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#a2f305749f88934b145611125da07ca40">frame</a>, const std::string &amp;<a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#ab978a18c40753d81fd7f6d4cf0df05a8">fn_name</a>)</td></tr>
+<tr class="memdesc:acadfb61e01007d6ad12a02e23085c8d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The only Constructor.  <a href="#acadfb61e01007d6ad12a02e23085c8d7">More...</a><br /></td></tr>
 <tr class="separator:acadfb61e01007d6ad12a02e23085c8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a626061431c41ebbbb64ea1f08582225c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#a626061431c41ebbbb64ea1f08582225c">~bad_coord_type</a> ()  throw ()</td></tr>
 <tr class="separator:a626061431c41ebbbb64ea1f08582225c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,9 +161,15 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename CoordType&gt;<br />
 class gams::utility::bad_coord_type&lt; CoordType &gt;</h3>
 
-<p>Thrown when a reference frame function is called with a coordinate type (e.g., <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>, <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a>) that frame does not support. </p>
+<p>Thrown when a reference frame function is called with a <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> type (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>, <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a>) that frame does not support. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">CoordType</td><td>The kind of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> the error was raised for. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00093">93</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00096">96</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a2826231502ef5eff66d36e2020aec683"></a>
 <div class="memitem">
@@ -176,7 +183,7 @@ template&lt;typename CoordType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00103">103</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00112">112</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
 
 </div>
 </div>
@@ -215,7 +222,16 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00606">606</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>The only Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frame</td><td>the <a class="el" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html" title="Base class for Reference Frames. ">Reference_Frame</a> that the coordinate belongs to </td></tr>
+    <tr><td class="paramname">fn_name</td><td>the name of the function that was called </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../da/dea/Reference__Frame_8inl_source.html#l00427">427</a> of file <a class="el" href="../../da/dea/Reference__Frame_8inl_source.html">Reference_Frame.inl</a>.</p>
 
 </div>
 </div>
@@ -248,7 +264,7 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00097">97</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dea/Reference__Frame_8inl_source.html#l00436">436</a> of file <a class="el" href="../../da/dea/Reference__Frame_8inl_source.html">Reference_Frame.inl</a>.</p>
 
 </div>
 </div>
@@ -265,7 +281,7 @@ template&lt;typename CoordType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00099">99</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00108">108</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +297,7 @@ template&lt;typename CoordType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00100">100</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00109">109</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
 
 </div>
 </div>
@@ -297,12 +313,13 @@ template&lt;typename CoordType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00101">101</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00110">110</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/gams/utility/<a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a></li>
+<li>src/gams/utility/<a class="el" href="../../da/dea/Reference__Frame_8inl_source.html">Reference_Frame.inl</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -310,7 +327,7 @@ template&lt;typename CoordType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html">bad_coord_type</a></li>
-    <li class="footer">Generated on Thu Jul 2 2015 15:49:28 for GAMS by
+    <li class="footer">Generated on Sat Jul 25 2015 03:30:32 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
