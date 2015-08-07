@@ -1,5 +1,5 @@
 <map id="gams::algorithms::area_coverage::Snake_Area_Coverage_Factory" name="gams::algorithms::area_coverage::Snake_Area_Coverage_Factory">
-<area shape="rect" id="node2" href="$d3/d08/classgams_1_1algorithms_1_1Algorithm__Factory.html" title="Base class for algorithm factories to create Base_Algorithms. " alt="" coords="1357,89,1543,130"/>
+<area shape="rect" id="node2" href="$d3/d08/classgams_1_1algorithms_1_1Algorithm__Factory.html" title="Base class for algorithm factories that classes derived from. " alt="" coords="1357,89,1543,130"/>
 <area shape="rect" id="node3" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="1099,135,1252,177"/>
 <area shape="rect" id="node4" title="STL class. " alt="" coords="793,79,914,105"/>
 <area shape="rect" id="node14" title="STL class. " alt="" coords="961,5,1075,32"/>

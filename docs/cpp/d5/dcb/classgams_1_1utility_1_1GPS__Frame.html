@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.13</span>
+   &#160;<span id="projectnumber">0.8.18</span>
    </div>
   </td>
  </tr>
@@ -245,10 +245,10 @@ Static Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:acaaaa01324b793764134fb2c07e1a6dc"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#acaaaa01324b793764134fb2c07e1a6dc">calc_distance</a> (double x1, double y1, double z1, double x2, double y2, double z2) const </td></tr>
-<tr class="memdesc:acaaaa01324b793764134fb2c07e1a6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for new coordinate systems.  <a href="#acaaaa01324b793764134fb2c07e1a6dc">More...</a><br /></td></tr>
+<tr class="memdesc:acaaaa01324b793764134fb2c07e1a6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates distance from one point to another.  <a href="#acaaaa01324b793764134fb2c07e1a6dc">More...</a><br /></td></tr>
 <tr class="separator:acaaaa01324b793764134fb2c07e1a6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a179d2f381b8a11803f1d69ba014ade4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#a179d2f381b8a11803f1d69ba014ade4e">do_normalize_location</a> (double &amp;x, double &amp;y, double &amp;z) const </td></tr>
-<tr class="memdesc:a179d2f381b8a11803f1d69ba014ade4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for new coordinate systems that can require normalization of coordinates, e.g., angle-based systems.  <a href="#a179d2f381b8a11803f1d69ba014ade4e">More...</a><br /></td></tr>
+<tr class="memdesc:a179d2f381b8a11803f1d69ba014ade4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes a location.  <a href="#a179d2f381b8a11803f1d69ba014ade4e">More...</a><br /></td></tr>
 <tr class="separator:a179d2f381b8a11803f1d69ba014ade4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff0669f1517c49efb432ce316862d26c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da8/classgams_1_1utility_1_1Reference__Frame.html#aff0669f1517c49efb432ce316862d26c">do_normalize_rotation</a> (double &amp;rx, double &amp;ry, double &amp;rz) const </td></tr>
 <tr class="memdesc:aff0669f1517c49efb432ce316862d26c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for new coordinate systems that can require normalization of coordinates, e.g., angl-based systems.  <a href="#aff0669f1517c49efb432ce316862d26c">More...</a><br /></td></tr>
@@ -260,10 +260,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a520a6a5de937255375c0cc7123fa72af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates a <a class="el" href="../../d9/db7/classgams_1_1utility_1_1Location__Vector.html" title="Container for Location information, not bound to a frame. ">Location_Vector</a> according to a <a class="el" href="../../df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. ">Rotation_Vector</a>.  <a href="#a520a6a5de937255375c0cc7123fa72af">More...</a><br /></td></tr>
 <tr class="separator:a520a6a5de937255375c0cc7123fa72af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad03a98d6d4442e27676a33ddff4a6d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#aad03a98d6d4442e27676a33ddff4a6d5">transform_location_from_origin</a> (double &amp;x, double &amp;y, double &amp;z) const </td></tr>
-<tr class="memdesc:aad03a98d6d4442e27676a33ddff4a6d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for new coordinate systems.  <a href="#aad03a98d6d4442e27676a33ddff4a6d5">More...</a><br /></td></tr>
+<tr class="memdesc:aad03a98d6d4442e27676a33ddff4a6d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a location from origin.  <a href="#aad03a98d6d4442e27676a33ddff4a6d5">More...</a><br /></td></tr>
 <tr class="separator:aad03a98d6d4442e27676a33ddff4a6d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70ad043fa83201684b9ecc6854e7a7ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#a70ad043fa83201684b9ecc6854e7a7ea">transform_location_to_origin</a> (double &amp;x, double &amp;y, double &amp;z) const </td></tr>
-<tr class="memdesc:a70ad043fa83201684b9ecc6854e7a7ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for new coordinate systems.  <a href="#a70ad043fa83201684b9ecc6854e7a7ea">More...</a><br /></td></tr>
+<tr class="memdesc:a70ad043fa83201684b9ecc6854e7a7ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a location to origin.  <a href="#a70ad043fa83201684b9ecc6854e7a7ea">More...</a><br /></td></tr>
 <tr class="separator:a70ad043fa83201684b9ecc6854e7a7ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
@@ -645,7 +645,6 @@ template&lt;typename CoordType &gt; </div>
   <table class="params">
     <tr><td class="paramname">coord1</td><td>The coordinate to measure from </td></tr>
     <tr><td class="paramname">coord2</td><td>The coordinate to measure to </td></tr>
-    <tr><td class="paramname">frame</td><td>the reference frame to calculate within. Must be the frame of coord1 and coord2. </td></tr>
   </table>
   </dd>
 </dl>
@@ -712,16 +711,18 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Override for new coordinate systems. </p>
-<p>By default, throws <a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Location, Rotation) that frame does not support. ">bad_coord_type</a>.</p>
+<p>Calculates distance from one point to another. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">loc1</td><td>Distance from this location </td></tr>
-    <tr><td class="paramname">loc2</td><td>Distance to this location </td></tr>
+    <tr><td class="paramname">x1</td><td>the x coordinate of the first point </td></tr>
+    <tr><td class="paramname">y1</td><td>the y coordinate of the first point </td></tr>
+    <tr><td class="paramname">z1</td><td>the z coordinate of the first point </td></tr>
+    <tr><td class="paramname">x2</td><td>the x coordinate of the second point </td></tr>
+    <tr><td class="paramname">y2</td><td>the y coordinate of the second point </td></tr>
+    <tr><td class="paramname">z2</td><td>the z coordinate of the second point </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>distance in meters from loc1 to loc2 </dd></dl>
 <p>Calculate great circle distance using numerically stable formula from <a href="http://en.wikipedia.org/w/index.php?title=Great-circle_distance&oldid=659855779">http://en.wikipedia.org/w/index.php?title=Great-circle_distance&amp;oldid=659855779</a> Second formula in "Computational formulas"</p>
 <p>atan2(0, 0) is undefined, but for our purposes, we can treat it as 0</p>
 
@@ -1008,11 +1009,12 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Override for new coordinate systems that can require normalization of coordinates, e.g., angle-based systems. </p>
-<p>NOP by default.</p>
+<p>Normalizes a location. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>transforms parameter into normalized form </td></tr>
+    <tr><td class="paramname">x</td><td>the x coordinate </td></tr>
+    <tr><td class="paramname">y</td><td>the y coordinate </td></tr>
+    <tr><td class="paramname">z</td><td>the z coordinate </td></tr>
   </table>
   </dd>
 </dl>
@@ -1065,7 +1067,9 @@ template&lt;typename CoordType &gt; </div>
 <p>NOP by default.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>transforms parameter into normalized form </td></tr>
+    <tr><td class="paramname">rx</td><td>x axis of rotation </td></tr>
+    <tr><td class="paramname">ry</td><td>y axis of rotation </td></tr>
+    <tr><td class="paramname">rz</td><td>z axis of rotation </td></tr>
   </table>
   </dd>
 </dl>
@@ -1673,7 +1677,9 @@ template&lt;&gt; </div>
 <p>Rotates a <a class="el" href="../../d9/db7/classgams_1_1utility_1_1Location__Vector.html" title="Container for Location information, not bound to a frame. ">Location_Vector</a> according to a <a class="el" href="../../df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. ">Rotation_Vector</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">loc</td><td>the <a class="el" href="../../d9/db7/classgams_1_1utility_1_1Location__Vector.html" title="Container for Location information, not bound to a frame. ">Location_Vector</a> to rotate (in-place) </td></tr>
+    <tr><td class="paramname">x</td><td>the x coordinate to rotate (in-place) </td></tr>
+    <tr><td class="paramname">y</td><td>the y coordinate to rotate (in-place) </td></tr>
+    <tr><td class="paramname">z</td><td>the z coordinate to rotate (in-place) </td></tr>
     <tr><td class="paramname">rot</td><td>the rotation to apply, axis-angle notation </td></tr>
     <tr><td class="paramname">reverse</td><td>if true, apply rotation in opposite direction </td></tr>
   </table>
@@ -1903,7 +1909,7 @@ template&lt;typename CoordType &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">in</td><td>the <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to transform. This object may be modified. </td></tr>
-    <tr><td class="paramname">frame</td><td>the frame to transform into. Must be origin of in. </td></tr>
+    <tr><td class="paramname">to_frame</td><td>the frame to transform into. Must be origin of in. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1950,11 +1956,12 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Override for new coordinate systems. </p>
-<p>By default, throws <a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Location, Rotation) that frame does not support. ">bad_coord_type</a>.</p>
+<p>Transforms a location from origin. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>transforms parameter into this frame from origin frame. </td></tr>
+    <tr><td class="paramname">x</td><td>the x coordinate </td></tr>
+    <tr><td class="paramname">y</td><td>the y coordinate </td></tr>
+    <tr><td class="paramname">z</td><td>the z coordinate </td></tr>
   </table>
   </dd>
 </dl>
@@ -2003,11 +2010,12 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Override for new coordinate systems. </p>
-<p>By default, throws <a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Location, Rotation) that frame does not support. ">bad_coord_type</a>.</p>
+<p>Transforms a location to origin. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>transforms parameter into origin frame from this frame. </td></tr>
+    <tr><td class="paramname">x</td><td>the x coordinate </td></tr>
+    <tr><td class="paramname">y</td><td>the y coordinate </td></tr>
+    <tr><td class="paramname">z</td><td>the z coordinate </td></tr>
   </table>
   </dd>
 </dl>
@@ -2061,7 +2069,7 @@ template&lt;typename CoordType &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">the</td><td>coordinate to transform (in-place) </td></tr>
+    <tr><td class="paramname">in</td><td>the coordinate to transform (in-place) </td></tr>
     <tr><td class="paramname">to_frame</td><td>the frame to transform into</td></tr>
   </table>
   </dd>
@@ -2196,7 +2204,6 @@ template&lt;typename CoordType &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">in</td><td>the <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to transform. This object may be modified. </td></tr>
-    <tr><td class="paramname">frame</td><td>the frame to transform into. Must be origin of in. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2224,7 +2231,7 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00491">491</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00508">508</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
 
 </div>
 </div>
@@ -2316,7 +2323,7 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00490">490</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00507">507</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
 
 </div>
 </div>
@@ -2338,7 +2345,7 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/daf/GPS__Frame_8h_source.html#l00175">175</a> of file <a class="el" href="../../d3/daf/GPS__Frame_8h_source.html">GPS_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/daf/GPS__Frame_8h_source.html#l00202">202</a> of file <a class="el" href="../../d3/daf/GPS__Frame_8h_source.html">GPS_Frame.h</a>.</p>
 
 </div>
 </div>
@@ -2353,7 +2360,7 @@ template&lt;typename CoordType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html">GPS_Frame</a></li>
-    <li class="footer">Generated on Sat Jul 25 2015 03:30:32 for GAMS by
+    <li class="footer">Generated on Fri Aug 7 2015 02:06:17 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

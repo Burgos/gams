@@ -7,7 +7,7 @@ var searchData=
   ['base_5falgorithm',['Base_Algorithm',['../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#acd055ee40704d561938c361bef7a530a',1,'gams::algorithms::Base_Algorithm']]],
   ['base_5falgorithm_2ecpp',['Base_Algorithm.cpp',['../d3/db4/Base__Algorithm_8cpp.html',1,'']]],
   ['base_5falgorithm_2eh',['Base_Algorithm.h',['../d3/d8e/Base__Algorithm_8h.html',1,'']]],
-  ['base_5farea_5fcoverage',['Base_Area_Coverage',['../d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#ad1769b93a4190444aad5f724c1bae946',1,'gams::algorithms::area_coverage::Base_Area_Coverage']]],
+  ['base_5farea_5fcoverage',['Base_Area_Coverage',['../d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a4eee8278e85e2b40133c6df86f41d49a',1,'gams::algorithms::area_coverage::Base_Area_Coverage']]],
   ['base_5farea_5fcoverage',['Base_Area_Coverage',['../d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html',1,'gams::algorithms::area_coverage']]],
   ['base_5farea_5fcoverage_2ecpp',['Base_Area_Coverage.cpp',['../d3/dc6/Base__Area__Coverage_8cpp.html',1,'']]],
   ['base_5farea_5fcoverage_2eh',['Base_Area_Coverage.h',['../d1/dd9/Base__Area__Coverage_8h.html',1,'']]],

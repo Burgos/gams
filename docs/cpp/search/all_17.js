@@ -3,7 +3,7 @@ var searchData=
   ['w',['w',['../db/d2d/classgams_1_1utility_1_1Quaternion.html#af88cd2461bbb0426eff471bbc5cce88a',1,'gams::utility::Quaternion::w() const '],['../db/d2d/classgams_1_1utility_1_1Quaternion.html#a557861390c2a269107953130c1d606dd',1,'gams::utility::Quaternion::w(double new_w)']]],
   ['w_5f',['w_',['../db/d2d/classgams_1_1utility_1_1Quaternion.html#a29f019368b7b25d6350f9597cdc57548',1,'gams::utility::Quaternion']]],
   ['wait',['Wait',['../d9/d6f/classgams_1_1algorithms_1_1Wait.html',1,'gams::algorithms']]],
-  ['wait',['Wait',['../d9/d6f/classgams_1_1algorithms_1_1Wait.html#a35a64626a12e737e4a95944dcf951190',1,'gams::algorithms::Wait']]],
+  ['wait',['Wait',['../d9/d6f/classgams_1_1algorithms_1_1Wait.html#af666eeeea54f6edc5284c9d80f71490d',1,'gams::algorithms::Wait']]],
   ['wait_2ecpp',['Wait.cpp',['../dd/d13/Wait_8cpp.html',1,'']]],
   ['wait_2eh',['Wait.h',['../d0/d74/Wait_8h.html',1,'']]],
   ['wait_5ffactory',['Wait_Factory',['../d1/d7b/classgams_1_1algorithms_1_1Wait__Factory.html',1,'gams::algorithms']]],

@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1Wait =
 [
-    [ "Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a35a64626a12e737e4a95944dcf951190", null ],
+    [ "Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#af666eeeea54f6edc5284c9d80f71490d", null ],
     [ "~Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a42211ef97892c8580fbe9be2401d462a", null ],
     [ "analyze", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a65192355627311d5f820179cec459ee4", null ],
     [ "execute", "d9/d6f/classgams_1_1algorithms_1_1Wait.html#a192fe56cd1932ce844e1e8c368f3215f", null ],

@@ -1,3 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d5/d9f/classgams_1_1utility_1_1Search__Area.html" title="gams::utility::Search_Area" alt="" coords="5,5,181,32"/>
+<area shape="rect" id="node1" href="$d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html" title="For internal use. " alt="" coords="5,209,205,235"/>
+<area shape="rect" id="node2" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Location \&gt;" alt="" coords="253,267,416,308"/>
+<area shape="rect" id="node4" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="464,324,627,365"/>
+<area shape="rect" id="node6" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Rotation \&gt;" alt="" coords="253,5,416,47"/>
+<area shape="rect" id="node8" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame&#45;dependant can inherit from this class. " alt="" coords="253,136,416,177"/>
+<area shape="rect" id="node3" href="$de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. " alt="" coords="470,270,621,297"/>
+<area shape="rect" id="node5" href="$dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="675,270,805,297"/>
+<area shape="rect" id="node7" href="$da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. " alt="" coords="471,46,620,73"/>
+<area shape="rect" id="node9" href="$d9/db7/classgams_1_1utility_1_1Location__Vector.html" title="Container for Location information, not bound to a frame. " alt="" coords="259,201,410,243"/>
+<area shape="rect" id="node10" href="$d0/d36/classgams_1_1utility_1_1Pose__Vector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="480,201,611,243"/>
+<area shape="rect" id="node11" href="$df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="260,71,409,112"/>
 </map>

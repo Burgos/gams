@@ -20,6 +20,7 @@ var hierarchy =
       [ "gams::algorithms::Follow_Factory", "d2/d1f/classgams_1_1algorithms_1_1Follow__Factory.html", null ],
       [ "gams::algorithms::Formation_Coverage_Factory", "d2/d7c/classgams_1_1algorithms_1_1Formation__Coverage__Factory.html", null ],
       [ "gams::algorithms::Formation_Flying_Factory", "d0/dbb/classgams_1_1algorithms_1_1Formation__Flying__Factory.html", null ],
+      [ "gams::algorithms::Java_Algorithm_Factory", "de/deb/classgams_1_1algorithms_1_1Java__Algorithm__Factory.html", null ],
       [ "gams::algorithms::Land_Factory", "d7/d4b/classgams_1_1algorithms_1_1Land__Factory.html", null ],
       [ "gams::algorithms::Message_Profiling_Factory", "d2/d0a/classgams_1_1algorithms_1_1Message__Profiling__Factory.html", null ],
       [ "gams::algorithms::Move_Factory", "d2/df0/classgams_1_1algorithms_1_1Move__Factory.html", null ],
@@ -64,6 +65,13 @@ var hierarchy =
       [ "gams::platforms::Drone_RK", "df/d3b/classgams_1_1platforms_1_1Drone__RK.html", null ],
       [ "gams::platforms::Java_Platform", "da/dc8/classgams_1_1platforms_1_1Java__Platform.html", null ],
       [ "gams::platforms::Null_Platform", "da/d8e/classgams_1_1platforms_1_1Null__Platform.html", null ]
+    ] ],
+    [ "gams::algorithms::Formation_Flying::compiled", "db/d49/structgams_1_1algorithms_1_1Formation__Flying_1_1compiled.html", null ],
+    [ "gams::utility::Containerize", "de/d8c/classgams_1_1utility_1_1Containerize.html", [
+      [ "gams::utility::Region", "da/db7/classgams_1_1utility_1_1Region.html", [
+        [ "gams::utility::Prioritized_Region", "dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html", null ]
+      ] ],
+      [ "gams::utility::Search_Area", "d5/d9f/classgams_1_1utility_1_1Search__Area.html", null ]
     ] ],
     [ "gams::algorithms::Controller_Algorithm_Factory", "d6/dc2/classgams_1_1algorithms_1_1Controller__Algorithm__Factory.html", null ],
     [ "gams::platforms::Controller_Platform_Factory", "d9/d8d/classgams_1_1platforms_1_1Controller__Platform__Factory.html", null ],
@@ -111,18 +119,13 @@ var hierarchy =
         [ "gams::utility::GPS_Frame", "d5/dcb/classgams_1_1utility_1_1GPS__Frame.html", null ]
       ] ]
     ] ],
-    [ "gams::utility::Region", "da/db7/classgams_1_1utility_1_1Region.html", [
-      [ "gams::utility::Prioritized_Region", "dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html", null ]
-    ] ],
     [ "gams::variables::Region", "d1/d5e/classgams_1_1variables_1_1Region.html", null ],
     [ "gams::utility::Rotation_Vector", "df/dee/classgams_1_1utility_1_1Rotation__Vector.html", [
       [ "gams::utility::Pose_Vector", "d0/d36/classgams_1_1utility_1_1Pose__Vector.html", null ],
       [ "gams::utility::Rotation", "da/da5/classgams_1_1utility_1_1Rotation.html", null ]
     ] ],
-    [ "gams::utility::Search_Area", "d5/d9f/classgams_1_1utility_1_1Search__Area.html", null ],
     [ "gams::variables::Search_Area", "d3/d11/classgams_1_1variables_1_1Search__Area.html", null ],
     [ "gams::variables::Self", "d4/d98/classgams_1_1variables_1_1Self.html", null ],
     [ "gams::variables::Sensor", "db/d7d/classgams_1_1variables_1_1Sensor.html", null ],
-    [ "sort_by_angle", "de/d32/structsort__by__angle.html", null ],
     [ "gams::variables::Swarm", "d4/dde/classgams_1_1variables_1_1Swarm.html", null ]
 ];

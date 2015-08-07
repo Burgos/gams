@@ -12,7 +12,7 @@ var classgams_1_1utility_1_1Quaternion =
     [ "from_rotation_vector", "db/d2d/classgams_1_1utility_1_1Quaternion.html#a36f2bfd9efd3c87a4c556d0179988c05", null ],
     [ "hamilton_product", "db/d2d/classgams_1_1utility_1_1Quaternion.html#ad8c6fd28052581af27753df268716414", null ],
     [ "inner_product", "db/d2d/classgams_1_1utility_1_1Quaternion.html#a2d3e70ae5be21ad997cd33b8339f00f8", null ],
-    [ "operator*", "db/d2d/classgams_1_1utility_1_1Quaternion.html#a7f9cc6ad02f5f49a407426c290fa1a25", null ],
+    [ "operator*", "db/d2d/classgams_1_1utility_1_1Quaternion.html#af5a4e7c3927deba699a51f2c97cbdccd", null ],
     [ "operator*=", "db/d2d/classgams_1_1utility_1_1Quaternion.html#a4576a36d57c4e1f11ccdcee9ea59f86b", null ],
     [ "operator-", "db/d2d/classgams_1_1utility_1_1Quaternion.html#ab4a858471bc8454a33c55a88b69e26b5", null ],
     [ "to_location_vector", "db/d2d/classgams_1_1utility_1_1Quaternion.html#a0e318e0be1d14a93048da64382aa4e0e", null ],

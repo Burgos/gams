@@ -10,6 +10,10 @@ var dir_e1406cd850b444c8c135213175f9bbdb =
       [ "Cartesian_Frame", "d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html", "d2/d9a/classgams_1_1utility_1_1Cartesian__Frame" ]
     ] ],
     [ "Cartesian_Frame.inl", "db/d81/Cartesian__Frame_8inl.html", "db/d81/Cartesian__Frame_8inl" ],
+    [ "Containerize.cpp", "d1/d33/Containerize_8cpp.html", null ],
+    [ "Containerize.h", "dd/df2/Containerize_8h.html", [
+      [ "Containerize", "de/d8c/classgams_1_1utility_1_1Containerize.html", "de/d8c/classgams_1_1utility_1_1Containerize" ]
+    ] ],
     [ "Coordinate.h", "d6/df6/Coordinate_8h.html", "d6/df6/Coordinate_8h" ],
     [ "Coordinate.inl", "de/d36/Coordinate_8inl.html", "de/d36/Coordinate_8inl" ],
     [ "GAMS_Logger_Export.h", "dd/d12/GAMS__Logger__Export_8h.html", "dd/d12/GAMS__Logger__Export_8h" ],
@@ -37,7 +41,9 @@ var dir_e1406cd850b444c8c135213175f9bbdb =
       [ "Position", "df/d4e/classgams_1_1utility_1_1Position.html", "df/d4e/classgams_1_1utility_1_1Position" ]
     ] ],
     [ "Prioritized_Region.cpp", "d9/d27/Prioritized__Region_8cpp.html", null ],
-    [ "Prioritized_Region.h", "d2/dda/Prioritized__Region_8h.html", "d2/dda/Prioritized__Region_8h" ],
+    [ "Prioritized_Region.h", "d2/dda/Prioritized__Region_8h.html", [
+      [ "Prioritized_Region", "dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html", "dc/d0c/classgams_1_1utility_1_1Prioritized__Region" ]
+    ] ],
     [ "Quaternion.h", "d1/d4a/Quaternion_8h.html", [
       [ "Quaternion", "db/d2d/classgams_1_1utility_1_1Quaternion.html", "db/d2d/classgams_1_1utility_1_1Quaternion" ]
     ] ],
@@ -46,9 +52,13 @@ var dir_e1406cd850b444c8c135213175f9bbdb =
     [ "Reference_Frame.h", "dc/dd4/Reference__Frame_8h.html", "dc/dd4/Reference__Frame_8h" ],
     [ "Reference_Frame.inl", "da/dea/Reference__Frame_8inl.html", "da/dea/Reference__Frame_8inl" ],
     [ "Region.cpp", "d6/d45/utility_2Region_8cpp.html", "d6/d45/utility_2Region_8cpp" ],
-    [ "Region.h", "da/d9f/utility_2Region_8h.html", "da/d9f/utility_2Region_8h" ],
+    [ "Region.h", "da/d9f/utility_2Region_8h.html", [
+      [ "Region", "da/db7/classgams_1_1utility_1_1Region.html", "da/db7/classgams_1_1utility_1_1Region" ]
+    ] ],
     [ "Rotation.h", "d0/d8f/Rotation_8h.html", "d0/d8f/Rotation_8h" ],
     [ "Rotation.inl", "d8/d6e/Rotation_8inl.html", "d8/d6e/Rotation_8inl" ],
     [ "Search_Area.cpp", "dd/dfc/utility_2Search__Area_8cpp.html", "dd/dfc/utility_2Search__Area_8cpp" ],
-    [ "Search_Area.h", "d2/d7f/utility_2Search__Area_8h.html", "d2/d7f/utility_2Search__Area_8h" ]
+    [ "Search_Area.h", "d2/d7f/utility_2Search__Area_8h.html", [
+      [ "Search_Area", "d5/d9f/classgams_1_1utility_1_1Search__Area.html", "d5/d9f/classgams_1_1utility_1_1Search__Area" ]
+    ] ]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['none',['NONE',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a082c1b55907b26651f7011b831b243d9a05dceb6f75b3e267d2aa6386d2834805',1,'gams::algorithms::Formation_Flying']]]
+  ['movement_5favailable',['MOVEMENT_AVAILABLE',['../d2/dd3/namespacegams_1_1platforms.html#a1ed36f0b5e84d34eca7d1b8b12d534d3a82266d10ad3659f6d1f1da1949cd34e6',1,'gams::platforms']]],
+  ['moving',['MOVING',['../d2/dd3/namespacegams_1_1platforms.html#a1ed36f0b5e84d34eca7d1b8b12d534d3a8890b03dfbeece2d3d7010bfe668d2d4',1,'gams::platforms']]]
 ];

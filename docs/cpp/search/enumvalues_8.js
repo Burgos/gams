@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['platform_5farrived',['PLATFORM_ARRIVED',['../d2/dd3/namespacegams_1_1platforms.html#ad70cdfa6d5ad4bda56a609f45d1f0851a576fdd2799fd94a4c73ebeb4a19951e8',1,'gams::platforms']]],
-  ['platform_5ferror',['PLATFORM_ERROR',['../d2/dd3/namespacegams_1_1platforms.html#ad70cdfa6d5ad4bda56a609f45d1f0851a1079a0bf108d15bb4d2a9bae82e39b1b',1,'gams::platforms']]],
-  ['platform_5fin_5fprogress',['PLATFORM_IN_PROGRESS',['../d2/dd3/namespacegams_1_1platforms.html#ad70cdfa6d5ad4bda56a609f45d1f0851a5fea95193776cdfcc6313c4ae02b5ee2',1,'gams::platforms']]],
-  ['platform_5fmoving',['PLATFORM_MOVING',['../d2/dd3/namespacegams_1_1platforms.html#ad70cdfa6d5ad4bda56a609f45d1f0851abf3f9eb6a73c16b797b496a568182fb8',1,'gams::platforms']]]
+  ['ok',['OK',['../d3/d47/namespacegams_1_1algorithms.html#a62f00cbe0ca5c67bb191bdb9e9fac73fa74ffbed977a649fc257004b6a09f554c',1,'gams::algorithms::OK()'],['../d2/dd3/namespacegams_1_1platforms.html#a1ed36f0b5e84d34eca7d1b8b12d534d3a5104eac71b7d880ef3320a7497ba7aee',1,'gams::platforms::OK()']]]
 ];

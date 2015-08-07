@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$df/d12/classgams_1_1utility_1_1java_1_1Acquire__VM.html" title="This class encapsulates attaching and detaching to a VM. " alt="" coords="5,5,128,47"/>
+<area shape="rect" id="node1" title="STL class. " alt="" coords="5,78,109,105"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="157,78,281,105"/>
+<area shape="rect" id="node3" href="$d1/d2e/classgams_1_1utility_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Location, Rotation) that frame does not support. " alt="" coords="329,5,508,47"/>
+<area shape="rect" id="node4" href="$d0/d94/classgams_1_1utility_1_1undefined__transform.html" title="Thrown when an attempt is made to transform between two frame types, and there&#39;s not transform define..." alt="" coords="341,71,497,112"/>
+<area shape="rect" id="node5" href="$d5/d1a/classgams_1_1utility_1_1unrelated__frames.html" title="Thrown when an an attempt is made to transform between frames that do not belong to the same frame tr..." alt="" coords="341,136,496,177"/>
 </map>

@@ -15,6 +15,7 @@ var namespacegams_1_1algorithms =
     [ "Formation_Flying", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying" ],
     [ "Formation_Flying_Factory", "d0/dbb/classgams_1_1algorithms_1_1Formation__Flying__Factory.html", "d0/dbb/classgams_1_1algorithms_1_1Formation__Flying__Factory" ],
     [ "Java_Algorithm", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm" ],
+    [ "Java_Algorithm_Factory", "de/deb/classgams_1_1algorithms_1_1Java__Algorithm__Factory.html", "de/deb/classgams_1_1algorithms_1_1Java__Algorithm__Factory" ],
     [ "Land", "d3/d06/classgams_1_1algorithms_1_1Land.html", "d3/d06/classgams_1_1algorithms_1_1Land" ],
     [ "Land_Factory", "d7/d4b/classgams_1_1algorithms_1_1Land__Factory.html", "d7/d4b/classgams_1_1algorithms_1_1Land__Factory" ],
     [ "Message_Profiling", "de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html", "de/d5b/classgams_1_1algorithms_1_1Message__Profiling" ],

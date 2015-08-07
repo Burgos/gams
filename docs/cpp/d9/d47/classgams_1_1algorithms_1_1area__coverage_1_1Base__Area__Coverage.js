@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage =
 [
-    [ "Base_Area_Coverage", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#ad1769b93a4190444aad5f724c1bae946", null ],
+    [ "Base_Area_Coverage", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a4eee8278e85e2b40133c6df86f41d49a", null ],
     [ "~Base_Area_Coverage", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a26b6e355b37e4f3e39ae55398ee38e92", null ],
     [ "analyze", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a8ea03e3e86b54cdda0263b6720dc4fdf", null ],
     [ "check_if_finished", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a32106d97a6be058365a931dbf30ffc83", null ],

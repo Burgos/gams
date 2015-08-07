@@ -23,6 +23,7 @@ var searchData=
   ['_7egps_5fposition',['~GPS_Position',['../de/d23/classgams_1_1utility_1_1GPS__Position.html#a8ad6d77bc7911c43032a1feda0323684',1,'gams::utility::GPS_Position']]],
   ['_7egrid',['~Grid',['../de/d94/classgams_1_1variables_1_1Grid.html#a8005fd0187b97d4bfbc8962ae8c68f65',1,'gams::variables::Grid']]],
   ['_7ejava_5falgorithm',['~Java_Algorithm',['../db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#ac0160be92fb88b0cab024d687f9b4b8b',1,'gams::algorithms::Java_Algorithm']]],
+  ['_7ejava_5falgorithm_5ffactory',['~Java_Algorithm_Factory',['../de/deb/classgams_1_1algorithms_1_1Java__Algorithm__Factory.html#aa139920eddfcd25f2fe86a598f5a1377',1,'gams::algorithms::Java_Algorithm_Factory']]],
   ['_7ejava_5fplatform',['~Java_Platform',['../da/dc8/classgams_1_1platforms_1_1Java__Platform.html#aad8550a5d5c52befbd8c0e043f77cd8c',1,'gams::platforms::Java_Platform']]],
   ['_7eland',['~Land',['../d3/d06/classgams_1_1algorithms_1_1Land.html#a72779471e27667eadf685a525fe44197',1,'gams::algorithms::Land']]],
   ['_7emape_5floop',['~Mape_Loop',['../dc/da4/classgams_1_1controllers_1_1Mape__Loop.html#a72e5178c340e8a1be03f80c0970f46d9',1,'gams::controllers::Mape_Loop']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mode',['MODE',['../d2/d4c/classgams_1_1algorithms_1_1Move.html#abd1d831ea1447815eab48f2ac42927e7',1,'gams::algorithms::Move']]]
+  ['log_5flevels',['Log_Levels',['../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5',1,'gams::loggers']]]
 ];

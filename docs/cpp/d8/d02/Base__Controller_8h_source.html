@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.13</span>
+   &#160;<span id="projectnumber">0.8.18</span>
    </div>
   </td>
  </tr>
@@ -175,7 +175,7 @@ $(document).ready(function(){initNavTree('d8/d02/Base__Controller_8h_source.html
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;          send_rate = loop_rate;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="comment">// otherwise, set rate to 1s divided by the intended hz</span></div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;          send_hz = 1.0 / send_hz;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;          send_rate = 1.0 / send_hz;</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">return</span> run (loop_rate, max_runtime, send_rate);</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      }</div>
@@ -249,7 +249,7 @@ $(document).ready(function(){initNavTree('d8/d02/Base__Controller_8h_source.html
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;      <span class="keywordtype">int</span> _run_once (<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;      <span class="keywordtype">int</span> run_once_ (<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    };</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  }</div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;}</div>
@@ -258,11 +258,11 @@ $(document).ready(function(){initNavTree('d8/d02/Base__Controller_8h_source.html
 <div class="ttc" id="classgams_1_1platforms_1_1Controller__Platform__Factory_html"><div class="ttname"><a href="../../d9/d8d/classgams_1_1platforms_1_1Controller__Platform__Factory.html">gams::platforms::Controller_Platform_Factory</a></div><div class="ttdoc">The controller&#39;s platform factory. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de3/Controller__Platform__Factory_8h_source.html#l00075">Controller_Platform_Factory.h:75</a></div></div>
 <div class="ttc" id="Platform__Status_8h_html"><div class="ttname"><a href="../../d8/d9c/Platform__Status_8h.html">Platform_Status.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Swarm_html"><div class="ttname"><a href="../../d4/dde/classgams_1_1variables_1_1Swarm.html">gams::variables::Swarm</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d97/Swarm_8h_source.html#l00071">Swarm.h:71</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Algorithm__Factory_html"><div class="ttname"><a href="../../d3/d08/classgams_1_1algorithms_1_1Algorithm__Factory.html">gams::algorithms::Algorithm_Factory</a></div><div class="ttdoc">Base class for algorithm factories to create Base_Algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Algorithm__Factory_8h_source.html#l00071">Algorithm_Factory.h:71</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Algorithm__Factory_html"><div class="ttname"><a href="../../d3/d08/classgams_1_1algorithms_1_1Algorithm__Factory.html">gams::algorithms::Algorithm_Factory</a></div><div class="ttdoc">Base class for algorithm factories that classes derived from. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Algorithm__Factory_8h_source.html#l00072">Algorithm_Factory.h:72</a></div></div>
 <div class="ttc" id="Base__Platform_8h_html"><div class="ttname"><a href="../../dd/d22/Base__Platform_8h.html">Base_Platform.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1controllers_1_1Base__Controller_html_aafd4b89ba5eacf5e7d0a719a9952e4fc"><div class="ttname"><a href="../../d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#aafd4b89ba5eacf5e7d0a719a9952e4fc">gams::controllers::Base_Controller::run_hz</a></div><div class="ttdeci">int run_hz(double loop_hz=0.0, double max_runtime=-1, double send_hz=-1.0)</div><div class="ttdoc">Runs iterations of the MAPE loop with specified hertz. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d02/Base__Controller_8h_source.html#l00157">Base_Controller.h:157</a></div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a309c97d3c93df53b594745fa0ae65ead"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a309c97d3c93df53b594745fa0ae65ead">gams::variables::Devices</a></div><div class="ttdeci">std::vector&lt; Device &gt; Devices</div><div class="ttdoc">An array of devices. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d05/Device_8h_source.html#l00174">Device.h:174</a></div></div>
-<div class="ttc" id="Base__Controller_8cpp_html_a3099567d17e259188019e939ab4281a2"><div class="ttname"><a href="../../d4/db1/Base__Controller_8cpp.html#a3099567d17e259188019e939ab4281a2">Integer</a></div><div class="ttdeci">Madara::Knowledge_Record::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db1/Base__Controller_8cpp_source.html#l00068">Base_Controller.cpp:68</a></div></div>
+<div class="ttc" id="Base__Controller_8cpp_html_a3099567d17e259188019e939ab4281a2"><div class="ttname"><a href="../../d4/db1/Base__Controller_8cpp.html#a3099567d17e259188019e939ab4281a2">Integer</a></div><div class="ttdeci">Madara::Knowledge_Record::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db1/Base__Controller_8cpp_source.html#l00069">Base_Controller.cpp:69</a></div></div>
 <div class="ttc" id="Base__Algorithm_8h_html"><div class="ttname"><a href="../../d3/d8e/Base__Algorithm_8h.html">Base_Algorithm.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1controllers_1_1Base__Controller_html_a7e44b4f04c2f90e9749d06c4ffa9a5c1"><div class="ttname"><a href="../../d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a7e44b4f04c2f90e9749d06c4ffa9a5c1">gams::controllers::Base_Controller::platforms_</a></div><div class="ttdeci">variables::Platforms platforms_</div><div class="ttdoc">Containers for platform information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d02/Base__Controller_8h_source.html#l00320">Base_Controller.h:320</a></div></div>
 <div class="ttc" id="GAMS__Export_8h_html_a4cc3ead869e0824df421cd31894859a7"><div class="ttname"><a href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a></div><div class="ttdeci">#define GAMS_Export</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d98/GAMS__Export_8h_source.html#l00026">GAMS_Export.h:26</a></div></div>
@@ -308,7 +308,7 @@ $(document).ready(function(){initNavTree('d8/d02/Base__Controller_8h_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_174b47d5daecbb167184e9622e397e9f.html">controllers</a></li><li class="navelem"><a class="el" href="../../d8/d02/Base__Controller_8h.html">Base_Controller.h</a></li>
-    <li class="footer">Generated on Sat Jul 25 2015 03:30:29 for GAMS by
+    <li class="footer">Generated on Fri Aug 7 2015 02:06:13 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

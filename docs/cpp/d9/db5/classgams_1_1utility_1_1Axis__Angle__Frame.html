@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.13</span>
+   &#160;<span id="projectnumber">0.8.18</span>
    </div>
   </td>
  </tr>
@@ -303,7 +303,7 @@ Private Member Functions</h2></td></tr>
 <div class="textblock"><p>For internal use. </p>
 <p>Provides implementation of transforms between rotations represented using 3-value axis/angle notation. Inherit from this to use this implementation. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00501">501</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00518">518</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a62b48545ec71dd4ff85055b67409236d"></a>
 <div class="memitem">
@@ -497,8 +497,12 @@ Private Member Functions</h2></td></tr>
 <p>Calculates smallest angle between two Rotation_Vectors. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rot1</td><td>the starting rotation </td></tr>
-    <tr><td class="paramname">rol2</td><td>the ending rotation </td></tr>
+    <tr><td class="paramname">rx1</td><td>the starting rotation on x axis </td></tr>
+    <tr><td class="paramname">ry1</td><td>the starting rotation on y axis </td></tr>
+    <tr><td class="paramname">rz1</td><td>the starting rotation on z axis </td></tr>
+    <tr><td class="paramname">rx2</td><td>the ending rotatation on x axis </td></tr>
+    <tr><td class="paramname">ry2</td><td>the ending rotation on y axis </td></tr>
+    <tr><td class="paramname">rz2</td><td>the ending rotation on z axis </td></tr>
   </table>
   </dd>
 </dl>
@@ -669,7 +673,6 @@ template&lt;typename CoordType &gt; </div>
   <table class="params">
     <tr><td class="paramname">coord1</td><td>The coordinate to measure from </td></tr>
     <tr><td class="paramname">coord2</td><td>The coordinate to measure to </td></tr>
-    <tr><td class="paramname">frame</td><td>the reference frame to calculate within. Must be the frame of coord1 and coord2. </td></tr>
   </table>
   </dd>
 </dl>
@@ -740,8 +743,12 @@ template&lt;typename CoordType &gt; </div>
 <p>By default, throws <a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Location, Rotation) that frame does not support. ">bad_coord_type</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">loc1</td><td>Distance from this location </td></tr>
-    <tr><td class="paramname">loc2</td><td>Distance to this location </td></tr>
+    <tr><td class="paramname">x1</td><td>x coordinate of first position </td></tr>
+    <tr><td class="paramname">y1</td><td>y coordinate of first position </td></tr>
+    <tr><td class="paramname">z1</td><td>z coordinate of first position </td></tr>
+    <tr><td class="paramname">x2</td><td>x coordinate of other position </td></tr>
+    <tr><td class="paramname">y2</td><td>y coordinate of other position </td></tr>
+    <tr><td class="paramname">z2</td><td>z coordinate of other position </td></tr>
   </table>
   </dd>
 </dl>
@@ -971,7 +978,9 @@ template&lt;typename CoordType &gt; </div>
 <p>NOP by default.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>transforms parameter into normalized form </td></tr>
+    <tr><td class="paramname">x</td><td>the x axis for the coordinate to translate </td></tr>
+    <tr><td class="paramname">y</td><td>the y axis for the coordinate to translate </td></tr>
+    <tr><td class="paramname">z</td><td>the z axis for the coordinate to translate </td></tr>
   </table>
   </dd>
 </dl>
@@ -1024,7 +1033,9 @@ template&lt;typename CoordType &gt; </div>
 <p>NOP by default.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>transforms parameter into normalized form </td></tr>
+    <tr><td class="paramname">rx</td><td>x axis of rotation </td></tr>
+    <tr><td class="paramname">ry</td><td>y axis of rotation </td></tr>
+    <tr><td class="paramname">rz</td><td>z axis of rotation </td></tr>
   </table>
   </dd>
 </dl>
@@ -1567,7 +1578,9 @@ template&lt;&gt; </div>
 <p>Rotates a <a class="el" href="../../d9/db7/classgams_1_1utility_1_1Location__Vector.html" title="Container for Location information, not bound to a frame. ">Location_Vector</a> according to a <a class="el" href="../../df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. ">Rotation_Vector</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">loc</td><td>the <a class="el" href="../../d9/db7/classgams_1_1utility_1_1Location__Vector.html" title="Container for Location information, not bound to a frame. ">Location_Vector</a> to rotate (in-place) </td></tr>
+    <tr><td class="paramname">x</td><td>the x coordinate to rotate (in-place) </td></tr>
+    <tr><td class="paramname">y</td><td>the y coordinate to rotate (in-place) </td></tr>
+    <tr><td class="paramname">z</td><td>the z coordinate to rotate (in-place) </td></tr>
     <tr><td class="paramname">rot</td><td>the rotation to apply, axis-angle notation </td></tr>
     <tr><td class="paramname">reverse</td><td>if true, apply rotation in opposite direction </td></tr>
   </table>
@@ -1797,7 +1810,7 @@ template&lt;typename CoordType &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">in</td><td>the <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to transform. This object may be modified. </td></tr>
-    <tr><td class="paramname">frame</td><td>the frame to transform into. Must be origin of in. </td></tr>
+    <tr><td class="paramname">to_frame</td><td>the frame to transform into. Must be origin of in. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1848,7 +1861,9 @@ template&lt;typename CoordType &gt; </div>
 <p>By default, throws <a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Location, Rotation) that frame does not support. ">bad_coord_type</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>transforms parameter into this frame from origin frame. </td></tr>
+    <tr><td class="paramname">x</td><td>the x axis for the coordinate to translate </td></tr>
+    <tr><td class="paramname">y</td><td>the y axis for the coordinate to translate </td></tr>
+    <tr><td class="paramname">z</td><td>the z axis for the coordinate to translate </td></tr>
   </table>
   </dd>
 </dl>
@@ -1901,7 +1916,9 @@ template&lt;typename CoordType &gt; </div>
 <p>By default, throws <a class="el" href="../../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Location, Rotation) that frame does not support. ">bad_coord_type</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>transforms parameter into origin frame from this frame. </td></tr>
+    <tr><td class="paramname">x</td><td>the x axis for the coordinate to translate </td></tr>
+    <tr><td class="paramname">y</td><td>the y axis for the coordinate to translate </td></tr>
+    <tr><td class="paramname">z</td><td>the z axis for the coordinate to translate </td></tr>
   </table>
   </dd>
 </dl>
@@ -1955,7 +1972,7 @@ template&lt;typename CoordType &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">the</td><td>coordinate to transform (in-place) </td></tr>
+    <tr><td class="paramname">in</td><td>the coordinate to transform (in-place) </td></tr>
     <tr><td class="paramname">to_frame</td><td>the frame to transform into</td></tr>
   </table>
   </dd>
@@ -2012,7 +2029,9 @@ template&lt;typename CoordType &gt; </div>
 <p>Transforms <a class="el" href="../../df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. ">Rotation_Vector</a> in-place from its origin frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>the <a class="el" href="../../df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. ">Rotation_Vector</a> to transform </td></tr>
+    <tr><td class="paramname">rx</td><td>the angle on x axis </td></tr>
+    <tr><td class="paramname">ry</td><td>the angle on y axis </td></tr>
+    <tr><td class="paramname">rz</td><td>the angle on z axis </td></tr>
   </table>
   </dd>
 </dl>
@@ -2064,7 +2083,9 @@ template&lt;typename CoordType &gt; </div>
 <p>Transforms <a class="el" href="../../df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. ">Rotation_Vector</a> in-place into from its frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>the <a class="el" href="../../df/dee/classgams_1_1utility_1_1Rotation__Vector.html" title="Container for Rotation information, not bound to a frame. ">Rotation_Vector</a> to transform </td></tr>
+    <tr><td class="paramname">rx</td><td>the angle on x axis </td></tr>
+    <tr><td class="paramname">ry</td><td>the angle on y axis </td></tr>
+    <tr><td class="paramname">rz</td><td>the angle on z axis </td></tr>
   </table>
   </dd>
 </dl>
@@ -2194,7 +2215,6 @@ template&lt;typename CoordType &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">in</td><td>the <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to transform. This object may be modified. </td></tr>
-    <tr><td class="paramname">frame</td><td>the frame to transform into. Must be origin of in. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2222,7 +2242,7 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00491">491</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00508">508</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
 
 </div>
 </div>
@@ -2244,7 +2264,7 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00490">490</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html#l00507">507</a> of file <a class="el" href="../../dc/dd4/Reference__Frame_8h_source.html">Reference_Frame.h</a>.</p>
 
 </div>
 </div>
@@ -2259,7 +2279,7 @@ template&lt;typename CoordType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../d9/db5/classgams_1_1utility_1_1Axis__Angle__Frame.html">Axis_Angle_Frame</a></li>
-    <li class="footer">Generated on Sat Jul 25 2015 03:30:32 for GAMS by
+    <li class="footer">Generated on Fri Aug 7 2015 02:06:17 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

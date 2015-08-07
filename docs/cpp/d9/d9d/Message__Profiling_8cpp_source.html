@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.13</span>
+   &#160;<span id="projectnumber">0.8.18</span>
    </div>
   </td>
  </tr>
@@ -272,9 +272,9 @@ $(document).ready(function(){initNavTree('d9/d9d/Message__Profiling_8cpp_source.
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="keywordtype">void</span></div>
 <div class="line"><a name="l00209"></a><span class="lineno"><a class="line" href="../../d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html#a5dc3400cc8d555d7322984a1e25fee6c">  209</a></span>&#160;<a class="code" href="../../d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html#a5dc3400cc8d555d7322984a1e25fee6c">gams::algorithms::Message_Profiling::Message_Filter::filter</a> (</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  Madara::Knowledge_Map&amp; records, </div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  Madara::Knowledge_Map&amp; <span class="comment">/*records*/</span>, </div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  <span class="keyword">const</span> Madara::Transport::Transport_Context&amp; transport_context, </div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  Madara::Knowledge_Engine::Variables&amp; var)</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  Madara::Knowledge_Engine::Variables&amp; <span class="comment">/*var*/</span>)</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;{</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">string</span> origin = transport_context.get_originator ();</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  <span class="keywordflow">if</span> (msg_map.find (origin) == msg_map.end ())</div>
@@ -343,12 +343,13 @@ $(document).ready(function(){initNavTree('d9/d9d/Message__Profiling_8cpp_source.
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="comment">//    ret_val &lt;&lt; endl;</span></div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="comment">//  }</span></div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="comment">//  return ret_val.str();</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;}</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;}</div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Message__Profiling_html_a36877c1650e057791ea6ef8218cfa9df"><div class="ttname"><a href="../../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html#a36877c1650e057791ea6ef8218cfa9df">gams::algorithms::Message_Profiling::key_prefix_</a></div><div class="ttdeci">static const std::string key_prefix_</div><div class="ttdoc">Prefix for message keys. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0e/Message__Profiling_8h_source.html#l00135">Message_Profiling.h:135</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Message__Profiling_html_a7d20f1ac65eb15fceefd7ef0556a0d0e"><div class="ttname"><a href="../../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html#a7d20f1ac65eb15fceefd7ef0556a0d0e">gams::algorithms::Message_Profiling::init_filtered_transport</a></div><div class="ttdeci">void init_filtered_transport(Madara::Transport::QoS_Transport_Settings settings)</div><div class="ttdoc">Initialize the transport with the filter. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d9d/Message__Profiling_8cpp_source.html#l00159">Message_Profiling.cpp:159</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Message__Profiling_html_a7a6adf80729f41fd2c7e97aff508942e"><div class="ttname"><a href="../../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html#a7a6adf80729f41fd2c7e97aff508942e">gams::algorithms::Message_Profiling::execute</a></div><div class="ttdeci">virtual int execute(void)</div><div class="ttdoc">Plans the next execution of the algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d9d/Message__Profiling_8cpp_source.html#l00186">Message_Profiling.cpp:186</a></div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a309c97d3c93df53b594745fa0ae65ead"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a309c97d3c93df53b594745fa0ae65ead">gams::variables::Devices</a></div><div class="ttdeci">std::vector&lt; Device &gt; Devices</div><div class="ttdoc">An array of devices. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d05/Device_8h_source.html#l00174">Device.h:174</a></div></div>
-<div class="ttc" id="Base__Controller_8cpp_html_a3099567d17e259188019e939ab4281a2"><div class="ttname"><a href="../../d4/db1/Base__Controller_8cpp.html#a3099567d17e259188019e939ab4281a2">Integer</a></div><div class="ttdeci">Madara::Knowledge_Record::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db1/Base__Controller_8cpp_source.html#l00068">Base_Controller.cpp:68</a></div></div>
+<div class="ttc" id="Base__Controller_8cpp_html_a3099567d17e259188019e939ab4281a2"><div class="ttname"><a href="../../d4/db1/Base__Controller_8cpp.html#a3099567d17e259188019e939ab4281a2">Integer</a></div><div class="ttdeci">Madara::Knowledge_Record::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db1/Base__Controller_8cpp_source.html#l00069">Base_Controller.cpp:69</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Base__Algorithm_html_ae352b273433745158f3582598b184c2d"><div class="ttname"><a href="../../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html#ae352b273433745158f3582598b184c2d">gams::algorithms::Base_Algorithm::self_</a></div><div class="ttdeci">variables::Self * self_</div><div class="ttdoc">the algorithm&#39;s concept of self </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d8e/Base__Algorithm_8h_source.html#l00211">Base_Algorithm.h:211</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Message__Profiling_html_a6328740a83d852af607bc3e0a69b0586"><div class="ttname"><a href="../../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html#a6328740a83d852af607bc3e0a69b0586">gams::algorithms::Message_Profiling::local_knowledge_</a></div><div class="ttdeci">Madara::Knowledge_Engine::Knowledge_Base * local_knowledge_</div><div class="ttdoc">provides access to the knowledge base </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0e/Message__Profiling_8h_source.html#l00138">Message_Profiling.h:138</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Message__Profiling_html"><div class="ttname"><a href="../../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html">gams::algorithms::Message_Profiling</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0e/Message__Profiling_8h_source.html#l00078">Message_Profiling.h:78</a></div></div>
@@ -384,7 +385,7 @@ $(document).ready(function(){initNavTree('d9/d9d/Message__Profiling_8cpp_source.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_51790b9f0ef7b0cc06eb1e76e309c0bc.html">algorithms</a></li><li class="navelem"><a class="el" href="../../d9/d9d/Message__Profiling_8cpp.html">Message_Profiling.cpp</a></li>
-    <li class="footer">Generated on Sat Jul 25 2015 03:30:29 for GAMS by
+    <li class="footer">Generated on Fri Aug 7 2015 02:06:13 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

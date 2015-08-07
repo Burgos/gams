@@ -1,6 +1,9 @@
 <map id="gams::utility::Search_Area" name="gams::utility::Search_Area">
-<area shape="rect" id="node3" href="$dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html" title="gams::utility::Prioritized\l_Region" alt="" coords="14,365,173,407"/>
-<area shape="rect" id="node4" href="$da/db7/classgams_1_1utility_1_1Region.html" title="gams::utility::Region" alt="" coords="23,289,164,316"/>
-<area shape="rect" id="node6" href="$de/d23/classgams_1_1utility_1_1GPS__Position.html" title="gams::utility::GPS\l_Position" alt="" coords="29,81,158,123"/>
-<area shape="rect" id="node7" href="$df/d4e/classgams_1_1utility_1_1Position.html" title="gams::utility::Position" alt="" coords="19,5,167,32"/>
+<area shape="rect" id="node2" href="$de/d8c/classgams_1_1utility_1_1Containerize.html" title="gams::utility::Containerize" alt="" coords="184,237,357,263"/>
+<area shape="rect" id="node7" href="$da/db7/classgams_1_1utility_1_1Region.html" title="gams::utility::Region" alt="" coords="83,333,224,360"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="231,103,311,130"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="207,5,334,47"/>
+<area shape="rect" id="node6" href="$dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html" title="gams::utility::Prioritized\l_Region" alt="" coords="74,409,233,451"/>
+<area shape="rect" id="node9" href="$de/d23/classgams_1_1utility_1_1GPS__Position.html" title="gams::utility::GPS\l_Position" alt="" coords="18,96,147,137"/>
+<area shape="rect" id="node10" href="$df/d4e/classgams_1_1utility_1_1Position.html" title="gams::utility::Position" alt="" coords="9,13,157,39"/>
 </map>

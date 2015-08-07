@@ -5,6 +5,7 @@ var namespacegams_1_1utility =
     [ "Axis_Angle_Frame", "d9/db5/classgams_1_1utility_1_1Axis__Angle__Frame.html", "d9/db5/classgams_1_1utility_1_1Axis__Angle__Frame" ],
     [ "bad_coord_type", "d1/d2e/classgams_1_1utility_1_1bad__coord__type.html", "d1/d2e/classgams_1_1utility_1_1bad__coord__type" ],
     [ "Cartesian_Frame", "d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html", "d2/d9a/classgams_1_1utility_1_1Cartesian__Frame" ],
+    [ "Containerize", "de/d8c/classgams_1_1utility_1_1Containerize.html", "de/d8c/classgams_1_1utility_1_1Containerize" ],
     [ "Coordinate", "da/deb/classgams_1_1utility_1_1Coordinate.html", "da/deb/classgams_1_1utility_1_1Coordinate" ],
     [ "Coordinate_Base", "d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html", "d0/d6c/classgams_1_1utility_1_1Coordinate__Base" ],
     [ "GPS_Frame", "d5/dcb/classgams_1_1utility_1_1GPS__Frame.html", "d5/dcb/classgams_1_1utility_1_1GPS__Frame" ],

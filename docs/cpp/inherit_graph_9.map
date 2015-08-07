@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d9/d8d/classgams_1_1platforms_1_1Controller__Platform__Factory.html" title="The controller&#39;s platform factory. " alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node1" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="5,93,159,135"/>
+<area shape="rect" id="node2" href="$d4/d15/classgams_1_1platforms_1_1Debug__Platform.html" title="gams::platforms::Debug\l_Platform" alt="" coords="218,5,378,47"/>
+<area shape="rect" id="node3" href="$df/d3b/classgams_1_1platforms_1_1Drone__RK.html" title="gams::platforms::Drone_RK" alt="" coords="207,71,389,98"/>
+<area shape="rect" id="node4" href="$da/dc8/classgams_1_1platforms_1_1Java__Platform.html" title="gams::platforms::Java\l_Platform" alt="" coords="224,123,372,164"/>
+<area shape="rect" id="node5" href="$da/d8e/classgams_1_1platforms_1_1Null__Platform.html" title="gams::platforms::Null\l_Platform" alt="" coords="225,188,371,229"/>
 </map>

@@ -2,7 +2,6 @@ var classgams_1_1controllers_1_1Base__Controller =
 [
     [ "Base_Controller", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a2bbecf3e03831e016ee9ea38de4ce82d", null ],
     [ "~Base_Controller", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a593afbb07c3305a36fca89289c555546", null ],
-    [ "_run_once", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a71e9eb90ab34b2ae2771be35e1fc0b59", null ],
     [ "add_algorithm_factory", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#abbb1474ea371d7d1693e2cd5a176b562", null ],
     [ "add_platform_factory", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a2541024a070a9f43454788f3c72539ef", null ],
     [ "analyze", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#ae7a36ccce76acbd9c8115513a4fde192", null ],
@@ -23,6 +22,7 @@ var classgams_1_1controllers_1_1Base__Controller =
     [ "run", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#aa6de267bfaf16701a681a9d53d64936a", null ],
     [ "run_hz", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#aafd4b89ba5eacf5e7d0a719a9952e4fc", null ],
     [ "run_once", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a384bbdf25ab6d08020fb25b7c944c686", null ],
+    [ "run_once_", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a27fee48ecef7a456bbc4b29a4eb549e5", null ],
     [ "system_analyze", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a41db0dc793c1fcce3cbd0ad4256cff57", null ],
     [ "accents_", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#aeeed12d57141d12229968ea752ab78dc", null ],
     [ "algorithm_", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a2e686c62a4e859d98912cd16fb21422a", null ],

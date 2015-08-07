@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.13</span>
+   &#160;<span id="projectnumber">0.8.18</span>
    </div>
   </td>
  </tr>
@@ -133,9 +133,9 @@ Collaboration diagram for gams::algorithms::Wait:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a35a64626a12e737e4a95944dcf951190"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6f/classgams_1_1algorithms_1_1Wait.html#a35a64626a12e737e4a95944dcf951190">Wait</a> (const double &amp;w, Madara::Knowledge_Engine::Knowledge_Base *knowledge=0, <a class="el" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">platforms::Base_Platform</a> *<a class="el" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>=0, <a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> *sensors=0, <a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> *self=0)</td></tr>
-<tr class="memdesc:a35a64626a12e737e4a95944dcf951190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a35a64626a12e737e4a95944dcf951190">More...</a><br /></td></tr>
-<tr class="separator:a35a64626a12e737e4a95944dcf951190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af666eeeea54f6edc5284c9d80f71490d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6f/classgams_1_1algorithms_1_1Wait.html#af666eeeea54f6edc5284c9d80f71490d">Wait</a> (const double &amp;wait_time, Madara::Knowledge_Engine::Knowledge_Base *knowledge=0, <a class="el" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">platforms::Base_Platform</a> *<a class="el" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>=0, <a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> *sensors=0, <a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> *self=0)</td></tr>
+<tr class="memdesc:af666eeeea54f6edc5284c9d80f71490d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#af666eeeea54f6edc5284c9d80f71490d">More...</a><br /></td></tr>
+<tr class="separator:af666eeeea54f6edc5284c9d80f71490d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42211ef97892c8580fbe9be2401d462a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d6f/classgams_1_1algorithms_1_1Wait.html#a42211ef97892c8580fbe9be2401d462a">~Wait</a> ()</td></tr>
 <tr class="memdesc:a42211ef97892c8580fbe9be2401d462a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a42211ef97892c8580fbe9be2401d462a">More...</a><br /></td></tr>
 <tr class="separator:a42211ef97892c8580fbe9be2401d462a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,7 +216,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock">
 <p>Definition at line <a class="el" href="../../d0/d74/Wait_8h_source.html#l00073">73</a> of file <a class="el" href="../../d0/d74/Wait_8h_source.html">Wait.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a35a64626a12e737e4a95944dcf951190"></a>
+<a class="anchor" id="af666eeeea54f6edc5284c9d80f71490d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -224,7 +224,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">gams::algorithms::Wait::Wait </td>
           <td>(</td>
           <td class="paramtype">const double &amp;&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
+          <td class="paramname"><em>wait_time</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -261,7 +261,7 @@ Protected Attributes</h2></td></tr>
 <p>Constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">double</td><td>time (in seconds) to wait </td></tr>
+    <tr><td class="paramname">wait_time</td><td>time (in seconds) to wait </td></tr>
     <tr><td class="paramname">knowledge</td><td>the context containing variables and values </td></tr>
     <tr><td class="paramname">platform</td><td>the underlying platform the algorithm will use </td></tr>
     <tr><td class="paramname">sensors</td><td>map of sensor names to sensor information </td></tr>
@@ -947,7 +947,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html">algorithms</a></li><li class="navelem"><a class="el" href="../../d9/d6f/classgams_1_1algorithms_1_1Wait.html">Wait</a></li>
-    <li class="footer">Generated on Sat Jul 25 2015 03:30:31 for GAMS by
+    <li class="footer">Generated on Fri Aug 7 2015 02:06:17 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
