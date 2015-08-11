@@ -1,6 +1,7 @@
 com.gams
 com.gams.algorithms
 com.gams.controllers
+com.gams.logger
 com.gams.platforms
 com.gams.tests
 com.gams.utility
