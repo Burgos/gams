@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.18</span>
+   &#160;<span id="projectnumber">0.9.1</span>
    </div>
   </td>
  </tr>
@@ -121,85 +121,85 @@ $(document).ready(function(){initNavTree('d2/d7f/utility_2Search__Area_8h_source
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keyword">namespace </span>utility</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  {</div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">   66</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> : <span class="keyword">public</span> <a class="code" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">Containerize</a></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> ();</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> (<span class="keyword">const</span> <a class="code" href="../../dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html">Prioritized_Region</a>&amp; region, </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> (<span class="keyword">const</span> std::vector&lt;Prioritized_Region&gt;&amp; regions,</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      ~<a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> ();</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      <span class="keywordtype">bool</span> operator== (<span class="keyword">const</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a>&amp; rhs) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      <span class="keywordtype">bool</span> operator!= (<span class="keyword">const</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a>&amp; rhs) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      <span class="keywordtype">void</span> operator= (<span class="keyword">const</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> &amp; rhs);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <span class="keywordtype">void</span> add_prioritized_region (<span class="keyword">const</span> <a class="code" href="../../dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html">Prioritized_Region</a>&amp; r);</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      <a class="code" href="../../da/db7/classgams_1_1utility_1_1Region.html">Region</a> get_convex_hull () <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      <span class="keyword">const</span> std::vector&lt;Prioritized_Region&gt;&amp; get_regions () <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      <a class="code" href="../../d4/db1/Base__Controller_8cpp.html#a3099567d17e259188019e939ab4281a2">Madara::Knowledge_Record::Integer</a> get_priority (<span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a>&amp; pos) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;      </div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      <span class="keywordtype">bool</span> contains (<span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a>&amp; p) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      </div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;      std::string to_string () <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
-<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#af85ae4579436dc8ca14321dc9fc8e0b3">  154</a></span>&#160;      <span class="keywordtype">double</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#af85ae4579436dc8ca14321dc9fc8e0b3">min_lat_</a>, max_lat_;</div>
-<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a06b4dcc47eebbafa63204799eb5ad162">  155</a></span>&#160;      <span class="keywordtype">double</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a06b4dcc47eebbafa63204799eb5ad162">min_lon_</a>, max_lon_;</div>
-<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#affe09ba6a777c9d3a99d953cd4fa4ddb">  156</a></span>&#160;      <span class="keywordtype">double</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#affe09ba6a777c9d3a99d953cd4fa4ddb">min_alt_</a>, max_alt_;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;      <span class="keywordtype">void</span> calculate_bounding_box ();</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      <span class="keywordtype">double</span> cross (<span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a>&amp; gp1, <span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a>&amp; gp2, </div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a>&amp; gp3) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a741b2e7d9bcacf6b95d699bc3b35460e">  175</a></span>&#160;      std::vector&lt;Prioritized_Region&gt; <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a741b2e7d9bcacf6b95d699bc3b35460e">regions_</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">   69</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> : <span class="keyword">public</span> <a class="code" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">Containerize</a></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> ();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> (<span class="keyword">const</span> <a class="code" href="../../dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html">Prioritized_Region</a>&amp; region, </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> (<span class="keyword">const</span> std::vector&lt;Prioritized_Region&gt;&amp; regions,</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      ~<a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> ();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      <span class="keywordtype">bool</span> operator== (<span class="keyword">const</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a>&amp; rhs) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <span class="keywordtype">bool</span> operator!= (<span class="keyword">const</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a>&amp; rhs) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="keywordtype">void</span> operator= (<span class="keyword">const</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">Search_Area</a> &amp; rhs);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="keywordtype">void</span> add_prioritized_region (<span class="keyword">const</span> <a class="code" href="../../dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html">Prioritized_Region</a>&amp; r);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      <a class="code" href="../../da/db7/classgams_1_1utility_1_1Region.html">Region</a> get_convex_hull () <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      <span class="keyword">const</span> std::vector&lt;Prioritized_Region&gt;&amp; get_regions () <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      <a class="code" href="../../d4/db1/Base__Controller_8cpp.html#a3099567d17e259188019e939ab4281a2">Madara::Knowledge_Record::Integer</a> get_priority (<span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a>&amp; pos) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      <span class="keywordtype">bool</span> contains (<span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a>&amp; p) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;      </div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;      std::string to_string () <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
+<div class="line"><a name="l00157"></a><span class="lineno"><a class="line" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#af85ae4579436dc8ca14321dc9fc8e0b3">  157</a></span>&#160;      <span class="keywordtype">double</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#af85ae4579436dc8ca14321dc9fc8e0b3">min_lat_</a>, max_lat_;</div>
+<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a06b4dcc47eebbafa63204799eb5ad162">  158</a></span>&#160;      <span class="keywordtype">double</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a06b4dcc47eebbafa63204799eb5ad162">min_lon_</a>, max_lon_;</div>
+<div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#affe09ba6a777c9d3a99d953cd4fa4ddb">  159</a></span>&#160;      <span class="keywordtype">double</span> <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#affe09ba6a777c9d3a99d953cd4fa4ddb">min_alt_</a>, max_alt_;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;      <span class="keywordtype">void</span> calculate_bounding_box ();</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;      <span class="keywordtype">double</span> cross (<span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a>&amp; gp1, <span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a>&amp; gp2, </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a>&amp; gp3) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">bool</span> check_valid_type (Madara::Knowledge_Engine::Knowledge_Base&amp; kb,</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keyword">const</span> std::string&amp; name) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> to_container_impl (</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base&amp; kb, </div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keyword">const</span> std::string&amp; name);</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">bool</span> from_container_impl (</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base&amp; kb, </div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keyword">const</span> std::string&amp; name);</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }; <span class="comment">// class Search_Area</span></div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  } <span class="comment">// namespace utility</span></div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;} <span class="comment">// namespace gams</span></div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="preprocessor">#endif // _GAMS_UTILITY_SEARCH_AREA_H_</span></div>
-<div class="ttc" id="classgams_1_1utility_1_1Prioritized__Region_html"><div class="ttname"><a href="../../dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html">gams::utility::Prioritized_Region</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dda/Prioritized__Region_8h_source.html#l00067">Prioritized_Region.h:67</a></div></div>
+<div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a741b2e7d9bcacf6b95d699bc3b35460e">  178</a></span>&#160;      std::vector&lt;Prioritized_Region&gt; <a class="code" href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a741b2e7d9bcacf6b95d699bc3b35460e">regions_</a>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">bool</span> check_valid_type (Madara::Knowledge_Engine::Knowledge_Base&amp; kb,</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keyword">const</span> std::string&amp; name) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> to_container_impl (</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base&amp; kb, </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keyword">const</span> std::string&amp; name);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">bool</span> from_container_impl (</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base&amp; kb, </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keyword">const</span> std::string&amp; name);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }; <span class="comment">// class Search_Area</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  } <span class="comment">// namespace utility</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;} <span class="comment">// namespace gams</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="preprocessor">#endif // _GAMS_UTILITY_SEARCH_AREA_H_</span></div>
+<div class="ttc" id="classgams_1_1utility_1_1Prioritized__Region_html"><div class="ttname"><a href="../../dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html">gams::utility::Prioritized_Region</a></div><div class="ttdoc">A helper class for prioritized region information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dda/Prioritized__Region_8h_source.html#l00070">Prioritized_Region.h:70</a></div></div>
 <div class="ttc" id="Prioritized__Region_8h_html"><div class="ttname"><a href="../../d2/dda/Prioritized__Region_8h.html">Prioritized_Region.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="Base__Controller_8cpp_html_a3099567d17e259188019e939ab4281a2"><div class="ttname"><a href="../../d4/db1/Base__Controller_8cpp.html#a3099567d17e259188019e939ab4281a2">Integer</a></div><div class="ttdeci">Madara::Knowledge_Record::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db1/Base__Controller_8cpp_source.html#l00069">Base_Controller.cpp:69</a></div></div>
 <div class="ttc" id="GAMS__Export_8h_html_a4cc3ead869e0824df421cd31894859a7"><div class="ttname"><a href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a></div><div class="ttdeci">#define GAMS_Export</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d98/GAMS__Export_8h_source.html#l00026">GAMS_Export.h:26</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Search__Area_html_affe09ba6a777c9d3a99d953cd4fa4ddb"><div class="ttname"><a href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#affe09ba6a777c9d3a99d953cd4fa4ddb">gams::utility::Search_Area::min_alt_</a></div><div class="ttdeci">double min_alt_</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7f/utility_2Search__Area_8h_source.html#l00156">Search_Area.h:156</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Search__Area_html_a741b2e7d9bcacf6b95d699bc3b35460e"><div class="ttname"><a href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a741b2e7d9bcacf6b95d699bc3b35460e">gams::utility::Search_Area::regions_</a></div><div class="ttdeci">std::vector&lt; Prioritized_Region &gt; regions_</div><div class="ttdoc">collection of prioritized regions </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7f/utility_2Search__Area_8h_source.html#l00175">Search_Area.h:175</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Search__Area_html"><div class="ttname"><a href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">gams::utility::Search_Area</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7f/utility_2Search__Area_8h_source.html#l00066">Search_Area.h:66</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Containerize_html"><div class="ttname"><a href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">gams::utility::Containerize</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df2/Containerize_8h_source.html#l00067">Containerize.h:67</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Search__Area_html_affe09ba6a777c9d3a99d953cd4fa4ddb"><div class="ttname"><a href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#affe09ba6a777c9d3a99d953cd4fa4ddb">gams::utility::Search_Area::min_alt_</a></div><div class="ttdeci">double min_alt_</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7f/utility_2Search__Area_8h_source.html#l00159">Search_Area.h:159</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Search__Area_html_a741b2e7d9bcacf6b95d699bc3b35460e"><div class="ttname"><a href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a741b2e7d9bcacf6b95d699bc3b35460e">gams::utility::Search_Area::regions_</a></div><div class="ttdeci">std::vector&lt; Prioritized_Region &gt; regions_</div><div class="ttdoc">collection of prioritized regions </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7f/utility_2Search__Area_8h_source.html#l00178">Search_Area.h:178</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Search__Area_html"><div class="ttname"><a href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html">gams::utility::Search_Area</a></div><div class="ttdoc">A utility class for search areas. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7f/utility_2Search__Area_8h_source.html#l00069">Search_Area.h:69</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Containerize_html"><div class="ttname"><a href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">gams::utility::Containerize</a></div><div class="ttdoc">A class meant to assist with retrieving information into GAMS containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df2/Containerize_8h_source.html#l00071">Containerize.h:71</a></div></div>
 <div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Algorithm__Factory_8h_source.html#l00064">Algorithm_Factory.h:64</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Search__Area_html_af85ae4579436dc8ca14321dc9fc8e0b3"><div class="ttname"><a href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#af85ae4579436dc8ca14321dc9fc8e0b3">gams::utility::Search_Area::min_lat_</a></div><div class="ttdeci">double min_lat_</div><div class="ttdoc">bounding box </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7f/utility_2Search__Area_8h_source.html#l00154">Search_Area.h:154</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Region_html"><div class="ttname"><a href="../../da/db7/classgams_1_1utility_1_1Region.html">gams::utility::Region</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9f/utility_2Region_8h_source.html#l00070">Region.h:70</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Search__Area_html_a06b4dcc47eebbafa63204799eb5ad162"><div class="ttname"><a href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a06b4dcc47eebbafa63204799eb5ad162">gams::utility::Search_Area::min_lon_</a></div><div class="ttdeci">double min_lon_</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7f/utility_2Search__Area_8h_source.html#l00155">Search_Area.h:155</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1GPS__Position_html"><div class="ttname"><a href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">gams::utility::GPS_Position</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcf/GPS__Position_8h_source.html#l00067">GPS_Position.h:67</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Search__Area_html_af85ae4579436dc8ca14321dc9fc8e0b3"><div class="ttname"><a href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#af85ae4579436dc8ca14321dc9fc8e0b3">gams::utility::Search_Area::min_lat_</a></div><div class="ttdeci">double min_lat_</div><div class="ttdoc">bounding box </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7f/utility_2Search__Area_8h_source.html#l00157">Search_Area.h:157</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Region_html"><div class="ttname"><a href="../../da/db7/classgams_1_1utility_1_1Region.html">gams::utility::Region</a></div><div class="ttdoc">A helper class for region information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9f/utility_2Region_8h_source.html#l00073">Region.h:73</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Search__Area_html_a06b4dcc47eebbafa63204799eb5ad162"><div class="ttname"><a href="../../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a06b4dcc47eebbafa63204799eb5ad162">gams::utility::Search_Area::min_lon_</a></div><div class="ttdeci">double min_lon_</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7f/utility_2Search__Area_8h_source.html#l00158">Search_Area.h:158</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1GPS__Position_html"><div class="ttname"><a href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">gams::utility::GPS_Position</a></div><div class="ttdoc">A position in the global positioning system reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcf/GPS__Position_8h_source.html#l00070">GPS_Position.h:70</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_e1406cd850b444c8c135213175f9bbdb.html">utility</a></li><li class="navelem"><a class="el" href="../../d2/d7f/utility_2Search__Area_8h.html">Search_Area.h</a></li>
-    <li class="footer">Generated on Fri Aug 7 2015 02:06:13 for GAMS by
+    <li class="footer">Generated on Sun Aug 30 2015 01:08:19 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

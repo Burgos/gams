@@ -1,4 +1,4 @@
 <map id="gams::variables::Self" name="gams::variables::Self">
-<area shape="rect" id="node2" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="gams::variables::Device" alt="" coords="7,213,165,240"/>
-<area shape="rect" id="node4" href="$d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="gams::variables::Accent\l_Status" alt="" coords="5,5,167,47"/>
+<area shape="rect" id="node2" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="A container for device information. " alt="" coords="7,213,165,240"/>
+<area shape="rect" id="node4" href="$d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="A container for accent status information. " alt="" coords="5,5,167,47"/>
 </map>

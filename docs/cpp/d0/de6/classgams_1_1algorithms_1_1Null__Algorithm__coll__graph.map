@@ -1,13 +1,13 @@
 <map id="gams::algorithms::Null_Algorithm" name="gams::algorithms::Null_Algorithm">
 <area shape="rect" id="node2" href="$d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1419,133,1579,174"/>
-<area shape="rect" id="node3" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="1160,133,1313,174"/>
+<area shape="rect" id="node3" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="The base platform for all platforms to use. " alt="" coords="1160,133,1313,174"/>
 <area shape="rect" id="node4" title="STL class. " alt="" coords="793,85,914,112"/>
 <area shape="rect" id="node15" title="STL class. " alt="" coords="992,8,1105,35"/>
-<area shape="rect" id="node7" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="gams::variables::Self" alt="" coords="782,164,925,191"/>
-<area shape="rect" id="node8" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="gams::variables::Device" alt="" coords="505,164,664,191"/>
-<area shape="rect" id="node10" href="$d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="gams::variables::Accent\l_Status" alt="" coords="5,157,167,198"/>
-<area shape="rect" id="node11" href="$d9/dd1/classgams_1_1variables_1_1Platform__Status.html" title="gams::variables::Platform\l_Status" alt="" coords="769,225,937,266"/>
+<area shape="rect" id="node7" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="782,164,925,191"/>
+<area shape="rect" id="node8" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="A container for device information. " alt="" coords="505,164,664,191"/>
+<area shape="rect" id="node10" href="$d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="A container for accent status information. " alt="" coords="5,157,167,198"/>
+<area shape="rect" id="node11" href="$d9/dd1/classgams_1_1variables_1_1Platform__Status.html" title="A container for platform status information. " alt="" coords="769,225,937,266"/>
 <area shape="rect" id="node12" title="STL class. " alt="" coords="545,264,625,291"/>
-<area shape="rect" id="node14" href="$d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html" title="gams::variables::Algorithm\l_Status" alt="" coords="961,281,1136,322"/>
+<area shape="rect" id="node14" href="$d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html" title="A container for algorithm status information. " alt="" coords="961,281,1136,322"/>
 <area shape="rect" id="node13" title="STL class. " alt="" coords="276,257,403,298"/>
 </map>

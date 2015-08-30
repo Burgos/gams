@@ -64,7 +64,8 @@ var hierarchy =
       [ "gams::platforms::Debug_Platform", "d4/d15/classgams_1_1platforms_1_1Debug__Platform.html", null ],
       [ "gams::platforms::Drone_RK", "df/d3b/classgams_1_1platforms_1_1Drone__RK.html", null ],
       [ "gams::platforms::Java_Platform", "da/dc8/classgams_1_1platforms_1_1Java__Platform.html", null ],
-      [ "gams::platforms::Null_Platform", "da/d8e/classgams_1_1platforms_1_1Null__Platform.html", null ]
+      [ "gams::platforms::Null_Platform", "da/d8e/classgams_1_1platforms_1_1Null__Platform.html", null ],
+      [ "gams::platforms::Platform_Collection", "d7/da8/classgams_1_1platforms_1_1Platform__Collection.html", null ]
     ] ],
     [ "gams::algorithms::Formation_Flying::compiled", "db/d49/structgams_1_1algorithms_1_1Formation__Flying_1_1compiled.html", null ],
     [ "gams::utility::Containerize", "de/d8c/classgams_1_1utility_1_1Containerize.html", [
@@ -106,7 +107,8 @@ var hierarchy =
     [ "gams::algorithms::Message_Profiling::Message_Filter::Message_Data", "dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html", null ],
     [ "gams::platforms::Platform_Factory", "d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html", [
       [ "gams::platforms::Debug_Platform_Factory", "d8/d92/classgams_1_1platforms_1_1Debug__Platform__Factory.html", null ],
-      [ "gams::platforms::Null_Platform_Factory", "d2/df2/classgams_1_1platforms_1_1Null__Platform__Factory.html", null ]
+      [ "gams::platforms::Null_Platform_Factory", "d2/df2/classgams_1_1platforms_1_1Null__Platform__Factory.html", null ],
+      [ "gams::platforms::Platform_Collection_Factory", "dd/d10/classgams_1_1platforms_1_1Platform__Collection__Factory.html", null ]
     ] ],
     [ "gams::variables::Platform_Status", "d9/dd1/classgams_1_1variables_1_1Platform__Status.html", null ],
     [ "gams::utility::Position", "df/d4e/classgams_1_1utility_1_1Position.html", [

@@ -1,9 +1,9 @@
 <map id="gams::platforms::Controller_Platform_Factory" name="gams::platforms::Controller_Platform_Factory">
 <area shape="rect" id="node2" title="STL class. " alt="" coords="782,31,903,57"/>
 <area shape="rect" id="node6" href="$d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html" title="Base class for platform factories to create Base_Platforms. " alt="" coords="1029,143,1200,185"/>
-<area shape="rect" id="node7" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="gams::variables::Self" alt="" coords="771,267,914,293"/>
-<area shape="rect" id="node8" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="gams::variables::Device" alt="" coords="505,267,664,293"/>
-<area shape="rect" id="node10" href="$d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="gams::variables::Accent\l_Status" alt="" coords="5,259,167,301"/>
+<area shape="rect" id="node7" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="771,267,914,293"/>
+<area shape="rect" id="node8" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="A container for device information. " alt="" coords="505,267,664,293"/>
+<area shape="rect" id="node10" href="$d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="A container for accent status information. " alt="" coords="5,259,167,301"/>
 <area shape="rect" id="node12" title="STL class. " alt="" coords="545,180,625,207"/>
 <area shape="rect" id="node13" title="STL class. " alt="" coords="276,173,403,214"/>
 </map>

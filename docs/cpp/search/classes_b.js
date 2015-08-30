@@ -4,6 +4,8 @@ var searchData=
   ['performance_5fprofiling_5ffactory',['Performance_Profiling_Factory',['../d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory.html',1,'gams::algorithms']]],
   ['perimeter_5fpatrol',['Perimeter_Patrol',['../d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html',1,'gams::algorithms::area_coverage']]],
   ['perimeter_5fpatrol_5ffactory',['Perimeter_Patrol_Factory',['../d2/d73/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol__Factory.html',1,'gams::algorithms::area_coverage']]],
+  ['platform_5fcollection',['Platform_Collection',['../d7/da8/classgams_1_1platforms_1_1Platform__Collection.html',1,'gams::platforms']]],
+  ['platform_5fcollection_5ffactory',['Platform_Collection_Factory',['../dd/d10/classgams_1_1platforms_1_1Platform__Collection__Factory.html',1,'gams::platforms']]],
   ['platform_5ffactory',['Platform_Factory',['../d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html',1,'gams::platforms']]],
   ['platform_5fstatus',['Platform_Status',['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html',1,'gams::variables']]],
   ['pose',['Pose',['../dd/d85/classgams_1_1utility_1_1Pose.html',1,'gams::utility']]],

@@ -4,6 +4,8 @@ var searchData=
   ['performance_5fprofiling_2eh',['Performance_Profiling.h',['../dd/d1f/Performance__Profiling_8h.html',1,'']]],
   ['perimeter_5fpatrol_2ecpp',['Perimeter_Patrol.cpp',['../d2/dc5/Perimeter__Patrol_8cpp.html',1,'']]],
   ['perimeter_5fpatrol_2eh',['Perimeter_Patrol.h',['../d3/d12/Perimeter__Patrol_8h.html',1,'']]],
+  ['platform_5fcollection_2ecpp',['Platform_Collection.cpp',['../d4/db7/Platform__Collection_8cpp.html',1,'']]],
+  ['platform_5fcollection_2eh',['Platform_Collection.h',['../dd/d10/Platform__Collection_8h.html',1,'']]],
   ['platform_5ffactory_2ecpp',['Platform_Factory.cpp',['../db/d32/Platform__Factory_8cpp.html',1,'']]],
   ['platform_5ffactory_2eh',['Platform_Factory.h',['../d7/d16/Platform__Factory_8h.html',1,'']]],
   ['platform_5fstatus_2ecpp',['Platform_Status.cpp',['../d2/dec/Platform__Status_8cpp.html',1,'']]],

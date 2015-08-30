@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.18</span>
+   &#160;<span id="projectnumber">0.9.1</span>
    </div>
   </td>
  </tr>
@@ -118,6 +118,9 @@ $(document).ready(function(){initNavTree('de/d5b/classgams_1_1algorithms_1_1Mess
 </div><!--header-->
 <div class="contents">
 
+<p>An algorithm for profiling message generation and receipt.  
+ <a href="../../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for gams::algorithms::Message_Profiling:</div>
@@ -131,7 +134,7 @@ Collaboration diagram for gams::algorithms::Message_Profiling:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../de/d98/classgams_1_1algorithms_1_1Message__Profiling__coll__graph.png" border="0" usemap="#gams_1_1algorithms_1_1Message__Profiling_coll__map" alt="Collaboration graph"/></div>
 <map name="gams_1_1algorithms_1_1Message__Profiling_coll__map" id="gams_1_1algorithms_1_1Message__Profiling_coll__map">
-<area shape="rect" id="node2" href="../../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1456,149,1616,190"/><area shape="rect" id="node3" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="1183,205,1336,246"/><area shape="rect" id="node4" title="STL class. " alt="" coords="797,88,918,115"/><area shape="rect" id="node15" title="STL class. " alt="" coords="1000,12,1113,39"/><area shape="rect" id="node7" href="../../d4/d98/classgams_1_1variables_1_1Self.html" title="gams::variables::Self" alt="" coords="786,179,929,205"/><area shape="rect" id="node8" href="../../d7/d3b/classgams_1_1variables_1_1Device.html" title="gams::variables::Device" alt="" coords="505,179,664,205"/><area shape="rect" id="node10" href="../../d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="gams::variables::Accent\l_Status" alt="" coords="5,171,167,213"/><area shape="rect" id="node11" href="../../d9/dd1/classgams_1_1variables_1_1Platform__Status.html" title="gams::variables::Platform\l_Status" alt="" coords="773,246,941,287"/><area shape="rect" id="node12" title="STL class. " alt="" coords="545,353,625,380"/><area shape="rect" id="node14" href="../../d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html" title="gams::variables::Algorithm\l_Status" alt="" coords="969,305,1144,346"/><area shape="rect" id="node13" title="STL class. " alt="" coords="276,346,403,387"/><area shape="rect" id="node16" href="../../d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html" title="Container for counter. " alt="" coords="1168,395,1351,437"/></map>
+<area shape="rect" id="node2" href="../../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1456,149,1616,190"/><area shape="rect" id="node3" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="The base platform for all platforms to use. " alt="" coords="1183,205,1336,246"/><area shape="rect" id="node4" title="STL class. " alt="" coords="797,88,918,115"/><area shape="rect" id="node15" title="STL class. " alt="" coords="1000,12,1113,39"/><area shape="rect" id="node7" href="../../d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="786,179,929,205"/><area shape="rect" id="node8" href="../../d7/d3b/classgams_1_1variables_1_1Device.html" title="A container for device information. " alt="" coords="505,179,664,205"/><area shape="rect" id="node10" href="../../d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="A container for accent status information. " alt="" coords="5,171,167,213"/><area shape="rect" id="node11" href="../../d9/dd1/classgams_1_1variables_1_1Platform__Status.html" title="A container for platform status information. " alt="" coords="773,246,941,287"/><area shape="rect" id="node12" title="STL class. " alt="" coords="545,353,625,380"/><area shape="rect" id="node14" href="../../d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html" title="A container for algorithm status information. " alt="" coords="969,305,1144,346"/><area shape="rect" id="node13" title="STL class. " alt="" coords="276,346,403,387"/><area shape="rect" id="node16" href="../../d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html" title="Container for counter. " alt="" coords="1168,395,1351,437"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -240,8 +243,9 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a36877c1650e057791ea6ef8218cfa9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00078">78</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
+<div class="textblock"><p>An algorithm for profiling message generation and receipt. </p>
+
+<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00081">81</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a817482ff884b3b8f7216bed6f0bacc82"></a>
 <div class="memitem">
@@ -788,7 +792,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Container for storing data to be sent to other controllers. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00143">143</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00146">146</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
 
 </div>
 </div>
@@ -860,7 +864,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Message Filter object. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00188">188</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00191">191</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
 
 </div>
 </div>
@@ -884,7 +888,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Prefix for message keys. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00135">135</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00138">138</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
 
 </div>
 </div>
@@ -932,7 +936,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>provides access to the knowledge base </p>
 
-<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00138">138</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00141">141</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
 
 </div>
 </div>
@@ -1004,7 +1008,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>size of message to send </p>
 
-<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00193">193</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html#l00196">196</a> of file <a class="el" href="../../d1/d0e/Message__Profiling_8h_source.html">Message_Profiling.h</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1070,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html">algorithms</a></li><li class="navelem"><a class="el" href="../../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html">Message_Profiling</a></li>
-    <li class="footer">Generated on Fri Aug 7 2015 02:06:17 for GAMS by
+    <li class="footer">Generated on Sun Aug 30 2015 01:08:21 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

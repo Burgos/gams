@@ -44,15 +44,15 @@ var NAVTREEINDEX =
 "annotated.html",
 "d1/d33/Containerize_8cpp_source.html",
 "d2/dcf/classgams_1_1algorithms_1_1Debug__Algorithm__Factory.html#ad6185b1659233af29df39349bb13c8d8",
-"d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a3430cc4f7426d0d93597cfc174b7d557",
-"d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#af449b8483a96067eb7c963312bbf336f",
-"d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html",
-"d9/dd1/classgams_1_1variables_1_1Platform__Status.html#aa7f74c91a15a8c7d65404b3bbacc84c4",
-"da/de7/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage.html#a34a27e4793f84535d640dd80e2b08bfd",
-"dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html#aa717cd56e4760fb25784ab1a3bfa4bea",
-"dd/dce/classgams_1_1algorithms_1_1Takeoff.html#a6e6f919b4fa2a35c3f0cfeb9b7173aae",
-"de/df6/classgams_1_1utility_1_1Location.html#a23efa51ff09d48db91bb6c0f3787dacd",
-"dir_7824edefbfd8c868344e046601fd58eb.html"
+"d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a2cfdd65848edd729e2573cb1fc704cc1",
+"d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#ae9cbba239fdcc8768d8e6aac72a75ff0",
+"d8/d92/classgams_1_1platforms_1_1Debug__Platform__Factory.html",
+"d9/db7/classgams_1_1utility_1_1Location__Vector.html#a94248add74d206f787716aa2d7c34237",
+"da/dc8/classgams_1_1platforms_1_1Java__Platform.html#a3eb8c0bea05f2bac2eea6dd485157927",
+"dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory.html",
+"dd/d85/classgams_1_1utility_1_1Pose.html#a9d1bf5ac6e8b8629cd559f4cbff5faa5",
+"de/dcb/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage.html#a69e37c3481157ab3ae3dcdbe2bb197cc",
+"df/dae/namespacegams.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

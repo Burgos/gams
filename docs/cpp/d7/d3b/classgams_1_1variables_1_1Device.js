@@ -17,6 +17,8 @@ var classgams_1_1variables_1_1Device =
     [ "dest", "d7/d3b/classgams_1_1variables_1_1Device.html#a20248b19d35dde107c01f28ca7ea2bc4", null ],
     [ "home", "d7/d3b/classgams_1_1variables_1_1Device.html#abe3eae5d149401be18c97c9436810dcd", null ],
     [ "is_mobile", "d7/d3b/classgams_1_1variables_1_1Device.html#a674e41e79475e807edd8a75fccf482aa", null ],
+    [ "last_command", "d7/d3b/classgams_1_1variables_1_1Device.html#a540e9b924e9174bff56870e19455801f", null ],
+    [ "last_command_args", "d7/d3b/classgams_1_1variables_1_1Device.html#a22ef5d041c4ce7f15804a42f7b2e796e", null ],
     [ "location", "d7/d3b/classgams_1_1variables_1_1Device.html#a7500e3167837ba39e6fece197104f9d4", null ],
     [ "min_alt", "d7/d3b/classgams_1_1variables_1_1Device.html#a8ce69a09b07e6b790611311dc54402e8", null ],
     [ "next_coverage_type", "d7/d3b/classgams_1_1variables_1_1Device.html#a734856ba5ab55ea7dec37710dfc56d28", null ],

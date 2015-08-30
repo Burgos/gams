@@ -8,5 +8,7 @@ var namespacegams_1_1platforms =
     [ "Java_Platform", "da/dc8/classgams_1_1platforms_1_1Java__Platform.html", "da/dc8/classgams_1_1platforms_1_1Java__Platform" ],
     [ "Null_Platform", "da/d8e/classgams_1_1platforms_1_1Null__Platform.html", "da/d8e/classgams_1_1platforms_1_1Null__Platform" ],
     [ "Null_Platform_Factory", "d2/df2/classgams_1_1platforms_1_1Null__Platform__Factory.html", "d2/df2/classgams_1_1platforms_1_1Null__Platform__Factory" ],
+    [ "Platform_Collection", "d7/da8/classgams_1_1platforms_1_1Platform__Collection.html", "d7/da8/classgams_1_1platforms_1_1Platform__Collection" ],
+    [ "Platform_Collection_Factory", "dd/d10/classgams_1_1platforms_1_1Platform__Collection__Factory.html", "dd/d10/classgams_1_1platforms_1_1Platform__Collection__Factory" ],
     [ "Platform_Factory", "d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html", "d3/dcd/classgams_1_1platforms_1_1Platform__Factory" ]
 ];

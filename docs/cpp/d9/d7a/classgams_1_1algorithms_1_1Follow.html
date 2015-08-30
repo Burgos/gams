@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.8.18</span>
+   &#160;<span id="projectnumber">0.9.1</span>
    </div>
   </td>
  </tr>
@@ -115,6 +115,9 @@ $(document).ready(function(){initNavTree('d9/d7a/classgams_1_1algorithms_1_1Foll
 </div><!--header-->
 <div class="contents">
 
+<p>An algorithm for following a target.  
+ <a href="../../d9/d7a/classgams_1_1algorithms_1_1Follow.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for gams::algorithms::Follow:</div>
@@ -128,7 +131,7 @@ Collaboration diagram for gams::algorithms::Follow:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/d4b/classgams_1_1algorithms_1_1Follow__coll__graph.png" border="0" usemap="#gams_1_1algorithms_1_1Follow_coll__map" alt="Collaboration graph"/></div>
 <map name="gams_1_1algorithms_1_1Follow_coll__map" id="gams_1_1algorithms_1_1Follow_coll__map">
-<area shape="rect" id="node2" href="../../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1419,181,1579,223"/><area shape="rect" id="node3" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="gams::platforms::Base\l_Platform" alt="" coords="1160,81,1313,123"/><area shape="rect" id="node4" title="STL class. " alt="" coords="793,213,914,239"/><area shape="rect" id="node15" title="STL class. " alt="" coords="992,290,1105,317"/><area shape="rect" id="node7" href="../../d4/d98/classgams_1_1variables_1_1Self.html" title="gams::variables::Self" alt="" coords="782,129,925,155"/><area shape="rect" id="node8" href="../../d7/d3b/classgams_1_1variables_1_1Device.html" title="gams::variables::Device" alt="" coords="505,129,664,155"/><area shape="rect" id="node10" href="../../d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="gams::variables::Accent\l_Status" alt="" coords="5,121,167,163"/><area shape="rect" id="node11" href="../../d9/dd1/classgams_1_1variables_1_1Platform__Status.html" title="gams::variables::Platform\l_Status" alt="" coords="769,56,937,97"/><area shape="rect" id="node12" title="STL class. " alt="" coords="545,54,625,81"/><area shape="rect" id="node14" href="../../d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html" title="gams::variables::Algorithm\l_Status" alt="" coords="961,5,1136,47"/><area shape="rect" id="node13" title="STL class. " alt="" coords="276,47,403,88"/><area shape="rect" id="node16" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html" title="gams::utility::GPS\l_Position" alt="" coords="1172,361,1301,403"/><area shape="rect" id="node17" href="../../df/d4e/classgams_1_1utility_1_1Position.html" title="gams::utility::Position" alt="" coords="779,369,927,395"/></map>
+<area shape="rect" id="node2" href="../../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1419,181,1579,223"/><area shape="rect" id="node3" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="The base platform for all platforms to use. " alt="" coords="1160,81,1313,123"/><area shape="rect" id="node4" title="STL class. " alt="" coords="793,213,914,239"/><area shape="rect" id="node15" title="STL class. " alt="" coords="992,290,1105,317"/><area shape="rect" id="node7" href="../../d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="782,129,925,155"/><area shape="rect" id="node8" href="../../d7/d3b/classgams_1_1variables_1_1Device.html" title="A container for device information. " alt="" coords="505,129,664,155"/><area shape="rect" id="node10" href="../../d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="A container for accent status information. " alt="" coords="5,121,167,163"/><area shape="rect" id="node11" href="../../d9/dd1/classgams_1_1variables_1_1Platform__Status.html" title="A container for platform status information. " alt="" coords="769,56,937,97"/><area shape="rect" id="node12" title="STL class. " alt="" coords="545,54,625,81"/><area shape="rect" id="node14" href="../../d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html" title="A container for algorithm status information. " alt="" coords="961,5,1136,47"/><area shape="rect" id="node13" title="STL class. " alt="" coords="276,47,403,88"/><area shape="rect" id="node16" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html" title="A position in the global positioning system reference frame. " alt="" coords="1172,361,1301,403"/><area shape="rect" id="node17" href="../../df/d4e/classgams_1_1utility_1_1Position.html" title="A position in an x, y, z coordinate system. " alt="" coords="779,369,927,395"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -219,8 +222,9 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a6905b844a7e9ce1bff8a70d1887839f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d9/ddd/Follow_8h_source.html#l00071">71</a> of file <a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>.</p>
+<div class="textblock"><p>An algorithm for following a target. </p>
+
+<p>Definition at line <a class="el" href="../../d9/ddd/Follow_8h_source.html#l00074">74</a> of file <a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a6a4943cdad96a4136e1910ef61367996"></a>
 <div class="memitem">
@@ -363,7 +367,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Plans the next execution of the algorithm. </p>
-<p><a class="el" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html">Move</a> to next location if next_position_ is valid.</p>
+<p><a class="el" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html" title="An algorithm for moving to a location. ">Move</a> to next location if next_position_ is valid.</p>
 <dl class="section return"><dt>Returns</dt><dd>bitmask status of the platform. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>Status. </dd></dl>
 
@@ -757,7 +761,7 @@ Protected Attributes</h2></td></tr>
 
 <p>timesteps to delay/max size of queue </p>
 
-<p>Definition at line <a class="el" href="../../d9/ddd/Follow_8h_source.html#l00131">131</a> of file <a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/ddd/Follow_8h_source.html#l00134">134</a> of file <a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>.</p>
 
 </div>
 </div>
@@ -853,7 +857,7 @@ Protected Attributes</h2></td></tr>
 
 <p>type of movement being executed </p>
 
-<p>Definition at line <a class="el" href="../../d9/ddd/Follow_8h_source.html#l00125">125</a> of file <a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/ddd/Follow_8h_source.html#l00128">128</a> of file <a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>.</p>
 
 </div>
 </div>
@@ -901,7 +905,7 @@ Protected Attributes</h2></td></tr>
 
 <p>previous locations of target agent </p>
 
-<p>Definition at line <a class="el" href="../../d9/ddd/Follow_8h_source.html#l00128">128</a> of file <a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/ddd/Follow_8h_source.html#l00131">131</a> of file <a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>.</p>
 
 </div>
 </div>
@@ -997,7 +1001,7 @@ Protected Attributes</h2></td></tr>
 
 <p>location of agent to follow </p>
 
-<p>Definition at line <a class="el" href="../../d9/ddd/Follow_8h_source.html#l00122">122</a> of file <a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/ddd/Follow_8h_source.html#l00125">125</a> of file <a class="el" href="../../d9/ddd/Follow_8h_source.html">Follow.h</a>.</p>
 
 </div>
 </div>
@@ -1011,7 +1015,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html">algorithms</a></li><li class="navelem"><a class="el" href="../../d9/d7a/classgams_1_1algorithms_1_1Follow.html">Follow</a></li>
-    <li class="footer">Generated on Fri Aug 7 2015 02:06:16 for GAMS by
+    <li class="footer">Generated on Sun Aug 30 2015 01:08:21 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
