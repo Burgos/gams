@@ -142,9 +142,6 @@ var NAVTREEINDEX7 =
 "db/d2f/Debug__Algorithm_8cpp_source.html":[2,0,0,0,0,8],
 "db/d32/Platform__Factory_8cpp.html":[2,0,0,0,4,14],
 "db/d32/Platform__Factory_8cpp_source.html":[2,0,0,0,4,14],
-"db/d49/structgams_1_1algorithms_1_1Formation__Flying_1_1compiled.html":[1,0,0,0,12,0],
-"db/d49/structgams_1_1algorithms_1_1Formation__Flying_1_1compiled.html#a635517dc6e7e8242eb6c7986cf507b45":[1,0,0,0,12,0,0],
-"db/d49/structgams_1_1algorithms_1_1Formation__Flying_1_1compiled.html#ab12d630890143a088de9bd4d62a96cae":[1,0,0,0,12,0,1],
 "db/d7d/classgams_1_1variables_1_1Sensor.html":[1,0,0,4,8],
 "db/d7d/classgams_1_1variables_1_1Sensor.html#a021d8aba93f6b1cd76a56492efc371f7":[1,0,0,4,8,19],
 "db/d7d/classgams_1_1variables_1_1Sensor.html#a0ef0147a2c6d6f570dfb11a4e13450e5":[1,0,0,4,8,11],
@@ -249,5 +246,8 @@ var NAVTREEINDEX7 =
 "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#ae9cbba239fdcc8768d8e6aac72a75ff0":[1,0,0,0,14,24],
 "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#aef7ad3d2b57e54bfc0c6ec259dcc053c":[1,0,0,0,14,14],
 "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#aef8cdd5d13d02fe78c8aac11df3ecffd":[1,0,0,0,14,4],
-"db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#af449b8483a96067eb7c963312bbf336f":[1,0,0,0,14,22]
+"db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#af449b8483a96067eb7c963312bbf336f":[1,0,0,0,14,22],
+"dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory.html":[1,0,0,0,0,16],
+"dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory.html#a1b74b89c3d8afad65194e51863add89b":[1,0,0,0,0,16,9],
+"dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory.html#a4a0f23d867c147c0d450bc1ffad42fff":[1,0,0,0,0,16,6]
 };

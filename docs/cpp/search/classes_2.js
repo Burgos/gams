@@ -1,7 +1,7 @@
 var searchData=
 [
   ['cartesian_5fframe',['Cartesian_Frame',['../d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html',1,'gams::utility']]],
-  ['compiled',['compiled',['../db/d49/structgams_1_1algorithms_1_1Formation__Flying_1_1compiled.html',1,'gams::algorithms::Formation_Flying']]],
+  ['compiled',['Compiled',['../df/d9e/structgams_1_1algorithms_1_1Formation__Flying_1_1Compiled.html',1,'gams::algorithms::Formation_Flying']]],
   ['containerize',['Containerize',['../de/d8c/classgams_1_1utility_1_1Containerize.html',1,'gams::utility']]],
   ['controller_5falgorithm_5ffactory',['Controller_Algorithm_Factory',['../d6/dc2/classgams_1_1algorithms_1_1Controller__Algorithm__Factory.html',1,'gams::algorithms']]],
   ['controller_5fplatform_5ffactory',['Controller_Platform_Factory',['../d9/d8d/classgams_1_1platforms_1_1Controller__Platform__Factory.html',1,'gams::platforms']]],

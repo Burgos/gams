@@ -14,7 +14,7 @@ var searchData=
   ['add_5falgorithm_5ffactory',['add_algorithm_factory',['../d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#abbb1474ea371d7d1693e2cd5a176b562',1,'gams::controllers::Base_Controller']]],
   ['add_5fplatform_5ffactory',['add_platform_factory',['../d0/dbe/classgams_1_1controllers_1_1Base__Controller.html#a2541024a070a9f43454788f3c72539ef',1,'gams::controllers::Base_Controller']]],
   ['add_5fprioritized_5fregion',['add_prioritized_region',['../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a0fa1e61ecfd19574624ab1d777c1a6a0',1,'gams::utility::Search_Area']]],
-  ['agent',['agent',['../db/d49/structgams_1_1algorithms_1_1Formation__Flying_1_1compiled.html#a635517dc6e7e8242eb6c7986cf507b45',1,'gams::algorithms::Formation_Flying::compiled']]],
+  ['agent',['agent',['../df/d9e/structgams_1_1algorithms_1_1Formation__Flying_1_1Compiled.html#a2d49400857b2d966badeb9f3a73c8065',1,'gams::algorithms::Formation_Flying::Compiled']]],
   ['airborne_5f',['airborne_',['../df/d3b/classgams_1_1platforms_1_1Drone__RK.html#a79f8bdd9666c84377b49891c031fe8cd',1,'gams::platforms::Drone_RK']]],
   ['algo_5f',['algo_',['../dc/d23/classgams_1_1algorithms_1_1Executive.html#a36a0c3b19601e3b30cc95eb19d5f4ac9',1,'gams::algorithms::Executive']]],
   ['algo_5ffactory_5f',['algo_factory_',['../dc/d23/classgams_1_1algorithms_1_1Executive.html#a90fa0d5508cdadde1da89492e6f66821',1,'gams::algorithms::Executive']]],

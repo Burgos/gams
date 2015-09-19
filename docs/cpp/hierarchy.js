@@ -67,7 +67,7 @@ var hierarchy =
       [ "gams::platforms::Null_Platform", "da/d8e/classgams_1_1platforms_1_1Null__Platform.html", null ],
       [ "gams::platforms::Platform_Collection", "d7/da8/classgams_1_1platforms_1_1Platform__Collection.html", null ]
     ] ],
-    [ "gams::algorithms::Formation_Flying::compiled", "db/d49/structgams_1_1algorithms_1_1Formation__Flying_1_1compiled.html", null ],
+    [ "gams::algorithms::Formation_Flying::Compiled", "df/d9e/structgams_1_1algorithms_1_1Formation__Flying_1_1Compiled.html", null ],
     [ "gams::utility::Containerize", "de/d8c/classgams_1_1utility_1_1Containerize.html", [
       [ "gams::utility::Region", "da/db7/classgams_1_1utility_1_1Region.html", [
         [ "gams::utility::Prioritized_Region", "dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html", null ]

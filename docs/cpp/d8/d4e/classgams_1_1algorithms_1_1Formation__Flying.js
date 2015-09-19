@@ -1,9 +1,9 @@
 var classgams_1_1algorithms_1_1Formation__Flying =
 [
-    [ "compiled", "db/d49/structgams_1_1algorithms_1_1Formation__Flying_1_1compiled.html", "db/d49/structgams_1_1algorithms_1_1Formation__Flying_1_1compiled" ],
+    [ "Compiled", "df/d9e/structgams_1_1algorithms_1_1Formation__Flying_1_1Compiled.html", "df/d9e/structgams_1_1algorithms_1_1Formation__Flying_1_1Compiled" ],
     [ "NONE", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a082c1b55907b26651f7011b831b243d9a05dceb6f75b3e267d2aa6386d2834805", null ],
     [ "ROTATE", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a082c1b55907b26651f7011b831b243d9a419c0e2ea840282a93370b4df9a7b631", null ],
-    [ "Formation_Flying", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#af5a301de37cad79b07e4be07c180051d", null ],
+    [ "Formation_Flying", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a9aad608ff945cc11f6e490236ad8024a", null ],
     [ "~Formation_Flying", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a7a2192209c7eb3ba3d8aca645d53f8fb", null ],
     [ "analyze", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#aedb2a942b56859a517666091e6e665ee", null ],
     [ "execute", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#aae3dee60a6515ffbdf4c9ab9890cd031", null ],
@@ -22,7 +22,7 @@ var classgams_1_1algorithms_1_1Formation__Flying =
     [ "set_platform", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#adafa721c96d710f8619531b33de8f19b", null ],
     [ "set_self", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a59d05bf2c4659e290da985e04d71d0ea", null ],
     [ "set_sensors", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#adf06e9a18a927c8fcd15bbc3c0379ead", null ],
-    [ "compiled_formation_", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a6226f37d07a29c2921009efd500cf334", null ],
+    [ "compiled_formation_", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a7960ef317efd0b19b5089b03306797ca", null ],
     [ "destination_", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a302fe832e4be2d25c9fb54da88d1be8a", null ],
     [ "devices_", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a7fa39e19b2b19afa4c5889921f24573b", null ],
     [ "executions_", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a69e37c3481157ab3ae3dcdbe2bb197cc", null ],
