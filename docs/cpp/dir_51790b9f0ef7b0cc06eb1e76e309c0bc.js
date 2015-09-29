@@ -37,6 +37,11 @@ var dir_51790b9f0ef7b0cc06eb1e76e309c0bc =
       [ "Formation_Flying", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying" ],
       [ "Formation_Flying_Factory", "d0/dbb/classgams_1_1algorithms_1_1Formation__Flying__Factory.html", "d0/dbb/classgams_1_1algorithms_1_1Formation__Flying__Factory" ]
     ] ],
+    [ "Formation_Sync.cpp", "d5/d48/Formation__Sync_8cpp.html", "d5/d48/Formation__Sync_8cpp" ],
+    [ "Formation_Sync.h", "da/de1/Formation__Sync_8h.html", [
+      [ "Formation_Sync", "d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html", "d7/d21/classgams_1_1algorithms_1_1Formation__Sync" ],
+      [ "Formation_Sync_Factory", "db/df9/classgams_1_1algorithms_1_1Formation__Sync__Factory.html", "db/df9/classgams_1_1algorithms_1_1Formation__Sync__Factory" ]
+    ] ],
     [ "Land.cpp", "da/dcf/Land_8cpp.html", null ],
     [ "Land.h", "da/d21/Land_8h.html", [
       [ "Land", "d3/d06/classgams_1_1algorithms_1_1Land.html", "d3/d06/classgams_1_1algorithms_1_1Land" ],

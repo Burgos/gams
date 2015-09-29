@@ -15,14 +15,18 @@ var classgams_1_1variables_1_1Device =
     [ "coverage_type", "d7/d3b/classgams_1_1variables_1_1Device.html#acee357cc36aebf1325196227a500bbbc", null ],
     [ "desired_altitude", "d7/d3b/classgams_1_1variables_1_1Device.html#a82d923949191e9b5f7b64a288adf0668", null ],
     [ "dest", "d7/d3b/classgams_1_1variables_1_1Device.html#a20248b19d35dde107c01f28ca7ea2bc4", null ],
+    [ "gams_debug_level", "d7/d3b/classgams_1_1variables_1_1Device.html#af4600cf97e6644ea9b0c8bfa1d345f95", null ],
     [ "home", "d7/d3b/classgams_1_1variables_1_1Device.html#abe3eae5d149401be18c97c9436810dcd", null ],
     [ "is_mobile", "d7/d3b/classgams_1_1variables_1_1Device.html#a674e41e79475e807edd8a75fccf482aa", null ],
     [ "last_command", "d7/d3b/classgams_1_1variables_1_1Device.html#a540e9b924e9174bff56870e19455801f", null ],
     [ "last_command_args", "d7/d3b/classgams_1_1variables_1_1Device.html#a22ef5d041c4ce7f15804a42f7b2e796e", null ],
     [ "location", "d7/d3b/classgams_1_1variables_1_1Device.html#a7500e3167837ba39e6fece197104f9d4", null ],
+    [ "loop_hz", "d7/d3b/classgams_1_1variables_1_1Device.html#a561229d6e2f88640f3bf0cdaba8d1d87", null ],
+    [ "madara_debug_level", "d7/d3b/classgams_1_1variables_1_1Device.html#a8a3d15bb24d65991df6d7e8461f3565a", null ],
     [ "min_alt", "d7/d3b/classgams_1_1variables_1_1Device.html#a8ce69a09b07e6b790611311dc54402e8", null ],
     [ "next_coverage_type", "d7/d3b/classgams_1_1variables_1_1Device.html#a734856ba5ab55ea7dec37710dfc56d28", null ],
     [ "search_area_id", "d7/d3b/classgams_1_1variables_1_1Device.html#a50d051bb996cbeab2953f126df53472c", null ],
+    [ "send_hz", "d7/d3b/classgams_1_1variables_1_1Device.html#a9d5ff29c59ac70fb295571b95730453c", null ],
     [ "source", "d7/d3b/classgams_1_1variables_1_1Device.html#a0a863dd7e819ddd1ef093f550e6749b1", null ],
     [ "temperature", "d7/d3b/classgams_1_1variables_1_1Device.html#ade11eb5658b8e7714025715ae83a03dd", null ]
 ];

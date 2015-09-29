@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['line',['LINE',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#ac8f6030a8ff428a9d72b459084068089a009d690079108ab5d227515ec491fb61',1,'gams::algorithms::Formation_Sync']]],
   ['log_5falways',['LOG_ALWAYS',['../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5a15ac85af457c1447294ca451bd96a4d5',1,'gams::loggers']]],
   ['log_5fdetailed',['LOG_DETAILED',['../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5a56c59141f7b426e24957231868ff6232',1,'gams::loggers']]],
   ['log_5femergency',['LOG_EMERGENCY',['../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5afa45af80e2ac2a620753036f45fcd6a9',1,'gams::loggers']]],

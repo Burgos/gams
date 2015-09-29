@@ -7,6 +7,7 @@ var searchData=
   ['finished',['finished',['../d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html#ab5e2ea35ef16d2e458eebcbc6d3efd3a',1,'gams::variables::Algorithm_Status']]],
   ['first',['first',['../dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html#a06f60e25694068a73785f862afd7d61b',1,'gams::algorithms::Message_Profiling::Message_Filter::Message_Data']]],
   ['fn_5fname',['fn_name',['../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#ab978a18c40753d81fd7f6d4cf0df05a8',1,'gams::utility::bad_coord_type']]],
+  ['formation_5f',['formation_',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#aa10a41d1165a83a338c46f3c17085a5d',1,'gams::algorithms::Formation_Sync']]],
   ['formation_5fready_5f',['formation_ready_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a6245e9a84b5494d7be42d1b01653ce56',1,'gams::algorithms::Formation_Flying']]],
   ['frame',['frame',['../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#a2f305749f88934b145611125da07ca40',1,'gams::utility::bad_coord_type']]],
   ['frame_5f',['frame_',['../da/deb/classgams_1_1utility_1_1Coordinate.html#a57ea98274756dc97055bfc50479be844',1,'gams::utility::Coordinate']]],

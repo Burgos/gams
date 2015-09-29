@@ -1,6 +1,7 @@
 var searchData=
 [
   ['madara_5fcommands',['madara_commands',['../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177',1,'gams_controller.cpp']]],
+  ['madara_5fdebug_5flevel',['madara_debug_level',['../d7/d3b/classgams_1_1variables_1_1Device.html#a8a3d15bb24d65991df6d7e8461f3565a',1,'gams::variables::Device']]],
   ['main',['main',['../dc/d61/gams__controller_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'gams_controller.cpp']]],
   ['make_5fvariable_5fname',['make_variable_name',['../d7/d3b/classgams_1_1variables_1_1Device.html#a647b9ee5616166fe95789bd94e3a9edc',1,'gams::variables::Device']]],
   ['make_5fvariable_5fprefix',['make_variable_prefix',['../d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html#a65e3457bab86db3fdb086ab505e1ada7',1,'gams::variables::Algorithm_Status::make_variable_prefix()'],['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#af18eb85d53c8fe4978dd657356a8cc7b',1,'gams::variables::Platform_Status::make_variable_prefix()']]],
@@ -15,6 +16,7 @@ var searchData=
   ['max_5fexecutions_5f',['max_executions_',['../d2/d4c/classgams_1_1algorithms_1_1Move.html#ab68e321f6c2c978c0cc30eb15c4d5a3b',1,'gams::algorithms::Move']]],
   ['max_5flat_5f',['max_lat_',['../da/db7/classgams_1_1utility_1_1Region.html#aa717cd56e4760fb25784ab1a3bfa4bea',1,'gams::utility::Region::max_lat_()'],['../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a8be7a0480b9acc954ee4828c84576810',1,'gams::utility::Search_Area::max_lat_()']]],
   ['max_5flon_5f',['max_lon_',['../da/db7/classgams_1_1utility_1_1Region.html#aaacfa3c1c97325f264f3dae4f0e0f904',1,'gams::utility::Region::max_lon_()'],['../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a6ff63b7bb814866bade6bd2fcc095a41',1,'gams::utility::Search_Area::max_lon_()']]],
+  ['members_5f',['members_',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#a38823087c5ac28ddd60db957de2b8634',1,'gams::algorithms::Formation_Sync']]],
   ['message_5fdata',['Message_Data',['../dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html',1,'gams::algorithms::Message_Profiling::Message_Filter']]],
   ['message_5ffilter',['Message_Filter',['../d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html',1,'gams::algorithms::Message_Profiling']]],
   ['message_5fprofiling',['Message_Profiling',['../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html',1,'gams::algorithms']]],
@@ -44,6 +46,7 @@ var searchData=
   ['move_2ecpp',['Move.cpp',['../df/d3e/Move_8cpp.html',1,'']]],
   ['move_2eh',['Move.h',['../d0/db9/Move_8h.html',1,'']]],
   ['move_5ffactory',['Move_Factory',['../d2/df0/classgams_1_1algorithms_1_1Move__Factory.html',1,'gams::algorithms']]],
+  ['move_5fpivot_5f',['move_pivot_',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#a5abea44f7dcb5e6a45ae220d6872937c',1,'gams::algorithms::Formation_Sync']]],
   ['move_5fspeed_5f',['move_speed_',['../df/d83/classgams_1_1platforms_1_1Base__Platform.html#ae06a79478e493a29906ae032d8ae66bf',1,'gams::platforms::Base_Platform']]],
   ['movement_5favailable',['movement_available',['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#a36cd54528eedde8136006d4a3f3dda0e',1,'gams::variables::Platform_Status::movement_available()'],['../d2/dd3/namespacegams_1_1platforms.html#a1ed36f0b5e84d34eca7d1b8b12d534d3a82266d10ad3659f6d1f1da1949cd34e6',1,'gams::platforms::MOVEMENT_AVAILABLE()']]],
   ['moving',['moving',['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#a657181b075851dffd5689bc0352c5a88',1,'gams::variables::Platform_Status::moving()'],['../d2/dd3/namespacegams_1_1platforms.html#a1ed36f0b5e84d34eca7d1b8b12d534d3a8890b03dfbeece2d3d7010bfe668d2d4',1,'gams::platforms::MOVING()']]],

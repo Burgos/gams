@@ -11,6 +11,7 @@ var searchData=
   ['last_5fgeneration_5f',['last_generation_',['../de/da0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage.html#a02b35daa4ef519bbaeaf50ab828708f5',1,'gams::algorithms::area_coverage::Min_Time_Area_Coverage']]],
   ['lat',['lat',['../d9/db7/classgams_1_1utility_1_1Location__Vector.html#ad1955ea91c31b1563fcb27136eae9e39',1,'gams::utility::Location_Vector::lat() const '],['../d9/db7/classgams_1_1utility_1_1Location__Vector.html#ab28d294fe353241c443f7ef698eb73d3',1,'gams::utility::Location_Vector::lat(double new_lat)']]],
   ['latitude',['latitude',['../de/d23/classgams_1_1utility_1_1GPS__Position.html#a6e5fb411acfd7bda388a53539c349270',1,'gams::utility::GPS_Position::latitude() const '],['../de/d23/classgams_1_1utility_1_1GPS__Position.html#a6bc64098fe9b367c68dbadfcf9d0dfd4',1,'gams::utility::GPS_Position::latitude(double input)']]],
+  ['line',['LINE',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#ac8f6030a8ff428a9d72b459084068089a009d690079108ab5d227515ec491fb61',1,'gams::algorithms::Formation_Sync']]],
   ['lng',['lng',['../d9/db7/classgams_1_1utility_1_1Location__Vector.html#a4267de7752dbad479de27e26cb2cf36d',1,'gams::utility::Location_Vector::lng() const '],['../d9/db7/classgams_1_1utility_1_1Location__Vector.html#a3802a73ccd706268a4674e0650d02717',1,'gams::utility::Location_Vector::lng(double new_lng)']]],
   ['local_5fknowledge_5f',['local_knowledge_',['../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html#a6328740a83d852af607bc3e0a69b0586',1,'gams::algorithms::Message_Profiling']]],
   ['local_5fpheremone_5farea_5fcoverage',['Local_Pheremone_Area_Coverage',['../da/de7/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage.html#a1d91ecdfaf5aa3999116c795ddf6bec5',1,'gams::algorithms::area_coverage::Local_Pheremone_Area_Coverage']]],
@@ -35,5 +36,6 @@ var searchData=
   ['log_5ftrace',['LOG_TRACE',['../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5a70388b5da3e7c14b04862dabf9348afe',1,'gams::loggers']]],
   ['log_5fwarning',['LOG_WARNING',['../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5a801d5609dcb54332e2de746c8c6b7d93',1,'gams::loggers']]],
   ['longitude',['longitude',['../de/d23/classgams_1_1utility_1_1GPS__Position.html#a6b3131ae4ac5c3221e6d61a839e783d2',1,'gams::utility::GPS_Position::longitude() const '],['../de/d23/classgams_1_1utility_1_1GPS__Position.html#a1c2718c43ce401c31225704c35278bf4',1,'gams::utility::GPS_Position::longitude(double input)']]],
+  ['loop_5fhz',['loop_hz',['../d7/d3b/classgams_1_1variables_1_1Device.html#a561229d6e2f88640f3bf0cdaba8d1d87',1,'gams::variables::Device']]],
   ['loop_5ftime',['loop_time',['../dc/d61/gams__controller_8cpp.html#a47145e0b6a276e0d4be8e3c04d84ceff',1,'gams_controller.cpp']]]
 ];

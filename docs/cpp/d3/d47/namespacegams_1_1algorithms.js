@@ -14,6 +14,8 @@ var namespacegams_1_1algorithms =
     [ "Formation_Coverage_Factory", "d2/d7c/classgams_1_1algorithms_1_1Formation__Coverage__Factory.html", "d2/d7c/classgams_1_1algorithms_1_1Formation__Coverage__Factory" ],
     [ "Formation_Flying", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying" ],
     [ "Formation_Flying_Factory", "d0/dbb/classgams_1_1algorithms_1_1Formation__Flying__Factory.html", "d0/dbb/classgams_1_1algorithms_1_1Formation__Flying__Factory" ],
+    [ "Formation_Sync", "d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html", "d7/d21/classgams_1_1algorithms_1_1Formation__Sync" ],
+    [ "Formation_Sync_Factory", "db/df9/classgams_1_1algorithms_1_1Formation__Sync__Factory.html", "db/df9/classgams_1_1algorithms_1_1Formation__Sync__Factory" ],
     [ "Java_Algorithm", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm" ],
     [ "Java_Algorithm_Factory", "de/deb/classgams_1_1algorithms_1_1Java__Algorithm__Factory.html", "de/deb/classgams_1_1algorithms_1_1Java__Algorithm__Factory" ],
     [ "Land", "d3/d06/classgams_1_1algorithms_1_1Land.html", "d3/d06/classgams_1_1algorithms_1_1Land" ],

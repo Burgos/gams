@@ -21,6 +21,7 @@ var searchData=
   ['_7efollow',['~Follow',['../d9/d7a/classgams_1_1algorithms_1_1Follow.html#a6e16fc33f71e487ddc7821f93faaca04',1,'gams::algorithms::Follow']]],
   ['_7eformation_5fcoverage',['~Formation_Coverage',['../d7/d90/classgams_1_1algorithms_1_1Formation__Coverage.html#a7872002290f18d869d34f71c43e2a61d',1,'gams::algorithms::Formation_Coverage']]],
   ['_7eformation_5fflying',['~Formation_Flying',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a7a2192209c7eb3ba3d8aca645d53f8fb',1,'gams::algorithms::Formation_Flying']]],
+  ['_7eformation_5fsync',['~Formation_Sync',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#a3a86e30345b77c357387e8be73fe1f32',1,'gams::algorithms::Formation_Sync']]],
   ['_7egps_5fposition',['~GPS_Position',['../de/d23/classgams_1_1utility_1_1GPS__Position.html#a8ad6d77bc7911c43032a1feda0323684',1,'gams::utility::GPS_Position']]],
   ['_7egrid',['~Grid',['../de/d94/classgams_1_1variables_1_1Grid.html#a8005fd0187b97d4bfbc8962ae8c68f65',1,'gams::variables::Grid']]],
   ['_7ejava_5falgorithm',['~Java_Algorithm',['../db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#ac0160be92fb88b0cab024d687f9b4b8b',1,'gams::algorithms::Java_Algorithm']]],

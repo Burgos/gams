@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['log_5flevels',['Log_Levels',['../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5',1,'gams::loggers']]]
+  ['formation_5ftypes',['Formation_Types',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#ac8f6030a8ff428a9d72b459084068089',1,'gams::algorithms::Formation_Sync']]]
 ];

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['madara_5fcommands',['madara_commands',['../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177',1,'gams_controller.cpp']]],
+  ['madara_5fdebug_5flevel',['madara_debug_level',['../d7/d3b/classgams_1_1variables_1_1Device.html#a8a3d15bb24d65991df6d7e8461f3565a',1,'gams::variables::Device']]],
   ['mape_5floop_5f',['mape_loop_',['../dc/da4/classgams_1_1controllers_1_1Mape__Loop.html#a88e59434a9c82225aa14397ed597751a',1,'gams::controllers::Mape_Loop']]],
   ['mars_5fradius',['MARS_RADIUS',['../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#ab04018df24bf2362a23a9dfe96094462',1,'gams::utility::GPS_Frame']]],
   ['max_5falt_5f',['max_alt_',['../da/db7/classgams_1_1utility_1_1Region.html#a68243d57650ab979e1d6e5c0e0b193aa',1,'gams::utility::Region::max_alt_()'],['../d5/d9f/classgams_1_1utility_1_1Search__Area.html#afa0ade7cfca4fea2564e5acbdaaabaf2',1,'gams::utility::Search_Area::max_alt_()']]],
@@ -8,6 +9,7 @@ var searchData=
   ['max_5fexecutions_5f',['max_executions_',['../d2/d4c/classgams_1_1algorithms_1_1Move.html#ab68e321f6c2c978c0cc30eb15c4d5a3b',1,'gams::algorithms::Move']]],
   ['max_5flat_5f',['max_lat_',['../da/db7/classgams_1_1utility_1_1Region.html#aa717cd56e4760fb25784ab1a3bfa4bea',1,'gams::utility::Region::max_lat_()'],['../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a8be7a0480b9acc954ee4828c84576810',1,'gams::utility::Search_Area::max_lat_()']]],
   ['max_5flon_5f',['max_lon_',['../da/db7/classgams_1_1utility_1_1Region.html#aaacfa3c1c97325f264f3dae4f0e0f904',1,'gams::utility::Region::max_lon_()'],['../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a6ff63b7bb814866bade6bd2fcc095a41',1,'gams::utility::Search_Area::max_lon_()']]],
+  ['members_5f',['members_',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#a38823087c5ac28ddd60db957de2b8634',1,'gams::algorithms::Formation_Sync']]],
   ['min_5falt',['min_alt',['../d7/d3b/classgams_1_1variables_1_1Device.html#a8ce69a09b07e6b790611311dc54402e8',1,'gams::variables::Device::min_alt()'],['../d4/dde/classgams_1_1variables_1_1Swarm.html#a974c63a5ea9c4b924c36f64dfdabce14',1,'gams::variables::Swarm::min_alt()']]],
   ['min_5falt_5f',['min_alt_',['../da/db7/classgams_1_1utility_1_1Region.html#ab6cc79eefbb85392451a02481c991735',1,'gams::utility::Region::min_alt_()'],['../d5/d9f/classgams_1_1utility_1_1Search__Area.html#affe09ba6a777c9d3a99d953cd4fa4ddb',1,'gams::utility::Search_Area::min_alt_()']]],
   ['min_5flat_5f',['min_lat_',['../da/db7/classgams_1_1utility_1_1Region.html#af819b1bda877112aff85fba5339d2f5e',1,'gams::utility::Region::min_lat_()'],['../d5/d9f/classgams_1_1utility_1_1Search__Area.html#af85ae4579436dc8ca14321dc9fc8e0b3',1,'gams::utility::Search_Area::min_lat_()']]],
@@ -16,6 +18,7 @@ var searchData=
   ['mode_5f',['mode_',['../d2/d4c/classgams_1_1algorithms_1_1Move.html#a68848ee82138775d687660f49b301788',1,'gams::algorithms::Move']]],
   ['modifier_5f',['modifier_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a9a69d41b12da301fd2ebc10af8b32bf2',1,'gams::algorithms::Formation_Flying']]],
   ['moon_5fradius',['MOON_RADIUS',['../d5/dcb/classgams_1_1utility_1_1GPS__Frame.html#a39e7b4017f89fb3a78ddec295e5db431',1,'gams::utility::GPS_Frame']]],
+  ['move_5fpivot_5f',['move_pivot_',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#a5abea44f7dcb5e6a45ae220d6872937c',1,'gams::algorithms::Formation_Sync']]],
   ['move_5fspeed_5f',['move_speed_',['../df/d83/classgams_1_1platforms_1_1Base__Platform.html#ae06a79478e493a29906ae032d8ae66bf',1,'gams::platforms::Base_Platform']]],
   ['movement_5favailable',['movement_available',['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#a36cd54528eedde8136006d4a3f3dda0e',1,'gams::variables::Platform_Status']]],
   ['moving',['moving',['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#a657181b075851dffd5689bc0352c5a88',1,'gams::variables::Platform_Status']]],
