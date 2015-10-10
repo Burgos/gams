@@ -1,6 +1,6 @@
 <map id="src/gams/variables/Device.cpp" name="src/gams/variables/Device.cpp">
-<area shape="rect" id="node2" href="$de/d05/Device_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="578,102,648,129"/>
-<area shape="rect" id="node14" href="$d0/d19/Global__Logger_8h.html" title="gams/loggers/Global\l_Logger.h" alt="" coords="125,95,266,136"/>
-<area shape="rect" id="node5" href="$db/d98/GAMS__Export_8h.html" title="gams/GAMS_Export.h" alt="" coords="90,273,243,300"/>
-<area shape="rect" id="node13" href="$d6/d35/Accent__Status_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="554,184,672,211"/>
+<area shape="rect" id="node2" href="$de/d05/Device_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="591,95,661,121"/>
+<area shape="rect" id="node14" href="$d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="117,95,308,121"/>
+<area shape="rect" id="node5" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="85,251,231,278"/>
+<area shape="rect" id="node13" href="$d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="570,169,682,196"/>
 </map>

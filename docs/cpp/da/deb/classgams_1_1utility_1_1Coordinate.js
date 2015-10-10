@@ -1,18 +1,18 @@
 var classgams_1_1utility_1_1Coordinate =
 [
     [ "Coordinate", "da/deb/classgams_1_1utility_1_1Coordinate.html#a1ba9dc42b3fb266951c04adb0f12f53e", null ],
-    [ "Coordinate", "da/deb/classgams_1_1utility_1_1Coordinate.html#a90c5b1930fb2dccea56a3ebf7a981833", null ],
-    [ "Coordinate", "da/deb/classgams_1_1utility_1_1Coordinate.html#ad720d6cb6c4179c141417c61162063e4", null ],
+    [ "Coordinate", "da/deb/classgams_1_1utility_1_1Coordinate.html#a404ee68d51209a9cfbe4300baf1bd115", null ],
+    [ "Coordinate", "da/deb/classgams_1_1utility_1_1Coordinate.html#adf43fb1756eda6c55f6455e4785926e2", null ],
     [ "Coordinate", "da/deb/classgams_1_1utility_1_1Coordinate.html#a37608263a2224f2be6d12b95ab8b631a", null ],
     [ "approximately_equal", "da/deb/classgams_1_1utility_1_1Coordinate.html#aa4692d8ce4b9347d511b38866c04d037", null ],
     [ "as_coord_type", "da/deb/classgams_1_1utility_1_1Coordinate.html#ae9a9ac32eec298ab5319e47ee069e5c5", null ],
     [ "as_coord_type", "da/deb/classgams_1_1utility_1_1Coordinate.html#a2b5704a999e78ae4e350a81c4039e1e1", null ],
     [ "as_type", "da/deb/classgams_1_1utility_1_1Coordinate.html#a24a929f23256484c7c13f75f171cc59a", null ],
     [ "as_type", "da/deb/classgams_1_1utility_1_1Coordinate.html#ab5436bf7b3d9de7dbccc0a798e3241f0", null ],
-    [ "default_frame", "da/deb/classgams_1_1utility_1_1Coordinate.html#a6d956bab4b5793beeb538934336fc93e", null ],
+    [ "default_frame", "da/deb/classgams_1_1utility_1_1Coordinate.html#ac4c9781a9b31e0614bf26f98b60cce28", null ],
     [ "distance_to", "da/deb/classgams_1_1utility_1_1Coordinate.html#a06c28b306ffc5e52836892235a454e46", null ],
-    [ "frame", "da/deb/classgams_1_1utility_1_1Coordinate.html#aa13221df7bff854cc17056a9eb86720e", null ],
-    [ "frame", "da/deb/classgams_1_1utility_1_1Coordinate.html#af6a6581552ad63abd525c19f56b1f25a", null ],
+    [ "frame", "da/deb/classgams_1_1utility_1_1Coordinate.html#a9a6c152f389fcefbde8a761da992be77", null ],
+    [ "frame", "da/deb/classgams_1_1utility_1_1Coordinate.html#ac75379733b5630be74ee454e928ef1d7", null ],
     [ "from_container", "da/deb/classgams_1_1utility_1_1Coordinate.html#a4bf7eb815906e9d8566837ecad13be82", null ],
     [ "from_string", "da/deb/classgams_1_1utility_1_1Coordinate.html#af10490df68fa3f0f04e4e67f18913e24", null ],
     [ "normalize", "da/deb/classgams_1_1utility_1_1Coordinate.html#a6e42eeaf12214be44830c5f36a80aa87", null ],
@@ -23,7 +23,7 @@ var classgams_1_1utility_1_1Coordinate =
     [ "operator==", "da/deb/classgams_1_1utility_1_1Coordinate.html#a52f0fc36b94c6371e0a03e03a7edfdc3", null ],
     [ "to_container", "da/deb/classgams_1_1utility_1_1Coordinate.html#aaa4f1ac4e81b15abe806cad0b2bc6323", null ],
     [ "to_string", "da/deb/classgams_1_1utility_1_1Coordinate.html#ae27d96cd37647757d261ff7289f18c15", null ],
-    [ "transform_this_to", "da/deb/classgams_1_1utility_1_1Coordinate.html#aa758895d79d7d61d37260b4b65fa122f", null ],
-    [ "transform_to", "da/deb/classgams_1_1utility_1_1Coordinate.html#ab385f8cb8d987977a72b2b3303ed1860", null ],
-    [ "frame_", "da/deb/classgams_1_1utility_1_1Coordinate.html#a57ea98274756dc97055bfc50479be844", null ]
+    [ "transform_this_to", "da/deb/classgams_1_1utility_1_1Coordinate.html#ae27b220f484323f4affb5aba0853d974", null ],
+    [ "transform_to", "da/deb/classgams_1_1utility_1_1Coordinate.html#ab7acfeda09cfb7c9084c015131f210d7", null ],
+    [ "frame_", "da/deb/classgams_1_1utility_1_1Coordinate.html#af9d48e279f007758d1ce5e1e6e1d177c", null ]
 ];

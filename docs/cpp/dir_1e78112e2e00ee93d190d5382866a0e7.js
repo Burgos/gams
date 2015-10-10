@@ -4,27 +4,27 @@ var dir_1e78112e2e00ee93d190d5382866a0e7 =
     [ "java", "dir_4e8406f82166e65909be659912c4f433.html", "dir_4e8406f82166e65909be659912c4f433" ],
     [ "ros", "dir_c6a0f65e46154e960d0036f57195e948.html", "dir_c6a0f65e46154e960d0036f57195e948" ],
     [ "vrep", "dir_28c2d94377217a92e4c789135976939c.html", "dir_28c2d94377217a92e4c789135976939c" ],
-    [ "Base_Platform.cpp", "d8/dd2/Base__Platform_8cpp.html", null ],
-    [ "Base_Platform.h", "dd/d22/Base__Platform_8h.html", "dd/d22/Base__Platform_8h" ],
-    [ "Controller_Platform_Factory.cpp", "d3/de8/Controller__Platform__Factory_8cpp.html", null ],
-    [ "Controller_Platform_Factory.h", "dc/de3/Controller__Platform__Factory_8h.html", "dc/de3/Controller__Platform__Factory_8h" ],
-    [ "Debug_Platform.cpp", "d0/d05/Debug__Platform_8cpp.html", null ],
-    [ "Debug_Platform.h", "d5/d0f/Debug__Platform_8h.html", [
-      [ "Debug_Platform", "d4/d15/classgams_1_1platforms_1_1Debug__Platform.html", "d4/d15/classgams_1_1platforms_1_1Debug__Platform" ],
-      [ "Debug_Platform_Factory", "d8/d92/classgams_1_1platforms_1_1Debug__Platform__Factory.html", "d8/d92/classgams_1_1platforms_1_1Debug__Platform__Factory" ]
+    [ "BasePlatform.cpp", "da/d64/BasePlatform_8cpp.html", null ],
+    [ "BasePlatform.h", "d4/de8/BasePlatform_8h.html", "d4/de8/BasePlatform_8h" ],
+    [ "ControllerPlatformFactory.cpp", "d1/dd2/ControllerPlatformFactory_8cpp.html", null ],
+    [ "ControllerPlatformFactory.h", "db/d10/ControllerPlatformFactory_8h.html", "db/d10/ControllerPlatformFactory_8h" ],
+    [ "DebugPlatform.cpp", "da/d50/DebugPlatform_8cpp.html", null ],
+    [ "DebugPlatform.h", "d2/d1b/DebugPlatform_8h.html", [
+      [ "DebugPlatform", "d7/df2/classgams_1_1platforms_1_1DebugPlatform.html", "d7/df2/classgams_1_1platforms_1_1DebugPlatform" ],
+      [ "DebugPlatformFactory", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory" ]
     ] ],
-    [ "Null_Platform.cpp", "de/d5f/Null__Platform_8cpp.html", null ],
-    [ "Null_Platform.h", "d7/d9b/Null__Platform_8h.html", [
-      [ "Null_Platform", "da/d8e/classgams_1_1platforms_1_1Null__Platform.html", "da/d8e/classgams_1_1platforms_1_1Null__Platform" ],
-      [ "Null_Platform_Factory", "d2/df2/classgams_1_1platforms_1_1Null__Platform__Factory.html", "d2/df2/classgams_1_1platforms_1_1Null__Platform__Factory" ]
+    [ "NullPlatform.cpp", "d8/dda/NullPlatform_8cpp.html", null ],
+    [ "NullPlatform.h", "d5/dbf/NullPlatform_8h.html", [
+      [ "NullPlatform", "d4/d7b/classgams_1_1platforms_1_1NullPlatform.html", "d4/d7b/classgams_1_1platforms_1_1NullPlatform" ],
+      [ "NullPlatformFactory", "d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html", "d6/d50/classgams_1_1platforms_1_1NullPlatformFactory" ]
     ] ],
-    [ "Platform_Collection.cpp", "d4/db7/Platform__Collection_8cpp.html", null ],
-    [ "Platform_Collection.h", "dd/d10/Platform__Collection_8h.html", [
-      [ "Platform_Collection", "d7/da8/classgams_1_1platforms_1_1Platform__Collection.html", "d7/da8/classgams_1_1platforms_1_1Platform__Collection" ],
-      [ "Platform_Collection_Factory", "dd/d10/classgams_1_1platforms_1_1Platform__Collection__Factory.html", "dd/d10/classgams_1_1platforms_1_1Platform__Collection__Factory" ]
+    [ "PlatformCollection.cpp", "dd/dc5/PlatformCollection_8cpp.html", null ],
+    [ "PlatformCollection.h", "d0/dcb/PlatformCollection_8h.html", [
+      [ "PlatformCollection", "d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html", "d9/d3c/classgams_1_1platforms_1_1PlatformCollection" ],
+      [ "PlatformCollectionFactory", "dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory.html", "dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory" ]
     ] ],
-    [ "Platform_Factory.cpp", "db/d32/Platform__Factory_8cpp.html", null ],
-    [ "Platform_Factory.h", "d7/d16/Platform__Factory_8h.html", [
-      [ "Platform_Factory", "d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html", "d3/dcd/classgams_1_1platforms_1_1Platform__Factory" ]
+    [ "PlatformFactory.cpp", "d7/d59/PlatformFactory_8cpp.html", null ],
+    [ "PlatformFactory.h", "d1/d58/PlatformFactory_8h.html", [
+      [ "PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html", "d5/d99/classgams_1_1platforms_1_1PlatformFactory" ]
     ] ]
 ];

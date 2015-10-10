@@ -9,5 +9,5 @@ var dir_6c455ffda7930f83b3bac201e39444dd =
     [ "utility", "dir_e1406cd850b444c8c135213175f9bbdb.html", "dir_e1406cd850b444c8c135213175f9bbdb" ],
     [ "variables", "dir_0e5c20b817b77fc20ca6d9cc098d1d10.html", "dir_0e5c20b817b77fc20ca6d9cc098d1d10" ],
     [ "CPP11_compat.h", "d5/d69/CPP11__compat_8h.html", "d5/d69/CPP11__compat_8h" ],
-    [ "GAMS_Export.h", "db/d98/GAMS__Export_8h.html", "db/d98/GAMS__Export_8h" ]
+    [ "GAMSExport.h", "d9/de3/GAMSExport_8h.html", "d9/de3/GAMSExport_8h" ]
 ];

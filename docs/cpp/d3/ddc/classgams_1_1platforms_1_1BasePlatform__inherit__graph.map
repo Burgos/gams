@@ -1,0 +1,7 @@
+<map id="gams::platforms::BasePlatform" name="gams::platforms::BasePlatform">
+<area shape="rect" id="node2" href="$d7/df2/classgams_1_1platforms_1_1DebugPlatform.html" title="A debug platform that prints detailed status information. " alt="" coords="255,5,463,32"/>
+<area shape="rect" id="node3" href="$df/d3b/classgams_1_1platforms_1_1Drone__RK.html" title="gams::platforms::Drone_RK" alt="" coords="267,56,450,83"/>
+<area shape="rect" id="node4" href="$dc/d78/classgams_1_1platforms_1_1JavaPlatform.html" title="A facade for Java platforms. " alt="" coords="261,107,457,133"/>
+<area shape="rect" id="node5" href="$d4/d7b/classgams_1_1platforms_1_1NullPlatform.html" title="A null platform. " alt="" coords="262,157,455,184"/>
+<area shape="rect" id="node6" href="$d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html" title="A collection of platforms. " alt="" coords="273,209,444,250"/>
+</map>

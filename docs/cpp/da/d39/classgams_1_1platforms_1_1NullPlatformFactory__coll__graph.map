@@ -1,0 +1,7 @@
+<map id="gams::platforms::NullPlatformFactory" name="gams::platforms::NullPlatformFactory">
+<area shape="rect" id="node2" href="$d5/d99/classgams_1_1platforms_1_1PlatformFactory.html" title="Base class for platform factories to create BasePlatforms. " alt="" coords="70,377,241,419"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="11,273,132,300"/>
+<area shape="rect" id="node6" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="156,273,299,300"/>
+<area shape="rect" id="node7" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="A container for device information. " alt="" coords="148,184,307,211"/>
+<area shape="rect" id="node9" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="128,5,327,32"/>
+</map>

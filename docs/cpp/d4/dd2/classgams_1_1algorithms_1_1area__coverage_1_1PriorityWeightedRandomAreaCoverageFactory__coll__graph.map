@@ -1,0 +1,12 @@
+<map id="gams::algorithms::area_coverage::PriorityWeightedRandomAreaCoverageFactory" name="gams::algorithms::area_coverage::PriorityWeightedRandomAreaCoverageFactory">
+<area shape="rect" id="node2" href="$d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html" title="Base class for algorithm factories that classes derived from. " alt="" coords="1493,130,1679,171"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="881,152,1002,179"/>
+<area shape="rect" id="node10" href="$d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="1187,87,1388,113"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="1049,228,1163,255"/>
+<area shape="rect" id="node6" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="870,7,1013,33"/>
+<area shape="rect" id="node7" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="A container for device information. " alt="" coords="593,7,752,33"/>
+<area shape="rect" id="node9" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="5,7,204,33"/>
+<area shape="rect" id="node11" href="$db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="857,69,1025,110"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="633,76,713,103"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="339,69,465,110"/>
+</map>

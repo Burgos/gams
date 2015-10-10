@@ -1,7 +1,7 @@
 var gams__controller_8cpp =
 [
     [ "Integer", "dc/d61/gams__controller_8cpp.html#a0584e2a15ee1231298f4501eca6bd1a0", null ],
-    [ "Record", "dc/d61/gams__controller_8cpp.html#aa523b4eea85daa0ec019da299be259ec", null ],
+    [ "Record", "dc/d61/gams__controller_8cpp.html#abaaae61bd3a8fa0865e1a39d781f1c6a", null ],
     [ "algorithm", "dc/d61/gams__controller_8cpp.html#a47d7c31b22b078e7bafd6aa6716af65f", null ],
     [ "default_broadcast", "dc/d61/gams__controller_8cpp.html#af6158236a360878159a8e799ee00cf55", null ],
     [ "default_multicast", "dc/d61/gams__controller_8cpp.html#aef952081e87739384ba5433cfe4297ae", null ],
@@ -18,5 +18,5 @@ var gams__controller_8cpp =
     [ "file_path", "dc/d61/gams__controller_8cpp.html#abf5d4571e49256d0c9d862dfe4936e55", null ],
     [ "madara_commands", "dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177", null ],
     [ "plat_set", "dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7", null ],
-    [ "settings", "dc/d61/gams__controller_8cpp.html#a170a3d7a63391d2b54f3cfc4d67028f1", null ]
+    [ "settings", "dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab", null ]
 ];

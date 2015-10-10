@@ -1,0 +1,17 @@
+<map id="src/gams/platforms/NullPlatform.h" name="src/gams/platforms/NullPlatform.h">
+<area shape="rect" id="node2" href="$d1/d58/PlatformFactory_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1257,95,1476,121"/>
+<area shape="rect" id="node3" href="$d4/de8/BasePlatform_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1411,169,1615,196"/>
+<area shape="rect" id="node5" href="$da/d3d/Self_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="954,415,1099,442"/>
+<area shape="rect" id="node17" href="$d5/d65/Sensor_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1642,244,1806,271"/>
+<area shape="rect" id="node20" href="$df/d53/GPSPosition_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2593,579,2772,606"/>
+<area shape="rect" id="node29" href="$da/d37/PlatformStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1123,415,1333,442"/>
+<area shape="rect" id="node30" href="$d3/d6e/Axes_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2749,669,2883,695"/>
+<area shape="rect" id="node6" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="1643,758,1789,785"/>
+<area shape="rect" id="node10" href="$de/d05/Device_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="789,497,859,524"/>
+<area shape="rect" id="node16" href="$d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="721,579,833,606"/>
+<area shape="rect" id="node22" href="$de/dff/Position_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2543,669,2623,695"/>
+<area shape="rect" id="node23" href="$d6/d1b/utility_2SearchArea_8h.html" title="gams/utility/SearchArea.h" alt="" coords="1763,326,1935,353"/>
+<area shape="rect" id="node24" href="$d9/d98/PrioritizedRegion_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2143,408,2294,449"/>
+<area shape="rect" id="node25" href="$da/d9f/utility_2Region_8h.html" title="gams/utility/Region.h" alt="" coords="2147,497,2291,524"/>
+<area shape="rect" id="node27" href="$dd/df2/Containerize_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1871,579,2047,606"/>
+</map>

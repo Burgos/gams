@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['none',['NONE',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a082c1b55907b26651f7011b831b243d9a05dceb6f75b3e267d2aa6386d2834805',1,'gams::algorithms::Formation_Flying']]]
+  ['none',['NONE',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#ad963f56bbae047fc1eb443014b40dc91aaea9e293659419e7a146fd533ca9fc4b',1,'gams::algorithms::FormationFlying']]]
 ];

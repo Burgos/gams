@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1Java__Algorithm =
 [
-    [ "Java_Algorithm", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#ab4af8fab2221560ac1dea1ad9c760b5d", null ],
+    [ "Java_Algorithm", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#af603dc159899618561f5cce2c270d6f6", null ],
     [ "~Java_Algorithm", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#ac0160be92fb88b0cab024d687f9b4b8b", null ],
     [ "analyze", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a0ab90e89a608ddc6c5e3565208b9b6dd", null ],
     [ "execute", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#ab55ad8ab044a8fbd62bcce4e5ed270ae", null ],
@@ -8,7 +8,7 @@ var classgams_1_1algorithms_1_1Java__Algorithm =
     [ "get_devices", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a2cfdd65848edd729e2573cb1fc704cc1", null ],
     [ "get_id", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a7b806515a6f97ea26445aff86e5908aa", null ],
     [ "get_java_instance", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a919df850fe16b5817a20b3386cb6ad91", null ],
-    [ "get_knowledge_base", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a4dc41c9be77296a16c712323b29e8f22", null ],
+    [ "get_knowledge_base", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a45020fdf59e56418da20e17ac501be6a", null ],
     [ "get_name", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a7262f7f79835926b96261b318072f986", null ],
     [ "get_platform", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a92b050383af20038e92528237b39f4af", null ],
     [ "get_self", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a68cc2a49796c1237b77b1c887f62cae6", null ],
@@ -22,7 +22,7 @@ var classgams_1_1algorithms_1_1Java__Algorithm =
     [ "class_", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a3d641559d1a98757985eee5d8fa61e5f", null ],
     [ "devices_", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a7fa39e19b2b19afa4c5889921f24573b", null ],
     [ "executions_", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a69e37c3481157ab3ae3dcdbe2bb197cc", null ],
-    [ "knowledge_", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#af449b8483a96067eb7c963312bbf336f", null ],
+    [ "knowledge_", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#a0df924fa165ad690af2b49eeb440c67b", null ],
     [ "obj_", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#adf813ed36f8ae84961cde716b26ae61e", null ],
     [ "platform_", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#ae9cbba239fdcc8768d8e6aac72a75ff0", null ],
     [ "self_", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html#ae352b273433745158f3582598b184c2d", null ],

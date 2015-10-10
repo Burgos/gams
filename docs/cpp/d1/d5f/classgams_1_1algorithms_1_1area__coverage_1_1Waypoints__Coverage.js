@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage =
 [
-    [ "Waypoints_Coverage", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#aedde09aca7a3104ceb618bdd909ce675", null ],
+    [ "Waypoints_Coverage", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#ac1ce20089c2ce39137ddc06d29abaf67", null ],
     [ "~Waypoints_Coverage", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a38c448b548ab73dadb369a8d6de752ba", null ],
     [ "analyze", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a65d84dd6fd67b0e25a74edcd4b1401cd", null ],
     [ "check_if_finished", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a32106d97a6be058365a931dbf30ffc83", null ],
@@ -8,7 +8,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage =
     [ "generate_new_position", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#af72a3beb4a3897847b6be7ea39bd5985", null ],
     [ "get_algorithm_status", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#aef8cdd5d13d02fe78c8aac11df3ecffd", null ],
     [ "get_devices", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a2cfdd65848edd729e2573cb1fc704cc1", null ],
-    [ "get_knowledge_base", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a4dc41c9be77296a16c712323b29e8f22", null ],
+    [ "get_knowledge_base", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a45020fdf59e56418da20e17ac501be6a", null ],
     [ "get_next_position", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#ad363e0bf2cdfe6497ce413875930cd05", null ],
     [ "get_platform", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a92b050383af20038e92528237b39f4af", null ],
     [ "get_self", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a68cc2a49796c1237b77b1c887f62cae6", null ],
@@ -24,7 +24,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage =
     [ "end_time_", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#af43d699317b495ef1d0868ac3b17c05e", null ],
     [ "exec_time_", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a3430cc4f7426d0d93597cfc174b7d557", null ],
     [ "executions_", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a69e37c3481157ab3ae3dcdbe2bb197cc", null ],
-    [ "knowledge_", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#af449b8483a96067eb7c963312bbf336f", null ],
+    [ "knowledge_", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a0df924fa165ad690af2b49eeb440c67b", null ],
     [ "next_position_", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#a8ae5aee85f74b5016811e9d8c085a55d", null ],
     [ "platform_", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#ae9cbba239fdcc8768d8e6aac72a75ff0", null ],
     [ "self_", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html#ae352b273433745158f3582598b184c2d", null ],

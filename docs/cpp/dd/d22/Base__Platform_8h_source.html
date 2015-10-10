@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.9</span>
+   &#160;<span id="projectnumber">0.9.10</span>
    </div>
   </td>
  </tr>
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('dd/d22/Base__Platform_8h_source.html',
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d9c/Platform__Status_8h.html">gams/variables/Platform_Status.h</a>&quot;</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dcf/GPS__Position_8h.html">gams/utility/GPS_Position.h</a>&quot;</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d6e/Axes_8h.html">gams/utility/Axes.h</a>&quot;</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/Knowledge_Base.h&quot;</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/Knowledge_Base.h&quot;</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../df/dae/namespacegams.html">gams</a></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;{</div>
@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('dd/d22/Base__Platform_8h_source.html',
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <span class="comment">// allow Base controller to initialize our variables</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#afd6f5737b534e8bb0499298bbd39c455">  111</a></span>&#160;      <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="../../d0/dbe/classgams_1_1controllers_1_1Base__Controller.html">controllers::Base_Controller</a>;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">Base_Platform</a> (Madara::Knowledge_Engine::Knowledge_Base * knowledge = 0,</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">Base_Platform</a> (madara::knowledge::Knowledge_Base * knowledge = 0,</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors = 0,</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span> = 0);</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
@@ -198,7 +198,7 @@ $(document).ready(function(){initNavTree('dd/d22/Base__Platform_8h_source.html',
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> sense (<span class="keywordtype">void</span>) = 0;</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;      </div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      <span class="keywordtype">void</span> set_knowledge (Madara::Knowledge_Engine::Knowledge_Base * rhs);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      <span class="keywordtype">void</span> set_knowledge (madara::knowledge::Knowledge_Base * rhs);</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      </div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> set_move_speed (<span class="keyword">const</span> <span class="keywordtype">double</span>&amp; speed);</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;      </div>
@@ -208,7 +208,7 @@ $(document).ready(function(){initNavTree('dd/d22/Base__Platform_8h_source.html',
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> takeoff (<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      </div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      Madara::Knowledge_Engine::Knowledge_Base * get_knowledge_base (<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      madara::knowledge::Knowledge_Base * get_knowledge_base (<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      </div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;      <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * get_self (<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
@@ -219,7 +219,7 @@ $(document).ready(function(){initNavTree('dd/d22/Base__Platform_8h_source.html',
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00282"></a><span class="lineno"><a class="line" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#ae06a79478e493a29906ae032d8ae66bf">  282</a></span>&#160;      <span class="keywordtype">double</span> <a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#ae06a79478e493a29906ae032d8ae66bf">move_speed_</a>;</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
-<div class="line"><a name="l00285"></a><span class="lineno"><a class="line" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#a24ce1866102ab840033bd2b2c2a8cb4e">  285</a></span>&#160;      Madara::Knowledge_Engine::Knowledge_Base * <a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#a24ce1866102ab840033bd2b2c2a8cb4e">knowledge_</a>;</div>
+<div class="line"><a name="l00285"></a><span class="lineno"><a class="line" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#a80f4c2083bd45cc79d32a9616ebaeec9">  285</a></span>&#160;      madara::knowledge::Knowledge_Base * <a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#a80f4c2083bd45cc79d32a9616ebaeec9">knowledge_</a>;</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
 <div class="line"><a name="l00288"></a><span class="lineno"><a class="line" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#aa877355f86c695d099d5ab9becf22131">  288</a></span>&#160;      <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#aa877355f86c695d099d5ab9becf22131">self_</a>;</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
@@ -236,6 +236,7 @@ $(document).ready(function(){initNavTree('dd/d22/Base__Platform_8h_source.html',
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor">#endif // _GAMS_PLATFORM_BASE_H_</span></div>
 <div class="ttc" id="Platform__Status_8h_html"><div class="ttname"><a href="../../d8/d9c/Platform__Status_8h.html">Platform_Status.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1platforms_1_1Base__Platform_html_abfb50e43a49915392ce533a53bb420c3"><div class="ttname"><a href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#abfb50e43a49915392ce533a53bb420c3">gams::platforms::Base_Platform::status_</a></div><div class="ttdeci">variables::Platform_Status status_</div><div class="ttdoc">provides access to status information for this platform </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/Base__Platform_8h_source.html#l00294">Base_Platform.h:294</a></div></div>
+<div class="ttc" id="classgams_1_1platforms_1_1Base__Platform_html_a80f4c2083bd45cc79d32a9616ebaeec9"><div class="ttname"><a href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#a80f4c2083bd45cc79d32a9616ebaeec9">gams::platforms::Base_Platform::knowledge_</a></div><div class="ttdeci">madara::knowledge::Knowledge_Base * knowledge_</div><div class="ttdoc">provides access to variables and values </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/Base__Platform_8h_source.html#l00285">Base_Platform.h:285</a></div></div>
 <div class="ttc" id="namespacegams_1_1platforms_html_a1ed36f0b5e84d34eca7d1b8b12d534d3a5104eac71b7d880ef3320a7497ba7aee"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html#a1ed36f0b5e84d34eca7d1b8b12d534d3a5104eac71b7d880ef3320a7497ba7aee">gams::platforms::OK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/Base__Platform_8h_source.html#l00081">Base_Platform.h:81</a></div></div>
 <div class="ttc" id="namespacegams_1_1platforms_html_a1ed36f0b5e84d34eca7d1b8b12d534d3a7669565f048fd962c429099d1fc81f38"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html#a1ed36f0b5e84d34eca7d1b8b12d534d3a7669565f048fd962c429099d1fc81f38">gams::platforms::WAITING</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/Base__Platform_8h_source.html#l00082">Base_Platform.h:82</a></div></div>
 <div class="ttc" id="namespacegams_1_1platforms_html_a1ed36f0b5e84d34eca7d1b8b12d534d3"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html#a1ed36f0b5e84d34eca7d1b8b12d534d3">gams::platforms::Platform_Analyze_Status</a></div><div class="ttdeci">Platform_Analyze_Status</div><div class="ttdoc">Possible platform statuses, as returnable by analyze () </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/Base__Platform_8h_source.html#l00078">Base_Platform.h:78</a></div></div>
@@ -257,7 +258,6 @@ $(document).ready(function(){initNavTree('dd/d22/Base__Platform_8h_source.html',
 <div class="ttc" id="Self_8h_html"><div class="ttname"><a href="../../da/d3d/Self_8h.html">Self.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="GPS__Position_8h_html"><div class="ttname"><a href="../../de/dcf/GPS__Position_8h.html">GPS_Position.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1platforms_1_1Base__Platform_html"><div class="ttname"><a href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">gams::platforms::Base_Platform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/Base__Platform_8h_source.html#l00107">Base_Platform.h:107</a></div></div>
-<div class="ttc" id="classgams_1_1platforms_1_1Base__Platform_html_a24ce1866102ab840033bd2b2c2a8cb4e"><div class="ttname"><a href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#a24ce1866102ab840033bd2b2c2a8cb4e">gams::platforms::Base_Platform::knowledge_</a></div><div class="ttdeci">Madara::Knowledge_Engine::Knowledge_Base * knowledge_</div><div class="ttdoc">provides access to variables and values </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/Base__Platform_8h_source.html#l00285">Base_Platform.h:285</a></div></div>
 <div class="ttc" id="namespacegams_1_1platforms_html_ad70cdfa6d5ad4bda56a609f45d1f0851a576fdd2799fd94a4c73ebeb4a19951e8"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html#ad70cdfa6d5ad4bda56a609f45d1f0851a576fdd2799fd94a4c73ebeb4a19951e8">gams::platforms::PLATFORM_ARRIVED</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/Base__Platform_8h_source.html#l00101">Base_Platform.h:101</a></div></div>
 <div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Algorithm__Factory_8h_source.html#l00064">Algorithm_Factory.h:64</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
@@ -282,7 +282,7 @@ $(document).ready(function(){initNavTree('dd/d22/Base__Platform_8h_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_1e78112e2e00ee93d190d5382866a0e7.html">platforms</a></li><li class="navelem"><a class="el" href="../../dd/d22/Base__Platform_8h.html">Base_Platform.h</a></li>
-    <li class="footer">Generated on Tue Sep 29 2015 12:23:08 for GAMS by
+    <li class="footer">Generated on Mon Oct 5 2015 20:42:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

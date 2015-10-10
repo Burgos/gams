@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['range_5f',['range_',['../db/d7d/classgams_1_1variables_1_1Sensor.html#adee3d244a5fe1c443e68f5c54bb5bad8',1,'gams::variables::Sensor']]],
-  ['reduced_5fmovement',['reduced_movement',['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#a5439277d775f5d252b5686767df23eb9',1,'gams::variables::Platform_Status']]],
-  ['reduced_5fsensing',['reduced_sensing',['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#af40bd56426de602c7ce2b6140642f0cc',1,'gams::variables::Platform_Status']]],
-  ['ref',['ref',['../df/d9e/structgams_1_1algorithms_1_1Formation__Flying_1_1Compiled.html#a2cd5bb79eccf06f0955c8ab7238e3d46',1,'gams::algorithms::Formation_Flying::Compiled']]],
-  ['region_5f',['region_',['../d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage.html#a66e3a4ee47ae5dc6ab31010b044382f8',1,'gams::algorithms::area_coverage::Uniform_Random_Area_Coverage::region_()'],['../d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage.html#abf863e7ef6822a2ee691b77dfe111360',1,'gams::algorithms::area_coverage::Uniform_Random_Edge_Coverage::region_()']]],
-  ['regions_5f',['regions_',['../d5/d9f/classgams_1_1utility_1_1Search__Area.html#a741b2e7d9bcacf6b95d699bc3b35460e',1,'gams::utility::Search_Area']]],
-  ['rho_5f',['rho_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a98695730298c9b3e78dd495c514d8188',1,'gams::algorithms::Formation_Flying']]],
-  ['rx_5f',['rx_',['../df/dee/classgams_1_1utility_1_1Rotation__Vector.html#a93b222b7bfb4a7c1fa6a64ce533b55e5',1,'gams::utility::Rotation_Vector']]],
-  ['ry_5f',['ry_',['../df/dee/classgams_1_1utility_1_1Rotation__Vector.html#a82c68ab70291f14c101b4d0f71f71160',1,'gams::utility::Rotation_Vector']]],
-  ['rz_5f',['rz_',['../df/dee/classgams_1_1utility_1_1Rotation__Vector.html#ab4e0658e8ccecb6bdf7cc7e45261f9ce',1,'gams::utility::Rotation_Vector']]]
+  ['range_5f',['range_',['../db/d7d/classgams_1_1variables_1_1Sensor.html#a737a548d36a6fa08361329ba55ddadaf',1,'gams::variables::Sensor']]],
+  ['reduced_5fmovement',['reduced_movement',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a791031382009265904526cac03e938a2',1,'gams::variables::PlatformStatus']]],
+  ['reduced_5fsensing',['reduced_sensing',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a42214948010b69607eb6846f12c64acf',1,'gams::variables::PlatformStatus']]],
+  ['ref',['ref',['../d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled.html#a0695edb108ce0add193909e31837008f',1,'gams::algorithms::FormationFlying::Compiled']]],
+  ['region_5f',['region_',['../d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a1035c75cfab7b8ea1c5ee82d53dd9d87',1,'gams::algorithms::area_coverage::UniformRandomAreaCoverage::region_()'],['../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#ad90f3ee64265c4a22ed92a2ed2b1e0c6',1,'gams::algorithms::area_coverage::UniformRandomEdgeCoverage::region_()']]],
+  ['regions_5f',['regions_',['../da/d42/classgams_1_1utility_1_1SearchArea.html#a24b782fde5fc69754f58a47eea7d313b',1,'gams::utility::SearchArea']]],
+  ['rho_5f',['rho_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#aef35d28997b6ad58bf17721d5aa9fe04',1,'gams::algorithms::FormationFlying']]],
+  ['rx_5f',['rx_',['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a2ee66b7f26e9b07e4f29f21033f961ad',1,'gams::utility::RotationVector']]],
+  ['ry_5f',['ry_',['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a42ad8c950385ba72562a10ec31bc1a00',1,'gams::utility::RotationVector']]],
+  ['rz_5f',['rz_',['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#ad77f1f8e69debf1d199d8d918752e8d2',1,'gams::utility::RotationVector']]]
 ];

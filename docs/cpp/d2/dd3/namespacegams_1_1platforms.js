@@ -1,14 +1,14 @@
 var namespacegams_1_1platforms =
 [
-    [ "Base_Platform", "df/d83/classgams_1_1platforms_1_1Base__Platform.html", "df/d83/classgams_1_1platforms_1_1Base__Platform" ],
-    [ "Controller_Platform_Factory", "d9/d8d/classgams_1_1platforms_1_1Controller__Platform__Factory.html", "d9/d8d/classgams_1_1platforms_1_1Controller__Platform__Factory" ],
-    [ "Debug_Platform", "d4/d15/classgams_1_1platforms_1_1Debug__Platform.html", "d4/d15/classgams_1_1platforms_1_1Debug__Platform" ],
-    [ "Debug_Platform_Factory", "d8/d92/classgams_1_1platforms_1_1Debug__Platform__Factory.html", "d8/d92/classgams_1_1platforms_1_1Debug__Platform__Factory" ],
+    [ "BasePlatform", "d0/df3/classgams_1_1platforms_1_1BasePlatform.html", "d0/df3/classgams_1_1platforms_1_1BasePlatform" ],
+    [ "ControllerPlatformFactory", "d6/d6c/classgams_1_1platforms_1_1ControllerPlatformFactory.html", "d6/d6c/classgams_1_1platforms_1_1ControllerPlatformFactory" ],
+    [ "DebugPlatform", "d7/df2/classgams_1_1platforms_1_1DebugPlatform.html", "d7/df2/classgams_1_1platforms_1_1DebugPlatform" ],
+    [ "DebugPlatformFactory", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory" ],
     [ "Drone_RK", "df/d3b/classgams_1_1platforms_1_1Drone__RK.html", "df/d3b/classgams_1_1platforms_1_1Drone__RK" ],
-    [ "Java_Platform", "da/dc8/classgams_1_1platforms_1_1Java__Platform.html", "da/dc8/classgams_1_1platforms_1_1Java__Platform" ],
-    [ "Null_Platform", "da/d8e/classgams_1_1platforms_1_1Null__Platform.html", "da/d8e/classgams_1_1platforms_1_1Null__Platform" ],
-    [ "Null_Platform_Factory", "d2/df2/classgams_1_1platforms_1_1Null__Platform__Factory.html", "d2/df2/classgams_1_1platforms_1_1Null__Platform__Factory" ],
-    [ "Platform_Collection", "d7/da8/classgams_1_1platforms_1_1Platform__Collection.html", "d7/da8/classgams_1_1platforms_1_1Platform__Collection" ],
-    [ "Platform_Collection_Factory", "dd/d10/classgams_1_1platforms_1_1Platform__Collection__Factory.html", "dd/d10/classgams_1_1platforms_1_1Platform__Collection__Factory" ],
-    [ "Platform_Factory", "d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html", "d3/dcd/classgams_1_1platforms_1_1Platform__Factory" ]
+    [ "JavaPlatform", "dc/d78/classgams_1_1platforms_1_1JavaPlatform.html", "dc/d78/classgams_1_1platforms_1_1JavaPlatform" ],
+    [ "NullPlatform", "d4/d7b/classgams_1_1platforms_1_1NullPlatform.html", "d4/d7b/classgams_1_1platforms_1_1NullPlatform" ],
+    [ "NullPlatformFactory", "d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html", "d6/d50/classgams_1_1platforms_1_1NullPlatformFactory" ],
+    [ "PlatformCollection", "d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html", "d9/d3c/classgams_1_1platforms_1_1PlatformCollection" ],
+    [ "PlatformCollectionFactory", "dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory.html", "dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory" ],
+    [ "PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html", "d5/d99/classgams_1_1platforms_1_1PlatformFactory" ]
 ];

@@ -1,52 +1,52 @@
 var dir_19efd9148c6ac427e5e4168bfffa3ae3 =
 [
-    [ "Base_Area_Coverage.cpp", "d3/dc6/Base__Area__Coverage_8cpp.html", null ],
-    [ "Base_Area_Coverage.h", "d1/dd9/Base__Area__Coverage_8h.html", [
-      [ "Base_Area_Coverage", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage" ]
+    [ "BaseAreaCoverage.cpp", "df/d16/BaseAreaCoverage_8cpp.html", null ],
+    [ "BaseAreaCoverage.h", "d3/d0a/BaseAreaCoverage_8h.html", [
+      [ "BaseAreaCoverage", "df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html", "df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage" ]
     ] ],
-    [ "Local_Pheremone_Area_Coverage.cpp", "de/dde/Local__Pheremone__Area__Coverage_8cpp.html", null ],
-    [ "Local_Pheremone_Area_Coverage.h", "d3/dd7/Local__Pheremone__Area__Coverage_8h.html", [
-      [ "Local_Pheremone_Area_Coverage", "da/de7/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage.html", "da/de7/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage" ],
-      [ "Local_Pheremone_Area_Coverage_Factory", "df/d7b/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage__Factory.html", "df/d7b/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage__Factory" ]
+    [ "LocalPheremoneAreaCoverage.cpp", "da/de0/LocalPheremoneAreaCoverage_8cpp.html", null ],
+    [ "LocalPheremoneAreaCoverage.h", "d6/d3c/LocalPheremoneAreaCoverage_8h.html", [
+      [ "LocalPheremoneAreaCoverage", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage" ],
+      [ "LocalPheremoneAreaCoverageFactory", "da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html", "da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory" ]
     ] ],
-    [ "Min_Time_Area_Coverage.cpp", "da/d93/Min__Time__Area__Coverage_8cpp.html", null ],
-    [ "Min_Time_Area_Coverage.h", "d4/d46/Min__Time__Area__Coverage_8h.html", [
-      [ "Min_Time_Area_Coverage", "de/da0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage.html", "de/da0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage" ],
-      [ "Min_Time_Area_Coverage_Factory", "d9/dd0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage__Factory.html", "d9/dd0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage__Factory" ]
+    [ "MinTimeAreaCoverage.cpp", "da/d41/MinTimeAreaCoverage_8cpp.html", null ],
+    [ "MinTimeAreaCoverage.h", "d9/d65/MinTimeAreaCoverage_8h.html", [
+      [ "MinTimeAreaCoverage", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage" ],
+      [ "MinTimeAreaCoverageFactory", "d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html", "d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory" ]
     ] ],
-    [ "Perimeter_Patrol.cpp", "d2/dc5/Perimeter__Patrol_8cpp.html", null ],
-    [ "Perimeter_Patrol.h", "d3/d12/Perimeter__Patrol_8h.html", [
-      [ "Perimeter_Patrol", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol" ],
-      [ "Perimeter_Patrol_Factory", "d2/d73/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol__Factory.html", "d2/d73/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol__Factory" ]
+    [ "PerimeterPatrol.cpp", "d8/d59/PerimeterPatrol_8cpp.html", null ],
+    [ "PerimeterPatrol.h", "d1/d28/PerimeterPatrol_8h.html", [
+      [ "PerimeterPatrol", "d6/d5e/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrol.html", "d6/d5e/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrol" ],
+      [ "PerimeterPatrolFactory", "d5/df5/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolFactory.html", "d5/df5/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolFactory" ]
     ] ],
-    [ "Prioritized_Min_Time_Area_Coverage.cpp", "d8/d21/Prioritized__Min__Time__Area__Coverage_8cpp.html", null ],
-    [ "Prioritized_Min_Time_Area_Coverage.h", "d0/d55/Prioritized__Min__Time__Area__Coverage_8h.html", [
-      [ "Prioritized_Min_Time_Area_Coverage", "db/db5/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage.html", "db/db5/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage" ],
-      [ "Prioritized_Min_Time_Area_Coverage_Factory", "d8/d3e/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage__Factory.html", "d8/d3e/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage__Factory" ]
+    [ "PrioritizedMinTimeAreaCoverage.cpp", "da/d52/PrioritizedMinTimeAreaCoverage_8cpp.html", null ],
+    [ "PrioritizedMinTimeAreaCoverage.h", "d7/d40/PrioritizedMinTimeAreaCoverage_8h.html", [
+      [ "PrioritizedMinTimeAreaCoverage", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage" ],
+      [ "PrioritizedMinTimeAreaCoverageFactory", "df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html", "df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory" ]
     ] ],
-    [ "Priority_Weighted_Random_Area_Coverage.cpp", "db/dd6/Priority__Weighted__Random__Area__Coverage_8cpp.html", null ],
-    [ "Priority_Weighted_Random_Area_Coverage.h", "dc/dd9/Priority__Weighted__Random__Area__Coverage_8h.html", [
-      [ "Priority_Weighted_Random_Area_Coverage", "de/dcb/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage.html", "de/dcb/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage" ],
-      [ "Priority_Weighted_Random_Area_Coverage_Factory", "d6/d42/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage__Factory.html", "d6/d42/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage__Factory" ]
+    [ "PriorityWeightedRandomAreaCoverage.cpp", "d1/d48/PriorityWeightedRandomAreaCoverage_8cpp.html", null ],
+    [ "PriorityWeightedRandomAreaCoverage.h", "dc/d02/PriorityWeightedRandomAreaCoverage_8h.html", [
+      [ "PriorityWeightedRandomAreaCoverage", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage" ],
+      [ "PriorityWeightedRandomAreaCoverageFactory", "df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html", "df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory" ]
     ] ],
-    [ "Snake_Area_Coverage.cpp", "da/dbe/Snake__Area__Coverage_8cpp.html", null ],
-    [ "Snake_Area_Coverage.h", "d8/dc5/Snake__Area__Coverage_8h.html", [
-      [ "Snake_Area_Coverage", "d9/d9c/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage.html", "d9/d9c/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage" ],
-      [ "Snake_Area_Coverage_Factory", "d5/da0/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage__Factory.html", "d5/da0/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage__Factory" ]
+    [ "SnakeAreaCoverage.cpp", "d4/db3/SnakeAreaCoverage_8cpp.html", null ],
+    [ "SnakeAreaCoverage.h", "dc/d1a/SnakeAreaCoverage_8h.html", [
+      [ "SnakeAreaCoverage", "d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html", "d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage" ],
+      [ "SnakeAreaCoverageFactory", "df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html", "df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory" ]
     ] ],
-    [ "Uniform_Random_Area_Coverage.cpp", "df/de8/Uniform__Random__Area__Coverage_8cpp.html", null ],
-    [ "Uniform_Random_Area_Coverage.h", "de/d0a/Uniform__Random__Area__Coverage_8h.html", [
-      [ "Uniform_Random_Area_Coverage", "d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage.html", "d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage" ],
-      [ "Uniform_Random_Area_Coverage_Factory", "da/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage__Factory.html", "da/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage__Factory" ]
+    [ "UniformRandomAreaCoverage.cpp", "d3/d7d/UniformRandomAreaCoverage_8cpp.html", null ],
+    [ "UniformRandomAreaCoverage.h", "d7/d3f/UniformRandomAreaCoverage_8h.html", [
+      [ "UniformRandomAreaCoverage", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage" ],
+      [ "UniformRandomAreaCoverageFactory", "d6/d07/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverageFactory.html", "d6/d07/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverageFactory" ]
     ] ],
-    [ "Uniform_Random_Edge_Coverage.cpp", "d9/ddb/Uniform__Random__Edge__Coverage_8cpp.html", null ],
-    [ "Uniform_Random_Edge_Coverage.h", "db/deb/Uniform__Random__Edge__Coverage_8h.html", [
-      [ "Uniform_Random_Edge_Coverage", "d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage.html", "d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage" ],
-      [ "Uniform_Random_Edge_Coverage_Factory", "dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory.html", "dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory" ]
+    [ "UniformRandomEdgeCoverage.cpp", "d5/d11/UniformRandomEdgeCoverage_8cpp.html", null ],
+    [ "UniformRandomEdgeCoverage.h", "d7/d13/UniformRandomEdgeCoverage_8h.html", [
+      [ "UniformRandomEdgeCoverage", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage" ],
+      [ "UniformRandomEdgeCoverageFactory", "d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html", "d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory" ]
     ] ],
-    [ "Waypoints_Coverage.cpp", "df/dfb/Waypoints__Coverage_8cpp.html", null ],
-    [ "Waypoints_Coverage.h", "d6/dcc/Waypoints__Coverage_8h.html", [
-      [ "Waypoints_Coverage", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage" ],
-      [ "Waypoints_Coverage_Factory", "d7/d3a/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage__Factory.html", "d7/d3a/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage__Factory" ]
+    [ "WaypointsCoverage.cpp", "d0/df6/WaypointsCoverage_8cpp.html", null ],
+    [ "WaypointsCoverage.h", "da/de9/WaypointsCoverage_8h.html", [
+      [ "WaypointsCoverage", "de/d2e/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverage.html", "de/d2e/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverage" ],
+      [ "WaypointsCoverageFactory", "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html", "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory" ]
     ] ]
 ];

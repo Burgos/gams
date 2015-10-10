@@ -1,0 +1,25 @@
+<map id="src/gams/algorithms/area_coverage/BaseAreaCoverage.h" name="src/gams/algorithms/area_coverage/BaseAreaCoverage.h">
+<area shape="rect" id="node2" href="$df/d16/BaseAreaCoverage_8cpp.html" title="src/gams/algorithms\l/area_coverage/BaseAreaCoverage.cpp" alt="" coords="421,102,669,143"/>
+<area shape="rect" id="node3" href="$d6/d3c/LocalPheremoneAreaCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="242,199,453,255"/>
+<area shape="rect" id="node7" href="$d9/d65/MinTimeAreaCoverage_8h.html" title="src/gams/algorithms\l/area_coverage/MinTimeArea\lCoverage.h" alt="" coords="794,95,983,151"/>
+<area shape="rect" id="node11" href="$d1/d28/PerimeterPatrol_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="936,206,1151,247"/>
+<area shape="rect" id="node13" href="$dc/d02/PriorityWeightedRandomAreaCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="8,199,217,255"/>
+<area shape="rect" id="node15" href="$dc/d1a/SnakeAreaCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1227,206,1468,247"/>
+<area shape="rect" id="node17" href="$d7/d3f/UniformRandomAreaCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1493,199,1698,255"/>
+<area shape="rect" id="node19" href="$d7/d13/UniformRandomEdgeCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1722,199,1927,255"/>
+<area shape="rect" id="node21" href="$da/de9/WaypointsCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2132,102,2371,143"/>
+<area shape="rect" id="node23" href="$d0/dcf/FormationCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1952,206,2100,247"/>
+<area shape="rect" id="node4" href="$d8/da7/AlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactory.cpp" alt="" coords="675,310,825,351"/>
+<area shape="rect" id="node5" href="$da/de0/LocalPheremoneAreaCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="239,303,450,359"/>
+<area shape="rect" id="node6" href="$d1/db1/ControllerAlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/ControllerAlgorithmFactory.cpp" alt="" coords="1102,310,1307,351"/>
+<area shape="rect" id="node8" href="$da/d41/MinTimeAreaCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="722,199,911,255"/>
+<area shape="rect" id="node9" href="$d7/d40/PrioritizedMinTimeAreaCoverage_8h.html" title="src/gams/algorithms\l/area_coverage/Prioritized\lMinTimeAreaCoverage.h" alt="" coords="477,199,647,255"/>
+<area shape="rect" id="node10" href="$da/d52/PrioritizedMinTimeAreaCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="474,303,650,359"/>
+<area shape="rect" id="node12" href="$d8/d59/PerimeterPatrol_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="849,310,1077,351"/>
+<area shape="rect" id="node14" href="$d1/d48/PriorityWeightedRandomAreaCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="5,303,215,359"/>
+<area shape="rect" id="node16" href="$d4/db3/SnakeAreaCoverage_8cpp.html" title="src/gams/algorithms\l/area_coverage/SnakeAreaCoverage.cpp" alt="" coords="1332,310,1587,351"/>
+<area shape="rect" id="node18" href="$d3/d7d/UniformRandomAreaCoverage_8cpp.html" title="src/gams/algorithms\l/area_coverage/UniformRandom\lAreaCoverage.cpp" alt="" coords="1611,303,1817,359"/>
+<area shape="rect" id="node20" href="$d5/d11/UniformRandomEdgeCoverage_8cpp.html" title="src/gams/algorithms\l/area_coverage/UniformRandom\lEdgeCoverage.cpp" alt="" coords="1841,303,2046,359"/>
+<area shape="rect" id="node22" href="$d0/df6/WaypointsCoverage_8cpp.html" title="src/gams/algorithms\l/area_coverage/WaypointsCoverage.cpp" alt="" coords="2125,206,2378,247"/>
+<area shape="rect" id="node24" href="$d3/d2c/FormationCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2070,310,2233,351"/>
+</map>

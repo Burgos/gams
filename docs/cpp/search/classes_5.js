@@ -1,11 +1,11 @@
 var searchData=
 [
   ['follow',['Follow',['../d9/d7a/classgams_1_1algorithms_1_1Follow.html',1,'gams::algorithms']]],
-  ['follow_5ffactory',['Follow_Factory',['../d2/d1f/classgams_1_1algorithms_1_1Follow__Factory.html',1,'gams::algorithms']]],
-  ['formation_5fcoverage',['Formation_Coverage',['../d7/d90/classgams_1_1algorithms_1_1Formation__Coverage.html',1,'gams::algorithms']]],
-  ['formation_5fcoverage_5ffactory',['Formation_Coverage_Factory',['../d2/d7c/classgams_1_1algorithms_1_1Formation__Coverage__Factory.html',1,'gams::algorithms']]],
-  ['formation_5fflying',['Formation_Flying',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html',1,'gams::algorithms']]],
-  ['formation_5fflying_5ffactory',['Formation_Flying_Factory',['../d0/dbb/classgams_1_1algorithms_1_1Formation__Flying__Factory.html',1,'gams::algorithms']]],
-  ['formation_5fsync',['Formation_Sync',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html',1,'gams::algorithms']]],
-  ['formation_5fsync_5ffactory',['Formation_Sync_Factory',['../db/df9/classgams_1_1algorithms_1_1Formation__Sync__Factory.html',1,'gams::algorithms']]]
+  ['followfactory',['FollowFactory',['../d3/d86/classgams_1_1algorithms_1_1FollowFactory.html',1,'gams::algorithms']]],
+  ['formationcoverage',['FormationCoverage',['../d7/da5/classgams_1_1algorithms_1_1FormationCoverage.html',1,'gams::algorithms']]],
+  ['formationcoveragefactory',['FormationCoverageFactory',['../da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html',1,'gams::algorithms']]],
+  ['formationflying',['FormationFlying',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html',1,'gams::algorithms']]],
+  ['formationflyingfactory',['FormationFlyingFactory',['../de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html',1,'gams::algorithms']]],
+  ['formationsync',['FormationSync',['../d3/df5/classgams_1_1algorithms_1_1FormationSync.html',1,'gams::algorithms']]],
+  ['formationsyncfactory',['FormationSyncFactory',['../d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html',1,'gams::algorithms']]]
 ];

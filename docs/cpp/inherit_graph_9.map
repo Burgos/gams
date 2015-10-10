@@ -1,8 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="The base platform for all platforms to use. " alt="" coords="5,123,159,164"/>
-<area shape="rect" id="node2" href="$d4/d15/classgams_1_1platforms_1_1Debug__Platform.html" title="A debug platform that prints detailed status information. " alt="" coords="218,5,378,47"/>
-<area shape="rect" id="node3" href="$df/d3b/classgams_1_1platforms_1_1Drone__RK.html" title="gams::platforms::Drone_RK" alt="" coords="207,71,389,98"/>
-<area shape="rect" id="node4" href="$da/dc8/classgams_1_1platforms_1_1Java__Platform.html" title="A facade for Java platforms. " alt="" coords="224,123,372,164"/>
-<area shape="rect" id="node5" href="$da/d8e/classgams_1_1platforms_1_1Null__Platform.html" title="A null platform. " alt="" coords="225,188,371,229"/>
-<area shape="rect" id="node6" href="$d7/da8/classgams_1_1platforms_1_1Platform__Collection.html" title="A collection of platforms. " alt="" coords="213,253,383,295"/>
+<area shape="rect" id="node1" href="$d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="5,107,207,133"/>
+<area shape="rect" id="node2" href="$d7/df2/classgams_1_1platforms_1_1DebugPlatform.html" title="A debug platform that prints detailed status information. " alt="" coords="255,5,463,32"/>
+<area shape="rect" id="node3" href="$df/d3b/classgams_1_1platforms_1_1Drone__RK.html" title="gams::platforms::Drone_RK" alt="" coords="267,56,450,83"/>
+<area shape="rect" id="node4" href="$dc/d78/classgams_1_1platforms_1_1JavaPlatform.html" title="A facade for Java platforms. " alt="" coords="261,107,457,133"/>
+<area shape="rect" id="node5" href="$d4/d7b/classgams_1_1platforms_1_1NullPlatform.html" title="A null platform. " alt="" coords="262,157,455,184"/>
+<area shape="rect" id="node6" href="$d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html" title="A collection of platforms. " alt="" coords="273,209,444,250"/>
 </map>

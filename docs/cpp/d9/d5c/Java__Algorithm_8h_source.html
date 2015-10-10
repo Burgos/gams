@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.9</span>
+   &#160;<span id="projectnumber">0.9.10</span>
    </div>
   </td>
  </tr>
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('d9/d5c/Java__Algorithm_8h_source.html'
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d9c/Platform__Status_8h.html">gams/variables/Platform_Status.h</a>&quot;</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d8e/Base__Algorithm_8h.html">gams/algorithms/Base_Algorithm.h</a>&quot;</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dcf/GPS__Position_8h.html">gams/utility/GPS_Position.h</a>&quot;</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/Knowledge_Base.h&quot;</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/Knowledge_Base.h&quot;</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d15/Algorithm__Factory_8h.html">gams/algorithms/Algorithm_Factory.h</a>&quot;</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#ifdef _GAMS_JAVA_</span></div>
@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('d9/d5c/Java__Algorithm_8h_source.html'
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      <a class="code" href="../../db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html">Java_Algorithm</a> (</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        jobject obj,</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base * knowledge = 0,</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        madara::knowledge::Knowledge_Base * knowledge = 0,</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">platforms::Base_Platform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a> = 0,</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors = 0,</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span> = 0,</div>
@@ -172,8 +172,8 @@ $(document).ready(function(){initNavTree('d9/d5c/Java__Algorithm_8h_source.html'
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <span class="keyword">virtual</span> ~<a class="code" href="../../de/deb/classgams_1_1algorithms_1_1Java__Algorithm__Factory.html">Java_Algorithm_Factory</a> ();</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      <span class="keyword">virtual</span> <a class="code" href="../../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html">Base_Algorithm</a> * create (</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keyword">const</span> Madara::Knowledge_Vector &amp; args,</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base * knowledge,</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keyword">const</span> madara::Knowledge_Vector &amp; args,</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        madara::knowledge::Knowledge_Base * knowledge,</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">platforms::Base_Platform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>,</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>,</div>
@@ -215,7 +215,7 @@ $(document).ready(function(){initNavTree('d9/d5c/Java__Algorithm_8h_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_51790b9f0ef7b0cc06eb1e76e309c0bc.html">algorithms</a></li><li class="navelem"><a class="el" href="../../dir_7824edefbfd8c868344e046601fd58eb.html">java</a></li><li class="navelem"><a class="el" href="../../d9/d5c/Java__Algorithm_8h.html">Java_Algorithm.h</a></li>
-    <li class="footer">Generated on Tue Sep 29 2015 12:23:08 for GAMS by
+    <li class="footer">Generated on Mon Oct 5 2015 20:42:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['formation_5ftypes',['Formation_Types',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#ac8f6030a8ff428a9d72b459084068089',1,'gams::algorithms::Formation_Sync']]]
+  ['formationtypes',['FormationTypes',['../d3/df5/classgams_1_1algorithms_1_1FormationSync.html#ada9faac32b774122d668d35843f66001',1,'gams::algorithms::FormationSync']]]
 ];

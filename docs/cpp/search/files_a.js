@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['null_5falgorithm_2ecpp',['Null_Algorithm.cpp',['../d3/db2/Null__Algorithm_8cpp.html',1,'']]],
-  ['null_5falgorithm_2eh',['Null_Algorithm.h',['../d8/df5/Null__Algorithm_8h.html',1,'']]],
-  ['null_5fplatform_2ecpp',['Null_Platform.cpp',['../de/d5f/Null__Platform_8cpp.html',1,'']]],
-  ['null_5fplatform_2eh',['Null_Platform.h',['../d7/d9b/Null__Platform_8h.html',1,'']]]
+  ['nullalgorithm_2ecpp',['NullAlgorithm.cpp',['../db/d9b/NullAlgorithm_8cpp.html',1,'']]],
+  ['nullalgorithm_2eh',['NullAlgorithm.h',['../d1/df3/NullAlgorithm_8h.html',1,'']]],
+  ['nullplatform_2ecpp',['NullPlatform.cpp',['../d8/dda/NullPlatform_8cpp.html',1,'']]],
+  ['nullplatform_2eh',['NullPlatform.h',['../d5/dbf/NullPlatform_8h.html',1,'']]]
 ];

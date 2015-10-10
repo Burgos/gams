@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reference_5fframe',['Reference_Frame',['../d9/db7/classgams_1_1utility_1_1Location__Vector.html#a6c1772f830d70e63f8e4f76a3a219857',1,'gams::utility::Location_Vector::Reference_Frame()'],['../df/dee/classgams_1_1utility_1_1Rotation__Vector.html#a6c1772f830d70e63f8e4f76a3a219857',1,'gams::utility::Rotation_Vector::Reference_Frame()']]]
+  ['referenceframe',['ReferenceFrame',['../d8/d57/classgams_1_1utility_1_1LocationVector.html#abe4227ec1bb3904d86a85e2874cad16d',1,'gams::utility::LocationVector::ReferenceFrame()'],['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#abe4227ec1bb3904d86a85e2874cad16d',1,'gams::utility::RotationVector::ReferenceFrame()']]]
 ];

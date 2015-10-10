@@ -1,12 +1,12 @@
 var classgams_1_1algorithms_1_1Null__Algorithm =
 [
-    [ "Null_Algorithm", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#afec61d3ccfd6cd2fba7860479573aea3", null ],
+    [ "Null_Algorithm", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a564cded3dc51e5930805532a79cd1324", null ],
     [ "~Null_Algorithm", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#ab0df8edb20b2fde714b081f6a110378b", null ],
     [ "analyze", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a5b2b9c480fbc3bb34b4e04bc2a6135c4", null ],
     [ "execute", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a3a3e35dd534ab092092af8abd4a9c96f", null ],
     [ "get_algorithm_status", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#aef8cdd5d13d02fe78c8aac11df3ecffd", null ],
     [ "get_devices", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a2cfdd65848edd729e2573cb1fc704cc1", null ],
-    [ "get_knowledge_base", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a4dc41c9be77296a16c712323b29e8f22", null ],
+    [ "get_knowledge_base", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a45020fdf59e56418da20e17ac501be6a", null ],
     [ "get_platform", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a92b050383af20038e92528237b39f4af", null ],
     [ "get_self", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a68cc2a49796c1237b77b1c887f62cae6", null ],
     [ "get_sensors", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a1bfcef5ac2c513df77074c2498921516", null ],
@@ -18,7 +18,7 @@ var classgams_1_1algorithms_1_1Null__Algorithm =
     [ "set_sensors", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#adf06e9a18a927c8fcd15bbc3c0379ead", null ],
     [ "devices_", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a7fa39e19b2b19afa4c5889921f24573b", null ],
     [ "executions_", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a69e37c3481157ab3ae3dcdbe2bb197cc", null ],
-    [ "knowledge_", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#af449b8483a96067eb7c963312bbf336f", null ],
+    [ "knowledge_", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#a0df924fa165ad690af2b49eeb440c67b", null ],
     [ "platform_", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#ae9cbba239fdcc8768d8e6aac72a75ff0", null ],
     [ "self_", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#ae352b273433745158f3582598b184c2d", null ],
     [ "sensors_", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html#ab458bfbebadb9cc06a171fb067d9bbf8", null ],

@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$df/d4e/classgams_1_1utility_1_1Position.html" title="A position in an x, y, z coordinate system. " alt="" coords="5,13,153,39"/>
-<area shape="rect" id="node2" href="$de/d23/classgams_1_1utility_1_1GPS__Position.html" title="A position in the global positioning system reference frame. " alt="" coords="201,5,331,47"/>
+<area shape="rect" id="node1" href="$df/d4e/classgams_1_1utility_1_1Position.html" title="A position in an x, y, z coordinate system. " alt="" coords="5,5,153,32"/>
+<area shape="rect" id="node2" href="$da/d5e/classgams_1_1utility_1_1GPSPosition.html" title="A position in the global positioning system reference frame. " alt="" coords="201,5,377,32"/>
 </map>

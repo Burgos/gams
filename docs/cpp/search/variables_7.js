@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['head_5f',['head_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a18d5d24b4c9d4c515d03349a1796ee05',1,'gams::algorithms::Formation_Flying']]],
-  ['head_5falgo_5f',['head_algo_',['../d7/d90/classgams_1_1algorithms_1_1Formation__Coverage.html#a4aa560de80a2b8533948f4a7b11c813d',1,'gams::algorithms::Formation_Coverage']]],
-  ['head_5fdestination_5f',['head_destination_',['../d7/d90/classgams_1_1algorithms_1_1Formation__Coverage.html#a735cb2acdc3f9c68598ae97128565ccf',1,'gams::algorithms::Formation_Coverage::head_destination_()'],['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#afdf24f3ace6511d60ea040f8f5bff0e6',1,'gams::algorithms::Formation_Flying::head_destination_()']]],
-  ['head_5fid_5f',['head_id_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a638fe272b140e56aed6506d6a2ce8102',1,'gams::algorithms::Formation_Flying']]],
-  ['head_5flocation_5f',['head_location_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a219d11d031fc34decbd8e3d4ecd204e1',1,'gams::algorithms::Formation_Flying']]],
-  ['home',['home',['../d7/d3b/classgams_1_1variables_1_1Device.html#abe3eae5d149401be18c97c9436810dcd',1,'gams::variables::Device']]]
+  ['head_5f',['head_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#ac30602c6cf79cf6e261ddfeb494207c0',1,'gams::algorithms::FormationFlying']]],
+  ['head_5falgo_5f',['head_algo_',['../d7/da5/classgams_1_1algorithms_1_1FormationCoverage.html#aca1eac9e64641ff3f6b7970d558eb03e',1,'gams::algorithms::FormationCoverage']]],
+  ['head_5fdestination_5f',['head_destination_',['../d7/da5/classgams_1_1algorithms_1_1FormationCoverage.html#aae644b52af65703697de280001657ddb',1,'gams::algorithms::FormationCoverage::head_destination_()'],['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a19f519b25057e35427b5b6dfa142811a',1,'gams::algorithms::FormationFlying::head_destination_()']]],
+  ['head_5fid_5f',['head_id_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#af2e68e300347fc1e5f28eb12fa8f4e52',1,'gams::algorithms::FormationFlying']]],
+  ['head_5flocation_5f',['head_location_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a24a8263b27b59b34192f47e25d270d24',1,'gams::algorithms::FormationFlying']]],
+  ['home',['home',['../d7/d3b/classgams_1_1variables_1_1Device.html#a18168e237eb16d32837337639bc49da0',1,'gams::variables::Device']]]
 ];

@@ -1,11 +1,11 @@
 <map id="gams::platforms::Drone_RK" name="gams::platforms::Drone_RK">
-<area shape="rect" id="node2" href="$df/d83/classgams_1_1platforms_1_1Base__Platform.html" title="The base platform for all platforms to use. " alt="" coords="201,407,253,433"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="11,310,132,337"/>
-<area shape="rect" id="node6" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="156,310,299,337"/>
-<area shape="rect" id="node7" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="A container for device information. " alt="" coords="148,213,307,240"/>
-<area shape="rect" id="node9" href="$d1/d15/classgams_1_1variables_1_1Accent__Status.html" title="A container for accent status information. " alt="" coords="147,5,308,47"/>
-<area shape="rect" id="node10" href="$d9/dd1/classgams_1_1variables_1_1Platform__Status.html" title="A container for platform status information. " alt="" coords="323,303,491,344"/>
-<area shape="rect" id="node11" title="STL class. " alt="" coords="367,213,447,240"/>
-<area shape="rect" id="node12" title="STL class. " alt="" coords="344,109,471,151"/>
-<area shape="rect" id="node13" href="$df/d4e/classgams_1_1utility_1_1Position.html" title="A position in an x, y, z coordinate system. " alt="" coords="277,407,425,433"/>
+<area shape="rect" id="node2" href="$d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="201,392,253,419"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="11,295,132,322"/>
+<area shape="rect" id="node6" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="156,295,299,322"/>
+<area shape="rect" id="node7" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="A container for device information. " alt="" coords="148,199,307,225"/>
+<area shape="rect" id="node9" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="128,5,327,32"/>
+<area shape="rect" id="node10" href="$db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="323,288,491,329"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="367,199,447,225"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="344,95,471,136"/>
+<area shape="rect" id="node13" href="$df/d4e/classgams_1_1utility_1_1Position.html" title="A position in an x, y, z coordinate system. " alt="" coords="277,392,425,419"/>
 </map>

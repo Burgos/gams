@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol =
 [
-    [ "Perimeter_Patrol", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a16d86039484679a6281e496dd5e4cb25", null ],
+    [ "Perimeter_Patrol", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a384f0ac10b49e81d8535135446a61a37", null ],
     [ "~Perimeter_Patrol", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a1501ecf0958e2561836888f9d34574b9", null ],
     [ "analyze", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a8ea03e3e86b54cdda0263b6720dc4fdf", null ],
     [ "check_if_finished", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a32106d97a6be058365a931dbf30ffc83", null ],
@@ -8,7 +8,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol =
     [ "generate_new_position", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a2ab9d6fd1d0a0b31c2184c93e0257ed2", null ],
     [ "get_algorithm_status", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#aef8cdd5d13d02fe78c8aac11df3ecffd", null ],
     [ "get_devices", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a2cfdd65848edd729e2573cb1fc704cc1", null ],
-    [ "get_knowledge_base", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a4dc41c9be77296a16c712323b29e8f22", null ],
+    [ "get_knowledge_base", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a45020fdf59e56418da20e17ac501be6a", null ],
     [ "get_next_position", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#ad363e0bf2cdfe6497ce413875930cd05", null ],
     [ "get_platform", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a92b050383af20038e92528237b39f4af", null ],
     [ "get_self", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a68cc2a49796c1237b77b1c887f62cae6", null ],
@@ -24,7 +24,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol =
     [ "end_time_", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#af43d699317b495ef1d0868ac3b17c05e", null ],
     [ "exec_time_", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a3430cc4f7426d0d93597cfc174b7d557", null ],
     [ "executions_", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a69e37c3481157ab3ae3dcdbe2bb197cc", null ],
-    [ "knowledge_", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#af449b8483a96067eb7c963312bbf336f", null ],
+    [ "knowledge_", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a0df924fa165ad690af2b49eeb440c67b", null ],
     [ "next_position_", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#a8ae5aee85f74b5016811e9d8c085a55d", null ],
     [ "platform_", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#ae9cbba239fdcc8768d8e6aac72a75ff0", null ],
     [ "self_", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html#ae352b273433745158f3582598b184c2d", null ],

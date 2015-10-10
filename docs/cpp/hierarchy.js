@@ -1,84 +1,84 @@
 var hierarchy =
 [
-    [ "gams::variables::Accent_Status", "d1/d15/classgams_1_1variables_1_1Accent__Status.html", null ],
+    [ "gams::variables::AccentStatus", "dd/dc7/classgams_1_1variables_1_1AccentStatus.html", null ],
     [ "gams::utility::java::Acquire_VM", "df/d12/classgams_1_1utility_1_1java_1_1Acquire__VM.html", null ],
-    [ "Aggregate_Filter", null, [
-      [ "gams::algorithms::Message_Profiling::Message_Filter", "d6/dc5/classgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter.html", null ]
+    [ "AggregateFilter", null, [
+      [ "gams::algorithms::MessageProfiling::MessageFilter", "d8/d11/classgams_1_1algorithms_1_1MessageProfiling_1_1MessageFilter.html", null ]
     ] ],
-    [ "gams::algorithms::Algorithm_Factory", "d3/d08/classgams_1_1algorithms_1_1Algorithm__Factory.html", [
-      [ "gams::algorithms::area_coverage::Local_Pheremone_Area_Coverage_Factory", "df/d7b/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage__Factory.html", null ],
-      [ "gams::algorithms::area_coverage::Min_Time_Area_Coverage_Factory", "d9/dd0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage__Factory.html", null ],
-      [ "gams::algorithms::area_coverage::Perimeter_Patrol_Factory", "d2/d73/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol__Factory.html", null ],
-      [ "gams::algorithms::area_coverage::Prioritized_Min_Time_Area_Coverage_Factory", "d8/d3e/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage__Factory.html", null ],
-      [ "gams::algorithms::area_coverage::Priority_Weighted_Random_Area_Coverage_Factory", "d6/d42/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage__Factory.html", null ],
-      [ "gams::algorithms::area_coverage::Snake_Area_Coverage_Factory", "d5/da0/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage__Factory.html", null ],
-      [ "gams::algorithms::area_coverage::Uniform_Random_Area_Coverage_Factory", "da/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage__Factory.html", null ],
-      [ "gams::algorithms::area_coverage::Uniform_Random_Edge_Coverage_Factory", "dc/d09/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage__Factory.html", null ],
-      [ "gams::algorithms::area_coverage::Waypoints_Coverage_Factory", "d7/d3a/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage__Factory.html", null ],
-      [ "gams::algorithms::Debug_Algorithm_Factory", "d2/dcf/classgams_1_1algorithms_1_1Debug__Algorithm__Factory.html", null ],
-      [ "gams::algorithms::Executive_Factory", "d7/d6b/classgams_1_1algorithms_1_1Executive__Factory.html", null ],
-      [ "gams::algorithms::Follow_Factory", "d2/d1f/classgams_1_1algorithms_1_1Follow__Factory.html", null ],
-      [ "gams::algorithms::Formation_Coverage_Factory", "d2/d7c/classgams_1_1algorithms_1_1Formation__Coverage__Factory.html", null ],
-      [ "gams::algorithms::Formation_Flying_Factory", "d0/dbb/classgams_1_1algorithms_1_1Formation__Flying__Factory.html", null ],
-      [ "gams::algorithms::Formation_Sync_Factory", "db/df9/classgams_1_1algorithms_1_1Formation__Sync__Factory.html", null ],
-      [ "gams::algorithms::Java_Algorithm_Factory", "de/deb/classgams_1_1algorithms_1_1Java__Algorithm__Factory.html", null ],
-      [ "gams::algorithms::Land_Factory", "d7/d4b/classgams_1_1algorithms_1_1Land__Factory.html", null ],
-      [ "gams::algorithms::Message_Profiling_Factory", "d2/d0a/classgams_1_1algorithms_1_1Message__Profiling__Factory.html", null ],
-      [ "gams::algorithms::Move_Factory", "d2/df0/classgams_1_1algorithms_1_1Move__Factory.html", null ],
-      [ "gams::algorithms::Null_Algorithm_Factory", "dc/da0/classgams_1_1algorithms_1_1Null__Algorithm__Factory.html", null ],
-      [ "gams::algorithms::Performance_Profiling_Factory", "d4/d56/classgams_1_1algorithms_1_1Performance__Profiling__Factory.html", null ],
-      [ "gams::algorithms::Takeoff_Factory", "db/d02/classgams_1_1algorithms_1_1Takeoff__Factory.html", null ],
-      [ "gams::algorithms::Wait_Factory", "d1/d7b/classgams_1_1algorithms_1_1Wait__Factory.html", null ]
+    [ "gams::algorithms::AlgorithmFactory", "d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html", [
+      [ "gams::algorithms::area_coverage::LocalPheremoneAreaCoverageFactory", "da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html", null ],
+      [ "gams::algorithms::area_coverage::MinTimeAreaCoverageFactory", "d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html", null ],
+      [ "gams::algorithms::area_coverage::PerimeterPatrolFactory", "d5/df5/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolFactory.html", null ],
+      [ "gams::algorithms::area_coverage::PrioritizedMinTimeAreaCoverageFactory", "df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html", null ],
+      [ "gams::algorithms::area_coverage::PriorityWeightedRandomAreaCoverageFactory", "df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html", null ],
+      [ "gams::algorithms::area_coverage::SnakeAreaCoverageFactory", "df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html", null ],
+      [ "gams::algorithms::area_coverage::UniformRandomAreaCoverageFactory", "d6/d07/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverageFactory.html", null ],
+      [ "gams::algorithms::area_coverage::UniformRandomEdgeCoverageFactory", "d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html", null ],
+      [ "gams::algorithms::area_coverage::WaypointsCoverageFactory", "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html", null ],
+      [ "gams::algorithms::DebugAlgorithmFactory", "dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html", null ],
+      [ "gams::algorithms::ExecutiveFactory", "d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory.html", null ],
+      [ "gams::algorithms::FollowFactory", "d3/d86/classgams_1_1algorithms_1_1FollowFactory.html", null ],
+      [ "gams::algorithms::FormationCoverageFactory", "da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html", null ],
+      [ "gams::algorithms::FormationFlyingFactory", "de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html", null ],
+      [ "gams::algorithms::FormationSyncFactory", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html", null ],
+      [ "gams::algorithms::JavaAlgorithmFactory", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html", null ],
+      [ "gams::algorithms::LandFactory", "d0/d56/classgams_1_1algorithms_1_1LandFactory.html", null ],
+      [ "gams::algorithms::MessageProfilingFactory", "d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html", null ],
+      [ "gams::algorithms::MoveFactory", "d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html", null ],
+      [ "gams::algorithms::NullAlgorithmFactory", "d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html", null ],
+      [ "gams::algorithms::PerformanceProfilingFactory", "dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html", null ],
+      [ "gams::algorithms::TakeoffFactory", "d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html", null ],
+      [ "gams::algorithms::WaitFactory", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html", null ]
     ] ],
-    [ "gams::algorithms::Executive::Algorithm_Init", "d1/de7/structgams_1_1algorithms_1_1Executive_1_1Algorithm__Init.html", null ],
-    [ "gams::variables::Algorithm_Status", "d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html", null ],
+    [ "gams::algorithms::Executive::AlgorithmInit", "d4/d68/structgams_1_1algorithms_1_1Executive_1_1AlgorithmInit.html", null ],
+    [ "gams::variables::AlgorithmStatus", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html", null ],
     [ "gams::utility::Axes", "d0/db6/classgams_1_1utility_1_1Axes.html", null ],
-    [ "gams::algorithms::Base_Algorithm", "d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html", [
-      [ "gams::algorithms::area_coverage::Base_Area_Coverage", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html", [
-        [ "gams::algorithms::area_coverage::Local_Pheremone_Area_Coverage", "da/de7/classgams_1_1algorithms_1_1area__coverage_1_1Local__Pheremone__Area__Coverage.html", null ],
-        [ "gams::algorithms::area_coverage::Min_Time_Area_Coverage", "de/da0/classgams_1_1algorithms_1_1area__coverage_1_1Min__Time__Area__Coverage.html", [
-          [ "gams::algorithms::area_coverage::Prioritized_Min_Time_Area_Coverage", "db/db5/classgams_1_1algorithms_1_1area__coverage_1_1Prioritized__Min__Time__Area__Coverage.html", null ]
+    [ "gams::algorithms::BaseAlgorithm", "d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html", [
+      [ "gams::algorithms::area_coverage::BaseAreaCoverage", "df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html", [
+        [ "gams::algorithms::area_coverage::LocalPheremoneAreaCoverage", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html", null ],
+        [ "gams::algorithms::area_coverage::MinTimeAreaCoverage", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html", [
+          [ "gams::algorithms::area_coverage::PrioritizedMinTimeAreaCoverage", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html", null ]
         ] ],
-        [ "gams::algorithms::area_coverage::Perimeter_Patrol", "d4/dd6/classgams_1_1algorithms_1_1area__coverage_1_1Perimeter__Patrol.html", null ],
-        [ "gams::algorithms::area_coverage::Priority_Weighted_Random_Area_Coverage", "de/dcb/classgams_1_1algorithms_1_1area__coverage_1_1Priority__Weighted__Random__Area__Coverage.html", null ],
-        [ "gams::algorithms::area_coverage::Snake_Area_Coverage", "d9/d9c/classgams_1_1algorithms_1_1area__coverage_1_1Snake__Area__Coverage.html", null ],
-        [ "gams::algorithms::area_coverage::Uniform_Random_Area_Coverage", "d2/d33/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Area__Coverage.html", null ],
-        [ "gams::algorithms::area_coverage::Uniform_Random_Edge_Coverage", "d0/d16/classgams_1_1algorithms_1_1area__coverage_1_1Uniform__Random__Edge__Coverage.html", null ],
-        [ "gams::algorithms::area_coverage::Waypoints_Coverage", "d1/d5f/classgams_1_1algorithms_1_1area__coverage_1_1Waypoints__Coverage.html", null ]
+        [ "gams::algorithms::area_coverage::PerimeterPatrol", "d6/d5e/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrol.html", null ],
+        [ "gams::algorithms::area_coverage::PriorityWeightedRandomAreaCoverage", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html", null ],
+        [ "gams::algorithms::area_coverage::SnakeAreaCoverage", "d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html", null ],
+        [ "gams::algorithms::area_coverage::UniformRandomAreaCoverage", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html", null ],
+        [ "gams::algorithms::area_coverage::UniformRandomEdgeCoverage", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html", null ],
+        [ "gams::algorithms::area_coverage::WaypointsCoverage", "de/d2e/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverage.html", null ]
       ] ],
-      [ "gams::algorithms::Debug_Algorithm", "df/d20/classgams_1_1algorithms_1_1Debug__Algorithm.html", null ],
+      [ "gams::algorithms::DebugAlgorithm", "d6/d58/classgams_1_1algorithms_1_1DebugAlgorithm.html", null ],
       [ "gams::algorithms::Executive", "dc/d23/classgams_1_1algorithms_1_1Executive.html", null ],
       [ "gams::algorithms::Follow", "d9/d7a/classgams_1_1algorithms_1_1Follow.html", null ],
-      [ "gams::algorithms::Formation_Coverage", "d7/d90/classgams_1_1algorithms_1_1Formation__Coverage.html", null ],
-      [ "gams::algorithms::Formation_Flying", "d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html", null ],
-      [ "gams::algorithms::Formation_Sync", "d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html", null ],
-      [ "gams::algorithms::Java_Algorithm", "db/deb/classgams_1_1algorithms_1_1Java__Algorithm.html", null ],
+      [ "gams::algorithms::FormationCoverage", "d7/da5/classgams_1_1algorithms_1_1FormationCoverage.html", null ],
+      [ "gams::algorithms::FormationFlying", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html", null ],
+      [ "gams::algorithms::FormationSync", "d3/df5/classgams_1_1algorithms_1_1FormationSync.html", null ],
+      [ "gams::algorithms::JavaAlgorithm", "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html", null ],
       [ "gams::algorithms::Land", "d3/d06/classgams_1_1algorithms_1_1Land.html", null ],
-      [ "gams::algorithms::Message_Profiling", "de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html", null ],
+      [ "gams::algorithms::MessageProfiling", "d2/d64/classgams_1_1algorithms_1_1MessageProfiling.html", null ],
       [ "gams::algorithms::Move", "d2/d4c/classgams_1_1algorithms_1_1Move.html", null ],
-      [ "gams::algorithms::Null_Algorithm", "d6/dd7/classgams_1_1algorithms_1_1Null__Algorithm.html", null ],
-      [ "gams::algorithms::Performance_Profiling", "da/d12/classgams_1_1algorithms_1_1Performance__Profiling.html", null ],
+      [ "gams::algorithms::NullAlgorithm", "dd/de4/classgams_1_1algorithms_1_1NullAlgorithm.html", null ],
+      [ "gams::algorithms::PerformanceProfiling", "dc/d12/classgams_1_1algorithms_1_1PerformanceProfiling.html", null ],
       [ "gams::algorithms::Takeoff", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html", null ],
       [ "gams::algorithms::Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html", null ]
     ] ],
-    [ "gams::controllers::Base_Controller", "d0/dbe/classgams_1_1controllers_1_1Base__Controller.html", null ],
-    [ "gams::platforms::Base_Platform", "df/d83/classgams_1_1platforms_1_1Base__Platform.html", [
-      [ "gams::platforms::Debug_Platform", "d4/d15/classgams_1_1platforms_1_1Debug__Platform.html", null ],
+    [ "gams::controllers::BaseController", "df/d21/classgams_1_1controllers_1_1BaseController.html", null ],
+    [ "gams::platforms::BasePlatform", "d0/df3/classgams_1_1platforms_1_1BasePlatform.html", [
+      [ "gams::platforms::DebugPlatform", "d7/df2/classgams_1_1platforms_1_1DebugPlatform.html", null ],
       [ "gams::platforms::Drone_RK", "df/d3b/classgams_1_1platforms_1_1Drone__RK.html", null ],
-      [ "gams::platforms::Java_Platform", "da/dc8/classgams_1_1platforms_1_1Java__Platform.html", null ],
-      [ "gams::platforms::Null_Platform", "da/d8e/classgams_1_1platforms_1_1Null__Platform.html", null ],
-      [ "gams::platforms::Platform_Collection", "d7/da8/classgams_1_1platforms_1_1Platform__Collection.html", null ]
+      [ "gams::platforms::JavaPlatform", "dc/d78/classgams_1_1platforms_1_1JavaPlatform.html", null ],
+      [ "gams::platforms::NullPlatform", "d4/d7b/classgams_1_1platforms_1_1NullPlatform.html", null ],
+      [ "gams::platforms::PlatformCollection", "d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html", null ]
     ] ],
-    [ "gams::algorithms::Formation_Flying::Compiled", "df/d9e/structgams_1_1algorithms_1_1Formation__Flying_1_1Compiled.html", null ],
+    [ "gams::algorithms::FormationFlying::Compiled", "d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled.html", null ],
     [ "gams::utility::Containerize", "de/d8c/classgams_1_1utility_1_1Containerize.html", [
       [ "gams::utility::Region", "da/db7/classgams_1_1utility_1_1Region.html", [
-        [ "gams::utility::Prioritized_Region", "dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html", null ]
+        [ "gams::utility::PrioritizedRegion", "d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html", null ]
       ] ],
-      [ "gams::utility::Search_Area", "d5/d9f/classgams_1_1utility_1_1Search__Area.html", null ]
+      [ "gams::utility::SearchArea", "da/d42/classgams_1_1utility_1_1SearchArea.html", null ]
     ] ],
-    [ "gams::algorithms::Controller_Algorithm_Factory", "d6/dc2/classgams_1_1algorithms_1_1Controller__Algorithm__Factory.html", null ],
-    [ "gams::platforms::Controller_Platform_Factory", "d9/d8d/classgams_1_1platforms_1_1Controller__Platform__Factory.html", null ],
-    [ "gams::utility::Coordinate_Base", "d0/d6c/classgams_1_1utility_1_1Coordinate__Base.html", [
+    [ "gams::algorithms::ControllerAlgorithmFactory", "d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html", null ],
+    [ "gams::platforms::ControllerPlatformFactory", "d6/d6c/classgams_1_1platforms_1_1ControllerPlatformFactory.html", null ],
+    [ "gams::utility::CoordinateBase", "d0/d20/classgams_1_1utility_1_1CoordinateBase.html", [
       [ "gams::utility::Coordinate< Location >", "da/deb/classgams_1_1utility_1_1Coordinate.html", [
         [ "gams::utility::Location", "de/df6/classgams_1_1utility_1_1Location.html", null ]
       ] ],
@@ -99,36 +99,36 @@ var hierarchy =
       ] ]
     ] ],
     [ "gams::variables::Grid", "de/d94/classgams_1_1variables_1_1Grid.html", null ],
-    [ "gams::utility::Location_Vector", "d9/db7/classgams_1_1utility_1_1Location__Vector.html", [
+    [ "gams::utility::LocationVector", "d8/d57/classgams_1_1utility_1_1LocationVector.html", [
       [ "gams::utility::Location", "de/df6/classgams_1_1utility_1_1Location.html", null ],
-      [ "gams::utility::Pose_Vector", "d0/d36/classgams_1_1utility_1_1Pose__Vector.html", [
+      [ "gams::utility::PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html", [
         [ "gams::utility::Pose", "dd/d85/classgams_1_1utility_1_1Pose.html", null ]
       ] ]
     ] ],
-    [ "gams::controllers::Mape_Loop", "dc/da4/classgams_1_1controllers_1_1Mape__Loop.html", null ],
-    [ "gams::algorithms::Message_Profiling::Message_Filter::Message_Data", "dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html", null ],
-    [ "gams::platforms::Platform_Factory", "d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html", [
-      [ "gams::platforms::Debug_Platform_Factory", "d8/d92/classgams_1_1platforms_1_1Debug__Platform__Factory.html", null ],
-      [ "gams::platforms::Null_Platform_Factory", "d2/df2/classgams_1_1platforms_1_1Null__Platform__Factory.html", null ],
-      [ "gams::platforms::Platform_Collection_Factory", "dd/d10/classgams_1_1platforms_1_1Platform__Collection__Factory.html", null ]
+    [ "gams::controllers::MapeLoop", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html", null ],
+    [ "gams::algorithms::MessageProfiling::MessageFilter::MessageData", "d4/d3a/structgams_1_1algorithms_1_1MessageProfiling_1_1MessageFilter_1_1MessageData.html", null ],
+    [ "gams::platforms::PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html", [
+      [ "gams::platforms::DebugPlatformFactory", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html", null ],
+      [ "gams::platforms::NullPlatformFactory", "d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html", null ],
+      [ "gams::platforms::PlatformCollectionFactory", "dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory.html", null ]
     ] ],
-    [ "gams::variables::Platform_Status", "d9/dd1/classgams_1_1variables_1_1Platform__Status.html", null ],
+    [ "gams::variables::PlatformStatus", "db/d53/classgams_1_1variables_1_1PlatformStatus.html", null ],
     [ "gams::utility::Position", "df/d4e/classgams_1_1utility_1_1Position.html", [
-      [ "gams::utility::GPS_Position", "de/d23/classgams_1_1utility_1_1GPS__Position.html", null ]
+      [ "gams::utility::GPSPosition", "da/d5e/classgams_1_1utility_1_1GPSPosition.html", null ]
     ] ],
     [ "gams::utility::Quaternion", "db/d2d/classgams_1_1utility_1_1Quaternion.html", null ],
-    [ "gams::utility::Reference_Frame", "d4/da8/classgams_1_1utility_1_1Reference__Frame.html", [
-      [ "gams::utility::Axis_Angle_Frame", "d9/db5/classgams_1_1utility_1_1Axis__Angle__Frame.html", [
-        [ "gams::utility::Cartesian_Frame", "d2/d9a/classgams_1_1utility_1_1Cartesian__Frame.html", null ],
-        [ "gams::utility::GPS_Frame", "d5/dcb/classgams_1_1utility_1_1GPS__Frame.html", null ]
+    [ "gams::utility::ReferenceFrame", "d0/d25/classgams_1_1utility_1_1ReferenceFrame.html", [
+      [ "gams::utility::AxisAngleFrame", "d6/d79/classgams_1_1utility_1_1AxisAngleFrame.html", [
+        [ "gams::utility::CartesianFrame", "de/d60/classgams_1_1utility_1_1CartesianFrame.html", null ],
+        [ "gams::utility::GPSFrame", "da/d07/classgams_1_1utility_1_1GPSFrame.html", null ]
       ] ]
     ] ],
     [ "gams::variables::Region", "d1/d5e/classgams_1_1variables_1_1Region.html", null ],
-    [ "gams::utility::Rotation_Vector", "df/dee/classgams_1_1utility_1_1Rotation__Vector.html", [
-      [ "gams::utility::Pose_Vector", "d0/d36/classgams_1_1utility_1_1Pose__Vector.html", null ],
+    [ "gams::utility::RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html", [
+      [ "gams::utility::PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html", null ],
       [ "gams::utility::Rotation", "da/da5/classgams_1_1utility_1_1Rotation.html", null ]
     ] ],
-    [ "gams::variables::Search_Area", "d3/d11/classgams_1_1variables_1_1Search__Area.html", null ],
+    [ "gams::variables::SearchArea", "d0/d23/classgams_1_1variables_1_1SearchArea.html", null ],
     [ "gams::variables::Self", "d4/d98/classgams_1_1variables_1_1Self.html", null ],
     [ "gams::variables::Sensor", "db/d7d/classgams_1_1variables_1_1Sensor.html", null ],
     [ "gams::variables::Swarm", "d4/dde/classgams_1_1variables_1_1Swarm.html", null ]

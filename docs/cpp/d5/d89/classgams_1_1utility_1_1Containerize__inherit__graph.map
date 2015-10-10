@@ -1,5 +1,5 @@
 <map id="gams::utility::Containerize" name="gams::utility::Containerize">
 <area shape="rect" id="node2" href="$da/db7/classgams_1_1utility_1_1Region.html" title="A helper class for region information. " alt="" coords="14,80,155,107"/>
-<area shape="rect" id="node4" href="$d5/d9f/classgams_1_1utility_1_1Search__Area.html" title="A utility class for search areas. " alt="" coords="179,80,355,107"/>
-<area shape="rect" id="node3" href="$dc/d0c/classgams_1_1utility_1_1Prioritized__Region.html" title="A helper class for prioritized region information. " alt="" coords="5,155,164,196"/>
+<area shape="rect" id="node4" href="$da/d42/classgams_1_1utility_1_1SearchArea.html" title="A utility class for search areas. " alt="" coords="180,80,349,107"/>
+<area shape="rect" id="node3" href="$d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html" title="A helper class for prioritized region information. " alt="" coords="5,155,164,196"/>
 </map>

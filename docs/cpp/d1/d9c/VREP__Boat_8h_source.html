@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.9</span>
+   &#160;<span id="projectnumber">0.9.10</span>
    </div>
   </td>
  </tr>
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('d1/d9c/VREP__Boat_8h_source.html','../
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d65/Sensor_8h.html">gams/variables/Sensor.h</a>&quot;</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d9c/Platform__Status_8h.html">gams/variables/Platform_Status.h</a>&quot;</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dcf/GPS__Position_8h.html">gams/utility/GPS_Position.h</a>&quot;</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/Knowledge_Base.h&quot;</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/Knowledge_Base.h&quot;</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#include &quot;extApi.h&quot;</span></div>
@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('d1/d9c/VREP__Boat_8h_source.html','../
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      VREP_Boat (</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keyword">const</span> std::string&amp; file, </div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keyword">const</span> simxUChar client_side,</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base * knowledge,</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        madara::knowledge::Knowledge_Base * knowledge,</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a7f6f89f2f58f332f9ae024f276263ba7">variables::Platforms</a> * <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a>,</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>);</div>
@@ -165,8 +165,8 @@ $(document).ready(function(){initNavTree('d1/d9c/VREP__Boat_8h_source.html','../
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;      <span class="keyword">virtual</span> Base_Platform * create (</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keyword">const</span> Madara::Knowledge_Vector &amp; args,</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base * knowledge,</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keyword">const</span> madara::Knowledge_Vector &amp; args,</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        madara::knowledge::Knowledge_Base * knowledge,</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a7f6f89f2f58f332f9ae024f276263ba7">variables::Platforms</a> * <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a>,</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>);</div>
@@ -195,7 +195,7 @@ $(document).ready(function(){initNavTree('d1/d9c/VREP__Boat_8h_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_1e78112e2e00ee93d190d5382866a0e7.html">platforms</a></li><li class="navelem"><a class="el" href="../../dir_28c2d94377217a92e4c789135976939c.html">vrep</a></li><li class="navelem"><a class="el" href="../../d1/d9c/VREP__Boat_8h.html">VREP_Boat.h</a></li>
-    <li class="footer">Generated on Tue Sep 29 2015 12:23:08 for GAMS by
+    <li class="footer">Generated on Mon Oct 5 2015 20:42:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

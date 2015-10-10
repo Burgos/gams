@@ -1,0 +1,26 @@
+<map id="gams::algorithms::BaseAlgorithm" name="gams::algorithms::BaseAlgorithm">
+<area shape="rect" id="node2" href="$df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="gams::algorithms::area\l_coverage::BaseAreaCoverage" alt="" coords="280,261,479,302"/>
+<area shape="rect" id="node12" href="$d6/d58/classgams_1_1algorithms_1_1DebugAlgorithm.html" title="A debug algorithm that prints detailed status information. " alt="" coords="268,327,491,353"/>
+<area shape="rect" id="node13" href="$dc/d23/classgams_1_1algorithms_1_1Executive.html" title="An algorithm capable of executing other algorithms. " alt="" coords="286,377,473,404"/>
+<area shape="rect" id="node14" href="$d9/d7a/classgams_1_1algorithms_1_1Follow.html" title="An algorithm for following a target. " alt="" coords="296,428,463,455"/>
+<area shape="rect" id="node15" href="$d7/da5/classgams_1_1algorithms_1_1FormationCoverage.html" title="An algorithm for covering an area in formation. " alt="" coords="285,479,473,521"/>
+<area shape="rect" id="node16" href="$d9/df9/classgams_1_1algorithms_1_1FormationFlying.html" title="An algorithm for moving in formation. " alt="" coords="285,545,473,586"/>
+<area shape="rect" id="node17" href="$d3/df5/classgams_1_1algorithms_1_1FormationSync.html" title="An algorithm for covering an area in formation with a synchronous model of computation. " alt="" coords="270,611,489,637"/>
+<area shape="rect" id="node18" href="$d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html" title="A facade for Java algorithms. " alt="" coords="274,661,485,688"/>
+<area shape="rect" id="node19" href="$d3/d06/classgams_1_1algorithms_1_1Land.html" title="An algorithm for landing. " alt="" coords="300,712,459,739"/>
+<area shape="rect" id="node20" href="$d2/d64/classgams_1_1algorithms_1_1MessageProfiling.html" title="An algorithm for profiling message generation and receipt. " alt="" coords="288,763,471,805"/>
+<area shape="rect" id="node21" href="$d2/d4c/classgams_1_1algorithms_1_1Move.html" title="An algorithm for moving to a location. " alt="" coords="299,829,459,856"/>
+<area shape="rect" id="node22" href="$dd/de4/classgams_1_1algorithms_1_1NullAlgorithm.html" title="An algorithm that performs no&#45;ops for all methods. " alt="" coords="276,880,483,907"/>
+<area shape="rect" id="node23" href="$dc/d12/classgams_1_1algorithms_1_1PerformanceProfiling.html" title="An algorithm for testing computational speed. " alt="" coords="278,931,481,973"/>
+<area shape="rect" id="node24" href="$dd/dce/classgams_1_1algorithms_1_1Takeoff.html" title="An algorithm for taking off. " alt="" coords="294,997,465,1024"/>
+<area shape="rect" id="node25" href="$d9/d6f/classgams_1_1algorithms_1_1Wait.html" title="An algorithm for waiting. " alt="" coords="301,1048,458,1075"/>
+<area shape="rect" id="node3" href="$d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html" title="gams::algorithms::area\l_coverage::LocalPheremoneArea\lCoverage" alt="" coords="549,5,761,61"/>
+<area shape="rect" id="node4" href="$db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html" title="gams::algorithms::area\l_coverage::MinTimeAreaCoverage" alt="" coords="546,86,763,127"/>
+<area shape="rect" id="node6" href="$d6/d5e/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrol.html" title="gams::algorithms::area\l_coverage::PerimeterPatrol" alt="" coords="565,151,744,193"/>
+<area shape="rect" id="node7" href="$db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html" title="gams::algorithms::area\l_coverage::PriorityWeightedRandom\lAreaCoverage" alt="" coords="539,217,771,273"/>
+<area shape="rect" id="node8" href="$d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html" title="gams::algorithms::area\l_coverage::SnakeAreaCoverage" alt="" coords="552,298,757,339"/>
+<area shape="rect" id="node9" href="$d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html" title="gams::algorithms::area\l_coverage::UniformRandomArea\lCoverage" alt="" coords="551,364,758,420"/>
+<area shape="rect" id="node10" href="$d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html" title="gams::algorithms::area\l_coverage::UniformRandomEdge\lCoverage" alt="" coords="549,444,760,500"/>
+<area shape="rect" id="node11" href="$de/d2e/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverage.html" title="gams::algorithms::area\l_coverage::WaypointsCoverage" alt="" coords="553,525,756,566"/>
+<area shape="rect" id="node5" href="$d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html" title="gams::algorithms::area\l_coverage::PrioritizedMinTime\lAreaCoverage" alt="" coords="819,79,1013,135"/>
+</map>

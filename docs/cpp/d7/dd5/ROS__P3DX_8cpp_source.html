@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.9</span>
+   &#160;<span id="projectnumber">0.9.12</span>
    </div>
   </td>
  </tr>
@@ -122,28 +122,28 @@ $(document).ready(function(){initNavTree('d7/dd5/ROS__P3DX_8cpp_source.html','..
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">using</span> std::string;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/containers/Double_Vector.h&quot;</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/containers/DoubleVector.h&quot;</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d65/Sensor_8h.html">gams/variables/Sensor.h</a>&quot;</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">gams::platforms::Base_Platform</a> *</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;gams::platforms::ROS_P3DX_Factory::create (</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <span class="keyword">const</span> Madara::Knowledge_Vector &amp; args,</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  Madara::Knowledge_Engine::Knowledge_Base * knowledge,</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors, <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a7f6f89f2f58f332f9ae024f276263ba7">variables::Platforms</a> * <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a>,</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a> *</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;gams::platforms::ROS_P3DXFactory::create (</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <span class="keyword">const</span> Madara::KnowledgeVector &amp; args,</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  Madara::KnowledgeEngine::KnowledgeBase * knowledge,</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors, <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a>,</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>)</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  Base_Platform * result (0);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  BasePlatform * result (0);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordflow">if</span> (knowledge &amp;&amp; sensors &amp;&amp; platforms &amp;&amp; <span class="keyword">self</span>)</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    result = <span class="keyword">new</span> ROS_P3DX (knowledge, sensors, platforms, <span class="keyword">self</span>);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">return</span> result;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;gams::platforms::ROS_P3DX::ROS_P3DX (</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  Madara::Knowledge_Engine::Knowledge_Base * knowledge, </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  Madara::KnowledgeEngine::KnowledgeBase * knowledge, </div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a7f6f89f2f58f332f9ae024f276263ba7">variables::Platforms</a> * platforms, <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>) :</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  ROS_Base (knowledge, sensors, self),</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * platforms, <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>) :</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  ROSBase (knowledge, sensors, self),</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  ros_namespace_(knowledge-&gt;get (<span class="stringliteral">&quot;.ros_namespace&quot;</span>).to_string ()), </div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  node_handle_ (ros_namespace_),</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  move_client_ (ros_namespace_ + <a class="code" href="../../d8/dcc/namespacestd.html">std</a>::string (<span class="stringliteral">&quot;/move_base&quot;</span>), true), </div>
@@ -170,13 +170,13 @@ $(document).ready(function(){initNavTree('d7/dd5/ROS__P3DX_8cpp_source.html','..
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  }</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="comment">// get initial position from knowledge base</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  Madara::Knowledge_Record record = knowledge-&gt;get (<span class="stringliteral">&quot;.initial_position&quot;</span>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  Madara::KnowledgeRecord record = knowledge-&gt;get (<span class="stringliteral">&quot;.initial_position&quot;</span>);</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  std::vector &lt;double&gt; coords = record.to_doubles ();</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  utility::Position p(coords[0], coords[1], coords[2]);</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  set_initial_position(p);</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <span class="comment">// probably not needed?</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <a class="code" href="../../d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html#a4378d0a3de3fc217cb5decc679a5f1cd">self_</a>-&gt;<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a71be2b2b04eb6b84c19bbd357ea2d1c1">device</a>.<a class="code" href="../../d7/d3b/classgams_1_1variables_1_1Device.html#a82d923949191e9b5f7b64a288adf0668">desired_altitude</a> = 0.05;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <a class="code" href="../../d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#abb8ea8058900e81eda3b23a7bfb186c8">self_</a>-&gt;<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a71be2b2b04eb6b84c19bbd357ea2d1c1">device</a>.<a class="code" href="../../d7/d3b/classgams_1_1variables_1_1Device.html#a0619ad58ed82da661166b28a167fbc43">desired_altitude</a> = 0.05;</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="comment">// start spinner for reading position from AMCL</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  spinner_.start();</div>
@@ -290,15 +290,15 @@ $(document).ready(function(){initNavTree('d7/dd5/ROS__P3DX_8cpp_source.html','..
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="preprocessor">#endif // _GAMS_ROS_</span></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html_a71be2b2b04eb6b84c19bbd357ea2d1c1"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html#a71be2b2b04eb6b84c19bbd357ea2d1c1">gams::variables::Self::device</a></div><div class="ttdeci">Device device</div><div class="ttdoc">the device-specific variables </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00108">Self.h:108</a></div></div>
-<div class="ttc" id="classgams_1_1platforms_1_1Platform__Factory_html_a4378d0a3de3fc217cb5decc679a5f1cd"><div class="ttname"><a href="../../d3/dcd/classgams_1_1platforms_1_1Platform__Factory.html#a4378d0a3de3fc217cb5decc679a5f1cd">gams::platforms::Platform_Factory::self_</a></div><div class="ttdeci">variables::Self * self_</div><div class="ttdoc">self-referencing variables </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d16/Platform__Factory_8h_source.html#l00135">Platform_Factory.h:135</a></div></div>
 <div class="ttc" id="namespacestd_html"><div class="ttname"><a href="../../d8/dcc/namespacestd.html">std</a></div><div class="ttdoc">STL namespace. </div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a886cb9f6fade67222f4162b90ed80930"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">gams::variables::Sensors</a></div><div class="ttdeci">std::map&lt; std::string, Sensor * &gt; Sensors</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/Sensor_8h_source.html#l00250">Sensor.h:250</a></div></div>
-<div class="ttc" id="classgams_1_1variables_1_1Device_html_a82d923949191e9b5f7b64a288adf0668"><div class="ttname"><a href="../../d7/d3b/classgams_1_1variables_1_1Device.html#a82d923949191e9b5f7b64a288adf0668">gams::variables::Device::desired_altitude</a></div><div class="ttdeci">Madara::Knowledge_Engine::Containers::Double desired_altitude</div><div class="ttdoc">desired altitude in meters </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d05/Device_8h_source.html#l00133">Device.h:133</a></div></div>
+<div class="ttc" id="classgams_1_1platforms_1_1PlatformFactory_html_abb8ea8058900e81eda3b23a7bfb186c8"><div class="ttname"><a href="../../d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#abb8ea8058900e81eda3b23a7bfb186c8">gams::platforms::PlatformFactory::self_</a></div><div class="ttdeci">variables::Self * self_</div><div class="ttdoc">self-referencing variables </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d58/PlatformFactory_8h_source.html#l00135">PlatformFactory.h:135</a></div></div>
+<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00107">BasePlatform.h:107</a></div></div>
 <div class="ttc" id="Sensor_8h_html"><div class="ttname"><a href="../../d5/d65/Sensor_8h.html">Sensor.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="classgams_1_1platforms_1_1Base__Platform_html"><div class="ttname"><a href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">gams::platforms::Base_Platform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/Base__Platform_8h_source.html#l00107">Base_Platform.h:107</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
-<div class="ttc" id="namespacegams_1_1variables_html_a7f6f89f2f58f332f9ae024f276263ba7"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a7f6f89f2f58f332f9ae024f276263ba7">gams::variables::Platforms</a></div><div class="ttdeci">std::map&lt; std::string, Platform_Status &gt; Platforms</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d9c/Platform__Status_8h_source.html#l00167">Platform_Status.h:167</a></div></div>
-<div class="ttc" id="namespacegams_1_1platforms_html"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d22/Base__Platform_8h_source.html#l00073">Base_Platform.h:73</a></div></div>
+<div class="ttc" id="namespacegams_1_1variables_html_a1d8592a3009319dc38a04b2b7879912f"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">gams::variables::Platforms</a></div><div class="ttdeci">std::map&lt; std::string, PlatformStatus &gt; Platforms</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d37/PlatformStatus_8h_source.html#l00167">PlatformStatus.h:167</a></div></div>
+<div class="ttc" id="namespacegams_1_1platforms_html"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00073">BasePlatform.h:73</a></div></div>
+<div class="ttc" id="classgams_1_1variables_1_1Device_html_a0619ad58ed82da661166b28a167fbc43"><div class="ttname"><a href="../../d7/d3b/classgams_1_1variables_1_1Device.html#a0619ad58ed82da661166b28a167fbc43">gams::variables::Device::desired_altitude</a></div><div class="ttdeci">madara::knowledge::containers::Double desired_altitude</div><div class="ttdoc">desired altitude in meters </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d05/Device_8h_source.html#l00133">Device.h:133</a></div></div>
 <div class="ttc" id="ROS__P3DX_8h_html"><div class="ttname"><a href="../../d2/d7a/ROS__P3DX_8h.html">ROS_P3DX.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -306,7 +306,7 @@ $(document).ready(function(){initNavTree('d7/dd5/ROS__P3DX_8cpp_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_1e78112e2e00ee93d190d5382866a0e7.html">platforms</a></li><li class="navelem"><a class="el" href="../../dir_c6a0f65e46154e960d0036f57195e948.html">ros</a></li><li class="navelem"><a class="el" href="../../d7/dd5/ROS__P3DX_8cpp.html">ROS_P3DX.cpp</a></li>
-    <li class="footer">Generated on Tue Sep 29 2015 12:23:08 for GAMS by
+    <li class="footer">Generated on Fri Oct 9 2015 21:14:56 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

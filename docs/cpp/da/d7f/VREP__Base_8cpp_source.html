@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.9</span>
+   &#160;<span id="projectnumber">0.9.10</span>
    </div>
   </td>
  </tr>
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('da/d7f/VREP__Base_8cpp_source.html','.
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/containers/Double_Vector.h&quot;</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/containers/Double_Vector.h&quot;</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/d65/Sensor_8h.html">gams/variables/Sensor.h</a>&quot;</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('da/d7f/VREP__Base_8cpp_source.html','.
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">using</span> std::string;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;gams::platforms::VREP_Base::VREP_Base (</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  Madara::Knowledge_Engine::Knowledge_Base * knowledge,</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  madara::knowledge::Knowledge_Base * knowledge,</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>)</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  : Base_Platform (knowledge, sensors, self), airborne_ (false),</div>
@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('da/d7f/VREP__Base_8cpp_source.html','.
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    {</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <span class="comment">// get origin</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      utility::GPS_Position origin;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      Madara::Knowledge_Engine::Containers::Native_Double_Array origin_container;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      madara::knowledge::containers::Native_Double_Array origin_container;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      origin_container.set_name (<span class="stringliteral">&quot;sensor.coverage.origin&quot;</span>, *knowledge, 3);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      origin.from_container (origin_container);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('da/d7f/VREP__Base_8cpp_source.html','.
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="comment">// get client id</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">string</span> vrep_host = knowledge-&gt;get (<span class="stringliteral">&quot;.vrep_host&quot;</span>).to_string ();</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">int</span> vrep_port = knowledge-&gt;get (<span class="stringliteral">&quot;.vrep_port&quot;</span>).to_integer ();</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a475cb9fd59d22b6e8b8854bc2c288d6c">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="stringliteral">&quot;gams::platforms::VREP_Base():&quot;</span> \</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      <span class="stringliteral">&quot; attempting to connect to VREP at %s:%d\n&quot;</span>,</div>
@@ -169,13 +169,13 @@ $(document).ready(function(){initNavTree('da/d7f/VREP__Base_8cpp_source.html','.
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    client_id_ = simxStart(vrep_host.c_str (), vrep_port, <span class="keyword">true</span>, <span class="keyword">true</span>, 2000, 5);</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">if</span> (client_id_ == -1)</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a475cb9fd59d22b6e8b8854bc2c288d6c">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5afa45af80e2ac2a620753036f45fcd6a9">gams::loggers::LOG_EMERGENCY</a>,</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="stringliteral">&quot;gams::platforms::VREP_Base():&quot;</span> \</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="stringliteral">&quot; VREP connection failure, exit(-1)\n&quot;</span>);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      exit (-1);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a475cb9fd59d22b6e8b8854bc2c288d6c">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      <span class="stringliteral">&quot;gams::platforms::VREP_Base():&quot;</span> \</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="stringliteral">&quot; successfully connected to VREP at %s:%d\n&quot;</span>,</div>
@@ -232,7 +232,7 @@ $(document).ready(function(){initNavTree('da/d7f/VREP__Base_8cpp_source.html','.
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  simxGetObjectPosition (client_id_, node_id_, sim_handle_parent, curr_arr,</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                        simx_opmode_oneshot_wait);</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a475cb9fd59d22b6e8b8854bc2c288d6c">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5a56c59141f7b426e24957231868ff6232">gams::loggers::LOG_DETAILED</a>,</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="stringliteral">&quot;gams::algorithms::platforms::VREP_Base:&quot;</span> \</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="stringliteral">&quot; vrep position: %f,%f,%f\n&quot;</span>, curr_arr[0], curr_arr[1], curr_arr[2]);</div>
@@ -242,7 +242,7 @@ $(document).ready(function(){initNavTree('da/d7f/VREP__Base_8cpp_source.html','.
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  utility::GPS_Position position;</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  vrep_to_gps (vrep_pos, position);</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a475cb9fd59d22b6e8b8854bc2c288d6c">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5a56c59141f7b426e24957231868ff6232">gams::loggers::LOG_DETAILED</a>,</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="stringliteral">&quot;gams::algorithms::platforms::VREP_Base:&quot;</span> \</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="stringliteral">&quot; gps position: %f,%f,%f\n&quot;</span>, </div>
@@ -449,9 +449,9 @@ $(document).ready(function(){initNavTree('da/d7f/VREP__Base_8cpp_source.html','.
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  buffer &lt;&lt; <span class="stringliteral">&quot;(&quot;</span> &lt;&lt; init_string.str () &lt;&lt; <span class="stringliteral">&quot; = 1)&quot;</span>;</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  buffer &lt;&lt; <span class="stringliteral">&quot; &amp;&amp; begin_sim&quot;</span>;</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  std::string expression = buffer.str ();</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  Madara::Knowledge_Engine::Wait_Settings wait_settings;</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  madara::knowledge::Wait_Settings wait_settings;</div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  wait_settings.send_list [init_string.str ()] = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  Madara::Knowledge_Engine::Compiled_Expression compiled;</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  madara::knowledge::Compiled_Expression compiled;</div>
 <div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  compiled = knowledge_-&gt;compile (expression);</div>
 <div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  knowledge_-&gt;wait (compiled, wait_settings);</div>
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;}</div>
@@ -464,10 +464,10 @@ $(document).ready(function(){initNavTree('da/d7f/VREP__Base_8cpp_source.html','.
 <div class="ttc" id="VREP__Base_8h_html"><div class="ttname"><a href="../../d0/da8/VREP__Base_8h.html">VREP_Base.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="Sensor_8h_html"><div class="ttname"><a href="../../d5/d65/Sensor_8h.html">Sensor.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="Axes_8cpp_html_a8ed7b6a1f199b6d2af90e642918cf271"><div class="ttname"><a href="../../d3/d3d/Axes_8cpp.html#a8ed7b6a1f199b6d2af90e642918cf271">DEG_TO_RAD</a></div><div class="ttdeci">#define DEG_TO_RAD(x)</div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d3d/Axes_8cpp_source.html#l00050">Axes.cpp:50</a></div></div>
+<div class="ttc" id="namespacegams_1_1loggers_html_a31352813dc66377621f0f56e887a2b5f"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a></div><div class="ttdeci">GAMS_Export std::auto_ptr&lt; madara::logger::Logger &gt; global_logger</div></div>
 <div class="ttc" id="namespacegams_1_1loggers_html_af3ace20f976c2a0c637b609b6e7e2ec5afa45af80e2ac2a620753036f45fcd6a9"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5afa45af80e2ac2a620753036f45fcd6a9">gams::loggers::LOG_EMERGENCY</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d19/Global__Logger_8h_source.html#l00018">Global_Logger.h:18</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
 <div class="ttc" id="namespacegams_1_1loggers_html_af3ace20f976c2a0c637b609b6e7e2ec5a21efff059e6d70fd4888b753385a5512"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#af3ace20f976c2a0c637b609b6e7e2ec5a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d19/Global__Logger_8h_source.html#l00022">Global_Logger.h:22</a></div></div>
-<div class="ttc" id="namespacegams_1_1loggers_html_a475cb9fd59d22b6e8b8854bc2c288d6c"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#a475cb9fd59d22b6e8b8854bc2c288d6c">gams::loggers::global_logger</a></div><div class="ttdeci">GAMS_Export std::auto_ptr&lt; Madara::Logger::Logger &gt; global_logger</div></div>
 <div class="ttc" id="classgams_1_1platforms_1_1Base__Platform_html_a44daaeeacc501caecca537b765d7ce66"><div class="ttname"><a href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html#a44daaeeacc501caecca537b765d7ce66">gams::platforms::Base_Platform::operator=</a></div><div class="ttdeci">void operator=(const Base_Platform &amp;rhs)</div><div class="ttdoc">Assignment operator. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd2/Base__Platform_8cpp_source.html#l00069">Base_Platform.cpp:69</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -475,7 +475,7 @@ $(document).ready(function(){initNavTree('da/d7f/VREP__Base_8cpp_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_1e78112e2e00ee93d190d5382866a0e7.html">platforms</a></li><li class="navelem"><a class="el" href="../../dir_28c2d94377217a92e4c789135976939c.html">vrep</a></li><li class="navelem"><a class="el" href="../../da/d7f/VREP__Base_8cpp.html">VREP_Base.cpp</a></li>
-    <li class="footer">Generated on Tue Sep 29 2015 12:23:08 for GAMS by
+    <li class="footer">Generated on Mon Oct 5 2015 20:42:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

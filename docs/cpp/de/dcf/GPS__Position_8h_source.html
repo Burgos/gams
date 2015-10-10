@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.9</span>
+   &#160;<span id="projectnumber">0.9.10</span>
    </div>
   </td>
  </tr>
@@ -113,8 +113,8 @@ $(document).ready(function(){initNavTree('de/dcf/GPS__Position_8h_source.html','
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#define _GAMS_UTILITY_GPS_POSITION_H_</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d98/GAMS__Export_8h.html">gams/GAMS_Export.h</a>&quot;</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/containers/Double_Vector.h&quot;</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/containers/Native_Double_Vector.h&quot;</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/containers/Double_Vector.h&quot;</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/containers/Native_Double_Vector.h&quot;</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dff/Position_8h.html">Position.h</a>&quot;</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
@@ -141,18 +141,18 @@ $(document).ready(function(){initNavTree('de/dcf/GPS__Position_8h_source.html','
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      <span class="keywordtype">bool</span> operator== (<span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a> &amp; rhs) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      </div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <span class="keywordtype">bool</span> operator== (<span class="keyword">const</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        Madara::Knowledge_Engine::Containers::Double_Array &amp; rhs) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        madara::knowledge::containers::Double_Array &amp; rhs) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      <span class="keywordtype">bool</span> operator== (<span class="keyword">const</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        Madara::Knowledge_Engine::Containers::Native_Double_Array &amp; rhs) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        madara::knowledge::containers::Native_Double_Array &amp; rhs) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;      </div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      <span class="keywordtype">bool</span> operator!= (<span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a> &amp; rhs) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      </div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      <span class="keywordtype">bool</span> operator!= (<span class="keyword">const</span></div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        Madara::Knowledge_Engine::Containers::Double_Array &amp; rhs) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        madara::knowledge::containers::Double_Array &amp; rhs) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;      <span class="keywordtype">bool</span> operator!= (<span class="keyword">const</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        Madara::Knowledge_Engine::Containers::Native_Double_Array &amp; rhs) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        madara::knowledge::containers::Native_Double_Array &amp; rhs) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">bool</span> approximately_equal(</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a> &amp; rhs, <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; epsilon) <span class="keyword">const</span>;</div>
@@ -172,17 +172,17 @@ $(document).ready(function(){initNavTree('de/dcf/GPS__Position_8h_source.html','
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;      <span class="keyword">static</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html">GPS_Position</a> from_string (<span class="keyword">const</span> std::string &amp; delimiter = <span class="stringliteral">&quot;,&quot;</span>);</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> to_container (</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        Madara::Knowledge_Engine::Containers::Double_Array &amp; target) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        madara::knowledge::containers::Double_Array &amp; target) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;      </div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> from_container (</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        Madara::Knowledge_Engine::Containers::Double_Array &amp; source);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        madara::knowledge::containers::Double_Array &amp; source);</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;      </div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> to_container (</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        Madara::Knowledge_Engine::Containers::Native_Double_Array &amp; target)</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        madara::knowledge::containers::Native_Double_Array &amp; target)</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      </div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> from_container (</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        Madara::Knowledge_Engine::Containers::Native_Double_Array &amp; source);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        madara::knowledge::containers::Native_Double_Array &amp; source);</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
 <div class="line"><a name="l00239"></a><span class="lineno"><a class="line" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html#a6e5fb411acfd7bda388a53539c349270">  239</a></span>&#160;      <span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../de/d23/classgams_1_1utility_1_1GPS__Position.html#a6e5fb411acfd7bda388a53539c349270">latitude</a> ()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> x; }</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;      </div>
@@ -219,7 +219,7 @@ $(document).ready(function(){initNavTree('de/dcf/GPS__Position_8h_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_e1406cd850b444c8c135213175f9bbdb.html">utility</a></li><li class="navelem"><a class="el" href="../../de/dcf/GPS__Position_8h.html">GPS_Position.h</a></li>
-    <li class="footer">Generated on Tue Sep 29 2015 12:23:08 for GAMS by
+    <li class="footer">Generated on Mon Oct 5 2015 20:42:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

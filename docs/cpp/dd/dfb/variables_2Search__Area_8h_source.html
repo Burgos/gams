@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.9</span>
+   &#160;<span id="projectnumber">0.9.10</span>
    </div>
   </td>
  </tr>
@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('dd/dfb/variables_2Search__Area_8h_sour
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/dd2/variables_2Region_8h.html">Region.h</a>&quot;</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/Knowledge_Base.h&quot;</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/Knowledge_Base.h&quot;</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../df/dae/namespacegams.html">gams</a></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
@@ -130,10 +130,10 @@ $(document).ready(function(){initNavTree('dd/dfb/variables_2Search__Area_8h_sour
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      <span class="keywordtype">void</span> operator= (<span class="keyword">const</span> <a class="code" href="../../d3/d11/classgams_1_1variables_1_1Search__Area.html">Search_Area</a> &amp; rhs);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#ad6dd36ca89b8e6c9c35eb4ebd090ecf9">init_vars</a> (Madara::Knowledge_Engine::Knowledge_Base &amp; knowledge,</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a724678ee74a9c219f6a902230ecdc35e">init_vars</a> (madara::knowledge::Knowledge_Base &amp; knowledge,</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      <span class="keyword">const</span> std::string &amp; area_name = <span class="stringliteral">&quot;0&quot;</span>);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;      </div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#ad6dd36ca89b8e6c9c35eb4ebd090ecf9">init_vars</a> (Madara::Knowledge_Engine::Variables &amp; knowledge,</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a724678ee74a9c219f6a902230ecdc35e">init_vars</a> (madara::knowledge::Variables &amp; knowledge,</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      <span class="keyword">const</span> std::string &amp; area_name = <span class="stringliteral">&quot;0&quot;</span>);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <span class="comment">//Region region;</span></div>
@@ -141,16 +141,16 @@ $(document).ready(function(){initNavTree('dd/dfb/variables_2Search__Area_8h_sour
 <div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="../../d3/d11/classgams_1_1variables_1_1Search__Area.html#a37622760058ab2948298f4f4a58832cc">  108</a></span>&#160;      std::string <a class="code" href="../../d3/d11/classgams_1_1variables_1_1Search__Area.html#a37622760058ab2948298f4f4a58832cc">name</a>;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    };</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a> <span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#ad6dd36ca89b8e6c9c35eb4ebd090ecf9">init_vars</a> (<a class="code" href="../../d3/d11/classgams_1_1variables_1_1Search__Area.html">Search_Area</a> &amp; <a class="code" href="../../d8/df1/namespacegams_1_1variables.html">variables</a>,</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      Madara::Knowledge_Engine::Knowledge_Base &amp; knowledge,</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a> <span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a724678ee74a9c219f6a902230ecdc35e">init_vars</a> (<a class="code" href="../../d3/d11/classgams_1_1variables_1_1Search__Area.html">Search_Area</a> &amp; <a class="code" href="../../d8/df1/namespacegams_1_1variables.html">variables</a>,</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      madara::knowledge::Knowledge_Base &amp; knowledge,</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <span class="keyword">const</span> std::string &amp; area_name = <span class="stringliteral">&quot;0&quot;</span>);</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  }</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">#endif // _GAMS_VARIABLES_SEARCH_AREA_H_</span></div>
+<div class="ttc" id="namespacegams_1_1variables_html_a724678ee74a9c219f6a902230ecdc35e"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a724678ee74a9c219f6a902230ecdc35e">gams::variables::init_vars</a></div><div class="ttdeci">GAMS_Export void init_vars(Accent_Statuses &amp;variables, madara::knowledge::Knowledge_Base &amp;knowledge, const std::string &amp;prefix)</div><div class="ttdoc">Initializes accent status containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d97/Accent__Status_8cpp_source.html#l00100">Accent_Status.cpp:100</a></div></div>
 <div class="ttc" id="variables_2Region_8h_html"><div class="ttname"><a href="../../d5/dd2/variables_2Region_8h.html">Region.h</a></div></div>
 <div class="ttc" id="GAMS__Export_8h_html_a4cc3ead869e0824df421cd31894859a7"><div class="ttname"><a href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a></div><div class="ttdeci">#define GAMS_Export</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d98/GAMS__Export_8h_source.html#l00026">GAMS_Export.h:26</a></div></div>
-<div class="ttc" id="namespacegams_1_1variables_html_ad6dd36ca89b8e6c9c35eb4ebd090ecf9"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#ad6dd36ca89b8e6c9c35eb4ebd090ecf9">gams::variables::init_vars</a></div><div class="ttdeci">GAMS_Export void init_vars(Accent_Statuses &amp;variables, Madara::Knowledge_Engine::Knowledge_Base &amp;knowledge, const std::string &amp;prefix)</div><div class="ttdoc">Initializes accent status containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d97/Accent__Status_8cpp_source.html#l00100">Accent_Status.cpp:100</a></div></div>
 <div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Algorithm__Factory_8h_source.html#l00064">Algorithm_Factory.h:64</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Search__Area_html"><div class="ttname"><a href="../../d3/d11/classgams_1_1variables_1_1Search__Area.html">gams::variables::Search_Area</a></div><div class="ttdoc">A container for search area information. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfb/variables_2Search__Area_8h_source.html#l00069">Search_Area.h:69</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Search__Area_html_a37622760058ab2948298f4f4a58832cc"><div class="ttname"><a href="../../d3/d11/classgams_1_1variables_1_1Search__Area.html#a37622760058ab2948298f4f4a58832cc">gams::variables::Search_Area::name</a></div><div class="ttdeci">std::string name</div><div class="ttdoc">region that the named search area points to </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfb/variables_2Search__Area_8h_source.html#l00108">Search_Area.h:108</a></div></div>
@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('dd/dfb/variables_2Search__Area_8h_sour
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_0e5c20b817b77fc20ca6d9cc098d1d10.html">variables</a></li><li class="navelem"><a class="el" href="../../dd/dfb/variables_2Search__Area_8h.html">Search_Area.h</a></li>
-    <li class="footer">Generated on Tue Sep 29 2015 12:23:08 for GAMS by
+    <li class="footer">Generated on Mon Oct 5 2015 20:42:09 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

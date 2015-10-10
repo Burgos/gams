@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.9</span>
+   &#160;<span id="projectnumber">0.9.12</span>
    </div>
   </td>
  </tr>
@@ -112,17 +112,17 @@ $(document).ready(function(){initNavTree('dd/df2/Containerize_8h_source.html','.
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#ifndef  _GAMS_UTILITY_CONTAINERIZE_H_</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#define  _GAMS_UTILITY_CONTAINERIZE_H_</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/d98/GAMS__Export_8h.html">gams/GAMS_Export.h</a>&quot;</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/de3/GAMSExport_8h.html">gams/GAMSExport.h</a>&quot;</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/Knowledge_Base.h&quot;</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/KnowledgeBase.h&quot;</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../df/dae/namespacegams.html">gams</a></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keyword">namespace </span>utility</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  {</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">   71</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a> <a class="code" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">Containerize</a></div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">   71</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a> <a class="code" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">Containerize</a></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <a class="code" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">Containerize</a> (<span class="keyword">const</span> std::string&amp; n = <span class="stringliteral">&quot;&quot;</span>);</div>
@@ -133,19 +133,19 @@ $(document).ready(function(){initNavTree('dd/df2/Containerize_8h_source.html','.
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      <span class="keywordtype">void</span> set_name (<span class="keyword">const</span> std::string&amp; n);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      <span class="keywordtype">void</span> set_knowledge_base (Madara::Knowledge_Engine::Knowledge_Base* kb);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      <span class="keywordtype">void</span> set_knowledge_base (madara::knowledge::KnowledgeBase* kb);</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <span class="keywordtype">void</span> modify();</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      <span class="keywordtype">void</span> to_container (<span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      <span class="keywordtype">void</span> to_container (Madara::Knowledge_Engine::Knowledge_Base&amp; kb, </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      <span class="keywordtype">void</span> to_container (madara::knowledge::KnowledgeBase&amp; kb, </div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      <span class="keywordtype">bool</span> from_container (<span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      <span class="keywordtype">bool</span> from_container (</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base&amp; kb, </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        madara::knowledge::KnowledgeBase&amp; kb, </div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keyword">protected</span>:</div>
@@ -153,7 +153,7 @@ $(document).ready(function(){initNavTree('dd/df2/Containerize_8h_source.html','.
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
 <div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#a02795c6fed7b49a142fbe69f09577ca2">  143</a></span>&#160;      std::string <a class="code" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#a02795c6fed7b49a142fbe69f09577ca2">name_</a>;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
-<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#aafa4b282d884a5d213f6c9686018e69b">  146</a></span>&#160;      Madara::Knowledge_Engine::Knowledge_Base* <a class="code" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#aafa4b282d884a5d213f6c9686018e69b">prev_kb_</a>;</div>
+<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#a7d294216225562806df86b698963b1ed">  146</a></span>&#160;      madara::knowledge::KnowledgeBase* <a class="code" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#a7d294216225562806df86b698963b1ed">prev_kb_</a>;</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
 <div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#ac2961c89ba9820d014dbf4aeee34d166">  154</a></span>&#160;      <span class="keyword">enum</span> <a class="code" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#ac2961c89ba9820d014dbf4aeee34d166">Class_ID</a></div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;      {</div>
@@ -163,23 +163,23 @@ $(document).ready(function(){initNavTree('dd/df2/Containerize_8h_source.html','.
 <div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#ac2961c89ba9820d014dbf4aeee34d166afc76c8c6d5d084374ba634150999b9f6">  159</a></span>&#160;        INVALID                         = 0x80000000,</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;      };</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <span class="keywordtype">bool</span> is_valid_type (Madara::Knowledge_Engine::Knowledge_Base&amp; kb,</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <span class="keywordtype">bool</span> is_valid_type (madara::knowledge::KnowledgeBase&amp; kb,</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keyword">const</span> std::string&amp; name, <span class="keyword">const</span> Class_ID&amp; expected) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      <span class="keyword">static</span> Class_ID get_type (Madara::Knowledge_Engine::Knowledge_Base&amp; kb,</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      <span class="keyword">static</span> Class_ID get_type (madara::knowledge::KnowledgeBase&amp; kb,</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keyword">const</span> std::string&amp; name);</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">bool</span> check_valid_type (</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base&amp; kb,</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        madara::knowledge::KnowledgeBase&amp; kb,</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keyword">const</span> std::string&amp; name) <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> to_container_impl (</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base&amp; kb, </div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        madara::knowledge::KnowledgeBase&amp; kb, </div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keyword">const</span> std::string&amp; name) = 0;</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">bool</span> from_container_impl (</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base&amp; kb, </div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        madara::knowledge::KnowledgeBase&amp; kb, </div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keyword">const</span> std::string&amp; name) = 0;</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    };</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  }</div>
@@ -187,20 +187,20 @@ $(document).ready(function(){initNavTree('dd/df2/Containerize_8h_source.html','.
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="preprocessor">#endif // _GAMS_UTILITY_CONTAINERIZE_H_</span></div>
 <div class="ttc" id="classgams_1_1utility_1_1Containerize_html_ac4bbe7f949ab542f2ec51eee5c36e176"><div class="ttname"><a href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#ac4bbe7f949ab542f2ec51eee5c36e176">gams::utility::Containerize::object_type_suffix_</a></div><div class="ttdeci">static const std::string object_type_suffix_</div><div class="ttdoc">object type suffix </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df2/Containerize_8h_source.html#l00140">Containerize.h:140</a></div></div>
-<div class="ttc" id="GAMS__Export_8h_html_a4cc3ead869e0824df421cd31894859a7"><div class="ttname"><a href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a></div><div class="ttdeci">#define GAMS_Export</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d98/GAMS__Export_8h_source.html#l00026">GAMS_Export.h:26</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1Containerize_html_a02795c6fed7b49a142fbe69f09577ca2"><div class="ttname"><a href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#a02795c6fed7b49a142fbe69f09577ca2">gams::utility::Containerize::name_</a></div><div class="ttdeci">std::string name_</div><div class="ttdoc">name of this object </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df2/Containerize_8h_source.html#l00143">Containerize.h:143</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Containerize_html_aafa4b282d884a5d213f6c9686018e69b"><div class="ttname"><a href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#aafa4b282d884a5d213f6c9686018e69b">gams::utility::Containerize::prev_kb_</a></div><div class="ttdeci">Madara::Knowledge_Engine::Knowledge_Base * prev_kb_</div><div class="ttdoc">previous knowledge base used for sending objects </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df2/Containerize_8h_source.html#l00146">Containerize.h:146</a></div></div>
+<div class="ttc" id="GAMSExport_8h_html"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html">GAMSExport.h</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1Containerize_html"><div class="ttname"><a href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">gams::utility::Containerize</a></div><div class="ttdoc">A class meant to assist with retrieving information into GAMS containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df2/Containerize_8h_source.html#l00071">Containerize.h:71</a></div></div>
-<div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d15/Algorithm__Factory_8h_source.html#l00064">Algorithm_Factory.h:64</a></div></div>
+<div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d80/AlgorithmFactory_8h_source.html#l00064">AlgorithmFactory.h:64</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Containerize_html_a7d294216225562806df86b698963b1ed"><div class="ttname"><a href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#a7d294216225562806df86b698963b1ed">gams::utility::Containerize::prev_kb_</a></div><div class="ttdeci">madara::knowledge::KnowledgeBase * prev_kb_</div><div class="ttdoc">previous knowledge base used for sending objects </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df2/Containerize_8h_source.html#l00146">Containerize.h:146</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1Containerize_html_ac2961c89ba9820d014dbf4aeee34d166"><div class="ttname"><a href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#ac2961c89ba9820d014dbf4aeee34d166">gams::utility::Containerize::Class_ID</a></div><div class="ttdeci">Class_ID</div><div class="ttdoc">These are used to check on the type of the object in from_container. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df2/Containerize_8h_source.html#l00154">Containerize.h:154</a></div></div>
-<div class="ttc" id="GAMS__Export_8h_html"><div class="ttname"><a href="../../db/d98/GAMS__Export_8h.html">GAMS_Export.h</a></div></div>
+<div class="ttc" id="GAMSExport_8h_html_aa821e916a389426064269d24e4925080"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a></div><div class="ttdeci">#define GAMSExport</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/GAMSExport_8h_source.html#l00026">GAMSExport.h:26</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_e1406cd850b444c8c135213175f9bbdb.html">utility</a></li><li class="navelem"><a class="el" href="../../dd/df2/Containerize_8h.html">Containerize.h</a></li>
-    <li class="footer">Generated on Tue Sep 29 2015 12:23:08 for GAMS by
+    <li class="footer">Generated on Fri Oct 9 2015 21:14:57 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

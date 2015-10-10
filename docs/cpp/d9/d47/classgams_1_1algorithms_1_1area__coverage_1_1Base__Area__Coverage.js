@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage =
 [
-    [ "Base_Area_Coverage", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a4eee8278e85e2b40133c6df86f41d49a", null ],
+    [ "Base_Area_Coverage", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#acb7cbbf74528b27c19b0476489ebb2cd", null ],
     [ "~Base_Area_Coverage", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a26b6e355b37e4f3e39ae55398ee38e92", null ],
     [ "analyze", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a8ea03e3e86b54cdda0263b6720dc4fdf", null ],
     [ "check_if_finished", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a32106d97a6be058365a931dbf30ffc83", null ],
@@ -8,7 +8,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage =
     [ "generate_new_position", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a6a7c7953574ffb962301000aacc1dd73", null ],
     [ "get_algorithm_status", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#aef8cdd5d13d02fe78c8aac11df3ecffd", null ],
     [ "get_devices", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a2cfdd65848edd729e2573cb1fc704cc1", null ],
-    [ "get_knowledge_base", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a4dc41c9be77296a16c712323b29e8f22", null ],
+    [ "get_knowledge_base", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a45020fdf59e56418da20e17ac501be6a", null ],
     [ "get_next_position", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#ad363e0bf2cdfe6497ce413875930cd05", null ],
     [ "get_platform", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a92b050383af20038e92528237b39f4af", null ],
     [ "get_self", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a68cc2a49796c1237b77b1c887f62cae6", null ],
@@ -23,7 +23,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage =
     [ "end_time_", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#af43d699317b495ef1d0868ac3b17c05e", null ],
     [ "exec_time_", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a3430cc4f7426d0d93597cfc174b7d557", null ],
     [ "executions_", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a69e37c3481157ab3ae3dcdbe2bb197cc", null ],
-    [ "knowledge_", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#af449b8483a96067eb7c963312bbf336f", null ],
+    [ "knowledge_", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a0df924fa165ad690af2b49eeb440c67b", null ],
     [ "next_position_", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#a8ae5aee85f74b5016811e9d8c085a55d", null ],
     [ "platform_", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#ae9cbba239fdcc8768d8e6aac72a75ff0", null ],
     [ "self_", "d9/d47/classgams_1_1algorithms_1_1area__coverage_1_1Base__Area__Coverage.html#ae352b273433745158f3582598b184c2d", null ],

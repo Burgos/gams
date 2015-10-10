@@ -1,0 +1,5 @@
+<map id="gams::utility::ReferenceFrame" name="gams::utility::ReferenceFrame">
+<area shape="rect" id="node2" href="$d6/d79/classgams_1_1utility_1_1AxisAngleFrame.html" title="For internal use. " alt="" coords="95,95,255,136"/>
+<area shape="rect" id="node3" href="$de/d60/classgams_1_1utility_1_1CartesianFrame.html" title="Locations represented as meters distance, in x, y, and z, from an origin Rotations represented in Axi..." alt="" coords="5,184,161,225"/>
+<area shape="rect" id="node4" href="$da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default..." alt="" coords="185,191,352,218"/>
+</map>

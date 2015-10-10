@@ -1,5 +1,5 @@
 <map id="src/gams/algorithms/Move.h" name="src/gams/algorithms/Move.h">
-<area shape="rect" id="node2" href="$d9/de0/Algorithm__Factory_8cpp.html" title="src/gams/algorithms\l/Algorithm_Factory.cpp" alt="" coords="5,102,163,143"/>
-<area shape="rect" id="node3" href="$d5/d5e/Controller__Algorithm__Factory_8cpp.html" title="src/gams/algorithms\l/Controller_Algorithm\l_Factory.cpp" alt="" coords="187,95,330,151"/>
-<area shape="rect" id="node4" href="$df/d3e/Move_8cpp.html" title="src/gams/algorithms\l/Move.cpp" alt="" coords="354,102,494,143"/>
+<area shape="rect" id="node2" href="$d8/da7/AlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactory.cpp" alt="" coords="5,95,156,136"/>
+<area shape="rect" id="node3" href="$d1/db1/ControllerAlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/ControllerAlgorithmFactory.cpp" alt="" coords="181,95,386,136"/>
+<area shape="rect" id="node4" href="$df/d3e/Move_8cpp.html" title="src/gams/algorithms\l/Move.cpp" alt="" coords="411,95,551,136"/>
 </map>

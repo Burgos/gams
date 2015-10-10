@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['factory_5fmap_5f',['factory_map_',['../d6/dc2/classgams_1_1algorithms_1_1Controller__Algorithm__Factory.html#ad63c81aa4bdab17a06fbb6b6b39581d5',1,'gams::algorithms::Controller_Algorithm_Factory::factory_map_()'],['../d9/d8d/classgams_1_1platforms_1_1Controller__Platform__Factory.html#a2f1aa8c08c2ba209edb86ea475156537',1,'gams::platforms::Controller_Platform_Factory::factory_map_()']]],
-  ['failed',['failed',['../d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html#acbe16e940c25e5b95c6a33da5f993c19',1,'gams::variables::Algorithm_Status::failed()'],['../d9/dd1/classgams_1_1variables_1_1Platform__Status.html#aa7f74c91a15a8c7d65404b3bbacc84c4',1,'gams::variables::Platform_Status::failed()']]],
+  ['factory_5fmap_5f',['factory_map_',['../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a3448e1654a915c6fc7a7304ec1d3c681',1,'gams::algorithms::ControllerAlgorithmFactory::factory_map_()'],['../d6/d6c/classgams_1_1platforms_1_1ControllerPlatformFactory.html#ae81e438ab01e1b119528d827f169b2f9',1,'gams::platforms::ControllerPlatformFactory::factory_map_()']]],
+  ['failed',['failed',['../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a82a6bbe6a1e55f07e15494bfb0e824a6',1,'gams::variables::AlgorithmStatus::failed()'],['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#aefbdc2b2626b5caee36561fe4218980d',1,'gams::variables::PlatformStatus::failed()']]],
   ['file_5fpath',['file_path',['../dc/d61/gams__controller_8cpp.html#abf5d4571e49256d0c9d862dfe4936e55',1,'gams_controller.cpp']]],
-  ['filter_5f',['filter_',['../de/d5b/classgams_1_1algorithms_1_1Message__Profiling.html#a1e5fb3a991ae902ec1f82045ab1744c1',1,'gams::algorithms::Message_Profiling']]],
-  ['finished',['finished',['../d1/d1d/classgams_1_1variables_1_1Algorithm__Status.html#ab5e2ea35ef16d2e458eebcbc6d3efd3a',1,'gams::variables::Algorithm_Status']]],
-  ['first',['first',['../dc/deb/structgams_1_1algorithms_1_1Message__Profiling_1_1Message__Filter_1_1Message__Data.html#a06f60e25694068a73785f862afd7d61b',1,'gams::algorithms::Message_Profiling::Message_Filter::Message_Data']]],
+  ['filter_5f',['filter_',['../d2/d64/classgams_1_1algorithms_1_1MessageProfiling.html#a978d15829d6995d5eee13a477f3eec35',1,'gams::algorithms::MessageProfiling']]],
+  ['finished',['finished',['../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#af00dcd05d4cb72627424939575413121',1,'gams::variables::AlgorithmStatus']]],
+  ['first',['first',['../d4/d3a/structgams_1_1algorithms_1_1MessageProfiling_1_1MessageFilter_1_1MessageData.html#a5d8061f3da22fff5155d29ebb6795e47',1,'gams::algorithms::MessageProfiling::MessageFilter::MessageData']]],
   ['fn_5fname',['fn_name',['../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#ab978a18c40753d81fd7f6d4cf0df05a8',1,'gams::utility::bad_coord_type']]],
-  ['formation_5f',['formation_',['../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#aa10a41d1165a83a338c46f3c17085a5d',1,'gams::algorithms::Formation_Sync']]],
-  ['formation_5fready_5f',['formation_ready_',['../d8/d4e/classgams_1_1algorithms_1_1Formation__Flying.html#a6245e9a84b5494d7be42d1b01653ce56',1,'gams::algorithms::Formation_Flying']]],
-  ['frame',['frame',['../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#a2f305749f88934b145611125da07ca40',1,'gams::utility::bad_coord_type']]],
-  ['frame_5f',['frame_',['../da/deb/classgams_1_1utility_1_1Coordinate.html#a57ea98274756dc97055bfc50479be844',1,'gams::utility::Coordinate']]],
-  ['from_5fframe',['from_frame',['../d5/d1a/classgams_1_1utility_1_1unrelated__frames.html#ae0172bc64ba4758be407a3fc9bacfdf7',1,'gams::utility::unrelated_frames']]]
+  ['formation_5f',['formation_',['../d3/df5/classgams_1_1algorithms_1_1FormationSync.html#ad3fb20d175073206ad53f67948c68628',1,'gams::algorithms::FormationSync']]],
+  ['formation_5fready_5f',['formation_ready_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#ad3967b8502e7f48e97d02f5f35ee90f3',1,'gams::algorithms::FormationFlying']]],
+  ['frame',['frame',['../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#ae54c7206aa2a77715d336460e1d4cda8',1,'gams::utility::bad_coord_type']]],
+  ['frame_5f',['frame_',['../da/deb/classgams_1_1utility_1_1Coordinate.html#af9d48e279f007758d1ce5e1e6e1d177c',1,'gams::utility::Coordinate']]],
+  ['from_5fframe',['from_frame',['../d5/d1a/classgams_1_1utility_1_1unrelated__frames.html#aad4e302a38598053604d2ffbf038c46b',1,'gams::utility::unrelated_frames']]]
 ];

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.9</span>
+   &#160;<span id="projectnumber">0.9.10</span>
    </div>
   </td>
  </tr>
@@ -122,8 +122,8 @@ $(document).ready(function(){initNavTree('da/de1/Formation__Sync_8h_source.html'
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/d8e/Base__Algorithm_8h.html">gams/algorithms/Base_Algorithm.h</a>&quot;</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dcf/GPS__Position_8h.html">gams/utility/GPS_Position.h</a>&quot;</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d15/Algorithm__Factory_8h.html">gams/algorithms/Algorithm_Factory.h</a>&quot;</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/containers/Integer.h&quot;</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge_engine/containers/Barrier.h&quot;</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/containers/Integer.h&quot;</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/containers/Barrier.h&quot;</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../df/dae/namespacegams.html">gams</a></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('da/de1/Formation__Sync_8h_source.html'
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordtype">double</span> buffer,</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordtype">int</span> formation,</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        std::string barrier_name,</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base * knowledge = 0,</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        madara::knowledge::Knowledge_Base * knowledge = 0,</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">platforms::Base_Platform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a> = 0,</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors = 0,</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span> = 0);</div>
@@ -190,7 +190,7 @@ $(document).ready(function(){initNavTree('da/de1/Formation__Sync_8h_source.html'
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
 <div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#a5abea44f7dcb5e6a45ae220d6872937c">  198</a></span>&#160;      <span class="keywordtype">int</span> <a class="code" href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#a5abea44f7dcb5e6a45ae220d6872937c">move_pivot_</a>;</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
-<div class="line"><a name="l00201"></a><span class="lineno"><a class="line" href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#ab31b1a0a92accaeb8a5f90e66d440a94">  201</a></span>&#160;      Madara::Knowledge_Engine::Containers::Barrier <a class="code" href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#ab31b1a0a92accaeb8a5f90e66d440a94">barrier_</a>;</div>
+<div class="line"><a name="l00201"></a><span class="lineno"><a class="line" href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#aba4883656607c4f78c07d2a743ce8d2e">  201</a></span>&#160;      madara::knowledge::containers::Barrier <a class="code" href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#aba4883656607c4f78c07d2a743ce8d2e">barrier_</a>;</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    };</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    </div>
 <div class="line"><a name="l00207"></a><span class="lineno"><a class="line" href="../../db/df9/classgams_1_1algorithms_1_1Formation__Sync__Factory.html">  207</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../db/d98/GAMS__Export_8h.html#a4cc3ead869e0824df421cd31894859a7">GAMS_Export</a> <a class="code" href="../../db/df9/classgams_1_1algorithms_1_1Formation__Sync__Factory.html">Formation_Sync_Factory</a> : <span class="keyword">public</span> <a class="code" href="../../d3/d08/classgams_1_1algorithms_1_1Algorithm__Factory.html">Algorithm_Factory</a></div>
@@ -198,8 +198,8 @@ $(document).ready(function(){initNavTree('da/de1/Formation__Sync_8h_source.html'
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;      <span class="keyword">virtual</span> <a class="code" href="../../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html">Base_Algorithm</a> * create (</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <span class="keyword">const</span> Madara::Knowledge_Vector &amp; args,</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        Madara::Knowledge_Engine::Knowledge_Base * knowledge,</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <span class="keyword">const</span> madara::Knowledge_Vector &amp; args,</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        madara::knowledge::Knowledge_Base * knowledge,</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <a class="code" href="../../df/d83/classgams_1_1platforms_1_1Base__Platform.html">platforms::Base_Platform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>,</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>,</div>
@@ -225,6 +225,7 @@ $(document).ready(function(){initNavTree('da/de1/Formation__Sync_8h_source.html'
 <div class="ttc" id="Sensor_8h_html"><div class="ttname"><a href="../../d5/d65/Sensor_8h.html">Sensor.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="Algorithm__Status_8h_html"><div class="ttname"><a href="../../d4/d12/Algorithm__Status_8h.html">Algorithm_Status.h</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Formation__Sync_html_a900b5d6010fc36765c81cc9ba82d9905"><div class="ttname"><a href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#a900b5d6010fc36765c81cc9ba82d9905">gams::algorithms::Formation_Sync::start_</a></div><div class="ttdeci">utility::GPS_Position start_</div><div class="ttdoc">center of formation start </div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/Formation__Sync_8h_source.html#l00177">Formation_Sync.h:177</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Formation__Sync_html_aba4883656607c4f78c07d2a743ce8d2e"><div class="ttname"><a href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#aba4883656607c4f78c07d2a743ce8d2e">gams::algorithms::Formation_Sync::barrier_</a></div><div class="ttdeci">madara::knowledge::containers::Barrier barrier_</div><div class="ttdoc">movement barrier </div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/Formation__Sync_8h_source.html#l00201">Formation_Sync.h:201</a></div></div>
 <div class="ttc" id="Self_8h_html"><div class="ttname"><a href="../../da/d3d/Self_8h.html">Self.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="GPS__Position_8h_html"><div class="ttname"><a href="../../de/dcf/GPS__Position_8h.html">GPS_Position.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Formation__Sync_html_ac8f6030a8ff428a9d72b459084068089a43c1f9f48102d1ded08bbe63d202dcb4"><div class="ttname"><a href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#ac8f6030a8ff428a9d72b459084068089a43c1f9f48102d1ded08bbe63d202dcb4">gams::algorithms::Formation_Sync::TRIANGLE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/Formation__Sync_8h_source.html#l00088">Formation_Sync.h:88</a></div></div>
@@ -234,7 +235,6 @@ $(document).ready(function(){initNavTree('da/de1/Formation__Sync_8h_source.html'
 <div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_a6615fcccb5acbeab9bcda3de434f9a06"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a></div><div class="ttdeci">std::string platform(&quot;debug&quot;)</div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Formation__Sync_html_aa10a41d1165a83a338c46f3c17085a5d"><div class="ttname"><a href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#aa10a41d1165a83a338c46f3c17085a5d">gams::algorithms::Formation_Sync::formation_</a></div><div class="ttdeci">int formation_</div><div class="ttdoc">the formation to use </div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/Formation__Sync_8h_source.html#l00192">Formation_Sync.h:192</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Formation__Sync_html_ab31b1a0a92accaeb8a5f90e66d440a94"><div class="ttname"><a href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#ab31b1a0a92accaeb8a5f90e66d440a94">gams::algorithms::Formation_Sync::barrier_</a></div><div class="ttdeci">Madara::Knowledge_Engine::Containers::Barrier barrier_</div><div class="ttdoc">movement barrier </div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/Formation__Sync_8h_source.html#l00201">Formation_Sync.h:201</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Formation__Sync_html_ac8f6030a8ff428a9d72b459084068089a009d690079108ab5d227515ec491fb61"><div class="ttname"><a href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#ac8f6030a8ff428a9d72b459084068089a009d690079108ab5d227515ec491fb61">gams::algorithms::Formation_Sync::LINE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/Formation__Sync_8h_source.html#l00091">Formation_Sync.h:91</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Base__Algorithm_html"><div class="ttname"><a href="../../d7/db8/classgams_1_1algorithms_1_1Base__Algorithm.html">gams::algorithms::Base_Algorithm</a></div><div class="ttdoc">The base class that algorithms in GAMS use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d8e/Base__Algorithm_8h_source.html#l00093">Base_Algorithm.h:93</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Formation__Sync_html_ac8f6030a8ff428a9d72b459084068089ae7a8083e829d70d71d3f3447cdff8383"><div class="ttname"><a href="../../d7/d21/classgams_1_1algorithms_1_1Formation__Sync.html#ac8f6030a8ff428a9d72b459084068089ae7a8083e829d70d71d3f3447cdff8383">gams::algorithms::Formation_Sync::PYRAMID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/Formation__Sync_8h_source.html#l00087">Formation_Sync.h:87</a></div></div>
@@ -250,7 +250,7 @@ $(document).ready(function(){initNavTree('da/de1/Formation__Sync_8h_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_51790b9f0ef7b0cc06eb1e76e309c0bc.html">algorithms</a></li><li class="navelem"><a class="el" href="../../da/de1/Formation__Sync_8h.html">Formation_Sync.h</a></li>
-    <li class="footer">Generated on Tue Sep 29 2015 12:23:08 for GAMS by
+    <li class="footer">Generated on Mon Oct 5 2015 20:42:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
