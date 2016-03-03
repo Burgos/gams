@@ -9,7 +9,7 @@ var classgams_1_1controllers_1_1MapeLoop =
     [ "define_plan", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html#ac8344479fa0dd5239f2da3d9a9ffda66", null ],
     [ "init_vars", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html#af7aed771a4ddf25fade982fb9c957e0c", null ],
     [ "run", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html#acb9bfe620bd9876676a2a87bf0fb1bea", null ],
-    [ "devices_", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html#a1ca375f33d92eb7c2eba55a2c814edcd", null ],
+    [ "agents_", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html#af4694ac6063a0919241132f7d2f0f383", null ],
     [ "knowledge_", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html#aaf43cac0adb13f52d15f7727e3ac3643", null ],
     [ "mape_loop_", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html#a2e5a6759273768e1fd01f062920a7c4e", null ],
     [ "self_", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html#a3eca936f77e2dc02b8bfdf89a385e3ab", null ],

@@ -1,13 +1,5 @@
 <map id="src/gams/utility/Coordinate.h" name="src/gams/utility/Coordinate.h">
-<area shape="rect" id="node2" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="5,229,152,256"/>
-<area shape="rect" id="node4" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="176,229,336,256"/>
-<area shape="rect" id="node7" href="$de/d36/Coordinate_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1157,80,1259,107"/>
-<area shape="rect" id="node11" href="$d7/db5/Pose_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="746,80,881,107"/>
-<area shape="rect" id="node12" href="$d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="966,155,1119,181"/>
-<area shape="rect" id="node15" href="$d0/d8f/Rotation_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="696,155,848,181"/>
-<area shape="rect" id="node18" href="$d0/d33/Pose_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="872,155,941,181"/>
-<area shape="rect" id="node19" href="$dc/d49/ReferenceFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="321,155,519,181"/>
-<area shape="rect" id="node14" href="$df/d2b/Location_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="923,229,1011,256"/>
-<area shape="rect" id="node17" href="$d8/d6e/Rotation_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="729,229,815,256"/>
-<area shape="rect" id="node21" href="$d4/d05/ReferenceFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="491,229,626,256"/>
+<area shape="rect" id="node2" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node7" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="411,80,571,107"/>
+<area shape="rect" id="node8" href="$de/d36/Coordinate_8inl.html" title="Coordinate.inl" alt="" coords="595,80,696,107"/>
 </map>

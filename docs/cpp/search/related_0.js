@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['basecontroller',['BaseController',['../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a26bf41597cbc1fc96901bd71cf84a2b7',1,'gams::algorithms::BaseAlgorithm::BaseController()'],['../d0/df3/classgams_1_1platforms_1_1BasePlatform.html#a26bf41597cbc1fc96901bd71cf84a2b7',1,'gams::platforms::BasePlatform::BaseController()']]],
-  ['coordinate',['Coordinate',['../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a016ee9083fa86c26805f8f8c32558b97',1,'gams::utility::ReferenceFrame']]]
+  ['argumentparser',['ArgumentParser',['../d4/d48/classgams_1_1utility_1_1ArgumentParser_1_1my__iterator.html#a55c9e1ac006a645af402e3aee6b64e00',1,'gams::utility::ArgumentParser::my_iterator']]]
 ];

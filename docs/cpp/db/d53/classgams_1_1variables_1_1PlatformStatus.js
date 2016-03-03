@@ -16,8 +16,10 @@ var classgams_1_1variables_1_1PlatformStatus =
     [ "name", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a0de39e443212a166e01299052e2ddb00", null ],
     [ "ok", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a7d4a64fe4ec947a9aeb4f9aa437545f4", null ],
     [ "paused_moving", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a9362cc057b44cce380271d31f6b4787f", null ],
+    [ "paused_rotating", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a9b9ad2db696778641a9aadb6fe4bd8b6", null ],
     [ "reduced_movement", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a791031382009265904526cac03e938a2", null ],
     [ "reduced_sensing", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a42214948010b69607eb6846f12c64acf", null ],
+    [ "rotating", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a2c464919f890ae59e055642153dbc545", null ],
     [ "sensors_available", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#ad1fcbb5568be045152ffd51784723795", null ],
     [ "waiting", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a8581ebfb49ee18c1644f41ddd317057a", null ]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['quaternion',['Quaternion',['../d8/d57/classgams_1_1utility_1_1LocationVector.html#acb16be8799eca8a0ec6a02ac44750f90',1,'gams::utility::LocationVector::Quaternion()'],['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#acb16be8799eca8a0ec6a02ac44750f90',1,'gams::utility::RotationVector::Quaternion()']]]
+  ['basecontroller',['BaseController',['../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a26bf41597cbc1fc96901bd71cf84a2b7',1,'gams::algorithms::BaseAlgorithm::BaseController()'],['../d0/df3/classgams_1_1platforms_1_1BasePlatform.html#a26bf41597cbc1fc96901bd71cf84a2b7',1,'gams::platforms::BasePlatform::BaseController()']]],
+  ['coordinate',['Coordinate',['../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a016ee9083fa86c26805f8f8c32558b97',1,'gams::utility::ReferenceFrame']]],
+  ['multicontroller',['Multicontroller',['../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ab2614ab73b5de7e0ef6bbf796d877c31',1,'gams::algorithms::BaseAlgorithm::Multicontroller()'],['../d0/df3/classgams_1_1platforms_1_1BasePlatform.html#ab2614ab73b5de7e0ef6bbf796d877c31',1,'gams::platforms::BasePlatform::Multicontroller()']]]
 ];

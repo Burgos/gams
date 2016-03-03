@@ -6,7 +6,10 @@ var classgams_1_1utility_1_1PoseVector =
     [ "PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a70d20bea75206966a2b2a44c8260683a", null ],
     [ "PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html#addc84bb33a304858189c5e86e89ff1df", null ],
     [ "PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a504b533a96216fdd096047d8e8c3db7f", null ],
-    [ "PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html#af55f885b6ab37602dc64e7d142502a64", null ],
+    [ "PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a9cf58ceb57b6ae1e9d5f63bdacdf3915", null ],
+    [ "PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html#ada7eb002350292583bc25188616b0b76", null ],
+    [ "PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a6638176262f1369b931adba6067ffac1", null ],
+    [ "PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html#af517c057846d58b9418cd6397fb6ee73", null ],
     [ "alt", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a6009fcc5ffe7d9aa49808a95a2ad33fe", null ],
     [ "alt", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a3ec092ef72d79a0f48f74a72c19f102f", null ],
     [ "as_location_vec", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a796c9f27855ba59d27b18eeb34e60d86", null ],
@@ -26,8 +29,8 @@ var classgams_1_1utility_1_1PoseVector =
     [ "lng", "d6/de9/classgams_1_1utility_1_1PoseVector.html#ab7aa51998adcf1a2410770132e87c6d8", null ],
     [ "name", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a5b3e28f0e5f54184c90a9a1a72c08ba3", null ],
     [ "operator==", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a745633ff026d29a48357bc526c958039", null ],
-    [ "operator==", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a792f0598cdfea53e154a16b5adf34f2e", null ],
     [ "operator==", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a9da4c1aff4077b509d63dea26e1a17bd", null ],
+    [ "operator==", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a792f0598cdfea53e154a16b5adf34f2e", null ],
     [ "phi", "d6/de9/classgams_1_1utility_1_1PoseVector.html#ad4539356409496062e9fbf588d37f53f", null ],
     [ "phi", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a6e13ca1cf823414502ffc112d4682b56", null ],
     [ "r", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a2715301324358b88eb9204d5257b5315", null ],
@@ -50,8 +53,5 @@ var classgams_1_1utility_1_1PoseVector =
     [ "y", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a580b3615538d4cd6ee0352e5095ed08e", null ],
     [ "y", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a0a24ea88a0508a25e8e5d1b56494e39a", null ],
     [ "z", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a0452fead4cf23db03f96682b2bc9cd5a", null ],
-    [ "z", "d6/de9/classgams_1_1utility_1_1PoseVector.html#aa4d133b9bcff1e2914285a9906c95a3c", null ],
-    [ "X_axis", "d6/de9/classgams_1_1utility_1_1PoseVector.html#ad8c5302cf41944e72d66ae981902c4fd", null ],
-    [ "Y_axis", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a0321af3d8f9fd6310995c89db04ddffd", null ],
-    [ "Z_axis", "d6/de9/classgams_1_1utility_1_1PoseVector.html#a1a330165ea547b80226ed351716724a6", null ]
+    [ "z", "d6/de9/classgams_1_1utility_1_1PoseVector.html#aa4d133b9bcff1e2914285a9906c95a3c", null ]
 ];

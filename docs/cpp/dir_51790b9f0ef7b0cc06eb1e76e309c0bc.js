@@ -42,6 +42,11 @@ var dir_51790b9f0ef7b0cc06eb1e76e309c0bc =
       [ "FormationSync", "d3/df5/classgams_1_1algorithms_1_1FormationSync.html", "d3/df5/classgams_1_1algorithms_1_1FormationSync" ],
       [ "FormationSyncFactory", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory" ]
     ] ],
+    [ "GroupBarrier.cpp", "dd/d99/GroupBarrier_8cpp.html", "dd/d99/GroupBarrier_8cpp" ],
+    [ "GroupBarrier.h", "da/da0/GroupBarrier_8h.html", [
+      [ "GroupBarrier", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier" ],
+      [ "GroupBarrierFactory", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory" ]
+    ] ],
     [ "Land.cpp", "da/dcf/Land_8cpp.html", null ],
     [ "Land.h", "da/d21/Land_8h.html", [
       [ "Land", "d3/d06/classgams_1_1algorithms_1_1Land.html", "d3/d06/classgams_1_1algorithms_1_1Land" ],
@@ -78,5 +83,10 @@ var dir_51790b9f0ef7b0cc06eb1e76e309c0bc =
     [ "Wait.h", "d0/d74/Wait_8h.html", [
       [ "Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html", "d9/d6f/classgams_1_1algorithms_1_1Wait" ],
       [ "WaitFactory", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html", "da/dc3/classgams_1_1algorithms_1_1WaitFactory" ]
+    ] ],
+    [ "ZoneCoverage.cpp", "d6/d3c/ZoneCoverage_8cpp.html", "d6/d3c/ZoneCoverage_8cpp" ],
+    [ "ZoneCoverage.h", "dc/d44/ZoneCoverage_8h.html", [
+      [ "ZoneCoverage", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage" ],
+      [ "ZoneCoverageFactory", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory" ]
     ] ]
 ];

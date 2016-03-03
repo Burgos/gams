@@ -1,6 +1,6 @@
 <map id="gams::platforms::PlatformFactory" name="gams::platforms::PlatformFactory">
 <area shape="rect" id="node2" title="STL class. " alt="" coords="11,273,132,300"/>
 <area shape="rect" id="node5" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="156,273,299,300"/>
-<area shape="rect" id="node6" href="$d7/d3b/classgams_1_1variables_1_1Device.html" title="A container for device information. " alt="" coords="148,184,307,211"/>
+<area shape="rect" id="node6" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="150,184,305,211"/>
 <area shape="rect" id="node8" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="128,5,327,32"/>
 </map>

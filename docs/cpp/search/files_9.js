@@ -7,5 +7,7 @@ var searchData=
   ['mintimeareacoverage_2ecpp',['MinTimeAreaCoverage.cpp',['../da/d41/MinTimeAreaCoverage_8cpp.html',1,'']]],
   ['mintimeareacoverage_2eh',['MinTimeAreaCoverage.h',['../d9/d65/MinTimeAreaCoverage_8h.html',1,'']]],
   ['move_2ecpp',['Move.cpp',['../df/d3e/Move_8cpp.html',1,'']]],
-  ['move_2eh',['Move.h',['../d0/db9/Move_8h.html',1,'']]]
+  ['move_2eh',['Move.h',['../d0/db9/Move_8h.html',1,'']]],
+  ['multicontroller_2ecpp',['Multicontroller.cpp',['../d1/d98/Multicontroller_8cpp.html',1,'']]],
+  ['multicontroller_2eh',['Multicontroller.h',['../d7/dbc/Multicontroller_8h.html',1,'']]]
 ];

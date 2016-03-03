@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -110,7 +110,6 @@ $(document).ready(function(){initNavTree('d4/d0d/classgams_1_1utility_1_1Rotatio
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="../../d2/dbc/classgams_1_1utility_1_1RotationVector-members.html">List of all members</a>  </div>
@@ -144,15 +143,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab66188edb0e5fa19c4e828ffa14315d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#ab66188edb0e5fa19c4e828ffa14315d4">RotationVector</a> (double x, double y, double z, double angle)</td></tr>
 <tr class="memdesc:ab66188edb0e5fa19c4e828ffa14315d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor, taking axis and angle separately.  <a href="#ab66188edb0e5fa19c4e828ffa14315d4">More...</a><br /></td></tr>
 <tr class="separator:ab66188edb0e5fa19c4e828ffa14315d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6af407a31db2b5c8e407e70ce2df553f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a6af407a31db2b5c8e407e70ce2df553f">RotationVector</a> (int axis_index, double angle)</td></tr>
-<tr class="memdesc:a6af407a31db2b5c8e407e70ce2df553f"><td class="mdescLeft">&#160;</td><td class="mdescRight">For easy specification of a simple rotation around a single axis, pass the index of the axis (0, 1, 2 for X, Y, and Z, respectively) or use the X_axis, Y_axis, or Z_axis constants.  <a href="#a6af407a31db2b5c8e407e70ce2df553f">More...</a><br /></td></tr>
-<tr class="separator:a6af407a31db2b5c8e407e70ce2df553f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cab1c3e837732fac6ae61424f3f2613"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a0cab1c3e837732fac6ae61424f3f2613">RotationVector</a> (const madara::knowledge::containers::DoubleVector &amp;vec)</td></tr>
+<tr class="memdesc:a0cab1c3e837732fac6ae61424f3f2613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from MADARA DoubleVector.  <a href="#a0cab1c3e837732fac6ae61424f3f2613">More...</a><br /></td></tr>
+<tr class="separator:a0cab1c3e837732fac6ae61424f3f2613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9228fe92b7239571eba02f0409e167fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a9228fe92b7239571eba02f0409e167fc">RotationVector</a> (const madara::knowledge::containers::NativeDoubleVector &amp;vec)</td></tr>
+<tr class="memdesc:a9228fe92b7239571eba02f0409e167fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from MADARA NativeDoubleVector.  <a href="#a9228fe92b7239571eba02f0409e167fc">More...</a><br /></td></tr>
+<tr class="separator:a9228fe92b7239571eba02f0409e167fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d80bf7f2f281397ac566f5ffd48c244"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a2d80bf7f2f281397ac566f5ffd48c244">RotationVector</a> ()</td></tr>
 <tr class="memdesc:a2d80bf7f2f281397ac566f5ffd48c244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Constructor.  <a href="#a2d80bf7f2f281397ac566f5ffd48c244">More...</a><br /></td></tr>
 <tr class="separator:a2d80bf7f2f281397ac566f5ffd48c244"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac101c0d9b4766d5a3f198c3429aca9d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#ac101c0d9b4766d5a3f198c3429aca9d2">RotationVector</a> (const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;orig)</td></tr>
-<tr class="memdesc:ac101c0d9b4766d5a3f198c3429aca9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy Constructor.  <a href="#ac101c0d9b4766d5a3f198c3429aca9d2">More...</a><br /></td></tr>
-<tr class="separator:ac101c0d9b4766d5a3f198c3429aca9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee1e0cba3fbc078c50600055af3c32b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#aee1e0cba3fbc078c50600055af3c32b1">RotationVector</a> (const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;quat)</td></tr>
 <tr class="memdesc:aee1e0cba3fbc078c50600055af3c32b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to convert from <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a> to equivalent rotation vector.  <a href="#aee1e0cba3fbc078c50600055af3c32b1">More...</a><br /></td></tr>
 <tr class="separator:aee1e0cba3fbc078c50600055af3c32b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,15 +203,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6b131553fda577dce12531b540173171"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a6b131553fda577dce12531b540173171">name</a> ()</td></tr>
 <tr class="separator:a6b131553fda577dce12531b540173171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:ad8c5302cf41944e72d66ae981902c4fd"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#ad8c5302cf41944e72d66ae981902c4fd">X_axis</a> = 0</td></tr>
-<tr class="separator:ad8c5302cf41944e72d66ae981902c4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0321af3d8f9fd6310995c89db04ddffd"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a0321af3d8f9fd6310995c89db04ddffd">Y_axis</a> = 1</td></tr>
-<tr class="separator:a0321af3d8f9fd6310995c89db04ddffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a330165ea547b80226ed351716724a6"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a1a330165ea547b80226ed351716724a6">Z_axis</a> = 2</td></tr>
-<tr class="separator:a1a330165ea547b80226ed351716724a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a2ee66b7f26e9b07e4f29f21033f961ad"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a2ee66b7f26e9b07e4f29f21033f961ad">rx_</a></td></tr>
@@ -234,7 +224,7 @@ Friends</h2></td></tr>
 <p>Uses axis-angle notation: a rotation is represented by a vector whose direction forms the axis of rotation, with angle of rotation equal to length of the vector.</p>
 <p>All rotations about an axis follow the right hand role; if the origin is the center of your right hand, and your thumb is pointing in the positive direction of the rotation axis, rotations curve in the direction your fingers are pointing. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00083">83</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00088">88</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a3392d6de259f2431af4137a91f539c12"></a>
 <div class="memitem">
@@ -246,7 +236,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00209">209</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00211">211</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
 
 </div>
 </div>
@@ -290,17 +280,18 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor, taking values forming an angle-axis 3-vector <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a> axis is determined by vector's direction. </p>
-<p>Amount of rotation, in radians, is the length of the vector.</p>
+<p>The length of the vector is the amount of rotation (in radians, by default).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rx</td><td>length of rotation vector in x-axis direction </td></tr>
     <tr><td class="paramname">ry</td><td>length of rotation vector in y-axis direction </td></tr>
     <tr><td class="paramname">rz</td><td>length of rotation vector in z-axis direction </td></tr>
+    <tr><td class="paramname">u</td><td>units to use (default radians) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00063">63</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00065">65</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
 
 </div>
 </div>
@@ -355,16 +346,17 @@ Friends</h2></td></tr>
     <tr><td class="paramname">x</td><td>length of rotation axis unit vector in x-axis direction </td></tr>
     <tr><td class="paramname">y</td><td>length of rotation axis unit vector in y-axis direction </td></tr>
     <tr><td class="paramname">z</td><td>length of rotation axis unit vector in z-axis direction </td></tr>
-    <tr><td class="paramname">angle</td><td>the amount of rotation, in degrees, around the axis </td></tr>
+    <tr><td class="paramname">angle</td><td>the amount of rotation around the axis </td></tr>
+    <tr><td class="paramname">u</td><td>units to use (default radians) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00067">67</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00069">69</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6af407a31db2b5c8e407e70ce2df553f"></a>
+<a class="anchor" id="a0cab1c3e837732fac6ae61424f3f2613"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -372,41 +364,63 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> gams::utility::RotationVector::RotationVector </td>
+          <td class="memname">gams::utility::RotationVector::RotationVector </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>axis_index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const madara::knowledge::containers::DoubleVector &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>angle</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>For easy specification of a simple rotation around a single axis, pass the index of the axis (0, 1, 2 for X, Y, and Z, respectively) or use the X_axis, Y_axis, or Z_axis constants. </p>
-<p>Pass the rotation around that axis as the angle, in degrees</p>
+<p>Constructor from MADARA DoubleVector. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">axis_index</td><td>the index of the axis, 0, 1, or 2, for x, y, and z axes respectively, or constant X_axis, Y_axis, or Z_axis </td></tr>
-    <tr><td class="paramname">angle</td><td>the rotation, in degrees, around the selected axis </td></tr>
+    <tr><td class="paramname">vec</td><td>the vector to get values from (0, 1, 2 go to rx, ry, rz) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00073">73</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00075">75</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9228fe92b7239571eba02f0409e167fc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gams::utility::RotationVector::RotationVector </td>
+          <td>(</td>
+          <td class="paramtype">const madara::knowledge::containers::NativeDoubleVector &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor from MADARA NativeDoubleVector. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec</td><td>the vector to get values from (0, 1, 2 go to rx, ry, rz) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00079">79</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
 
 </div>
 </div>
@@ -434,35 +448,7 @@ Friends</h2></td></tr>
 <p>Default Constructor. </p>
 <p>Produces an invalid rotation (INVAL_COORD) </p>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00079">79</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac101c0d9b4766d5a3f198c3429aca9d2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> gams::utility::RotationVector::RotationVector </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>orig</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Copy Constructor. </p>
-
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00082">82</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00083">83</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
 
 </div>
 </div>
@@ -489,8 +475,9 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor to convert from <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a> to equivalent rotation vector. </p>
+<p>Implementation in <a class="el" href="../../da/db5/Quaternion_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. ">Quaternion.inl</a> due to circular dependencies </p>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00224">224</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00409">409</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -986,7 +973,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00249">249</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00251">251</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
 
 </div>
 </div>
@@ -1008,7 +995,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00251">251</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00253">253</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
 
 </div>
 </div>
@@ -1031,7 +1018,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00253">253</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00255">255</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
 
 </div>
 </div>
@@ -1053,7 +1040,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00253">253</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00255">255</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
 
 </div>
 </div>
@@ -1075,73 +1062,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00253">253</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad8c5302cf41944e72d66ae981902c4fd"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int gams::utility::RotationVector::X_axis = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00086">86</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0321af3d8f9fd6310995c89db04ddffd"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int gams::utility::RotationVector::Y_axis = 1</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00087">87</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1a330165ea547b80226ed351716724a6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int gams::utility::RotationVector::Z_axis = 2</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00088">88</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00255">255</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
 
 </div>
 </div>
@@ -1156,7 +1077,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:15:00 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:50 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

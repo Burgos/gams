@@ -3,9 +3,9 @@ var classgams_1_1utility_1_1RotationVector =
     [ "BaseType", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a3392d6de259f2431af4137a91f539c12", null ],
     [ "RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a4c9c23b6f7480e7049aacdd57dfbf4d7", null ],
     [ "RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#ab66188edb0e5fa19c4e828ffa14315d4", null ],
-    [ "RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a6af407a31db2b5c8e407e70ce2df553f", null ],
+    [ "RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a0cab1c3e837732fac6ae61424f3f2613", null ],
+    [ "RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a9228fe92b7239571eba02f0409e167fc", null ],
     [ "RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a2d80bf7f2f281397ac566f5ffd48c244", null ],
-    [ "RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#ac101c0d9b4766d5a3f198c3429aca9d2", null ],
     [ "RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#aee1e0cba3fbc078c50600055af3c32b1", null ],
     [ "as_vec", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a46eb6dd9478bb17fc26a98395b3d3f1e", null ],
     [ "as_vec", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#ab3637d7e95b6d6476322ebcbcf0795ad", null ],
@@ -26,8 +26,5 @@ var classgams_1_1utility_1_1RotationVector =
     [ "ReferenceFrame", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#abe4227ec1bb3904d86a85e2874cad16d", null ],
     [ "rx_", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a2ee66b7f26e9b07e4f29f21033f961ad", null ],
     [ "ry_", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a42ad8c950385ba72562a10ec31bc1a00", null ],
-    [ "rz_", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#ad77f1f8e69debf1d199d8d918752e8d2", null ],
-    [ "X_axis", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#ad8c5302cf41944e72d66ae981902c4fd", null ],
-    [ "Y_axis", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a0321af3d8f9fd6310995c89db04ddffd", null ],
-    [ "Z_axis", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#a1a330165ea547b80226ed351716724a6", null ]
+    [ "rz_", "d4/d0d/classgams_1_1utility_1_1RotationVector.html#ad77f1f8e69debf1d199d8d918752e8d2", null ]
 ];

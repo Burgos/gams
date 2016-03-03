@@ -11,5 +11,7 @@ var searchData=
   ['gpsposition_2ecpp',['GPSPosition.cpp',['../d8/db0/GPSPosition_8cpp.html',1,'']]],
   ['gpsposition_2eh',['GPSPosition.h',['../df/d53/GPSPosition_8h.html',1,'']]],
   ['grid_2ecpp',['Grid.cpp',['../d6/ddc/Grid_8cpp.html',1,'']]],
-  ['grid_2eh',['Grid.h',['../dd/de2/Grid_8h.html',1,'']]]
+  ['grid_2eh',['Grid.h',['../dd/de2/Grid_8h.html',1,'']]],
+  ['groupbarrier_2ecpp',['GroupBarrier.cpp',['../dd/d99/GroupBarrier_8cpp.html',1,'']]],
+  ['groupbarrier_2eh',['GroupBarrier.h',['../da/da0/GroupBarrier_8h.html',1,'']]]
 ];

@@ -2,6 +2,7 @@ var hierarchy =
 [
     [ "gams::variables::AccentStatus", "dd/dc7/classgams_1_1variables_1_1AccentStatus.html", null ],
     [ "gams::utility::java::Acquire_VM", "df/d12/classgams_1_1utility_1_1java_1_1Acquire__VM.html", null ],
+    [ "gams::variables::Agent", "d8/d12/classgams_1_1variables_1_1Agent.html", null ],
     [ "AggregateFilter", null, [
       [ "gams::algorithms::MessageProfiling::MessageFilter", "d8/d11/classgams_1_1algorithms_1_1MessageProfiling_1_1MessageFilter.html", null ]
     ] ],
@@ -21,6 +22,7 @@ var hierarchy =
       [ "gams::algorithms::FormationCoverageFactory", "da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html", null ],
       [ "gams::algorithms::FormationFlyingFactory", "de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html", null ],
       [ "gams::algorithms::FormationSyncFactory", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html", null ],
+      [ "gams::algorithms::GroupBarrierFactory", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html", null ],
       [ "gams::algorithms::JavaAlgorithmFactory", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html", null ],
       [ "gams::algorithms::LandFactory", "d0/d56/classgams_1_1algorithms_1_1LandFactory.html", null ],
       [ "gams::algorithms::MessageProfilingFactory", "d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html", null ],
@@ -28,10 +30,12 @@ var hierarchy =
       [ "gams::algorithms::NullAlgorithmFactory", "d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html", null ],
       [ "gams::algorithms::PerformanceProfilingFactory", "dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html", null ],
       [ "gams::algorithms::TakeoffFactory", "d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html", null ],
-      [ "gams::algorithms::WaitFactory", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html", null ]
+      [ "gams::algorithms::WaitFactory", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html", null ],
+      [ "gams::algorithms::ZoneCoverageFactory", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html", null ]
     ] ],
     [ "gams::algorithms::Executive::AlgorithmInit", "d4/d68/structgams_1_1algorithms_1_1Executive_1_1AlgorithmInit.html", null ],
     [ "gams::variables::AlgorithmStatus", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html", null ],
+    [ "gams::utility::ArgumentParser", "dc/d83/classgams_1_1utility_1_1ArgumentParser.html", null ],
     [ "gams::utility::Axes", "d0/db6/classgams_1_1utility_1_1Axes.html", null ],
     [ "gams::algorithms::BaseAlgorithm", "d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html", [
       [ "gams::algorithms::area_coverage::BaseAreaCoverage", "df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html", [
@@ -52,6 +56,7 @@ var hierarchy =
       [ "gams::algorithms::FormationCoverage", "d7/da5/classgams_1_1algorithms_1_1FormationCoverage.html", null ],
       [ "gams::algorithms::FormationFlying", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html", null ],
       [ "gams::algorithms::FormationSync", "d3/df5/classgams_1_1algorithms_1_1FormationSync.html", null ],
+      [ "gams::algorithms::GroupBarrier", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html", null ],
       [ "gams::algorithms::JavaAlgorithm", "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html", null ],
       [ "gams::algorithms::Land", "d3/d06/classgams_1_1algorithms_1_1Land.html", null ],
       [ "gams::algorithms::MessageProfiling", "d2/d64/classgams_1_1algorithms_1_1MessageProfiling.html", null ],
@@ -59,7 +64,8 @@ var hierarchy =
       [ "gams::algorithms::NullAlgorithm", "dd/de4/classgams_1_1algorithms_1_1NullAlgorithm.html", null ],
       [ "gams::algorithms::PerformanceProfiling", "dc/d12/classgams_1_1algorithms_1_1PerformanceProfiling.html", null ],
       [ "gams::algorithms::Takeoff", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html", null ],
-      [ "gams::algorithms::Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html", null ]
+      [ "gams::algorithms::Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html", null ],
+      [ "gams::algorithms::ZoneCoverage", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html", null ]
     ] ],
     [ "gams::controllers::BaseController", "df/d21/classgams_1_1controllers_1_1BaseController.html", null ],
     [ "gams::platforms::BasePlatform", "d0/df3/classgams_1_1platforms_1_1BasePlatform.html", [
@@ -90,7 +96,14 @@ var hierarchy =
       ] ],
       [ "gams::utility::Coordinate< CoordType >", "da/deb/classgams_1_1utility_1_1Coordinate.html", null ]
     ] ],
-    [ "gams::variables::Device", "d7/d3b/classgams_1_1variables_1_1Device.html", null ],
+    [ "gams::utility::detail::degrees_t", "d4/dfd/structgams_1_1utility_1_1detail_1_1degrees__t.html", null ],
+    [ "gams::utility::euler::detail::degrees_t", "d9/de2/structgams_1_1utility_1_1euler_1_1detail_1_1degrees__t.html", null ],
+    [ "gams::utility::euler::Euler< A, B, C, Conv >", "d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html", null ],
+    [ "gams::utility::euler::detail::EulerFormulas< A, B, C >", "dd/d81/structgams_1_1utility_1_1euler_1_1detail_1_1EulerFormulas.html", null ],
+    [ "gams::utility::euler::detail::EulerFormulas< X, Y, Z >", "d0/d43/structgams_1_1utility_1_1euler_1_1detail_1_1EulerFormulas_3_01X_00_01Y_00_01Z_01_4.html", null ],
+    [ "gams::utility::euler::detail::EulerFormulas< Z, Y, X >", "d1/dbc/structgams_1_1utility_1_1euler_1_1detail_1_1EulerFormulas_3_01Z_00_01Y_00_01X_01_4.html", null ],
+    [ "gams::utility::euler::detail::EulerTrigABA", "da/dc9/structgams_1_1utility_1_1euler_1_1detail_1_1EulerTrigABA.html", null ],
+    [ "gams::utility::euler::detail::EulerTrigABC", "db/d30/structgams_1_1utility_1_1euler_1_1detail_1_1EulerTrigABC.html", null ],
     [ "std::exception", null, [
       [ "std::runtime_error", null, [
         [ "gams::utility::bad_coord_type< CoordType >", "d1/d2e/classgams_1_1utility_1_1bad__coord__type.html", null ],
@@ -98,7 +111,16 @@ var hierarchy =
         [ "gams::utility::unrelated_frames", "d5/d1a/classgams_1_1utility_1_1unrelated__frames.html", null ]
       ] ]
     ] ],
+    [ "gams::utility::euler::conv::Extr", "d3/dfd/structgams_1_1utility_1_1euler_1_1conv_1_1Extr.html", null ],
+    [ "gams::utility::euler::detail::GetEulerTrig< A, B, C >", "d2/d9c/structgams_1_1utility_1_1euler_1_1detail_1_1GetEulerTrig.html", null ],
+    [ "gams::utility::euler::detail::GetEulerTrig< A, B, A >", "dc/d15/structgams_1_1utility_1_1euler_1_1detail_1_1GetEulerTrig_3_01A_00_01B_00_01A_01_4.html", null ],
+    [ "gams::utility::euler::detail::GetTypes< A, B, C, Conv >", "d6/d25/structgams_1_1utility_1_1euler_1_1detail_1_1GetTypes.html", null ],
+    [ "gams::utility::euler::detail::GetTypes< A, B, C, Extr >", "d0/d16/structgams_1_1utility_1_1euler_1_1detail_1_1GetTypes_3_01A_00_01B_00_01C_00_01Extr_01_4.html", null ],
     [ "gams::variables::Grid", "de/d94/classgams_1_1variables_1_1Grid.html", null ],
+    [ "gams::utility::euler::conv::Intr", "df/dba/structgams_1_1utility_1_1euler_1_1conv_1_1Intr.html", null ],
+    [ "iterator", null, [
+      [ "gams::utility::ArgumentParser::my_iterator< map_iterator >", "d4/d48/classgams_1_1utility_1_1ArgumentParser_1_1my__iterator.html", null ]
+    ] ],
     [ "gams::utility::LocationVector", "d8/d57/classgams_1_1utility_1_1LocationVector.html", [
       [ "gams::utility::Location", "de/df6/classgams_1_1utility_1_1Location.html", null ],
       [ "gams::utility::PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html", [
@@ -107,6 +129,9 @@ var hierarchy =
     ] ],
     [ "gams::controllers::MapeLoop", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html", null ],
     [ "gams::algorithms::MessageProfiling::MessageFilter::MessageData", "d4/d3a/structgams_1_1algorithms_1_1MessageProfiling_1_1MessageFilter_1_1MessageData.html", null ],
+    [ "gams::controllers::Multicontroller", "db/d65/classgams_1_1controllers_1_1Multicontroller.html", null ],
+    [ "gams::utility::order::Order< i0_, i1_, i2_ >", "d5/d82/classgams_1_1utility_1_1order_1_1Order.html", null ],
+    [ "onion::placement", "da/d1a/structonion_1_1placement.html", null ],
     [ "gams::platforms::PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html", [
       [ "gams::platforms::DebugPlatformFactory", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html", null ],
       [ "gams::platforms::NullPlatformFactory", "d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html", null ],
@@ -117,13 +142,18 @@ var hierarchy =
       [ "gams::utility::GPSPosition", "da/d5e/classgams_1_1utility_1_1GPSPosition.html", null ]
     ] ],
     [ "gams::utility::Quaternion", "db/d2d/classgams_1_1utility_1_1Quaternion.html", null ],
+    [ "gams::utility::euler::detail::radians_t", "da/d49/structgams_1_1utility_1_1euler_1_1detail_1_1radians__t.html", null ],
+    [ "gams::utility::detail::radians_t", "d7/d40/structgams_1_1utility_1_1detail_1_1radians__t.html", null ],
+    [ "gams::utility::RadixLess", "da/d05/classgams_1_1utility_1_1RadixLess.html", null ],
     [ "gams::utility::ReferenceFrame", "d0/d25/classgams_1_1utility_1_1ReferenceFrame.html", [
-      [ "gams::utility::AxisAngleFrame", "d6/d79/classgams_1_1utility_1_1AxisAngleFrame.html", [
+      [ "gams::utility::SimpleRotateFrame", "dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html", [
         [ "gams::utility::CartesianFrame", "de/d60/classgams_1_1utility_1_1CartesianFrame.html", null ],
         [ "gams::utility::GPSFrame", "da/d07/classgams_1_1utility_1_1GPSFrame.html", null ]
       ] ]
     ] ],
     [ "gams::variables::Region", "d1/d5e/classgams_1_1variables_1_1Region.html", null ],
+    [ "gams::utility::euler::detail::revolutions_t", "dd/d93/structgams_1_1utility_1_1euler_1_1detail_1_1revolutions__t.html", null ],
+    [ "gams::utility::detail::revolutions_t", "df/db3/structgams_1_1utility_1_1detail_1_1revolutions__t.html", null ],
     [ "gams::utility::RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html", [
       [ "gams::utility::PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html", null ],
       [ "gams::utility::Rotation", "da/da5/classgams_1_1utility_1_1Rotation.html", null ]
@@ -131,5 +161,8 @@ var hierarchy =
     [ "gams::variables::SearchArea", "d0/d23/classgams_1_1variables_1_1SearchArea.html", null ],
     [ "gams::variables::Self", "d4/d98/classgams_1_1variables_1_1Self.html", null ],
     [ "gams::variables::Sensor", "db/d7d/classgams_1_1variables_1_1Sensor.html", null ],
-    [ "gams::variables::Swarm", "d4/dde/classgams_1_1variables_1_1Swarm.html", null ]
+    [ "gams::variables::Swarm", "d4/dde/classgams_1_1variables_1_1Swarm.html", null ],
+    [ "gams::utility::euler::conv::X", "db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html", null ],
+    [ "gams::utility::euler::conv::Y", "d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html", null ],
+    [ "gams::utility::euler::conv::Z", "dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html", null ]
 ];

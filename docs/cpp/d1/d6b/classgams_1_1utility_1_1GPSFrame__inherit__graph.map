@@ -1,4 +1,4 @@
 <map id="gams::utility::GPSFrame" name="gams::utility::GPSFrame">
-<area shape="rect" id="node2" href="$d6/d79/classgams_1_1utility_1_1AxisAngleFrame.html" title="For internal use. " alt="" coords="9,95,169,136"/>
-<area shape="rect" id="node3" href="$d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="9,5,168,47"/>
+<area shape="rect" id="node2" href="$dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html" title="For internal use. " alt="" coords="5,95,184,136"/>
+<area shape="rect" id="node3" href="$d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="15,5,174,47"/>
 </map>

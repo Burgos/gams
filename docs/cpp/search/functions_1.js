@@ -1,9 +1,11 @@
 var searchData=
 [
+  ['b',['b',['../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html#a1556ed84ce21ddc04e0cafcb79ebed66',1,'gams::utility::euler::Euler::b() const '],['../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html#a5e794e097a806bd96cfe34836078c3d0',1,'gams::utility::euler::Euler::b(double n)']]],
   ['bad_5fcoord_5ftype',['bad_coord_type',['../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html#a026fd22dda6c523ab1a8b3bcd2fcefaa',1,'gams::utility::bad_coord_type']]],
-  ['basealgorithm',['BaseAlgorithm',['../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a4d5885d731953d37c5f9952e7142429d',1,'gams::algorithms::BaseAlgorithm']]],
-  ['baseareacoverage',['BaseAreaCoverage',['../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#a93df9fbbae16a128b253eb63fb3e166e',1,'gams::algorithms::area_coverage::BaseAreaCoverage']]],
+  ['basealgorithm',['BaseAlgorithm',['../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#acad795613026b0d4a636bbca4740695f',1,'gams::algorithms::BaseAlgorithm']]],
+  ['baseareacoverage',['BaseAreaCoverage',['../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#a2ebfb6c29c27d102aeedcd68478b23a8',1,'gams::algorithms::area_coverage::BaseAreaCoverage']]],
   ['basecontroller',['BaseController',['../df/d21/classgams_1_1controllers_1_1BaseController.html#a5fd6805d01536d49329a2a804e8b28da',1,'gams::controllers::BaseController']]],
   ['baseplatform',['BasePlatform',['../d0/df3/classgams_1_1platforms_1_1BasePlatform.html#a1d2ba959d4ab4af2db41aa15d16639dc',1,'gams::platforms::BasePlatform']]],
-  ['bind_5forigin',['bind_origin',['../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a8373af9e9bdf150ff12e9454a2badac9',1,'gams::utility::ReferenceFrame']]]
+  ['begin',['begin',['../dc/d83/classgams_1_1utility_1_1ArgumentParser.html#a36cc19e4c5eaed4f7cc2a591d00b330f',1,'gams::utility::ArgumentParser']]],
+  ['bind_5forigin',['bind_origin',['../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a5877c606904992551e3e29e9b5a37ee5',1,'gams::utility::ReferenceFrame']]]
 ];

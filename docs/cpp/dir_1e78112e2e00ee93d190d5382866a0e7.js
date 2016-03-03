@@ -6,6 +6,7 @@ var dir_1e78112e2e00ee93d190d5382866a0e7 =
     [ "vrep", "dir_28c2d94377217a92e4c789135976939c.html", "dir_28c2d94377217a92e4c789135976939c" ],
     [ "BasePlatform.cpp", "da/d64/BasePlatform_8cpp.html", null ],
     [ "BasePlatform.h", "d4/de8/BasePlatform_8h.html", "d4/de8/BasePlatform_8h" ],
+    [ "BasePlatform.inl", "d5/d38/BasePlatform_8inl.html", null ],
     [ "ControllerPlatformFactory.cpp", "d1/dd2/ControllerPlatformFactory_8cpp.html", null ],
     [ "ControllerPlatformFactory.h", "db/d10/ControllerPlatformFactory_8h.html", "db/d10/ControllerPlatformFactory_8h" ],
     [ "DebugPlatform.cpp", "da/d50/DebugPlatform_8cpp.html", null ],

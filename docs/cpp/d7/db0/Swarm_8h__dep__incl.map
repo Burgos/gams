@@ -1,8 +1,10 @@
 <map id="src/gams/variables/Swarm.h" name="src/gams/variables/Swarm.h">
 <area shape="rect" id="node2" href="$d0/d78/BaseController_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="185,95,325,136"/>
-<area shape="rect" id="node5" href="$d2/d1e/MapeLoop_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="357,95,497,136"/>
-<area shape="rect" id="node7" href="$d1/d8e/Swarm_8cpp.html" title="src/gams/variables\l/Swarm.cpp" alt="" coords="522,95,653,136"/>
+<area shape="rect" id="node5" href="$d2/d1e/MapeLoop_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="365,95,505,136"/>
+<area shape="rect" id="node7" href="$d7/dbc/Multicontroller_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="529,95,669,136"/>
+<area shape="rect" id="node9" href="$d1/d8e/Swarm_8cpp.html" title="src/gams/variables\l/Swarm.cpp" alt="" coords="694,95,825,136"/>
 <area shape="rect" id="node3" href="$d4/d2c/BaseController_8cpp.html" title="src/gams/controllers\l/BaseController.cpp" alt="" coords="5,184,145,225"/>
 <area shape="rect" id="node4" href="$dc/d61/gams__controller_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="170,184,341,225"/>
 <area shape="rect" id="node6" href="$d0/d16/MapeLoop_8cpp.html" title="src/gams/controllers\l/MapeLoop.cpp" alt="" coords="365,184,505,225"/>
+<area shape="rect" id="node8" href="$d1/d98/Multicontroller_8cpp.html" title="src/gams/controllers\l/Multicontroller.cpp" alt="" coords="529,184,669,225"/>
 </map>

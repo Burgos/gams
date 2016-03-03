@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('d8/da7/AlgorithmFactory_8cpp_source.ht
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">using</span> std::endl;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
 <div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a9dee1d0006b2b80c2002abed1970d1ad">   72</a></span>&#160;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a9dee1d0006b2b80c2002abed1970d1ad">gams::algorithms::AlgorithmFactory::AlgorithmFactory</a> ()</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  : knowledge_ (0), devices_ (0), platform_ (0), self_ (0), sensors_ (0)</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  : knowledge_ (0), agents_ (0), platform_ (0), self_ (0), sensors_ (0)</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
@@ -144,9 +144,9 @@ $(document).ready(function(){initNavTree('d8/da7/AlgorithmFactory_8cpp_source.ht
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a68878d11b820268cc0e1aad88669f0ab">   82</a></span>&#160;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a68878d11b820268cc0e1aad88669f0ab">gams::algorithms::AlgorithmFactory::set_devices</a> (<a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a309c97d3c93df53b594745fa0ae65ead">variables::Devices</a> * devices)</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a10d00b5194d66acb4c42d1945eab3438">   82</a></span>&#160;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a10d00b5194d66acb4c42d1945eab3438">gams::algorithms::AlgorithmFactory::set_agents</a> (<a class="code" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> * agents)</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  devices_ = devices;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  agents_ = agents;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keywordtype">void</span></div>
@@ -174,17 +174,16 @@ $(document).ready(function(){initNavTree('d8/da7/AlgorithmFactory_8cpp_source.ht
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  sensors_ = sensors;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div>
 <div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_aecd6bd7cbafa8a7fc60fdb0cb6b5b74e"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e">gams::algorithms::AlgorithmFactory::set_platform</a></div><div class="ttdeci">void set_platform(platforms::BasePlatform *platform)</div><div class="ttdoc">Sets the map of platform names to platform information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00095">AlgorithmFactory.cpp:95</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_a68878d11b820268cc0e1aad88669f0ab"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a68878d11b820268cc0e1aad88669f0ab">gams::algorithms::AlgorithmFactory::set_devices</a></div><div class="ttdeci">void set_devices(variables::Devices *devices)</div><div class="ttdoc">Sets list of devices participating in swarm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00082">AlgorithmFactory.cpp:82</a></div></div>
 <div class="ttc" id="LocalPheremoneAreaCoverage_8h_html"><div class="ttname"><a href="../../d6/d3c/LocalPheremoneAreaCoverage_8h.html">LocalPheremoneAreaCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_a2559f54ea9be7063e35c978a62a054e3"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a2559f54ea9be7063e35c978a62a054e3">gams::algorithms::AlgorithmFactory::~AlgorithmFactory</a></div><div class="ttdeci">virtual ~AlgorithmFactory()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00077">AlgorithmFactory.cpp:77</a></div></div>
-<div class="ttc" id="namespacegams_1_1variables_html_a309c97d3c93df53b594745fa0ae65ead"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a309c97d3c93df53b594745fa0ae65ead">gams::variables::Devices</a></div><div class="ttdeci">std::vector&lt; Device &gt; Devices</div><div class="ttdoc">An array of devices. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d05/Device_8h_source.html#l00195">Device.h:195</a></div></div>
 <div class="ttc" id="FormationCoverage_8h_html"><div class="ttname"><a href="../../d0/dcf/FormationCoverage_8h.html">FormationCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="NullAlgorithm_8h_html"><div class="ttname"><a href="../../d1/df3/NullAlgorithm_8h.html">NullAlgorithm.h</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_a9dee1d0006b2b80c2002abed1970d1ad"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a9dee1d0006b2b80c2002abed1970d1ad">gams::algorithms::AlgorithmFactory::AlgorithmFactory</a></div><div class="ttdeci">AlgorithmFactory()</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00072">AlgorithmFactory.cpp:72</a></div></div>
 <div class="ttc" id="Land_8h_html"><div class="ttname"><a href="../../da/d21/Land_8h.html">Land.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="Follow_8h_html"><div class="ttname"><a href="../../d9/ddd/Follow_8h.html">Follow.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a886cb9f6fade67222f4162b90ed80930"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">gams::variables::Sensors</a></div><div class="ttdeci">std::map&lt; std::string, Sensor * &gt; Sensors</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/Sensor_8h_source.html#l00250">Sensor.h:250</a></div></div>
-<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00107">BasePlatform.h:107</a></div></div>
+<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00111">BasePlatform.h:111</a></div></div>
+<div class="ttc" id="namespacegams_1_1variables_html_aff41567fa3512f56d14c536c854a2fef"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">gams::variables::Agents</a></div><div class="ttdeci">std::vector&lt; Agent &gt; Agents</div><div class="ttdoc">An array of agents. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/da5/Agent_8h_source.html#l00205">Agent.h:205</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_acb841e8c409d920fab7300cee62b1457"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#acb841e8c409d920fab7300cee62b1457">gams::algorithms::AlgorithmFactory::set_knowledge</a></div><div class="ttdeci">void set_knowledge(madara::knowledge::KnowledgeBase *knowledge)</div><div class="ttdoc">Sets the knowledge base. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00088">AlgorithmFactory.cpp:88</a></div></div>
 <div class="ttc" id="MessageProfiling_8h_html"><div class="ttname"><a href="../../d1/d7e/MessageProfiling_8h.html">MessageProfiling.h</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div></div>
 <div class="ttc" id="UniformRandomAreaCoverage_8h_html"><div class="ttname"><a href="../../d7/d3f/UniformRandomAreaCoverage_8h.html">UniformRandomAreaCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
@@ -203,13 +202,14 @@ $(document).ready(function(){initNavTree('d8/da7/AlgorithmFactory_8cpp_source.ht
 <div class="ttc" id="PerimeterPatrol_8h_html"><div class="ttname"><a href="../../d1/d28/PerimeterPatrol_8h.html">PerimeterPatrol.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="MinTimeAreaCoverage_8h_html"><div class="ttname"><a href="../../d9/d65/MinTimeAreaCoverage_8h.html">MinTimeAreaCoverage.h</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_ad015e77872301133e73d6fd410634694"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#ad015e77872301133e73d6fd410634694">gams::algorithms::AlgorithmFactory::set_sensors</a></div><div class="ttdeci">void set_sensors(variables::Sensors *sensors)</div><div class="ttdoc">Sets the map of sensor names to sensor information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00107">AlgorithmFactory.cpp:107</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_a10d00b5194d66acb4c42d1945eab3438"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a10d00b5194d66acb4c42d1945eab3438">gams::algorithms::AlgorithmFactory::set_agents</a></div><div class="ttdeci">void set_agents(variables::Agents *agents)</div><div class="ttdoc">Sets list of agents participating in swarm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00082">AlgorithmFactory.cpp:82</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_51790b9f0ef7b0cc06eb1e76e309c0bc.html">algorithms</a></li><li class="navelem"><a class="el" href="../../d8/da7/AlgorithmFactory_8cpp.html">AlgorithmFactory.cpp</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:14:56 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:39 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

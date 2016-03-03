@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -157,40 +157,44 @@ $(document).ready(function(){initNavTree('dd/d4d/JavaPlatform_8h_source.html','.
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> land (<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      </div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> move (<span class="keyword">const</span> <a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html">utility::Position</a> &amp; position,</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; proximity = 0.1);</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> rotate (<span class="keyword">const</span> <a class="code" href="../../d0/db6/classgams_1_1utility_1_1Axes.html">utility::Axes</a> &amp; axes);</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> sense (<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      </div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> set_move_speed (<span class="keyword">const</span> <span class="keywordtype">double</span>&amp; speed);</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> takeoff (<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      jobject get_java_instance (<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00189"></a><span class="lineno"><a class="line" href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#a88ca770f715161c931fd2f9968729301">  189</a></span>&#160;      jobject <a class="code" href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#a88ca770f715161c931fd2f9968729301">obj_</a>;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; proximity = 0.1) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;      </div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> move (<span class="keyword">const</span> <a class="code" href="../../de/df6/classgams_1_1utility_1_1Location.html">utility::Location</a> &amp; location,</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordtype">double</span> proximity = 0.1) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> rotate (<span class="keyword">const</span> <a class="code" href="../../d0/db6/classgams_1_1utility_1_1Axes.html">utility::Axes</a> &amp; axes);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> sense (<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      </div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> set_move_speed (<span class="keyword">const</span> <span class="keywordtype">double</span>&amp; speed);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">int</span> takeoff (<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
-<div class="line"><a name="l00192"></a><span class="lineno"><a class="line" href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#ac5b2d4659d75657dc0cd9861fc571d47">  192</a></span>&#160;      jclass <a class="code" href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#ac5b2d4659d75657dc0cd9861fc571d47">class_</a>;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    };</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  }</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;}</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      jobject get_java_instance (<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="preprocessor">#endif // _GAMS_PLATFORM_JAVA_H_</span></div>
-<div class="ttc" id="classgams_1_1platforms_1_1JavaPlatform_html_a88ca770f715161c931fd2f9968729301"><div class="ttname"><a href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#a88ca770f715161c931fd2f9968729301">gams::platforms::JavaPlatform::obj_</a></div><div class="ttdeci">jobject obj_</div><div class="ttdoc">the Java object with callable methods </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d4d/JavaPlatform_8h_source.html#l00189">JavaPlatform.h:189</a></div></div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00199"></a><span class="lineno"><a class="line" href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#a88ca770f715161c931fd2f9968729301">  199</a></span>&#160;      jobject <a class="code" href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#a88ca770f715161c931fd2f9968729301">obj_</a>;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
+<div class="line"><a name="l00202"></a><span class="lineno"><a class="line" href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#ac5b2d4659d75657dc0cd9861fc571d47">  202</a></span>&#160;      jclass <a class="code" href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#ac5b2d4659d75657dc0cd9861fc571d47">class_</a>;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    };</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;}</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="preprocessor">#endif // _GAMS_PLATFORM_JAVA_H_</span></div>
+<div class="ttc" id="classgams_1_1platforms_1_1JavaPlatform_html_a88ca770f715161c931fd2f9968729301"><div class="ttname"><a href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#a88ca770f715161c931fd2f9968729301">gams::platforms::JavaPlatform::obj_</a></div><div class="ttdeci">jobject obj_</div><div class="ttdoc">the Java object with callable methods </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d4d/JavaPlatform_8h_source.html#l00199">JavaPlatform.h:199</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1Axes_html"><div class="ttname"><a href="../../d0/db6/classgams_1_1utility_1_1Axes.html">gams::utility::Axes</a></div><div class="ttdoc">A deprecated class for rotation information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6e/Axes_8h_source.html#l00070">Axes.h:70</a></div></div>
-<div class="ttc" id="classgams_1_1platforms_1_1JavaPlatform_html_ac5b2d4659d75657dc0cd9861fc571d47"><div class="ttname"><a href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#ac5b2d4659d75657dc0cd9861fc571d47">gams::platforms::JavaPlatform::class_</a></div><div class="ttdeci">jclass class_</div><div class="ttdoc">the class of the Java object obj_ </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d4d/JavaPlatform_8h_source.html#l00192">JavaPlatform.h:192</a></div></div>
+<div class="ttc" id="classgams_1_1platforms_1_1JavaPlatform_html_ac5b2d4659d75657dc0cd9861fc571d47"><div class="ttname"><a href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#ac5b2d4659d75657dc0cd9861fc571d47">gams::platforms::JavaPlatform::class_</a></div><div class="ttdeci">jclass class_</div><div class="ttdoc">the class of the Java object obj_ </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d4d/JavaPlatform_8h_source.html#l00202">JavaPlatform.h:202</a></div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a886cb9f6fade67222f4162b90ed80930"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">gams::variables::Sensors</a></div><div class="ttdeci">std::map&lt; std::string, Sensor * &gt; Sensors</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/Sensor_8h_source.html#l00250">Sensor.h:250</a></div></div>
-<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00107">BasePlatform.h:107</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Location_html"><div class="ttname"><a href="../../de/df6/classgams_1_1utility_1_1Location.html">gams::utility::Location</a></div><div class="ttdoc">Represents a Location within a reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dd3/Location_8h_source.html#l00479">Location.h:479</a></div></div>
+<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00111">BasePlatform.h:111</a></div></div>
 <div class="ttc" id="Sensor_8h_html"><div class="ttname"><a href="../../d5/d65/Sensor_8h.html">Sensor.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="Self_8h_html"><div class="ttname"><a href="../../da/d3d/Self_8h.html">Self.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1platforms_1_1JavaPlatform_html"><div class="ttname"><a href="../../dc/d78/classgams_1_1platforms_1_1JavaPlatform.html">gams::platforms::JavaPlatform</a></div><div class="ttdoc">A facade for Java platforms. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d4d/JavaPlatform_8h_source.html#l00076">JavaPlatform.h:76</a></div></div>
 <div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d80/AlgorithmFactory_8h_source.html#l00064">AlgorithmFactory.h:64</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
 <div class="ttc" id="PlatformStatus_8h_html"><div class="ttname"><a href="../../da/d37/PlatformStatus_8h.html">PlatformStatus.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="namespacegams_1_1variables_html_a1d8592a3009319dc38a04b2b7879912f"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">gams::variables::Platforms</a></div><div class="ttdeci">std::map&lt; std::string, PlatformStatus &gt; Platforms</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d37/PlatformStatus_8h_source.html#l00167">PlatformStatus.h:167</a></div></div>
-<div class="ttc" id="namespacegams_1_1platforms_html"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00073">BasePlatform.h:73</a></div></div>
+<div class="ttc" id="namespacegams_1_1variables_html_a1d8592a3009319dc38a04b2b7879912f"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">gams::variables::Platforms</a></div><div class="ttdeci">std::map&lt; std::string, PlatformStatus &gt; Platforms</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d37/PlatformStatus_8h_source.html#l00173">PlatformStatus.h:173</a></div></div>
+<div class="ttc" id="namespacegams_1_1platforms_html"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00077">BasePlatform.h:77</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1Position_html"><div class="ttname"><a href="../../df/d4e/classgams_1_1utility_1_1Position.html">gams::utility::Position</a></div><div class="ttdoc">A position in an x, y, z coordinate system. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dff/Position_8h_source.html#l00070">Position.h:70</a></div></div>
 <div class="ttc" id="GPSPosition_8h_html"><div class="ttname"><a href="../../df/d53/GPSPosition_8h.html">GPSPosition.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="GAMSExport_8h_html_aa821e916a389426064269d24e4925080"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a></div><div class="ttdeci">#define GAMSExport</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/GAMSExport_8h_source.html#l00026">GAMSExport.h:26</a></div></div>
@@ -201,7 +205,7 @@ $(document).ready(function(){initNavTree('dd/d4d/JavaPlatform_8h_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_1e78112e2e00ee93d190d5382866a0e7.html">platforms</a></li><li class="navelem"><a class="el" href="../../dir_4e8406f82166e65909be659912c4f433.html">java</a></li><li class="navelem"><a class="el" href="../../dd/d4d/JavaPlatform_8h.html">JavaPlatform.h</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:14:56 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:40 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -123,6 +123,9 @@ $(document).ready(function(){initNavTree('db/d2d/classgams_1_1utility_1_1Quatern
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a253eb400b0cf88a67a047d88b574f45a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a253eb400b0cf88a67a047d88b574f45a">Quaternion</a> ()</td></tr>
+<tr class="memdesc:a253eb400b0cf88a67a047d88b574f45a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a253eb400b0cf88a67a047d88b574f45a">More...</a><br /></td></tr>
+<tr class="separator:a253eb400b0cf88a67a047d88b574f45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ac71d09191a23041cb1eff97f4bdc52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a6ac71d09191a23041cb1eff97f4bdc52">Quaternion</a> (double <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ab54b0a259d1a1a403a6e95f21a8ee723">x</a>, double <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a589951d2890cc6af70772fb0fb24975f">y</a>, double <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a2d7ce22af5ed672d91bbaba7c4e73534">z</a>, double <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#af88cd2461bbb0426eff471bbc5cce88a">w</a>)</td></tr>
 <tr class="memdesc:a6ac71d09191a23041cb1eff97f4bdc52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary constructor.  <a href="#a6ac71d09191a23041cb1eff97f4bdc52">More...</a><br /></td></tr>
 <tr class="separator:a6ac71d09191a23041cb1eff97f4bdc52"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,8 +142,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac21d7cbd21e527844d5936e49bd59280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the angle between the rotations represented by this, and the target <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a>.  <a href="#ac21d7cbd21e527844d5936e49bd59280">More...</a><br /></td></tr>
 <tr class="separator:ac21d7cbd21e527844d5936e49bd59280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c707513aa6a6389e1ad54e5023bce3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a7c707513aa6a6389e1ad54e5023bce3f">conjugate</a> ()</td></tr>
-<tr class="memdesc:a7c707513aa6a6389e1ad54e5023bce3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conjugate this quaternion in-place.  <a href="#a7c707513aa6a6389e1ad54e5023bce3f">More...</a><br /></td></tr>
+<tr class="memdesc:a7c707513aa6a6389e1ad54e5023bce3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conjugate this quaternion in-place; may use in place of invert for unit quaternions for better performance.  <a href="#a7c707513aa6a6389e1ad54e5023bce3f">More...</a><br /></td></tr>
 <tr class="separator:a7c707513aa6a6389e1ad54e5023bce3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64c8108740d23002523c5acc1b3be1b8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a64c8108740d23002523c5acc1b3be1b8">dot_product</a> (const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;rhs) const </td></tr>
+<tr class="memdesc:a64c8108740d23002523c5acc1b3be1b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a> dot product between this, and the right-hand-side; this is the inner-product, over the product of the magnitude of both sides.  <a href="#a64c8108740d23002523c5acc1b3be1b8">More...</a><br /></td></tr>
+<tr class="separator:a64c8108740d23002523c5acc1b3be1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bdd973b193f4ac9c4aa70829e6beb8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a2bdd973b193f4ac9c4aa70829e6beb8f">exp</a> () const </td></tr>
+<tr class="memdesc:a2bdd973b193f4ac9c4aa70829e6beb8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate e to the power of this quaternion, return result as new quaternion.  <a href="#a2bdd973b193f4ac9c4aa70829e6beb8f">More...</a><br /></td></tr>
+<tr class="separator:a2bdd973b193f4ac9c4aa70829e6beb8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e6dabccc4aaf8203fba1a4f4626d98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a38e6dabccc4aaf8203fba1a4f4626d98">exp_this</a> ()</td></tr>
+<tr class="memdesc:a38e6dabccc4aaf8203fba1a4f4626d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate e to the power of this quaternion, store result in this quaternion.  <a href="#a38e6dabccc4aaf8203fba1a4f4626d98">More...</a><br /></td></tr>
+<tr class="separator:a38e6dabccc4aaf8203fba1a4f4626d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2395effbcfedeb46f418bc1ab74fe61f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a2395effbcfedeb46f418bc1ab74fe61f">from_location_vector</a> (double <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ab54b0a259d1a1a403a6e95f21a8ee723">x</a>, double <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a589951d2890cc6af70772fb0fb24975f">y</a>, double <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a2d7ce22af5ed672d91bbaba7c4e73534">z</a>)</td></tr>
 <tr class="separator:a2395effbcfedeb46f418bc1ab74fe61f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0beb2deabb541a13b30c37cc8ed875b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#af0beb2deabb541a13b30c37cc8ed875b">from_location_vector</a> (const <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html">LocationVector</a> &amp;loc)</td></tr>
@@ -149,9 +161,57 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3edda355e0d5825f096a92a400cd52c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31cef4396b2ddeffcee176a333333995"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a31cef4396b2ddeffcee176a333333995">from_rotation_vector</a> (const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;rot)</td></tr>
 <tr class="separator:a31cef4396b2ddeffcee176a333333995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ddefd4983aaba4a127b28c80ab1c582"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a3ddefd4983aaba4a127b28c80ab1c582">imag</a> () const </td></tr>
+<tr class="memdesc:a3ddefd4983aaba4a127b28c80ab1c582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude of imaginary part of this quaternion.  <a href="#a3ddefd4983aaba4a127b28c80ab1c582">More...</a><br /></td></tr>
+<tr class="separator:a3ddefd4983aaba4a127b28c80ab1c582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d3e70ae5be21ad997cd33b8339f00f8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a2d3e70ae5be21ad997cd33b8339f00f8">inner_product</a> (const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;rhs) const </td></tr>
 <tr class="memdesc:a2d3e70ae5be21ad997cd33b8339f00f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a> inner-product between this, and the right-hand-side, which is the sum of the pair-wise multiplication of each corresponding term of the Quaternions.  <a href="#a2d3e70ae5be21ad997cd33b8339f00f8">More...</a><br /></td></tr>
 <tr class="separator:a2d3e70ae5be21ad997cd33b8339f00f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a868fb2032128d9702274d1d854068a94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a868fb2032128d9702274d1d854068a94">invert</a> ()</td></tr>
+<tr class="memdesc:a868fb2032128d9702274d1d854068a94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverts this quaternion to its reciprical.  <a href="#a868fb2032128d9702274d1d854068a94">More...</a><br /></td></tr>
+<tr class="separator:a868fb2032128d9702274d1d854068a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2747996d46db035a1a0e5df0c6fd2f86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a2747996d46db035a1a0e5df0c6fd2f86">ln</a> () const </td></tr>
+<tr class="memdesc:a2747996d46db035a1a0e5df0c6fd2f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the natural log of this quaternion, return result in a new quaternion.  <a href="#a2747996d46db035a1a0e5df0c6fd2f86">More...</a><br /></td></tr>
+<tr class="separator:a2747996d46db035a1a0e5df0c6fd2f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abda8a4bd5d54775ffc997854061f738e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#abda8a4bd5d54775ffc997854061f738e">ln_this</a> ()</td></tr>
+<tr class="memdesc:abda8a4bd5d54775ffc997854061f738e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate natural log of this quaternion, store result in this quaternion.  <a href="#abda8a4bd5d54775ffc997854061f738e">More...</a><br /></td></tr>
+<tr class="separator:abda8a4bd5d54775ffc997854061f738e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0dc134443b57a14112f21bf0f2edea4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ab0dc134443b57a14112f21bf0f2edea4">m11</a> () const </td></tr>
+<tr class="memdesc:ab0dc134443b57a14112f21bf0f2edea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row 1 Column 1 of rotation matrix equivalent to this quaternion.  <a href="#ab0dc134443b57a14112f21bf0f2edea4">More...</a><br /></td></tr>
+<tr class="separator:ab0dc134443b57a14112f21bf0f2edea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fe7d580503a7a279e78a1da5a8eda15"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a6fe7d580503a7a279e78a1da5a8eda15">m12</a> () const </td></tr>
+<tr class="memdesc:a6fe7d580503a7a279e78a1da5a8eda15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row 1 Column 2 of rotation matrix equivalent to this quaternion.  <a href="#a6fe7d580503a7a279e78a1da5a8eda15">More...</a><br /></td></tr>
+<tr class="separator:a6fe7d580503a7a279e78a1da5a8eda15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1ae016cc236813916c07fe03aeb786f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ae1ae016cc236813916c07fe03aeb786f">m13</a> () const </td></tr>
+<tr class="memdesc:ae1ae016cc236813916c07fe03aeb786f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row 1 Column 3 of rotation matrix equivalent to this quaternion.  <a href="#ae1ae016cc236813916c07fe03aeb786f">More...</a><br /></td></tr>
+<tr class="separator:ae1ae016cc236813916c07fe03aeb786f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a903b3baf0e57565960d9fa0db4c9a0a0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a903b3baf0e57565960d9fa0db4c9a0a0">m21</a> () const </td></tr>
+<tr class="memdesc:a903b3baf0e57565960d9fa0db4c9a0a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row 2 Column 1 of rotation matrix equivalent to this quaternion.  <a href="#a903b3baf0e57565960d9fa0db4c9a0a0">More...</a><br /></td></tr>
+<tr class="separator:a903b3baf0e57565960d9fa0db4c9a0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac27765fda8f7c73961db30eb2e4f12f4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ac27765fda8f7c73961db30eb2e4f12f4">m22</a> () const </td></tr>
+<tr class="memdesc:ac27765fda8f7c73961db30eb2e4f12f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row 2 Column 2 of rotation matrix equivalent to this quaternion.  <a href="#ac27765fda8f7c73961db30eb2e4f12f4">More...</a><br /></td></tr>
+<tr class="separator:ac27765fda8f7c73961db30eb2e4f12f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516f35610230831cc1c2dd11251335bc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a516f35610230831cc1c2dd11251335bc">m23</a> () const </td></tr>
+<tr class="memdesc:a516f35610230831cc1c2dd11251335bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row 2 Column 3 of rotation matrix equivalent to this quaternion.  <a href="#a516f35610230831cc1c2dd11251335bc">More...</a><br /></td></tr>
+<tr class="separator:a516f35610230831cc1c2dd11251335bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e80945f5ba67d823796b8b2b205dfa7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a8e80945f5ba67d823796b8b2b205dfa7">m31</a> () const </td></tr>
+<tr class="memdesc:a8e80945f5ba67d823796b8b2b205dfa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row 3 Column 1 of rotation matrix equivalent to this quaternion.  <a href="#a8e80945f5ba67d823796b8b2b205dfa7">More...</a><br /></td></tr>
+<tr class="separator:a8e80945f5ba67d823796b8b2b205dfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16d8a175a09ad55a5a8f435a25dd9684"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a16d8a175a09ad55a5a8f435a25dd9684">m32</a> () const </td></tr>
+<tr class="memdesc:a16d8a175a09ad55a5a8f435a25dd9684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row 3 Column 2 of rotation matrix equivalent to this quaternion.  <a href="#a16d8a175a09ad55a5a8f435a25dd9684">More...</a><br /></td></tr>
+<tr class="separator:a16d8a175a09ad55a5a8f435a25dd9684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0b44646a18d487f22949b9923878816"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#aa0b44646a18d487f22949b9923878816">m33</a> () const </td></tr>
+<tr class="memdesc:aa0b44646a18d487f22949b9923878816"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row 3 Column 3 of rotation matrix equivalent to this quaternion.  <a href="#aa0b44646a18d487f22949b9923878816">More...</a><br /></td></tr>
+<tr class="separator:aa0b44646a18d487f22949b9923878816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a502cfde860576fa8ef7bcfc5fe6e664b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a502cfde860576fa8ef7bcfc5fe6e664b">mag</a> () const </td></tr>
+<tr class="memdesc:a502cfde860576fa8ef7bcfc5fe6e664b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude of this quaternion.  <a href="#a502cfde860576fa8ef7bcfc5fe6e664b">More...</a><br /></td></tr>
+<tr class="separator:a502cfde860576fa8ef7bcfc5fe6e664b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72b8e834fb928f157a0cc995658fc9d0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a72b8e834fb928f157a0cc995658fc9d0">mag_squared</a> () const </td></tr>
+<tr class="memdesc:a72b8e834fb928f157a0cc995658fc9d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude of this quaternion, squared.  <a href="#a72b8e834fb928f157a0cc995658fc9d0">More...</a><br /></td></tr>
+<tr class="separator:a72b8e834fb928f157a0cc995658fc9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2a38e763f7fd43a29272cf6ee612bf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ab2a38e763f7fd43a29272cf6ee612bf4">negate</a> ()</td></tr>
+<tr class="memdesc:ab2a38e763f7fd43a29272cf6ee612bf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flip the sign of all parts of the quaternion; equivalent to (but potentially faster than) this-&gt;scale(-1);.  <a href="#ab2a38e763f7fd43a29272cf6ee612bf4">More...</a><br /></td></tr>
+<tr class="separator:ab2a38e763f7fd43a29272cf6ee612bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5a4e7c3927deba699a51f2c97cbdccd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#af5a4e7c3927deba699a51f2c97cbdccd">operator*</a> (const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;rhs) const </td></tr>
 <tr class="memdesc:af5a4e7c3927deba699a51f2c97cbdccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate hamilton product, this * rhs, and return new <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a>.  <a href="#af5a4e7c3927deba699a51f2c97cbdccd">More...</a><br /></td></tr>
 <tr class="separator:af5a4e7c3927deba699a51f2c97cbdccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +221,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4a858471bc8454a33c55a88b69e26b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ab4a858471bc8454a33c55a88b69e26b5">operator-</a> () const </td></tr>
 <tr class="memdesc:ab4a858471bc8454a33c55a88b69e26b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy and conjugate this quaternion.  <a href="#ab4a858471bc8454a33c55a88b69e26b5">More...</a><br /></td></tr>
 <tr class="separator:ab4a858471bc8454a33c55a88b69e26b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d2e5ca23189e5d1f0ed20d5474e051"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a45d2e5ca23189e5d1f0ed20d5474e051">pow</a> (double e) const </td></tr>
+<tr class="memdesc:a45d2e5ca23189e5d1f0ed20d5474e051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate this quaternion raised to a scalar power, return result in a new quaternion.  <a href="#a45d2e5ca23189e5d1f0ed20d5474e051">More...</a><br /></td></tr>
+<tr class="separator:a45d2e5ca23189e5d1f0ed20d5474e051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7787d828fd117bfe7b07fcc87efd908"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#aa7787d828fd117bfe7b07fcc87efd908">pow</a> (const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;e) const </td></tr>
+<tr class="memdesc:aa7787d828fd117bfe7b07fcc87efd908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate this quaternion raised to a quaternion power, return result in a new quaternion.  <a href="#aa7787d828fd117bfe7b07fcc87efd908">More...</a><br /></td></tr>
+<tr class="separator:aa7787d828fd117bfe7b07fcc87efd908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89aab381ecc27d7b2bc354fed625da09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a89aab381ecc27d7b2bc354fed625da09">pow_this</a> (double e)</td></tr>
+<tr class="memdesc:a89aab381ecc27d7b2bc354fed625da09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate this quaternion raised to a scalar power, store result in this quaternion.  <a href="#a89aab381ecc27d7b2bc354fed625da09">More...</a><br /></td></tr>
+<tr class="separator:a89aab381ecc27d7b2bc354fed625da09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8887a80d74e120c59a19bd59c2f96744"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a8887a80d74e120c59a19bd59c2f96744">pow_this</a> (const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;e)</td></tr>
+<tr class="memdesc:a8887a80d74e120c59a19bd59c2f96744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate this quaternion raised to a quaternion power, store result in this quaternion.  <a href="#a8887a80d74e120c59a19bd59c2f96744">More...</a><br /></td></tr>
+<tr class="separator:a8887a80d74e120c59a19bd59c2f96744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa941620d3174290a1506f99d71c59d1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#aa941620d3174290a1506f99d71c59d1f">pre_multiply</a> (const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;lhs)</td></tr>
+<tr class="memdesc:aa941620d3174290a1506f99d71c59d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate hamilton product, lhs * this, and store into this.  <a href="#aa941620d3174290a1506f99d71c59d1f">More...</a><br /></td></tr>
+<tr class="separator:aa941620d3174290a1506f99d71c59d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09400dacca75f2c7faeff084e7106552"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a09400dacca75f2c7faeff084e7106552">rotate_by</a> (<a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> rot)</td></tr>
+<tr class="memdesc:a09400dacca75f2c7faeff084e7106552"><td class="mdescLeft">&#160;</td><td class="mdescRight">Treat this quaternion as a location quaternion (w should be zero), and rotate it by the rotation represented by rot.  <a href="#a09400dacca75f2c7faeff084e7106552">More...</a><br /></td></tr>
+<tr class="separator:a09400dacca75f2c7faeff084e7106552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9091b8742e259734cc6f0f3c6e0e44c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a9091b8742e259734cc6f0f3c6e0e44c5">scale</a> (double s)</td></tr>
+<tr class="memdesc:a9091b8742e259734cc6f0f3c6e0e44c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiply each part of this quaternion by s.  <a href="#a9091b8742e259734cc6f0f3c6e0e44c5">More...</a><br /></td></tr>
+<tr class="separator:a9091b8742e259734cc6f0f3c6e0e44c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbce6b4ff077a39c51c3abb235a756ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#abbce6b4ff077a39c51c3abb235a756ae">slerp</a> (const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;o, double t)</td></tr>
+<tr class="memdesc:abbce6b4ff077a39c51c3abb235a756ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">If *this and o are unit quaternions, interpolate a quaternion that is partially between them, and return it as a new quaternion.  <a href="#abbce6b4ff077a39c51c3abb235a756ae">More...</a><br /></td></tr>
+<tr class="separator:abbce6b4ff077a39c51c3abb235a756ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac72004e8ea6e4b8adf093985b536eb73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ac72004e8ea6e4b8adf093985b536eb73">slerp_this</a> (const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;o, double t)</td></tr>
+<tr class="memdesc:ac72004e8ea6e4b8adf093985b536eb73"><td class="mdescLeft">&#160;</td><td class="mdescRight">If *this and o are unit quaternions, interpolate a quaternion that is partially between them, and store it in *this.  <a href="#ac72004e8ea6e4b8adf093985b536eb73">More...</a><br /></td></tr>
+<tr class="separator:ac72004e8ea6e4b8adf093985b536eb73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e318e0be1d14a93048da64382aa4e0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a0e318e0be1d14a93048da64382aa4e0e">to_location_vector</a> (double &amp;<a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ab54b0a259d1a1a403a6e95f21a8ee723">x</a>, double &amp;<a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a589951d2890cc6af70772fb0fb24975f">y</a>, double &amp;<a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a2d7ce22af5ed672d91bbaba7c4e73534">z</a>) const </td></tr>
 <tr class="separator:a0e318e0be1d14a93048da64382aa4e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc69cb21568884b1a35d8c9b90c4c24c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#abc69cb21568884b1a35d8c9b90c4c24c">to_location_vector</a> (<a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html">LocationVector</a> &amp;loc) const </td></tr>
@@ -170,20 +257,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0dcf28e7f44bdf0846baad72fef232e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ab0dcf28e7f44bdf0846baad72fef232e">to_rotation_vector</a> (<a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;rot) const </td></tr>
 <tr class="separator:ab0dcf28e7f44bdf0846baad72fef232e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af88cd2461bbb0426eff471bbc5cce88a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#af88cd2461bbb0426eff471bbc5cce88a">w</a> () const </td></tr>
+<tr class="memdesc:af88cd2461bbb0426eff471bbc5cce88a"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter of w (or real scalar) part of quaternion  <a href="#af88cd2461bbb0426eff471bbc5cce88a">More...</a><br /></td></tr>
 <tr class="separator:af88cd2461bbb0426eff471bbc5cce88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a557861390c2a269107953130c1d606dd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a557861390c2a269107953130c1d606dd">w</a> (double new_w)</td></tr>
+<tr class="memdesc:a557861390c2a269107953130c1d606dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">setter of w (or real scalar) part of quaternion  <a href="#a557861390c2a269107953130c1d606dd">More...</a><br /></td></tr>
 <tr class="separator:a557861390c2a269107953130c1d606dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab54b0a259d1a1a403a6e95f21a8ee723"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ab54b0a259d1a1a403a6e95f21a8ee723">x</a> () const </td></tr>
+<tr class="memdesc:ab54b0a259d1a1a403a6e95f21a8ee723"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter of x (or i) part of quaternion  <a href="#ab54b0a259d1a1a403a6e95f21a8ee723">More...</a><br /></td></tr>
 <tr class="separator:ab54b0a259d1a1a403a6e95f21a8ee723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7f0e7bafec26e6c74b9a627aaac63f0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ae7f0e7bafec26e6c74b9a627aaac63f0">x</a> (double new_x)</td></tr>
+<tr class="memdesc:ae7f0e7bafec26e6c74b9a627aaac63f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter of x (or i) part of quaternion  <a href="#ae7f0e7bafec26e6c74b9a627aaac63f0">More...</a><br /></td></tr>
 <tr class="separator:ae7f0e7bafec26e6c74b9a627aaac63f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a589951d2890cc6af70772fb0fb24975f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a589951d2890cc6af70772fb0fb24975f">y</a> () const </td></tr>
+<tr class="memdesc:a589951d2890cc6af70772fb0fb24975f"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter of y (or j) part of quaternion  <a href="#a589951d2890cc6af70772fb0fb24975f">More...</a><br /></td></tr>
 <tr class="separator:a589951d2890cc6af70772fb0fb24975f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9631f47098e8740114bf3121d268f9c3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a9631f47098e8740114bf3121d268f9c3">y</a> (double new_y)</td></tr>
+<tr class="memdesc:a9631f47098e8740114bf3121d268f9c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter of y (or j) part of quaternion  <a href="#a9631f47098e8740114bf3121d268f9c3">More...</a><br /></td></tr>
 <tr class="separator:a9631f47098e8740114bf3121d268f9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d7ce22af5ed672d91bbaba7c4e73534"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a2d7ce22af5ed672d91bbaba7c4e73534">z</a> () const </td></tr>
+<tr class="memdesc:a2d7ce22af5ed672d91bbaba7c4e73534"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter of z (or k) part of quaternion  <a href="#a2d7ce22af5ed672d91bbaba7c4e73534">More...</a><br /></td></tr>
 <tr class="separator:a2d7ce22af5ed672d91bbaba7c4e73534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5c43145759ae368fd8c87f4251450ae"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#ad5c43145759ae368fd8c87f4251450ae">z</a> (double new_z)</td></tr>
+<tr class="memdesc:ad5c43145759ae368fd8c87f4251450ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter of z (or k) part of quaternion  <a href="#ad5c43145759ae368fd8c87f4251450ae">More...</a><br /></td></tr>
 <tr class="separator:ad5c43145759ae368fd8c87f4251450ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -207,8 +302,36 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>Used internally to implement angle operations. </p>
 <p>Not reference-frame aware. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00071">71</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00072">72</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a253eb400b0cf88a67a047d88b574f45a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> gams::utility::Quaternion::Quaternion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+<p>Initializes x, y, z, and w to zero. </p>
+
+<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00078">78</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a6ac71d09191a23041cb1eff97f4bdc52"></a>
 <div class="memitem">
 <div class="memproto">
@@ -256,7 +379,7 @@ Private Attributes</h2></td></tr>
 <p>Primary constructor. </p>
 <p>Specifies each term explicitly </p>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00064">64</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00066">66</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -301,7 +424,7 @@ Private Attributes</h2></td></tr>
 <p>Constructor which converts a rotation vector, specified in individual terms, into the corresponding quaternion representation. </p>
 <p>See <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> for details of the rotation vector representation. </p>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00068">68</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00070">70</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -330,7 +453,7 @@ Private Attributes</h2></td></tr>
 <p>Constructor which converts a rotation vector into the corresponding quaternion representation. </p>
 <p>See <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> for details of the rotation vector representation. </p>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00073">73</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00075">75</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -359,7 +482,7 @@ Private Attributes</h2></td></tr>
 <p>Constructor which converts a location vector into the corresponding quaternion representation; x, y, and z are copied over. </p>
 <p>The w term is 0 </p>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00078">78</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00080">80</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -394,9 +517,9 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the angle between this and the target </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the angle in radians between this and the target </dd></dl>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00208">208</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00229">229</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -421,10 +544,100 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Conjugate this quaternion in-place. </p>
+<p>Conjugate this quaternion in-place; may use in place of invert for unit quaternions for better performance. </p>
 <dl class="section return"><dt>Returns</dt><dd>*this, after conjugation </dd></dl>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00190">190</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00192">192</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64c8108740d23002523c5acc1b3be1b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::dot_product </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates the <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a> dot product between this, and the right-hand-side; this is the inner-product, over the product of the magnitude of both sides. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>the <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a> to dot-multiply with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the scalar result. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00224">224</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2bdd973b193f4ac9c4aa70829e6beb8f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> gams::utility::Quaternion::exp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate e to the power of this quaternion, return result as new quaternion. </p>
+<dl class="section return"><dt>Returns</dt><dd>result </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00278">278</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a38e6dabccc4aaf8203fba1a4f4626d98"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::Quaternion::exp_this </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate e to the power of this quaternion, store result in this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00285">285</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -466,7 +679,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00083">83</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00085">85</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -492,7 +705,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00091">91</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00093">93</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -534,7 +747,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00109">109</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00111">111</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -560,7 +773,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00130">130</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00132">132</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -613,7 +826,34 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00158">158</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00160">160</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3ddefd4983aaba4a127b28c80ab1c582"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::imag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the magnitude of imaginary part of this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00265">265</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -649,7 +889,416 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the scalar result. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00203">203</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00219">219</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a868fb2032128d9702274d1d854068a94"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::Quaternion::invert </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inverts this quaternion to its reciprical. </p>
+<p>Equivalent to (but slower than) conjugate if you know this quaternion is a unit quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00250">250</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2747996d46db035a1a0e5df0c6fd2f86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> gams::utility::Quaternion::ln </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the natural log of this quaternion, return result in a new quaternion. </p>
+<dl class="section return"><dt>Returns</dt><dd>result </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00296">296</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abda8a4bd5d54775ffc997854061f738e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::Quaternion::ln_this </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate natural log of this quaternion, store result in this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00303">303</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab0dc134443b57a14112f21bf0f2edea4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::m11 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Row 1 Column 1 of rotation matrix equivalent to this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00364">364</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6fe7d580503a7a279e78a1da5a8eda15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::m12 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Row 1 Column 2 of rotation matrix equivalent to this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00369">369</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae1ae016cc236813916c07fe03aeb786f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::m13 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Row 1 Column 3 of rotation matrix equivalent to this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00374">374</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a903b3baf0e57565960d9fa0db4c9a0a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::m21 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Row 2 Column 1 of rotation matrix equivalent to this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00379">379</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac27765fda8f7c73961db30eb2e4f12f4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::m22 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Row 2 Column 2 of rotation matrix equivalent to this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00384">384</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a516f35610230831cc1c2dd11251335bc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::m23 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Row 2 Column 3 of rotation matrix equivalent to this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00389">389</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8e80945f5ba67d823796b8b2b205dfa7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::m31 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Row 3 Column 1 of rotation matrix equivalent to this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00394">394</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a16d8a175a09ad55a5a8f435a25dd9684"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::m32 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Row 3 Column 2 of rotation matrix equivalent to this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00399">399</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa0b44646a18d487f22949b9923878816"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::m33 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Row 3 Column 3 of rotation matrix equivalent to this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00404">404</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a502cfde860576fa8ef7bcfc5fe6e664b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::mag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the magnitude of this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00260">260</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a72b8e834fb928f157a0cc995658fc9d0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::utility::Quaternion::mag_squared </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the magnitude of this quaternion, squared. </p>
+<p>Faster than squaring the return value of <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html#a502cfde860576fa8ef7bcfc5fe6e664b" title="Returns the magnitude of this quaternion. ">mag()</a> </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00245">245</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab2a38e763f7fd43a29272cf6ee612bf4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp; gams::utility::Quaternion::negate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flip the sign of all parts of the quaternion; equivalent to (but potentially faster than) this-&gt;scale(-1);. </p>
+<dl class="section return"><dt>Returns</dt><dd>*this, after negation </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00200">200</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -684,7 +1333,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a new <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a> object holding the result </dd></dl>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00183">183</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00185">185</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -720,7 +1369,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>*this, the result </dd></dl>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00176">176</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00178">178</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -748,7 +1397,311 @@ Private Attributes</h2></td></tr>
 <p>Copy and conjugate this quaternion. </p>
 <dl class="section return"><dt>Returns</dt><dd>a new <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a>, holding the conjugation of this </dd></dl>
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00198">198</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00214">214</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a45d2e5ca23189e5d1f0ed20d5474e051"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> gams::utility::Quaternion::pow </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate this quaternion raised to a scalar power, return result in a new quaternion. </p>
+<dl class="section return"><dt>Returns</dt><dd>result. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00314">314</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7787d828fd117bfe7b07fcc87efd908"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> gams::utility::Quaternion::pow </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate this quaternion raised to a quaternion power, return result in a new quaternion. </p>
+<dl class="section return"><dt>Returns</dt><dd>result. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00328">328</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a89aab381ecc27d7b2bc354fed625da09"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::Quaternion::pow_this </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate this quaternion raised to a scalar power, store result in this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00321">321</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8887a80d74e120c59a19bd59c2f96744"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::Quaternion::pow_this </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate this quaternion raised to a quaternion power, store result in this quaternion. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00335">335</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa941620d3174290a1506f99d71c59d1f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::Quaternion::pre_multiply </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate hamilton product, lhs * this, and store into this. </p>
+<p>Equivalent to hamilton_product(*this, lhs, *this)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lhs</td><td>left-hand-side to multiply with </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00157">157</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a09400dacca75f2c7faeff084e7106552"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::Quaternion::rotate_by </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a>&#160;</td>
+          <td class="paramname"><em>rot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Treat this quaternion as a location quaternion (w should be zero), and rotate it by the rotation represented by rot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rot</td><td>the <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html" title="Used internally to implement angle operations. ">Quaternion</a> angle to rotate by </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00207">207</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9091b8742e259734cc6f0f3c6e0e44c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::Quaternion::scale </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multiply each part of this quaternion by s. </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00270">270</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abbce6b4ff077a39c51c3abb235a756ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> gams::utility::Quaternion::slerp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If *this and o are unit quaternions, interpolate a quaternion that is partially between them, and return it as a new quaternion. </p>
+<p>If either quaternion is not a unit quaternion, the calculation will not produce an error, but will be meaningless.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">o</td><td>the other unit quaternion </td></tr>
+    <tr><td class="paramname">t</td><td>how "close" to this quaternion the result should be, in a range from 0 to 1, inclusive, where 0 is *this, 1 is o, and 0.5 is halfway inbetween. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the resulting interpolated quaternion </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00342">342</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac72004e8ea6e4b8adf093985b536eb73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::Quaternion::slerp_this </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a> &amp;&#160;</td>
+          <td class="paramname"><em>o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If *this and o are unit quaternions, interpolate a quaternion that is partially between them, and store it in *this. </p>
+<p>If either quaternion is not a unit quaternion, the calculation will not produce an error, but will be meaningless.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">o</td><td>the other unit quaternion </td></tr>
+    <tr><td class="paramname">t</td><td>how "close" to this quaternion the result should be, in a range from 0 to 1, inclusive, where 0 is *this, 1 is o, and 0.5 is halfway inbetween. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00349">349</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -790,7 +1743,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00096">96</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00098">98</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -816,7 +1769,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00104">104</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00106">106</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -858,7 +1811,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00135">135</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00137">137</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -884,7 +1837,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00153">153</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00155">155</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -909,7 +1862,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00217">217</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>getter of w (or real scalar) part of quaternion </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00238">238</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -935,7 +1890,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00222">222</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>setter of w (or real scalar) part of quaternion </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00243">243</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -960,7 +1917,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00214">214</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>getter of x (or i) part of quaternion </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00235">235</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -986,7 +1945,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00219">219</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>getter of x (or i) part of quaternion </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00240">240</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -1011,7 +1972,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00215">215</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>getter of y (or j) part of quaternion </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00236">236</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -1037,7 +2000,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00220">220</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>getter of y (or j) part of quaternion </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00241">241</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -1062,7 +2027,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00216">216</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>getter of z (or k) part of quaternion </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00237">237</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -1088,7 +2055,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00221">221</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
+<p>getter of z (or k) part of quaternion </p>
+
+<p>Definition at line <a class="el" href="../../da/db5/Quaternion_8inl_source.html#l00242">242</a> of file <a class="el" href="../../da/db5/Quaternion_8inl_source.html">Quaternion.inl</a>.</p>
 
 </div>
 </div>
@@ -1111,7 +2080,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00191">191</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00392">392</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
 
 </div>
 </div>
@@ -1133,7 +2102,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00191">191</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00392">392</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
 
 </div>
 </div>
@@ -1155,7 +2124,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00191">191</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00392">392</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
 
 </div>
 </div>
@@ -1177,7 +2146,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00191">191</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d4a/Quaternion_8h_source.html#l00392">392</a> of file <a class="el" href="../../d1/d4a/Quaternion_8h_source.html">Quaternion.h</a>.</p>
 
 </div>
 </div>
@@ -1191,7 +2160,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../db/d2d/classgams_1_1utility_1_1Quaternion.html">Quaternion</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:15:00 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:49 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

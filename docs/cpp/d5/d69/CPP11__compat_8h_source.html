@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -111,34 +111,41 @@ $(document).ready(function(){initNavTree('d5/d69/CPP11__compat_8h_source.html','
 <a href="../../d5/d69/CPP11__compat_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef INCLUDED_CPP11_COMPAT_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define INCLUDED_CPP11_COMPAT_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#if __cplusplus &gt;= 201103L || (MSC_VER &gt;= 1600) </span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// If C++11 support is active</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#ifdef __GNUC__</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#define WARN_UNUSED __attribute__((warn_unused_result))</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// If C++11 support is not active</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// constexpr simply ignored if not supported</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">   10</a></span>&#160;<span class="preprocessor">#define constexpr</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// override simply ignored if not supported</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d5/d69/CPP11__compat_8h.html#a421c2a84099be332814e021bcf72c6cf">   13</a></span>&#160;<span class="preprocessor">#define override</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// approximate static_assert as best as possible</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d5/d69/CPP11__compat_8h.html#a1f114f56ce514e65cd208e49a3854ea8">   16</a></span>&#160;<span class="preprocessor">#define static_assert(pred, message) \</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">     </span><span class="comment">/* error: static_assert failure, see reason below */</span><span class="preprocessor"> typedef int sa_fail__\</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">[(pred) ? 1 : -1]</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d5/d69/CPP11__compat_8h.html#ab979d9d4b4923f7c54d6caa6e1a61936">   20</a></span>&#160;<span class="preprocessor">#define nullptr NULL</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d5/d69/CPP11__compat_8h.html#a6bd66cd1442dfcf69db0b0c7b80b0c7e">    7</a></span>&#160;<span class="preprocessor">#define WARN_UNUSED</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#if __cplusplus &gt;= 201103L // || (_MSC_VER &gt;= 1600) </span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// If C++11 support is active</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define CPP11</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// If C++11 support is not active</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// constexpr simply ignored if not supported</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">   17</a></span>&#160;<span class="preprocessor">#define constexpr</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">// override simply ignored if not supported</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d5/d69/CPP11__compat_8h.html#a421c2a84099be332814e021bcf72c6cf">   20</a></span>&#160;<span class="preprocessor">#define override</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">// approximate static_assert as best as possible</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d5/d69/CPP11__compat_8h.html#a1f114f56ce514e65cd208e49a3854ea8">   23</a></span>&#160;<span class="preprocessor">#define static_assert(pred, message) \</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">     </span><span class="comment">/* error: static_assert failure, see reason below */</span><span class="preprocessor"> typedef int sa_fail__\</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">[(pred) ? 1 : -1]</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d5/d69/CPP11__compat_8h.html#ab979d9d4b4923f7c54d6caa6e1a61936">   27</a></span>&#160;<span class="preprocessor">#define nullptr NULL</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../d5/d69/CPP11__compat_8h.html">CPP11_compat.h</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:14:56 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:40 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

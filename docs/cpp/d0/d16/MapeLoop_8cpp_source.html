@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -176,8 +176,8 @@ $(document).ready(function(){initNavTree('d0/d16/MapeLoop_8cpp_source.html','../
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> &amp; <span class="keywordtype">id</span>,</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> &amp; processes)</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="comment">// initialize the devices, swarm, and self variables</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">variables::init_vars</a> (devices_, knowledge_, processes);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="comment">// initialize the agents, swarm, and self variables</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">variables::init_vars</a> (agents_, knowledge_, processes);</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  swarm_.init_vars (knowledge);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  self_.init_vars (knowledge, <span class="keywordtype">id</span>);</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
@@ -203,7 +203,7 @@ $(document).ready(function(){initNavTree('d0/d16/MapeLoop_8cpp_source.html','../
 <div class="ttc" id="classgams_1_1controllers_1_1MapeLoop_html_a5cac14e51df42989d58cac088bde4e0b"><div class="ttname"><a href="../../d3/d84/classgams_1_1controllers_1_1MapeLoop.html#a5cac14e51df42989d58cac088bde4e0b">gams::controllers::MapeLoop::~MapeLoop</a></div><div class="ttdeci">~MapeLoop()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d16/MapeLoop_8cpp_source.html#l00058">MapeLoop.cpp:58</a></div></div>
 <div class="ttc" id="classgams_1_1controllers_1_1MapeLoop_html_ab524b4402f652feba2c133d424dcf672"><div class="ttname"><a href="../../d3/d84/classgams_1_1controllers_1_1MapeLoop.html#ab524b4402f652feba2c133d424dcf672">gams::controllers::MapeLoop::define_analyze</a></div><div class="ttdeci">void define_analyze(madara::knowledge::KnowledgeRecord(*func)(madara::knowledge::FunctionArguments &amp;, madara::knowledge::Variables &amp;))</div><div class="ttdoc">Defines the analyze function (the A of MAPE). </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d16/MapeLoop_8cpp_source.html#l00064">MapeLoop.cpp:64</a></div></div>
 <div class="ttc" id="classgams_1_1controllers_1_1MapeLoop_html_a021087bf755ddebff77475089824e716"><div class="ttname"><a href="../../d3/d84/classgams_1_1controllers_1_1MapeLoop.html#a021087bf755ddebff77475089824e716">gams::controllers::MapeLoop::define_monitor</a></div><div class="ttdeci">void define_monitor(madara::knowledge::KnowledgeRecord(*func)(madara::knowledge::FunctionArguments &amp;, madara::knowledge::Variables &amp;))</div><div class="ttdoc">Defines the monitor function (the M of MAPE). </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d16/MapeLoop_8cpp_source.html#l00090">MapeLoop.cpp:90</a></div></div>
-<div class="ttc" id="FormationSync_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1e/FormationSync_8cpp_source.html#l00071">FormationSync.cpp:71</a></div></div>
+<div class="ttc" id="FormationSync_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1e/FormationSync_8cpp_source.html#l00069">FormationSync.cpp:69</a></div></div>
 <div class="ttc" id="classgams_1_1controllers_1_1MapeLoop_html_ade5b144d6fde185d669ae722046fbe22"><div class="ttname"><a href="../../d3/d84/classgams_1_1controllers_1_1MapeLoop.html#ade5b144d6fde185d669ae722046fbe22">gams::controllers::MapeLoop::define_execute</a></div><div class="ttdeci">void define_execute(madara::knowledge::KnowledgeRecord(*func)(madara::knowledge::FunctionArguments &amp;, madara::knowledge::Variables &amp;))</div><div class="ttdoc">Defines the execute function (the E of MAPE). </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d16/MapeLoop_8cpp_source.html#l00073">MapeLoop.cpp:73</a></div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a87083f1a052b87f9b75de8bac6c6a864"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">gams::variables::init_vars</a></div><div class="ttdeci">GAMSExport void init_vars(AccentStatuses &amp;variables, madara::knowledge::KnowledgeBase &amp;knowledge, const std::string &amp;prefix)</div><div class="ttdoc">Initializes accent status containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da3/AccentStatus_8cpp_source.html#l00100">AccentStatus.cpp:100</a></div></div>
 <div class="ttc" id="classgams_1_1controllers_1_1MapeLoop_html_a4536185c6122bae7b8d3bc0cc7599843"><div class="ttname"><a href="../../d3/d84/classgams_1_1controllers_1_1MapeLoop.html#a4536185c6122bae7b8d3bc0cc7599843">gams::controllers::MapeLoop::define_mape</a></div><div class="ttdeci">void define_mape(const std::string &amp;loop=&quot;monitor (); analyze (); plan (); execute ()&quot;)</div><div class="ttdoc">Defines the MAPE loop. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d16/MapeLoop_8cpp_source.html#l00083">MapeLoop.cpp:83</a></div></div>
@@ -215,7 +215,7 @@ $(document).ready(function(){initNavTree('d0/d16/MapeLoop_8cpp_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_174b47d5daecbb167184e9622e397e9f.html">controllers</a></li><li class="navelem"><a class="el" href="../../d0/d16/MapeLoop_8cpp.html">MapeLoop.cpp</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:14:56 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:40 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

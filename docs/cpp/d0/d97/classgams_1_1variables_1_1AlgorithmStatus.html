@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -152,7 +152,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a8cdb341f08e5dc61796c6b497ed9f873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d8e/Swarm_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">madara::knowledge::containers::Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a8cdb341f08e5dc61796c6b497ed9f873">deadlocked</a></td></tr>
-<tr class="memdesc:a8cdb341f08e5dc61796c6b497ed9f873"><td class="mdescLeft">&#160;</td><td class="mdescRight">the device-specific variables  <a href="#a8cdb341f08e5dc61796c6b497ed9f873">More...</a><br /></td></tr>
+<tr class="memdesc:a8cdb341f08e5dc61796c6b497ed9f873"><td class="mdescLeft">&#160;</td><td class="mdescRight">the agent-specific variables  <a href="#a8cdb341f08e5dc61796c6b497ed9f873">More...</a><br /></td></tr>
 <tr class="separator:a8cdb341f08e5dc61796c6b497ed9f873"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82a6bbe6a1e55f07e15494bfb0e824a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d8e/Swarm_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">madara::knowledge::containers::Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a82a6bbe6a1e55f07e15494bfb0e824a6">failed</a></td></tr>
 <tr class="memdesc:a82a6bbe6a1e55f07e15494bfb0e824a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">status flag for failed  <a href="#a82a6bbe6a1e55f07e15494bfb0e824a6">More...</a><br /></td></tr>
@@ -161,7 +161,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:af00dcd05d4cb72627424939575413121"><td class="mdescLeft">&#160;</td><td class="mdescRight">status flag for finished  <a href="#af00dcd05d4cb72627424939575413121">More...</a><br /></td></tr>
 <tr class="separator:af00dcd05d4cb72627424939575413121"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae90e1e30db8594ff7e9d0892b883008a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#ae90e1e30db8594ff7e9d0892b883008a">id</a></td></tr>
-<tr class="memdesc:ae90e1e30db8594ff7e9d0892b883008a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the device id  <a href="#ae90e1e30db8594ff7e9d0892b883008a">More...</a><br /></td></tr>
+<tr class="memdesc:ae90e1e30db8594ff7e9d0892b883008a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the agent id  <a href="#ae90e1e30db8594ff7e9d0892b883008a">More...</a><br /></td></tr>
 <tr class="separator:ae90e1e30db8594ff7e9d0892b883008a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecd84c187b0cc3ffd0ded586aa3e2197"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#aecd84c187b0cc3ffd0ded586aa3e2197">name</a></td></tr>
 <tr class="memdesc:aecd84c187b0cc3ffd0ded586aa3e2197"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of the algorithm  <a href="#aecd84c187b0cc3ffd0ded586aa3e2197">More...</a><br /></td></tr>
@@ -283,7 +283,7 @@ Protected Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">knowledge</td><td>the knowledge base that houses the variables </td></tr>
     <tr><td class="paramname">new_name</td><td>the name of the algorithm </td></tr>
-    <tr><td class="paramname">i</td><td>the device id </td></tr>
+    <tr><td class="paramname">i</td><td>the agent id </td></tr>
   </table>
   </dd>
 </dl>
@@ -327,7 +327,7 @@ Protected Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">knowledge</td><td>the variable context </td></tr>
     <tr><td class="paramname">new_name</td><td>the name of the algorithm </td></tr>
-    <tr><td class="paramname">i</td><td>the device id </td></tr>
+    <tr><td class="paramname">i</td><td>the agent id </td></tr>
   </table>
   </dd>
 </dl>
@@ -400,7 +400,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>the device-specific variables </p>
+<p>the agent-specific variables </p>
 <p>status flag for deadlocked </p>
 
 <p>Definition at line <a class="el" href="../../db/dfe/AlgorithmStatus_8h_source.html#l00126">126</a> of file <a class="el" href="../../db/dfe/AlgorithmStatus_8h_source.html">AlgorithmStatus.h</a>.</p>
@@ -449,7 +449,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>the device id </p>
+<p>the agent id </p>
 
 <p>Definition at line <a class="el" href="../../db/dfe/AlgorithmStatus_8h_source.html#l00117">117</a> of file <a class="el" href="../../db/dfe/AlgorithmStatus_8h_source.html">AlgorithmStatus.h</a>.</p>
 
@@ -545,7 +545,7 @@ Protected Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html">variables</a></li><li class="navelem"><a class="el" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html">AlgorithmStatus</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:15:00 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:50 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

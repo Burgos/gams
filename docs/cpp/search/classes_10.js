@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['undefined_5ftransform',['undefined_transform',['../d0/d94/classgams_1_1utility_1_1undefined__transform.html',1,'gams::utility']]],
-  ['uniformrandomareacoverage',['UniformRandomAreaCoverage',['../d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html',1,'gams::algorithms::area_coverage']]],
-  ['uniformrandomareacoveragefactory',['UniformRandomAreaCoverageFactory',['../d6/d07/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverageFactory.html',1,'gams::algorithms::area_coverage']]],
-  ['uniformrandomedgecoverage',['UniformRandomEdgeCoverage',['../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html',1,'gams::algorithms::area_coverage']]],
-  ['uniformrandomedgecoveragefactory',['UniformRandomEdgeCoverageFactory',['../d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html',1,'gams::algorithms::area_coverage']]],
-  ['unrelated_5fframes',['unrelated_frames',['../d5/d1a/classgams_1_1utility_1_1unrelated__frames.html',1,'gams::utility']]]
+  ['searcharea',['SearchArea',['../da/d42/classgams_1_1utility_1_1SearchArea.html',1,'gams::utility']]],
+  ['searcharea',['SearchArea',['../d0/d23/classgams_1_1variables_1_1SearchArea.html',1,'gams::variables']]],
+  ['self',['Self',['../d4/d98/classgams_1_1variables_1_1Self.html',1,'gams::variables']]],
+  ['sensor',['Sensor',['../db/d7d/classgams_1_1variables_1_1Sensor.html',1,'gams::variables']]],
+  ['simplerotateframe',['SimpleRotateFrame',['../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html',1,'gams::utility']]],
+  ['snakeareacoverage',['SnakeAreaCoverage',['../d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html',1,'gams::algorithms::area_coverage']]],
+  ['snakeareacoveragefactory',['SnakeAreaCoverageFactory',['../df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html',1,'gams::algorithms::area_coverage']]],
+  ['swarm',['Swarm',['../d4/dde/classgams_1_1variables_1_1Swarm.html',1,'gams::variables']]]
 ];

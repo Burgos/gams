@@ -42,17 +42,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a4d5885d731953d37c5f9952e7142429d",
-"d3/df5/classgams_1_1algorithms_1_1FormationSync.html#a2bd099c68f23a8a13a4efc9e8d7a7c01",
-"d4/dec/GAMSLoggerExport_8h.html#ae7cb5dbb882481f06c433a652ad29f2b",
-"d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html",
-"d7/da5/classgams_1_1algorithms_1_1FormationCoverage.html#aa0a6c2f59c544341cf778154f622b41a",
-"d9/d6f/classgams_1_1algorithms_1_1Wait.html#a642acdd1721b50092b34bb1760620ea4",
-"da/d50/DebugPlatform_8cpp_source.html",
-"db/d53/classgams_1_1variables_1_1PlatformStatus.html#a0de39e443212a166e01299052e2ddb00",
-"dc/d78/classgams_1_1platforms_1_1JavaPlatform.html#ad6439a7c6d8acb3f1190bb9e380b9532",
-"de/d2e/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverage.html#a92ddc0a491d7e73f18aa9a5466dbd2de",
-"df/d4e/classgams_1_1utility_1_1Position.html#a06870ed97de4011895f1f63b61a18c2d"
+"d1/d48/PriorityWeightedRandomAreaCoverage_8cpp.html",
+"d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory.html#a3202884ced130e1739915bfc90feef88",
+"d4/d7b/classgams_1_1platforms_1_1NullPlatform.html#a191d13f946e6c5edbe26534e760591e6",
+"d6/d46/BaseAlgorithm_8cpp.html",
+"d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a1035c75cfab7b8ea1c5ee82d53dd9d87",
+"d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html#aecdad651ac5aba24dbfc47c669a415be",
+"d9/d7a/classgams_1_1algorithms_1_1Follow.html#af67e6e70ad2cbd1f50df9987acfd7928",
+"da/d5e/classgams_1_1utility_1_1GPSPosition.html#a62674dae220700b13e129b7254512672",
+"da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#ab14d889cef28086f15748128a0ba665e",
+"db/dfe/AlgorithmStatus_8h.html#afea4afb5b61c49dbf99b2f932e3cb6e1",
+"dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#acb841e8c409d920fab7300cee62b1457",
+"de/d60/classgams_1_1utility_1_1CartesianFrame.html",
+"df/d43/Euler_8h.html#a4d5b3cdf478d8aec69315f5be4667833"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -110,7 +110,6 @@ $(document).ready(function(){initNavTree('d6/de9/classgams_1_1utility_1_1PoseVec
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../d9/dea/classgams_1_1utility_1_1PoseVector-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">gams::utility::PoseVector Class Reference</div>  </div>
@@ -158,9 +157,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a504b533a96216fdd096047d8e8c3db7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a504b533a96216fdd096047d8e8c3db7f">PoseVector</a> ()</td></tr>
 <tr class="memdesc:a504b533a96216fdd096047d8e8c3db7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a504b533a96216fdd096047d8e8c3db7f">More...</a><br /></td></tr>
 <tr class="separator:a504b533a96216fdd096047d8e8c3db7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af55f885b6ab37602dc64e7d142502a64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#af55f885b6ab37602dc64e7d142502a64">PoseVector</a> (const <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html">PoseVector</a> &amp;other)</td></tr>
-<tr class="memdesc:af55f885b6ab37602dc64e7d142502a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#af55f885b6ab37602dc64e7d142502a64">More...</a><br /></td></tr>
-<tr class="separator:af55f885b6ab37602dc64e7d142502a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf58ceb57b6ae1e9d5f63bdacdf3915"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a9cf58ceb57b6ae1e9d5f63bdacdf3915">PoseVector</a> (const madara::knowledge::containers::DoubleVector &amp;vec)</td></tr>
+<tr class="memdesc:a9cf58ceb57b6ae1e9d5f63bdacdf3915"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from MADARA DoubleVector.  <a href="#a9cf58ceb57b6ae1e9d5f63bdacdf3915">More...</a><br /></td></tr>
+<tr class="separator:a9cf58ceb57b6ae1e9d5f63bdacdf3915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada7eb002350292583bc25188616b0b76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#ada7eb002350292583bc25188616b0b76">PoseVector</a> (const madara::knowledge::containers::NativeDoubleVector &amp;vec)</td></tr>
+<tr class="memdesc:ada7eb002350292583bc25188616b0b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from MADARA NativeDoubleVector.  <a href="#ada7eb002350292583bc25188616b0b76">More...</a><br /></td></tr>
+<tr class="separator:ada7eb002350292583bc25188616b0b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6638176262f1369b931adba6067ffac1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a6638176262f1369b931adba6067ffac1">PoseVector</a> (const madara::knowledge::containers::DoubleVector &amp;vec_loc, const madara::knowledge::containers::DoubleVector &amp;vec_rot)</td></tr>
+<tr class="memdesc:a6638176262f1369b931adba6067ffac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from two MADARA DoubleVectors, for location and rotation.  <a href="#a6638176262f1369b931adba6067ffac1">More...</a><br /></td></tr>
+<tr class="separator:a6638176262f1369b931adba6067ffac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af517c057846d58b9418cd6397fb6ee73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#af517c057846d58b9418cd6397fb6ee73">PoseVector</a> (const madara::knowledge::containers::NativeDoubleVector &amp;vec_loc, const madara::knowledge::containers::NativeDoubleVector &amp;vec_rot)</td></tr>
+<tr class="memdesc:af517c057846d58b9418cd6397fb6ee73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from two MADARA NativeDoubleVector, for location/rotation.  <a href="#af517c057846d58b9418cd6397fb6ee73">More...</a><br /></td></tr>
+<tr class="separator:af517c057846d58b9418cd6397fb6ee73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6009fcc5ffe7d9aa49808a95a2ad33fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#a6009fcc5ffe7d9aa49808a95a2ad33fe">alt</a> () const </td></tr>
 <tr class="memdesc:a6009fcc5ffe7d9aa49808a95a2ad33fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for altitude, a synonym for z.  <a href="#a6009fcc5ffe7d9aa49808a95a2ad33fe">More...</a><br /></td></tr>
 <tr class="separator:a6009fcc5ffe7d9aa49808a95a2ad33fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,12 +223,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a745633ff026d29a48357bc526c958039"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#a745633ff026d29a48357bc526c958039">operator==</a> (const <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html">LocationVector</a> &amp;rhs) const </td></tr>
 <tr class="memdesc:a745633ff026d29a48357bc526c958039"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if all values in this <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a> are the same as the ones in the rhs.  <a href="#a745633ff026d29a48357bc526c958039">More...</a><br /></td></tr>
 <tr class="separator:a745633ff026d29a48357bc526c958039"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a792f0598cdfea53e154a16b5adf34f2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a792f0598cdfea53e154a16b5adf34f2e">operator==</a> (const <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html">PoseVector</a> &amp;rhs) const </td></tr>
-<tr class="memdesc:a792f0598cdfea53e154a16b5adf34f2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests for exact equality.  <a href="#a792f0598cdfea53e154a16b5adf34f2e">More...</a><br /></td></tr>
-<tr class="separator:a792f0598cdfea53e154a16b5adf34f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da4c1aff4077b509d63dea26e1a17bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a9da4c1aff4077b509d63dea26e1a17bd">operator==</a> (const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;rhs) const </td></tr>
 <tr class="memdesc:a9da4c1aff4077b509d63dea26e1a17bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests for perfect equality with another <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a>.  <a href="#a9da4c1aff4077b509d63dea26e1a17bd">More...</a><br /></td></tr>
 <tr class="separator:a9da4c1aff4077b509d63dea26e1a17bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a792f0598cdfea53e154a16b5adf34f2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a792f0598cdfea53e154a16b5adf34f2e">operator==</a> (const <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html">PoseVector</a> &amp;rhs) const </td></tr>
+<tr class="memdesc:a792f0598cdfea53e154a16b5adf34f2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests for exact equality.  <a href="#a792f0598cdfea53e154a16b5adf34f2e">More...</a><br /></td></tr>
+<tr class="separator:a792f0598cdfea53e154a16b5adf34f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4539356409496062e9fbf588d37f53f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#ad4539356409496062e9fbf588d37f53f">phi</a> () const </td></tr>
 <tr class="memdesc:ad4539356409496062e9fbf588d37f53f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for phi, a synonym for y for Cylindrical and Spherical systems.  <a href="#ad4539356409496062e9fbf588d37f53f">More...</a><br /></td></tr>
 <tr class="separator:ad4539356409496062e9fbf588d37f53f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,15 +304,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a213b4461940fec95cf837a234b263986"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#a213b4461940fec95cf837a234b263986">size</a> ()</td></tr>
 <tr class="memdesc:a213b4461940fec95cf837a234b263986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of elements in this tuple.  <a href="#a213b4461940fec95cf837a234b263986">More...</a><br /></td></tr>
 <tr class="separator:a213b4461940fec95cf837a234b263986"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:ad8c5302cf41944e72d66ae981902c4fd"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#ad8c5302cf41944e72d66ae981902c4fd">X_axis</a> = 0</td></tr>
-<tr class="separator:ad8c5302cf41944e72d66ae981902c4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0321af3d8f9fd6310995c89db04ddffd"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a0321af3d8f9fd6310995c89db04ddffd">Y_axis</a> = 1</td></tr>
-<tr class="separator:a0321af3d8f9fd6310995c89db04ddffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a330165ea547b80226ed351716724a6"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a1a330165ea547b80226ed351716724a6">Z_axis</a> = 2</td></tr>
-<tr class="separator:a1a330165ea547b80226ed351716724a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Container for <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> information, not bound to a frame. </p>
@@ -322,7 +321,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/db5/Pose_8h_source.html#l00194">194</a> of file <a class="el" href="../../d7/db5/Pose_8h_source.html">Pose.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/db5/Pose_8h_source.html#l00223">223</a> of file <a class="el" href="../../d7/db5/Pose_8h_source.html">Pose.h</a>.</p>
 
 </div>
 </div>
@@ -396,7 +395,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00061">61</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00063">63</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -431,7 +430,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00065">65</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00067">67</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -461,12 +460,12 @@ Static Public Attributes</h2></td></tr>
 <p><a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a> info will be all zeros (<a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a779531bc47e78b354267bb2e60306aa6" title="Tests if all location information is zero. ">is_location_zero()</a> == true)</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rot</td><td>the <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> to get location info from. </td></tr>
+    <tr><td class="paramname">loc</td><td>the <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> to get location info from. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00068">68</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00070">70</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -511,7 +510,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00071">71</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00073">73</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -539,11 +538,11 @@ Static Public Attributes</h2></td></tr>
 <p>Default constructor. </p>
 <p>All values will be INVAL_COORD </p>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00075">75</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00077">77</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af55f885b6ab37602dc64e7d142502a64"></a>
+<a class="anchor" id="a9cf58ceb57b6ae1e9d5f63bdacdf3915"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -551,23 +550,153 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> gams::utility::PoseVector::PoseVector </td>
+          <td class="memname">gams::utility::PoseVector::PoseVector </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html">PoseVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
+          <td class="paramtype">const madara::knowledge::containers::DoubleVector &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Copy constructor. </p>
+<p>Constructor from MADARA DoubleVector. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec</td><td>the vector to get values from (index 0, 1, 2, 3, 4, 5 go to x, y, z, rx, ry, rz) </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00078">78</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00080">80</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ada7eb002350292583bc25188616b0b76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gams::utility::PoseVector::PoseVector </td>
+          <td>(</td>
+          <td class="paramtype">const madara::knowledge::containers::NativeDoubleVector &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor from MADARA NativeDoubleVector. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec</td><td>the vector to get values from (index 0, 1, 2, 3, 4, 5 go to x, y, z, rx, ry, rz) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00091">91</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6638176262f1369b931adba6067ffac1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gams::utility::PoseVector::PoseVector </td>
+          <td>(</td>
+          <td class="paramtype">const madara::knowledge::containers::DoubleVector &amp;&#160;</td>
+          <td class="paramname"><em>vec_loc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const madara::knowledge::containers::DoubleVector &amp;&#160;</td>
+          <td class="paramname"><em>vec_rot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor from two MADARA DoubleVectors, for location and rotation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec_loc</td><td>location values from (0, 1, 2 into x, y, z) </td></tr>
+    <tr><td class="paramname">vec_rot</td><td>rotation values from (0, 1, 2 into rx, ry, rz) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00085">85</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af517c057846d58b9418cd6397fb6ee73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gams::utility::PoseVector::PoseVector </td>
+          <td>(</td>
+          <td class="paramtype">const madara::knowledge::containers::NativeDoubleVector &amp;&#160;</td>
+          <td class="paramname"><em>vec_loc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const madara::knowledge::containers::NativeDoubleVector &amp;&#160;</td>
+          <td class="paramname"><em>vec_rot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor from two MADARA NativeDoubleVector, for location/rotation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec_loc</td><td>location values from (0, 1, 2 into x, y, z) </td></tr>
+    <tr><td class="paramname">vec_rot</td><td>rotation values from (0, 1, 2 into rx, ry, rz) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00096">96</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -596,7 +725,7 @@ Static Public Attributes</h2></td></tr>
 <p>Getter for altitude, a synonym for z. </p>
 <dl class="section return"><dt>Returns</dt><dd>altitude value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00103">103</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00115">115</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -631,7 +760,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new altitude value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00107">107</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00119">119</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -659,7 +788,7 @@ Static Public Attributes</h2></td></tr>
 <p>Gets a reference to this object's <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a> part. </p>
 <dl class="section return"><dt>Returns</dt><dd>reference to the <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00143">143</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00163">163</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -687,7 +816,7 @@ Static Public Attributes</h2></td></tr>
 <p>Gets a const reference to this object's <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a> part. </p>
 <dl class="section return"><dt>Returns</dt><dd>const reference to the <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00148">148</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00168">168</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -715,7 +844,7 @@ Static Public Attributes</h2></td></tr>
 <p>Gets a reference to this object's <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a> part. </p>
 <dl class="section return"><dt>Returns</dt><dd>reference to the <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00153">153</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00173">173</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -743,7 +872,7 @@ Static Public Attributes</h2></td></tr>
 <p>Gets a const reference to this object's <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a> part. </p>
 <dl class="section return"><dt>Returns</dt><dd>const reference to the <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00158">158</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00178">178</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -772,7 +901,7 @@ Static Public Attributes</h2></td></tr>
 <p>Useful for derived types.</p>
 <dl class="section return"><dt>Returns</dt><dd>reference to this object. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00133">133</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00153">153</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -801,7 +930,7 @@ Static Public Attributes</h2></td></tr>
 <p>Useful for derived types.</p>
 <dl class="section return"><dt>Returns</dt><dd>const reference to this object. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00138">138</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00158">158</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -842,7 +971,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00119">119</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00139">139</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -870,7 +999,7 @@ Static Public Attributes</h2></td></tr>
 <p>Tests if this <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> is invalid; i.e., any values are INVAL_COORD. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if at least one value is INVAL_COORD </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00082">82</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00102">102</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -898,7 +1027,7 @@ Static Public Attributes</h2></td></tr>
 <p>Tests if all location information is zero. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if all location information is zero </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00087">87</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00107">107</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -926,7 +1055,7 @@ Static Public Attributes</h2></td></tr>
 <p>Tests if all rotation information is zero. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if all rotation information is zero </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00092">92</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00112">112</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -955,7 +1084,7 @@ Static Public Attributes</h2></td></tr>
 <p>If true, is_location_zero and is_rotation_zero are also true</p>
 <dl class="section return"><dt>Returns</dt><dd>true if all pose information is zero </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00097">97</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00117">117</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -983,7 +1112,7 @@ Static Public Attributes</h2></td></tr>
 <p>Getter for latitude, a synonym for y. </p>
 <dl class="section return"><dt>Returns</dt><dd>latitude value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00102">102</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00114">114</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1018,7 +1147,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new latitude value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00106">106</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00118">118</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1046,7 +1175,7 @@ Static Public Attributes</h2></td></tr>
 <p>Getter for longitude, a synonym for x. </p>
 <dl class="section return"><dt>Returns</dt><dd>longitude value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00101">101</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00113">113</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1081,7 +1210,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new longitude value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00105">105</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00117">117</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1109,7 +1238,7 @@ Static Public Attributes</h2></td></tr>
 <p>Get the name of this coordinate type. </p>
 <dl class="section return"><dt>Returns</dt><dd>"Pose" </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00109">109</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00129">129</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -1143,42 +1272,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00078">78</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a792f0598cdfea53e154a16b5adf34f2e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool gams::utility::PoseVector::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html">PoseVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Tests for exact equality. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">rhs</td><td>the other pose to test against </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>true if all values equal corresponding values in other pose </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00102">102</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00090">90</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1217,6 +1311,41 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a792f0598cdfea53e154a16b5adf34f2e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool gams::utility::PoseVector::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html">PoseVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tests for exact equality. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>the other pose to test against </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if all values equal corresponding values in other pose </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00122">122</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad4539356409496062e9fbf588d37f53f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1241,7 +1370,7 @@ Static Public Attributes</h2></td></tr>
 <p>Getter for phi, a synonym for y for Cylindrical and Spherical systems. </p>
 <dl class="section return"><dt>Returns</dt><dd>phi value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00111">111</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00123">123</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1276,7 +1405,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new phi value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00116">116</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00128">128</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1304,7 +1433,7 @@ Static Public Attributes</h2></td></tr>
 <p>Getter for r, a synonym for z for Cylindrical and Spherical systems. </p>
 <dl class="section return"><dt>Returns</dt><dd>r value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00112">112</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00124">124</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1339,7 +1468,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new r value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00117">117</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00129">129</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1367,7 +1496,7 @@ Static Public Attributes</h2></td></tr>
 <p>Getter for rho, a synonym for x for Cylindrical systems. </p>
 <dl class="section return"><dt>Returns</dt><dd>rho value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00109">109</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00121">121</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1402,7 +1531,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new rho value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00114">114</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00126">126</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1643,7 +1772,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00125">125</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00145">145</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -1671,7 +1800,7 @@ Static Public Attributes</h2></td></tr>
 <p>Get the number of values this coordinate type uses. </p>
 <dl class="section return"><dt>Returns</dt><dd>6 </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00114">114</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00134">134</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -1699,7 +1828,7 @@ Static Public Attributes</h2></td></tr>
 <p>Number of elements in this tuple. </p>
 <dl class="section return"><dt>Returns</dt><dd>the integer 3 </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00119">119</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00131">131</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1727,7 +1856,7 @@ Static Public Attributes</h2></td></tr>
 <p>Getter for theta, a synonym for x for Spherical systems. </p>
 <dl class="section return"><dt>Returns</dt><dd>theta value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00110">110</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00122">122</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1762,7 +1891,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new theta value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00115">115</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00127">127</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1790,7 +1919,7 @@ Static Public Attributes</h2></td></tr>
 <p>Getter for x. </p>
 <dl class="section return"><dt>Returns</dt><dd>x value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00093">93</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00105">105</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1825,7 +1954,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new x value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00097">97</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00109">109</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1853,7 +1982,7 @@ Static Public Attributes</h2></td></tr>
 <p>Getter for y. </p>
 <dl class="section return"><dt>Returns</dt><dd>y value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00094">94</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00106">106</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1888,7 +2017,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new y value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00098">98</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00110">110</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1916,7 +2045,7 @@ Static Public Attributes</h2></td></tr>
 <p>Getter for z. </p>
 <dl class="section return"><dt>Returns</dt><dd>z value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00095">95</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00107">107</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -1951,74 +2080,7 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new z value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00099">99</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ad8c5302cf41944e72d66ae981902c4fd"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int gams::utility::RotationVector::X_axis = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00086">86</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0321af3d8f9fd6310995c89db04ddffd"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int gams::utility::RotationVector::Y_axis = 1</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00087">87</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1a330165ea547b80226ed351716724a6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int gams::utility::RotationVector::Z_axis = 2</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00088">88</a> of file <a class="el" href="../../d0/d8f/Rotation_8h_source.html">Rotation.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d2b/Location_8inl_source.html#l00111">111</a> of file <a class="el" href="../../df/d2b/Location_8inl_source.html">Location.inl</a>.</p>
 
 </div>
 </div>
@@ -2032,7 +2094,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html">PoseVector</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:15:00 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:49 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -109,6 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions_func_s.html#index_s"><span>s</span></a></li>
       <li><a href="functions_func_t.html#index_t"><span>t</span></a></li>
       <li><a href="functions_func_u.html#index_u"><span>u</span></a></li>
+      <li><a href="functions_func_v.html#index_v"><span>v</span></a></li>
       <li><a href="functions_func_w.html#index_w"><span>w</span></a></li>
       <li><a href="functions_func_x.html#index_x"><span>x</span></a></li>
       <li><a href="functions_func_y.html#index_y"><span>y</span></a></li>
@@ -149,6 +150,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 &#160;
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>scale()
+: <a class="el" href="db/d2d/classgams_1_1utility_1_1Quaternion.html#a9091b8742e259734cc6f0f3c6e0e44c5">gams::utility::Quaternion</a>
+</li>
 <li>SearchArea()
 : <a class="el" href="da/d42/classgams_1_1utility_1_1SearchArea.html#ac8d75948a1bcfcc8f35be9f8c10a6a3a">gams::utility::SearchArea</a>
 , <a class="el" href="d0/d23/classgams_1_1variables_1_1SearchArea.html#a9132392231ff4a9f98445a02391fdad3">gams::variables::SearchArea</a>
@@ -172,10 +176,13 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 , <a class="el" href="d6/de9/classgams_1_1utility_1_1PoseVector.html#a90a059ebbaa1e57c27574271e70f58b2">gams::utility::PoseVector</a>
 , <a class="el" href="d4/d0d/classgams_1_1utility_1_1RotationVector.html#a894f3e8e437b12a7c80f48c61a1e769d">gams::utility::RotationVector</a>
 </li>
-<li>set_devices()
-: <a class="el" href="d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a68878d11b820268cc0e1aad88669f0ab">gams::algorithms::AlgorithmFactory</a>
-, <a class="el" href="d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ae579e38f84a97573416dc1ed109156fa">gams::algorithms::BaseAlgorithm</a>
-, <a class="el" href="d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ac997c2e3a6ac35b5b3e81a4659d8ca8b">gams::algorithms::ControllerAlgorithmFactory</a>
+<li>set_agents()
+: <a class="el" href="d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a10d00b5194d66acb4c42d1945eab3438">gams::algorithms::AlgorithmFactory</a>
+, <a class="el" href="d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a087981d688a2dc90bdff19f3b5354d73">gams::algorithms::BaseAlgorithm</a>
+, <a class="el" href="d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a7a0f5a79f7b42e8e3e27fa3b1114fb6c">gams::algorithms::ControllerAlgorithmFactory</a>
+</li>
+<li>set_from_quat()
+: <a class="el" href="d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html#abeb89d1284c03ed3d31b7b2ff8b1c672">gams::utility::euler::Euler&lt; A, B, C, Conv &gt;</a>
 </li>
 <li>set_knowledge()
 : <a class="el" href="d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#acb841e8c409d920fab7300cee62b1457">gams::algorithms::AlgorithmFactory</a>
@@ -229,18 +236,29 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 , <a class="el" href="d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#a2cff881fbabf6e2ea7d6b57ad0468fed">gams::platforms::PlatformFactory</a>
 </li>
 <li>set_value()
-: <a class="el" href="db/d7d/classgams_1_1variables_1_1Sensor.html#aef67d33004d1661ca26de75251a6e77e">gams::variables::Sensor</a>
+: <a class="el" href="db/d7d/classgams_1_1variables_1_1Sensor.html#a700d6c2dae071199133755decc039bbf">gams::variables::Sensor</a>
+</li>
+<li>SimpleRotateFrame()
+: <a class="el" href="dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html#adc26524b0c24b3728dd3c74c1bd19d59">gams::utility::SimpleRotateFrame</a>
 </li>
 <li>size()
 : <a class="el" href="d8/d57/classgams_1_1utility_1_1LocationVector.html#a213b4461940fec95cf837a234b263986">gams::utility::LocationVector</a>
 , <a class="el" href="d6/de9/classgams_1_1utility_1_1PoseVector.html#ae780b828a239159c309a6a98537c239c">gams::utility::PoseVector</a>
 , <a class="el" href="d4/d0d/classgams_1_1utility_1_1RotationVector.html#a10aa0815da034159c9abeff801a541e9">gams::utility::RotationVector</a>
 </li>
+<li>slerp()
+: <a class="el" href="db/d2d/classgams_1_1utility_1_1Quaternion.html#abbce6b4ff077a39c51c3abb235a756ae">gams::utility::Quaternion</a>
+, <a class="el" href="da/da5/classgams_1_1utility_1_1Rotation.html#a46019701d792a92c48c55dd2a7c41ca7">gams::utility::Rotation</a>
+</li>
+<li>slerp_this()
+: <a class="el" href="db/d2d/classgams_1_1utility_1_1Quaternion.html#ac72004e8ea6e4b8adf093985b536eb73">gams::utility::Quaternion</a>
+, <a class="el" href="da/da5/classgams_1_1utility_1_1Rotation.html#a9587c90880144625c2ff1f894e3e8e82">gams::utility::Rotation</a>
+</li>
 <li>slope_2d()
 : <a class="el" href="df/d4e/classgams_1_1utility_1_1Position.html#a58c4a8d0a4fcfe757a278588ca64cced">gams::utility::Position</a>
 </li>
 <li>SnakeAreaCoverage()
-: <a class="el" href="d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html#a4ea502ecc1b8a00dad0757f7d7a06be3">gams::algorithms::area_coverage::SnakeAreaCoverage</a>
+: <a class="el" href="d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html#a6d228c8c0159ac9bce038d3198ca72e3">gams::algorithms::area_coverage::SnakeAreaCoverage</a>
 </li>
 <li>stop_move()
 : <a class="el" href="d0/df3/classgams_1_1platforms_1_1BasePlatform.html#ad6439a7c6d8acb3f1190bb9e380b9532">gams::platforms::BasePlatform</a>
@@ -250,6 +268,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 </li>
 <li>system_analyze()
 : <a class="el" href="df/d21/classgams_1_1controllers_1_1BaseController.html#a28fe4f2bb2a6dd15cfb811a9b2f05495">gams::controllers::BaseController</a>
+, <a class="el" href="db/d65/classgams_1_1controllers_1_1Multicontroller.html#a702f14ed40a23de7476d3163c534369f">gams::controllers::Multicontroller</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -257,7 +276,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 9 2015 21:15:00 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:50 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,4 +1,7 @@
 <map id="src/gams/utility/Quaternion.inl" name="src/gams/utility/Quaternion.inl">
-<area shape="rect" id="node2" href="$d1/d4a/Quaternion_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="8,80,197,107"/>
-<area shape="rect" id="node3" href="$d1/d3a/ReferenceFrame_8cpp.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="16,155,189,196"/>
+<area shape="rect" id="node2" href="$d1/d4a/Quaternion_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="205,80,395,107"/>
+<area shape="rect" id="node3" href="$df/d43/Euler_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="106,162,262,189"/>
+<area shape="rect" id="node5" href="$dc/d42/EulerFormulas_8inl.html" title="src/gams/utility/EulerFormulas.inl" alt="" coords="192,244,408,271"/>
+<area shape="rect" id="node6" href="$d1/d3a/ReferenceFrame_8cpp.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="337,155,511,196"/>
+<area shape="rect" id="node4" href="$d3/dd6/Euler_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5,244,168,271"/>
 </map>

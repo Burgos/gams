@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -147,9 +147,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf43fb1756eda6c55f6455e4785926e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#adf43fb1756eda6c55f6455e4785926e2">Coordinate</a> (const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> *<a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a9a6c152f389fcefbde8a761da992be77">frame</a>)</td></tr>
 <tr class="memdesc:adf43fb1756eda6c55f6455e4785926e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct through a pointer to a frame object.  <a href="#adf43fb1756eda6c55f6455e4785926e2">More...</a><br /></td></tr>
 <tr class="separator:adf43fb1756eda6c55f6455e4785926e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37608263a2224f2be6d12b95ab8b631a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a37608263a2224f2be6d12b95ab8b631a">Coordinate</a> (const <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">Coordinate</a> &amp;orig)</td></tr>
-<tr class="memdesc:a37608263a2224f2be6d12b95ab8b631a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a37608263a2224f2be6d12b95ab8b631a">More...</a><br /></td></tr>
-<tr class="separator:a37608263a2224f2be6d12b95ab8b631a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4692d8ce4b9347d511b38866c04d037"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#aa4692d8ce4b9347d511b38866c04d037">approximately_equal</a> (const CoordType &amp;other, double epsilon) const </td></tr>
 <tr class="memdesc:aa4692d8ce4b9347d511b38866c04d037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> is within epsilon in distance (as defined by this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s reference frame's distance metric).  <a href="#aa4692d8ce4b9347d511b38866c04d037">More...</a><br /></td></tr>
 <tr class="separator:aa4692d8ce4b9347d511b38866c04d037"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,10 +159,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac75379733b5630be74ee454e928ef1d7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#ac75379733b5630be74ee454e928ef1d7">frame</a> (const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;new_frame)</td></tr>
 <tr class="memdesc:ac75379733b5630be74ee454e928ef1d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the reference frame this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> belongs to.  <a href="#ac75379733b5630be74ee454e928ef1d7">More...</a><br /></td></tr>
 <tr class="separator:ac75379733b5630be74ee454e928ef1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1e1da99e396e0a047b37b4ee624371"><td class="memTemplParams" colspan="2">template&lt;typename ContainType &gt; </td></tr>
+<tr class="memitem:a3b1e1da99e396e0a047b37b4ee624371"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a3b1e1da99e396e0a047b37b4ee624371">from_array</a> (const ContainType &amp;in)</td></tr>
+<tr class="memdesc:a3b1e1da99e396e0a047b37b4ee624371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrites this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s values with those pulled from the referenced array.  <a href="#a3b1e1da99e396e0a047b37b4ee624371">More...</a><br /></td></tr>
+<tr class="separator:a3b1e1da99e396e0a047b37b4ee624371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bf7eb815906e9d8566837ecad13be82"><td class="memTemplParams" colspan="2">template&lt;typename ContainType &gt; </td></tr>
 <tr class="memitem:a4bf7eb815906e9d8566837ecad13be82"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a4bf7eb815906e9d8566837ecad13be82">from_container</a> (const ContainType &amp;container)</td></tr>
 <tr class="memdesc:a4bf7eb815906e9d8566837ecad13be82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrites this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s values with those pulled from the referenced container.  <a href="#a4bf7eb815906e9d8566837ecad13be82">More...</a><br /></td></tr>
 <tr class="separator:a4bf7eb815906e9d8566837ecad13be82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ae3a17a0cda2e2099f6c589571e9a5c"><td class="memTemplParams" colspan="2">template&lt;typename Order , typename ContainType &gt; </td></tr>
+<tr class="memitem:a7ae3a17a0cda2e2099f6c589571e9a5c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a7ae3a17a0cda2e2099f6c589571e9a5c">from_container</a> (ContainType &amp;container)</td></tr>
+<tr class="memdesc:a7ae3a17a0cda2e2099f6c589571e9a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwrites this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s values with those pulled from the referenced container.  <a href="#a7ae3a17a0cda2e2099f6c589571e9a5c">More...</a><br /></td></tr>
+<tr class="separator:a7ae3a17a0cda2e2099f6c589571e9a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af10490df68fa3f0f04e4e67f18913e24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#af10490df68fa3f0f04e4e67f18913e24">from_string</a> (const std::string &amp;in)</td></tr>
 <tr class="memdesc:af10490df68fa3f0f04e4e67f18913e24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets coordinates from a string encoding a sequence of doubles, separated by any set of characters other than 0-9, '.  <a href="#af10490df68fa3f0f04e4e67f18913e24">More...</a><br /></td></tr>
 <tr class="separator:af10490df68fa3f0f04e4e67f18913e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,31 +180,39 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac86e925f53d16e9ae53f004efb4866a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#ac86e925f53d16e9ae53f004efb4866a5">operator!=</a> (const CoordType &amp;rhs) const </td></tr>
 <tr class="memdesc:ac86e925f53d16e9ae53f004efb4866a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate inequality with the other <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>.  <a href="#ac86e925f53d16e9ae53f004efb4866a5">More...</a><br /></td></tr>
 <tr class="separator:ac86e925f53d16e9ae53f004efb4866a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31f7a80d567fd90389e41e0551f66276"><td class="memTemplParams" colspan="2">template&lt;typename RhsType &gt; </td></tr>
-<tr class="memitem:a31f7a80d567fd90389e41e0551f66276"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a31f7a80d567fd90389e41e0551f66276">operator!=</a> (const RhsType &amp;rhs) const </td></tr>
-<tr class="memdesc:a31f7a80d567fd90389e41e0551f66276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate inequality with a vector-like object.  <a href="#a31f7a80d567fd90389e41e0551f66276">More...</a><br /></td></tr>
-<tr class="separator:a31f7a80d567fd90389e41e0551f66276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8017e086594f73e3de53b8e8bc38745"><td class="memTemplParams" colspan="2">template&lt;typename ContainType &gt; </td></tr>
+<tr class="memitem:af8017e086594f73e3de53b8e8bc38745"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#af8017e086594f73e3de53b8e8bc38745">operator!=</a> (const ContainType &amp;container) const </td></tr>
+<tr class="memdesc:af8017e086594f73e3de53b8e8bc38745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares coordinates values to those in the container.  <a href="#af8017e086594f73e3de53b8e8bc38745">More...</a><br /></td></tr>
+<tr class="separator:af8017e086594f73e3de53b8e8bc38745"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24fa6d16fe78efb631768ebe14367f22"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a24fa6d16fe78efb631768ebe14367f22">operator&lt;</a> (const <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">Coordinate</a>&lt; CoordType &gt; &amp;rhs) const </td></tr>
 <tr class="memdesc:a24fa6d16fe78efb631768ebe14367f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less than used for ordering in stl containers.  <a href="#a24fa6d16fe78efb631768ebe14367f22">More...</a><br /></td></tr>
 <tr class="separator:a24fa6d16fe78efb631768ebe14367f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a130a9ca1052f0277814d467b9080b352"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a130a9ca1052f0277814d467b9080b352">operator==</a> (const CoordType &amp;rhs) const </td></tr>
 <tr class="memdesc:a130a9ca1052f0277814d467b9080b352"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate equality with the other <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>.  <a href="#a130a9ca1052f0277814d467b9080b352">More...</a><br /></td></tr>
 <tr class="separator:a130a9ca1052f0277814d467b9080b352"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52f0fc36b94c6371e0a03e03a7edfdc3"><td class="memTemplParams" colspan="2">template&lt;typename RhsType &gt; </td></tr>
-<tr class="memitem:a52f0fc36b94c6371e0a03e03a7edfdc3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a52f0fc36b94c6371e0a03e03a7edfdc3">operator==</a> (const RhsType &amp;rhs) const </td></tr>
-<tr class="memdesc:a52f0fc36b94c6371e0a03e03a7edfdc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate equality with a vector-like object.  <a href="#a52f0fc36b94c6371e0a03e03a7edfdc3">More...</a><br /></td></tr>
-<tr class="separator:a52f0fc36b94c6371e0a03e03a7edfdc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a709565ac57e77ba84578981fe3747"><td class="memTemplParams" colspan="2">template&lt;typename ContainType &gt; </td></tr>
+<tr class="memitem:a44a709565ac57e77ba84578981fe3747"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a44a709565ac57e77ba84578981fe3747">operator==</a> (const ContainType &amp;container) const </td></tr>
+<tr class="memdesc:a44a709565ac57e77ba84578981fe3747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares coordinates values to those in the container.  <a href="#a44a709565ac57e77ba84578981fe3747">More...</a><br /></td></tr>
+<tr class="separator:a44a709565ac57e77ba84578981fe3747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7b167b14dd779814c5c3b1a5eecaa4c"><td class="memTemplParams" colspan="2">template&lt;typename ContainType &gt; </td></tr>
+<tr class="memitem:aa7b167b14dd779814c5c3b1a5eecaa4c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#aa7b167b14dd779814c5c3b1a5eecaa4c">to_array</a> (ContainType &amp;out) const </td></tr>
+<tr class="memdesc:aa7b167b14dd779814c5c3b1a5eecaa4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs this Coordinates values to the referenced container.  <a href="#aa7b167b14dd779814c5c3b1a5eecaa4c">More...</a><br /></td></tr>
+<tr class="separator:aa7b167b14dd779814c5c3b1a5eecaa4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa4f1ac4e81b15abe806cad0b2bc6323"><td class="memTemplParams" colspan="2">template&lt;typename ContainType &gt; </td></tr>
 <tr class="memitem:aaa4f1ac4e81b15abe806cad0b2bc6323"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#aaa4f1ac4e81b15abe806cad0b2bc6323">to_container</a> (ContainType &amp;container) const </td></tr>
 <tr class="memdesc:aaa4f1ac4e81b15abe806cad0b2bc6323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs this Coordinates values to the referenced container.  <a href="#aaa4f1ac4e81b15abe806cad0b2bc6323">More...</a><br /></td></tr>
 <tr class="separator:aaa4f1ac4e81b15abe806cad0b2bc6323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af06284eb285ccd70c77b2b13d989c63d"><td class="memTemplParams" colspan="2">template&lt;typename Order , typename ContainType &gt; </td></tr>
+<tr class="memitem:af06284eb285ccd70c77b2b13d989c63d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#af06284eb285ccd70c77b2b13d989c63d">to_container</a> (ContainType &amp;container) const </td></tr>
+<tr class="memdesc:af06284eb285ccd70c77b2b13d989c63d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs this Coordinates values to the referenced container.  <a href="#af06284eb285ccd70c77b2b13d989c63d">More...</a><br /></td></tr>
+<tr class="separator:af06284eb285ccd70c77b2b13d989c63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae27d96cd37647757d261ff7289f18c15"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#ae27d96cd37647757d261ff7289f18c15">to_string</a> (const std::string &amp;delim=&quot;,&quot;) const </td></tr>
 <tr class="memdesc:ae27d96cd37647757d261ff7289f18c15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to a string; each value in the data tuple is joined with the delimeter passed in.  <a href="#ae27d96cd37647757d261ff7289f18c15">More...</a><br /></td></tr>
 <tr class="separator:ae27d96cd37647757d261ff7289f18c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae27b220f484323f4affb5aba0853d974"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#ae27b220f484323f4affb5aba0853d974">transform_this_to</a> (const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;new_frame)</td></tr>
 <tr class="memdesc:ae27b220f484323f4affb5aba0853d974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform this coordinate, in place, to a new reference frame.  <a href="#ae27b220f484323f4affb5aba0853d974">More...</a><br /></td></tr>
 <tr class="separator:ae27b220f484323f4affb5aba0853d974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7acfeda09cfb7c9084c015131f210d7"><td class="memItemLeft" align="right" valign="top">CoordType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#ab7acfeda09cfb7c9084c015131f210d7">transform_to</a> (const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;new_frame) const </td></tr>
+<tr class="memitem:ab7acfeda09cfb7c9084c015131f210d7"><td class="memItemLeft" align="right" valign="top">CoordType <a class="el" href="../../d5/d69/CPP11__compat_8h.html#a6bd66cd1442dfcf69db0b0c7b80b0c7e">WARN_UNUSED</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#ab7acfeda09cfb7c9084c015131f210d7">transform_to</a> (const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;new_frame) const </td></tr>
 <tr class="memdesc:ab7acfeda09cfb7c9084c015131f210d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy and transform this coordinate to a new reference frame.  <a href="#ab7acfeda09cfb7c9084c015131f210d7">More...</a><br /></td></tr>
 <tr class="separator:ab7acfeda09cfb7c9084c015131f210d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -236,7 +249,7 @@ class gams::utility::Coordinate&lt; CoordType &gt;</h3>
 <p>New coordinate types must: &ndash; Inherit from <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>, and pass itself as template parameter &ndash; Inherit from a base class which does not inherit from <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> &ndash; That base class must: &ndash; Have a typedef BaseType which refers to itself &ndash; Implement operator== &ndash; Implement the following methods: static std::string name() // return the type's name static constexpr int size() // return # of values in representation constexpr double get(int i) const // return ith value of representation constexpr bool operator==(const BaseType &amp;rhs) const BaseType &amp;as_vec() // return *this constexpr const BaseType &amp;as_vec() const // return *this</p>
 <p>Additionally, new coordinate types should either: &ndash; Specialize the <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. ">ReferenceFrame</a>::*_within_frame templates; OR &ndash; Add new overloads for transform_to_origin, transform_from_origin, do_normalize, and calc_distance virtual methods in <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. ">ReferenceFrame</a>, and add transformation logic for those methods in the various frames </p>
 
-<p>Definition at line <a class="el" href="../../d6/df6/Coordinate_8h_source.html#l00116">116</a> of file <a class="el" href="../../d6/df6/Coordinate_8h_source.html">Coordinate.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/df6/Coordinate_8h_source.html#l00243">243</a> of file <a class="el" href="../../d6/df6/Coordinate_8h_source.html">Coordinate.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a1ba9dc42b3fb266951c04adb0f12f53e"></a>
 <div class="memitem">
@@ -264,7 +277,7 @@ template&lt;typename CoordType &gt; </div>
 <p>Default Constructor. </p>
 <p>Initializes frame as <a class="el" href="../../d0/d20/classgams_1_1utility_1_1CoordinateBase.html#ac4c9781a9b31e0614bf26f98b60cce28" title="Retrieves the default frame that Coordinates (Pose, Location, Rotation) that don&#39;t specify a frame wi...">default_frame()</a> </p>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00071">71</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00073">73</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -301,7 +314,7 @@ template&lt;typename CoordType &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00075">75</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00077">77</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -338,44 +351,7 @@ template&lt;typename CoordType &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00080">80</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a37608263a2224f2be6d12b95ab8b631a"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename CoordType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">gams::utility::Coordinate</a>&lt; CoordType &gt;::<a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">Coordinate</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">Coordinate</a>&lt; CoordType &gt; &amp;&#160;</td>
-          <td class="paramname"><em>orig</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Copy constructor. </p>
-<p>This <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> will refer to the same frame as the original <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">orig</td><td>the original <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to copy. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00085">85</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00082">82</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -425,7 +401,7 @@ template&lt;typename CoordType&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the distance is less than or equal to epsilon </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00172">172</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00149">149</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -452,7 +428,7 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00090">90</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00087">87</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -479,7 +455,7 @@ template&lt;typename CoordType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00097">97</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00094">94</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -508,7 +484,7 @@ template&lt;typename Type &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00104">104</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00101">101</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -537,7 +513,7 @@ template&lt;typename Type &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00111">111</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00108">108</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -565,7 +541,7 @@ template&lt;typename Type &gt; </div>
 <p>Retrieves the default frame that Coordinates (<a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>, <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a>) that don't specify a frame will use. </p>
 <dl class="section return"><dt>Returns</dt><dd>a reference to a <a class="el" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html" title="Locations represented as meters distance, in x, y, and z, from an origin Rotations represented in Axi...">CartesianFrame</a> object that serves as default </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00065">65</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00067">67</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -594,8 +570,8 @@ template&lt;typename CoordType&gt; </div>
 </div><div class="memdoc">
 
 <p>Calculate distance from this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to a target. </p>
-<p>If the target is in another reference frame, this and the target will be copied, and converted to their closest common frame.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>If the target is in another reference frame, this and the target will be copied, and converted to their closest common frame. </p><pre class="fragment">Requres "ReferenceFrame.h"
+</pre><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">target</td><td>the target <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to calculate distance to </td></tr>
   </table>
@@ -611,7 +587,7 @@ template&lt;typename CoordType&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00377">377</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00476">476</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
 
 </div>
 </div>
@@ -641,7 +617,7 @@ template&lt;typename CoordType &gt; </div>
 <p>Getter for the reference frame this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> belongs to. </p>
 <dl class="section return"><dt>Returns</dt><dd>the frame </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00117">117</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00114">114</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -678,9 +654,55 @@ template&lt;typename CoordType &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the new frame </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the old frame </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00123">123</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00120">120</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3b1e1da99e396e0a047b37b4ee624371"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CoordType &gt; </div>
+<div class="memtemplate">
+template&lt;typename ContainType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">gams::utility::Coordinate</a>&lt; CoordType &gt;::from_array </td>
+          <td>(</td>
+          <td class="paramtype">const ContainType &amp;&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overwrites this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s values with those pulled from the referenced array. </p>
+<p>These values will be within this object's current reference frame. The container must support operator[],</p>
+<p>If the array's size is smaller than the cardinality of this coordinate type, the behavior is undefined. If it is larger, the extra elements are ignored.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">ContainType</td><td>the type of the container; must support operator[] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">container</td><td>the container to pull new values from. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00278">278</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -712,8 +734,55 @@ template&lt;typename ContainType &gt; </div>
 
 <p>Overwrites this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s values with those pulled from the referenced container. </p>
 <p>These values will be within this object's current reference frame. The container must support operator[],</p>
+<p>Values read in XYZ, or Lng/Lat/Alt order</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
+    <tr><td class="paramname">ContainType</td><td>the type of the container; must support operator[] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">container</td><td>the container to pull new values from. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00243">243</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7ae3a17a0cda2e2099f6c589571e9a5c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CoordType &gt; </div>
+<div class="memtemplate">
+template&lt;typename O , typename ContainType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">gams::utility::Coordinate</a>&lt; CoordType &gt;::from_container </td>
+          <td>(</td>
+          <td class="paramtype">ContainType &amp;&#160;</td>
+          <td class="paramname"><em>container</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overwrites this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s values with those pulled from the referenced container. </p>
+<p>These values will be within this object's current reference frame. The container must support operator[],</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Order</td><td>a type which specifies the ordering (see order namespace) </td></tr>
     <tr><td class="paramname">ContainType</td><td>the type of the container; must support operator[] </td></tr>
   </table>
   </dd>
@@ -758,12 +827,12 @@ template&lt;typename CoordType &gt; </div>
 <p>This does not modify this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s reference frame binding. The new coordinate will be within this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s reference frame.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">in</td><td>the input string, as specified above </td></tr>
+    <tr><td class="paramname">the</td><td>input string, as specified above </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00228">228</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00205">205</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -791,9 +860,8 @@ template&lt;typename CoordType &gt; </div>
 </div><div class="memdoc">
 
 <p>Reduces this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to it's normalized form, should one exist. </p>
-<p>Typically useful for <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> types which incorporate angles. </p>
-
-<p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00384">384</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
+<p>Typically useful for <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> types which incorporate angles. </p><pre class="fragment">Requres "ReferenceFrame.h"</pre> 
+<p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00483">483</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
 
 </div>
 </div>
@@ -822,7 +890,6 @@ template&lt;typename CoordType&gt; </div>
 </div><div class="memdoc">
 
 <p>Evaluate inequality with the other <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>. </p>
-<p>If the coordinates belong to different reference frames, the rhs will be copied, and converted to the same frame as the lhs</p>
 <p>Note: in practice, a negated call to the approximately_equal method may be more useful</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -830,19 +897,19 @@ template&lt;typename CoordType&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>false if, after conversion, the two coordinates are the same </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>false if the two coordinates are in the same reference frame, and they have the same values </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00159">159</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00143">143</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a31f7a80d567fd90389e41e0551f66276"></a>
+<a class="anchor" id="af8017e086594f73e3de53b8e8bc38745"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename CoordType &gt; </div>
 <div class="memtemplate">
-template&lt;typename RhsType &gt; </div>
+template&lt;typename ContainType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -850,8 +917,8 @@ template&lt;typename RhsType &gt; </div>
         <tr>
           <td class="memname">bool <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">gams::utility::Coordinate</a>&lt; CoordType &gt;::operator!= </td>
           <td>(</td>
-          <td class="paramtype">const RhsType &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td class="paramtype">const ContainType &amp;&#160;</td>
+          <td class="paramname"><em>container</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -862,22 +929,17 @@ template&lt;typename RhsType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Evaluate inequality with a vector-like object. </p>
+<p>Compares coordinates values to those in the container. </p>
+<p>The container must support operator[], returning a numerical type. The values in the container are assumed to lie in the same reference frame as those of this coordinate</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">RhsType</td><td>type of the right-hand-side. Must support a size() method, and operator[] to access contents. </td></tr>
+    <tr><td class="paramname">ContainType</td><td>the type of the container; must support operator[] </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">rhs</td><td>the right-hand-side of the equality. This object is treated as a set of coordinates in this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s reference frame. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>false if the rhs is the same size as this object, and all terms are equal to each other, respectively. True otherwise. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>returns false if this coordinates values match those in the container, respectively. If this container is smaller than the cardinality of this coordinate type, behavior is undefined. If it is greater, the extra values are ignored. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00166">166</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00304">304</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -914,7 +976,7 @@ template&lt;typename CoordType&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if *this is less than rhs </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00179">179</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00156">156</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -943,7 +1005,6 @@ template&lt;typename CoordType&gt; </div>
 </div><div class="memdoc">
 
 <p>Evaluate equality with the other <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>. </p>
-<p>If the coordinates belong to different reference frames, the rhs will be copied, and converted to the same frame as the lhs</p>
 <p>Note: in practice, the approximately_equal method may be more useful</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -951,46 +1012,96 @@ template&lt;typename CoordType&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if, after conversion, the two coordinates are the same </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the two coordinates are in the same reference frame, and they have the same values </dd></dl>
 
 <p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00130">130</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a52f0fc36b94c6371e0a03e03a7edfdc3"></a>
+<a class="anchor" id="a44a709565ac57e77ba84578981fe3747"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename CoordType &gt; </div>
 <div class="memtemplate">
-template&lt;typename RhsType &gt; </div>
+template&lt;typename ContainType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">gams::utility::Coordinate</a>&lt; CoordType &gt;::operator== </td>
           <td>(</td>
-          <td class="paramtype">const RhsType &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td class="paramtype">const ContainType &amp;&#160;</td>
+          <td class="paramname"><em>container</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Evaluate equality with a vector-like object. </p>
+<p>Compares coordinates values to those in the container. </p>
+<p>The container must support operator[], returning a numerical type. The values in the container are assumed to lie in the same reference frame as those of this coordinate</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">RhsType</td><td>type of the right-hand-side. Must support a size() method, and operator[] to access contents. </td></tr>
+    <tr><td class="paramname">ContainType</td><td>the type of the container; must support operator[] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>returns true if this coordinates values match those in the container, respectively. If this container is smaller than the cardinality of this coordinate type, behavior is undefined. If it is greater, the extra values are ignored. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00290">290</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7b167b14dd779814c5c3b1a5eecaa4c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CoordType &gt; </div>
+<div class="memtemplate">
+template&lt;typename ContainType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">gams::utility::Coordinate</a>&lt; CoordType &gt;::to_array </td>
+          <td>(</td>
+          <td class="paramtype">ContainType &amp;&#160;</td>
+          <td class="paramname"><em>out</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Outputs this Coordinates values to the referenced container. </p>
+<p>This container type must support operator[] for setting by index.</p>
+<p>If the array's size is smaller than the cardinality of this coordinate type, the behavior is undefined. If it is larger, the extra elements are not changed.</p>
+<p>The MADARA DoubleVector and NativeDoubleVector types are supported.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">ContainType</td><td>the type of the container; must support "set" </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rhs</td><td>the right-hand-side of the equality. This object is treated as a set of coordinates in this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s reference frame. </td></tr>
+    <tr><td class="paramname">container</td><td>the container to put this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s values into. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if the rhs is the same size as this object, and all terms are equal to each other, respectively. False otherwise. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00145">145</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00266">266</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -1021,8 +1132,9 @@ template&lt;typename ContainType &gt; </div>
 </div><div class="memdoc">
 
 <p>Outputs this Coordinates values to the referenced container. </p>
-<p>This container type must support a set method taking two parameters: first, an integer index; second, a floating-point value</p>
+<p>This container type must support the following set method: ContainType::set(int index, double value)</p>
 <p>The MADARA DoubleVector and NativeDoubleVector types are supported.</p>
+<p>Values read in XYZ, or Lng/Lat/Alt order</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">ContainType</td><td>the type of the container; must support "set" </td></tr>
@@ -1036,7 +1148,54 @@ template&lt;typename ContainType &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00243">243</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00220">220</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af06284eb285ccd70c77b2b13d989c63d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CoordType &gt; </div>
+<div class="memtemplate">
+template&lt;typename O , typename ContainType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">gams::utility::Coordinate</a>&lt; CoordType &gt;::to_container </td>
+          <td>(</td>
+          <td class="paramtype">ContainType &amp;&#160;</td>
+          <td class="paramname"><em>container</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Outputs this Coordinates values to the referenced container. </p>
+<p>This container type must support the following set method: ContainType::set(int index, double value)</p>
+<p>The MADARA DoubleVector and NativeDoubleVector types are supported.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Order</td><td>a type which specifies the ordering (see order namespace) </td></tr>
+    <tr><td class="paramname">ContainType</td><td>the type of the container; must support "set" </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">container</td><td>the container to put this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>'s values into. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00232">232</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -1073,7 +1232,7 @@ template&lt;typename CoordType &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the string representation of this <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a>. If fed into the from_string method of the same <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> type within the same referenence frame, will produce an equal <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> to this one. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00198">198</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d36/Coordinate_8inl_source.html#l00175">175</a> of file <a class="el" href="../../de/d36/Coordinate_8inl_source.html">Coordinate.inl</a>.</p>
 
 </div>
 </div>
@@ -1102,6 +1261,7 @@ template&lt;typename CoordType &gt; </div>
 </div><div class="memdoc">
 
 <p>Transform this coordinate, in place, to a new reference frame. </p>
+<p>Requres "ReferenceFrame.h"</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">new_frame</td><td>the frame to transform to</td></tr>
@@ -1117,7 +1277,7 @@ template&lt;typename CoordType &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00370">370</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00469">469</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
 
 </div>
 </div>
@@ -1146,6 +1306,7 @@ template&lt;typename CoordType &gt; </div>
 </div><div class="memdoc">
 
 <p>Copy and transform this coordinate to a new reference frame. </p>
+<p>Requres "ReferenceFrame.h"</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">new_frame</td><td>the frame to transform to </td></tr>
@@ -1162,7 +1323,7 @@ template&lt;typename CoordType &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00361">361</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00460">460</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
 
 </div>
 </div>
@@ -1187,7 +1348,7 @@ template&lt;typename CoordType&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/df6/Coordinate_8h_source.html#l00342">342</a> of file <a class="el" href="../../d6/df6/Coordinate_8h_source.html">Coordinate.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/df6/Coordinate_8h_source.html#l00531">531</a> of file <a class="el" href="../../d6/df6/Coordinate_8h_source.html">Coordinate.h</a>.</p>
 
 </div>
 </div>
@@ -1202,7 +1363,7 @@ template&lt;typename CoordType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html">Coordinate</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:15:00 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:49 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

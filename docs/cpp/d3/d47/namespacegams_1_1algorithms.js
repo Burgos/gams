@@ -16,6 +16,8 @@ var namespacegams_1_1algorithms =
     [ "FormationFlyingFactory", "de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html", "de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory" ],
     [ "FormationSync", "d3/df5/classgams_1_1algorithms_1_1FormationSync.html", "d3/df5/classgams_1_1algorithms_1_1FormationSync" ],
     [ "FormationSyncFactory", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory" ],
+    [ "GroupBarrier", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier" ],
+    [ "GroupBarrierFactory", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory" ],
     [ "JavaAlgorithm", "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html", "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm" ],
     [ "JavaAlgorithmFactory", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory" ],
     [ "Land", "d3/d06/classgams_1_1algorithms_1_1Land.html", "d3/d06/classgams_1_1algorithms_1_1Land" ],
@@ -31,5 +33,7 @@ var namespacegams_1_1algorithms =
     [ "Takeoff", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html", "dd/dce/classgams_1_1algorithms_1_1Takeoff" ],
     [ "TakeoffFactory", "d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html", "d2/d22/classgams_1_1algorithms_1_1TakeoffFactory" ],
     [ "Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html", "d9/d6f/classgams_1_1algorithms_1_1Wait" ],
-    [ "WaitFactory", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html", "da/dc3/classgams_1_1algorithms_1_1WaitFactory" ]
+    [ "WaitFactory", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html", "da/dc3/classgams_1_1algorithms_1_1WaitFactory" ],
+    [ "ZoneCoverage", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage" ],
+    [ "ZoneCoverageFactory", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory" ]
 ];

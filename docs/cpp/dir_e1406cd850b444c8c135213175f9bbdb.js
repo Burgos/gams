@@ -1,6 +1,8 @@
 var dir_e1406cd850b444c8c135213175f9bbdb =
 [
     [ "java", "dir_31bc1b702b9ff8b726f207eea4ba275a.html", "dir_31bc1b702b9ff8b726f207eea4ba275a" ],
+    [ "AngleUnits.h", "d6/d2a/AngleUnits_8h.html", "d6/d2a/AngleUnits_8h" ],
+    [ "ArgumentParser.h", "d0/d47/ArgumentParser_8h.html", "d0/d47/ArgumentParser_8h" ],
     [ "Axes.cpp", "d3/d3d/Axes_8cpp.html", "d3/d3d/Axes_8cpp" ],
     [ "Axes.h", "d3/d6e/Axes_8h.html", [
       [ "Axes", "d0/db6/classgams_1_1utility_1_1Axes.html", "d0/db6/classgams_1_1utility_1_1Axes" ]
@@ -16,6 +18,9 @@ var dir_e1406cd850b444c8c135213175f9bbdb =
     ] ],
     [ "Coordinate.h", "d6/df6/Coordinate_8h.html", "d6/df6/Coordinate_8h" ],
     [ "Coordinate.inl", "de/d36/Coordinate_8inl.html", "de/d36/Coordinate_8inl" ],
+    [ "Euler.h", "df/d43/Euler_8h.html", "df/d43/Euler_8h" ],
+    [ "Euler.inl", "d3/dd6/Euler_8inl.html", "d3/dd6/Euler_8inl" ],
+    [ "EulerFormulas.inl", "dc/d42/EulerFormulas_8inl.html", "dc/d42/EulerFormulas_8inl" ],
     [ "GAMSLoggerExport.h", "d4/dec/GAMSLoggerExport_8h.html", "d4/dec/GAMSLoggerExport_8h" ],
     [ "GPSFrame.cpp", "d7/db5/GPSFrame_8cpp.html", null ],
     [ "GPSFrame.h", "dc/dba/GPSFrame_8h.html", [
@@ -60,5 +65,8 @@ var dir_e1406cd850b444c8c135213175f9bbdb =
     [ "SearchArea.cpp", "d3/dbf/utility_2SearchArea_8cpp.html", "d3/dbf/utility_2SearchArea_8cpp" ],
     [ "SearchArea.h", "d6/d1b/utility_2SearchArea_8h.html", [
       [ "SearchArea", "da/d42/classgams_1_1utility_1_1SearchArea.html", "da/d42/classgams_1_1utility_1_1SearchArea" ]
-    ] ]
+    ] ],
+    [ "UTMFrame.cpp", "d8/dc9/UTMFrame_8cpp.html", null ],
+    [ "UTMFrame.h", "dc/d94/UTMFrame_8h.html", null ],
+    [ "UTMFrame.inl", "d3/df4/UTMFrame_8inl.html", "d3/df4/UTMFrame_8inl" ]
 ];

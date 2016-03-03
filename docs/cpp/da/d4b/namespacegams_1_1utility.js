@@ -1,8 +1,11 @@
 var namespacegams_1_1utility =
 [
+    [ "detail", "df/d43/namespacegams_1_1utility_1_1detail.html", "df/d43/namespacegams_1_1utility_1_1detail" ],
+    [ "euler", "d3/d18/namespacegams_1_1utility_1_1euler.html", "d3/d18/namespacegams_1_1utility_1_1euler" ],
     [ "java", "da/d6d/namespacegams_1_1utility_1_1java.html", "da/d6d/namespacegams_1_1utility_1_1java" ],
+    [ "order", "d0/d14/namespacegams_1_1utility_1_1order.html", "d0/d14/namespacegams_1_1utility_1_1order" ],
+    [ "ArgumentParser", "dc/d83/classgams_1_1utility_1_1ArgumentParser.html", "dc/d83/classgams_1_1utility_1_1ArgumentParser" ],
     [ "Axes", "d0/db6/classgams_1_1utility_1_1Axes.html", "d0/db6/classgams_1_1utility_1_1Axes" ],
-    [ "AxisAngleFrame", "d6/d79/classgams_1_1utility_1_1AxisAngleFrame.html", "d6/d79/classgams_1_1utility_1_1AxisAngleFrame" ],
     [ "bad_coord_type", "d1/d2e/classgams_1_1utility_1_1bad__coord__type.html", "d1/d2e/classgams_1_1utility_1_1bad__coord__type" ],
     [ "CartesianFrame", "de/d60/classgams_1_1utility_1_1CartesianFrame.html", "de/d60/classgams_1_1utility_1_1CartesianFrame" ],
     [ "Containerize", "de/d8c/classgams_1_1utility_1_1Containerize.html", "de/d8c/classgams_1_1utility_1_1Containerize" ],
@@ -17,11 +20,13 @@ var namespacegams_1_1utility =
     [ "Position", "df/d4e/classgams_1_1utility_1_1Position.html", "df/d4e/classgams_1_1utility_1_1Position" ],
     [ "PrioritizedRegion", "d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html", "d8/d11/classgams_1_1utility_1_1PrioritizedRegion" ],
     [ "Quaternion", "db/d2d/classgams_1_1utility_1_1Quaternion.html", "db/d2d/classgams_1_1utility_1_1Quaternion" ],
+    [ "RadixLess", "da/d05/classgams_1_1utility_1_1RadixLess.html", "da/d05/classgams_1_1utility_1_1RadixLess" ],
     [ "ReferenceFrame", "d0/d25/classgams_1_1utility_1_1ReferenceFrame.html", "d0/d25/classgams_1_1utility_1_1ReferenceFrame" ],
     [ "Region", "da/db7/classgams_1_1utility_1_1Region.html", "da/db7/classgams_1_1utility_1_1Region" ],
     [ "Rotation", "da/da5/classgams_1_1utility_1_1Rotation.html", "da/da5/classgams_1_1utility_1_1Rotation" ],
     [ "RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html", "d4/d0d/classgams_1_1utility_1_1RotationVector" ],
     [ "SearchArea", "da/d42/classgams_1_1utility_1_1SearchArea.html", "da/d42/classgams_1_1utility_1_1SearchArea" ],
+    [ "SimpleRotateFrame", "dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html", "dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame" ],
     [ "undefined_transform", "d0/d94/classgams_1_1utility_1_1undefined__transform.html", "d0/d94/classgams_1_1utility_1_1undefined__transform" ],
     [ "unrelated_frames", "d5/d1a/classgams_1_1utility_1_1unrelated__frames.html", "d5/d1a/classgams_1_1utility_1_1unrelated__frames" ]
 ];

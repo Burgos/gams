@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -121,312 +121,329 @@ $(document).ready(function(){initNavTree('d1/db1/ControllerAlgorithmFactory_8cpp
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/ded/FormationFlying_8h.html">gams/algorithms/FormationFlying.h</a>&quot;</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/dcf/FormationCoverage_8h.html">gams/algorithms/FormationCoverage.h</a>&quot;</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/dd3/FormationSync_8h.html">gams/algorithms/FormationSync.h</a>&quot;</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/df4/Takeoff_8h.html">gams/algorithms/Takeoff.h</a>&quot;</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/ddd/Follow_8h.html">gams/algorithms/Follow.h</a>&quot;</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d7e/MessageProfiling_8h.html">gams/algorithms/MessageProfiling.h</a>&quot;</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d53/Executive_8h.html">gams/algorithms/Executive.h</a>&quot;</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d74/Wait_8h.html">gams/algorithms/Wait.h</a>&quot;</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/dfe/PerformanceProfiling_8h.html">gams/algorithms/PerformanceProfiling.h</a>&quot;</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d3f/UniformRandomAreaCoverage_8h.html">gams/algorithms/area_coverage/UniformRandomAreaCoverage.h</a>&quot;</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d13/UniformRandomEdgeCoverage_8h.html">gams/algorithms/area_coverage/UniformRandomEdgeCoverage.h</a>&quot;</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d02/PriorityWeightedRandomAreaCoverage_8h.html">gams/algorithms/area_coverage/PriorityWeightedRandomAreaCoverage.h</a>&quot;</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/d3c/LocalPheremoneAreaCoverage_8h.html">gams/algorithms/area_coverage/LocalPheremoneAreaCoverage.h</a>&quot;</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d1a/SnakeAreaCoverage_8h.html">gams/algorithms/area_coverage/SnakeAreaCoverage.h</a>&quot;</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d65/MinTimeAreaCoverage_8h.html">gams/algorithms/area_coverage/MinTimeAreaCoverage.h</a>&quot;</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d40/PrioritizedMinTimeAreaCoverage_8h.html">gams/algorithms/area_coverage/PrioritizedMinTimeAreaCoverage.h</a>&quot;</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d28/PerimeterPatrol_8h.html">gams/algorithms/area_coverage/PerimeterPatrol.h</a>&quot;</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/de9/WaypointsCoverage_8h.html">gams/algorithms/area_coverage/WaypointsCoverage.h</a>&quot;</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/ddd/GlobalLogger_8h.html">gams/loggers/GlobalLogger.h</a>&quot;</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d44/ZoneCoverage_8h.html">gams/algorithms/ZoneCoverage.h</a>&quot;</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/df4/Takeoff_8h.html">gams/algorithms/Takeoff.h</a>&quot;</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/ddd/Follow_8h.html">gams/algorithms/Follow.h</a>&quot;</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d7e/MessageProfiling_8h.html">gams/algorithms/MessageProfiling.h</a>&quot;</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d53/Executive_8h.html">gams/algorithms/Executive.h</a>&quot;</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d74/Wait_8h.html">gams/algorithms/Wait.h</a>&quot;</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/dfe/PerformanceProfiling_8h.html">gams/algorithms/PerformanceProfiling.h</a>&quot;</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/da0/GroupBarrier_8h.html">gams/algorithms/GroupBarrier.h</a>&quot;</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d3f/UniformRandomAreaCoverage_8h.html">gams/algorithms/area_coverage/UniformRandomAreaCoverage.h</a>&quot;</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d13/UniformRandomEdgeCoverage_8h.html">gams/algorithms/area_coverage/UniformRandomEdgeCoverage.h</a>&quot;</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d02/PriorityWeightedRandomAreaCoverage_8h.html">gams/algorithms/area_coverage/PriorityWeightedRandomAreaCoverage.h</a>&quot;</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/d3c/LocalPheremoneAreaCoverage_8h.html">gams/algorithms/area_coverage/LocalPheremoneAreaCoverage.h</a>&quot;</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d1a/SnakeAreaCoverage_8h.html">gams/algorithms/area_coverage/SnakeAreaCoverage.h</a>&quot;</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d65/MinTimeAreaCoverage_8h.html">gams/algorithms/area_coverage/MinTimeAreaCoverage.h</a>&quot;</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d40/PrioritizedMinTimeAreaCoverage_8h.html">gams/algorithms/area_coverage/PrioritizedMinTimeAreaCoverage.h</a>&quot;</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d28/PerimeterPatrol_8h.html">gams/algorithms/area_coverage/PerimeterPatrol.h</a>&quot;</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/de9/WaypointsCoverage_8h.html">gams/algorithms/area_coverage/WaypointsCoverage.h</a>&quot;</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/ddd/GlobalLogger_8h.html">gams/loggers/GlobalLogger.h</a>&quot;</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html">algorithms</a> = <a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html">gams::algorithms</a>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d8/df1/namespacegams_1_1variables.html">variables</a> = <a class="code" href="../../d8/df1/namespacegams_1_1variables.html">gams::variables</a>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a> = <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a>;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a54b1f0624a0a5fce9049d304e95db402">   84</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a54b1f0624a0a5fce9049d304e95db402">algorithms::ControllerAlgorithmFactory::ControllerAlgorithmFactory</a> (</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  madara::knowledge::KnowledgeBase * knowledge,</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>,</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>,</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a309c97d3c93df53b594745fa0ae65ead">variables::Devices</a> * devices)</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;: devices_ (devices), knowledge_ (knowledge), platform_ (platform),</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  self_ (self), sensors_ (sensors)</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;{</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a740bebd105bf6bcf21b2a647bfedce95">initialize_default_mappings</a> ();</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ab4ae704e559ada84a7976450e680453e">   96</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ab4ae704e559ada84a7976450e680453e">algorithms::ControllerAlgorithmFactory::~ControllerAlgorithmFactory</a> ()</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;{</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a8f06785af1c2192512e1ead7cb7c744d">  101</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a8f06785af1c2192512e1ead7cb7c744d">algorithms::ControllerAlgorithmFactory::add</a> (</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keyword">const</span> std::vector &lt;std::string&gt; &amp; aliases,</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html">AlgorithmFactory</a> * factory)</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; aliases.size (); ++i)</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  {</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    std::string alias (aliases[i]);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    madara::utility::lower (alias);</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    factory-&gt;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a68878d11b820268cc0e1aad88669f0ab">set_devices</a> (devices_);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    factory-&gt;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#acb841e8c409d920fab7300cee62b1457">set_knowledge</a> (knowledge_);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    factory-&gt;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e">set_platform</a> (platform_);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    factory-&gt;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#abce0341ed7fe1872fd664723583bb143">set_self</a> (self_);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    factory-&gt;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#ad015e77872301133e73d6fd410634694">set_sensors</a> (sensors_);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    factory_map_[alias] = factory;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  }</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a740bebd105bf6bcf21b2a647bfedce95">  120</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a740bebd105bf6bcf21b2a647bfedce95">algorithms::ControllerAlgorithmFactory::initialize_default_mappings</a> (</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  std::vector &lt;std::string&gt; aliases;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  </div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="comment">// the debug algorithm</span></div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  aliases.resize (3);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  aliases[0] = <span class="stringliteral">&quot;debug&quot;</span>;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  aliases[1] = <span class="stringliteral">&quot;print&quot;</span>;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  aliases[2] = <span class="stringliteral">&quot;printer&quot;</span>;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html">DebugAlgorithmFactory</a> ());</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html">algorithms</a> = <a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html">gams::algorithms</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d8/df1/namespacegams_1_1variables.html">variables</a> = <a class="code" href="../../d8/df1/namespacegams_1_1variables.html">gams::variables</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a> = <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a28119f045b35faba3c1d719a14d18100">   86</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a28119f045b35faba3c1d719a14d18100">algorithms::ControllerAlgorithmFactory::ControllerAlgorithmFactory</a> (</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  madara::knowledge::KnowledgeBase * knowledge,</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>,</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>,</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> * agents)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;: agents_ (agents), knowledge_ (knowledge), platform_ (platform),</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  self_ (self), sensors_ (sensors)</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a740bebd105bf6bcf21b2a647bfedce95">initialize_default_mappings</a> ();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;}</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ab4ae704e559ada84a7976450e680453e">   98</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ab4ae704e559ada84a7976450e680453e">algorithms::ControllerAlgorithmFactory::~ControllerAlgorithmFactory</a> ()</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;{</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a8f06785af1c2192512e1ead7cb7c744d">  103</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a8f06785af1c2192512e1ead7cb7c744d">algorithms::ControllerAlgorithmFactory::add</a> (</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <span class="keyword">const</span> std::vector &lt;std::string&gt; &amp; aliases,</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html">AlgorithmFactory</a> * factory)</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; aliases.size (); ++i)</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    std::string alias (aliases[i]);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    madara::utility::lower (alias);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    factory-&gt;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a10d00b5194d66acb4c42d1945eab3438">set_agents</a> (agents_);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    factory-&gt;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#acb841e8c409d920fab7300cee62b1457">set_knowledge</a> (knowledge_);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    factory-&gt;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e">set_platform</a> (platform_);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    factory-&gt;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#abce0341ed7fe1872fd664723583bb143">set_self</a> (self_);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    factory-&gt;<a class="code" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#ad015e77872301133e73d6fd410634694">set_sensors</a> (sensors_);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    factory_map_[alias] = factory;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a740bebd105bf6bcf21b2a647bfedce95">  122</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a740bebd105bf6bcf21b2a647bfedce95">algorithms::ControllerAlgorithmFactory::initialize_default_mappings</a> (</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;{</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  std::vector &lt;std::string&gt; aliases;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="comment">// the debug algorithm</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  aliases.resize (3);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  aliases[0] = <span class="stringliteral">&quot;debug&quot;</span>;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  aliases[1] = <span class="stringliteral">&quot;print&quot;</span>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  aliases[2] = <span class="stringliteral">&quot;printer&quot;</span>;</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="comment">// the follow algorithm</span></div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  aliases[0] = <span class="stringliteral">&quot;follow&quot;</span>;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d3/d86/classgams_1_1algorithms_1_1FollowFactory.html">FollowFactory</a> ());</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html">DebugAlgorithmFactory</a> ());</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="comment">// the follow algorithm</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  aliases[0] = <span class="stringliteral">&quot;follow&quot;</span>;</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="comment">// the formation coverage algorithm</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  aliases[0] = <span class="stringliteral">&quot;formation coverage&quot;</span>;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html">FormationCoverageFactory</a> ());</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d3/d86/classgams_1_1algorithms_1_1FollowFactory.html">FollowFactory</a> ());</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="comment">// the formation coverage algorithm</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  aliases[0] = <span class="stringliteral">&quot;formation coverage&quot;</span>;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  <span class="comment">// the formation algorithm</span></div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  aliases[0] = <span class="stringliteral">&quot;formation&quot;</span>;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html">FormationFlyingFactory</a> ());</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  </div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="comment">// the move algorithm</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  aliases[0] = <span class="stringliteral">&quot;move&quot;</span>;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html">MoveFactory</a> ());</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  </div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  <span class="comment">// the null algorithm</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  aliases[0] = <span class="stringliteral">&quot;null&quot;</span>;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html">NullAlgorithmFactory</a> ());</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  </div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  <span class="comment">// the takeoff algorithm</span></div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  aliases[0] = <span class="stringliteral">&quot;takeoff&quot;</span>;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html">TakeoffFactory</a> ());</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  </div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <span class="comment">// the local pheromone coverage algorithm</span></div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  aliases[0] = <span class="stringliteral">&quot;local pheremone&quot;</span>;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html">area_coverage::LocalPheremoneAreaCoverageFactory</a> ());</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  </div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  <span class="comment">// the minimum time coverage algorithm</span></div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  aliases.resize (2);</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  aliases[0] = <span class="stringliteral">&quot;min time&quot;</span>;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  aliases[1] = <span class="stringliteral">&quot;mtac&quot;</span>;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html">area_coverage::MinTimeAreaCoverageFactory</a> ());</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  </div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  <span class="comment">// the minimum time coverage algorithm</span></div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  aliases.resize (2);</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  aliases[0] = <span class="stringliteral">&quot;perimeter patrol&quot;</span>;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  aliases[1] = <span class="stringliteral">&quot;ppac&quot;</span>;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d5/df5/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolFactory.html">area_coverage::PerimeterPatrolFactory</a> ());</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  </div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <span class="comment">// the priority-weighted coverage algorithm</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  aliases.resize (2);</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  aliases[0] = <span class="stringliteral">&quot;priority weighted random area coverage&quot;</span>;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  aliases[1] = <span class="stringliteral">&quot;pwrac&quot;</span>;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html">area_coverage::PriorityWeightedRandomAreaCoverageFactory</a> ());</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;  </div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  <span class="comment">// the snake area coverage algorithm</span></div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  aliases.resize (2);</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  aliases[0] = <span class="stringliteral">&quot;snake&quot;</span>;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  aliases[1] = <span class="stringliteral">&quot;sac&quot;</span>;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html">area_coverage::SnakeAreaCoverageFactory</a> ());</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  </div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  <span class="comment">// the uniform random area coverage algorithm</span></div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  aliases.resize (2);</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  aliases[0] = <span class="stringliteral">&quot;uniform random area coverage&quot;</span>;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  aliases[1] = <span class="stringliteral">&quot;urac&quot;</span>;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d6/d07/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverageFactory.html">area_coverage::UniformRandomAreaCoverageFactory</a> ());</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  </div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  <span class="comment">// the uniform random edge coverage algorithm</span></div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  aliases.resize (2);</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  aliases[0] = <span class="stringliteral">&quot;uniform random edge coverage&quot;</span>;</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  aliases[1] = <span class="stringliteral">&quot;urec&quot;</span>;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html">area_coverage::UniformRandomEdgeCoverageFactory</a> ());</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html">FormationCoverageFactory</a> ());</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  <span class="comment">// the formation algorithm</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  aliases[0] = <span class="stringliteral">&quot;formation&quot;</span>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html">FormationFlyingFactory</a> ());</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  </div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <span class="comment">// the move algorithm</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  aliases[0] = <span class="stringliteral">&quot;move&quot;</span>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html">MoveFactory</a> ());</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  </div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <span class="comment">// the null algorithm</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  aliases[0] = <span class="stringliteral">&quot;null&quot;</span>;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html">NullAlgorithmFactory</a> ());</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="comment">// the takeoff algorithm</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  aliases[0] = <span class="stringliteral">&quot;takeoff&quot;</span>;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html">TakeoffFactory</a> ());</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  </div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  <span class="comment">// the local pheromone coverage algorithm</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  aliases[0] = <span class="stringliteral">&quot;local pheremone&quot;</span>;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html">area_coverage::LocalPheremoneAreaCoverageFactory</a> ());</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  </div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  <span class="comment">// the minimum time coverage algorithm</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  aliases.resize (2);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  aliases[0] = <span class="stringliteral">&quot;min time&quot;</span>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  aliases[1] = <span class="stringliteral">&quot;mtac&quot;</span>;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html">area_coverage::MinTimeAreaCoverageFactory</a> ());</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  </div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="comment">// the minimum time coverage algorithm</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  aliases.resize (2);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  aliases[0] = <span class="stringliteral">&quot;perimeter patrol&quot;</span>;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  aliases[1] = <span class="stringliteral">&quot;ppac&quot;</span>;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d5/df5/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolFactory.html">area_coverage::PerimeterPatrolFactory</a> ());</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  </div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <span class="comment">// the priority-weighted coverage algorithm</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  aliases.resize (2);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  aliases[0] = <span class="stringliteral">&quot;priority weighted random area coverage&quot;</span>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  aliases[1] = <span class="stringliteral">&quot;pwrac&quot;</span>;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html">area_coverage::PriorityWeightedRandomAreaCoverageFactory</a> ());</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  </div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  <span class="comment">// the snake area coverage algorithm</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  aliases.resize (2);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  aliases[0] = <span class="stringliteral">&quot;snake&quot;</span>;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  aliases[1] = <span class="stringliteral">&quot;sac&quot;</span>;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html">area_coverage::SnakeAreaCoverageFactory</a> ());</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  <span class="comment">// the uniform random area coverage algorithm</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  aliases.resize (2);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  aliases[0] = <span class="stringliteral">&quot;uniform random area coverage&quot;</span>;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  aliases[1] = <span class="stringliteral">&quot;urac&quot;</span>;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d6/d07/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverageFactory.html">area_coverage::UniformRandomAreaCoverageFactory</a> ());</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  </div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  <span class="comment">// the uniform random edge coverage algorithm</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  aliases.resize (2);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;  aliases[0] = <span class="stringliteral">&quot;uniform random edge coverage&quot;</span>;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  aliases[1] = <span class="stringliteral">&quot;urec&quot;</span>;</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  <span class="comment">// the prioritized min time area coverage</span></div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  aliases.resize (2);</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  aliases[0] = <span class="stringliteral">&quot;prioritized min time area coverage&quot;</span>;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;  aliases[1] = <span class="stringliteral">&quot;pmtac&quot;</span>;</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html">area_coverage::PrioritizedMinTimeAreaCoverageFactory</a> ());</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html">area_coverage::UniformRandomEdgeCoverageFactory</a> ());</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  <span class="comment">// the prioritized min time area coverage</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;  aliases.resize (2);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;  aliases[0] = <span class="stringliteral">&quot;prioritized min time area coverage&quot;</span>;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  aliases[1] = <span class="stringliteral">&quot;pmtac&quot;</span>;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;  <span class="comment">// the message profiling algorithm</span></div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;  aliases[0] = <span class="stringliteral">&quot;message profiling&quot;</span>;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html">MessageProfilingFactory</a> ());</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html">area_coverage::PrioritizedMinTimeAreaCoverageFactory</a> ());</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;  <span class="comment">// the message profiling algorithm</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;  aliases[0] = <span class="stringliteral">&quot;message profiling&quot;</span>;</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  <span class="comment">// the waypoints coverage algorithm</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;  aliases[0] = <span class="stringliteral">&quot;waypoints&quot;</span>;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html">area_coverage::WaypointsCoverageFactory</a> ());</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html">MessageProfilingFactory</a> ());</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;  <span class="comment">// the waypoints coverage algorithm</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  aliases[0] = <span class="stringliteral">&quot;waypoints&quot;</span>;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  <span class="comment">// the executive</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  aliases[0] = <span class="stringliteral">&quot;executive&quot;</span>;</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory.html">ExecutiveFactory</a> ());</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html">area_coverage::WaypointsCoverageFactory</a> ());</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  <span class="comment">// the executive</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;  aliases[0] = <span class="stringliteral">&quot;executive&quot;</span>;</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;  <span class="comment">// the wait</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;  aliases[0] = <span class="stringliteral">&quot;wait&quot;</span>;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../da/dc3/classgams_1_1algorithms_1_1WaitFactory.html">WaitFactory</a> ());</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory.html">ExecutiveFactory</a> ());</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;  <span class="comment">// the wait</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  aliases[0] = <span class="stringliteral">&quot;wait&quot;</span>;</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  <span class="comment">// the performance profiler</span></div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  aliases[0] = <span class="stringliteral">&quot;performance profiling&quot;</span>;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html">PerformanceProfilingFactory</a> ());</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../da/dc3/classgams_1_1algorithms_1_1WaitFactory.html">WaitFactory</a> ());</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <span class="comment">// the performance profiler</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;  aliases[0] = <span class="stringliteral">&quot;performance profiling&quot;</span>;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  <span class="comment">// the performance profiler</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;  aliases.resize (1);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  aliases[0] = <span class="stringliteral">&quot;formation sync&quot;</span>;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html">FormationSyncFactory</a> ());</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;}</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">algorithms::BaseAlgorithm</a> *</div>
-<div class="line"><a name="l00262"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ab1b1d9dd5da1394ca9f2f0c058568658">  262</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ab1b1d9dd5da1394ca9f2f0c058568658">algorithms::ControllerAlgorithmFactory::create</a> (</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  <span class="keyword">const</span> std::string &amp; type,</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  <span class="keyword">const</span> madara::knowledge::KnowledgeVector &amp; args)</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;{</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">algorithms::BaseAlgorithm</a> * result = 0;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html">PerformanceProfilingFactory</a> ());</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  <span class="comment">// the performance profiler</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  aliases[0] = <span class="stringliteral">&quot;formation sync&quot;</span>;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html">FormationSyncFactory</a> ());</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;  <span class="comment">// the performance profiler</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  aliases[0] = <span class="stringliteral">&quot;barrier&quot;</span>;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html">GroupBarrierFactory</a> ());</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;  <span class="comment">// the user is going to expect this kind of error to be printed immediately</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <span class="stringliteral">&quot;gams::algorithms::ControllerAlgorithmFactory::create:&quot;</span> \</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="stringliteral">&quot; creating \&quot;%s\&quot; algorithm.\n&quot;</span>, type.c_str ());</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;  <span class="comment">// zone coverage</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  aliases.resize (1);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  aliases[0] = <span class="stringliteral">&quot;zone coverage&quot;</span>;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;  add (aliases, <span class="keyword">new</span> <a class="code" href="../../d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html">ZoneCoverageFactory</a> ());</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  </div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  <span class="keywordflow">if</span> (type != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  {</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    FactoryMap::iterator it = factory_map_.find (type);</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="keywordflow">if</span> (it != factory_map_.end ())</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    {</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      result = it-&gt;second-&gt;create (args, knowledge_, platform_,</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        sensors_, self_, devices_);</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    }</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    {</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;      <span class="comment">// the user is going to expect this kind of error to be printed immediately</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a15ac85af457c1447294ca451bd96a4d5">gams::loggers::LOG_ALWAYS</a>,</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="stringliteral">&quot;gams::algorithms::ControllerAlgorithmFactory::create:&quot;</span> \</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="stringliteral">&quot; could not find \&quot;%s\&quot; algorithm.\n&quot;</span>, type.c_str ());</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    }</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  }</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;}</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ac997c2e3a6ac35b5b3e81a4659d8ca8b">  297</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ac997c2e3a6ac35b5b3e81a4659d8ca8b">algorithms::ControllerAlgorithmFactory::set_devices</a> (</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a309c97d3c93df53b594745fa0ae65ead">variables::Devices</a> * devices)</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;{</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;  devices_ = devices;</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;}</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a39690474ef34331c537e5881abb9a9ea">  304</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a39690474ef34331c537e5881abb9a9ea">algorithms::ControllerAlgorithmFactory::set_knowledge</a> (</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;  madara::knowledge::KnowledgeBase * knowledge)</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;{</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;  knowledge_ = knowledge;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;}</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a448757a630687fa95962a3e9cb62f499">  311</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a448757a630687fa95962a3e9cb62f499">algorithms::ControllerAlgorithmFactory::set_platform</a> (</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;  <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>)</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;{</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;  platform_ = <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>;</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;}</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00318"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aeb8d72220ef9cc2393342d26ffb9fe12">  318</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aeb8d72220ef9cc2393342d26ffb9fe12">algorithms::ControllerAlgorithmFactory::set_self</a> (</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>)</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;{</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;  self_ = <span class="keyword">self</span>;</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;}</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aa45c71cc71691981aa3a71bfcc1a5cbb">  325</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aa45c71cc71691981aa3a71bfcc1a5cbb">algorithms::ControllerAlgorithmFactory::set_sensors</a> (</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors)</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;{</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  sensors_ = sensors;</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;}</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;}</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">algorithms::BaseAlgorithm</a> *</div>
+<div class="line"><a name="l00277"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a569be4a74f6f679da9a7b2b17b776955">  277</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a569be4a74f6f679da9a7b2b17b776955">algorithms::ControllerAlgorithmFactory::create</a> (</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;  <span class="keyword">const</span> std::string &amp; type,</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;  <span class="keyword">const</span> madara::knowledge::KnowledgeMap &amp; args)</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;{</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">algorithms::BaseAlgorithm</a> * result = 0;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  <span class="comment">// the user is going to expect this kind of error to be printed immediately</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="stringliteral">&quot;gams::algorithms::ControllerAlgorithmFactory::create:&quot;</span> \</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="stringliteral">&quot; creating \&quot;%s\&quot; algorithm.\n&quot;</span>, type.c_str ());</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;  </div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  <span class="keywordflow">if</span> (type != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  {</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    FactoryMap::iterator it = factory_map_.find (type);</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordflow">if</span> (it != factory_map_.end ())</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    {</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;      result = it-&gt;second-&gt;create (args, knowledge_, platform_,</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        sensors_, self_, agents_);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    }</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    {</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      <span class="comment">// the user is going to expect this kind of error to be printed immediately</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;      madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a15ac85af457c1447294ca451bd96a4d5">gams::loggers::LOG_ALWAYS</a>,</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        <span class="stringliteral">&quot;gams::algorithms::ControllerAlgorithmFactory::create:&quot;</span> \</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="stringliteral">&quot; could not find \&quot;%s\&quot; algorithm.\n&quot;</span>, type.c_str ());</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    }</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;  }</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;  <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;}</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a7a0f5a79f7b42e8e3e27fa3b1114fb6c">  312</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a7a0f5a79f7b42e8e3e27fa3b1114fb6c">algorithms::ControllerAlgorithmFactory::set_agents</a> (</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> * agents)</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;{</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  agents_ = agents;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;}</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a39690474ef34331c537e5881abb9a9ea">  319</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a39690474ef34331c537e5881abb9a9ea">algorithms::ControllerAlgorithmFactory::set_knowledge</a> (</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  madara::knowledge::KnowledgeBase * knowledge)</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;{</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;  knowledge_ = knowledge;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;}</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a448757a630687fa95962a3e9cb62f499">  326</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a448757a630687fa95962a3e9cb62f499">algorithms::ControllerAlgorithmFactory::set_platform</a> (</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>)</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;{</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  platform_ = <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;}</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aeb8d72220ef9cc2393342d26ffb9fe12">  333</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aeb8d72220ef9cc2393342d26ffb9fe12">algorithms::ControllerAlgorithmFactory::set_self</a> (</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>)</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;{</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;  self_ = <span class="keyword">self</span>;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;}</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno"><a class="line" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aa45c71cc71691981aa3a71bfcc1a5cbb">  340</a></span>&#160;<a class="code" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aa45c71cc71691981aa3a71bfcc1a5cbb">algorithms::ControllerAlgorithmFactory::set_sensors</a> (</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors)</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;{</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  sensors_ = sensors;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;}</div>
 <div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_aecd6bd7cbafa8a7fc60fdb0cb6b5b74e"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e">gams::algorithms::AlgorithmFactory::set_platform</a></div><div class="ttdeci">void set_platform(platforms::BasePlatform *platform)</div><div class="ttdoc">Sets the map of platform names to platform information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00095">AlgorithmFactory.cpp:95</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html">gams::algorithms::AlgorithmFactory</a></div><div class="ttdoc">Base class for algorithm factories that classes derived from. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d80/AlgorithmFactory_8h_source.html#l00072">AlgorithmFactory.h:72</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_a68878d11b820268cc0e1aad88669f0ab"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a68878d11b820268cc0e1aad88669f0ab">gams::algorithms::AlgorithmFactory::set_devices</a></div><div class="ttdeci">void set_devices(variables::Devices *devices)</div><div class="ttdoc">Sets list of devices participating in swarm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00082">AlgorithmFactory.cpp:82</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1GroupBarrierFactory_html"><div class="ttname"><a href="../../d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html">gams::algorithms::GroupBarrierFactory</a></div><div class="ttdoc">A factory class for creating Formation Coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/da0/GroupBarrier_8h_source.html#l00159">GroupBarrier.h:159</a></div></div>
 <div class="ttc" id="LocalPheremoneAreaCoverage_8h_html"><div class="ttname"><a href="../../d6/d3c/LocalPheremoneAreaCoverage_8h.html">LocalPheremoneAreaCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory_html"><div class="ttname"><a href="../../df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html">gams::algorithms::area_coverage::PriorityWeightedRandomAreaCoverageFactory</a></div><div class="ttdoc">A factory class for creating priority-weighted random area coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d02/PriorityWeightedRandomAreaCoverage_8h_source.html#l00119">PriorityWeightedRandomAreaCoverage.h:119</a></div></div>
 <div class="ttc" id="namespacegams_1_1algorithms_html"><div class="ttname"><a href="../../d3/d47/namespacegams_1_1algorithms.html">gams::algorithms</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d80/AlgorithmFactory_8h_source.html#l00066">AlgorithmFactory.h:66</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1NullAlgorithmFactory_html"><div class="ttname"><a href="../../d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html">gams::algorithms::NullAlgorithmFactory</a></div><div class="ttdoc">A factory class for creating Null algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df3/NullAlgorithm_8h_source.html#l00120">NullAlgorithm.h:120</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_ab1b1d9dd5da1394ca9f2f0c058568658"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ab1b1d9dd5da1394ca9f2f0c058568658">gams::algorithms::ControllerAlgorithmFactory::create</a></div><div class="ttdeci">BaseAlgorithm * create(const std::string &amp;type, const madara::knowledge::KnowledgeVector &amp;args=madara::knowledge::KnowledgeVector())</div><div class="ttdoc">Creates an algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00262">ControllerAlgorithmFactory.cpp:262</a></div></div>
 <div class="ttc" id="Wait_8h_html"><div class="ttname"><a href="../../d0/d74/Wait_8h.html">Wait.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="namespacegams_1_1variables_html_a309c97d3c93df53b594745fa0ae65ead"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a309c97d3c93df53b594745fa0ae65ead">gams::variables::Devices</a></div><div class="ttdeci">std::vector&lt; Device &gt; Devices</div><div class="ttdoc">An array of devices. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d05/Device_8h_source.html#l00195">Device.h:195</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory_html"><div class="ttname"><a href="../../d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html">gams::algorithms::area_coverage::MinTimeAreaCoverageFactory</a></div><div class="ttdoc">A factory class for creating minimum time area coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d65/MinTimeAreaCoverage_8h_source.html#l00145">MinTimeAreaCoverage.h:145</a></div></div>
+<div class="ttc" id="ZoneCoverage_8h_html"><div class="ttname"><a href="../../dc/d44/ZoneCoverage_8h.html">ZoneCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory_html"><div class="ttname"><a href="../../d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html">gams::algorithms::area_coverage::WaypointsCoverageFactory</a></div><div class="ttdoc">A factory class for creating waypoints area coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/de9/WaypointsCoverage_8h_source.html#l00127">WaypointsCoverage.h:127</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a7a0f5a79f7b42e8e3e27fa3b1114fb6c"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a7a0f5a79f7b42e8e3e27fa3b1114fb6c">gams::algorithms::ControllerAlgorithmFactory::set_agents</a></div><div class="ttdeci">void set_agents(variables::Agents *agents)</div><div class="ttdoc">Sets list of agents participating in swarm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00312">ControllerAlgorithmFactory.cpp:312</a></div></div>
 <div class="ttc" id="FormationCoverage_8h_html"><div class="ttname"><a href="../../d0/dcf/FormationCoverage_8h.html">FormationCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
+<div class="ttc" id="GroupBarrier_8h_html"><div class="ttname"><a href="../../da/da0/GroupBarrier_8h.html">GroupBarrier.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="NullAlgorithm_8h_html"><div class="ttname"><a href="../../d1/df3/NullAlgorithm_8h.html">NullAlgorithm.h</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1WaitFactory_html"><div class="ttname"><a href="../../da/dc3/classgams_1_1algorithms_1_1WaitFactory.html">gams::algorithms::WaitFactory</a></div><div class="ttdoc">A factory class for creating Wait algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d74/Wait_8h_source.html#l00133">Wait.h:133</a></div></div>
 <div class="ttc" id="Land_8h_html"><div class="ttname"><a href="../../da/d21/Land_8h.html">Land.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="Follow_8h_html"><div class="ttname"><a href="../../d9/ddd/Follow_8h.html">Follow.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a886cb9f6fade67222f4162b90ed80930"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">gams::variables::Sensors</a></div><div class="ttdeci">std::map&lt; std::string, Sensor * &gt; Sensors</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/Sensor_8h_source.html#l00250">Sensor.h:250</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverageFactory_html"><div class="ttname"><a href="../../d6/d07/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverageFactory.html">gams::algorithms::area_coverage::UniformRandomAreaCoverageFactory</a></div><div class="ttdoc">A factory class for creating uniform random area coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3f/UniformRandomAreaCoverage_8h_source.html#l00119">UniformRandomAreaCoverage.h:119</a></div></div>
-<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00107">BasePlatform.h:107</a></div></div>
+<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00111">BasePlatform.h:111</a></div></div>
+<div class="ttc" id="namespacegams_1_1variables_html_aff41567fa3512f56d14c536c854a2fef"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">gams::variables::Agents</a></div><div class="ttdeci">std::vector&lt; Agent &gt; Agents</div><div class="ttdoc">An array of agents. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/da5/Agent_8h_source.html#l00205">Agent.h:205</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_acb841e8c409d920fab7300cee62b1457"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#acb841e8c409d920fab7300cee62b1457">gams::algorithms::AlgorithmFactory::set_knowledge</a></div><div class="ttdeci">void set_knowledge(madara::knowledge::KnowledgeBase *knowledge)</div><div class="ttdoc">Sets the knowledge base. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00088">AlgorithmFactory.cpp:88</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1DebugAlgorithmFactory_html"><div class="ttname"><a href="../../dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html">gams::algorithms::DebugAlgorithmFactory</a></div><div class="ttdoc">A factory class for creating Debug Algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3e/DebugAlgorithm_8h_source.html#l00140">DebugAlgorithm.h:140</a></div></div>
 <div class="ttc" id="MessageProfiling_8h_html"><div class="ttname"><a href="../../d1/d7e/MessageProfiling_8h.html">MessageProfiling.h</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div></div>
 <div class="ttc" id="UniformRandomAreaCoverage_8h_html"><div class="ttname"><a href="../../d7/d3f/UniformRandomAreaCoverage_8h.html">UniformRandomAreaCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="UniformRandomEdgeCoverage_8h_html"><div class="ttname"><a href="../../d7/d13/UniformRandomEdgeCoverage_8h.html">UniformRandomEdgeCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1MessageProfilingFactory_html"><div class="ttname"><a href="../../d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html">gams::algorithms::MessageProfilingFactory</a></div><div class="ttdoc">A factory class for creating MessageProfiling Algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7e/MessageProfiling_8h_source.html#l00202">MessageProfiling.h:202</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a28119f045b35faba3c1d719a14d18100"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a28119f045b35faba3c1d719a14d18100">gams::algorithms::ControllerAlgorithmFactory::ControllerAlgorithmFactory</a></div><div class="ttdeci">ControllerAlgorithmFactory(madara::knowledge::KnowledgeBase *knowledge=0, variables::Sensors *sensors=0, platforms::BasePlatform *platform=0, variables::Self *self=0, variables::Agents *agents=0)</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00086">ControllerAlgorithmFactory.cpp:86</a></div></div>
 <div class="ttc" id="FormationSync_8h_html"><div class="ttname"><a href="../../d0/dd3/FormationSync_8h.html">FormationSync.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1FormationSyncFactory_html"><div class="ttname"><a href="../../d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html">gams::algorithms::FormationSyncFactory</a></div><div class="ttdoc">A factory class for creating Formation Coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd3/FormationSync_8h_source.html#l00207">FormationSync.h:207</a></div></div>
 <div class="ttc" id="Takeoff_8h_html"><div class="ttname"><a href="../../d0/df4/Takeoff_8h.html">Takeoff.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_1_1loggers_html_a31352813dc66377621f0f56e887a2b5f"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a></div><div class="ttdeci">GAMSExport std::auto_ptr&lt; madara::logger::Logger &gt; global_logger</div></div>
 <div class="ttc" id="PriorityWeightedRandomAreaCoverage_8h_html"><div class="ttname"><a href="../../dc/d02/PriorityWeightedRandomAreaCoverage_8h.html">PriorityWeightedRandomAreaCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1FollowFactory_html"><div class="ttname"><a href="../../d3/d86/classgams_1_1algorithms_1_1FollowFactory.html">gams::algorithms::FollowFactory</a></div><div class="ttdoc">A factory class for creating Follow Algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/Follow_8h_source.html#l00140">Follow.h:140</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a54b1f0624a0a5fce9049d304e95db402"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a54b1f0624a0a5fce9049d304e95db402">gams::algorithms::ControllerAlgorithmFactory::ControllerAlgorithmFactory</a></div><div class="ttdeci">ControllerAlgorithmFactory(madara::knowledge::KnowledgeBase *knowledge=0, variables::Sensors *sensors=0, platforms::BasePlatform *platform=0, variables::Self *self=0, variables::Devices *devices=0)</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00084">ControllerAlgorithmFactory.cpp:84</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a448757a630687fa95962a3e9cb62f499"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a448757a630687fa95962a3e9cb62f499">gams::algorithms::ControllerAlgorithmFactory::set_platform</a></div><div class="ttdeci">void set_platform(platforms::BasePlatform *platform)</div><div class="ttdoc">Sets the map of platform names to platform information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00311">ControllerAlgorithmFactory.cpp:311</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a448757a630687fa95962a3e9cb62f499"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a448757a630687fa95962a3e9cb62f499">gams::algorithms::ControllerAlgorithmFactory::set_platform</a></div><div class="ttdeci">void set_platform(platforms::BasePlatform *platform)</div><div class="ttdoc">Sets the map of platform names to platform information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00326">ControllerAlgorithmFactory.cpp:326</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_a6615fcccb5acbeab9bcda3de434f9a06"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a></div><div class="ttdeci">std::string platform(&quot;debug&quot;)</div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1MoveFactory_html"><div class="ttname"><a href="../../d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html">gams::algorithms::MoveFactory</a></div><div class="ttdoc">A factory class for creating Move algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00191">Move.h:191</a></div></div>
 <div class="ttc" id="namespacegams_1_1loggers_html_ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/GlobalLogger_8h_source.html#l00022">GlobalLogger.h:22</a></div></div>
@@ -436,34 +453,36 @@ $(document).ready(function(){initNavTree('d1/db1/ControllerAlgorithmFactory_8cpp
 <div class="ttc" id="classgams_1_1algorithms_1_1FormationCoverageFactory_html"><div class="ttname"><a href="../../da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html">gams::algorithms::FormationCoverageFactory</a></div><div class="ttdoc">A factory class for creating Formation Coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcf/FormationCoverage_8h_source.html#l00150">FormationCoverage.h:150</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1ExecutiveFactory_html"><div class="ttname"><a href="../../d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory.html">gams::algorithms::ExecutiveFactory</a></div><div class="ttdoc">A factory class for creating Executive algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d53/Executive_8h_source.html#l00152">Executive.h:152</a></div></div>
 <div class="ttc" id="SnakeAreaCoverage_8h_html"><div class="ttname"><a href="../../dc/d1a/SnakeAreaCoverage_8h.html">SnakeAreaCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1BaseAlgorithm_html"><div class="ttname"><a href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">gams::algorithms::BaseAlgorithm</a></div><div class="ttdoc">The base class that algorithms in GAMS use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6f/BaseAlgorithm_8h_source.html#l00093">BaseAlgorithm.h:93</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1BaseAlgorithm_html"><div class="ttname"><a href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">gams::algorithms::BaseAlgorithm</a></div><div class="ttdoc">The base class that algorithms in GAMS use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6f/BaseAlgorithm_8h_source.html#l00094">BaseAlgorithm.h:94</a></div></div>
 <div class="ttc" id="namespacegams_1_1loggers_html_ab44b4d321f86301d85e8cecaa4c19302a15ac85af457c1447294ca451bd96a4d5"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a15ac85af457c1447294ca451bd96a4d5">gams::loggers::LOG_ALWAYS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/GlobalLogger_8h_source.html#l00019">GlobalLogger.h:19</a></div></div>
-<div class="ttc" id="namespacegams_1_1platforms_html"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00073">BasePlatform.h:73</a></div></div>
+<div class="ttc" id="namespacegams_1_1platforms_html"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00077">BasePlatform.h:77</a></div></div>
 <div class="ttc" id="PerformanceProfiling_8h_html"><div class="ttname"><a href="../../d2/dfe/PerformanceProfiling_8h.html">PerformanceProfiling.h</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolFactory_html"><div class="ttname"><a href="../../d5/df5/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolFactory.html">gams::algorithms::area_coverage::PerimeterPatrolFactory</a></div><div class="ttdoc">A factory class for creating perimeter patrol algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d28/PerimeterPatrol_8h_source.html#l00124">PerimeterPatrol.h:124</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_abce0341ed7fe1872fd664723583bb143"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#abce0341ed7fe1872fd664723583bb143">gams::algorithms::AlgorithmFactory::set_self</a></div><div class="ttdeci">void set_self(variables::Self *self)</div><div class="ttdoc">Sets self-referencing variables. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00101">AlgorithmFactory.cpp:101</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_ab4ae704e559ada84a7976450e680453e"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ab4ae704e559ada84a7976450e680453e">gams::algorithms::ControllerAlgorithmFactory::~ControllerAlgorithmFactory</a></div><div class="ttdeci">~ControllerAlgorithmFactory()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00096">ControllerAlgorithmFactory.cpp:96</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_ab4ae704e559ada84a7976450e680453e"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ab4ae704e559ada84a7976450e680453e">gams::algorithms::ControllerAlgorithmFactory::~ControllerAlgorithmFactory</a></div><div class="ttdeci">~ControllerAlgorithmFactory()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00098">ControllerAlgorithmFactory.cpp:98</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a569be4a74f6f679da9a7b2b17b776955"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a569be4a74f6f679da9a7b2b17b776955">gams::algorithms::ControllerAlgorithmFactory::create</a></div><div class="ttdeci">BaseAlgorithm * create(const std::string &amp;type, const madara::knowledge::KnowledgeMap &amp;args=madara::knowledge::KnowledgeMap())</div><div class="ttdoc">Creates an algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00277">ControllerAlgorithmFactory.cpp:277</a></div></div>
 <div class="ttc" id="FormationFlying_8h_html"><div class="ttname"><a href="../../d9/ded/FormationFlying_8h.html">FormationFlying.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_aa45c71cc71691981aa3a71bfcc1a5cbb"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aa45c71cc71691981aa3a71bfcc1a5cbb">gams::algorithms::ControllerAlgorithmFactory::set_sensors</a></div><div class="ttdeci">void set_sensors(variables::Sensors *sensors)</div><div class="ttdoc">Sets the map of sensor names to sensor information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00325">ControllerAlgorithmFactory.cpp:325</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_aa45c71cc71691981aa3a71bfcc1a5cbb"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aa45c71cc71691981aa3a71bfcc1a5cbb">gams::algorithms::ControllerAlgorithmFactory::set_sensors</a></div><div class="ttdeci">void set_sensors(variables::Sensors *sensors)</div><div class="ttdoc">Sets the map of sensor names to sensor information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00340">ControllerAlgorithmFactory.cpp:340</a></div></div>
 <div class="ttc" id="Move_8h_html"><div class="ttname"><a href="../../d0/db9/Move_8h.html">Move.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory_html"><div class="ttname"><a href="../../d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html">gams::algorithms::area_coverage::UniformRandomEdgeCoverageFactory</a></div><div class="ttdoc">A factory class for creating uniform random edge coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html#l00120">UniformRandomEdgeCoverage.h:120</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a8f06785af1c2192512e1ead7cb7c744d"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a8f06785af1c2192512e1ead7cb7c744d">gams::algorithms::ControllerAlgorithmFactory::add</a></div><div class="ttdeci">void add(const std::vector&lt; std::string &gt; &amp;aliases, AlgorithmFactory *factory)</div><div class="ttdoc">Adds an algorithm factory. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00101">ControllerAlgorithmFactory.cpp:101</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a8f06785af1c2192512e1ead7cb7c744d"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a8f06785af1c2192512e1ead7cb7c744d">gams::algorithms::ControllerAlgorithmFactory::add</a></div><div class="ttdeci">void add(const std::vector&lt; std::string &gt; &amp;aliases, AlgorithmFactory *factory)</div><div class="ttdoc">Adds an algorithm factory. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00103">ControllerAlgorithmFactory.cpp:103</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory_html"><div class="ttname"><a href="../../df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html">gams::algorithms::area_coverage::SnakeAreaCoverageFactory</a></div><div class="ttdoc">A factory class for creating snake/lawnmower area coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1a/SnakeAreaCoverage_8h_source.html#l00129">SnakeAreaCoverage.h:129</a></div></div>
 <div class="ttc" id="PerimeterPatrol_8h_html"><div class="ttname"><a href="../../d1/d28/PerimeterPatrol_8h.html">PerimeterPatrol.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="WaypointsCoverage_8h_html"><div class="ttname"><a href="../../da/de9/WaypointsCoverage_8h.html">WaypointsCoverage.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ZoneCoverageFactory_html"><div class="ttname"><a href="../../d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html">gams::algorithms::ZoneCoverageFactory</a></div><div class="ttdoc">A factory class for creating Formation Coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d44/ZoneCoverage_8h_source.html#l00185">ZoneCoverage.h:185</a></div></div>
 <div class="ttc" id="GlobalLogger_8h_html"><div class="ttname"><a href="../../d9/ddd/GlobalLogger_8h.html">GlobalLogger.h</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_aeb8d72220ef9cc2393342d26ffb9fe12"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aeb8d72220ef9cc2393342d26ffb9fe12">gams::algorithms::ControllerAlgorithmFactory::set_self</a></div><div class="ttdeci">void set_self(variables::Self *self)</div><div class="ttdoc">Sets self-referencing variables. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00318">ControllerAlgorithmFactory.cpp:318</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_aeb8d72220ef9cc2393342d26ffb9fe12"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#aeb8d72220ef9cc2393342d26ffb9fe12">gams::algorithms::ControllerAlgorithmFactory::set_self</a></div><div class="ttdeci">void set_self(variables::Self *self)</div><div class="ttdoc">Sets self-referencing variables. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00333">ControllerAlgorithmFactory.cpp:333</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory_html"><div class="ttname"><a href="../../da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html">gams::algorithms::area_coverage::LocalPheremoneAreaCoverageFactory</a></div><div class="ttdoc">A factory class for creating pheremone area coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3c/LocalPheremoneAreaCoverage_8h_source.html#l00110">LocalPheremoneAreaCoverage.h:110</a></div></div>
 <div class="ttc" id="MinTimeAreaCoverage_8h_html"><div class="ttname"><a href="../../d9/d65/MinTimeAreaCoverage_8h.html">MinTimeAreaCoverage.h</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1TakeoffFactory_html"><div class="ttname"><a href="../../d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html">gams::algorithms::TakeoffFactory</a></div><div class="ttdoc">A factory class for creating Null algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Takeoff_8h_source.html#l00120">Takeoff.h:120</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a39690474ef34331c537e5881abb9a9ea"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a39690474ef34331c537e5881abb9a9ea">gams::algorithms::ControllerAlgorithmFactory::set_knowledge</a></div><div class="ttdeci">void set_knowledge(madara::knowledge::KnowledgeBase *knowledge)</div><div class="ttdoc">Sets the knowledge base. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00304">ControllerAlgorithmFactory.cpp:304</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a39690474ef34331c537e5881abb9a9ea"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a39690474ef34331c537e5881abb9a9ea">gams::algorithms::ControllerAlgorithmFactory::set_knowledge</a></div><div class="ttdeci">void set_knowledge(madara::knowledge::KnowledgeBase *knowledge)</div><div class="ttdoc">Sets the knowledge base. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00319">ControllerAlgorithmFactory.cpp:319</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_ad015e77872301133e73d6fd410634694"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#ad015e77872301133e73d6fd410634694">gams::algorithms::AlgorithmFactory::set_sensors</a></div><div class="ttdeci">void set_sensors(variables::Sensors *sensors)</div><div class="ttdoc">Sets the map of sensor names to sensor information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00107">AlgorithmFactory.cpp:107</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1AlgorithmFactory_html_a10d00b5194d66acb4c42d1945eab3438"><div class="ttname"><a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a10d00b5194d66acb4c42d1945eab3438">gams::algorithms::AlgorithmFactory::set_agents</a></div><div class="ttdeci">void set_agents(variables::Agents *agents)</div><div class="ttdoc">Sets list of agents participating in swarm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da7/AlgorithmFactory_8cpp_source.html#l00082">AlgorithmFactory.cpp:82</a></div></div>
 <div class="ttc" id="namespacegams_1_1variables_html"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html">gams::variables</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/Grid_8h_source.html#l00065">Grid.h:65</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory_html"><div class="ttname"><a href="../../df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html">gams::algorithms::area_coverage::PrioritizedMinTimeAreaCoverageFactory</a></div><div class="ttdoc">A factory class for creating prioritized minimum time coverage algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d40/PrioritizedMinTimeAreaCoverage_8h_source.html#l00110">PrioritizedMinTimeAreaCoverage.h:110</a></div></div>
 <div class="ttc" id="Executive_8h_html"><div class="ttname"><a href="../../d8/d53/Executive_8h.html">Executive.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1FormationFlyingFactory_html"><div class="ttname"><a href="../../de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html">gams::algorithms::FormationFlyingFactory</a></div><div class="ttdoc">A factory class for creating Formation Flying algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ded/FormationFlying_8h_source.html#l00209">FormationFlying.h:209</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a740bebd105bf6bcf21b2a647bfedce95"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a740bebd105bf6bcf21b2a647bfedce95">gams::algorithms::ControllerAlgorithmFactory::initialize_default_mappings</a></div><div class="ttdeci">void initialize_default_mappings(void)</div><div class="ttdoc">Initializes factories for all supported GAMS algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00120">ControllerAlgorithmFactory.cpp:120</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_ac997c2e3a6ac35b5b3e81a4659d8ca8b"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#ac997c2e3a6ac35b5b3e81a4659d8ca8b">gams::algorithms::ControllerAlgorithmFactory::set_devices</a></div><div class="ttdeci">void set_devices(variables::Devices *devices)</div><div class="ttdoc">Sets list of devices participating in swarm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00297">ControllerAlgorithmFactory.cpp:297</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1ControllerAlgorithmFactory_html_a740bebd105bf6bcf21b2a647bfedce95"><div class="ttname"><a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a740bebd105bf6bcf21b2a647bfedce95">gams::algorithms::ControllerAlgorithmFactory::initialize_default_mappings</a></div><div class="ttdeci">void initialize_default_mappings(void)</div><div class="ttdoc">Initializes factories for all supported GAMS algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db1/ControllerAlgorithmFactory_8cpp_source.html#l00122">ControllerAlgorithmFactory.cpp:122</a></div></div>
 <div class="ttc" id="ControllerAlgorithmFactory_8h_html"><div class="ttname"><a href="../../de/dcb/ControllerAlgorithmFactory_8h.html">ControllerAlgorithmFactory.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -471,7 +490,7 @@ $(document).ready(function(){initNavTree('d1/db1/ControllerAlgorithmFactory_8cpp
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_51790b9f0ef7b0cc06eb1e76e309c0bc.html">algorithms</a></li><li class="navelem"><a class="el" href="../../d1/db1/ControllerAlgorithmFactory_8cpp.html">ControllerAlgorithmFactory.cpp</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:14:56 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:39 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.12</span>
+   &#160;<span id="projectnumber">0.9.26</span>
    </div>
   </td>
  </tr>
@@ -114,51 +114,54 @@ $(document).ready(function(){initNavTree('d5/d42/CartesianFrame_8inl_source.html
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d49/ReferenceFrame_8h.html">ReferenceFrame.h</a>&quot;</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../df/dae/namespacegams.html">gams</a></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keyword">namespace </span>utility</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  {</div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abc7f807dbf4b4ebfe06a4cc51749d944">   63</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abc7f807dbf4b4ebfe06a4cc51749d944">CartesianFrame::CartesianFrame</a>() : <a class="code" href="../../d6/d79/classgams_1_1utility_1_1AxisAngleFrame.html">AxisAngleFrame</a>() {}</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a928ad4140f79471e2a39a85e40944559">   65</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abc7f807dbf4b4ebfe06a4cc51749d944">CartesianFrame::CartesianFrame</a>(<span class="keyword">const</span> <a class="code" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> &amp;origin)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;              : <a class="code" href="../../d6/d79/classgams_1_1utility_1_1AxisAngleFrame.html">AxisAngleFrame</a>(origin) {}</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abd2d405e987e86631d0bd5fdcb373612">   68</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abc7f807dbf4b4ebfe06a4cc51749d944">CartesianFrame::CartesianFrame</a>(<a class="code" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> *origin)</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;              : <a class="code" href="../../d6/d79/classgams_1_1utility_1_1AxisAngleFrame.html">AxisAngleFrame</a>(origin) {}</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a735b31d9763361573426322f570f7069">   71</a></span>&#160;    <span class="keyword">inline</span> std::string <a class="code" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a735b31d9763361573426322f570f7069">CartesianFrame::get_name</a>()<span class="keyword"> const</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Cartesian&quot;</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a2ec0b9e17f299564617a2fb20c68eda3">   76</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a2ec0b9e17f299564617a2fb20c68eda3">CartesianFrame::calc_distance</a>(</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                      <span class="keywordtype">double</span> x1, <span class="keywordtype">double</span> y1, <span class="keywordtype">double</span> z1,</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                      <span class="keywordtype">double</span> x2, <span class="keywordtype">double</span> y2, <span class="keywordtype">double</span> z2)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <span class="keywordtype">double</span> x_dist = x2 - x1;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <span class="keywordtype">double</span> y_dist = y2 - y1;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      <span class="keywordtype">double</span> z_dist = z2 - y2;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      <span class="keywordflow">return</span> sqrt(x_dist * x_dist + y_dist * y_dist + z_dist * z_dist);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classgams_1_1utility_1_1CartesianFrame_html_a735b31d9763361573426322f570f7069"><div class="ttname"><a href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a735b31d9763361573426322f570f7069">gams::utility::CartesianFrame::get_name</a></div><div class="ttdeci">virtual std::string get_name() const </div><div class="ttdoc">Returns the name of this type of reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d42/CartesianFrame_8inl_source.html#l00071">CartesianFrame.inl:71</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Pose_html"><div class="ttname"><a href="../../dd/d85/classgams_1_1utility_1_1Pose.html">gams::utility::Pose</a></div><div class="ttdoc">Represents a combination of Location and Rotation within a single reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db5/Pose_8h_source.html#l00243">Pose.h:243</a></div></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d28/CartesianFrame_8h.html">CartesianFrame.h</a>&quot;</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../df/dae/namespacegams.html">gams</a></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keyword">namespace </span>utility</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  {</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abc7f807dbf4b4ebfe06a4cc51749d944">   65</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abc7f807dbf4b4ebfe06a4cc51749d944">CartesianFrame::CartesianFrame</a>() : <a class="code" href="../../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html">SimpleRotateFrame</a>() {}</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a928ad4140f79471e2a39a85e40944559">   67</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abc7f807dbf4b4ebfe06a4cc51749d944">CartesianFrame::CartesianFrame</a>(<span class="keyword">const</span> <a class="code" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> &amp;origin)</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;              : <a class="code" href="../../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html">SimpleRotateFrame</a>(origin) {}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abd2d405e987e86631d0bd5fdcb373612">   70</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abc7f807dbf4b4ebfe06a4cc51749d944">CartesianFrame::CartesianFrame</a>(<a class="code" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> *origin)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;              : <a class="code" href="../../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html">SimpleRotateFrame</a>(origin) {}</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a735b31d9763361573426322f570f7069">   73</a></span>&#160;    <span class="keyword">inline</span> std::string <a class="code" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a735b31d9763361573426322f570f7069">CartesianFrame::get_name</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Cartesian&quot;</span>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a2ec0b9e17f299564617a2fb20c68eda3">   78</a></span>&#160;    <span class="keyword">inline</span> <span class="keywordtype">double</span> <a class="code" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a2ec0b9e17f299564617a2fb20c68eda3">CartesianFrame::calc_distance</a>(</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                      <span class="keywordtype">double</span> x1, <span class="keywordtype">double</span> y1, <span class="keywordtype">double</span> z1,</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                      <span class="keywordtype">double</span> x2, <span class="keywordtype">double</span> y2, <span class="keywordtype">double</span> z2)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      <span class="keywordtype">double</span> x_dist = x2 - x1;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      <span class="keywordtype">double</span> y_dist = y2 - y1;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      <span class="keywordtype">double</span> z_dist = z2 - z2;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      <span class="keywordflow">return</span> sqrt(x_dist * x_dist + y_dist * y_dist + z_dist * z_dist);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classgams_1_1utility_1_1CartesianFrame_html_a735b31d9763361573426322f570f7069"><div class="ttname"><a href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a735b31d9763361573426322f570f7069">gams::utility::CartesianFrame::get_name</a></div><div class="ttdeci">virtual std::string get_name() const </div><div class="ttdoc">Returns the name of this type of reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d42/CartesianFrame_8inl_source.html#l00073">CartesianFrame.inl:73</a></div></div>
+<div class="ttc" id="CartesianFrame_8h_html"><div class="ttname"><a href="../../dc/d28/CartesianFrame_8h.html">CartesianFrame.h</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div></div>
+<div class="ttc" id="classgams_1_1utility_1_1SimpleRotateFrame_html"><div class="ttname"><a href="../../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html">gams::utility::SimpleRotateFrame</a></div><div class="ttdoc">For internal use. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d49/ReferenceFrame_8h_source.html#l00596">ReferenceFrame.h:596</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Pose_html"><div class="ttname"><a href="../../dd/d85/classgams_1_1utility_1_1Pose.html">gams::utility::Pose</a></div><div class="ttdoc">Represents a combination of Location and Rotation within a single reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db5/Pose_8h_source.html#l00272">Pose.h:272</a></div></div>
 <div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d80/AlgorithmFactory_8h_source.html#l00064">AlgorithmFactory.h:64</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1CartesianFrame_html_a2ec0b9e17f299564617a2fb20c68eda3"><div class="ttname"><a href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a2ec0b9e17f299564617a2fb20c68eda3">gams::utility::CartesianFrame::calc_distance</a></div><div class="ttdeci">virtual double calc_distance(double x1, double y1, double z1, double x2, double y2, double z2) const </div><div class="ttdoc">Calculates distance from one point to another. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d42/CartesianFrame_8inl_source.html#l00076">CartesianFrame.inl:76</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1AxisAngleFrame_html"><div class="ttname"><a href="../../d6/d79/classgams_1_1utility_1_1AxisAngleFrame.html">gams::utility::AxisAngleFrame</a></div><div class="ttdoc">For internal use. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d49/ReferenceFrame_8h_source.html#l00518">ReferenceFrame.h:518</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1CartesianFrame_html_a2ec0b9e17f299564617a2fb20c68eda3"><div class="ttname"><a href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a2ec0b9e17f299564617a2fb20c68eda3">gams::utility::CartesianFrame::calc_distance</a></div><div class="ttdeci">virtual double calc_distance(double x1, double y1, double z1, double x2, double y2, double z2) const </div><div class="ttdoc">Calculates distance from one point to another. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d42/CartesianFrame_8inl_source.html#l00078">CartesianFrame.inl:78</a></div></div>
 <div class="ttc" id="ReferenceFrame_8h_html"><div class="ttname"><a href="../../dc/d49/ReferenceFrame_8h.html">ReferenceFrame.h</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div></div>
-<div class="ttc" id="classgams_1_1utility_1_1CartesianFrame_html_abc7f807dbf4b4ebfe06a4cc51749d944"><div class="ttname"><a href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abc7f807dbf4b4ebfe06a4cc51749d944">gams::utility::CartesianFrame::CartesianFrame</a></div><div class="ttdeci">CartesianFrame()</div><div class="ttdoc">Default constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d42/CartesianFrame_8inl_source.html#l00063">CartesianFrame.inl:63</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1CartesianFrame_html_abc7f807dbf4b4ebfe06a4cc51749d944"><div class="ttname"><a href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abc7f807dbf4b4ebfe06a4cc51749d944">gams::utility::CartesianFrame::CartesianFrame</a></div><div class="ttdeci">CartesianFrame()</div><div class="ttdoc">Default constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d42/CartesianFrame_8inl_source.html#l00065">CartesianFrame.inl:65</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_e1406cd850b444c8c135213175f9bbdb.html">utility</a></li><li class="navelem"><a class="el" href="../../d5/d42/CartesianFrame_8inl.html">CartesianFrame.inl</a></li>
-    <li class="footer">Generated on Fri Oct 9 2015 21:14:57 for GAMS by
+    <li class="footer">Generated on Thu Mar 3 2016 17:36:40 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

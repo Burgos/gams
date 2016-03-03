@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['x',['x',['../d8/d57/classgams_1_1utility_1_1LocationVector.html#adb7f5bc603337e355b55e576603df2ce',1,'gams::utility::LocationVector::x() const '],['../d8/d57/classgams_1_1utility_1_1LocationVector.html#a71a71ec9344dcf9b9c23e059ecd1a59b',1,'gams::utility::LocationVector::x(double new_x)'],['../db/d2d/classgams_1_1utility_1_1Quaternion.html#ab54b0a259d1a1a403a6e95f21a8ee723',1,'gams::utility::Quaternion::x() const '],['../db/d2d/classgams_1_1utility_1_1Quaternion.html#ae7f0e7bafec26e6c74b9a627aaac63f0',1,'gams::utility::Quaternion::x(double new_x)']]]
+  ['w',['w',['../db/d2d/classgams_1_1utility_1_1Quaternion.html#af88cd2461bbb0426eff471bbc5cce88a',1,'gams::utility::Quaternion::w() const '],['../db/d2d/classgams_1_1utility_1_1Quaternion.html#a557861390c2a269107953130c1d606dd',1,'gams::utility::Quaternion::w(double new_w)']]],
+  ['wait',['Wait',['../d9/d6f/classgams_1_1algorithms_1_1Wait.html#a2890fb463930f6dbe15f11329158adbe',1,'gams::algorithms::Wait']]],
+  ['waypointscoverage',['WaypointsCoverage',['../de/d2e/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverage.html#a7bddfc6fa04f04af4478245bfbce73a5',1,'gams::algorithms::area_coverage::WaypointsCoverage']]]
 ];

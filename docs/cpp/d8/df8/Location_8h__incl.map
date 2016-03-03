@@ -1,13 +1,7 @@
 <map id="src/gams/utility/Location.h" name="src/gams/utility/Location.h">
-<area shape="rect" id="node5" href="$d6/df6/Coordinate_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="553,80,719,107"/>
-<area shape="rect" id="node13" href="$d7/db5/Pose_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="777,155,911,181"/>
-<area shape="rect" id="node21" href="$df/d2b/Location_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="819,80,907,107"/>
-<area shape="rect" id="node6" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="1105,304,1252,331"/>
-<area shape="rect" id="node8" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="631,304,791,331"/>
-<area shape="rect" id="node10" href="$de/d36/Coordinate_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="159,155,260,181"/>
-<area shape="rect" id="node14" href="$d0/d8f/Rotation_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="421,229,573,256"/>
-<area shape="rect" id="node17" href="$d0/d33/Pose_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="973,229,1043,256"/>
-<area shape="rect" id="node18" href="$dc/d49/ReferenceFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="750,229,949,256"/>
-<area shape="rect" id="node16" href="$d8/d6e/Rotation_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="357,304,443,331"/>
-<area shape="rect" id="node20" href="$d4/d05/ReferenceFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="946,304,1081,331"/>
+<area shape="rect" id="node5" href="$d6/df6/Coordinate_8h.html" title="gams/utility/Coordinate.h" alt="" coords="198,87,365,114"/>
+<area shape="rect" id="node16" href="$df/d2b/Location_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="827,87,915,114"/>
+<area shape="rect" id="node6" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="496,169,643,196"/>
+<area shape="rect" id="node10" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="187,169,347,196"/>
+<area shape="rect" id="node11" href="$de/d36/Coordinate_8inl.html" title="Coordinate.inl" alt="" coords="371,169,472,196"/>
 </map>
