@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loglevels',['LogLevels',['../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302',1,'gams::loggers']]]
+  ['grouptypes',['GroupTypes',['../d4/da6/namespacegams_1_1groups.html#a1a6d883b2cc0aab22baf83837b3ab95d',1,'gams::groups']]]
 ];

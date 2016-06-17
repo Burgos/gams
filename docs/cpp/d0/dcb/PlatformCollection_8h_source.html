@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -166,7 +166,7 @@ $(document).ready(function(){initNavTree('d0/dcb/PlatformCollection_8h_source.ht
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      <span class="keyword">virtual</span> <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">BasePlatform</a> * create (</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keyword">const</span> madara::knowledge::KnowledgeVector &amp; args,</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">madara::knowledge::KnowledgeMap</a> &amp; args,</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        madara::knowledge::KnowledgeBase * knowledge,</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a>,</div>
@@ -178,7 +178,7 @@ $(document).ready(function(){initNavTree('d0/dcb/PlatformCollection_8h_source.ht
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="preprocessor">#endif // _GAMS_PLATFORM_COLLECTION_H_</span></div>
 <div class="ttc" id="PlatformFactory_8h_html"><div class="ttname"><a href="../../d1/d58/PlatformFactory_8h.html">PlatformFactory.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a886cb9f6fade67222f4162b90ed80930"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">gams::variables::Sensors</a></div><div class="ttdeci">std::map&lt; std::string, Sensor * &gt; Sensors</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/Sensor_8h_source.html#l00250">Sensor.h:250</a></div></div>
-<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00111">BasePlatform.h:111</a></div></div>
+<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00112">BasePlatform.h:112</a></div></div>
 <div class="ttc" id="Sensor_8h_html"><div class="ttname"><a href="../../d5/d65/Sensor_8h.html">Sensor.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="Self_8h_html"><div class="ttname"><a href="../../da/d3d/Self_8h.html">Self.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d80/AlgorithmFactory_8h_source.html#l00064">AlgorithmFactory.h:64</a></div></div>
@@ -193,13 +193,14 @@ $(document).ready(function(){initNavTree('d0/dcb/PlatformCollection_8h_source.ht
 <div class="ttc" id="GAMSExport_8h_html_aa821e916a389426064269d24e4925080"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a></div><div class="ttdeci">#define GAMSExport</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/GAMSExport_8h_source.html#l00026">GAMSExport.h:26</a></div></div>
 <div class="ttc" id="classgams_1_1platforms_1_1PlatformCollection_html"><div class="ttname"><a href="../../d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html">gams::platforms::PlatformCollection</a></div><div class="ttdoc">A collection of platforms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcb/PlatformCollection_8h_source.html#l00072">PlatformCollection.h:72</a></div></div>
 <div class="ttc" id="BasePlatform_8h_html"><div class="ttname"><a href="../../d4/de8/BasePlatform_8h.html">BasePlatform.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
+<div class="ttc" id="LocalPheremoneAreaCoverage_8cpp_html_af740329c4ae9da209bed5d1685a781ba"><div class="ttname"><a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">KnowledgeMap</a></div><div class="ttdeci">madara::knowledge::KnowledgeMap KnowledgeMap</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp_source.html#l00073">LocalPheremoneAreaCoverage.cpp:73</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_1e78112e2e00ee93d190d5382866a0e7.html">platforms</a></li><li class="navelem"><a class="el" href="../../d0/dcb/PlatformCollection_8h.html">PlatformCollection.h</a></li>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:40 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:37 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

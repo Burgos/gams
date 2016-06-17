@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['electionfactorymap',['ElectionFactoryMap',['../de/dd1/namespacegams_1_1elections.html#a1fc2ac873fb3ad9ef3f5027ddcfc7004',1,'gams::elections']]],
   ['eulerextrxyz',['EulerExtrXYZ',['../d3/d18/namespacegams_1_1utility_1_1euler.html#a49b93d37ce709bc296c89d908c93b1a3',1,'gams::utility::euler']]],
   ['eulerextrzyx',['EulerExtrZYX',['../d3/d18/namespacegams_1_1utility_1_1euler.html#ab84e3bd73152e4556c77470c915a3a69',1,'gams::utility::euler']]],
   ['eulerintrxyz',['EulerIntrXYZ',['../d3/d18/namespacegams_1_1utility_1_1euler.html#ad89c7ea4e046cf5b01eb49298b7fa7d3',1,'gams::utility::euler']]],

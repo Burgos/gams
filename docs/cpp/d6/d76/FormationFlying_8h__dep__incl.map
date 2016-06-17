@@ -1,9 +1,8 @@
 <map id="src/gams/algorithms/FormationFlying.h" name="src/gams/algorithms/FormationFlying.h">
-<area shape="rect" id="node2" href="$d8/da7/AlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactory.cpp" alt="" coords="5,184,156,225"/>
-<area shape="rect" id="node3" href="$d1/db1/ControllerAlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/ControllerAlgorithmFactory.cpp" alt="" coords="367,184,573,225"/>
-<area shape="rect" id="node4" href="$d8/d53/Executive_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="412,95,552,136"/>
-<area shape="rect" id="node6" href="$d0/dcf/FormationCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="188,95,336,136"/>
-<area shape="rect" id="node8" href="$d7/d8a/FormationFlying_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="577,95,721,136"/>
-<area shape="rect" id="node5" href="$d9/d2e/Executive_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="597,184,737,225"/>
-<area shape="rect" id="node7" href="$d3/d2c/FormationCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="181,184,343,225"/>
+<area shape="rect" id="node2" href="$d2/da1/AlgorithmFactoryRepository_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactoryRepository.cpp" alt="" coords="169,184,381,225"/>
+<area shape="rect" id="node3" href="$dd/d8c/Executor_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="97,95,237,136"/>
+<area shape="rect" id="node5" href="$d0/dcf/FormationCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="313,95,461,136"/>
+<area shape="rect" id="node7" href="$d7/d8a/FormationFlying_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="486,95,630,136"/>
+<area shape="rect" id="node4" href="$d1/da9/Executor_8cpp.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="5,184,145,225"/>
+<area shape="rect" id="node6" href="$d3/d2c/FormationCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="406,184,569,225"/>
 </map>

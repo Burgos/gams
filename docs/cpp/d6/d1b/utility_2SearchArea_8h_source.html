@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -146,7 +146,7 @@ $(document).ready(function(){initNavTree('d6/d1b/utility_2SearchArea_8h_source.h
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      <span class="keyword">const</span> std::vector&lt;PrioritizedRegion&gt;&amp; get_regions () <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      <a class="code" href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">madara::knowledge::KnowledgeRecord::Integer</a> get_priority (<span class="keyword">const</span> <a class="code" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">GPSPosition</a>&amp; pos) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">madara::knowledge::KnowledgeRecord::Integer</a> get_priority (<span class="keyword">const</span> <a class="code" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">GPSPosition</a>&amp; pos) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      </div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      <span class="keywordtype">bool</span> contains (<span class="keyword">const</span> <a class="code" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">GPSPosition</a>&amp; p) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;      </div>
@@ -179,17 +179,20 @@ $(document).ready(function(){initNavTree('d6/d1b/utility_2SearchArea_8h_source.h
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  } <span class="comment">// namespace utility</span></div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;} <span class="comment">// namespace gams</span></div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="preprocessor">#endif // _GAMS_UTILITY_SEARCH_AREA_H_</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/db0/SearchArea_8inl.html">SearchArea.inl</a>&quot;</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor">#endif // _GAMS_UTILITY_SEARCH_AREA_H_</span></div>
 <div class="ttc" id="classgams_1_1utility_1_1SearchArea_html_a2810ff07c85159ea62a2c113fd216a81"><div class="ttname"><a href="../../da/d42/classgams_1_1utility_1_1SearchArea.html#a2810ff07c85159ea62a2c113fd216a81">gams::utility::SearchArea::min_lon_</a></div><div class="ttdeci">double min_lon_</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d1b/utility_2SearchArea_8h_source.html#l00158">SearchArea.h:158</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1PrioritizedRegion_html"><div class="ttname"><a href="../../d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html">gams::utility::PrioritizedRegion</a></div><div class="ttdoc">A helper class for prioritized region information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d98/PrioritizedRegion_8h_source.html#l00070">PrioritizedRegion.h:70</a></div></div>
+<div class="ttc" id="SearchArea_8inl_html"><div class="ttname"><a href="../../d2/db0/SearchArea_8inl.html">SearchArea.inl</a></div><div class="ttdoc">Copyright (c) 2016 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1utility_1_1SearchArea_html_a24b782fde5fc69754f58a47eea7d313b"><div class="ttname"><a href="../../da/d42/classgams_1_1utility_1_1SearchArea.html#a24b782fde5fc69754f58a47eea7d313b">gams::utility::SearchArea::regions_</a></div><div class="ttdeci">std::vector&lt; PrioritizedRegion &gt; regions_</div><div class="ttdoc">collection of prioritized regions </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d1b/utility_2SearchArea_8h_source.html#l00178">SearchArea.h:178</a></div></div>
 <div class="ttc" id="PrioritizedRegion_8h_html"><div class="ttname"><a href="../../d9/d98/PrioritizedRegion_8h.html">PrioritizedRegion.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1utility_1_1Containerize_html"><div class="ttname"><a href="../../de/d8c/classgams_1_1utility_1_1Containerize.html">gams::utility::Containerize</a></div><div class="ttdoc">A class meant to assist with retrieving information into GAMS containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df2/Containerize_8h_source.html#l00071">Containerize.h:71</a></div></div>
 <div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d80/AlgorithmFactory_8h_source.html#l00064">AlgorithmFactory.h:64</a></div></div>
-<div class="ttc" id="FormationSync_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1e/FormationSync_8cpp_source.html#l00069">FormationSync.cpp:69</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1SearchArea_html_a6d5aca5e6642fb03399c974ca86192e2"><div class="ttname"><a href="../../da/d42/classgams_1_1utility_1_1SearchArea.html#a6d5aca5e6642fb03399c974ca86192e2">gams::utility::SearchArea::min_alt_</a></div><div class="ttdeci">double min_alt_</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d1b/utility_2SearchArea_8h_source.html#l00159">SearchArea.h:159</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1SearchArea_html_aa453547299e44fe3e694a5c350e68ca8"><div class="ttname"><a href="../../da/d42/classgams_1_1utility_1_1SearchArea.html#aa453547299e44fe3e694a5c350e68ca8">gams::utility::SearchArea::min_lat_</a></div><div class="ttdeci">double min_lat_</div><div class="ttdoc">bounding box </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d1b/utility_2SearchArea_8h_source.html#l00157">SearchArea.h:157</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1Region_html"><div class="ttname"><a href="../../da/db7/classgams_1_1utility_1_1Region.html">gams::utility::Region</a></div><div class="ttdoc">A helper class for region information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9f/utility_2Region_8h_source.html#l00073">Region.h:73</a></div></div>
+<div class="ttc" id="LocalPheremoneAreaCoverage_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp_source.html#l00072">LocalPheremoneAreaCoverage.cpp:72</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1GPSPosition_html"><div class="ttname"><a href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">gams::utility::GPSPosition</a></div><div class="ttdoc">A position in the global positioning system reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/GPSPosition_8h_source.html#l00070">GPSPosition.h:70</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1SearchArea_html"><div class="ttname"><a href="../../da/d42/classgams_1_1utility_1_1SearchArea.html">gams::utility::SearchArea</a></div><div class="ttdoc">A utility class for search areas. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d1b/utility_2SearchArea_8h_source.html#l00069">SearchArea.h:69</a></div></div>
 <div class="ttc" id="GAMSExport_8h_html_aa821e916a389426064269d24e4925080"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a></div><div class="ttdeci">#define GAMSExport</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/GAMSExport_8h_source.html#l00026">GAMSExport.h:26</a></div></div>
@@ -199,7 +202,7 @@ $(document).ready(function(){initNavTree('d6/d1b/utility_2SearchArea_8h_source.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_e1406cd850b444c8c135213175f9bbdb.html">utility</a></li><li class="navelem"><a class="el" href="../../d6/d1b/utility_2SearchArea_8h.html">SearchArea.h</a></li>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:40 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:38 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

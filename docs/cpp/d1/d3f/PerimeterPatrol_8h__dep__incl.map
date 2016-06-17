@@ -1,5 +1,4 @@
-<map id="src/gams/algorithms/area_coverage/PerimeterPatrol.h" name="src/gams/algorithms/area_coverage/PerimeterPatrol.h">
-<area shape="rect" id="node2" href="$d8/da7/AlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactory.cpp" alt="" coords="5,95,156,136"/>
-<area shape="rect" id="node3" href="$d8/d59/PerimeterPatrol_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="180,95,408,136"/>
-<area shape="rect" id="node4" href="$d1/db1/ControllerAlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/ControllerAlgorithmFactory.cpp" alt="" coords="433,95,638,136"/>
+<map id="src/gams/algorithms/PerimeterPatrol.h" name="src/gams/algorithms/PerimeterPatrol.h">
+<area shape="rect" id="node2" href="$d2/da1/AlgorithmFactoryRepository_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactoryRepository.cpp" alt="" coords="5,95,217,136"/>
+<area shape="rect" id="node3" href="$d8/d59/PerimeterPatrol_8cpp.html" title="src/gams/algorithms\l/PerimeterPatrol.cpp" alt="" coords="242,95,383,136"/>
 </map>

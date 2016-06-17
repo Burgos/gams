@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -161,12 +161,6 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="da/db7/classgams_1_1utility_1_1Region.html#a68243d57650ab979e1d6e5c0e0b193aa">gams::utility::Region</a>
 , <a class="el" href="da/d42/classgams_1_1utility_1_1SearchArea.html#afb03a53d481e562c6ea3e9b99dbf7d10">gams::utility::SearchArea</a>
 </li>
-<li>max_execution_time_
-: <a class="el" href="d2/d4c/classgams_1_1algorithms_1_1Move.html#ae6ed6fbb19e2d0544c49e556e4390670">gams::algorithms::Move</a>
-</li>
-<li>max_executions_
-: <a class="el" href="d2/d4c/classgams_1_1algorithms_1_1Move.html#ab68e321f6c2c978c0cc30eb15c4d5a3b">gams::algorithms::Move</a>
-</li>
 <li>max_lat_
 : <a class="el" href="da/db7/classgams_1_1utility_1_1Region.html#aa717cd56e4760fb25784ab1a3bfa4bea">gams::utility::Region</a>
 , <a class="el" href="da/d42/classgams_1_1utility_1_1SearchArea.html#a16ac87b5c0ea4cdc5b9275d26d16c568">gams::utility::SearchArea</a>
@@ -175,9 +169,18 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="da/db7/classgams_1_1utility_1_1Region.html#aaacfa3c1c97325f264f3dae4f0e0f904">gams::utility::Region</a>
 , <a class="el" href="da/d42/classgams_1_1utility_1_1SearchArea.html#abc4b15dc8445f5dd6784c2c5b873706c">gams::utility::SearchArea</a>
 </li>
+<li>max_time
+: <a class="el" href="d5/d79/classgams_1_1algorithms_1_1AlgorithmMetaData.html#a6882deaa7c240e040db541c4d2a8db07">gams::algorithms::AlgorithmMetaData</a>
+</li>
+<li>max_time_
+: <a class="el" href="d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#a9372375fc55c2de069f391729b80b718">gams::algorithms::PerimeterPatrol</a>
+</li>
 <li>members_
 : <a class="el" href="d3/df5/classgams_1_1algorithms_1_1FormationSync.html#aaaa7c814afe1c601a241a2eca53988fa">gams::algorithms::FormationSync</a>
 , <a class="el" href="d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html#a1a11bf1be2beb5162c126f93a8bcd48d">gams::algorithms::GroupBarrier</a>
+, <a class="el" href="d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#acce0a2932a3c9a655af648d9da6a1b98">gams::elections::ElectionPlurality</a>
+, <a class="el" href="d4/d23/classgams_1_1groups_1_1GroupFixedList.html#a086d89d790d70a5b2d5ccb03270d8b73">gams::groups::GroupFixedList</a>
+, <a class="el" href="d8/d5a/classgams_1_1groups_1_1GroupTransient.html#a0aacf9a31b13b1205abf4bf05914de3d">gams::groups::GroupTransient</a>
 </li>
 <li>min_alt
 : <a class="el" href="d8/d12/classgams_1_1variables_1_1Agent.html#a20a78726e6df92a8e2e3398c5fafcb4a">gams::variables::Agent</a>
@@ -198,14 +201,15 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>min_time_
 : <a class="el" href="db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#ad3c396777ed1389a35cc2dba10325006">gams::algorithms::area_coverage::MinTimeAreaCoverage</a>
 </li>
-<li>mode_
-: <a class="el" href="d2/d4c/classgams_1_1algorithms_1_1Move.html#a68848ee82138775d687660f49b301788">gams::algorithms::Move</a>
-</li>
 <li>modifier_
 : <a class="el" href="d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#acfd83d9bcc32fd4302f6157943f5ae88">gams::algorithms::FormationFlying</a>
 </li>
 <li>MOON_RADIUS
 : <a class="el" href="da/d07/classgams_1_1utility_1_1GPSFrame.html#a58ed5f77b38870f6870b057ebf76b146">gams::utility::GPSFrame</a>
+</li>
+<li>move_index_
+: <a class="el" href="d2/d4c/classgams_1_1algorithms_1_1Move.html#a6138c656d29e365e057b7462586e6d89">gams::algorithms::Move</a>
+, <a class="el" href="d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#a18e10db1b1411e1d4046b44e8f95ef81">gams::algorithms::PerimeterPatrol</a>
 </li>
 <li>move_pivot_
 : <a class="el" href="d3/df5/classgams_1_1algorithms_1_1FormationSync.html#a6feea709626e0ca877422439049310ac">gams::algorithms::FormationSync</a>
@@ -231,7 +235,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:50 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:45 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

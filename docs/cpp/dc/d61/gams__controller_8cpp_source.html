@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -109,49 +109,49 @@ $(document).ready(function(){initNavTree('dc/d61/gams__controller_8cpp_source.ht
 </div><!--header-->
 <div class="contents">
 <a href="../../dc/d61/gams__controller_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">using</span> std::cerr;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">using</span> std::endl;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/KnowledgeBase.h&quot;</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d78/BaseController_8h.html">gams/controllers/BaseController.h</a>&quot;</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/ddd/GlobalLogger_8h.html">gams/loggers/GlobalLogger.h</a>&quot;</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/ddd/GlobalLogger_8h.html">gams/loggers/GlobalLogger.h</a>&quot;</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">const</span> std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#af6158236a360878159a8e799ee00cf55">default_broadcast</a> (<span class="stringliteral">&quot;192.168.1.255:15000&quot;</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">// default transport settings</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a982f4a462e23a5b6d37f88f16de65200">host</a> (<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">const</span> std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aef952081e87739384ba5433cfe4297ae">default_multicast</a> (<span class="stringliteral">&quot;239.255.0.1:4150&quot;</span>);</div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">   67</a></span>&#160;madara::transport::QoSTransportSettings <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">// create shortcuts to MADARA classes and namespaces</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">namespace </span>engine = madara::knowledge;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d7/d41/namespacegams_1_1controllers.html">controllers</a> = <a class="code" href="../../d7/d41/namespacegams_1_1controllers.html">gams::controllers</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#abaaae61bd3a8fa0865e1a39d781f1c6a">   72</a></span>&#160;<span class="keyword">typedef</span> madara::knowledge::KnowledgeRecord   <a class="code" href="../../dc/d61/gams__controller_8cpp.html#abaaae61bd3a8fa0865e1a39d781f1c6a">Record</a>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#a0584e2a15ee1231298f4501eca6bd1a0">   73</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a0584e2a15ee1231298f4501eca6bd1a0">Record::Integer</a> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a0584e2a15ee1231298f4501eca6bd1a0">Integer</a>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">const</span> std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad130ea69067dbc70ce19d211c78790fb">KNOWLEDGE_BASE_PLATFORM_KEY</a> (<span class="stringliteral">&quot;.platform&quot;</span>);</div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7">   76</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7">plat_set</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a> (<span class="stringliteral">&quot;debug&quot;</span>);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a47d7c31b22b078e7bafd6aa6716af65f">algorithm</a> (<span class="stringliteral">&quot;debug&quot;</span>);</div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#a7a8184cd712a2cb884729b30455085c2">   79</a></span>&#160;std::vector &lt;std::string&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a7a8184cd712a2cb884729b30455085c2">accents</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#include &quot;madara/knowledge/KnowledgeBase.h&quot;</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d78/BaseController_8h.html">gams/controllers/BaseController.h</a>&quot;</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/ddd/GlobalLogger_8h.html">gams/loggers/GlobalLogger.h</a>&quot;</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/ddd/GlobalLogger_8h.html">gams/loggers/GlobalLogger.h</a>&quot;</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">const</span> std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#af6158236a360878159a8e799ee00cf55">default_broadcast</a> (<span class="stringliteral">&quot;192.168.1.255:15000&quot;</span>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">// default transport settings</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a982f4a462e23a5b6d37f88f16de65200">host</a> (<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">const</span> std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aef952081e87739384ba5433cfe4297ae">default_multicast</a> (<span class="stringliteral">&quot;239.255.0.1:4150&quot;</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">   63</a></span>&#160;madara::transport::QoSTransportSettings <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">// create shortcuts to MADARA classes and namespaces</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">namespace </span>engine = madara::knowledge;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d7/d41/namespacegams_1_1controllers.html">controllers</a> = <a class="code" href="../../d7/d41/namespacegams_1_1controllers.html">gams::controllers</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#abaaae61bd3a8fa0865e1a39d781f1c6a">   68</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">madara::knowledge::KnowledgeRecord</a>   <a class="code" href="../../dc/d61/gams__controller_8cpp.html#abaaae61bd3a8fa0865e1a39d781f1c6a">Record</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#a0584e2a15ee1231298f4501eca6bd1a0">   69</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a0584e2a15ee1231298f4501eca6bd1a0">Record::Integer</a> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a0584e2a15ee1231298f4501eca6bd1a0">Integer</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">const</span> std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad130ea69067dbc70ce19d211c78790fb">KNOWLEDGE_BASE_PLATFORM_KEY</a> (<span class="stringliteral">&quot;.platform&quot;</span>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7">   72</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7">plat_set</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a> (<span class="stringliteral">&quot;debug&quot;</span>);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a47d7c31b22b078e7bafd6aa6716af65f">algorithm</a> (<span class="stringliteral">&quot;debug&quot;</span>);</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#a7a8184cd712a2cb884729b30455085c2">   75</a></span>&#160;std::vector &lt;std::string&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a7a8184cd712a2cb884729b30455085c2">accents</a>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">// controller variables</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad0138728c8a164cfcc75e08be9224af3">period</a> (1.0);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a47145e0b6a276e0d4be8e3c04d84ceff">loop_time</a> (50.0);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">// controller variables</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad0138728c8a164cfcc75e08be9224af3">period</a> (1.0);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a47145e0b6a276e0d4be8e3c04d84ceff">loop_time</a> (50.0);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">// madara commands from a file</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">   86</a></span>&#160;std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">// madara commands from a file</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">   82</a></span>&#160;std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">// for setting debug levels through command line</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a8db2049b790bead0a74fa18c8d9c3248">madara_debug_level</a> (-1);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a4cc3f709921e3e02c780e024add832d3">gams_debug_level</a> (-1);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">// number of agents in the swarm</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<a class="code" href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aee452f6ed6c9d22ef6d6f158593cebab">num_agents</a> (-1);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aee452f6ed6c9d22ef6d6f158593cebab">num_agents</a> (-1);</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">// file path to save received files to</span></div>
 <div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#abf5d4571e49256d0c9d862dfe4936e55">   92</a></span>&#160;std::string <a class="code" href="../../dc/d61/gams__controller_8cpp.html#abf5d4571e49256d0c9d862dfe4936e55">file_path</a>;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">   94</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (<span class="keywordtype">char</span> * prog_name)</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a15ac85af457c1447294ca451bd96a4d5">gams::loggers::LOG_ALWAYS</a>,</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="stringliteral">&quot;\nProgram summary for %s:\n\n&quot;</span> \</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="stringliteral">&quot;     Loop controller setup for gams\n&quot;</span> \</div>
@@ -247,8 +247,8 @@ $(document).ready(function(){initNavTree('dc/d61/gams__controller_8cpp_source.ht
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    {</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;      {</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">madara::logger::global_logger</a>-&gt;add_file (argv[i + 1]);</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>-&gt;add_file (argv[i + 1]);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">madara::logger::global_logger</a>-&gt;add_file (argv[i + 1]);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>-&gt;add_file (argv[i + 1]);</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      }</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
@@ -273,240 +273,279 @@ $(document).ready(function(){initNavTree('dc/d61/gams__controller_8cpp_source.ht
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;      {</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keywordtype">int</span> level;</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        buffer &gt;&gt; level;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">madara::logger::global_logger</a>-&gt;set_level (level);</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      }</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      ++i;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;--gams-level&quot;</span>)</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    {</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;      {</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordtype">int</span> level;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        buffer &gt;&gt; level;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>-&gt;set_level (level);</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      }</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      ++i;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    }</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-L&quot;</span> || arg1 == <span class="stringliteral">&quot;--loop-time&quot;</span>)</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    {</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      {</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        buffer &gt;&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a47145e0b6a276e0d4be8e3c04d84ceff">loop_time</a>;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      }</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;      ++i;</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    }</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-m&quot;</span> || arg1 == <span class="stringliteral">&quot;--multicast&quot;</span>)</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    {</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;      {</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.hosts.push_back (argv[i + 1]);</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.type = madara::transport::MULTICAST;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      }</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      ++i;</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    }</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-M&quot;</span> || arg1 == <span class="stringliteral">&quot;--madara-file&quot;</span>)</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    {</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;      <span class="keywordtype">bool</span> files = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;      ++i;</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;      <span class="keywordflow">for</span> (;i &lt; argc &amp;&amp; argv[i][0] != <span class="charliteral">&#39;-&#39;</span>; ++i)</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;      {</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        std::string filename = argv[i];</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="keywordflow">if</span> (madara::utility::file_exists (filename))</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        {</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;          <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a> += madara::utility::file_to_string (filename);</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;          <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a> += <span class="stringliteral">&quot;;\r\n&quot;</span>;</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;          files = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        }</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;      }</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;      --i;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;      <span class="keywordflow">if</span> (!files)</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    }</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-n&quot;</span> || arg1 == <span class="stringliteral">&quot;--num_agents&quot;</span>)</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    {</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;      {</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        buffer &gt;&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aee452f6ed6c9d22ef6d6f158593cebab">num_agents</a>;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;      }</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      ++i;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    }</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-o&quot;</span> || arg1 == <span class="stringliteral">&quot;--host&quot;</span>)</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    {</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a982f4a462e23a5b6d37f88f16de65200">host</a> = argv[i + 1];</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      ++i;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    }</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-p&quot;</span> || arg1 == <span class="stringliteral">&quot;--platform&quot;</span>)</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    {</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      {</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a> = argv[i + 1];</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7">plat_set</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      }</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      ++i;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    }</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-P&quot;</span> || arg1 == <span class="stringliteral">&quot;--period&quot;</span>)</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    {</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;      {</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        buffer &gt;&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad0138728c8a164cfcc75e08be9224af3">period</a>;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;      }</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      ++i;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    }</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-q&quot;</span> || arg1 == <span class="stringliteral">&quot;--queue-length&quot;</span>)</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    {</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;      {</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        buffer &gt;&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.queue_length;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;      }</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;      ++i;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        buffer &gt;&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a8db2049b790bead0a74fa18c8d9c3248">madara_debug_level</a>;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      }</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;      ++i;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    }</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;--gams-level&quot;</span>)</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        buffer &gt;&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a4cc3f709921e3e02c780e024add832d3">gams_debug_level</a>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      }</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      ++i;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-L&quot;</span> || arg1 == <span class="stringliteral">&quot;--loop-time&quot;</span>)</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;      {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        buffer &gt;&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a47145e0b6a276e0d4be8e3c04d84ceff">loop_time</a>;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      }</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      ++i;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-m&quot;</span> || arg1 == <span class="stringliteral">&quot;--multicast&quot;</span>)</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      {</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.hosts.push_back (argv[i + 1]);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.type = madara::transport::MULTICAST;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      ++i;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-M&quot;</span> || arg1 == <span class="stringliteral">&quot;--madara-file&quot;</span>)</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      <span class="keywordtype">bool</span> files = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;      ++i;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;      <span class="keywordflow">for</span> (;i &lt; argc &amp;&amp; argv[i][0] != <span class="charliteral">&#39;-&#39;</span>; ++i)</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;      {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        std::string filename = argv[i];</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordflow">if</span> (madara::utility::file_exists (filename))</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;          <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a> += madara::utility::file_to_string (filename);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;          <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a> += <span class="stringliteral">&quot;;\n&quot;</span>;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;          files = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;      }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;      --i;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;      <span class="keywordflow">if</span> (!files)</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    }</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-n&quot;</span> || arg1 == <span class="stringliteral">&quot;--num_agents&quot;</span>)</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    {</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;      {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        buffer &gt;&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aee452f6ed6c9d22ef6d6f158593cebab">num_agents</a>;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      }</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;      ++i;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    }</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-o&quot;</span> || arg1 == <span class="stringliteral">&quot;--host&quot;</span>)</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a982f4a462e23a5b6d37f88f16de65200">host</a> = argv[i + 1];</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      ++i;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-p&quot;</span> || arg1 == <span class="stringliteral">&quot;--platform&quot;</span>)</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    {</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;      {</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a> = argv[i + 1];</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7">plat_set</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;      }</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      ++i;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    }</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-P&quot;</span> || arg1 == <span class="stringliteral">&quot;--period&quot;</span>)</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    {</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;      {</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        buffer &gt;&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad0138728c8a164cfcc75e08be9224af3">period</a>;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;      }</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;      ++i;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    }</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-q&quot;</span> || arg1 == <span class="stringliteral">&quot;--queue-length&quot;</span>)</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    {</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;      {</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        std::stringstream buffer (argv[i + 1]);</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        buffer &gt;&gt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.queue_length;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;      }</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;      ++i;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    }</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-r&quot;</span> || arg1 == <span class="stringliteral">&quot;--reduced&quot;</span>)</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    {</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;      <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.send_reduced_message_header = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    }</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-r&quot;</span> || arg1 == <span class="stringliteral">&quot;--reduced&quot;</span>)</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-t&quot;</span> || arg1 == <span class="stringliteral">&quot;--target&quot;</span>)</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    {</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;      <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.send_reduced_message_header = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    }</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-t&quot;</span> || arg1 == <span class="stringliteral">&quot;--target&quot;</span>)</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    {</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#abf5d4571e49256d0c9d862dfe4936e55">file_path</a> = argv[i + 1];</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;      ++i;</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    }</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-u&quot;</span> || arg1 == <span class="stringliteral">&quot;--udp&quot;</span>)</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    {</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;      {</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.hosts.push_back (argv[i + 1]);</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.type = madara::transport::UDP;</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;      }</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;      ++i;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#abf5d4571e49256d0c9d862dfe4936e55">file_path</a> = argv[i + 1];</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;      ++i;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    }</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (arg1 == <span class="stringliteral">&quot;-u&quot;</span> || arg1 == <span class="stringliteral">&quot;--udp&quot;</span>)</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    {</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;      <span class="keywordflow">if</span> (i + 1 &lt; argc &amp;&amp; argv[i + 1][0] != <span class="charliteral">&#39;-&#39;</span>)</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;      {</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.hosts.push_back (argv[i + 1]);</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.type = madara::transport::UDP;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;      }</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;      ++i;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    }</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    {</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;      <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    }</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    {</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;      <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a> (argv[0]);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    }</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;  }</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;}</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;<span class="comment">// perform main logic of program</span></div>
-<div class="line"><a name="l00374"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">  374</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> ** argv)</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;{</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;  <span class="comment">// handle all user arguments</span></div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;  <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a2cfd518572976845680798882117c286">handle_arguments</a> (argc, argv);</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;  </div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;  <span class="comment">// create knowledge base and a control loop</span></div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;  madara::knowledge::KnowledgeBase knowledge (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a982f4a462e23a5b6d37f88f16de65200">host</a>, <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>);</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;  <a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html">controllers::BaseController</a> loop (knowledge);</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;  <span class="comment">// initialize variables and function stubs</span></div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  loop.<a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a94485e1e7a16f94e2924b4fe4daeb258">init_vars</a> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.id, <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aee452f6ed6c9d22ef6d6f158593cebab">num_agents</a>);</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  </div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  <span class="comment">// read madara initialization</span></div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  {</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    knowledge.evaluate (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a>,</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;      madara::knowledge::EvalSettings(<span class="keyword">false</span>, <span class="keyword">true</span>));</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  }</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  <span class="comment">// initialize the platform and algorithm</span></div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  <span class="comment">// default to platform in knowledge base if platform not set in command line</span></div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7">plat_set</a> &amp;&amp; knowledge.exists (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad130ea69067dbc70ce19d211c78790fb">KNOWLEDGE_BASE_PLATFORM_KEY</a>))</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a> = knowledge.get (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad130ea69067dbc70ce19d211c78790fb">KNOWLEDGE_BASE_PLATFORM_KEY</a>).to_string ();</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  loop.<a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#af3c8c1120459428111e17548e62bd667">init_platform</a> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>);</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  loop.<a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a238f889c3ed07d57af1cf34bd23392f2">init_algorithm</a> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a47d7c31b22b078e7bafd6aa6716af65f">algorithm</a>);</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="comment">// add any accents</span></div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; accents.size (); ++i)</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  {</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    loop.<a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a979ec409b3aeec6483aedb60a36505de">init_accent</a> (accents[i]);</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  }</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  <span class="comment">// run a mape loop every 1s for 50s</span></div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  loop.<a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a0d1f516a25aabceb2a73864e02a06823">run</a> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad0138728c8a164cfcc75e08be9224af3">period</a>, <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a47145e0b6a276e0d4be8e3c04d84ceff">loop_time</a>);</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;  }</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;}</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;<span class="comment">// perform main logic of program</span></div>
+<div class="line"><a name="l00370"></a><span class="lineno"><a class="line" href="../../dc/d61/gams__controller_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">  370</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> ** argv)</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;{</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;  <span class="comment">// handle all user arguments</span></div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;  <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a2cfd518572976845680798882117c286">handle_arguments</a> (argc, argv);</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;  <span class="comment">// set this once to allow for debugging knowledge base creation</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a8db2049b790bead0a74fa18c8d9c3248">madara_debug_level</a> &gt;= 0)</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;  {</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">madara::logger::global_logger</a>-&gt;set_level (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a8db2049b790bead0a74fa18c8d9c3248">madara_debug_level</a>);</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;  }</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;  <span class="comment">// create knowledge base and a control loop</span></div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;  madara::knowledge::KnowledgeBase knowledge (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a982f4a462e23a5b6d37f88f16de65200">host</a>, <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>);</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  <span class="comment">// set this once to allow for debugging controller creation</span></div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a4cc3f709921e3e02c780e024add832d3">gams_debug_level</a> &gt;= 0)</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  {</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>-&gt;set_level (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a4cc3f709921e3e02c780e024add832d3">gams_debug_level</a>);</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  }</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  <a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html">controllers::BaseController</a> loop (knowledge);</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  <span class="comment">// initialize variables and function stubs</span></div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  loop.<a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a94485e1e7a16f94e2924b4fe4daeb258">init_vars</a> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.id, <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aee452f6ed6c9d22ef6d6f158593cebab">num_agents</a>);</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  </div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  <span class="comment">// read madara initialization</span></div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  {</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    knowledge.evaluate (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a>,</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;      madara::knowledge::EvalSettings(<span class="keyword">false</span>, <span class="keyword">true</span>));</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  }</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  <span class="comment">// command line logging levels override madara commands from files</span></div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a8db2049b790bead0a74fa18c8d9c3248">madara_debug_level</a> &gt;= 0)</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  {</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    std::stringstream temp_buffer;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    temp_buffer &lt;&lt; <span class="stringliteral">&quot;agent.&quot;</span> &lt;&lt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.id &lt;&lt; <span class="stringliteral">&quot;.madara_debug_level = &quot;</span>;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    temp_buffer &lt;&lt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a8db2049b790bead0a74fa18c8d9c3248">madara_debug_level</a>;</div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;  <span class="comment">// print all knowledge values</span></div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;  knowledge.print ();</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;}</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">madara::logger::global_logger</a>-&gt;set_level (madara_debug_level);</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    <span class="comment">// modify the debug level being used but don&#39;t send out to others</span></div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    knowledge.evaluate (temp_buffer.str (),</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;      madara::knowledge::EvalSettings (<span class="keyword">true</span>, <span class="keyword">true</span>));</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  }</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a4cc3f709921e3e02c780e024add832d3">gams_debug_level</a> &gt;= 0)</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;  {</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    std::stringstream temp_buffer;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    temp_buffer &lt;&lt; <span class="stringliteral">&quot;agent.&quot;</span> &lt;&lt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a>.id &lt;&lt; <span class="stringliteral">&quot;.gams_debug_level = &quot;</span>;</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    temp_buffer &lt;&lt; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a4cc3f709921e3e02c780e024add832d3">gams_debug_level</a>;</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>-&gt;set_level (gams_debug_level);</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <span class="comment">// modify the debug level being used but don&#39;t send out to others</span></div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    knowledge.evaluate (temp_buffer.str (),</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;      madara::knowledge::EvalSettings (<span class="keyword">true</span>, <span class="keyword">true</span>));</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;  }</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;  <span class="comment">// initialize the platform and algorithm</span></div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;  <span class="comment">// default to platform in knowledge base if platform not set in command line</span></div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7">plat_set</a> &amp;&amp; knowledge.exists (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad130ea69067dbc70ce19d211c78790fb">KNOWLEDGE_BASE_PLATFORM_KEY</a>))</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a> = knowledge.get (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad130ea69067dbc70ce19d211c78790fb">KNOWLEDGE_BASE_PLATFORM_KEY</a>).to_string ();</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;  loop.<a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a4e04247933394074fed77ded3cb00d48">init_platform</a> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>);</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;  loop.<a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a238f889c3ed07d57af1cf34bd23392f2">init_algorithm</a> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#a47d7c31b22b078e7bafd6aa6716af65f">algorithm</a>);</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;  <span class="comment">// add any accents</span></div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; accents.size (); ++i)</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;  {</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    loop.<a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a979ec409b3aeec6483aedb60a36505de">init_accent</a> (accents[i]);</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;  }</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;  <span class="comment">// run a mape loop every 1s for 50s</span></div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;  loop.<a class="code" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a0d1f516a25aabceb2a73864e02a06823">run</a> (<a class="code" href="../../dc/d61/gams__controller_8cpp.html#ad0138728c8a164cfcc75e08be9224af3">period</a>, <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a47145e0b6a276e0d4be8e3c04d84ceff">loop_time</a>);</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;  <span class="comment">// print all knowledge values</span></div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;  knowledge.print ();</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;}</div>
+<div class="ttc" id="gams__controller_8cpp_html_a8db2049b790bead0a74fa18c8d9c3248"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a8db2049b790bead0a74fa18c8d9c3248">madara_debug_level</a></div><div class="ttdeci">int madara_debug_level(-1)</div></div>
 <div class="ttc" id="gams__controller_8cpp_html_ad0138728c8a164cfcc75e08be9224af3"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#ad0138728c8a164cfcc75e08be9224af3">period</a></div><div class="ttdeci">double period(1.0)</div></div>
-<div class="ttc" id="gams__controller_8cpp_html_a0584e2a15ee1231298f4501eca6bd1a0"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a0584e2a15ee1231298f4501eca6bd1a0">Integer</a></div><div class="ttdeci">Record::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00073">gams_controller.cpp:73</a></div></div>
+<div class="ttc" id="gams__controller_8cpp_html_a0584e2a15ee1231298f4501eca6bd1a0"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a0584e2a15ee1231298f4501eca6bd1a0">Integer</a></div><div class="ttdeci">Record::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00069">gams_controller.cpp:69</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_a5724b5d5bd1fb93f9ae44b8d46b64328"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328">print_usage</a></div><div class="ttdeci">void print_usage(char *prog_name)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00094">gams_controller.cpp:94</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_aef952081e87739384ba5433cfe4297ae"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#aef952081e87739384ba5433cfe4297ae">default_multicast</a></div><div class="ttdeci">const std::string default_multicast(&quot;239.255.0.1:4150&quot;)</div></div>
+<div class="ttc" id="Executor_8cpp_html_ab81cfab508380f12dfb849a4915dde6d"><div class="ttname"><a href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">KnowledgeRecord</a></div><div class="ttdeci">knowledge::KnowledgeRecord KnowledgeRecord</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/Executor_8cpp_source.html#l00067">Executor.cpp:67</a></div></div>
 <div class="ttc" id="namespacegams_1_1controllers_html"><div class="ttname"><a href="../../d7/d41/namespacegams_1_1controllers.html">gams::controllers</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6f/BaseAlgorithm_8h_source.html#l00070">BaseAlgorithm.h:70</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_af6158236a360878159a8e799ee00cf55"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#af6158236a360878159a8e799ee00cf55">default_broadcast</a></div><div class="ttdeci">const std::string default_broadcast(&quot;192.168.1.255:15000&quot;)</div></div>
+<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html_a4e04247933394074fed77ded3cb00d48"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a4e04247933394074fed77ded3cb00d48">gams::controllers::BaseController::init_platform</a></div><div class="ttdeci">void init_platform(const std::string &amp;platform, const madara::knowledge::KnowledgeMap &amp;args=madara::knowledge::KnowledgeMap())</div><div class="ttdoc">Initializes the platform. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/BaseController_8cpp_source.html#l00847">BaseController.cpp:847</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_abf5d4571e49256d0c9d862dfe4936e55"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#abf5d4571e49256d0c9d862dfe4936e55">file_path</a></div><div class="ttdeci">std::string file_path</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00092">gams_controller.cpp:92</a></div></div>
-<div class="ttc" id="gams__controller_8cpp_html_abaaae61bd3a8fa0865e1a39d781f1c6a"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#abaaae61bd3a8fa0865e1a39d781f1c6a">Record</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord Record</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00072">gams_controller.cpp:72</a></div></div>
+<div class="ttc" id="gams__controller_8cpp_html_abaaae61bd3a8fa0865e1a39d781f1c6a"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#abaaae61bd3a8fa0865e1a39d781f1c6a">Record</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord Record</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00068">gams_controller.cpp:68</a></div></div>
 <div class="ttc" id="BaseController_8h_html"><div class="ttname"><a href="../../d0/d78/BaseController_8h.html">BaseController.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="namespacegams_1_1loggers_html_a31352813dc66377621f0f56e887a2b5f"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a></div><div class="ttdeci">GAMSExport std::auto_ptr&lt; madara::logger::Logger &gt; global_logger</div></div>
 <div class="ttc" id="gams__controller_8cpp_html_aee452f6ed6c9d22ef6d6f158593cebab"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#aee452f6ed6c9d22ef6d6f158593cebab">num_agents</a></div><div class="ttdeci">Integer num_agents(-1)</div></div>
-<div class="ttc" id="FormationSync_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1e/FormationSync_8cpp_source.html#l00069">FormationSync.cpp:69</a></div></div>
-<div class="ttc" id="gams__controller_8cpp_html_a7a8184cd712a2cb884729b30455085c2"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a7a8184cd712a2cb884729b30455085c2">accents</a></div><div class="ttdeci">std::vector&lt; std::string &gt; accents</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00079">gams_controller.cpp:79</a></div></div>
-<div class="ttc" id="gams__controller_8cpp_html_aa29d439d2009d11570344604918bd177"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a></div><div class="ttdeci">std::string madara_commands</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00086">gams_controller.cpp:86</a></div></div>
+<div class="ttc" id="gams__controller_8cpp_html_a7a8184cd712a2cb884729b30455085c2"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a7a8184cd712a2cb884729b30455085c2">accents</a></div><div class="ttdeci">std::vector&lt; std::string &gt; accents</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00075">gams_controller.cpp:75</a></div></div>
+<div class="ttc" id="gams__controller_8cpp_html_aa29d439d2009d11570344604918bd177"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177">madara_commands</a></div><div class="ttdeci">std::string madara_commands</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00082">gams_controller.cpp:82</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_a6615fcccb5acbeab9bcda3de434f9a06"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a></div><div class="ttdeci">std::string platform(&quot;debug&quot;)</div></div>
-<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html_a94485e1e7a16f94e2924b4fe4daeb258"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a94485e1e7a16f94e2924b4fe4daeb258">gams::controllers::BaseController::init_vars</a></div><div class="ttdeci">void init_vars(const madara::knowledge::KnowledgeRecord::Integer &amp;id=0, const madara::knowledge::KnowledgeRecord::Integer &amp;processes=-1)</div><div class="ttdoc">Initializes global variable containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/BaseController_8cpp_source.html#l00974">BaseController.cpp:974</a></div></div>
+<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html_a94485e1e7a16f94e2924b4fe4daeb258"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a94485e1e7a16f94e2924b4fe4daeb258">gams::controllers::BaseController::init_vars</a></div><div class="ttdeci">void init_vars(const madara::knowledge::KnowledgeRecord::Integer &amp;id=0, const madara::knowledge::KnowledgeRecord::Integer &amp;processes=-1)</div><div class="ttdoc">Initializes global variable containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/BaseController_8cpp_source.html#l01126">BaseController.cpp:1126</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_a2cfd518572976845680798882117c286"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a2cfd518572976845680798882117c286">handle_arguments</a></div><div class="ttdeci">void handle_arguments(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00127">gams_controller.cpp:127</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_a47d7c31b22b078e7bafd6aa6716af65f"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a47d7c31b22b078e7bafd6aa6716af65f">algorithm</a></div><div class="ttdeci">std::string algorithm(&quot;debug&quot;)</div></div>
-<div class="ttc" id="namespacegams_1_1loggers_html_ab44b4d321f86301d85e8cecaa4c19302a15ac85af457c1447294ca451bd96a4d5"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a15ac85af457c1447294ca451bd96a4d5">gams::loggers::LOG_ALWAYS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/GlobalLogger_8h_source.html#l00019">GlobalLogger.h:19</a></div></div>
-<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html_a0d1f516a25aabceb2a73864e02a06823"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a0d1f516a25aabceb2a73864e02a06823">gams::controllers::BaseController::run</a></div><div class="ttdeci">int run(double loop_period=0.0, double max_runtime=-1, double send_period=-1.0)</div><div class="ttdoc">Runs iterations of the MAPE loop with specified periods. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/BaseController_8cpp_source.html#l00474">BaseController.cpp:474</a></div></div>
+<div class="ttc" id="namespacegams_1_1loggers_html_ab44b4d321f86301d85e8cecaa4c19302a15ac85af457c1447294ca451bd96a4d5"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a15ac85af457c1447294ca451bd96a4d5">gams::loggers::LOG_ALWAYS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/GlobalLogger_8h_source.html#l00020">GlobalLogger.h:20</a></div></div>
+<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html_a0d1f516a25aabceb2a73864e02a06823"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a0d1f516a25aabceb2a73864e02a06823">gams::controllers::BaseController::run</a></div><div class="ttdeci">int run(double loop_period=0.0, double max_runtime=-1, double send_period=-1.0)</div><div class="ttdoc">Runs iterations of the MAPE loop with specified periods. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/BaseController_8cpp_source.html#l00516">BaseController.cpp:516</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_ad130ea69067dbc70ce19d211c78790fb"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#ad130ea69067dbc70ce19d211c78790fb">KNOWLEDGE_BASE_PLATFORM_KEY</a></div><div class="ttdeci">const std::string KNOWLEDGE_BASE_PLATFORM_KEY(&quot;.platform&quot;)</div></div>
-<div class="ttc" id="gams__controller_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00374">gams_controller.cpp:374</a></div></div>
+<div class="ttc" id="gams__controller_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00370">gams_controller.cpp:370</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_a982f4a462e23a5b6d37f88f16de65200"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a982f4a462e23a5b6d37f88f16de65200">host</a></div><div class="ttdeci">std::string host(&quot;&quot;)</div></div>
-<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html">gams::controllers::BaseController</a></div><div class="ttdoc">The basic controller that can be used to perform actions on platforms and algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d78/BaseController_8h_source.html#l00086">BaseController.h:86</a></div></div>
-<div class="ttc" id="gams__controller_8cpp_html_a7f9805e384e72197c583a2d18af8d7c7"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7">plat_set</a></div><div class="ttdeci">bool plat_set</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00076">gams_controller.cpp:76</a></div></div>
+<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html">gams::controllers::BaseController</a></div><div class="ttdoc">The basic controller that can be used to perform actions on platforms and algorithms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d78/BaseController_8h_source.html#l00085">BaseController.h:85</a></div></div>
+<div class="ttc" id="gams__controller_8cpp_html_a7f9805e384e72197c583a2d18af8d7c7"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7">plat_set</a></div><div class="ttdeci">bool plat_set</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00072">gams_controller.cpp:72</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_a47145e0b6a276e0d4be8e3c04d84ceff"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a47145e0b6a276e0d4be8e3c04d84ceff">loop_time</a></div><div class="ttdeci">double loop_time(50.0)</div></div>
-<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html_a979ec409b3aeec6483aedb60a36505de"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a979ec409b3aeec6483aedb60a36505de">gams::controllers::BaseController::init_accent</a></div><div class="ttdeci">void init_accent(const std::string &amp;algorithm, const madara::knowledge::KnowledgeMap &amp;args=madara::knowledge::KnowledgeMap())</div><div class="ttdoc">Adds an accent algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/BaseController_8cpp_source.html#l00619">BaseController.cpp:619</a></div></div>
+<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html_a979ec409b3aeec6483aedb60a36505de"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a979ec409b3aeec6483aedb60a36505de">gams::controllers::BaseController::init_accent</a></div><div class="ttdeci">void init_accent(const std::string &amp;algorithm, const madara::knowledge::KnowledgeMap &amp;args=madara::knowledge::KnowledgeMap())</div><div class="ttdoc">Adds an accent algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/BaseController_8cpp_source.html#l00673">BaseController.cpp:673</a></div></div>
+<div class="ttc" id="LocalPheremoneAreaCoverage_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp_source.html#l00072">LocalPheremoneAreaCoverage.cpp:72</a></div></div>
 <div class="ttc" id="GlobalLogger_8h_html"><div class="ttname"><a href="../../d9/ddd/GlobalLogger_8h.html">GlobalLogger.h</a></div></div>
-<div class="ttc" id="gams__controller_8cpp_html_aeec674db9554192e56960857e748f0ab"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a></div><div class="ttdeci">madara::transport::QoSTransportSettings settings</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00067">gams_controller.cpp:67</a></div></div>
-<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html_a238f889c3ed07d57af1cf34bd23392f2"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a238f889c3ed07d57af1cf34bd23392f2">gams::controllers::BaseController::init_algorithm</a></div><div class="ttdeci">void init_algorithm(const std::string &amp;algorithm, const madara::knowledge::KnowledgeMap &amp;args=madara::knowledge::KnowledgeMap())</div><div class="ttdoc">Initializes an algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/BaseController_8cpp_source.html#l00677">BaseController.cpp:677</a></div></div>
-<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html_af3c8c1120459428111e17548e62bd667"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#af3c8c1120459428111e17548e62bd667">gams::controllers::BaseController::init_platform</a></div><div class="ttdeci">void init_platform(const std::string &amp;platform, const madara::knowledge::KnowledgeVector &amp;args=madara::knowledge::KnowledgeVector())</div><div class="ttdoc">Initializes the platform. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/BaseController_8cpp_source.html#l00785">BaseController.cpp:785</a></div></div>
+<div class="ttc" id="gams__controller_8cpp_html_aeec674db9554192e56960857e748f0ab"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a></div><div class="ttdeci">madara::transport::QoSTransportSettings settings</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00063">gams_controller.cpp:63</a></div></div>
+<div class="ttc" id="namespacegams_1_1loggers_html_a15b9006d097725c716eee378b8f75801"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a></div><div class="ttdeci">GAMSExport madara::utility::Refcounter&lt; madara::logger::Logger &gt; global_logger</div></div>
+<div class="ttc" id="classgams_1_1controllers_1_1BaseController_html_a238f889c3ed07d57af1cf34bd23392f2"><div class="ttname"><a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#a238f889c3ed07d57af1cf34bd23392f2">gams::controllers::BaseController::init_algorithm</a></div><div class="ttdeci">void init_algorithm(const std::string &amp;algorithm, const madara::knowledge::KnowledgeMap &amp;args=madara::knowledge::KnowledgeMap())</div><div class="ttdoc">Initializes an algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/BaseController_8cpp_source.html#l00735">BaseController.cpp:735</a></div></div>
+<div class="ttc" id="gams__controller_8cpp_html_a4cc3f709921e3e02c780e024add832d3"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a4cc3f709921e3e02c780e024add832d3">gams_debug_level</a></div><div class="ttdeci">int gams_debug_level(-1)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_4dc5af0c8612bc26f6dcfedb7e65fa98.html">programs</a></li><li class="navelem"><a class="el" href="../../dc/d61/gams__controller_8cpp.html">gams_controller.cpp</a></li>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:40 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:37 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

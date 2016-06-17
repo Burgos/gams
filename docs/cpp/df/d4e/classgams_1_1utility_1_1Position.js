@@ -12,6 +12,7 @@ var classgams_1_1utility_1_1Position =
     [ "dot", "df/d4e/classgams_1_1utility_1_1Position.html#abf8fe7c9ac5436c67963ee172faf2c85", null ],
     [ "from_container", "df/d4e/classgams_1_1utility_1_1Position.html#a4d5913974fbc8758017b5ed53ac7ccf8", null ],
     [ "from_container", "df/d4e/classgams_1_1utility_1_1Position.html#ab919cd0f40e40fbf508585909a4a1c5d", null ],
+    [ "from_record", "df/d4e/classgams_1_1utility_1_1Position.html#add7374388325e5de5199fe5a6adfbdf8", null ],
     [ "from_string", "df/d4e/classgams_1_1utility_1_1Position.html#a3525ba67b12f201ce09eb631070aa215", null ],
     [ "is_between_2d", "df/d4e/classgams_1_1utility_1_1Position.html#aa58d6dbb01bee056ea79be9bc147ac82", null ],
     [ "operator!=", "df/d4e/classgams_1_1utility_1_1Position.html#a32e95b72ac6d143af62d0b2ebd11d0d5", null ],

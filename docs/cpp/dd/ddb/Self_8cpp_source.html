@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -134,51 +134,72 @@ $(document).ready(function(){initNavTree('dd/ddb/Self_8cpp_source.html','../../'
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">   72</a></span>&#160;<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">gams::variables::Self::init_vars</a> (</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a5ab945ffc76411f094d9ee6327637ba6">   72</a></span>&#160;<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">gams::variables::Self::init_vars</a> (</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  madara::knowledge::KnowledgeBase &amp; knowledge,</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> &amp; <span class="keywordtype">id</span>)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keyword">const</span> std::string &amp; self_prefix)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="comment">// initialize the variable containers</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  this-&gt;<span class="keywordtype">id</span>.set_name (<span class="stringliteral">&quot;.id&quot;</span>, knowledge);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  this-&gt;<span class="keywordtype">id</span> = id;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  this-&gt;agent.init_vars (knowledge, <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="../../d4/d98/classgams_1_1variables_1_1Self.html#ae46a9be9b604b8aa6532e6745f188876">   83</a></span>&#160;<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">gams::variables::Self::init_vars</a> (</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  madara::knowledge::Variables &amp; knowledge,</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> &amp; <span class="keywordtype">id</span>)</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;{</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="comment">// initialize the variable containers</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  this-&gt;<span class="keywordtype">id</span>.set_name (<span class="stringliteral">&quot;.id&quot;</span>, knowledge);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  this-&gt;agent.init_vars (knowledge, <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="../../d8/df1/namespacegams_1_1variables.html#afb658488f7b178448ec9084b4f404f63">   92</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">gams::variables::init_vars</a> (<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">Self</a> &amp; <a class="code" href="../../d8/df1/namespacegams_1_1variables.html">variables</a>,</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  madara::knowledge::KnowledgeBase &amp; knowledge,</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> &amp; <span class="keywordtype">id</span>)</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  variables.<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">init_vars</a> (knowledge, <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  this-&gt;<span class="keywordtype">id</span>.set_name (<span class="stringliteral">&quot;.id&quot;</span>, knowledge);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  this-&gt;<span class="keywordtype">id</span> = -1;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  this-&gt;prefix.set_name (<span class="stringliteral">&quot;.prefix&quot;</span>, knowledge);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  this-&gt;prefix = self_prefix;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  this-&gt;agent.init_vars (knowledge, self_prefix);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">   84</a></span>&#160;<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">gams::variables::Self::init_vars</a> (</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  madara::knowledge::KnowledgeBase &amp; knowledge,</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> &amp; <span class="keywordtype">id</span>)</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;{</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="comment">// initialize the variable containers</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  this-&gt;<span class="keywordtype">id</span>.set_name (<span class="stringliteral">&quot;.id&quot;</span>, knowledge);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  this-&gt;<span class="keywordtype">id</span> = id;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  this-&gt;prefix.set_name (<span class="stringliteral">&quot;.prefix&quot;</span>, knowledge);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  this-&gt;prefix = <span class="stringliteral">&quot;agent.&quot;</span> + this-&gt;<span class="keywordtype">id</span>.to_string ();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  this-&gt;agent.init_vars (knowledge, <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="../../d4/d98/classgams_1_1variables_1_1Self.html#ae46a9be9b604b8aa6532e6745f188876">   97</a></span>&#160;<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">gams::variables::Self::init_vars</a> (</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  madara::knowledge::Variables &amp; knowledge,</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> &amp; <span class="keywordtype">id</span>)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  <span class="comment">// initialize the variable containers</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  this-&gt;<span class="keywordtype">id</span>.set_name (<span class="stringliteral">&quot;.id&quot;</span>, knowledge);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  this-&gt;agent.init_vars (knowledge, <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="../../d8/df1/namespacegams_1_1variables.html#afb658488f7b178448ec9084b4f404f63">  106</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">gams::variables::init_vars</a> (<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">Self</a> &amp; container,</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  madara::knowledge::KnowledgeBase &amp; knowledge,</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> &amp; <span class="keywordtype">id</span>)</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;{</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  container.<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">init_vars</a> (knowledge, <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="../../d8/df1/namespacegams_1_1variables.html#a3be7efb227049ad097bf41b5e89d59dc">  114</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">gams::variables::init_vars</a> (<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">Self</a> &amp; container,</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  madara::knowledge::KnowledgeBase &amp; knowledge,</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  <span class="keyword">const</span> std::string &amp; self_prefix)</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;{</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  container.<a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">init_vars</a> (knowledge, self_prefix);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
 <div class="ttc" id="Self_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../dd/ddb/Self_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddb/Self_8cpp_source.html#l00049">Self.cpp:49</a></div></div>
 <div class="ttc" id="Self_8h_html"><div class="ttname"><a href="../../da/d3d/Self_8h.html">Self.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="classgams_1_1variables_1_1Self_html_a239f750fe6cbcb3f9bf8def1822de309"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html#a239f750fe6cbcb3f9bf8def1822de309">gams::variables::Self::id</a></div><div class="ttdeci">madara::knowledge::containers::Integer id</div><div class="ttdoc">the id of this agent </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00105">Self.h:105</a></div></div>
+<div class="ttc" id="classgams_1_1variables_1_1Self_html_a239f750fe6cbcb3f9bf8def1822de309"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html#a239f750fe6cbcb3f9bf8def1822de309">gams::variables::Self::id</a></div><div class="ttdeci">madara::knowledge::containers::Integer id</div><div class="ttdoc">the id of this agent </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00113">Self.h:113</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html_a3717436ee21c804658ef3a131fe4ac2d"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html#a3717436ee21c804658ef3a131fe4ac2d">gams::variables::Self::Self</a></div><div class="ttdeci">Self()</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddb/Self_8cpp_source.html#l00052">Self.cpp:52</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
-<div class="ttc" id="FormationSync_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../d4/d1e/FormationSync_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1e/FormationSync_8cpp_source.html#l00069">FormationSync.cpp:69</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html_a6ac0145b2792420f5d3a031a72b6f5ac"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html#a6ac0145b2792420f5d3a031a72b6f5ac">gams::variables::Self::operator=</a></div><div class="ttdeci">void operator=(const Self &amp;agent)</div><div class="ttdoc">Assignment operator. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddb/Self_8cpp_source.html#l00061">Self.cpp:61</a></div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a87083f1a052b87f9b75de8bac6c6a864"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">gams::variables::init_vars</a></div><div class="ttdeci">GAMSExport void init_vars(AccentStatuses &amp;variables, madara::knowledge::KnowledgeBase &amp;knowledge, const std::string &amp;prefix)</div><div class="ttdoc">Initializes accent status containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da3/AccentStatus_8cpp_source.html#l00100">AccentStatus.cpp:100</a></div></div>
+<div class="ttc" id="LocalPheremoneAreaCoverage_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp_source.html#l00072">LocalPheremoneAreaCoverage.cpp:72</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html_a40ef769b93fcd402fd15f8d7ea03fc40"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html#a40ef769b93fcd402fd15f8d7ea03fc40">gams::variables::Self::~Self</a></div><div class="ttdeci">~Self()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddb/Self_8cpp_source.html#l00056">Self.cpp:56</a></div></div>
-<div class="ttc" id="classgams_1_1variables_1_1Self_html_a4e10d32ff1b8ad63fe37121e765da0d4"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html#a4e10d32ff1b8ad63fe37121e765da0d4">gams::variables::Self::agent</a></div><div class="ttdeci">Agent agent</div><div class="ttdoc">the agent-specific variables </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00108">Self.h:108</a></div></div>
-<div class="ttc" id="classgams_1_1variables_1_1Self_html_a9cb2cb77e6535e046636cda8a45c9fbb"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">gams::variables::Self::init_vars</a></div><div class="ttdeci">void init_vars(madara::knowledge::KnowledgeBase &amp;knowledge, const madara::knowledge::KnowledgeRecord::Integer &amp;id)</div><div class="ttdoc">Initializes variable containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddb/Self_8cpp_source.html#l00072">Self.cpp:72</a></div></div>
-<div class="ttc" id="namespacegams_1_1variables_html"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html">gams::variables</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/Grid_8h_source.html#l00065">Grid.h:65</a></div></div>
+<div class="ttc" id="classgams_1_1variables_1_1Self_html_a4e10d32ff1b8ad63fe37121e765da0d4"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html#a4e10d32ff1b8ad63fe37121e765da0d4">gams::variables::Self::agent</a></div><div class="ttdeci">Agent agent</div><div class="ttdoc">the agent-specific variables </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00119">Self.h:119</a></div></div>
+<div class="ttc" id="classgams_1_1variables_1_1Self_html_a9cb2cb77e6535e046636cda8a45c9fbb"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html#a9cb2cb77e6535e046636cda8a45c9fbb">gams::variables::Self::init_vars</a></div><div class="ttdeci">void init_vars(madara::knowledge::KnowledgeBase &amp;knowledge, const madara::knowledge::KnowledgeRecord::Integer &amp;id)</div><div class="ttdoc">Initializes variable containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddb/Self_8cpp_source.html#l00084">Self.cpp:84</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_0e5c20b817b77fc20ca6d9cc098d1d10.html">variables</a></li><li class="navelem"><a class="el" href="../../dd/ddb/Self_8cpp.html">Self.cpp</a></li>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:40 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:38 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

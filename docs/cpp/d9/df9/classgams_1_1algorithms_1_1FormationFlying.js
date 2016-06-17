@@ -3,7 +3,7 @@ var classgams_1_1algorithms_1_1FormationFlying =
     [ "Compiled", "d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled.html", "d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled" ],
     [ "NONE", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#ad963f56bbae047fc1eb443014b40dc91aaea9e293659419e7a146fd533ca9fc4b", null ],
     [ "ROTATE", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#ad963f56bbae047fc1eb443014b40dc91ab0fcbf8da2f84430a5c6258ef3ae3211", null ],
-    [ "FormationFlying", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a2537f60a6c6dbfeeece3ff0f516118b8", null ],
+    [ "FormationFlying", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a1a3447207493b32ceb672293c587f8e5", null ],
     [ "~FormationFlying", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a51e1e072d65c0afbc4d43b920f307be6", null ],
     [ "analyze", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a72a78e0ab1d068c6d07699b95d2cd1f7", null ],
     [ "execute", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#aec6029d160a622abcf04e01828445d7e", null ],

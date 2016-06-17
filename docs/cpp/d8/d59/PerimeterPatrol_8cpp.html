@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.9.1"/>
-<title>GAMS: src/gams/algorithms/area_coverage/PerimeterPatrol.cpp File Reference</title>
+<title>GAMS: src/gams/algorithms/PerimeterPatrol.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -104,32 +104,80 @@ $(document).ready(function(){initNavTree('d8/d59/PerimeterPatrol_8cpp.html','../
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">PerimeterPatrol.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Copyright (c) 2014 Carnegie Mellon University.  
-<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d9/ddd/GlobalLogger_8h_source.html">gams/loggers/GlobalLogger.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d28/PerimeterPatrol_8h_source.html">gams/algorithms/area_coverage/PerimeterPatrol.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d28/PerimeterPatrol_8h_source.html">PerimeterPatrol.h</a>&quot;</code><br />
+<code>#include &quot;ace/OS_NS_sys_time.h&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d53/GPSPosition_8h_source.html">gams/utility/GPSPosition.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d9f/utility_2Region_8h_source.html">gams/utility/Region.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d1b/utility_2SearchArea_8h_source.html">gams/utility/SearchArea.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/dff/Position_8h_source.html">gams/utility/Position.h</a>&quot;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d47/ArgumentParser_8h_source.html">gams/utility/ArgumentParser.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for PerimeterPatrol.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/d49/PerimeterPatrol_8cpp__incl.png" border="0" usemap="#src_2gams_2algorithms_2area__coverage_2PerimeterPatrol_8cpp" alt=""/></div>
-<map name="src_2gams_2algorithms_2area__coverage_2PerimeterPatrol_8cpp" id="src_2gams_2algorithms_2area__coverage_2PerimeterPatrol_8cpp">
-<area shape="rect" id="node2" href="../../d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="409,348,599,375"/><area shape="rect" id="node7" href="../../d1/d28/PerimeterPatrol_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1769,95,1954,136"/><area shape="rect" id="node17" href="../../df/d53/GPSPosition_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2697,758,2876,785"/><area shape="rect" id="node20" href="../../de/dff/Position_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2320,847,2400,874"/><area shape="rect" id="node21" href="../../d6/d1b/utility_2SearchArea_8h.html" title="gams/utility/SearchArea.h" alt="" coords="2534,497,2706,524"/><area shape="rect" id="node23" href="../../da/d9f/utility_2Region_8h.html" title="gams/utility/Region.h" alt="" coords="2192,669,2336,695"/><area shape="rect" id="node61" href="../../d0/d47/ArgumentParser_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4486,847,4685,874"/><area shape="rect" id="node4" href="../../d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="1624,1019,1771,1045"/><area shape="rect" id="node8" href="../../d3/d0a/BaseAreaCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1759,184,1964,225"/><area shape="rect" id="node10" href="../../d5/d65/Sensor_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1549,423,1713,449"/><area shape="rect" id="node27" href="../../d4/de8/BasePlatform_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2273,348,2477,375"/><area shape="rect" id="node28" href="../../da/d3d/Self_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="406,579,551,606"/><area shape="rect" id="node58" href="../../db/dfe/AlgorithmStatus_8h.html" title="gams/variables/Algorithm\lStatus.h" alt="" coords="990,661,1157,703"/><area shape="rect" id="node60" href="../../dc/d80/AlgorithmFactory_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="827,184,1005,225"/><area shape="rect" id="node9" href="../../d2/d6f/BaseAlgorithm_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1097,273,1316,300"/><area shape="rect" id="node22" href="../../d9/d98/PrioritizedRegion_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2539,572,2690,613"/><area shape="rect" id="node25" href="../../dd/df2/Containerize_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1816,847,1992,874"/><area shape="rect" id="node34" href="../../da/d37/PlatformStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1181,669,1390,695"/><area shape="rect" id="node35" href="../../d3/d6e/Axes_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2526,847,2661,874"/><area shape="rect" id="node36" href="../../dc/dba/GPSFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="3061,423,3230,449"/><area shape="rect" id="node40" href="../../d7/db5/Pose_8h.html" title="Pose.h" alt="" coords="3309,758,3371,785"/><area shape="rect" id="node42" href="../../d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="3695,847,3849,874"/><area shape="rect" id="node57" href="../../d5/d38/BasePlatform_8inl.html" title="BasePlatform.inl" alt="" coords="2291,423,2408,449"/><area shape="rect" id="node30" href="../../da/da5/Agent_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="665,758,732,785"/><area shape="rect" id="node33" href="../../d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="549,847,661,874"/><area shape="rect" id="node37" href="../../dc/d49/ReferenceFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="3171,579,3299,606"/><area shape="rect" id="node56" href="../../d6/dd0/GPSFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="3093,497,3197,524"/><area shape="rect" id="node38" href="../../d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="3951,1019,4111,1045"/><area shape="rect" id="node55" href="../../d4/d05/ReferenceFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="3273,669,3407,695"/><area shape="rect" id="node50" href="../../d0/d8f/Rotation_8h.html" title="gams/utility/Rotation.h" alt="" coords="3295,847,3447,874"/><area shape="rect" id="node54" href="../../d0/d33/Pose_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="3201,847,3271,874"/><area shape="rect" id="node43" href="../../d6/df6/Coordinate_8h.html" title="gams/utility/Coordinate.h" alt="" coords="3709,937,3875,963"/><area shape="rect" id="node49" href="../../df/d2b/Location_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4164,937,4252,963"/><area shape="rect" id="node46" href="../../de/d36/Coordinate_8inl.html" title="Coordinate.inl" alt="" coords="3620,1019,3721,1045"/><area shape="rect" id="node52" href="../../d6/d2a/AngleUnits_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="3252,937,3348,963"/><area shape="rect" id="node53" href="../../d8/d6e/Rotation_8inl.html" title="Rotation.inl" alt="" coords="4002,937,4089,963"/></map>
+<div class="center"><img src="../../de/d49/PerimeterPatrol_8cpp__incl.png" border="0" usemap="#src_2gams_2algorithms_2PerimeterPatrol_8cpp" alt=""/></div>
+<map name="src_2gams_2algorithms_2PerimeterPatrol_8cpp" id="src_2gams_2algorithms_2PerimeterPatrol_8cpp">
+<area shape="rect" id="node2" href="../../d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="5895,907,6086,934"/><area shape="rect" id="node8" href="../../d1/d28/PerimeterPatrol_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3504,95,3627,121"/><area shape="rect" id="node66" href="../../d0/d47/ArgumentParser_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="299,818,498,845"/><area shape="rect" id="node4" href="../../d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="4288,989,4435,1016"/><area shape="rect" id="node9" href="../../d2/d6f/BaseAlgorithm_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3788,259,4007,285"/><area shape="rect" id="node10" href="../../d5/d65/Sensor_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3314,408,3478,435"/><area shape="rect" id="node20" href="../../de/dff/Position_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2348,818,2428,845"/><area shape="rect" id="node28" href="../../d4/de8/BasePlatform_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2541,333,2745,360"/><area shape="rect" id="node29" href="../../da/d3d/Self_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="4555,408,4701,435"/><area shape="rect" id="node62" href="../../db/dfe/AlgorithmStatus_8h.html" title="gams/variables/Algorithm\lStatus.h" alt="" coords="4165,557,4331,599"/><area shape="rect" id="node65" href="../../dc/d80/AlgorithmFactory_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="4277,169,4454,211"/><area shape="rect" id="node23" href="../../da/d9f/utility_2Region_8h.html" title="gams/utility/Region.h" alt="" coords="2705,647,2849,673"/><area shape="rect" id="node17" href="../../df/d53/GPSPosition_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2193,729,2372,755"/><area shape="rect" id="node21" href="../../d6/d1b/utility_2SearchArea_8h.html" title="gams/utility/SearchArea.h" alt="" coords="2651,483,2823,509"/><area shape="rect" id="node22" href="../../d9/d98/PrioritizedRegion_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2503,557,2654,599"/><area shape="rect" id="node26" href="../../d2/db0/SearchArea_8inl.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="2729,565,2836,591"/><area shape="rect" id="node25" href="../../dd/df2/Containerize_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3729,818,3905,845"/><area shape="rect" id="node38" href="../../da/d37/PlatformStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3263,565,3473,591"/><area shape="rect" id="node39" href="../../d3/d6e/Axes_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2037,818,2171,845"/><area shape="rect" id="node40" href="../../dc/dba/GPSFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1498,408,1667,435"/><area shape="rect" id="node44" href="../../d7/db5/Pose_8h.html" title="Pose.h" alt="" coords="1413,729,1475,755"/><area shape="rect" id="node46" href="../../d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1554,818,1707,845"/><area shape="rect" id="node61" href="../../d5/d38/BasePlatform_8inl.html" title="BasePlatform.inl" alt="" coords="2584,408,2701,435"/><area shape="rect" id="node31" href="../../da/da5/Agent_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="4427,647,4493,673"/><area shape="rect" id="node34" href="../../d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="4837,729,4949,755"/><area shape="rect" id="node35" href="../../d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="4158,729,4335,755"/><area shape="rect" id="node36" href="../../d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="3567,818,3705,845"/><area shape="rect" id="node37" href="../../d4/d83/GroupBase_8inl.html" title="GroupBase.inl" alt="" coords="4284,818,4388,845"/><area shape="rect" id="node41" href="../../dc/d49/ReferenceFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1500,565,1628,591"/><area shape="rect" id="node60" href="../../d6/dd0/GPSFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1531,483,1635,509"/><area shape="rect" id="node42" href="../../d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="233,989,393,1016"/><area shape="rect" id="node59" href="../../d4/d05/ReferenceFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1497,647,1631,673"/><area shape="rect" id="node54" href="../../d0/d8f/Rotation_8h.html" title="gams/utility/Rotation.h" alt="" coords="741,818,893,845"/><area shape="rect" id="node58" href="../../d0/d33/Pose_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1409,818,1479,845"/><area shape="rect" id="node47" href="../../d6/df6/Coordinate_8h.html" title="gams/utility/Coordinate.h" alt="" coords="1074,907,1241,934"/><area shape="rect" id="node53" href="../../df/d2b/Location_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1569,907,1657,934"/><area shape="rect" id="node50" href="../../de/d36/Coordinate_8inl.html" title="Coordinate.inl" alt="" coords="1228,989,1329,1016"/><area shape="rect" id="node56" href="../../d6/d2a/AngleUnits_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="719,907,815,934"/><area shape="rect" id="node57" href="../../d8/d6e/Rotation_8inl.html" title="Rotation.inl" alt="" coords="607,907,694,934"/></map>
 </div>
 </div>
 <p><a href="../../d8/d59/PerimeterPatrol_8cpp_source.html">Go to the source code of this file.</a></p>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Copyright (c) 2014 Carnegie Mellon University. </p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2aecfe1ae490dfd1487eba3396f86f0d"><td class="memItemLeft" align="right" valign="top">typedef KnowledgeRecord::Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d59/PerimeterPatrol_8cpp.html#a2aecfe1ae490dfd1487eba3396f86f0d">Integer</a></td></tr>
+<tr class="separator:a2aecfe1ae490dfd1487eba3396f86f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a888bdde43b2867cb087f29ebdd54e873"><td class="memItemLeft" align="right" valign="top">typedef knowledge::KnowledgeMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d59/PerimeterPatrol_8cpp.html#a888bdde43b2867cb087f29ebdd54e873">KnowledgeMap</a></td></tr>
+<tr class="separator:a888bdde43b2867cb087f29ebdd54e873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81cfab508380f12dfb849a4915dde6d"><td class="memItemLeft" align="right" valign="top">typedef knowledge::KnowledgeRecord&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d59/PerimeterPatrol_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">KnowledgeRecord</a></td></tr>
+<tr class="memdesc:ab81cfab508380f12dfb849a4915dde6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copyright (c) 2014 Carnegie Mellon University.  <a href="#ab81cfab508380f12dfb849a4915dde6d">More...</a><br /></td></tr>
+<tr class="separator:ab81cfab508380f12dfb849a4915dde6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a2aecfe1ae490dfd1487eba3396f86f0d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef KnowledgeRecord::Integer <a class="el" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/d59/PerimeterPatrol_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../d8/d59/PerimeterPatrol_8cpp_source.html">PerimeterPatrol.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a888bdde43b2867cb087f29ebdd54e873"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef knowledge::KnowledgeMap <a class="el" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">KnowledgeMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/d59/PerimeterPatrol_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../d8/d59/PerimeterPatrol_8cpp_source.html">PerimeterPatrol.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab81cfab508380f12dfb849a4915dde6d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef knowledge::KnowledgeRecord <a class="el" href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">KnowledgeRecord</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copyright (c) 2014 Carnegie Mellon University. </p>
 <p>All Rights Reserved.</p>
 <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
 <ol type="1">
@@ -141,20 +189,21 @@ Include dependency graph for PerimeterPatrol.cpp:</div>
 <li><p class="startli">Redistributions of any form whatsoever must retain the following acknowledgment:</p>
 <p class="startli">This material is based upon work funded and supported by the Department of Defense under Contract No. FA8721-05-C-0003 with Carnegie Mellon University for the operation of the Software Engineering Institute, a federally funded research and development center. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the United States Department of Defense.</p>
 <p class="startli">NO WARRANTY. THIS CARNEGIE MELLON UNIVERSITY AND SOFTWARE ENGINEERING INSTITUTE MATERIAL IS FURNISHED ON AN "AS-IS" BASIS. CARNEGIE MELLON UNIVERSITY MAKES NO WARRANTIES OF ANY KIND, EITHER EXPRESSED OR IMPLIED, AS TO ANY MATTER INCLUDING, BUT NOT LIMITED TO, WARRANTY OF FITNESS FOR PURPOSE OR MERCHANTABILITY, EXCLUSIVITY, OR RESULTS OBTAINED FROM USE OF THE MATERIAL. CARNEGIE MELLON UNIVERSITY DOES NOT MAKE ANY WARRANTY OF ANY KIND WITH RESPECT TO FREEDOM FROM PATENT, TRADEMARK, OR COPYRIGHT INFRINGEMENT.</p>
-<p class="startli">This material has been approved for public release and unlimited distribution.</p>
+<p class="startli">This material has been approved for public release and unlimited distribution. </p>
 </li>
 </ol>
-<dl class="section author"><dt>Author</dt><dd>Anton Dukeman <a href="#" onclick="location.href='mai'+'lto:'+'ant'+'on'+'.du'+'ke'+'man'+'@g'+'mai'+'l.'+'com'; return false;">anton<span style="display: none;">.nosp@m.</span>.duk<span style="display: none;">.nosp@m.</span>eman@<span style="display: none;">.nosp@m.</span>gmai<span style="display: none;">.nosp@m.</span>l.com</a></dd></dl>
-<p>Defines a Perimeter Patrol path for agents to follow. Used as tutorial for creating custom area coverage algorithms. If this file is updated, please update the wiki as well. </p>
 
-<p>Definition in file <a class="el" href="../../d8/d59/PerimeterPatrol_8cpp_source.html">PerimeterPatrol.cpp</a>.</p>
-</div></div><!-- contents -->
+<p>Definition at line <a class="el" href="../../d8/d59/PerimeterPatrol_8cpp_source.html#l00061">61</a> of file <a class="el" href="../../d8/d59/PerimeterPatrol_8cpp_source.html">PerimeterPatrol.cpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_51790b9f0ef7b0cc06eb1e76e309c0bc.html">algorithms</a></li><li class="navelem"><a class="el" href="../../dir_19efd9148c6ac427e5e4168bfffa3ae3.html">area_coverage</a></li><li class="navelem"><a class="el" href="../../d8/d59/PerimeterPatrol_8cpp.html">PerimeterPatrol.cpp</a></li>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:41 for GAMS by
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_51790b9f0ef7b0cc06eb1e76e309c0bc.html">algorithms</a></li><li class="navelem"><a class="el" href="../../d8/d59/PerimeterPatrol_8cpp.html">PerimeterPatrol.cpp</a></li>
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:39 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

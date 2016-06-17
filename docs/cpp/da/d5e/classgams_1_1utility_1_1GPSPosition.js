@@ -18,6 +18,7 @@ var classgams_1_1utility_1_1GPSPosition =
     [ "dot", "da/d5e/classgams_1_1utility_1_1GPSPosition.html#abf8fe7c9ac5436c67963ee172faf2c85", null ],
     [ "from_container", "da/d5e/classgams_1_1utility_1_1GPSPosition.html#a5dbab6b96c2aac362c6414e76e4de826", null ],
     [ "from_container", "da/d5e/classgams_1_1utility_1_1GPSPosition.html#af505d5e0094e99cfae266bb87030f97b", null ],
+    [ "from_record", "da/d5e/classgams_1_1utility_1_1GPSPosition.html#add7374388325e5de5199fe5a6adfbdf8", null ],
     [ "from_string", "da/d5e/classgams_1_1utility_1_1GPSPosition.html#a73bf5f709513b001d87ae8bf77504708", null ],
     [ "is_between_2d", "da/d5e/classgams_1_1utility_1_1GPSPosition.html#aa58d6dbb01bee056ea79be9bc147ac82", null ],
     [ "latitude", "da/d5e/classgams_1_1utility_1_1GPSPosition.html#ac58f4be69e8739f580a2d2edbc22b81b", null ],

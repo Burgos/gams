@@ -7,5 +7,6 @@ var searchData=
   ['basecontroller',['BaseController',['../df/d21/classgams_1_1controllers_1_1BaseController.html#a5fd6805d01536d49329a2a804e8b28da',1,'gams::controllers::BaseController']]],
   ['baseplatform',['BasePlatform',['../d0/df3/classgams_1_1platforms_1_1BasePlatform.html#a1d2ba959d4ab4af2db41aa15d16639dc',1,'gams::platforms::BasePlatform']]],
   ['begin',['begin',['../dc/d83/classgams_1_1utility_1_1ArgumentParser.html#a36cc19e4c5eaed4f7cc2a591d00b330f',1,'gams::utility::ArgumentParser']]],
+  ['bid',['bid',['../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a571e87af6c95e69b8d71d6277a965594',1,'gams::auctions::AuctionBase::bid(const madara::knowledge::KnowledgeRecord &amp;amount)'],['../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a18b1ed60600333e2ec2122aec3e599a5',1,'gams::auctions::AuctionBase::bid(std::string agent, const madara::knowledge::KnowledgeRecord &amp;amount)']]],
   ['bind_5forigin',['bind_origin',['../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a5877c606904992551e3e29e9b5a37ee5',1,'gams::utility::ReferenceFrame']]]
 ];

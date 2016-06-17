@@ -28,9 +28,7 @@ var dir_e1406cd850b444c8c135213175f9bbdb =
     ] ],
     [ "GPSFrame.inl", "d6/dd0/GPSFrame_8inl.html", "d6/dd0/GPSFrame_8inl" ],
     [ "GPSPosition.cpp", "d8/db0/GPSPosition_8cpp.html", "d8/db0/GPSPosition_8cpp" ],
-    [ "GPSPosition.h", "df/d53/GPSPosition_8h.html", [
-      [ "GPSPosition", "da/d5e/classgams_1_1utility_1_1GPSPosition.html", "da/d5e/classgams_1_1utility_1_1GPSPosition" ]
-    ] ],
+    [ "GPSPosition.h", "df/d53/GPSPosition_8h.html", "df/d53/GPSPosition_8h" ],
     [ "Location.h", "d2/dd3/Location_8h.html", [
       [ "Location", "de/df6/classgams_1_1utility_1_1Location.html", "de/df6/classgams_1_1utility_1_1Location" ],
       [ "LocationVector", "d8/d57/classgams_1_1utility_1_1LocationVector.html", "d8/d57/classgams_1_1utility_1_1LocationVector" ]
@@ -42,9 +40,7 @@ var dir_e1406cd850b444c8c135213175f9bbdb =
     ] ],
     [ "Pose.inl", "d0/d33/Pose_8inl.html", "d0/d33/Pose_8inl" ],
     [ "Position.cpp", "d4/df6/Position_8cpp.html", "d4/df6/Position_8cpp" ],
-    [ "Position.h", "de/dff/Position_8h.html", [
-      [ "Position", "df/d4e/classgams_1_1utility_1_1Position.html", "df/d4e/classgams_1_1utility_1_1Position" ]
-    ] ],
+    [ "Position.h", "de/dff/Position_8h.html", "de/dff/Position_8h" ],
     [ "PrioritizedRegion.cpp", "d4/df0/PrioritizedRegion_8cpp.html", null ],
     [ "PrioritizedRegion.h", "d9/d98/PrioritizedRegion_8h.html", [
       [ "PrioritizedRegion", "d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html", "d8/d11/classgams_1_1utility_1_1PrioritizedRegion" ]
@@ -66,6 +62,7 @@ var dir_e1406cd850b444c8c135213175f9bbdb =
     [ "SearchArea.h", "d6/d1b/utility_2SearchArea_8h.html", [
       [ "SearchArea", "da/d42/classgams_1_1utility_1_1SearchArea.html", "da/d42/classgams_1_1utility_1_1SearchArea" ]
     ] ],
+    [ "SearchArea.inl", "d2/db0/SearchArea_8inl.html", "d2/db0/SearchArea_8inl" ],
     [ "UTMFrame.cpp", "d8/dc9/UTMFrame_8cpp.html", null ],
     [ "UTMFrame.h", "dc/d94/UTMFrame_8h.html", null ],
     [ "UTMFrame.inl", "d3/df4/UTMFrame_8inl.html", "d3/df4/UTMFrame_8inl" ]

@@ -1,5 +1,4 @@
 <map id="src/gams/algorithms/area_coverage/LocalPheremoneAreaCoverage.h" name="src/gams/algorithms/area_coverage/LocalPheremoneAreaCoverage.h">
-<area shape="rect" id="node2" href="$d8/da7/AlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactory.cpp" alt="" coords="5,117,156,158"/>
-<area shape="rect" id="node3" href="$da/de0/LocalPheremoneAreaCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="181,109,391,165"/>
-<area shape="rect" id="node4" href="$d1/db1/ControllerAlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/ControllerAlgorithmFactory.cpp" alt="" coords="415,117,621,158"/>
+<area shape="rect" id="node2" href="$d2/da1/AlgorithmFactoryRepository_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactoryRepository.cpp" alt="" coords="5,117,217,158"/>
+<area shape="rect" id="node3" href="$da/de0/LocalPheremoneAreaCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="242,109,453,165"/>
 </map>

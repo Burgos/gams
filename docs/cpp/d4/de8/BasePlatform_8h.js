@@ -19,6 +19,7 @@ var BasePlatform_8h =
       [ "PLATFORM_ERROR", "d4/de8/BasePlatform_8h.html#a7016bf50ed1dfad46a21e364e0d60ad4a1079a0bf108d15bb4d2a9bae82e39b1b", null ],
       [ "PLATFORM_IN_PROGRESS", "d4/de8/BasePlatform_8h.html#a7016bf50ed1dfad46a21e364e0d60ad4a5fea95193776cdfcc6313c4ae02b5ee2", null ],
       [ "PLATFORM_MOVING", "d4/de8/BasePlatform_8h.html#a7016bf50ed1dfad46a21e364e0d60ad4abf3f9eb6a73c16b797b496a568182fb8", null ],
+      [ "PLATFORM_OK", "d4/de8/BasePlatform_8h.html#a7016bf50ed1dfad46a21e364e0d60ad4a5cee5a8a19767ab8a18e4d669a374d6f", null ],
       [ "PLATFORM_ARRIVED", "d4/de8/BasePlatform_8h.html#a7016bf50ed1dfad46a21e364e0d60ad4a576fdd2799fd94a4c73ebeb4a19951e8", null ]
     ] ]
 ];

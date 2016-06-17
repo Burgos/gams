@@ -1,7 +1,9 @@
 <map id="gams::platforms::DebugPlatformFactory" name="gams::platforms::DebugPlatformFactory">
-<area shape="rect" id="node2" href="$d5/d99/classgams_1_1platforms_1_1PlatformFactory.html" title="Base class for platform factories to create BasePlatforms. " alt="" coords="70,377,241,419"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="11,273,132,300"/>
-<area shape="rect" id="node6" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="156,273,299,300"/>
-<area shape="rect" id="node7" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="150,184,305,211"/>
-<area shape="rect" id="node9" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="128,5,327,32"/>
+<area shape="rect" id="node2" href="$d5/d99/classgams_1_1platforms_1_1PlatformFactory.html" title="Base class for platform factories to create BasePlatforms. " alt="" coords="70,392,241,433"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="11,288,132,315"/>
+<area shape="rect" id="node6" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="156,288,299,315"/>
+<area shape="rect" id="node7" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="150,199,305,225"/>
+<area shape="rect" id="node9" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="23,13,221,39"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="262,109,342,136"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="245,5,372,47"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="gams::algorithms::area_coverage::BaseAreaCoverage" name="gams::algorithms::area_coverage::BaseAreaCoverage">
 <area shape="rect" id="node3" href="$d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html" title="gams::algorithms::area\l_coverage::LocalPheremoneArea\lCoverage" alt="" coords="525,5,737,61"/>
 <area shape="rect" id="node4" href="$db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html" title="gams::algorithms::area\l_coverage::MinTimeAreaCoverage" alt="" coords="522,86,739,127"/>
-<area shape="rect" id="node6" href="$d6/d5e/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrol.html" title="gams::algorithms::area\l_coverage::PerimeterPatrol" alt="" coords="541,151,720,193"/>
+<area shape="rect" id="node6" href="$d4/de8/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolCoverage.html" title="gams::algorithms::area\l_coverage::PerimeterPatrolCoverage" alt="" coords="515,151,746,193"/>
 <area shape="rect" id="node7" href="$db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html" title="gams::algorithms::area\l_coverage::PriorityWeightedRandom\lAreaCoverage" alt="" coords="515,217,747,273"/>
 <area shape="rect" id="node8" href="$d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html" title="gams::algorithms::area\l_coverage::SnakeAreaCoverage" alt="" coords="528,298,733,339"/>
 <area shape="rect" id="node9" href="$d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html" title="gams::algorithms::area\l_coverage::UniformRandomArea\lCoverage" alt="" coords="527,364,734,420"/>

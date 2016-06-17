@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -107,6 +107,7 @@ $(document).ready(function(){initNavTree('da/d4b/namespacegams_1_1utility.html',
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -202,9 +203,16 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when an an attempt is made to transform between frames that do not belong to the same frame tree.  <a href="../../d5/d1a/classgams_1_1utility_1_1unrelated__frames.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:afcb101815f1d4f85be5da963e41faa2c"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">GPSPosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#afcb101815f1d4f85be5da963e41faa2c">GpsPositions</a></td></tr>
+<tr class="separator:afcb101815f1d4f85be5da963e41faa2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c0a9c81e2015d8892801cb3e095257e"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../df/d4e/classgams_1_1utility_1_1Position.html">Position</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a7c0a9c81e2015d8892801cb3e095257e">Positions</a></td></tr>
+<tr class="separator:a7c0a9c81e2015d8892801cb3e095257e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a712efd032ffcd8209bc803de9ca75dae"><td class="memItemLeft" align="right" valign="top">madara::knowledge::KnowledgeVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a712efd032ffcd8209bc803de9ca75dae">kmap2kvec</a> (const madara::knowledge::KnowledgeMap &amp;kmap)</td></tr>
+<tr class="memitem:a712efd032ffcd8209bc803de9ca75dae"><td class="memItemLeft" align="right" valign="top">madara::knowledge::KnowledgeVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a712efd032ffcd8209bc803de9ca75dae">kmap2kvec</a> (const <a class="el" href="../../d6/d3c/ZoneCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">madara::knowledge::KnowledgeMap</a> &amp;kmap)</td></tr>
 <tr class="memdesc:a712efd032ffcd8209bc803de9ca75dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a knowledge map into a knowledge vector by adding the values from the map in numerical order (as defined by radix order: shorter strings always come before longer strings, and equal length strings are sorted in lexicographicaly order)  <a href="#a712efd032ffcd8209bc803de9ca75dae">More...</a><br /></td></tr>
 <tr class="separator:a712efd032ffcd8209bc803de9ca75dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a746766c6781431b0967bd948c38800bd"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a746766c6781431b0967bd948c38800bd">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;rot)</td></tr>
@@ -234,6 +242,35 @@ Variables</h2></td></tr>
 <tr class="memdesc:a1e4cf353c3cbfef7a1a491eab1ca151a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Revolutions (i.e., 1 == 360 degrees) unit flag; see Euler constructor.  <a href="#a1e4cf353c3cbfef7a1a491eab1ca151a">More...</a><br /></td></tr>
 <tr class="separator:a1e4cf353c3cbfef7a1a491eab1ca151a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="afcb101815f1d4f85be5da963e41faa2c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">GPSPosition</a>&gt; <a class="el" href="../../da/d4b/namespacegams_1_1utility.html#afcb101815f1d4f85be5da963e41faa2c">gams::utility::GpsPositions</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/d53/GPSPosition_8h_source.html#l00269">269</a> of file <a class="el" href="../../df/d53/GPSPosition_8h_source.html">GPSPosition.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7c0a9c81e2015d8892801cb3e095257e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../df/d4e/classgams_1_1utility_1_1Position.html">Position</a>&gt; <a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a7c0a9c81e2015d8892801cb3e095257e">gams::utility::Positions</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/dff/Position_8h_source.html#l00306">306</a> of file <a class="el" href="../../de/dff/Position_8h_source.html">Position.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a712efd032ffcd8209bc803de9ca75dae"></a>
 <div class="memitem">
@@ -245,7 +282,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">madara::knowledge::KnowledgeVector gams::utility::kmap2kvec </td>
           <td>(</td>
-          <td class="paramtype">const madara::knowledge::KnowledgeMap &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/d3c/ZoneCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">madara::knowledge::KnowledgeMap</a> &amp;&#160;</td>
           <td class="paramname"><em>kmap</em></td><td>)</td>
           <td></td>
         </tr>
@@ -595,7 +632,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:49 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:44 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,7 +1,6 @@
 var classgams_1_1platforms_1_1DebugPlatformFactory =
 [
-    [ "create", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html#a6ddb2ae8dfc8e87e0eac79e74c5c244e", null ],
-    [ "create", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html#a455f139b2d63e59f44d41e6706f06c50", null ],
+    [ "create", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html#a58f77f574a6015cd9d2a14da454770ab", null ],
     [ "set_knowledge", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html#acb48c325cc59efa6cc5ab2c1e329c0c4", null ],
     [ "set_platforms", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html#ae326b15c62f0dc6f5c6f98e8642c8f19", null ],
     [ "set_self", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html#ac7ae238cf29c37613fa4cac3397f5bc5", null ],

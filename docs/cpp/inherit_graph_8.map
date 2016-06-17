@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d3/d84/classgams_1_1controllers_1_1MapeLoop.html" title="A highly extensible MAPE loop. " alt="" coords="5,5,136,47"/>
+<area shape="rect" id="node1" href="$d9/d5d/classgams_1_1auctions_1_1AuctionFactory.html" title="Base class for an auction factory. " alt="" coords="5,46,212,73"/>
+<area shape="rect" id="node2" href="$d7/d9b/classgams_1_1auctions_1_1AuctionMaximumBidFactory.html" title="Factory for creating maximum&#45;bid auctions. " alt="" coords="260,5,480,47"/>
+<area shape="rect" id="node3" href="$d3/de6/classgams_1_1auctions_1_1AuctionMinimumBidFactory.html" title="Factory for creating minimum&#45;bid auctions. " alt="" coords="262,71,478,112"/>
 </map>

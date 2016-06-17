@@ -1,8 +1,8 @@
 <map id="gams::controllers::MapeLoop" name="gams::controllers::MapeLoop">
-<area shape="rect" id="node3" title="STL class. " alt="" coords="631,144,711,171"/>
-<area shape="rect" id="node10" href="$d4/dde/classgams_1_1variables_1_1Swarm.html" title="A container for swarm information. " alt="" coords="923,95,1083,121"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="339,137,465,178"/>
-<area shape="rect" id="node5" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="931,19,1074,45"/>
-<area shape="rect" id="node6" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="593,5,748,32"/>
-<area shape="rect" id="node8" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="5,36,204,63"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="362,116,442,143"/>
+<area shape="rect" id="node6" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="593,80,748,107"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="41,109,168,150"/>
+<area shape="rect" id="node5" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="956,80,1099,107"/>
+<area shape="rect" id="node10" href="$d4/dde/classgams_1_1variables_1_1Swarm.html" title="A container for swarm information. " alt="" coords="772,5,932,32"/>
+<area shape="rect" id="node8" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="5,39,204,65"/>
 </map>

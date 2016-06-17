@@ -28,5 +28,7 @@ var searchData=
   ['nullplatformfactory',['NullPlatformFactory',['../d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html',1,'gams::platforms']]],
   ['nullptr',['nullptr',['../d5/d69/CPP11__compat_8h.html#ab979d9d4b4923f7c54d6caa6e1a61936',1,'CPP11_compat.h']]],
   ['num_5fagents',['num_agents',['../dc/d61/gams__controller_8cpp.html#aee452f6ed6c9d22ef6d6f158593cebab',1,'gams_controller.cpp']]],
-  ['num_5fagents_5f',['num_agents_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a6a68dadd21fdb24a23cc92f4b3e2f3c1',1,'gams::algorithms::FormationFlying']]]
+  ['num_5fagents_5f',['num_agents_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a6a68dadd21fdb24a23cc92f4b3e2f3c1',1,'gams::algorithms::FormationFlying']]],
+  ['num_5fauction_5ftypes',['NUM_AUCTION_TYPES',['../d3/dfe/namespacegams_1_1auctions.html#a54867e7ed8b50b5ad00efb64e8136c58a91ce03a017875beafdcbf93ccd699cd3',1,'gams::auctions']]],
+  ['num_5fgroup_5ftypes',['NUM_GROUP_TYPES',['../d4/da6/namespacegams_1_1groups.html#a1a6d883b2cc0aab22baf83837b3ab95dab948eb166fa55498340046ce17cb8493',1,'gams::groups']]]
 ];

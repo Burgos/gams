@@ -7,8 +7,6 @@ var dir_1e78112e2e00ee93d190d5382866a0e7 =
     [ "BasePlatform.cpp", "da/d64/BasePlatform_8cpp.html", null ],
     [ "BasePlatform.h", "d4/de8/BasePlatform_8h.html", "d4/de8/BasePlatform_8h" ],
     [ "BasePlatform.inl", "d5/d38/BasePlatform_8inl.html", null ],
-    [ "ControllerPlatformFactory.cpp", "d1/dd2/ControllerPlatformFactory_8cpp.html", null ],
-    [ "ControllerPlatformFactory.h", "db/d10/ControllerPlatformFactory_8h.html", "db/d10/ControllerPlatformFactory_8h" ],
     [ "DebugPlatform.cpp", "da/d50/DebugPlatform_8cpp.html", null ],
     [ "DebugPlatform.h", "d2/d1b/DebugPlatform_8h.html", [
       [ "DebugPlatform", "d7/df2/classgams_1_1platforms_1_1DebugPlatform.html", "d7/df2/classgams_1_1platforms_1_1DebugPlatform" ],
@@ -27,5 +25,7 @@ var dir_1e78112e2e00ee93d190d5382866a0e7 =
     [ "PlatformFactory.cpp", "d7/d59/PlatformFactory_8cpp.html", null ],
     [ "PlatformFactory.h", "d1/d58/PlatformFactory_8h.html", [
       [ "PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html", "d5/d99/classgams_1_1platforms_1_1PlatformFactory" ]
-    ] ]
+    ] ],
+    [ "PlatformFactoryRepository.cpp", "df/dac/PlatformFactoryRepository_8cpp.html", null ],
+    [ "PlatformFactoryRepository.h", "d5/d11/PlatformFactoryRepository_8h.html", "d5/d11/PlatformFactoryRepository_8h" ]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['sensornames',['SensorNames',['../d8/df1/namespacegams_1_1variables.html#a4f79448d3a1aeec86bd99c8912c489ea',1,'gams::variables']]],
-  ['sensors',['Sensors',['../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930',1,'gams::variables']]]
+  ['record',['Record',['../dc/d61/gams__controller_8cpp.html#abaaae61bd3a8fa0865e1a39d781f1c6a',1,'gams_controller.cpp']]]
 ];

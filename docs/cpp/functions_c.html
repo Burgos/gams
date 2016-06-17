@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -217,15 +217,18 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>clear_cache()
 : <a class="el" href="d4/d48/classgams_1_1utility_1_1ArgumentParser_1_1my__iterator.html#ae2cfaaec8123eecf04593ef3cef1acff">gams::utility::ArgumentParser::my_iterator&lt; map_iterator &gt;</a>
 </li>
+<li>clear_members()
+: <a class="el" href="d9/d61/classgams_1_1elections_1_1ElectionBase.html#a336482a5d30859a52df6aefbc07370cd">gams::elections::ElectionBase</a>
+, <a class="el" href="d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a7dc1c9b4c7f497a8fc5e9dafdfe109cb">gams::elections::ElectionPlurality</a>
+, <a class="el" href="da/d36/classgams_1_1groups_1_1GroupBase.html#a64b68fabc22c3cb97a5eb48d50e700f8">gams::groups::GroupBase</a>
+, <a class="el" href="d4/d23/classgams_1_1groups_1_1GroupFixedList.html#af7be98598699749dcdd5647669053ba1">gams::groups::GroupFixedList</a>
+, <a class="el" href="d8/d5a/classgams_1_1groups_1_1GroupTransient.html#a598cac29a9b67d46835c3a50df1ed853">gams::groups::GroupTransient</a>
+</li>
 <li>command
 : <a class="el" href="dd/dc7/classgams_1_1variables_1_1AccentStatus.html#a47aab91ca62a37fca9f99c1c3f624e3c">gams::variables::AccentStatus</a>
-, <a class="el" href="d8/d12/classgams_1_1variables_1_1Agent.html#a2cd966f42ac412ad23060938fb588f15">gams::variables::Agent</a>
-, <a class="el" href="d4/dde/classgams_1_1variables_1_1Swarm.html#a4d181b33ea3e0c0df786b1a90c51fcbd">gams::variables::Swarm</a>
 </li>
 <li>command_args
 : <a class="el" href="dd/dc7/classgams_1_1variables_1_1AccentStatus.html#a83dd134f4b098b125fdfaddec248ba0a">gams::variables::AccentStatus</a>
-, <a class="el" href="d8/d12/classgams_1_1variables_1_1Agent.html#a0f639d60f60c66fa614f9243858b3214">gams::variables::Agent</a>
-, <a class="el" href="d4/dde/classgams_1_1variables_1_1Swarm.html#a1860ba9346ac1bfd74806a0a8577fde5">gams::variables::Swarm</a>
 </li>
 <li>common_parent_transform()
 : <a class="el" href="d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#adbbebf68d942c19382d75b9def901671">gams::utility::ReferenceFrame</a>
@@ -238,6 +241,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>compiled_formation_
 : <a class="el" href="d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a29d99e0e8b129898367a859566e4d086">gams::algorithms::FormationFlying</a>
+</li>
+<li>compiled_logic_
+: <a class="el" href="dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html#aabec4f16c333da9f593031150e6586cb">gams::algorithms::KarlEvaluator</a>
 </li>
 <li>compute_waypoints()
 : <a class="el" href="d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html#a0354f06da731e1986f4cfbd91c2ab94b">gams::algorithms::area_coverage::SnakeAreaCoverage</a>
@@ -254,12 +260,6 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>contains()
 : <a class="el" href="da/db7/classgams_1_1utility_1_1Region.html#ab080a5c1a9e4cce6261a0d4d39c16849">gams::utility::Region</a>
 , <a class="el" href="da/d42/classgams_1_1utility_1_1SearchArea.html#ad34d5ffd680145ef40e78a46438d0ce8">gams::utility::SearchArea</a>
-</li>
-<li>ControllerAlgorithmFactory()
-: <a class="el" href="d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a28119f045b35faba3c1d719a14d18100">gams::algorithms::ControllerAlgorithmFactory</a>
-</li>
-<li>ControllerPlatformFactory()
-: <a class="el" href="d6/d6c/classgams_1_1platforms_1_1ControllerPlatformFactory.html#a727f5011821f0c9b8971d57d3de00202">gams::platforms::ControllerPlatformFactory</a>
 </li>
 <li>controllers::BaseController
 : <a class="el" href="d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a26bf41597cbc1fc96901bd71cf84a2b7">gams::algorithms::BaseAlgorithm</a>
@@ -295,50 +295,73 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>cos_c
 : <a class="el" href="db/d30/structgams_1_1utility_1_1euler_1_1detail_1_1EulerTrigABC.html#a426c6c2adf8036ddc386bfbcb476d424">gams::utility::euler::detail::EulerTrigABC</a>
 </li>
+<li>counter_
+: <a class="el" href="d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#a3304d1079cac9829641a58b464b94e07">gams::algorithms::PerimeterPatrol</a>
+</li>
 <li>coverage_type
 : <a class="el" href="d8/d12/classgams_1_1variables_1_1Agent.html#a48e3b217e77c36140307d014c44beb6e">gams::variables::Agent</a>
 </li>
 <li>create()
 : <a class="el" href="d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#ab0f0d2ba82b5ac35fd58138fa962d9e8">gams::algorithms::AlgorithmFactory</a>
+, <a class="el" href="d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a3b86ff2bb1bedb1721d3211291f6f396">gams::algorithms::AlgorithmFactoryRepository</a>
 , <a class="el" href="da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html#ac6a6d3b3b264ef9741efdee28739a720">gams::algorithms::area_coverage::LocalPheremoneAreaCoverageFactory</a>
 , <a class="el" href="d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html#a4a52a936339c87d676af241a9ccfee60">gams::algorithms::area_coverage::MinTimeAreaCoverageFactory</a>
-, <a class="el" href="d5/df5/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolFactory.html#a7e289e5283e4f890dbf030a82e4f0518">gams::algorithms::area_coverage::PerimeterPatrolFactory</a>
+, <a class="el" href="de/d89/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolCoverageFactory.html#ae617c1c3fd4122a4663f2e0578916ad2">gams::algorithms::area_coverage::PerimeterPatrolCoverageFactory</a>
 , <a class="el" href="df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html#a6398ef2a606721212fafb95566753635">gams::algorithms::area_coverage::PrioritizedMinTimeAreaCoverageFactory</a>
 , <a class="el" href="df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html#a2b8b3c16962be086edd0045f91dcd54b">gams::algorithms::area_coverage::PriorityWeightedRandomAreaCoverageFactory</a>
 , <a class="el" href="df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html#ae1f82bdc283860b635c410a4eb43996c">gams::algorithms::area_coverage::SnakeAreaCoverageFactory</a>
 , <a class="el" href="d6/d07/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverageFactory.html#a115d8c3862960cd0ee7606fde286f100">gams::algorithms::area_coverage::UniformRandomAreaCoverageFactory</a>
 , <a class="el" href="d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html#ab2e09ebb5609f6fc1e77373815dd75c9">gams::algorithms::area_coverage::UniformRandomEdgeCoverageFactory</a>
 , <a class="el" href="d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#a75c6d8a55de4d18581d769b2e2e0a937">gams::algorithms::area_coverage::WaypointsCoverageFactory</a>
-, <a class="el" href="d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#a569be4a74f6f679da9a7b2b17b776955">gams::algorithms::ControllerAlgorithmFactory</a>
 , <a class="el" href="dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html#aa555d204ed63020ef6efb217f80cc332">gams::algorithms::DebugAlgorithmFactory</a>
-, <a class="el" href="d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory.html#aad1e1a09215e8a3c95e8afd13884bfce">gams::algorithms::ExecutiveFactory</a>
+, <a class="el" href="d3/dfc/classgams_1_1algorithms_1_1ExecutorFactory.html#ad9dd946b34f7fa1153963f6b62293969">gams::algorithms::ExecutorFactory</a>
 , <a class="el" href="d3/d86/classgams_1_1algorithms_1_1FollowFactory.html#a05cd345a6b65177b393068497fa2f66c">gams::algorithms::FollowFactory</a>
 , <a class="el" href="da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html#a1f7a0d4559d4c3b7c3947224aba60d89">gams::algorithms::FormationCoverageFactory</a>
 , <a class="el" href="de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html#ad266d192a80866ef15b907b1fa834299">gams::algorithms::FormationFlyingFactory</a>
 , <a class="el" href="d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html#a695d633c79c285363097dd32cd86ad36">gams::algorithms::FormationSyncFactory</a>
 , <a class="el" href="d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html#a71cbfc9b7cb174594a707a5e6e04b551">gams::algorithms::GroupBarrierFactory</a>
 , <a class="el" href="dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#ad046a710b8d50281a1918a15c5d2b43c">gams::algorithms::JavaAlgorithmFactory</a>
+, <a class="el" href="d5/d3d/classgams_1_1algorithms_1_1KarlEvaluatorFactory.html#a3c81f845eb42add9de9338d191ba4a45">gams::algorithms::KarlEvaluatorFactory</a>
 , <a class="el" href="d0/d56/classgams_1_1algorithms_1_1LandFactory.html#adf02ee5b70ba7f4969fcf29d0809dd19">gams::algorithms::LandFactory</a>
 , <a class="el" href="d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html#a1951a8ce6ebdc4ea7f645c1ca78832c4">gams::algorithms::MessageProfilingFactory</a>
 , <a class="el" href="d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#adddb87a37a6374bc388f416ae632d550">gams::algorithms::MoveFactory</a>
 , <a class="el" href="d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html#a60130f160b4ad3f5756593dfba5cdeda">gams::algorithms::NullAlgorithmFactory</a>
 , <a class="el" href="dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html#a20e194d5d87e248614fd1a8c1bcfeef7">gams::algorithms::PerformanceProfilingFactory</a>
+, <a class="el" href="da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html#aeb99fc67e87c47dd489b78617be6a871">gams::algorithms::PerimeterPatrolFactory</a>
 , <a class="el" href="d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html#a7f1d4cd914f0b264c9232268a7025b82">gams::algorithms::TakeoffFactory</a>
 , <a class="el" href="da/dc3/classgams_1_1algorithms_1_1WaitFactory.html#a028a590204725384e3f46da9e80e35cd">gams::algorithms::WaitFactory</a>
 , <a class="el" href="d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html#a63287423785983c39fc3dfd632318a16">gams::algorithms::ZoneCoverageFactory</a>
-, <a class="el" href="d6/d6c/classgams_1_1platforms_1_1ControllerPlatformFactory.html#a9d93608adc5dfdcf3abc00b9bf434dbe">gams::platforms::ControllerPlatformFactory</a>
-, <a class="el" href="dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html#a455f139b2d63e59f44d41e6706f06c50">gams::platforms::DebugPlatformFactory</a>
-, <a class="el" href="d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html#ae3677876ec7a22bb8f15bcf3232d97a0">gams::platforms::NullPlatformFactory</a>
-, <a class="el" href="dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory.html#af3f9a3c5d5d0f852b0879276a2f071bc">gams::platforms::PlatformCollectionFactory</a>
-, <a class="el" href="d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#a6ddb2ae8dfc8e87e0eac79e74c5c244e">gams::platforms::PlatformFactory</a>
+, <a class="el" href="d9/d5d/classgams_1_1auctions_1_1AuctionFactory.html#a0155ff8d2c878170f80bc866887625de">gams::auctions::AuctionFactory</a>
+, <a class="el" href="d4/d38/classgams_1_1auctions_1_1AuctionFactoryRepository.html#a107f92f202365dd93c0f5770c6b2f2a7">gams::auctions::AuctionFactoryRepository</a>
+, <a class="el" href="d7/d9b/classgams_1_1auctions_1_1AuctionMaximumBidFactory.html#a5f96882dd963041481fabcb5c5e36471">gams::auctions::AuctionMaximumBidFactory</a>
+, <a class="el" href="d3/de6/classgams_1_1auctions_1_1AuctionMinimumBidFactory.html#ac2d00ec044dff845ee13e04f7539916b">gams::auctions::AuctionMinimumBidFactory</a>
+, <a class="el" href="d4/d19/classgams_1_1elections_1_1ElectionFactory.html#aebc4140620d93c31578c506349c9a6aa">gams::elections::ElectionFactory</a>
+, <a class="el" href="d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a2d730fa4b35e230300bb902b3833276d">gams::elections::ElectionFactoryRepository</a>
+, <a class="el" href="d0/d76/classgams_1_1elections_1_1ElectionPluralityFactory.html#a1f61d6d8a2f6be736c1734551e116041">gams::elections::ElectionPluralityFactory</a>
+, <a class="el" href="d8/d47/classgams_1_1groups_1_1GroupFactory.html#a7b997a357d0785bc17bf1af50804bf51">gams::groups::GroupFactory</a>
+, <a class="el" href="db/dd0/classgams_1_1groups_1_1GroupFactoryRepository.html#a10e222a1e554bc3653404f35f3ace990">gams::groups::GroupFactoryRepository</a>
+, <a class="el" href="d7/dfd/classgams_1_1groups_1_1GroupFixedListFactory.html#aa91d15c653ede141e9d23578029be31f">gams::groups::GroupFixedListFactory</a>
+, <a class="el" href="df/df5/classgams_1_1groups_1_1GroupTransientFactory.html#a6d3168071e092c808ae6c6591e5d0bf7">gams::groups::GroupTransientFactory</a>
+, <a class="el" href="dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html#a58f77f574a6015cd9d2a14da454770ab">gams::platforms::DebugPlatformFactory</a>
+, <a class="el" href="d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html#aa0cdc5bcfc7c04c3904eb60d60aae1e5">gams::platforms::NullPlatformFactory</a>
+, <a class="el" href="dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory.html#acd30dfe5ab3f3d11785902647770e106">gams::platforms::PlatformCollectionFactory</a>
+, <a class="el" href="d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#a56b3f6aac98f143ec84da68ad4abc80e">gams::platforms::PlatformFactory</a>
+, <a class="el" href="df/d69/classgams_1_1platforms_1_1PlatformFactoryRepository.html#a764e294063e80c14286cd1657b57f10b">gams::platforms::PlatformFactoryRepository</a>
 </li>
 <li>cross()
 : <a class="el" href="da/d42/classgams_1_1utility_1_1SearchArea.html#ab8ee4dbbd27a8bb899a0fdfd505db5ac">gams::utility::SearchArea</a>
 </li>
 <li>cur_waypoint_
-: <a class="el" href="d6/d5e/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrol.html#acf054bdf54246039577f15a9f6a1109f">gams::algorithms::area_coverage::PerimeterPatrol</a>
+: <a class="el" href="d4/de8/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolCoverage.html#a24866a7f3d0a1153f558d216685e9477">gams::algorithms::area_coverage::PerimeterPatrolCoverage</a>
 , <a class="el" href="d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html#a029c4a687b235a61320852105327c4f1">gams::algorithms::area_coverage::SnakeAreaCoverage</a>
 , <a class="el" href="de/d2e/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverage.html#a8e1bf9b86e1a205d32805cba661efdcc">gams::algorithms::area_coverage::WaypointsCoverage</a>
+</li>
+<li>current_
+: <a class="el" href="d9/d03/classgams_1_1algorithms_1_1Executor.html#a0f71570902a9c169a6c2e84af2ff31ec">gams::algorithms::Executor</a>
+</li>
+<li>cycles_
+: <a class="el" href="d9/d03/classgams_1_1algorithms_1_1Executor.html#a15fddea118e95bbd4fb95ca70bb5187f">gams::algorithms::Executor</a>
+, <a class="el" href="d2/d4c/classgams_1_1algorithms_1_1Move.html#a9d31633cb6ef75b1ad4bfb20667343c1">gams::algorithms::Move</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -346,7 +369,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:50 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:45 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

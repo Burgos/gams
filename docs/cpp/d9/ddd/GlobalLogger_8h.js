@@ -11,5 +11,5 @@ var GlobalLogger_8h =
       [ "LOG_DETAILED", "d9/ddd/GlobalLogger_8h.html#ab44b4d321f86301d85e8cecaa4c19302a56c59141f7b426e24957231868ff6232", null ],
       [ "LOG_MAX", "d9/ddd/GlobalLogger_8h.html#ab44b4d321f86301d85e8cecaa4c19302a72cf28d01d5f51d970e30876a27ac382", null ]
     ] ],
-    [ "global_logger", "d9/ddd/GlobalLogger_8h.html#a31352813dc66377621f0f56e887a2b5f", null ]
+    [ "global_logger", "d9/ddd/GlobalLogger_8h.html#a15b9006d097725c716eee378b8f75801", null ]
 ];

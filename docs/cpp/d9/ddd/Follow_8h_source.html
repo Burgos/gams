@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -130,8 +130,8 @@ $(document).ready(function(){initNavTree('d9/ddd/Follow_8h_source.html','../../'
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    {</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      <a class="code" href="../../d9/d7a/classgams_1_1algorithms_1_1Follow.html">Follow</a> (</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keyword">const</span> madara::knowledge::KnowledgeRecord&amp; <span class="keywordtype">id</span>,</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keyword">const</span> madara::knowledge::KnowledgeRecord&amp; delay,</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keyword">const</span> std::string &amp; <span class="keywordtype">id</span>,</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">madara::knowledge::KnowledgeRecord::Integer</a> delay,</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        madara::knowledge::KnowledgeBase * knowledge = 0,</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a> = 0,</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors = 0,</div>
@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('d9/ddd/Follow_8h_source.html','../../'
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;      <span class="keyword">virtual</span> <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">BaseAlgorithm</a> * create (</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keyword">const</span> madara::knowledge::KnowledgeMap &amp; args,</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">madara::knowledge::KnowledgeMap</a> &amp; args,</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        madara::knowledge::KnowledgeBase * knowledge,</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>,</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
@@ -178,9 +178,9 @@ $(document).ready(function(){initNavTree('d9/ddd/Follow_8h_source.html','../../'
 <div class="ttc" id="classgams_1_1algorithms_1_1Follow_html_a60555de7c379af04d5bd629ec32b441e"><div class="ttname"><a href="../../d9/d7a/classgams_1_1algorithms_1_1Follow.html#a60555de7c379af04d5bd629ec32b441e">gams::algorithms::Follow::target_location_</a></div><div class="ttdeci">madara::knowledge::containers::NativeDoubleArray target_location_</div><div class="ttdoc">location of agent to follow </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/Follow_8h_source.html#l00125">Follow.h:125</a></div></div>
 <div class="ttc" id="BaseAlgorithm_8h_html"><div class="ttname"><a href="../../d2/d6f/BaseAlgorithm_8h.html">BaseAlgorithm.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a886cb9f6fade67222f4162b90ed80930"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">gams::variables::Sensors</a></div><div class="ttdeci">std::map&lt; std::string, Sensor * &gt; Sensors</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/Sensor_8h_source.html#l00250">Sensor.h:250</a></div></div>
-<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00111">BasePlatform.h:111</a></div></div>
+<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00112">BasePlatform.h:112</a></div></div>
 <div class="ttc" id="Sensor_8h_html"><div class="ttname"><a href="../../d5/d65/Sensor_8h.html">Sensor.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="namespacegams_1_1variables_html_aff41567fa3512f56d14c536c854a2fef"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">gams::variables::Agents</a></div><div class="ttdeci">std::vector&lt; Agent &gt; Agents</div><div class="ttdoc">An array of agents. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/da5/Agent_8h_source.html#l00205">Agent.h:205</a></div></div>
+<div class="ttc" id="namespacegams_1_1variables_html_aff41567fa3512f56d14c536c854a2fef"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">gams::variables::Agents</a></div><div class="ttdeci">std::vector&lt; Agent &gt; Agents</div><div class="ttdoc">An array of agents. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/da5/Agent_8h_source.html#l00226">Agent.h:226</a></div></div>
 <div class="ttc" id="Self_8h_html"><div class="ttname"><a href="../../da/d3d/Self_8h.html">Self.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="AlgorithmStatus_8h_html"><div class="ttname"><a href="../../db/dfe/AlgorithmStatus_8h.html">AlgorithmStatus.h</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Follow_html_a4c7e1c37021b5a7f9a7e5cb1580ad479"><div class="ttname"><a href="../../d9/d7a/classgams_1_1algorithms_1_1Follow.html#a4c7e1c37021b5a7f9a7e5cb1580ad479">gams::algorithms::Follow::previous_locations_</a></div><div class="ttdeci">std::queue&lt; utility::GPSPosition &gt; previous_locations_</div><div class="ttdoc">previous locations of target agent </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/Follow_8h_source.html#l00131">Follow.h:131</a></div></div>
@@ -192,18 +192,20 @@ $(document).ready(function(){initNavTree('d9/ddd/Follow_8h_source.html','../../'
 <div class="ttc" id="classgams_1_1algorithms_1_1BaseAlgorithm_html"><div class="ttname"><a href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">gams::algorithms::BaseAlgorithm</a></div><div class="ttdoc">The base class that algorithms in GAMS use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6f/BaseAlgorithm_8h_source.html#l00094">BaseAlgorithm.h:94</a></div></div>
 <div class="ttc" id="AlgorithmFactory_8h_html"><div class="ttname"><a href="../../dc/d80/AlgorithmFactory_8h.html">AlgorithmFactory.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Follow_html_a9e5fa93cc55e9d4271a996a1b17971df"><div class="ttname"><a href="../../d9/d7a/classgams_1_1algorithms_1_1Follow.html#a9e5fa93cc55e9d4271a996a1b17971df">gams::algorithms::Follow::next_position_</a></div><div class="ttdeci">utility::GPSPosition next_position_</div><div class="ttdoc">type of movement being executed </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/Follow_8h_source.html#l00128">Follow.h:128</a></div></div>
+<div class="ttc" id="LocalPheremoneAreaCoverage_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp_source.html#l00072">LocalPheremoneAreaCoverage.cpp:72</a></div></div>
 <div class="ttc" id="GPSPosition_8h_html"><div class="ttname"><a href="../../df/d53/GPSPosition_8h.html">GPSPosition.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1utility_1_1GPSPosition_html"><div class="ttname"><a href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">gams::utility::GPSPosition</a></div><div class="ttdoc">A position in the global positioning system reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/GPSPosition_8h_source.html#l00070">GPSPosition.h:70</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Follow_html"><div class="ttname"><a href="../../d9/d7a/classgams_1_1algorithms_1_1Follow.html">gams::algorithms::Follow</a></div><div class="ttdoc">An algorithm for following a target. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/Follow_8h_source.html#l00074">Follow.h:74</a></div></div>
 <div class="ttc" id="GAMSExport_8h_html_aa821e916a389426064269d24e4925080"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a></div><div class="ttdeci">#define GAMSExport</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/GAMSExport_8h_source.html#l00026">GAMSExport.h:26</a></div></div>
 <div class="ttc" id="BasePlatform_8h_html"><div class="ttname"><a href="../../d4/de8/BasePlatform_8h.html">BasePlatform.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
+<div class="ttc" id="LocalPheremoneAreaCoverage_8cpp_html_af740329c4ae9da209bed5d1685a781ba"><div class="ttname"><a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">KnowledgeMap</a></div><div class="ttdeci">madara::knowledge::KnowledgeMap KnowledgeMap</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp_source.html#l00073">LocalPheremoneAreaCoverage.cpp:73</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_51790b9f0ef7b0cc06eb1e76e309c0bc.html">algorithms</a></li><li class="navelem"><a class="el" href="../../d9/ddd/Follow_8h.html">Follow.h</a></li>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:39 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:37 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

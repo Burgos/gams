@@ -1,5 +1,4 @@
 <map id="src/gams/algorithms/FormationCoverage.h" name="src/gams/algorithms/FormationCoverage.h">
-<area shape="rect" id="node2" href="$d8/da7/AlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactory.cpp" alt="" coords="5,95,156,136"/>
-<area shape="rect" id="node3" href="$d1/db1/ControllerAlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/ControllerAlgorithmFactory.cpp" alt="" coords="181,95,386,136"/>
-<area shape="rect" id="node4" href="$d3/d2c/FormationCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="410,95,573,136"/>
+<area shape="rect" id="node2" href="$d2/da1/AlgorithmFactoryRepository_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactoryRepository.cpp" alt="" coords="5,95,217,136"/>
+<area shape="rect" id="node3" href="$d3/d2c/FormationCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="242,95,405,136"/>
 </map>

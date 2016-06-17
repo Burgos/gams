@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -119,208 +119,351 @@ $(document).ready(function(){initNavTree('df/d3e/Move_8cpp_source.html','../../'
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d47/ArgumentParser_8h.html">gams/utility/ArgumentParser.h</a>&quot;</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">using</span> std::vector;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">using</span> std::stringstream;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keyword">using</span> std::string;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">using</span> std::cerr;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">using</span> std::endl;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">gams::algorithms::BaseAlgorithm</a> *</div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#adddb87a37a6374bc388f416ae632d550">   63</a></span>&#160;<a class="code" href="../../d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#adddb87a37a6374bc388f416ae632d550">gams::algorithms::MoveFactory::create</a> (</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keyword">const</span> madara::knowledge::KnowledgeMap &amp; map,</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  madara::knowledge::KnowledgeBase * knowledge,</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>,</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>,</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> * agents)</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">BaseAlgorithm</a> * result (0);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <span class="keywordflow">if</span> (knowledge &amp;&amp; sensors &amp;&amp; platform &amp;&amp; <span class="keyword">self</span>)</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// Use a dumb workaround for now; TODO: convert this algo to use the map</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">using namespace </span>madara::knowledge;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    KnowledgeVector args(<a class="code" href="../../da/d4b/namespacegams_1_1utility.html#a712efd032ffcd8209bc803de9ca75dae">utility::kmap2kvec</a>(map));</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keyword">namespace </span>knowledge = madara::knowledge;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">namespace </span>containers = knowledge::containers;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="../../df/d3e/Move_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">   59</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="../../df/d3e/Move_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">knowledge::KnowledgeRecord</a> <a class="code" href="../../df/d3e/Move_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">KnowledgeRecord</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="../../df/d3e/Move_8cpp.html#a2aecfe1ae490dfd1487eba3396f86f0d">   60</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="../../df/d3e/Move_8cpp.html#a2aecfe1ae490dfd1487eba3396f86f0d">KnowledgeRecord::Integer</a>   <a class="code" href="../../df/d3e/Move_8cpp.html#a2aecfe1ae490dfd1487eba3396f86f0d">Integer</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../df/d3e/Move_8cpp.html#a888bdde43b2867cb087f29ebdd54e873">   61</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="../../df/d3e/Move_8cpp.html#a888bdde43b2867cb087f29ebdd54e873">knowledge::KnowledgeMap</a>    <a class="code" href="../../df/d3e/Move_8cpp.html#a888bdde43b2867cb087f29ebdd54e873">KnowledgeMap</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">gams::algorithms::BaseAlgorithm</a> *</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="../../d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#adddb87a37a6374bc388f416ae632d550">   64</a></span>&#160;<a class="code" href="../../d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#adddb87a37a6374bc388f416ae632d550">gams::algorithms::MoveFactory::create</a> (</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../df/d3e/Move_8cpp.html#a888bdde43b2867cb087f29ebdd54e873">madara::knowledge::KnowledgeMap</a> &amp; args,</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  madara::knowledge::KnowledgeBase * knowledge,</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>,</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>,</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> * agents)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">BaseAlgorithm</a> * result (0);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordflow">if</span> (knowledge &amp;&amp; sensors &amp;&amp; platform &amp;&amp; <span class="keyword">self</span>)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    std::vector &lt;utility::Position&gt; locations;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">int</span> repeat_times (0);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">if</span> (args.size () == 1)</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <span class="keywordflow">if</span> (args[0].is_integer_type () || args[1].is_double_type ())</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        vector&lt;double&gt; targ (args[0].to_doubles ());</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        cerr &lt;&lt; <span class="stringliteral">&quot;vector size: &quot;</span> &lt;&lt; targ.size () &lt;&lt; endl;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html">utility::Position</a> target;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">if</span> (targ.size () &gt; 0)</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;          target.<a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html#ac071cc672b202d902bf37015c33d4469">x</a> = targ[0];</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;          <span class="keywordflow">if</span> (targ.size () &gt; 1)</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;          {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            target.<a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html#a6045f7b6766f8fc25b2d9b09d1aaf45c">y</a> = targ[1];</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordflow">if</span> (targ.size () &gt; 2)</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;              target.<a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html#adf2e891d372f1cddb1ef4d8e148a5aca">z</a> = targ[2];</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;          }</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        }</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        result = <span class="keyword">new</span> <a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html">Move</a> (target, knowledge, platform, sensors, <span class="keyword">self</span>, agents);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      }</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      {</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;          <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302af78d57d009951d894730601434233cfd">gams::loggers::LOG_ERROR</a>,</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;           <span class="stringliteral">&quot;gams::algorithms::MoveFactory::create:&quot;</span> \</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;          <span class="stringliteral">&quot; bad arguments&quot;</span>);</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      }</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  }</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
-<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a763f56cdd79ae40f3d9062adb7dad67d">  111</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a763f56cdd79ae40f3d9062adb7dad67d">gams::algorithms::Move::Move</a> (<span class="keyword">const</span> <a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html">utility::Position</a> &amp; target, </div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  madara::knowledge::KnowledgeBase * knowledge, </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>, <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors, </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>, <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> * agents) :</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">BaseAlgorithm</a> (knowledge, platform, sensors, self, agents), </div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  end_time_(0.0), max_execution_time_(0), max_executions_(0), mode_(TARGET), </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  target_ (target), type_(<span class="stringliteral">&quot;target&quot;</span>)</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;{</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  cerr &lt;&lt; <span class="stringliteral">&quot;MOVE TARGET: &quot;</span> &lt;&lt; <a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a418c6556ad8dc5e2b9f8320879051bba">target_</a>.<a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html#a1b48c0b1efe98cee40da5eb6ccf1ec8e">to_string</a> () &lt;&lt; endl;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
-<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a1392f81565e1745312ea52d8d142d6db">  122</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a763f56cdd79ae40f3d9062adb7dad67d">gams::algorithms::Move::Move</a> (</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">string</span> &amp; type,</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> max_executions,</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keywordtype">double</span> max_execution_time,</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  madara::knowledge::KnowledgeBase * knowledge,</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>,</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>) :</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">BaseAlgorithm</a> (knowledge, platform, sensors, self),</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  end_time_ (ACE_OS::gettimeofday ()), max_execution_time_ (max_execution_time),</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  max_executions_ (max_executions), mode_ (TARGET), target_ (), type_ (type)</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <span class="comment">// init status vars</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ab8cc4e9330ef031317a3f1308d6d6f89">status_</a>.<a class="code" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#ae86a1ee53f8de2c6cab5d5e8fb296c1a">init_vars</a> (*knowledge, <span class="stringliteral">&quot;move&quot;</span>, self-&gt;id.to_integer ());</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ab8cc4e9330ef031317a3f1308d6d6f89">status_</a>.<a class="code" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a93dd6dfbb6936e128754ed5518c08208">init_variable_values</a> ();</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="comment">//  if (max_executions &gt; 0)</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="comment">//    mode_ = EXECUTIONS;</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment">//  else</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="comment">//    mode_ = TIMED;</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;}</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
-<div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ade129e674c2d875bffef1c6cdacafed7">  144</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a763f56cdd79ae40f3d9062adb7dad67d">gams::algorithms::Move::Move</a> (</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">string</span> &amp; type,</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html">utility::Position</a> &amp; target,</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  madara::knowledge::KnowledgeBase * knowledge,</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>,</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>)</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  : <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">BaseAlgorithm</a> (knowledge, platform, sensors, self),</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  end_time_ (ACE_OS::gettimeofday ()), max_execution_time_ (-1),</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  max_executions_ (0), mode_ (TARGET), target_ (target), type_ (type)</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;{</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ab8cc4e9330ef031317a3f1308d6d6f89">status_</a>.<a class="code" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#ae86a1ee53f8de2c6cab5d5e8fb296c1a">init_vars</a> (*knowledge, <span class="stringliteral">&quot;move&quot;</span>, self-&gt;id.to_integer ());</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;}</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    KnowledgeMap::const_iterator locations_size_found =</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      args.find (<span class="stringliteral">&quot;locations.size&quot;</span>);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    KnowledgeMap::const_iterator repeat_found = args.find (<span class="stringliteral">&quot;repeat&quot;</span>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">if</span> (repeat_found != args.end ())</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      repeat_times = repeat_found-&gt;second.to_integer ();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;      <span class="keywordflow">if</span> (repeat_times &lt; 0)</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;          <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;          <span class="stringliteral">&quot;MoveFactory::create&quot;</span> \</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;          <span class="stringliteral">&quot; Setting repeat to forever\n&quot;</span>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;          <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;          <span class="stringliteral">&quot;MoveFactory::create&quot;</span> \</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;          <span class="stringliteral">&quot; Setting repeat to %d times\n&quot;</span>, repeat_times);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">if</span> (locations_size_found != args.end ())</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a> num_locations = locations_size_found-&gt;second.to_integer ();</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      <span class="keywordflow">if</span> (num_locations &gt; 0)</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;          <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;          <span class="stringliteral">&quot;MoveFactory::create&quot;</span> \</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;          <span class="stringliteral">&quot; using locations.size of %d\n&quot;</span>, (<span class="keywordtype">int</span>)num_locations);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        locations.resize ((<span class="keywordtype">size_t</span>)num_locations);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        KnowledgeMap::const_iterator next = args.find (<span class="stringliteral">&quot;locations.0&quot;</span>);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordflow">for</span> (; next != locations_size_found; ++next)</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;          madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a3ef3dce5f10ab106e37ad033430ff13e">gams::loggers::LOG_MINOR</a>,</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <span class="stringliteral">&quot;MoveFactory::create&quot;</span> \</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            <span class="stringliteral">&quot; processing arg %s = %s\n&quot;</span>,</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            next-&gt;first.c_str (), next-&gt;second.to_string ().c_str ());</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;          <span class="comment">// We have already resized the array, so set the location</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;          <a class="code" href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">KnowledgeRecord</a> k_index (madara::utility::strip_prefix (</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            next-&gt;first, <span class="stringliteral">&quot;locations.&quot;</span>));</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;          <span class="keywordtype">int</span> index = (int)k_index.to_integer ();</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;          locations[index] = <a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html#add7374388325e5de5199fe5a6adfbdf8">utility::Position::from_record</a> (next-&gt;second);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;          madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a3ef3dce5f10ab106e37ad033430ff13e">gams::loggers::LOG_MINOR</a>,</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="stringliteral">&quot;MoveFactory::create&quot;</span> \</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="stringliteral">&quot; setting location[%d] with [%s]\n&quot;</span>,</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            index, locations[index].to_string ().c_str (), next-&gt;first.c_str ());</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">if</span> (locations.size () &gt; 0)</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;          madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <span class="stringliteral">&quot;MoveFactory::create&quot;</span> \</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            <span class="stringliteral">&quot; creating Move algorithm with %d locations and %d repeats\n&quot;</span>,</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            (<span class="keywordtype">int</span>)locations.size (), repeat_times);</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
-<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a94e50a53f1aa874a599f92aa7c6e9369">  158</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a94e50a53f1aa874a599f92aa7c6e9369">gams::algorithms::Move::~Move</a> ()</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;{</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;}</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#abf8d22903e6a233ae6393c2a66b1fa9c">  163</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#abf8d22903e6a233ae6393c2a66b1fa9c">gams::algorithms::Move::operator= </a>(<span class="keyword">const</span> <a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html">Move</a> &amp; rhs)</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;{</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="keywordflow">if</span> (<span class="keyword">this</span> != &amp;rhs)</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  {</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    this-&gt;end_time_ = rhs.<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a896bd663a9ee528c167e8cb528dd3b35">end_time_</a>;</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    this-&gt;max_execution_time_ = rhs.<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ae6ed6fbb19e2d0544c49e556e4390670">max_execution_time_</a>;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    this-&gt;max_executions_ = rhs.<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ab68e321f6c2c978c0cc30eb15c4d5a3b">max_executions_</a>;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    this-&gt;mode_ = rhs.<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a68848ee82138775d687660f49b301788">mode_</a>;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    this-&gt;target_ = rhs.<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a418c6556ad8dc5e2b9f8320879051bba">target_</a>;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    this-&gt;type_ = rhs.<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a4dd79680a99f640a07bc4f8d137b85be">type_</a>;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    this-&gt;<a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#af128201a51d40795e4dd0de639f57971">BaseAlgorithm::operator=</a>(rhs);</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  }</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;}</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="keywordtype">int</span></div>
-<div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ad79c66f2ab504fda14d972f7bc48f87f">  179</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ad79c66f2ab504fda14d972f7bc48f87f">gams::algorithms::Move::analyze</a> (<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;{</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <span class="keywordtype">int</span> ret_val (<a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780af29269c90f4b40e27a6627613fce3533">UNKNOWN</a>);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  <span class="keywordflow">if</span> (mode_ == TARGET)</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  {</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    ret_val = <a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a74ffbed977a649fc257004b6a09f554c">OK</a>;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    cerr &lt;&lt; <span class="stringliteral">&quot;position: &quot;</span> &lt;&lt; platform_-&gt;get_position()-&gt;to_string() &lt;&lt; endl;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    cerr &lt;&lt; <span class="stringliteral">&quot;target: &quot;</span> &lt;&lt; target_.to_string () &lt;&lt; endl;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">if</span> (platform_-&gt;get_position ()-&gt;approximately_equal (target_, 2))</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    {</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;      ret_val = <a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a14eecaebc9c915bd852ed7e5508de045">FINISHED</a>;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;      cerr &lt;&lt; <span class="stringliteral">&quot;move finished&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    {</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      cerr &lt;&lt; <span class="stringliteral">&quot;still moving&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    }</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  }</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  <span class="keywordflow">return</span> ret_val;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;}</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="keywordtype">int</span></div>
-<div class="line"><a name="l00201"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a4c47d8f5f7ed1ccb49d9622620fcf8ca">  201</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a4c47d8f5f7ed1ccb49d9622620fcf8ca">gams::algorithms::Move::execute</a> (<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;{</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="comment">//  if (mode_ == EXECUTIONS)</span></div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;<span class="comment">//  {</span></div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="comment">//  }</span></div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;<span class="comment">//  else if (mode_ == TIMED)</span></div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="comment">//  {</span></div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="comment">//  }</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  <span class="keywordflow">if</span> (mode_ == TARGET)</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    platform_-&gt;move(target_);</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  ++executions_;</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;}</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="keywordtype">int</span></div>
-<div class="line"><a name="l00217"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a5a671fc7a0864aebd27c815154e21b68">  217</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a5a671fc7a0864aebd27c815154e21b68">gams::algorithms::Move::plan</a> (<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;{</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;}</div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a4dd79680a99f640a07bc4f8d137b85be"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a4dd79680a99f640a07bc4f8d137b85be">gams::algorithms::Move::type_</a></div><div class="ttdeci">std::string type_</div><div class="ttdoc">type of movement being executed </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00185">Move.h:185</a></div></div>
-<div class="ttc" id="namespacegams_1_1algorithms_html_a9ac2007b311a9ccab056c1d752e14780af29269c90f4b40e27a6627613fce3533"><div class="ttname"><a href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780af29269c90f4b40e27a6627613fce3533">gams::algorithms::UNKNOWN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6f/BaseAlgorithm_8h_source.html#l00083">BaseAlgorithm.h:83</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_abf8d22903e6a233ae6393c2a66b1fa9c"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#abf8d22903e6a233ae6393c2a66b1fa9c">gams::algorithms::Move::operator=</a></div><div class="ttdeci">void operator=(const Move &amp;rhs)</div><div class="ttdoc">Assignment operator. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00163">Move.cpp:163</a></div></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;          result = <span class="keyword">new</span> <a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html">Move</a> (locations, repeat_times,</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            knowledge, platform, sensors, <span class="keyword">self</span>, agents);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;      }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;      {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;          <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302af78d57d009951d894730601434233cfd">gams::loggers::LOG_ERROR</a>,</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;          <span class="stringliteral">&quot;MoveFactory::create&quot;</span> \</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;          <span class="stringliteral">&quot; ERROR: locations.size must be a positive number\n&quot;</span>);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      }</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;      madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302af78d57d009951d894730601434233cfd">gams::loggers::LOG_ERROR</a>,</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="stringliteral">&quot;MoveFactory::create&quot;</span> \</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="stringliteral">&quot; ERROR: locations.size needs to be set to the number of waypoints\n&quot;</span>);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  }</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
+<div class="line"><a name="l00182"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a22c468739e4159656fbae956ee579557">  182</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a22c468739e4159656fbae956ee579557">gams::algorithms::Move::Move</a> (</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  <span class="keyword">const</span> std::vector &lt;utility::Position&gt; &amp; locations,</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="keywordtype">int</span> repeat,</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  madara::knowledge::KnowledgeBase * knowledge, </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * <a class="code" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>, <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors, </div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>, <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> * agents) :</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">BaseAlgorithm</a> (knowledge, platform, sensors, self, agents), </div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  locations_ (locations), repeat_ (repeat), move_index_ (0), cycles_ (0)</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;{</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ab8cc4e9330ef031317a3f1308d6d6f89">status_</a>.<a class="code" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#ae86a1ee53f8de2c6cab5d5e8fb296c1a">init_vars</a> (*knowledge, <span class="stringliteral">&quot;move&quot;</span>, self-&gt;id.to_integer ());</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  <a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ab8cc4e9330ef031317a3f1308d6d6f89">status_</a>.<a class="code" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a93dd6dfbb6936e128754ed5518c08208">init_variable_values</a> ();</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;}</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
+<div class="line"><a name="l00195"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a94e50a53f1aa874a599f92aa7c6e9369">  195</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a94e50a53f1aa874a599f92aa7c6e9369">gams::algorithms::Move::~Move</a> ()</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;{</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;}</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#abf8d22903e6a233ae6393c2a66b1fa9c">  200</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#abf8d22903e6a233ae6393c2a66b1fa9c">gams::algorithms::Move::operator= </a>(<span class="keyword">const</span> <a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html">Move</a> &amp; rhs)</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;{</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  <span class="keywordflow">if</span> (<span class="keyword">this</span> != &amp;rhs)</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    this-&gt;locations_ = rhs.<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#accf0230ef07bf5abb1c33f6c815bfae5">locations_</a>;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    this-&gt;repeat_ = rhs.<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a352012c4833bcb1486ea8ce81c5a6feb">repeat_</a>;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    this-&gt;move_index_ = rhs.<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a6138c656d29e365e057b7462586e6d89">move_index_</a>;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    this-&gt;cycles_ = rhs.<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a9d31633cb6ef75b1ad4bfb20667343c1">cycles_</a>;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    this-&gt;<a class="code" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#af128201a51d40795e4dd0de639f57971">BaseAlgorithm::operator=</a>(rhs);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  }</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;}</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="keywordtype">int</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ad79c66f2ab504fda14d972f7bc48f87f">  214</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ad79c66f2ab504fda14d972f7bc48f87f">gams::algorithms::Move::analyze</a> (<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;{</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;  <span class="keywordtype">int</span> result (<a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a74ffbed977a649fc257004b6a09f554c">OK</a>);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  <span class="keywordflow">if</span> (platform_ &amp;&amp; *platform_-&gt;get_platform_status ()-&gt;movement_available)</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordflow">if</span> (status_.finished.is_false ())</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;      <span class="keywordflow">if</span> (move_index_ &lt; locations_.size ())</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;      {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;          <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;          <span class="stringliteral">&quot;Move::analyze:&quot;</span> \</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;          <span class="stringliteral">&quot; currently moving to location %d -&gt; [%s].\n&quot;</span>,</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;          (<span class="keywordtype">int</span>)move_index_,</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;          locations_[move_index_].to_string ().c_str ());</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="comment">// check our distance to the next location</span></div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <a class="code" href="../../de/df6/classgams_1_1utility_1_1Location.html">utility::Location</a> loc = platform_-&gt;get_location ();</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <a class="code" href="../../de/df6/classgams_1_1utility_1_1Location.html">utility::Location</a> next_loc (platform_-&gt;get_frame (),</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;          locations_[move_index_].y, locations_[move_index_].x,</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;          locations_[move_index_].z);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;          <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a56c59141f7b426e24957231868ff6232">gams::loggers::LOG_DETAILED</a>,</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;          <span class="stringliteral">&quot;Move::analyze:&quot;</span> \</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;          <span class="stringliteral">&quot; distance between points is %f (need %f accuracy)\n&quot;</span>,</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;          loc.<a class="code" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a06c28b306ffc5e52836892235a454e46">distance_to</a> (next_loc), platform_-&gt;get_accuracy ());</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="keywordflow">if</span> (loc.<a class="code" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#aa4692d8ce4b9347d511b38866c04d037">approximately_equal</a> (next_loc, platform_-&gt;get_accuracy ()))</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        {</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;          <span class="comment">// if we are at the end of the location list</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;          <span class="keywordflow">if</span> (move_index_ == locations_.size () - 1)</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;          {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            ++cycles_;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;              <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;              <span class="stringliteral">&quot;Move::analyze:&quot;</span> \</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;              <span class="stringliteral">&quot; finished waypoints cycle number %d of %d target cycles\n&quot;</span>,</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;              cycles_, repeat_);</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <span class="keywordflow">if</span> (cycles_ &gt;= repeat_ &amp;&amp; repeat_ &gt;= 0)</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;              madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                <span class="stringliteral">&quot;Move::analyze:&quot;</span> \</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                <span class="stringliteral">&quot; algorithm is finished after %d cycles\n&quot;</span>,</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                cycles_);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;              result |= <a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a14eecaebc9c915bd852ed7e5508de045">FINISHED</a>;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;              status_.finished = 1;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            } <span class="comment">// end if finished</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            {</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;              <span class="comment">// reset the move index if we are supposed to cycle</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;              move_index_ = 0;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;              madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                <span class="stringliteral">&quot;Move::analyze:&quot;</span> \</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                <span class="stringliteral">&quot; proceeding to location 0 in next cycle.\n&quot;</span>);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            } <span class="comment">// end if not finished</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;          } <span class="comment">// end if move_index_ == end of locations</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;          <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;          {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="comment">// go to the next location</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            ++move_index_;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;              <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;              <span class="stringliteral">&quot;Move::analyze:&quot;</span> \</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;              <span class="stringliteral">&quot; proceeding to location %d at [%s].\n&quot;</span>,</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;              (<span class="keywordtype">int</span>)move_index_,</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;              locations_[move_index_].to_string ().c_str ());</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;          } <span class="comment">// if not the end of the list</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        } <span class="comment">// end if location is approximately equal to next location</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;      } <span class="comment">// end next move is within the locations list</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;      {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;          <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302af78d57d009951d894730601434233cfd">gams::loggers::LOG_ERROR</a>,</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;          <span class="stringliteral">&quot;Move::analyze:&quot;</span> \</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;          <span class="stringliteral">&quot; ERROR: move_index_ is greater than possible locations.\n&quot;</span>);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        result |= <a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a14eecaebc9c915bd852ed7e5508de045">FINISHED</a>;</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        status_.finished.modify ();</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;      } <span class="comment">// end is not in the locations list</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    } <span class="comment">// end is not finished</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a3ef3dce5f10ab106e37ad033430ff13e">gams::loggers::LOG_MINOR</a>,</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <span class="stringliteral">&quot;Move::analyze:&quot;</span> \</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <span class="stringliteral">&quot; Algorithm has finished previously. Rebroadcasting status.finished.\n&quot;</span>);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      result |= <a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a14eecaebc9c915bd852ed7e5508de045">FINISHED</a>;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      status_.finished.modify ();</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    } <span class="comment">// end is finished</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  }</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;  {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;      <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;      <span class="stringliteral">&quot;Move:analyze:&quot;</span> \</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;      <span class="stringliteral">&quot; platform has not set movement_available to 1.\n&quot;</span>);</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;  }</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;}</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="keywordtype">int</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a4c47d8f5f7ed1ccb49d9622620fcf8ca">  330</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a4c47d8f5f7ed1ccb49d9622620fcf8ca">gams::algorithms::Move::execute</a> (<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;{</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;  <span class="keywordtype">int</span> result (<a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a74ffbed977a649fc257004b6a09f554c">OK</a>);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;  <span class="keywordtype">bool</span> is_finished = status_.finished == 1;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;  <span class="keywordflow">if</span> (platform_ &amp;&amp; *platform_-&gt;get_platform_status ()-&gt;movement_available</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    &amp;&amp; !is_finished)</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;  {</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    madara_logger_ptr_log (<a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a>.<span class="keyword">get</span> (),</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;      <a class="code" href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a>,</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;      <span class="stringliteral">&quot;Move::execute:&quot;</span> \</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;      <span class="stringliteral">&quot; calling platform-&gt;move(\&quot;%s\&quot;)\n&quot;</span>,</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;      locations_[move_index_].to_string ().c_str ());</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    <span class="comment">// allow GPSPosition to do the conversion for lat/lon</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <a class="code" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">utility::GPSPosition</a> next = locations_[move_index_];</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    platform_-&gt;move (next);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;  }</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (is_finished)</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;  {</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    result |= <a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a14eecaebc9c915bd852ed7e5508de045">FINISHED</a>;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;  }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;  <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;}</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;<span class="keywordtype">int</span></div>
+<div class="line"><a name="l00359"></a><span class="lineno"><a class="line" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a5a671fc7a0864aebd27c815154e21b68">  359</a></span>&#160;<a class="code" href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a5a671fc7a0864aebd27c815154e21b68">gams::algorithms::Move::plan</a> (<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;{</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;  <span class="keywordtype">int</span> result (<a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a74ffbed977a649fc257004b6a09f554c">OK</a>);</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;  <span class="keywordflow">if</span> (status_.finished.is_true ())</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;  {</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    result |= <a class="code" href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a14eecaebc9c915bd852ed7e5508de045">FINISHED</a>;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;  }</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;  <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;}</div>
+<div class="ttc" id="Move_8cpp_html_a888bdde43b2867cb087f29ebdd54e873"><div class="ttname"><a href="../../df/d3e/Move_8cpp.html#a888bdde43b2867cb087f29ebdd54e873">KnowledgeMap</a></div><div class="ttdeci">knowledge::KnowledgeMap KnowledgeMap</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00061">Move.cpp:61</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_abf8d22903e6a233ae6393c2a66b1fa9c"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#abf8d22903e6a233ae6393c2a66b1fa9c">gams::algorithms::Move::operator=</a></div><div class="ttdeci">void operator=(const Move &amp;rhs)</div><div class="ttdoc">Assignment operator. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00200">Move.cpp:200</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1BaseAlgorithm_html_ab8cc4e9330ef031317a3f1308d6d6f89"><div class="ttname"><a href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ab8cc4e9330ef031317a3f1308d6d6f89">gams::algorithms::BaseAlgorithm::status_</a></div><div class="ttdeci">variables::AlgorithmStatus status_</div><div class="ttdoc">provides access to status information for this platform </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6f/BaseAlgorithm_8h_source.html#l00219">BaseAlgorithm.h:219</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a68848ee82138775d687660f49b301788"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a68848ee82138775d687660f49b301788">gams::algorithms::Move::mode_</a></div><div class="ttdeci">MODE mode_</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00179">Move.h:179</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_ae6ed6fbb19e2d0544c49e556e4390670"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ae6ed6fbb19e2d0544c49e556e4390670">gams::algorithms::Move::max_execution_time_</a></div><div class="ttdeci">unsigned int max_execution_time_</div><div class="ttdoc">maximum number of consecutive executions allowed </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00167">Move.h:167</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_ad79c66f2ab504fda14d972f7bc48f87f"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ad79c66f2ab504fda14d972f7bc48f87f">gams::algorithms::Move::analyze</a></div><div class="ttdeci">virtual int analyze(void)</div><div class="ttdoc">Analyzes environment, platform, or other information. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00179">Move.cpp:179</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a896bd663a9ee528c167e8cb528dd3b35"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a896bd663a9ee528c167e8cb528dd3b35">gams::algorithms::Move::end_time_</a></div><div class="ttdeci">ACE_Time_Value end_time_</div><div class="ttdoc">the end time </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00164">Move.h:164</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_ad79c66f2ab504fda14d972f7bc48f87f"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ad79c66f2ab504fda14d972f7bc48f87f">gams::algorithms::Move::analyze</a></div><div class="ttdeci">virtual int analyze(void)</div><div class="ttdoc">Analyzes environment, platform, or other information. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00214">Move.cpp:214</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a6138c656d29e365e057b7462586e6d89"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a6138c656d29e365e057b7462586e6d89">gams::algorithms::Move::move_index_</a></div><div class="ttdeci">size_t move_index_</div><div class="ttdoc">current location to move to </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00137">Move.h:137</a></div></div>
 <div class="ttc" id="namespacegams_1_1algorithms_html_a9ac2007b311a9ccab056c1d752e14780a74ffbed977a649fc257004b6a09f554c"><div class="ttname"><a href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a74ffbed977a649fc257004b6a09f554c">gams::algorithms::OK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6f/BaseAlgorithm_8h_source.html#l00084">BaseAlgorithm.h:84</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Position_html_add7374388325e5de5199fe5a6adfbdf8"><div class="ttname"><a href="../../df/d4e/classgams_1_1utility_1_1Position.html#add7374388325e5de5199fe5a6adfbdf8">gams::utility::Position::from_record</a></div><div class="ttdeci">static Position from_record(const madara::knowledge::KnowledgeRecord &amp;record)</div><div class="ttdoc">Helper function for creating a Position from a KnowledgeRecord. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df6/Position_8cpp_source.html#l00287">Position.cpp:287</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Coordinate_html_aa4692d8ce4b9347d511b38866c04d037"><div class="ttname"><a href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#aa4692d8ce4b9347d511b38866c04d037">gams::utility::Coordinate::approximately_equal</a></div><div class="ttdeci">bool approximately_equal(const CoordType &amp;other, double epsilon) const </div><div class="ttdoc">Tests if this Coordinate is within epsilon in distance (as defined by this Coordinate&#39;s reference fra...</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d36/Coordinate_8inl_source.html#l00149">Coordinate.inl:149</a></div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a886cb9f6fade67222f4162b90ed80930"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">gams::variables::Sensors</a></div><div class="ttdeci">std::map&lt; std::string, Sensor * &gt; Sensors</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/Sensor_8h_source.html#l00250">Sensor.h:250</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1AlgorithmStatus_html_a93dd6dfbb6936e128754ed5518c08208"><div class="ttname"><a href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a93dd6dfbb6936e128754ed5518c08208">gams::variables::AlgorithmStatus::init_variable_values</a></div><div class="ttdeci">void init_variable_values()</div><div class="ttdoc">Initialize variable values. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6c/AlgorithmStatus_8cpp_source.html#l00127">AlgorithmStatus.cpp:127</a></div></div>
-<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00111">BasePlatform.h:111</a></div></div>
-<div class="ttc" id="namespacegams_1_1variables_html_aff41567fa3512f56d14c536c854a2fef"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">gams::variables::Agents</a></div><div class="ttdeci">std::vector&lt; Agent &gt; Agents</div><div class="ttdoc">An array of agents. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/da5/Agent_8h_source.html#l00205">Agent.h:205</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Position_html_a6045f7b6766f8fc25b2d9b09d1aaf45c"><div class="ttname"><a href="../../df/d4e/classgams_1_1utility_1_1Position.html#a6045f7b6766f8fc25b2d9b09d1aaf45c">gams::utility::Position::y</a></div><div class="ttdeci">double y</div><div class="ttdoc">the y coordinate (e.g. longitude) </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dff/Position_8h_source.html#l00270">Position.h:270</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a4c47d8f5f7ed1ccb49d9622620fcf8ca"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a4c47d8f5f7ed1ccb49d9622620fcf8ca">gams::algorithms::Move::execute</a></div><div class="ttdeci">virtual int execute(void)</div><div class="ttdoc">Plans the next execution of the algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00201">Move.cpp:201</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Position_html_adf2e891d372f1cddb1ef4d8e148a5aca"><div class="ttname"><a href="../../df/d4e/classgams_1_1utility_1_1Position.html#adf2e891d372f1cddb1ef4d8e148a5aca">gams::utility::Position::z</a></div><div class="ttdeci">double z</div><div class="ttdoc">the z coordinate (e.g. altitude) </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dff/Position_8h_source.html#l00273">Position.h:273</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a352012c4833bcb1486ea8ce81c5a6feb"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a352012c4833bcb1486ea8ce81c5a6feb">gams::algorithms::Move::repeat_</a></div><div class="ttdeci">int repeat_</div><div class="ttdoc">number of times to repeat </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00134">Move.h:134</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Location_html"><div class="ttname"><a href="../../de/df6/classgams_1_1utility_1_1Location.html">gams::utility::Location</a></div><div class="ttdoc">Represents a Location within a reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dd3/Location_8h_source.html#l00479">Location.h:479</a></div></div>
+<div class="ttc" id="Executor_8cpp_html_ab81cfab508380f12dfb849a4915dde6d"><div class="ttname"><a href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">KnowledgeRecord</a></div><div class="ttdeci">knowledge::KnowledgeRecord KnowledgeRecord</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/Executor_8cpp_source.html#l00067">Executor.cpp:67</a></div></div>
+<div class="ttc" id="classgams_1_1platforms_1_1BasePlatform_html"><div class="ttname"><a href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">gams::platforms::BasePlatform</a></div><div class="ttdoc">The base platform for all platforms to use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de8/BasePlatform_8h_source.html#l00112">BasePlatform.h:112</a></div></div>
+<div class="ttc" id="namespacegams_1_1variables_html_aff41567fa3512f56d14c536c854a2fef"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">gams::variables::Agents</a></div><div class="ttdeci">std::vector&lt; Agent &gt; Agents</div><div class="ttdoc">An array of agents. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/da5/Agent_8h_source.html#l00226">Agent.h:226</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a4c47d8f5f7ed1ccb49d9622620fcf8ca"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a4c47d8f5f7ed1ccb49d9622620fcf8ca">gams::algorithms::Move::execute</a></div><div class="ttdeci">virtual int execute(void)</div><div class="ttdoc">Plans the next execution of the algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00330">Move.cpp:330</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1Move_html"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html">gams::algorithms::Move</a></div><div class="ttdoc">An algorithm for moving to a location. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00077">Move.h:77</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1BaseAlgorithm_html_af128201a51d40795e4dd0de639f57971"><div class="ttname"><a href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#af128201a51d40795e4dd0de639f57971">gams::algorithms::BaseAlgorithm::operator=</a></div><div class="ttdeci">void operator=(const BaseAlgorithm &amp;rhs)</div><div class="ttdoc">Assignment operator. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00073">BaseAlgorithm.cpp:73</a></div></div>
-<div class="ttc" id="namespacegams_1_1loggers_html_a31352813dc66377621f0f56e887a2b5f"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers::global_logger</a></div><div class="ttdeci">GAMSExport std::auto_ptr&lt; madara::logger::Logger &gt; global_logger</div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a763f56cdd79ae40f3d9062adb7dad67d"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a763f56cdd79ae40f3d9062adb7dad67d">gams::algorithms::Move::Move</a></div><div class="ttdeci">Move(const utility::Position &amp;target, madara::knowledge::KnowledgeBase *knowledge=0, platforms::BasePlatform *platform=0, variables::Sensors *sensors=0, variables::Self *self=0, variables::Agents *agents=0)</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00111">Move.cpp:111</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
+<div class="ttc" id="namespacegams_1_1loggers_html_ab44b4d321f86301d85e8cecaa4c19302a56c59141f7b426e24957231868ff6232"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a56c59141f7b426e24957231868ff6232">gams::loggers::LOG_DETAILED</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/GlobalLogger_8h_source.html#l00026">GlobalLogger.h:26</a></div></div>
 <div class="ttc" id="gams__controller_8cpp_html_a6615fcccb5acbeab9bcda3de434f9a06"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a></div><div class="ttdeci">std::string platform(&quot;debug&quot;)</div></div>
+<div class="ttc" id="Move_8cpp_html_a2aecfe1ae490dfd1487eba3396f86f0d"><div class="ttname"><a href="../../df/d3e/Move_8cpp.html#a2aecfe1ae490dfd1487eba3396f86f0d">Integer</a></div><div class="ttdeci">KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00060">Move.cpp:60</a></div></div>
+<div class="ttc" id="namespacegams_1_1loggers_html_ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a21efff059e6d70fd4888b753385a5512">gams::loggers::LOG_MAJOR</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/GlobalLogger_8h_source.html#l00023">GlobalLogger.h:23</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a22c468739e4159656fbae956ee579557"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a22c468739e4159656fbae956ee579557">gams::algorithms::Move::Move</a></div><div class="ttdeci">Move(const std::vector&lt; utility::Position &gt; &amp;locations, int repeat, madara::knowledge::KnowledgeBase *knowledge=0, platforms::BasePlatform *platform=0, variables::Sensors *sensors=0, variables::Self *self=0, variables::Agents *agents=0)</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00182">Move.cpp:182</a></div></div>
+<div class="ttc" id="Move_8cpp_html_ab81cfab508380f12dfb849a4915dde6d"><div class="ttname"><a href="../../df/d3e/Move_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">KnowledgeRecord</a></div><div class="ttdeci">knowledge::KnowledgeRecord KnowledgeRecord</div><div class="ttdoc">Copyright (c) 2014-2016 Carnegie Mellon University. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00059">Move.cpp:59</a></div></div>
 <div class="ttc" id="classgams_1_1algorithms_1_1BaseAlgorithm_html"><div class="ttname"><a href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">gams::algorithms::BaseAlgorithm</a></div><div class="ttdoc">The base class that algorithms in GAMS use. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6f/BaseAlgorithm_8h_source.html#l00094">BaseAlgorithm.h:94</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1MoveFactory_html_adddb87a37a6374bc388f416ae632d550"><div class="ttname"><a href="../../d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#adddb87a37a6374bc388f416ae632d550">gams::algorithms::MoveFactory::create</a></div><div class="ttdeci">virtual BaseAlgorithm * create(const madara::knowledge::KnowledgeMap &amp;args, madara::knowledge::KnowledgeBase *knowledge, platforms::BasePlatform *platform, variables::Sensors *sensors, variables::Self *self, variables::Agents *agents)</div><div class="ttdoc">Creates a Move Algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00063">Move.cpp:63</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a418c6556ad8dc5e2b9f8320879051bba"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a418c6556ad8dc5e2b9f8320879051bba">gams::algorithms::Move::target_</a></div><div class="ttdeci">utility::Position target_</div><div class="ttdoc">the target of the move </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00182">Move.h:182</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1MoveFactory_html_adddb87a37a6374bc388f416ae632d550"><div class="ttname"><a href="../../d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#adddb87a37a6374bc388f416ae632d550">gams::algorithms::MoveFactory::create</a></div><div class="ttdeci">virtual BaseAlgorithm * create(const madara::knowledge::KnowledgeMap &amp;args, madara::knowledge::KnowledgeBase *knowledge, platforms::BasePlatform *platform, variables::Sensors *sensors, variables::Self *self, variables::Agents *agents)</div><div class="ttdoc">Creates a Move Algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00064">Move.cpp:64</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a9d31633cb6ef75b1ad4bfb20667343c1"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a9d31633cb6ef75b1ad4bfb20667343c1">gams::algorithms::Move::cycles_</a></div><div class="ttdeci">int cycles_</div><div class="ttdoc">tracks the number of cycles completed through locations </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00140">Move.h:140</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1AlgorithmStatus_html_ae86a1ee53f8de2c6cab5d5e8fb296c1a"><div class="ttname"><a href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#ae86a1ee53f8de2c6cab5d5e8fb296c1a">gams::variables::AlgorithmStatus::init_vars</a></div><div class="ttdeci">void init_vars(madara::knowledge::KnowledgeBase &amp;knowledge, const std::string &amp;new_name, int i)</div><div class="ttdoc">Initializes variable containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6c/AlgorithmStatus_8cpp_source.html#l00079">AlgorithmStatus.cpp:79</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Position_html_a1b48c0b1efe98cee40da5eb6ccf1ec8e"><div class="ttname"><a href="../../df/d4e/classgams_1_1utility_1_1Position.html#a1b48c0b1efe98cee40da5eb6ccf1ec8e">gams::utility::Position::to_string</a></div><div class="ttdeci">virtual std::string to_string(const std::string &amp;delimiter=&quot;,&quot;) const </div><div class="ttdoc">Helper function for converting the position to a string. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df6/Position_8cpp_source.html#l00255">Position.cpp:255</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Position_html_ac071cc672b202d902bf37015c33d4469"><div class="ttname"><a href="../../df/d4e/classgams_1_1utility_1_1Position.html#ac071cc672b202d902bf37015c33d4469">gams::utility::Position::x</a></div><div class="ttdeci">double x</div><div class="ttdoc">the x coordinate (e.g. latitude) </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dff/Position_8h_source.html#l00267">Position.h:267</a></div></div>
-<div class="ttc" id="Move_8h_html"><div class="ttname"><a href="../../d0/db9/Move_8h.html">Move.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="namespacegams_1_1utility_html_a712efd032ffcd8209bc803de9ca75dae"><div class="ttname"><a href="../../da/d4b/namespacegams_1_1utility.html#a712efd032ffcd8209bc803de9ca75dae">gams::utility::kmap2kvec</a></div><div class="ttdeci">madara::knowledge::KnowledgeVector kmap2kvec(const madara::knowledge::KnowledgeMap &amp;kmap)</div><div class="ttdoc">Converts a knowledge map into a knowledge vector by adding the values from the map in numerical order...</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d47/ArgumentParser_8h_source.html#l00098">ArgumentParser.h:98</a></div></div>
-<div class="ttc" id="classgams_1_1utility_1_1Position_html"><div class="ttname"><a href="../../df/d4e/classgams_1_1utility_1_1Position.html">gams::utility::Position</a></div><div class="ttdoc">A position in an x, y, z coordinate system. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dff/Position_8h_source.html#l00070">Position.h:70</a></div></div>
+<div class="ttc" id="Move_8h_html"><div class="ttname"><a href="../../d0/db9/Move_8h.html">Move.h</a></div><div class="ttdoc">Copyright (c) 2014-2016 Carnegie Mellon University. </div></div>
+<div class="ttc" id="classgams_1_1utility_1_1Coordinate_html_a06c28b306ffc5e52836892235a454e46"><div class="ttname"><a href="../../da/deb/classgams_1_1utility_1_1Coordinate.html#a06c28b306ffc5e52836892235a454e46">gams::utility::Coordinate::distance_to</a></div><div class="ttdeci">double distance_to(const CoordType &amp;target) const </div><div class="ttdoc">Calculate distance from this Coordinate to a target. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d05/ReferenceFrame_8inl_source.html#l00476">ReferenceFrame.inl:476</a></div></div>
+<div class="ttc" id="LocalPheremoneAreaCoverage_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp_source.html#l00072">LocalPheremoneAreaCoverage.cpp:72</a></div></div>
 <div class="ttc" id="namespacegams_1_1algorithms_html_a9ac2007b311a9ccab056c1d752e14780a14eecaebc9c915bd852ed7e5508de045"><div class="ttname"><a href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a14eecaebc9c915bd852ed7e5508de045">gams::algorithms::FINISHED</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6f/BaseAlgorithm_8h_source.html#l00088">BaseAlgorithm.h:88</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a5a671fc7a0864aebd27c815154e21b68"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a5a671fc7a0864aebd27c815154e21b68">gams::algorithms::Move::plan</a></div><div class="ttdeci">virtual int plan(void)</div><div class="ttdoc">Plans the next execution of the algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00217">Move.cpp:217</a></div></div>
-<div class="ttc" id="namespacegams_1_1loggers_html_ab44b4d321f86301d85e8cecaa4c19302af78d57d009951d894730601434233cfd"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302af78d57d009951d894730601434233cfd">gams::loggers::LOG_ERROR</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/GlobalLogger_8h_source.html#l00020">GlobalLogger.h:20</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a5a671fc7a0864aebd27c815154e21b68"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a5a671fc7a0864aebd27c815154e21b68">gams::algorithms::Move::plan</a></div><div class="ttdeci">virtual int plan(void)</div><div class="ttdoc">Plans the next execution of the algorithm. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00359">Move.cpp:359</a></div></div>
+<div class="ttc" id="namespacegams_1_1loggers_html_ab44b4d321f86301d85e8cecaa4c19302af78d57d009951d894730601434233cfd"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302af78d57d009951d894730601434233cfd">gams::loggers::LOG_ERROR</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/GlobalLogger_8h_source.html#l00021">GlobalLogger.h:21</a></div></div>
 <div class="ttc" id="GlobalLogger_8h_html"><div class="ttname"><a href="../../d9/ddd/GlobalLogger_8h.html">GlobalLogger.h</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_ab68e321f6c2c978c0cc30eb15c4d5a3b"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#ab68e321f6c2c978c0cc30eb15c4d5a3b">gams::algorithms::Move::max_executions_</a></div><div class="ttdeci">unsigned int max_executions_</div><div class="ttdoc">maximum number of consecutive executions allowed </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00170">Move.h:170</a></div></div>
-<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a94e50a53f1aa874a599f92aa7c6e9369"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a94e50a53f1aa874a599f92aa7c6e9369">gams::algorithms::Move::~Move</a></div><div class="ttdeci">~Move()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00158">Move.cpp:158</a></div></div>
+<div class="ttc" id="classgams_1_1utility_1_1GPSPosition_html"><div class="ttname"><a href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">gams::utility::GPSPosition</a></div><div class="ttdoc">A position in the global positioning system reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/GPSPosition_8h_source.html#l00070">GPSPosition.h:70</a></div></div>
+<div class="ttc" id="namespacegams_1_1loggers_html_a15b9006d097725c716eee378b8f75801"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers::global_logger</a></div><div class="ttdeci">GAMSExport madara::utility::Refcounter&lt; madara::logger::Logger &gt; global_logger</div></div>
+<div class="ttc" id="namespacegams_1_1loggers_html_ab44b4d321f86301d85e8cecaa4c19302a3ef3dce5f10ab106e37ad033430ff13e"><div class="ttname"><a href="../../d1/d78/namespacegams_1_1loggers.html#ab44b4d321f86301d85e8cecaa4c19302a3ef3dce5f10ab106e37ad033430ff13e">gams::loggers::LOG_MINOR</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddd/GlobalLogger_8h_source.html#l00024">GlobalLogger.h:24</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_a94e50a53f1aa874a599f92aa7c6e9369"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#a94e50a53f1aa874a599f92aa7c6e9369">gams::algorithms::Move::~Move</a></div><div class="ttdeci">~Move()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3e/Move_8cpp_source.html#l00195">Move.cpp:195</a></div></div>
+<div class="ttc" id="classgams_1_1algorithms_1_1Move_html_accf0230ef07bf5abb1c33f6c815bfae5"><div class="ttname"><a href="../../d2/d4c/classgams_1_1algorithms_1_1Move.html#accf0230ef07bf5abb1c33f6c815bfae5">gams::algorithms::Move::locations_</a></div><div class="ttdeci">std::vector&lt; utility::Position &gt; locations_</div><div class="ttdoc">the locations to visit </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db9/Move_8h_source.html#l00131">Move.h:131</a></div></div>
 <div class="ttc" id="ArgumentParser_8h_html"><div class="ttname"><a href="../../d0/d47/ArgumentParser_8h.html">ArgumentParser.h</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -328,7 +471,7 @@ $(document).ready(function(){initNavTree('df/d3e/Move_8cpp_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_51790b9f0ef7b0cc06eb1e76e309c0bc.html">algorithms</a></li><li class="navelem"><a class="el" href="../../df/d3e/Move_8cpp.html">Move.cpp</a></li>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:39 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:37 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

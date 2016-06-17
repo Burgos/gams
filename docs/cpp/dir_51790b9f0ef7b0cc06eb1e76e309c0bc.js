@@ -6,32 +6,28 @@ var dir_51790b9f0ef7b0cc06eb1e76e309c0bc =
     [ "AlgorithmFactory.h", "dc/d80/AlgorithmFactory_8h.html", [
       [ "AlgorithmFactory", "d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html", "d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory" ]
     ] ],
+    [ "AlgorithmFactoryRepository.cpp", "d2/da1/AlgorithmFactoryRepository_8cpp.html", null ],
+    [ "AlgorithmFactoryRepository.h", "d0/df2/AlgorithmFactoryRepository_8h.html", "d0/df2/AlgorithmFactoryRepository_8h" ],
     [ "BaseAlgorithm.cpp", "d6/d46/BaseAlgorithm_8cpp.html", null ],
     [ "BaseAlgorithm.h", "d2/d6f/BaseAlgorithm_8h.html", "d2/d6f/BaseAlgorithm_8h" ],
-    [ "ControllerAlgorithmFactory.cpp", "d1/db1/ControllerAlgorithmFactory_8cpp.html", null ],
-    [ "ControllerAlgorithmFactory.h", "de/dcb/ControllerAlgorithmFactory_8h.html", "de/dcb/ControllerAlgorithmFactory_8h" ],
     [ "DebugAlgorithm.cpp", "d1/df6/DebugAlgorithm_8cpp.html", null ],
     [ "DebugAlgorithm.h", "d6/d3e/DebugAlgorithm_8h.html", [
       [ "DebugAlgorithm", "d6/d58/classgams_1_1algorithms_1_1DebugAlgorithm.html", "d6/d58/classgams_1_1algorithms_1_1DebugAlgorithm" ],
       [ "DebugAlgorithmFactory", "dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html", "dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory" ]
     ] ],
-    [ "Executive.cpp", "d9/d2e/Executive_8cpp.html", null ],
-    [ "Executive.h", "d8/d53/Executive_8h.html", [
-      [ "AlgorithmInit", "d4/d68/structgams_1_1algorithms_1_1Executive_1_1AlgorithmInit.html", "d4/d68/structgams_1_1algorithms_1_1Executive_1_1AlgorithmInit" ],
-      [ "Executive", "dc/d23/classgams_1_1algorithms_1_1Executive.html", "dc/d23/classgams_1_1algorithms_1_1Executive" ],
-      [ "ExecutiveFactory", "d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory.html", "d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory" ]
-    ] ],
-    [ "Follow.cpp", "d9/d0e/Follow_8cpp.html", null ],
+    [ "Executor.cpp", "d1/da9/Executor_8cpp.html", "d1/da9/Executor_8cpp" ],
+    [ "Executor.h", "dd/d8c/Executor_8h.html", "dd/d8c/Executor_8h" ],
+    [ "Follow.cpp", "d9/d0e/Follow_8cpp.html", "d9/d0e/Follow_8cpp" ],
     [ "Follow.h", "d9/ddd/Follow_8h.html", [
       [ "Follow", "d9/d7a/classgams_1_1algorithms_1_1Follow.html", "d9/d7a/classgams_1_1algorithms_1_1Follow" ],
       [ "FollowFactory", "d3/d86/classgams_1_1algorithms_1_1FollowFactory.html", "d3/d86/classgams_1_1algorithms_1_1FollowFactory" ]
     ] ],
-    [ "FormationCoverage.cpp", "d3/d2c/FormationCoverage_8cpp.html", null ],
+    [ "FormationCoverage.cpp", "d3/d2c/FormationCoverage_8cpp.html", "d3/d2c/FormationCoverage_8cpp" ],
     [ "FormationCoverage.h", "d0/dcf/FormationCoverage_8h.html", [
       [ "FormationCoverage", "d7/da5/classgams_1_1algorithms_1_1FormationCoverage.html", "d7/da5/classgams_1_1algorithms_1_1FormationCoverage" ],
       [ "FormationCoverageFactory", "da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html", "da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory" ]
     ] ],
-    [ "FormationFlying.cpp", "d7/d8a/FormationFlying_8cpp.html", null ],
+    [ "FormationFlying.cpp", "d7/d8a/FormationFlying_8cpp.html", "d7/d8a/FormationFlying_8cpp" ],
     [ "FormationFlying.h", "d9/ded/FormationFlying_8h.html", [
       [ "Compiled", "d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled.html", "d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled" ],
       [ "FormationFlying", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html", "d9/df9/classgams_1_1algorithms_1_1FormationFlying" ],
@@ -47,6 +43,11 @@ var dir_51790b9f0ef7b0cc06eb1e76e309c0bc =
       [ "GroupBarrier", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier" ],
       [ "GroupBarrierFactory", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory" ]
     ] ],
+    [ "KarlEvaluator.cpp", "df/d46/KarlEvaluator_8cpp.html", "df/d46/KarlEvaluator_8cpp" ],
+    [ "KarlEvaluator.h", "d6/dc5/KarlEvaluator_8h.html", [
+      [ "KarlEvaluator", "dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html", "dd/d41/classgams_1_1algorithms_1_1KarlEvaluator" ],
+      [ "KarlEvaluatorFactory", "d5/d3d/classgams_1_1algorithms_1_1KarlEvaluatorFactory.html", "d5/d3d/classgams_1_1algorithms_1_1KarlEvaluatorFactory" ]
+    ] ],
     [ "Land.cpp", "da/dcf/Land_8cpp.html", null ],
     [ "Land.h", "da/d21/Land_8h.html", [
       [ "Land", "d3/d06/classgams_1_1algorithms_1_1Land.html", "d3/d06/classgams_1_1algorithms_1_1Land" ],
@@ -59,7 +60,7 @@ var dir_51790b9f0ef7b0cc06eb1e76e309c0bc =
       [ "MessageProfiling", "d2/d64/classgams_1_1algorithms_1_1MessageProfiling.html", "d2/d64/classgams_1_1algorithms_1_1MessageProfiling" ],
       [ "MessageProfilingFactory", "d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html", "d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory" ]
     ] ],
-    [ "Move.cpp", "df/d3e/Move_8cpp.html", null ],
+    [ "Move.cpp", "df/d3e/Move_8cpp.html", "df/d3e/Move_8cpp" ],
     [ "Move.h", "d0/db9/Move_8h.html", [
       [ "Move", "d2/d4c/classgams_1_1algorithms_1_1Move.html", "d2/d4c/classgams_1_1algorithms_1_1Move" ],
       [ "MoveFactory", "d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html", "d6/dc3/classgams_1_1algorithms_1_1MoveFactory" ]
@@ -73,6 +74,11 @@ var dir_51790b9f0ef7b0cc06eb1e76e309c0bc =
     [ "PerformanceProfiling.h", "d2/dfe/PerformanceProfiling_8h.html", [
       [ "PerformanceProfiling", "dc/d12/classgams_1_1algorithms_1_1PerformanceProfiling.html", "dc/d12/classgams_1_1algorithms_1_1PerformanceProfiling" ],
       [ "PerformanceProfilingFactory", "dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html", "dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory" ]
+    ] ],
+    [ "PerimeterPatrol.cpp", "d8/d59/PerimeterPatrol_8cpp.html", "d8/d59/PerimeterPatrol_8cpp" ],
+    [ "PerimeterPatrol.h", "d1/d28/PerimeterPatrol_8h.html", [
+      [ "PerimeterPatrol", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol" ],
+      [ "PerimeterPatrolFactory", "da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html", "da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory" ]
     ] ],
     [ "Takeoff.cpp", "dc/d50/Takeoff_8cpp.html", null ],
     [ "Takeoff.h", "d0/df4/Takeoff_8h.html", [

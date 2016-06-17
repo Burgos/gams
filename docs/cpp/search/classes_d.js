@@ -1,20 +1,4 @@
 var searchData=
 [
-  ['performanceprofiling',['PerformanceProfiling',['../dc/d12/classgams_1_1algorithms_1_1PerformanceProfiling.html',1,'gams::algorithms']]],
-  ['performanceprofilingfactory',['PerformanceProfilingFactory',['../dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html',1,'gams::algorithms']]],
-  ['perimeterpatrol',['PerimeterPatrol',['../d6/d5e/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrol.html',1,'gams::algorithms::area_coverage']]],
-  ['perimeterpatrolfactory',['PerimeterPatrolFactory',['../d5/df5/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolFactory.html',1,'gams::algorithms::area_coverage']]],
-  ['placement',['placement',['../da/d1a/structonion_1_1placement.html',1,'onion']]],
-  ['platformcollection',['PlatformCollection',['../d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html',1,'gams::platforms']]],
-  ['platformcollectionfactory',['PlatformCollectionFactory',['../dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory.html',1,'gams::platforms']]],
-  ['platformfactory',['PlatformFactory',['../d5/d99/classgams_1_1platforms_1_1PlatformFactory.html',1,'gams::platforms']]],
-  ['platformstatus',['PlatformStatus',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html',1,'gams::variables']]],
-  ['pose',['Pose',['../dd/d85/classgams_1_1utility_1_1Pose.html',1,'gams::utility']]],
-  ['posevector',['PoseVector',['../d6/de9/classgams_1_1utility_1_1PoseVector.html',1,'gams::utility']]],
-  ['position',['Position',['../df/d4e/classgams_1_1utility_1_1Position.html',1,'gams::utility']]],
-  ['prioritizedmintimeareacoverage',['PrioritizedMinTimeAreaCoverage',['../d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html',1,'gams::algorithms::area_coverage']]],
-  ['prioritizedmintimeareacoveragefactory',['PrioritizedMinTimeAreaCoverageFactory',['../df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html',1,'gams::algorithms::area_coverage']]],
-  ['prioritizedregion',['PrioritizedRegion',['../d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html',1,'gams::utility']]],
-  ['priorityweightedrandomareacoverage',['PriorityWeightedRandomAreaCoverage',['../db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html',1,'gams::algorithms::area_coverage']]],
-  ['priorityweightedrandomareacoveragefactory',['PriorityWeightedRandomAreaCoverageFactory',['../df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html',1,'gams::algorithms::area_coverage']]]
+  ['order',['Order',['../d5/d82/classgams_1_1utility_1_1order_1_1Order.html',1,'gams::utility::order']]]
 ];

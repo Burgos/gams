@@ -1,21 +1,21 @@
 <map id="gams::algorithms::FormationCoverageFactory" name="gams::algorithms::FormationCoverageFactory">
-<area shape="rect" id="node2" href="$d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html" title="Base class for algorithm factories that classes derived from. " alt="" coords="1568,175,1753,217"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="955,203,1076,229"/>
-<area shape="rect" id="node10" href="$d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="1261,127,1463,153"/>
-<area shape="rect" id="node23" title="STL class. " alt="" coords="1124,279,1237,305"/>
-<area shape="rect" id="node6" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="944,7,1087,33"/>
-<area shape="rect" id="node7" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="651,7,806,33"/>
+<area shape="rect" id="node2" href="$d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html" title="Base class for algorithm factories that classes derived from. " alt="" coords="1679,181,1864,222"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="1065,215,1187,241"/>
+<area shape="rect" id="node12" href="$d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="1372,132,1573,159"/>
+<area shape="rect" id="node23" title="STL class. " alt="" coords="1235,284,1348,311"/>
+<area shape="rect" id="node6" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="1055,32,1197,59"/>
+<area shape="rect" id="node7" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="651,32,806,59"/>
 <area shape="rect" id="node9" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="5,7,204,33"/>
-<area shape="rect" id="node11" href="$db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="931,63,1099,105"/>
-<area shape="rect" id="node12" title="STL class. " alt="" coords="689,71,769,97"/>
-<area shape="rect" id="node13" title="STL class. " alt="" coords="339,63,465,105"/>
-<area shape="rect" id="node14" href="$da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default..." alt="" coords="932,129,1099,156"/>
-<area shape="rect" id="node15" href="$dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html" title="For internal use. " alt="" coords="639,122,818,163"/>
-<area shape="rect" id="node16" href="$d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="323,325,481,366"/>
-<area shape="rect" id="node21" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="934,349,1097,390"/>
-<area shape="rect" id="node22" href="$d0/d20/classgams_1_1utility_1_1CoordinateBase.html" title="For internal use. " alt="" coords="632,304,825,331"/>
-<area shape="rect" id="node17" href="$dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="1297,443,1427,469"/>
-<area shape="rect" id="node18" href="$d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="931,443,1100,469"/>
-<area shape="rect" id="node19" href="$d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="635,468,823,495"/>
-<area shape="rect" id="node20" href="$d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="635,417,822,444"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="362,81,442,108"/>
+<area shape="rect" id="node13" href="$db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="849,90,1017,131"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="41,74,168,115"/>
+<area shape="rect" id="node14" href="$da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default..." alt="" coords="1043,159,1209,185"/>
+<area shape="rect" id="node15" href="$dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html" title="For internal use. " alt="" coords="639,149,818,190"/>
+<area shape="rect" id="node16" href="$d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="323,374,481,415"/>
+<area shape="rect" id="node21" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="1045,479,1207,521"/>
+<area shape="rect" id="node22" href="$d0/d20/classgams_1_1utility_1_1CoordinateBase.html" title="For internal use. " alt="" coords="632,487,825,513"/>
+<area shape="rect" id="node17" href="$dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="1407,407,1538,433"/>
+<area shape="rect" id="node18" href="$d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="1041,407,1211,433"/>
+<area shape="rect" id="node19" href="$d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="635,436,823,463"/>
+<area shape="rect" id="node20" href="$d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="635,385,822,412"/>
 </map>

@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -97,6 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_k"><span>k</span></a></li>
       <li><a href="#index_l"><span>l</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_n"><span>n</span></a></li>
       <li><a href="#index_o"><span>o</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
       <li><a href="#index_r"><span>r</span></a></li>
@@ -144,14 +145,28 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 <li>AccentStatuses
 : <a class="el" href="d8/df1/namespacegams_1_1variables.html#af6fac9453d7fec171bcf00fd33bf465e">gams::variables</a>
 </li>
+<li>AgentMap
+: <a class="el" href="de/dd1/namespacegams_1_1elections.html#a5ba6e91cbedd3f71b61e8206510a3f87">gams::elections</a>
+, <a class="el" href="d4/da6/namespacegams_1_1groups.html#af2d7a56ba3a07e7154e678cda4625689">gams::groups</a>
+</li>
 <li>Agents
 : <a class="el" href="d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">gams::variables</a>
+</li>
+<li>AgentVector
+: <a class="el" href="de/dd1/namespacegams_1_1elections.html#ac00efd5e9de206de3ffa022ee9b36df9">gams::elections</a>
+, <a class="el" href="d4/da6/namespacegams_1_1groups.html#a643ee357f9a2db5eccd9d707077bd197">gams::groups</a>
 </li>
 <li>Algorithm
 : <a class="el" href="d8/df1/namespacegams_1_1variables.html#a9b4ab66e6dbace57973bb0b96077b41f">gams::variables</a>
 </li>
 <li>AlgorithmAnalyzeStatus
 : <a class="el" href="d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780">gams::algorithms</a>
+</li>
+<li>AlgorithmFactoryMap
+: <a class="el" href="d3/d47/namespacegams_1_1algorithms.html#a6ec1a818d54a28968e942156859e1e80">gams::algorithms</a>
+</li>
+<li>AlgorithmMetaDatas
+: <a class="el" href="d3/d47/namespacegams_1_1algorithms.html#a2dab9ea675623fbf3e4ce5583811fee0">gams::algorithms</a>
 </li>
 <li>AlgorithmNames
 : <a class="el" href="d8/df1/namespacegams_1_1variables.html#ad8febcc2b25d22941393028ff07bead3">gams::variables</a>
@@ -165,6 +180,21 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 </li>
 <li>Alt
 : <a class="el" href="d0/d14/namespacegams_1_1utility_1_1order.html#a8baa779c3da66fe4d0ca5d47d1cae181">gams::utility::order</a>
+</li>
+<li>AUCTION_MAXIMUM_BID
+: <a class="el" href="d3/dfe/namespacegams_1_1auctions.html#a54867e7ed8b50b5ad00efb64e8136c58a33a470f248394ed5fe4d473f93e1cc3f">gams::auctions</a>
+</li>
+<li>AUCTION_MINIMUM_BID
+: <a class="el" href="d3/dfe/namespacegams_1_1auctions.html#a54867e7ed8b50b5ad00efb64e8136c58aa21c541f573268b5e2a94305920ddb0b">gams::auctions</a>
+</li>
+<li>AuctionFactoryMap
+: <a class="el" href="d3/dfe/namespacegams_1_1auctions.html#aec2fea29c8d02d9b692dbf01890c3a7e">gams::auctions</a>
+</li>
+<li>AuctionType
+: <a class="el" href="d3/dfe/namespacegams_1_1auctions.html#a4a61aa56ff5e46bdead203da43e80085">gams::auctions</a>
+</li>
+<li>AuctionTypes
+: <a class="el" href="d3/dfe/namespacegams_1_1auctions.html#a54867e7ed8b50b5ad00efb64e8136c58">gams::auctions</a>
 </li>
 </ul>
 
@@ -196,6 +226,9 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 
 
 <h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>ElectionFactoryMap
+: <a class="el" href="de/dd1/namespacegams_1_1elections.html#a1fc2ac873fb3ad9ef3f5027ddcfc7004">gams::elections</a>
+</li>
 <li>EulerExtrXYZ
 : <a class="el" href="d3/d18/namespacegams_1_1utility_1_1euler.html#a49b93d37ce709bc296c89d908c93b1a3">gams::utility::euler</a>
 </li>
@@ -225,12 +258,14 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 
 <h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
 <li>FactoryMap
-: <a class="el" href="d3/d47/namespacegams_1_1algorithms.html#a53bb9c0213bb57860808d81c63556c4b">gams::algorithms</a>
-, <a class="el" href="d2/dd3/namespacegams_1_1platforms.html#abde253930acb76423dfa73228480dd5d">gams::platforms</a>
+: <a class="el" href="d2/dd3/namespacegams_1_1platforms.html#abde253930acb76423dfa73228480dd5d">gams::platforms</a>
 </li>
 <li>FAILED
 : <a class="el" href="d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a7e753b28b3d19e3573bde0af36a6ebf8">gams::algorithms</a>
 , <a class="el" href="d2/dd3/namespacegams_1_1platforms.html#a3cd2025c12ef166003e8f3e143365ad5af78a0e6c71b555ef1381e0b94244b390">gams::platforms</a>
+</li>
+<li>find_member_index()
+: <a class="el" href="d4/da6/namespacegams_1_1groups.html#a618be7aace86741e1df3500d0fc69b2d">gams::groups</a>
 </li>
 <li>FINISHED
 : <a class="el" href="d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a14eecaebc9c915bd852ed7e5508de045">gams::algorithms</a>
@@ -242,11 +277,35 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 <li>get_placement()
 : <a class="el" href="dc/d80/namespaceonion.html#ab247d37e926c6f7969894e81bd21b7ae">onion</a>
 </li>
+<li>global_algorithm_factory
+: <a class="el" href="d3/d47/namespacegams_1_1algorithms.html#a425251cf782429559ae2ecb0fec32c39">gams::algorithms</a>
+</li>
 <li>global_logger
-: <a class="el" href="d1/d78/namespacegams_1_1loggers.html#a31352813dc66377621f0f56e887a2b5f">gams::loggers</a>
+: <a class="el" href="d1/d78/namespacegams_1_1loggers.html#a15b9006d097725c716eee378b8f75801">gams::loggers</a>
+</li>
+<li>global_platform_factory
+: <a class="el" href="d2/dd3/namespacegams_1_1platforms.html#a933395e2a5df5081ba5caf3dc2f71aa7">gams::platforms</a>
 </li>
 <li>GPS
 : <a class="el" href="d0/d14/namespacegams_1_1utility_1_1order.html#aa9d7b59714622bd4cc29289c8272a395">gams::utility::order</a>
+</li>
+<li>GpsPositions
+: <a class="el" href="da/d4b/namespacegams_1_1utility.html#afcb101815f1d4f85be5da963e41faa2c">gams::utility</a>
+</li>
+<li>GROUP_FIXED_LIST
+: <a class="el" href="d4/da6/namespacegams_1_1groups.html#a1a6d883b2cc0aab22baf83837b3ab95da471d73884458c326c668862380cdfeaa">gams::groups</a>
+</li>
+<li>GROUP_TRANSIENT
+: <a class="el" href="d4/da6/namespacegams_1_1groups.html#a1a6d883b2cc0aab22baf83837b3ab95da0e29c785e6cabad7daeebea09bc516be">gams::groups</a>
+</li>
+<li>GroupFactoryMap
+: <a class="el" href="d4/da6/namespacegams_1_1groups.html#a085860bf393f4e7fa79ba0f27f6be399">gams::groups</a>
+</li>
+<li>GroupType
+: <a class="el" href="d4/da6/namespacegams_1_1groups.html#a99c30ca408c0c07f8498d4cb10ee73c8">gams::groups</a>
+</li>
+<li>GroupTypes
+: <a class="el" href="d4/da6/namespacegams_1_1groups.html#a1a6d883b2cc0aab22baf83837b3ab95d">gams::groups</a>
 </li>
 </ul>
 
@@ -256,7 +315,7 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 : <a class="el" href="dc/d80/namespaceonion.html#a7eb3a7ec2c68154491c8f4f743215484">onion</a>
 </li>
 <li>init_vars()
-: <a class="el" href="d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">gams::variables</a>
+: <a class="el" href="d8/df1/namespacegams_1_1variables.html#a7aba2fe48dd727122a69be3065e15716">gams::variables</a>
 </li>
 </ul>
 
@@ -324,6 +383,16 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 </ul>
 
 
+<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
+<li>NUM_AUCTION_TYPES
+: <a class="el" href="d3/dfe/namespacegams_1_1auctions.html#a54867e7ed8b50b5ad00efb64e8136c58a91ce03a017875beafdcbf93ccd699cd3">gams::auctions</a>
+</li>
+<li>NUM_GROUP_TYPES
+: <a class="el" href="d4/da6/namespacegams_1_1groups.html#a1a6d883b2cc0aab22baf83837b3ab95dab948eb166fa55498340046ce17cb8493">gams::groups</a>
+</li>
+</ul>
+
+
 <h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
 <li>OK
 : <a class="el" href="d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780a74ffbed977a649fc257004b6a09f554c">gams::algorithms</a>
@@ -331,7 +400,7 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 </li>
 <li>operator&lt;&lt;()
 : <a class="el" href="d3/d18/namespacegams_1_1utility_1_1euler.html#ae3b17e42af278e15b1d954f3481163a1">gams::utility::euler</a>
-, <a class="el" href="da/d4b/namespacegams_1_1utility.html#a4fc93e7953a2b8666aa441a47f3ad52a">gams::utility</a>
+, <a class="el" href="da/d4b/namespacegams_1_1utility.html#ae8d1a195779d1bf8ed0886fef38f4d69">gams::utility</a>
 </li>
 </ul>
 
@@ -352,6 +421,9 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 <li>PLATFORM_MOVING
 : <a class="el" href="d2/dd3/namespacegams_1_1platforms.html#a7016bf50ed1dfad46a21e364e0d60ad4abf3f9eb6a73c16b797b496a568182fb8">gams::platforms</a>
 </li>
+<li>PLATFORM_OK
+: <a class="el" href="d2/dd3/namespacegams_1_1platforms.html#a7016bf50ed1dfad46a21e364e0d60ad4a5cee5a8a19767ab8a18e4d669a374d6f">gams::platforms</a>
+</li>
 <li>PlatformAnalyzeStatus
 : <a class="el" href="d2/dd3/namespacegams_1_1platforms.html#a3cd2025c12ef166003e8f3e143365ad5">gams::platforms</a>
 </li>
@@ -366,6 +438,9 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 </li>
 <li>PlatformStatuses
 : <a class="el" href="d8/df1/namespacegams_1_1variables.html#a905310afe0c364648e75d04b6cd19adb">gams::variables</a>
+</li>
+<li>Positions
+: <a class="el" href="da/d4b/namespacegams_1_1utility.html#a7c0a9c81e2015d8892801cb3e095257e">gams::utility</a>
 </li>
 </ul>
 
@@ -460,7 +535,7 @@ $(document).ready(function(){initNavTree('namespacemembers.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:50 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:44 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

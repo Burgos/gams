@@ -1,6 +1,10 @@
 <map id="src/gams/variables/AlgorithmStatus.cpp" name="src/gams/variables/AlgorithmStatus.cpp">
-<area shape="rect" id="node2" href="$db/dfe/AlgorithmStatus_8h.html" title="AlgorithmStatus.h" alt="" coords="1322,95,1449,121"/>
-<area shape="rect" id="node6" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="5,341,152,367"/>
-<area shape="rect" id="node10" href="$da/da5/Agent_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="955,169,1021,196"/>
-<area shape="rect" id="node16" href="$d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="885,251,997,278"/>
+<area shape="rect" id="node2" href="$db/dfe/AlgorithmStatus_8h.html" title="AlgorithmStatus.h" alt="" coords="2381,95,2508,121"/>
+<area shape="rect" id="node6" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="839,512,986,539"/>
+<area shape="rect" id="node10" href="$da/da5/Agent_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1645,169,1711,196"/>
+<area shape="rect" id="node16" href="$d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1955,251,2067,278"/>
+<area shape="rect" id="node17" href="$d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="819,251,996,278"/>
+<area shape="rect" id="node18" href="$d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="880,341,1017,367"/>
+<area shape="rect" id="node19" href="$d4/d83/GroupBase_8inl.html" title="GroupBase.inl" alt="" coords="599,341,703,367"/>
+<area shape="rect" id="node20" href="$d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="181,430,372,457"/>
 </map>

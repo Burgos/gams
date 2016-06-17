@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -108,7 +108,8 @@ $(document).ready(function(){initNavTree('d3/d47/namespacegams_1_1algorithms.htm
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">gams::algorithms Namespace Reference</div>  </div>
 </div><!--header-->
@@ -124,11 +125,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html">AlgorithmFactory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for algorithm factories that classes derived from.  <a href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html">AlgorithmFactoryRepository</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The controller's algorithm factory.  <a href="../../d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/classgams_1_1algorithms_1_1AlgorithmMetaData.html">AlgorithmMetaData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A helper class for algorithm information.  <a href="../../d5/d79/classgams_1_1algorithms_1_1AlgorithmMetaData.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">BaseAlgorithm</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base class that algorithms in GAMS use.  <a href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html">ControllerAlgorithmFactory</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The controller's algorithm factory.  <a href="../../d1/d0b/classgams_1_1algorithms_1_1ControllerAlgorithmFactory.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d58/classgams_1_1algorithms_1_1DebugAlgorithm.html">DebugAlgorithm</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A debug algorithm that prints detailed status information.  <a href="../../d6/d58/classgams_1_1algorithms_1_1DebugAlgorithm.html#details">More...</a><br /></td></tr>
@@ -136,11 +140,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html">DebugAlgorithmFactory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory class for creating Debug Algorithms.  <a href="../../dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d23/classgams_1_1algorithms_1_1Executive.html">Executive</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An algorithm capable of executing other algorithms.  <a href="../../dc/d23/classgams_1_1algorithms_1_1Executive.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d03/classgams_1_1algorithms_1_1Executor.html">Executor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An algorithm capable of executing other algorithms.  <a href="../../d9/d03/classgams_1_1algorithms_1_1Executor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory.html">ExecutiveFactory</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory class for creating <a class="el" href="../../dc/d23/classgams_1_1algorithms_1_1Executive.html" title="An algorithm capable of executing other algorithms. ">Executive</a> algorithms.  <a href="../../d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfc/classgams_1_1algorithms_1_1ExecutorFactory.html">ExecutorFactory</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory class for creating <a class="el" href="../../d9/d03/classgams_1_1algorithms_1_1Executor.html" title="An algorithm capable of executing other algorithms. ">Executor</a> algorithms.  <a href="../../d3/dfc/classgams_1_1algorithms_1_1ExecutorFactory.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7a/classgams_1_1algorithms_1_1Follow.html">Follow</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An algorithm for following a target.  <a href="../../d9/d7a/classgams_1_1algorithms_1_1Follow.html#details">More...</a><br /></td></tr>
@@ -178,6 +182,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html">JavaAlgorithmFactory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory class for creating Java Algorithms.  <a href="../../dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html">KarlEvaluator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An algorithm capable of executing other algorithms.  <a href="../../dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d3d/classgams_1_1algorithms_1_1KarlEvaluatorFactory.html">KarlEvaluatorFactory</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory class for creating <a class="el" href="../../dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html" title="An algorithm capable of executing other algorithms. ">KarlEvaluator</a> algorithms.  <a href="../../d5/d3d/classgams_1_1algorithms_1_1KarlEvaluatorFactory.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d06/classgams_1_1algorithms_1_1Land.html">Land</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An algorithm for landing.  <a href="../../d3/d06/classgams_1_1algorithms_1_1Land.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,6 +218,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html">PerformanceProfilingFactory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory class for creating <a class="el" href="../../dc/d12/classgams_1_1algorithms_1_1PerformanceProfiling.html" title="An algorithm for testing computational speed. ">PerformanceProfiling</a> Algorithms.  <a href="../../dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html">PerimeterPatrol</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An algorithm for patrolling a region.  <a href="../../d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html">PerimeterPatrolFactory</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory class for creating <a class="el" href="../../d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html" title="An algorithm for patrolling a region. ">PerimeterPatrol</a> algorithms.  <a href="../../da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/classgams_1_1algorithms_1_1Takeoff.html">Takeoff</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An algorithm for taking off.  <a href="../../dd/dce/classgams_1_1algorithms_1_1Takeoff.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,12 +245,16 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a6ec1a818d54a28968e942156859e1e80"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, <a class="el" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html">AlgorithmFactory</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a6ec1a818d54a28968e942156859e1e80">AlgorithmFactoryMap</a></td></tr>
+<tr class="memdesc:a6ec1a818d54a28968e942156859e1e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience typedef for a map of aliases to factories.  <a href="#a6ec1a818d54a28968e942156859e1e80">More...</a><br /></td></tr>
+<tr class="separator:a6ec1a818d54a28968e942156859e1e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dab9ea675623fbf3e4ce5583811fee0"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d5/d79/classgams_1_1algorithms_1_1AlgorithmMetaData.html">AlgorithmMetaData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a2dab9ea675623fbf3e4ce5583811fee0">AlgorithmMetaDatas</a></td></tr>
+<tr class="memdesc:a2dab9ea675623fbf3e4ce5583811fee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper typdef for collection of AlgorithMetaData  <a href="#a2dab9ea675623fbf3e4ce5583811fee0">More...</a><br /></td></tr>
+<tr class="separator:a2dab9ea675623fbf3e4ce5583811fee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec4c8ea87f3a71f860a36ecd37a94790"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">BaseAlgorithm</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#aec4c8ea87f3a71f860a36ecd37a94790">Algorithms</a></td></tr>
 <tr class="separator:aec4c8ea87f3a71f860a36ecd37a94790"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfb2965eb4fc377f62aa53cd61a981c9"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html">BaseAlgorithm</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#acfb2965eb4fc377f62aa53cd61a981c9">Base</a></td></tr>
 <tr class="separator:acfb2965eb4fc377f62aa53cd61a981c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53bb9c0213bb57860808d81c63556c4b"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; std::string, <a class="el" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html">AlgorithmFactory</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a53bb9c0213bb57860808d81c63556c4b">FactoryMap</a></td></tr>
-<tr class="separator:a53bb9c0213bb57860808d81c63556c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -250,8 +270,46 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a9ac2007b311a9ccab056c1d752e14780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible algorithm statuses, as returnable by analyze ()  <a href="../../d3/d47/namespacegams_1_1algorithms.html#a9ac2007b311a9ccab056c1d752e14780">More...</a><br /></td></tr>
 <tr class="separator:a9ac2007b311a9ccab056c1d752e14780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a425251cf782429559ae2ecb0fec32c39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a> madara::utility::Refcounter&lt; <a class="el" href="../../d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html">AlgorithmFactoryRepository</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a425251cf782429559ae2ecb0fec32c39">global_algorithm_factory</a></td></tr>
+<tr class="memdesc:a425251cf782429559ae2ecb0fec32c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">A globally accessible algorithm factory.  <a href="#a425251cf782429559ae2ecb0fec32c39">More...</a><br /></td></tr>
+<tr class="separator:a425251cf782429559ae2ecb0fec32c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a6ec1a818d54a28968e942156859e1e80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;std::string, <a class="el" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html">AlgorithmFactory</a> *&gt; <a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a6ec1a818d54a28968e942156859e1e80">gams::algorithms::AlgorithmFactoryMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convenience typedef for a map of aliases to factories. </p>
+
+<p>Definition at line <a class="el" href="../../d0/df2/AlgorithmFactoryRepository_8h_source.html#l00074">74</a> of file <a class="el" href="../../d0/df2/AlgorithmFactoryRepository_8h_source.html">AlgorithmFactoryRepository.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2dab9ea675623fbf3e4ce5583811fee0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../d5/d79/classgams_1_1algorithms_1_1AlgorithmMetaData.html">AlgorithmMetaData</a>&gt; <a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a2dab9ea675623fbf3e4ce5583811fee0">gams::algorithms::AlgorithmMetaDatas</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper typdef for collection of AlgorithMetaData </p>
+
+<p>Definition at line <a class="el" href="../../dd/d8c/Executor_8h_source.html#l00090">90</a> of file <a class="el" href="../../dd/d8c/Executor_8h_source.html">Executor.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aec4c8ea87f3a71f860a36ecd37a94790"></a>
 <div class="memitem">
 <div class="memproto">
@@ -277,20 +335,6 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d2/d6f/BaseAlgorithm_8h_source.html#l00223">223</a> of file <a class="el" href="../../d2/d6f/BaseAlgorithm_8h_source.html">BaseAlgorithm.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a53bb9c0213bb57860808d81c63556c4b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::map&lt;std::string, <a class="el" href="../../d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html">AlgorithmFactory</a> *&gt; <a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html#a53bb9c0213bb57860808d81c63556c4b">gams::algorithms::FactoryMap</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/dcb/ControllerAlgorithmFactory_8h_source.html#l00070">70</a> of file <a class="el" href="../../de/dcb/ControllerAlgorithmFactory_8h_source.html">ControllerAlgorithmFactory.h</a>.</p>
 
 </div>
 </div>
@@ -325,13 +369,44 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a425251cf782429559ae2ecb0fec32c39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">madara::utility::Refcounter&lt; <a class="el" href="../../d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html">algorithms::AlgorithmFactoryRepository</a> &gt; gams::algorithms::global_algorithm_factory</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A globally accessible algorithm factory. </p>
+<p>Copyright (c) 2014-2016 Carnegie Mellon University.</p>
+<p>The algorithm factory should have all new algorithms added to it before new threads that might access the factory are started. This is not currently thread safe.</p>
+<p>All Rights Reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+<ol type="1">
+<li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following acknowledgments and disclaimers.</li>
+<li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
+<li>The names "Carnegie Mellon University," "SEI" and/or "Software
+   Engineering Institute" shall not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact <a href="#" onclick="location.href='mai'+'lto:'+'per'+'mi'+'ssi'+'on'+'@se'+'i.'+'cmu'+'.e'+'du'; return false;">permi<span style="display: none;">.nosp@m.</span>ssio<span style="display: none;">.nosp@m.</span>n@sei<span style="display: none;">.nosp@m.</span>.cmu<span style="display: none;">.nosp@m.</span>.edu</a>.</li>
+<li>Products derived from this software may not be called "SEI" nor may "SEI" appear in their names without prior written permission of <a href="#" onclick="location.href='mai'+'lto:'+'per'+'mi'+'ssi'+'on'+'@se'+'i.'+'cmu'+'.e'+'du'; return false;">permi<span style="display: none;">.nosp@m.</span>ssio<span style="display: none;">.nosp@m.</span>n@sei<span style="display: none;">.nosp@m.</span>.cmu<span style="display: none;">.nosp@m.</span>.edu</a>.</li>
+<li><p class="startli">Redistributions of any form whatsoever must retain the following acknowledgment:</p>
+<p class="startli">This material is based upon work funded and supported by the Department of Defense under Contract No. FA8721-05-C-0003 with Carnegie Mellon University for the operation of the Software Engineering Institute, a federally funded research and development center. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the United States Department of Defense.</p>
+<p class="startli">NO WARRANTY. THIS CARNEGIE MELLON UNIVERSITY AND SOFTWARE ENGINEERING INSTITUTE MATERIAL IS FURNISHED ON AN "AS-IS" BASIS. CARNEGIE MELLON UNIVERSITY MAKES NO WARRANTIES OF ANY KIND, EITHER EXPRESSED OR IMPLIED, AS TO ANY MATTER INCLUDING, BUT NOT LIMITED TO, WARRANTY OF FITNESS FOR PURPOSE OR MERCHANTABILITY, EXCLUSIVITY, OR RESULTS OBTAINED FROM USE OF THE MATERIAL. CARNEGIE MELLON UNIVERSITY DOES NOT MAKE ANY WARRANTY OF ANY KIND WITH RESPECT TO FREEDOM FROM PATENT, TRADEMARK, OR COPYRIGHT INFRINGEMENT.</p>
+<p class="startli">This material has been approved for public release and unlimited distribution.globally accessible algorithm factory </p>
+</li>
+</ol>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html">algorithms</a></li>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:47 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:42 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

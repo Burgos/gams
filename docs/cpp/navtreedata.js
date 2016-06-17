@@ -42,19 +42,22 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d48/PriorityWeightedRandomAreaCoverage_8cpp.html",
-"d3/d83/classgams_1_1algorithms_1_1ExecutiveFactory.html#a3202884ced130e1739915bfc90feef88",
-"d4/d7b/classgams_1_1platforms_1_1NullPlatform.html#a191d13f946e6c5edbe26534e760591e6",
-"d6/d46/BaseAlgorithm_8cpp.html",
-"d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a1035c75cfab7b8ea1c5ee82d53dd9d87",
-"d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html#aecdad651ac5aba24dbfc47c669a415be",
-"d9/d7a/classgams_1_1algorithms_1_1Follow.html#af67e6e70ad2cbd1f50df9987acfd7928",
-"da/d5e/classgams_1_1utility_1_1GPSPosition.html#a62674dae220700b13e129b7254512672",
-"da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#ab14d889cef28086f15748128a0ba665e",
-"db/dfe/AlgorithmStatus_8h.html#afea4afb5b61c49dbf99b2f932e3cb6e1",
-"dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#acb841e8c409d920fab7300cee62b1457",
-"de/d60/classgams_1_1utility_1_1CartesianFrame.html",
-"df/d43/Euler_8h.html#a4d5b3cdf478d8aec69315f5be4667833"
+"d1/d10/classgams_1_1auctions_1_1AuctionBase.html",
+"d2/dfe/PerformanceProfiling_8h.html",
+"d4/d23/classgams_1_1groups_1_1GroupFixedList.html#a1c51578f9aaf0f3c8cf9c03fb1ad2c15",
+"d4/de8/BasePlatform_8h.html#a3cd2025c12ef166003e8f3e143365ad5a502dc7dc9be913d8e28b53d4999297f9",
+"d6/d58/classgams_1_1algorithms_1_1DebugAlgorithm.html#aa0a6c2f59c544341cf778154f622b41a",
+"d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html#aabcf4087f663326bbab8b5b7609b5795",
+"d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html#ac0f10107aef9a8f79f999fadbe47a85a",
+"d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html#ac72820a06da125f2b2785408aed3d4a6",
+"da/d07/classgams_1_1utility_1_1GPSFrame.html#a417196c589a53d62bd0f6fc268f7f963",
+"da/da5/classgams_1_1utility_1_1Rotation.html#a68ea723150ad96e3116b5ac80e7b6e75",
+"db/d2d/classgams_1_1utility_1_1Quaternion.html#abbce6b4ff077a39c51c3abb235a756ae",
+"dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html#a2d93967e95bb20f6ecdb9b6c2400b17a",
+"dd/d85/classgams_1_1utility_1_1Pose.html#a12549d5e07a1f4b87267147c78755fbd",
+"de/d60/classgams_1_1utility_1_1CartesianFrame.html#a867ffe74c08c25edc2bf5c9abfec08a8",
+"df/d43/Euler_8h.html#a55f01a0a5a1ad604669d4ce2f2129315",
+"functions_vars_v.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

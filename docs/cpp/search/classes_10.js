@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['searcharea',['SearchArea',['../da/d42/classgams_1_1utility_1_1SearchArea.html',1,'gams::utility']]],
-  ['searcharea',['SearchArea',['../d0/d23/classgams_1_1variables_1_1SearchArea.html',1,'gams::variables']]],
-  ['self',['Self',['../d4/d98/classgams_1_1variables_1_1Self.html',1,'gams::variables']]],
-  ['sensor',['Sensor',['../db/d7d/classgams_1_1variables_1_1Sensor.html',1,'gams::variables']]],
-  ['simplerotateframe',['SimpleRotateFrame',['../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html',1,'gams::utility']]],
-  ['snakeareacoverage',['SnakeAreaCoverage',['../d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html',1,'gams::algorithms::area_coverage']]],
-  ['snakeareacoveragefactory',['SnakeAreaCoverageFactory',['../df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html',1,'gams::algorithms::area_coverage']]],
-  ['swarm',['Swarm',['../d4/dde/classgams_1_1variables_1_1Swarm.html',1,'gams::variables']]]
+  ['radians_5ft',['radians_t',['../da/d49/structgams_1_1utility_1_1euler_1_1detail_1_1radians__t.html',1,'gams::utility::euler::detail']]],
+  ['radians_5ft',['radians_t',['../d7/d40/structgams_1_1utility_1_1detail_1_1radians__t.html',1,'gams::utility::detail']]],
+  ['radixless',['RadixLess',['../da/d05/classgams_1_1utility_1_1RadixLess.html',1,'gams::utility']]],
+  ['referenceframe',['ReferenceFrame',['../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html',1,'gams::utility']]],
+  ['region',['Region',['../d1/d5e/classgams_1_1variables_1_1Region.html',1,'gams::variables']]],
+  ['region',['Region',['../da/db7/classgams_1_1utility_1_1Region.html',1,'gams::utility']]],
+  ['revolutions_5ft',['revolutions_t',['../df/db3/structgams_1_1utility_1_1detail_1_1revolutions__t.html',1,'gams::utility::detail']]],
+  ['revolutions_5ft',['revolutions_t',['../dd/d93/structgams_1_1utility_1_1euler_1_1detail_1_1revolutions__t.html',1,'gams::utility::euler::detail']]],
+  ['rotation',['Rotation',['../da/da5/classgams_1_1utility_1_1Rotation.html',1,'gams::utility']]],
+  ['rotationvector',['RotationVector',['../d4/d0d/classgams_1_1utility_1_1RotationVector.html',1,'gams::utility']]]
 ];

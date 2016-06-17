@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">0.9.26</span>
+   &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
  </tr>
@@ -483,7 +483,7 @@ Private Member Functions</h2></td></tr>
 
 <p>populate bounding box values </p>
 
-<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00370">370</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00377">377</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
 
 </div>
 </div>
@@ -530,7 +530,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#a1095c971c0d0eedd180732d919fe97d7">gams::utility::Containerize</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00398">398</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00394">394</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
 
 </div>
 </div>
@@ -557,7 +557,7 @@ Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if point is in the search area, false otherwise </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00351">351</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00358">358</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
 
 </div>
 </div>
@@ -594,7 +594,7 @@ Private Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -610,7 +610,7 @@ Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>cross product of the points </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00387">387</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db0/SearchArea_8inl_source.html#l00060">60</a> of file <a class="el" href="../../d2/db0/SearchArea_8inl_source.html">SearchArea.inl</a>.</p>
 
 </div>
 </div>
@@ -738,7 +738,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#a166107d11e094e1a478d6cc63c88b3d1">gams::utility::Containerize</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00456">456</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00452">452</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
 
 </div>
 </div>
@@ -757,7 +757,9 @@ Private Member Functions</h2></td></tr>
 
 <p>Find the convex hull. </p>
 <dl class="section return"><dt>Returns</dt><dd>Convex hull of the regions </dd></dl>
-<p>Use Graham Scan algorithm Time complexity is O(n * log n) pseudocode at <a href="https://en.wikipedia.org/wiki/Graham_scan">https://en.wikipedia.org/wiki/Graham_scan</a></p>
+<p>completely rewritten by James Edmondson on 4/3/2016. old version harder to maintain, more computationally expensive and unlikely to produce convex hulls consistently due to modifications made using arbitrary insertion of [0,0,0] origins with cross products.</p>
+<p>The new convex hull uses Andrew's Monotone Chain Algorithm rather than Graham scan and also inlines the cross</p>
+<p>memory allocation is expensive, so only do that once when creating the list of all points</p>
 
 <p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
 
@@ -814,7 +816,7 @@ Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>priority of position </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00337">337</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00344">344</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
 
 </div>
 </div>
@@ -834,7 +836,7 @@ Private Member Functions</h2></td></tr>
 <p>Get region data. </p>
 <dl class="section return"><dt>Returns</dt><dd>const reference to regions </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00331">331</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00338">338</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
 
 </div>
 </div>
@@ -1228,7 +1230,7 @@ Private Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html#a8f6d85560388f5638637a62fd015ed34">gams::utility::Containerize</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00408">408</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00404">404</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
 
 </div>
 </div>
@@ -1248,7 +1250,7 @@ Private Member Functions</h2></td></tr>
 <p>Create string representation of <a class="el" href="../../da/d42/classgams_1_1utility_1_1SearchArea.html" title="A utility class for search areas. ">SearchArea</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>string representation of this object </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00360">360</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html#l00367">367</a> of file <a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a>.</p>
 
 </div>
 </div>
@@ -1438,6 +1440,7 @@ Private Member Functions</h2></td></tr>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/gams/utility/<a class="el" href="../../d6/d1b/utility_2SearchArea_8h_source.html">SearchArea.h</a></li>
 <li>src/gams/utility/<a class="el" href="../../d3/dbf/utility_2SearchArea_8cpp_source.html">SearchArea.cpp</a></li>
+<li>src/gams/utility/<a class="el" href="../../d2/db0/SearchArea_8inl_source.html">SearchArea.inl</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1445,7 +1448,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../da/d42/classgams_1_1utility_1_1SearchArea.html">SearchArea</a></li>
-    <li class="footer">Generated on Thu Mar 3 2016 17:36:50 for GAMS by
+    <li class="footer">Generated on Fri Jun 17 2016 14:02:44 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,5 +1,4 @@
 <map id="src/gams/algorithms/area_coverage/PrioritizedMinTimeAreaCoverage.h" name="src/gams/algorithms/area_coverage/PrioritizedMinTimeAreaCoverage.h">
-<area shape="rect" id="node2" href="$d8/da7/AlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactory.cpp" alt="" coords="5,117,156,158"/>
-<area shape="rect" id="node3" href="$da/d52/PrioritizedMinTimeAreaCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="181,109,357,165"/>
-<area shape="rect" id="node4" href="$d1/db1/ControllerAlgorithmFactory_8cpp.html" title="src/gams/algorithms\l/ControllerAlgorithmFactory.cpp" alt="" coords="381,117,586,158"/>
+<area shape="rect" id="node2" href="$d2/da1/AlgorithmFactoryRepository_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactoryRepository.cpp" alt="" coords="5,117,217,158"/>
+<area shape="rect" id="node3" href="$da/d52/PrioritizedMinTimeAreaCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="242,109,418,165"/>
 </map>

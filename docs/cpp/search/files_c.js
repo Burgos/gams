@@ -1,5 +1,27 @@
 var searchData=
 [
-  ['quaternion_2eh',['Quaternion.h',['../d1/d4a/Quaternion_8h.html',1,'']]],
-  ['quaternion_2einl',['Quaternion.inl',['../da/db5/Quaternion_8inl.html',1,'']]]
+  ['performanceprofiling_2ecpp',['PerformanceProfiling.cpp',['../d3/dc3/PerformanceProfiling_8cpp.html',1,'']]],
+  ['performanceprofiling_2eh',['PerformanceProfiling.h',['../d2/dfe/PerformanceProfiling_8h.html',1,'']]],
+  ['perimeterpatrol_2ecpp',['PerimeterPatrol.cpp',['../d8/d59/PerimeterPatrol_8cpp.html',1,'']]],
+  ['perimeterpatrol_2eh',['PerimeterPatrol.h',['../d1/d28/PerimeterPatrol_8h.html',1,'']]],
+  ['perimeterpatrolcoverage_2ecpp',['PerimeterPatrolCoverage.cpp',['../d5/d68/PerimeterPatrolCoverage_8cpp.html',1,'']]],
+  ['perimeterpatrolcoverage_2eh',['PerimeterPatrolCoverage.h',['../d5/dc6/PerimeterPatrolCoverage_8h.html',1,'']]],
+  ['platformcollection_2ecpp',['PlatformCollection.cpp',['../dd/dc5/PlatformCollection_8cpp.html',1,'']]],
+  ['platformcollection_2eh',['PlatformCollection.h',['../d0/dcb/PlatformCollection_8h.html',1,'']]],
+  ['platformfactory_2ecpp',['PlatformFactory.cpp',['../d7/d59/PlatformFactory_8cpp.html',1,'']]],
+  ['platformfactory_2eh',['PlatformFactory.h',['../d1/d58/PlatformFactory_8h.html',1,'']]],
+  ['platformfactoryrepository_2ecpp',['PlatformFactoryRepository.cpp',['../df/dac/PlatformFactoryRepository_8cpp.html',1,'']]],
+  ['platformfactoryrepository_2eh',['PlatformFactoryRepository.h',['../d5/d11/PlatformFactoryRepository_8h.html',1,'']]],
+  ['platformstatus_2ecpp',['PlatformStatus.cpp',['../dd/d1a/PlatformStatus_8cpp.html',1,'']]],
+  ['platformstatus_2eh',['PlatformStatus.h',['../da/d37/PlatformStatus_8h.html',1,'']]],
+  ['pose_2eh',['Pose.h',['../d7/db5/Pose_8h.html',1,'']]],
+  ['pose_2einl',['Pose.inl',['../d0/d33/Pose_8inl.html',1,'']]],
+  ['position_2ecpp',['Position.cpp',['../d4/df6/Position_8cpp.html',1,'']]],
+  ['position_2eh',['Position.h',['../de/dff/Position_8h.html',1,'']]],
+  ['prioritizedmintimeareacoverage_2ecpp',['PrioritizedMinTimeAreaCoverage.cpp',['../da/d52/PrioritizedMinTimeAreaCoverage_8cpp.html',1,'']]],
+  ['prioritizedmintimeareacoverage_2eh',['PrioritizedMinTimeAreaCoverage.h',['../d7/d40/PrioritizedMinTimeAreaCoverage_8h.html',1,'']]],
+  ['prioritizedregion_2ecpp',['PrioritizedRegion.cpp',['../d4/df0/PrioritizedRegion_8cpp.html',1,'']]],
+  ['prioritizedregion_2eh',['PrioritizedRegion.h',['../d9/d98/PrioritizedRegion_8h.html',1,'']]],
+  ['priorityweightedrandomareacoverage_2ecpp',['PriorityWeightedRandomAreaCoverage.cpp',['../d1/d48/PriorityWeightedRandomAreaCoverage_8cpp.html',1,'']]],
+  ['priorityweightedrandomareacoverage_2eh',['PriorityWeightedRandomAreaCoverage.h',['../dc/d02/PriorityWeightedRandomAreaCoverage_8h.html',1,'']]]
 ];

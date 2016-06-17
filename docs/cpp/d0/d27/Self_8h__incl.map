@@ -1,5 +1,9 @@
 <map id="src/gams/variables/Self.h" name="src/gams/variables/Self.h">
-<area shape="rect" id="node2" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="5,266,152,293"/>
-<area shape="rect" id="node6" href="$da/da5/Agent_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="649,95,716,121"/>
-<area shape="rect" id="node14" href="$d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="673,177,785,203"/>
+<area shape="rect" id="node2" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="1854,437,2001,464"/>
+<area shape="rect" id="node6" href="$da/da5/Agent_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1042,95,1109,121"/>
+<area shape="rect" id="node14" href="$d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="741,177,853,203"/>
+<area shape="rect" id="node15" href="$d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="1514,177,1691,203"/>
+<area shape="rect" id="node17" href="$d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="1679,266,1816,293"/>
+<area shape="rect" id="node18" href="$d4/d83/GroupBase_8inl.html" title="GroupBase.inl" alt="" coords="1550,266,1654,293"/>
+<area shape="rect" id="node19" href="$d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="1524,355,1715,382"/>
 </map>
