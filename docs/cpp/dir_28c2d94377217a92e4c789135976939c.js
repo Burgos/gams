@@ -9,7 +9,6 @@ var dir_28c2d94377217a92e4c789135976939c =
     [ "VREPBoat.h", "d1/dc9/VREPBoat_8h.html", null ],
     [ "VREPQuad.cpp", "d8/dce/VREPQuad_8cpp.html", null ],
     [ "VREPQuad.h", "d8/d42/VREPQuad_8h.html", null ],
-    [ "VREPQuad.inl", "de/d27/VREPQuad_8inl.html", null ],
     [ "VREPQuadLaser.cpp", "d2/da0/VREPQuadLaser_8cpp.html", null ],
     [ "VREPQuadLaser.h", "d6/d00/VREPQuadLaser_8h.html", null ],
     [ "VREPSummit.cpp", "dc/d84/VREPSummit_8cpp.html", null ],

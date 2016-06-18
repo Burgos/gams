@@ -1,6 +1,8 @@
 var searchData=
 [
   ['electionbase',['ElectionBase',['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#aeaa0ea3a0cd6c90eec709a79ca9785fa',1,'gams::elections::ElectionBase']]],
+  ['electioncumulative',['ElectionCumulative',['../dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#afc3e3b5504d74b6df0d7a193630f8e80',1,'gams::elections::ElectionCumulative']]],
+  ['electioncumulativefactory',['ElectionCumulativeFactory',['../d0/ddd/classgams_1_1elections_1_1ElectionCumulativeFactory.html#ac0da8d61f48c702602096397576f9498',1,'gams::elections::ElectionCumulativeFactory']]],
   ['electionfactory',['ElectionFactory',['../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#ae3c1ac8b6afbb0719898ca576619763a',1,'gams::elections::ElectionFactory']]],
   ['electionfactoryrepository',['ElectionFactoryRepository',['../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a23e87b380db34dff071da00ca7d34984',1,'gams::elections::ElectionFactoryRepository']]],
   ['electionplurality',['ElectionPlurality',['../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a6ab30ca248dc987228d4d071cb9c3bec',1,'gams::elections::ElectionPlurality']]],

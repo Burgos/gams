@@ -25,6 +25,8 @@ var searchData=
   ['_7edebugplatform',['~DebugPlatform',['../d7/df2/classgams_1_1platforms_1_1DebugPlatform.html#a4de2e2130b0261261df028bad748695f',1,'gams::platforms::DebugPlatform']]],
   ['_7edrone_5frk',['~Drone_RK',['../df/d3b/classgams_1_1platforms_1_1Drone__RK.html#a0b9da56249b4e8b2d8c78159665bb4c4',1,'gams::platforms::Drone_RK']]],
   ['_7eelectionbase',['~ElectionBase',['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a46d3ea0c10d38f7821cc5ab52551477c',1,'gams::elections::ElectionBase']]],
+  ['_7eelectioncumulative',['~ElectionCumulative',['../dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#ab2a4ce36a032c70cd5bb58b325b41d44',1,'gams::elections::ElectionCumulative']]],
+  ['_7eelectioncumulativefactory',['~ElectionCumulativeFactory',['../d0/ddd/classgams_1_1elections_1_1ElectionCumulativeFactory.html#a2456827ba09f02015d0732fad683dd16',1,'gams::elections::ElectionCumulativeFactory']]],
   ['_7eelectionfactory',['~ElectionFactory',['../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#aff2cb994b65d5e6d81bd70ae91c89500',1,'gams::elections::ElectionFactory']]],
   ['_7eelectionfactoryrepository',['~ElectionFactoryRepository',['../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#afcc4e0ca463d78ba4ad5cf94f477c831',1,'gams::elections::ElectionFactoryRepository']]],
   ['_7eelectionplurality',['~ElectionPlurality',['../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a85a3799db55a11eff772abffd9ce1771',1,'gams::elections::ElectionPlurality']]],

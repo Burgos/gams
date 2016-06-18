@@ -3,6 +3,8 @@ var searchData=
   ['electionbase_2ecpp',['ElectionBase.cpp',['../d4/d4a/ElectionBase_8cpp.html',1,'']]],
   ['electionbase_2eh',['ElectionBase.h',['../de/d20/ElectionBase_8h.html',1,'']]],
   ['electionbase_2einl',['ElectionBase.inl',['../d9/dbe/ElectionBase_8inl.html',1,'']]],
+  ['electioncumulative_2ecpp',['ElectionCumulative.cpp',['../da/df3/ElectionCumulative_8cpp.html',1,'']]],
+  ['electioncumulative_2eh',['ElectionCumulative.h',['../d3/d6e/ElectionCumulative_8h.html',1,'']]],
   ['electionfactory_2ecpp',['ElectionFactory.cpp',['../d3/de2/ElectionFactory_8cpp.html',1,'']]],
   ['electionfactory_2eh',['ElectionFactory.h',['../d8/d84/ElectionFactory_8h.html',1,'']]],
   ['electionfactoryrepository_2ecpp',['ElectionFactoryRepository.cpp',['../d4/de4/ElectionFactoryRepository_8cpp.html',1,'']]],

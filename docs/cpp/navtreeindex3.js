@@ -1,5 +1,15 @@
 var NAVTREEINDEX3 =
 {
+"d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a3151e2176c05f76d6596f2f3a89bde61":[1,0,0,0,19,1],
+"d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a32423d95994ba7b95f170e4c8ebd8642":[1,0,0,0,19,0],
+"d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a3b86d9fda118e9399d38a34f0ffd783b":[1,0,0,0,19,16],
+"d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a41b2de2b8e7da689e95b35ab465c04e4":[1,0,0,0,19,6],
+"d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a5e93d9cf33bcc0a53835e3aa15d98cc0":[1,0,0,0,19,7],
+"d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a642acdd1721b50092b34bb1760620ea4":[1,0,0,0,19,5],
+"d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a6b4d6a9dd192a2167249b1f0a90847a3":[1,0,0,0,19,26],
+"d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a8b4ef5e73d4d4629172b5dca1d100ebd":[1,0,0,0,19,25],
+"d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a92ca5d20a968164b297078aacf907c8f":[1,0,0,0,19,20],
+"d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a9a066802505cd114b55db13d23964a80":[1,0,0,0,19,2],
 "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#a9c96c0e7c599f03d4e66f402d6192c4b":[1,0,0,0,19,13],
 "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#aa0a6c2f59c544341cf778154f622b41a":[1,0,0,0,19,11],
 "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html#aabcf4087f663326bbab8b5b7609b5795":[1,0,0,0,19,21],
@@ -102,7 +112,7 @@ var NAVTREEINDEX3 =
 "d4/d48/classgams_1_1utility_1_1ArgumentParser_1_1my__iterator.html#af2a2a13d376276688049541295f48e84":[1,0,0,7,4,0,3],
 "d4/d48/classgams_1_1utility_1_1ArgumentParser_1_1my__iterator.html#af6119e42df8ffb7275ea73c5170e0eb7":[1,0,0,7,4,0,4],
 "d4/d4a/ElectionBase_8cpp.html":[2,0,0,0,3,0],
-"d4/d4a/ElectionBase_8cpp.html#a4de49817ed4ade7cbb3b08a5c7b9dcd6":[2,0,0,0,3,0,0],
+"d4/d4a/ElectionBase_8cpp.html#ab81cfab508380f12dfb849a4915dde6d":[2,0,0,0,3,0,0],
 "d4/d4a/ElectionBase_8cpp_source.html":[2,0,0,0,3,0],
 "d4/d57/Drone__RK_8h.html":[2,0,0,0,8,0,1],
 "d4/d57/Drone__RK_8h_source.html":[2,0,0,0,8,0,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX3 =
 "d4/db9/AccentStatus_8h.html":[2,0,0,0,12,1],
 "d4/db9/AccentStatus_8h.html#a87083f1a052b87f9b75de8bac6c6a864":[2,0,0,0,12,1,2],
 "d4/db9/AccentStatus_8h.html#ad6701ba0a2ec412bfdcb2882fc053034":[2,0,0,0,12,1,3],
-"d4/db9/AccentStatus_8h.html#af6fac9453d7fec171bcf00fd33bf465e":[2,0,0,0,12,1,1],
-"d4/db9/AccentStatus_8h_source.html":[2,0,0,0,12,1],
-"d4/dbd/AgentFormation_8h.html":[2,0,0,0,4,1],
-"d4/dbd/AgentFormation_8h_source.html":[2,0,0,0,4,1],
-"d4/dde/classgams_1_1variables_1_1Swarm.html":[1,0,0,8,9],
-"d4/dde/classgams_1_1variables_1_1Swarm.html#a173a46f249aecc9773e5da32ad2326b0":[1,0,0,8,9,0],
-"d4/dde/classgams_1_1variables_1_1Swarm.html#a4690fdd7f348f99a9dbcb3c0bccfd943":[1,0,0,8,9,8],
-"d4/dde/classgams_1_1variables_1_1Swarm.html#a506b0172d6ab23f7307ae8a23b0bde39":[1,0,0,8,9,2],
-"d4/dde/classgams_1_1variables_1_1Swarm.html#a9996987148f8d6dfbe71018ede4e81e5":[1,0,0,8,9,9],
-"d4/dde/classgams_1_1variables_1_1Swarm.html#aa508f974e74860b12d8b3123a6462f7c":[1,0,0,8,9,4],
-"d4/dde/classgams_1_1variables_1_1Swarm.html#ab6490c0baad0d98b7120b4254455e931":[1,0,0,8,9,10]
+"d4/db9/AccentStatus_8h.html#af6fac9453d7fec171bcf00fd33bf465e":[2,0,0,0,12,1,1]
 };

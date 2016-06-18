@@ -1,8 +1,10 @@
 <map id="src/gams/elections/ElectionFactory.h" name="src/gams/elections/ElectionFactory.h">
-<area shape="rect" id="node2" href="$d3/de2/ElectionFactory_8cpp.html" title="src/gams/elections\l/ElectionFactory.cpp" alt="" coords="5,95,148,136"/>
-<area shape="rect" id="node3" href="$d7/d0d/ElectionFactoryRepository_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="172,95,363,136"/>
-<area shape="rect" id="node6" href="$d7/d18/ElectionPlurality_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="405,95,537,136"/>
-<area shape="rect" id="node4" href="$d4/de4/ElectionFactoryRepository_8cpp.html" title="src/gams/elections\l/ElectionFactoryRepository.cpp" alt="" coords="379,184,583,225"/>
-<area shape="rect" id="node5" href="$dc/d10/ElectionFactoryRepository_8inl.html" title="src/gams/elections\l/ElectionFactoryRepository.inl" alt="" coords="159,184,355,225"/>
-<area shape="rect" id="node7" href="$d4/de5/ElectionPlurality_8cpp.html" title="src/gams/elections\l/ElectionPlurality.cpp" alt="" coords="607,184,752,225"/>
+<area shape="rect" id="node2" href="$d3/d6e/ElectionCumulative_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="13,95,159,136"/>
+<area shape="rect" id="node4" href="$d3/de2/ElectionFactory_8cpp.html" title="src/gams/elections\l/ElectionFactory.cpp" alt="" coords="184,95,327,136"/>
+<area shape="rect" id="node5" href="$d7/d0d/ElectionFactoryRepository_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="351,95,541,136"/>
+<area shape="rect" id="node8" href="$d7/d18/ElectionPlurality_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="584,95,716,136"/>
+<area shape="rect" id="node3" href="$da/df3/ElectionCumulative_8cpp.html" title="src/gams/elections\l/ElectionCumulative.cpp" alt="" coords="5,184,167,225"/>
+<area shape="rect" id="node6" href="$d4/de4/ElectionFactoryRepository_8cpp.html" title="src/gams/elections\l/ElectionFactoryRepository.cpp" alt="" coords="557,184,761,225"/>
+<area shape="rect" id="node7" href="$dc/d10/ElectionFactoryRepository_8inl.html" title="src/gams/elections\l/ElectionFactoryRepository.inl" alt="" coords="337,184,533,225"/>
+<area shape="rect" id="node9" href="$d4/de5/ElectionPlurality_8cpp.html" title="src/gams/elections\l/ElectionPlurality.cpp" alt="" coords="785,184,931,225"/>
 </map>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX1 =
 {
+"d0/df3/classgams_1_1platforms_1_1BasePlatform.html#ad158c5c285aa864048b6710febc5989a":[1,0,0,6,0,41],
+"d0/df3/classgams_1_1platforms_1_1BasePlatform.html#ad41a2559269d155978581b04cf5c325c":[1,0,0,6,0,12],
+"d0/df3/classgams_1_1platforms_1_1BasePlatform.html#ad55aab82fd65991b40f00c0d2038bcf5":[1,0,0,6,0,14],
+"d0/df3/classgams_1_1platforms_1_1BasePlatform.html#ad6439a7c6d8acb3f1190bb9e380b9532":[1,0,0,6,0,33],
+"d0/df3/classgams_1_1platforms_1_1BasePlatform.html#ada95ab407f36064ca1e47067d1aed09c":[1,0,0,6,0,4],
+"d0/df3/classgams_1_1platforms_1_1BasePlatform.html#add122f09b94dd3b27e6c05ff61ef90e2":[1,0,0,6,0,9],
+"d0/df3/classgams_1_1platforms_1_1BasePlatform.html#ade98d81a26d2939bf6c0c521ca047b61":[1,0,0,6,0,19],
+"d0/df3/classgams_1_1platforms_1_1BasePlatform.html#ae0dd51544dd8045c7c86aedf04b0b70a":[1,0,0,6,0,20],
 "d0/df3/classgams_1_1platforms_1_1BasePlatform.html#ae714717db2018f79b8d981b3d8df4ed5":[1,0,0,6,0,6],
 "d0/df3/classgams_1_1platforms_1_1BasePlatform.html#aebb62518ae5ece01fdeaa401b1afba79":[1,0,0,6,0,30],
 "d0/df3/classgams_1_1platforms_1_1BasePlatform.html#af0cc0052e3d40b876173d129fd3e2ef9":[1,0,0,6,0,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX1 =
 "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#a3202884ced130e1739915bfc90feef88":[1,0,0,0,0,18,9],
 "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#a75c6d8a55de4d18581d769b2e2e0a937":[1,0,0,0,0,18,0],
 "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#aa7e66b66891cae6dd09cfa1b0af3f7bc":[1,0,0,0,0,18,10],
-"d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#aa856f0d654869b941ac22ea462e1bd05":[1,0,0,0,0,18,6],
-"d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#ab8a985790f4b8f0eab86d09d46b03874":[1,0,0,0,0,18,8],
-"d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#abce0341ed7fe1872fd664723583bb143":[1,0,0,0,0,18,4],
-"d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#abf6a4670986a01f50ecddeefff9ed32b":[1,0,0,0,0,18,7],
-"d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#acb841e8c409d920fab7300cee62b1457":[1,0,0,0,0,18,2],
-"d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#ad015e77872301133e73d6fd410634694":[1,0,0,0,0,18,5],
-"d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e":[1,0,0,0,0,18,3],
-"d2/d9c/structgams_1_1utility_1_1euler_1_1detail_1_1GetEulerTrig.html":[1,0,0,7,1,1,6],
-"d2/d9c/structgams_1_1utility_1_1euler_1_1detail_1_1GetEulerTrig.html#a777408bef74b46cef7cffc67f9fcad28":[1,0,0,7,1,1,6,0]
+"d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#aa856f0d654869b941ac22ea462e1bd05":[1,0,0,0,0,18,6]
 };

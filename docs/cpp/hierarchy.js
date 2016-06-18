@@ -112,9 +112,11 @@ var hierarchy =
     [ "gams::utility::euler::detail::degrees_t", "d9/de2/structgams_1_1utility_1_1euler_1_1detail_1_1degrees__t.html", null ],
     [ "gams::utility::detail::degrees_t", "d4/dfd/structgams_1_1utility_1_1detail_1_1degrees__t.html", null ],
     [ "gams::elections::ElectionBase", "d9/d61/classgams_1_1elections_1_1ElectionBase.html", [
+      [ "gams::elections::ElectionCumulative", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html", null ],
       [ "gams::elections::ElectionPlurality", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html", null ]
     ] ],
     [ "gams::elections::ElectionFactory", "d4/d19/classgams_1_1elections_1_1ElectionFactory.html", [
+      [ "gams::elections::ElectionCumulativeFactory", "d0/ddd/classgams_1_1elections_1_1ElectionCumulativeFactory.html", null ],
       [ "gams::elections::ElectionPluralityFactory", "d0/d76/classgams_1_1elections_1_1ElectionPluralityFactory.html", null ]
     ] ],
     [ "gams::elections::ElectionFactoryRepository", "d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html", null ],
@@ -172,8 +174,8 @@ var hierarchy =
       [ "gams::utility::GPSPosition", "da/d5e/classgams_1_1utility_1_1GPSPosition.html", null ]
     ] ],
     [ "gams::utility::Quaternion", "db/d2d/classgams_1_1utility_1_1Quaternion.html", null ],
-    [ "gams::utility::euler::detail::radians_t", "da/d49/structgams_1_1utility_1_1euler_1_1detail_1_1radians__t.html", null ],
     [ "gams::utility::detail::radians_t", "d7/d40/structgams_1_1utility_1_1detail_1_1radians__t.html", null ],
+    [ "gams::utility::euler::detail::radians_t", "da/d49/structgams_1_1utility_1_1euler_1_1detail_1_1radians__t.html", null ],
     [ "gams::utility::RadixLess", "da/d05/classgams_1_1utility_1_1RadixLess.html", null ],
     [ "gams::utility::ReferenceFrame", "d0/d25/classgams_1_1utility_1_1ReferenceFrame.html", [
       [ "gams::utility::SimpleRotateFrame", "dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html", [
@@ -182,8 +184,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "gams::variables::Region", "d1/d5e/classgams_1_1variables_1_1Region.html", null ],
-    [ "gams::utility::detail::revolutions_t", "df/db3/structgams_1_1utility_1_1detail_1_1revolutions__t.html", null ],
     [ "gams::utility::euler::detail::revolutions_t", "dd/d93/structgams_1_1utility_1_1euler_1_1detail_1_1revolutions__t.html", null ],
+    [ "gams::utility::detail::revolutions_t", "df/db3/structgams_1_1utility_1_1detail_1_1revolutions__t.html", null ],
     [ "gams::utility::RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html", [
       [ "gams::utility::PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html", null ],
       [ "gams::utility::Rotation", "da/da5/classgams_1_1utility_1_1Rotation.html", null ]
