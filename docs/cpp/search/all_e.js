@@ -21,8 +21,8 @@ var searchData=
   ['nullalgorithm_2ecpp',['NullAlgorithm.cpp',['../db/d9b/NullAlgorithm_8cpp.html',1,'']]],
   ['nullalgorithm_2eh',['NullAlgorithm.h',['../d1/df3/NullAlgorithm_8h.html',1,'']]],
   ['nullalgorithmfactory',['NullAlgorithmFactory',['../d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html',1,'gams::algorithms']]],
-  ['nullplatform',['NullPlatform',['../d4/d7b/classgams_1_1platforms_1_1NullPlatform.html',1,'gams::platforms']]],
   ['nullplatform',['NullPlatform',['../d4/d7b/classgams_1_1platforms_1_1NullPlatform.html#a367e9a09211ca1e9bcdce1a6400e2e99',1,'gams::platforms::NullPlatform']]],
+  ['nullplatform',['NullPlatform',['../d4/d7b/classgams_1_1platforms_1_1NullPlatform.html',1,'gams::platforms']]],
   ['nullplatform_2ecpp',['NullPlatform.cpp',['../d8/dda/NullPlatform_8cpp.html',1,'']]],
   ['nullplatform_2eh',['NullPlatform.h',['../d5/dbf/NullPlatform_8h.html',1,'']]],
   ['nullplatformfactory',['NullPlatformFactory',['../d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html',1,'gams::platforms']]],
@@ -30,5 +30,6 @@ var searchData=
   ['num_5fagents',['num_agents',['../dc/d61/gams__controller_8cpp.html#aee452f6ed6c9d22ef6d6f158593cebab',1,'gams_controller.cpp']]],
   ['num_5fagents_5f',['num_agents_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a6a68dadd21fdb24a23cc92f4b3e2f3c1',1,'gams::algorithms::FormationFlying']]],
   ['num_5fauction_5ftypes',['NUM_AUCTION_TYPES',['../d3/dfe/namespacegams_1_1auctions.html#a54867e7ed8b50b5ad00efb64e8136c58a91ce03a017875beafdcbf93ccd699cd3',1,'gams::auctions']]],
+  ['num_5felection_5ftypes',['NUM_ELECTION_TYPES',['../de/dd1/namespacegams_1_1elections.html#ab2d4c94ec064bcd2562a045bc273774eab853729fa58267f30d56b0f5a95a9c82',1,'gams::elections']]],
   ['num_5fgroup_5ftypes',['NUM_GROUP_TYPES',['../d4/da6/namespacegams_1_1groups.html#a1a6d883b2cc0aab22baf83837b3ab95dab948eb166fa55498340046ce17cb8493',1,'gams::groups']]]
 ];

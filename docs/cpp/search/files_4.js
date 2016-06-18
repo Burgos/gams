@@ -10,6 +10,7 @@ var searchData=
   ['electionfactoryrepository_2einl',['ElectionFactoryRepository.inl',['../dc/d10/ElectionFactoryRepository_8inl.html',1,'']]],
   ['electionplurality_2ecpp',['ElectionPlurality.cpp',['../d4/de5/ElectionPlurality_8cpp.html',1,'']]],
   ['electionplurality_2eh',['ElectionPlurality.h',['../d7/d18/ElectionPlurality_8h.html',1,'']]],
+  ['electiontypesenum_2eh',['ElectionTypesEnum.h',['../dd/da5/ElectionTypesEnum_8h.html',1,'']]],
   ['euler_2eh',['Euler.h',['../df/d43/Euler_8h.html',1,'']]],
   ['euler_2einl',['Euler.inl',['../d3/dd6/Euler_8inl.html',1,'']]],
   ['eulerformulas_2einl',['EulerFormulas.inl',['../dc/d42/EulerFormulas_8inl.html',1,'']]],

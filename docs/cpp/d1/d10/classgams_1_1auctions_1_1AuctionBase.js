@@ -5,7 +5,7 @@ var classgams_1_1auctions_1_1AuctionBase =
     [ "add_group", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html#abbc85a1c4b2d26deb62a126c2a04f8f7", null ],
     [ "advance_round", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a6a102427a37e5503bd26512226db4082", null ],
     [ "bid", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a571e87af6c95e69b8d71d6277a965594", null ],
-    [ "bid", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a18b1ed60600333e2ec2122aec3e599a5", null ],
+    [ "bid", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html#af7a0f4e9240706be3449c972a141ec1d", null ],
     [ "get_agent_prefix", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a30596b14eff956c6e54eb2cbe0ecf3e6", null ],
     [ "get_auction_prefix", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html#aa31b32c73305250be1634b07fe2f2bd8", null ],
     [ "get_bid", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html#ab566107d7e221e0dfe49b7bfce7bfc39", null ],

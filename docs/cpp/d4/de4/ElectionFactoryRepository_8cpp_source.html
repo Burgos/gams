@@ -112,39 +112,35 @@ $(document).ready(function(){initNavTree('d4/de4/ElectionFactoryRepository_8cpp_
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d0d/ElectionFactoryRepository_8h.html">gams/elections/ElectionFactoryRepository.h</a>&quot;</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d18/ElectionPlurality_8h.html">gams/elections/ElectionPlurality.h</a>&quot;</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">using</span> std::cerr;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">using</span> std::endl;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a7859e3668c35fd82c93e503eeba67fc8">   55</a></span>&#160;<a class="code" href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a7859e3668c35fd82c93e503eeba67fc8">gams::elections::ElectionFactoryRepository::ElectionFactoryRepository</a> (</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  madara::knowledge::KnowledgeBase * knowledge)</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;: knowledge_ (knowledge)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <a class="code" href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a5f1aeddbb5afafbad5c6948905798325">init</a> ();</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#afcc4e0ca463d78ba4ad5cf94f477c831">   62</a></span>&#160;<a class="code" href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#afcc4e0ca463d78ba4ad5cf94f477c831">gams::elections::ElectionFactoryRepository::~ElectionFactoryRepository</a> ()</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="comment">// delete all factories</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordflow">for</span> (ElectionFactoryMap::iterator i = factory_map_.begin ();</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    i != factory_map_.end (); ++i)</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keyword">delete</span> i-&gt;second;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  }</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a23e87b380db34dff071da00ca7d34984">   50</a></span>&#160;<a class="code" href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a23e87b380db34dff071da00ca7d34984">gams::elections::ElectionFactoryRepository::ElectionFactoryRepository</a> (</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keyword">const</span> std::string &amp; agent_prefix,</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  madara::knowledge::KnowledgeBase * knowledge)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  : agent_prefix_ (agent_prefix), knowledge_ (knowledge)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <a class="code" href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a5f1aeddbb5afafbad5c6948905798325">init</a> ();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#afcc4e0ca463d78ba4ad5cf94f477c831">   58</a></span>&#160;<a class="code" href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#afcc4e0ca463d78ba4ad5cf94f477c831">gams::elections::ElectionFactoryRepository::~ElectionFactoryRepository</a> ()</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="comment">// delete all factories</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordflow">for</span> (ElectionFactoryMap::iterator i = factory_map_.begin ();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    i != factory_map_.end (); ++i)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keyword">delete</span> i-&gt;second;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
+<div class="ttc" id="classgams_1_1elections_1_1ElectionFactoryRepository_html_a23e87b380db34dff071da00ca7d34984"><div class="ttname"><a href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a23e87b380db34dff071da00ca7d34984">gams::elections::ElectionFactoryRepository::ElectionFactoryRepository</a></div><div class="ttdeci">ElectionFactoryRepository(const std::string &amp;agent_prefix, madara::knowledge::KnowledgeBase *knowledge=0)</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/ElectionFactoryRepository_8cpp_source.html#l00050">ElectionFactoryRepository.cpp:50</a></div></div>
 <div class="ttc" id="ElectionPlurality_8h_html"><div class="ttname"><a href="../../d7/d18/ElectionPlurality_8h.html">ElectionPlurality.h</a></div><div class="ttdoc">Copyright (c) 2016 Carnegie Mellon University. </div></div>
 <div class="ttc" id="ElectionFactoryRepository_8h_html"><div class="ttname"><a href="../../d7/d0d/ElectionFactoryRepository_8h.html">ElectionFactoryRepository.h</a></div><div class="ttdoc">Copyright (c) 2016 Carnegie Mellon University. </div></div>
-<div class="ttc" id="classgams_1_1elections_1_1ElectionFactoryRepository_html_a5f1aeddbb5afafbad5c6948905798325"><div class="ttname"><a href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a5f1aeddbb5afafbad5c6948905798325">gams::elections::ElectionFactoryRepository::init</a></div><div class="ttdeci">void init(void)</div><div class="ttdoc">Initializes factories for all supported GAMS elections. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d10/ElectionFactoryRepository_8inl_source.html#l00081">ElectionFactoryRepository.inl:81</a></div></div>
-<div class="ttc" id="classgams_1_1elections_1_1ElectionFactoryRepository_html_afcc4e0ca463d78ba4ad5cf94f477c831"><div class="ttname"><a href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#afcc4e0ca463d78ba4ad5cf94f477c831">gams::elections::ElectionFactoryRepository::~ElectionFactoryRepository</a></div><div class="ttdeci">virtual ~ElectionFactoryRepository()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/ElectionFactoryRepository_8cpp_source.html#l00062">ElectionFactoryRepository.cpp:62</a></div></div>
-<div class="ttc" id="classgams_1_1elections_1_1ElectionFactoryRepository_html_a7859e3668c35fd82c93e503eeba67fc8"><div class="ttname"><a href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a7859e3668c35fd82c93e503eeba67fc8">gams::elections::ElectionFactoryRepository::ElectionFactoryRepository</a></div><div class="ttdeci">ElectionFactoryRepository(madara::knowledge::KnowledgeBase *knowledge=0)</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/ElectionFactoryRepository_8cpp_source.html#l00055">ElectionFactoryRepository.cpp:55</a></div></div>
+<div class="ttc" id="classgams_1_1elections_1_1ElectionFactoryRepository_html_a5f1aeddbb5afafbad5c6948905798325"><div class="ttname"><a href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a5f1aeddbb5afafbad5c6948905798325">gams::elections::ElectionFactoryRepository::init</a></div><div class="ttdeci">void init(void)</div><div class="ttdoc">Initializes factories for all supported GAMS elections. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d10/ElectionFactoryRepository_8inl_source.html#l00125">ElectionFactoryRepository.inl:125</a></div></div>
+<div class="ttc" id="classgams_1_1elections_1_1ElectionFactoryRepository_html_afcc4e0ca463d78ba4ad5cf94f477c831"><div class="ttname"><a href="../../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#afcc4e0ca463d78ba4ad5cf94f477c831">gams::elections::ElectionFactoryRepository::~ElectionFactoryRepository</a></div><div class="ttdeci">virtual ~ElectionFactoryRepository()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/ElectionFactoryRepository_8cpp_source.html#l00058">ElectionFactoryRepository.cpp:58</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_6ddefa60a6e313b386245771e8e1cfe7.html">elections</a></li><li class="navelem"><a class="el" href="../../d4/de4/ElectionFactoryRepository_8cpp.html">ElectionFactoryRepository.cpp</a></li>
-    <li class="footer">Generated on Fri Jun 17 2016 14:50:39 for GAMS by
+    <li class="footer">Generated on Sat Jun 18 2016 02:58:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

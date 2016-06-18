@@ -14,7 +14,7 @@ var searchData=
   ['revolutions',['revolutions',['../da/d4b/namespacegams_1_1utility.html#a1e4cf353c3cbfef7a1a491eab1ca151a',1,'gams::utility']]],
   ['rho_5f',['rho_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#aef35d28997b6ad58bf17721d5aa9fe04',1,'gams::algorithms::FormationFlying']]],
   ['rotating',['rotating',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a2c464919f890ae59e055642153dbc545',1,'gams::variables::PlatformStatus']]],
-  ['round_5f',['round_',['../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a28a017726e9246787abe35c1d59342e7',1,'gams::auctions::AuctionBase']]],
+  ['round_5f',['round_',['../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a28a017726e9246787abe35c1d59342e7',1,'gams::auctions::AuctionBase::round_()'],['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a16caa5914ad1a42f188efbe23471ff60',1,'gams::elections::ElectionBase::round_()']]],
   ['rx_5f',['rx_',['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a2ee66b7f26e9b07e4f29f21033f961ad',1,'gams::utility::RotationVector']]],
   ['ry_5f',['ry_',['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a42ad8c950385ba72562a10ec31bc1a00',1,'gams::utility::RotationVector']]],
   ['rz_5f',['rz_',['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#ad77f1f8e69debf1d199d8d918752e8d2',1,'gams::utility::RotationVector']]]

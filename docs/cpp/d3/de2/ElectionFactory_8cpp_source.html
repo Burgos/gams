@@ -110,27 +110,34 @@ $(document).ready(function(){initNavTree('d3/de2/ElectionFactory_8cpp_source.htm
 <div class="contents">
 <a href="../../d3/de2/ElectionFactory_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d84/ElectionFactory_8h.html">gams/elections/ElectionFactory.h</a>&quot;</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#ae3c1ac8b6afbb0719898ca576619763a">   51</a></span>&#160;<a class="code" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#ae3c1ac8b6afbb0719898ca576619763a">gams::elections::ElectionFactory::ElectionFactory</a> ()</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  : knowledge_ (0)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#aff2cb994b65d5e6d81bd70ae91c89500">   56</a></span>&#160;<a class="code" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#aff2cb994b65d5e6d81bd70ae91c89500">gams::elections::ElectionFactory::~ElectionFactory</a> ()</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keywordtype">void</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#a032b3b37a35cd94e7c7cba2f5ec05943">   61</a></span>&#160;<a class="code" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#a032b3b37a35cd94e7c7cba2f5ec05943">gams::elections::ElectionFactory::set_knowledge</a> (</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;madara::knowledge::KnowledgeBase * knowledge)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  knowledge_ = knowledge;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
-<div class="ttc" id="classgams_1_1elections_1_1ElectionFactory_html_ae3c1ac8b6afbb0719898ca576619763a"><div class="ttname"><a href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#ae3c1ac8b6afbb0719898ca576619763a">gams::elections::ElectionFactory::ElectionFactory</a></div><div class="ttdeci">ElectionFactory()</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de2/ElectionFactory_8cpp_source.html#l00051">ElectionFactory.cpp:51</a></div></div>
-<div class="ttc" id="classgams_1_1elections_1_1ElectionFactory_html_a032b3b37a35cd94e7c7cba2f5ec05943"><div class="ttname"><a href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#a032b3b37a35cd94e7c7cba2f5ec05943">gams::elections::ElectionFactory::set_knowledge</a></div><div class="ttdeci">void set_knowledge(madara::knowledge::KnowledgeBase *knowledge)</div><div class="ttdoc">Sets the knowledge base. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de2/ElectionFactory_8cpp_source.html#l00061">ElectionFactory.cpp:61</a></div></div>
-<div class="ttc" id="classgams_1_1elections_1_1ElectionFactory_html_aff2cb994b65d5e6d81bd70ae91c89500"><div class="ttname"><a href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#aff2cb994b65d5e6d81bd70ae91c89500">gams::elections::ElectionFactory::~ElectionFactory</a></div><div class="ttdeci">virtual ~ElectionFactory()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de2/ElectionFactory_8cpp_source.html#l00056">ElectionFactory.cpp:56</a></div></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#ae3c1ac8b6afbb0719898ca576619763a">   50</a></span>&#160;<a class="code" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#ae3c1ac8b6afbb0719898ca576619763a">gams::elections::ElectionFactory::ElectionFactory</a> ()</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  : knowledge_ (0)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#aff2cb994b65d5e6d81bd70ae91c89500">   55</a></span>&#160;<a class="code" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#aff2cb994b65d5e6d81bd70ae91c89500">gams::elections::ElectionFactory::~ElectionFactory</a> ()</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#a032b3b37a35cd94e7c7cba2f5ec05943">   60</a></span>&#160;<a class="code" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#a032b3b37a35cd94e7c7cba2f5ec05943">gams::elections::ElectionFactory::set_knowledge</a> (</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;madara::knowledge::KnowledgeBase * knowledge)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  knowledge_ = knowledge;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">void</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#a0f1590e1b0eb95c412cee8116e291e34">   67</a></span>&#160;<a class="code" href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#a0f1590e1b0eb95c412cee8116e291e34">gams::elections::ElectionFactory::set_agent_prefix</a> (</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">const</span> std::string &amp; prefix)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;{</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  agent_prefix_ = prefix;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="ttc" id="classgams_1_1elections_1_1ElectionFactory_html_ae3c1ac8b6afbb0719898ca576619763a"><div class="ttname"><a href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#ae3c1ac8b6afbb0719898ca576619763a">gams::elections::ElectionFactory::ElectionFactory</a></div><div class="ttdeci">ElectionFactory()</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de2/ElectionFactory_8cpp_source.html#l00050">ElectionFactory.cpp:50</a></div></div>
+<div class="ttc" id="classgams_1_1elections_1_1ElectionFactory_html_a0f1590e1b0eb95c412cee8116e291e34"><div class="ttname"><a href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#a0f1590e1b0eb95c412cee8116e291e34">gams::elections::ElectionFactory::set_agent_prefix</a></div><div class="ttdeci">void set_agent_prefix(const std::string &amp;prefix)</div><div class="ttdoc">Sets the prefix for the current bidding agent. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de2/ElectionFactory_8cpp_source.html#l00067">ElectionFactory.cpp:67</a></div></div>
+<div class="ttc" id="classgams_1_1elections_1_1ElectionFactory_html_a032b3b37a35cd94e7c7cba2f5ec05943"><div class="ttname"><a href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#a032b3b37a35cd94e7c7cba2f5ec05943">gams::elections::ElectionFactory::set_knowledge</a></div><div class="ttdeci">void set_knowledge(madara::knowledge::KnowledgeBase *knowledge)</div><div class="ttdoc">Sets the knowledge base. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de2/ElectionFactory_8cpp_source.html#l00060">ElectionFactory.cpp:60</a></div></div>
+<div class="ttc" id="classgams_1_1elections_1_1ElectionFactory_html_aff2cb994b65d5e6d81bd70ae91c89500"><div class="ttname"><a href="../../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#aff2cb994b65d5e6d81bd70ae91c89500">gams::elections::ElectionFactory::~ElectionFactory</a></div><div class="ttdeci">virtual ~ElectionFactory()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de2/ElectionFactory_8cpp_source.html#l00055">ElectionFactory.cpp:55</a></div></div>
 <div class="ttc" id="ElectionFactory_8h_html"><div class="ttname"><a href="../../d8/d84/ElectionFactory_8h.html">ElectionFactory.h</a></div><div class="ttdoc">Copyright (c) 2016 Carnegie Mellon University. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -138,7 +145,7 @@ $(document).ready(function(){initNavTree('d3/de2/ElectionFactory_8cpp_source.htm
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_6ddefa60a6e313b386245771e8e1cfe7.html">elections</a></li><li class="navelem"><a class="el" href="../../d3/de2/ElectionFactory_8cpp.html">ElectionFactory.cpp</a></li>
-    <li class="footer">Generated on Fri Jun 17 2016 14:50:39 for GAMS by
+    <li class="footer">Generated on Sat Jun 18 2016 02:58:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

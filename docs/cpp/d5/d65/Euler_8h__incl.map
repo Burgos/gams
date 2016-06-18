@@ -1,14 +1,14 @@
 <map id="src/gams/utility/Euler.h" name="src/gams/utility/Euler.h">
-<area shape="rect" id="node4" href="$d0/d8f/Rotation_8h.html" title="Rotation.h" alt="" coords="542,304,623,331"/>
+<area shape="rect" id="node4" href="$d0/d8f/Rotation_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="542,304,623,331"/>
 <area shape="rect" id="node17" href="$d6/d2a/AngleUnits_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="156,386,252,413"/>
 <area shape="rect" id="node20" href="$d1/d4a/Quaternion_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1173,155,1269,181"/>
-<area shape="rect" id="node24" href="$dc/d42/EulerFormulas_8inl.html" title="gams/utility/EulerFormulas.inl" alt="" coords="1257,80,1452,107"/>
+<area shape="rect" id="node24" href="$dc/d42/EulerFormulas_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1257,80,1452,107"/>
 <area shape="rect" id="node25" href="$d3/dd6/Euler_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1527,155,1596,181"/>
 <area shape="rect" id="node6" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="5,468,165,495"/>
-<area shape="rect" id="node7" href="$d6/df6/Coordinate_8h.html" title="gams/utility/Coordinate.h" alt="" coords="327,386,494,413"/>
-<area shape="rect" id="node18" href="$d8/d6e/Rotation_8inl.html" title="Rotation.inl" alt="" coords="621,386,707,413"/>
+<area shape="rect" id="node7" href="$d6/df6/Coordinate_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="327,386,494,413"/>
+<area shape="rect" id="node18" href="$d8/d6e/Rotation_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="621,386,707,413"/>
 <area shape="rect" id="node8" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="189,468,336,495"/>
-<area shape="rect" id="node12" href="$de/d36/Coordinate_8inl.html" title="Coordinate.inl" alt="" coords="360,468,461,495"/>
+<area shape="rect" id="node12" href="$de/d36/Coordinate_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="360,468,461,495"/>
 <area shape="rect" id="node21" href="$da/db5/Quaternion_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1170,229,1273,256"/>
 <area shape="rect" id="node22" href="$d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1145,304,1298,331"/>
 <area shape="rect" id="node23" href="$df/d2b/Location_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1271,386,1359,413"/>

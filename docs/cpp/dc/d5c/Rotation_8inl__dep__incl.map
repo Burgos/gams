@@ -1,9 +1,9 @@
 <map id="src/gams/utility/Rotation.inl" name="src/gams/utility/Rotation.inl">
-<area shape="rect" id="node2" href="$d0/d8f/Rotation_8h.html" title="src/gams/utility/Rotation.h" alt="" coords="5431,80,5606,107"/>
+<area shape="rect" id="node2" href="$d0/d8f/Rotation_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5431,80,5606,107"/>
 <area shape="rect" id="node3" href="$df/d08/VREPBase_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="514,497,648,539"/>
 <area shape="rect" id="node10" href="$d6/d2a/AngleUnits_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5640,155,5829,181"/>
 <area shape="rect" id="node11" href="$df/d43/Euler_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5788,326,5944,353"/>
-<area shape="rect" id="node14" href="$d7/db5/Pose_8h.html" title="src/gams/utility/Pose.h" alt="" coords="4200,155,4356,181"/>
+<area shape="rect" id="node14" href="$d7/db5/Pose_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4200,155,4356,181"/>
 <area shape="rect" id="node97" href="$d1/d3a/ReferenceFrame_8cpp.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5297,319,5470,360"/>
 <area shape="rect" id="node99" href="$da/db5/Quaternion_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5421,155,5616,181"/>
 <area shape="rect" id="node4" href="$d5/d0d/VREPAnt_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="357,587,490,628"/>
@@ -13,7 +13,7 @@
 <area shape="rect" id="node8" href="$d6/d00/VREPQuadLaser_8h.html" title="src/gams/platforms\l/vrep/VREPQuadLaser.h" alt="" coords="445,683,608,725"/>
 <area shape="rect" id="node9" href="$da/d91/VREPSummit_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="187,587,332,628"/>
 <area shape="rect" id="node12" href="$d3/dd6/Euler_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5998,415,6161,442"/>
-<area shape="rect" id="node13" href="$dc/d42/EulerFormulas_8inl.html" title="src/gams/utility/EulerFormulas.inl" alt="" coords="5758,415,5974,442"/>
+<area shape="rect" id="node13" href="$dc/d42/EulerFormulas_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5758,415,5974,442"/>
 <area shape="rect" id="node15" href="$d4/de8/BasePlatform_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="4142,408,4276,449"/>
 <area shape="rect" id="node89" href="$dc/d49/ReferenceFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="3913,229,4086,271"/>
 <area shape="rect" id="node93" href="$d4/d05/ReferenceFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4092,319,4265,360"/>
@@ -60,7 +60,7 @@
 <area shape="rect" id="node28" href="$dc/d80/AlgorithmFactory_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3928,587,4068,628"/>
 <area shape="rect" id="node30" href="$d0/df2/AlgorithmFactoryRepository_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2010,683,2208,725"/>
 <area shape="rect" id="node47" href="$d6/dd2/JavaAlgorithm_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="4791,683,4934,725"/>
-<area shape="rect" id="node48" href="$d6/dc5/KarlEvaluator_8h.html" title="src/gams/algorithms\l/KarlEvaluator.h" alt="" coords="5798,683,5938,725"/>
+<area shape="rect" id="node48" href="$d6/dc5/KarlEvaluator_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="5798,683,5938,725"/>
 <area shape="rect" id="node57" href="$d2/dfe/PerformanceProfiling_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4611,683,4767,725"/>
 <area shape="rect" id="node69" href="$d3/d0a/BaseAreaCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="4194,587,4429,628"/>
 <area shape="rect" id="node70" href="$d6/d46/BaseAlgorithm_8cpp.html" title="src/gams/algorithms\l/BaseAlgorithm.cpp" alt="" coords="4555,587,4695,628"/>

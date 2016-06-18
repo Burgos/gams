@@ -1,0 +1,12 @@
+<map id="src/gams/elections/ElectionTypesEnum.h" name="src/gams/elections/ElectionTypesEnum.h">
+<area shape="rect" id="node2" href="$de/d20/ElectionBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="161,95,293,136"/>
+<area shape="rect" id="node3" href="$d4/d4a/ElectionBase_8cpp.html" title="src/gams/elections\l/ElectionBase.cpp" alt="" coords="5,184,137,225"/>
+<area shape="rect" id="node4" href="$d9/dbe/ElectionBase_8inl.html" title="src/gams/elections\l/ElectionBase.inl" alt="" coords="161,184,293,225"/>
+<area shape="rect" id="node5" href="$d8/d84/ElectionFactory_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="317,184,449,225"/>
+<area shape="rect" id="node10" href="$d7/d18/ElectionPlurality_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="464,273,596,315"/>
+<area shape="rect" id="node6" href="$d3/de2/ElectionFactory_8cpp.html" title="src/gams/elections\l/ElectionFactory.cpp" alt="" coords="297,273,440,315"/>
+<area shape="rect" id="node7" href="$d7/d0d/ElectionFactoryRepository_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="83,273,273,315"/>
+<area shape="rect" id="node8" href="$d4/de4/ElectionFactoryRepository_8cpp.html" title="src/gams/elections\l/ElectionFactoryRepository.cpp" alt="" coords="300,363,504,404"/>
+<area shape="rect" id="node9" href="$dc/d10/ElectionFactoryRepository_8inl.html" title="src/gams/elections\l/ElectionFactoryRepository.inl" alt="" coords="80,363,276,404"/>
+<area shape="rect" id="node11" href="$d4/de5/ElectionPlurality_8cpp.html" title="src/gams/elections\l/ElectionPlurality.cpp" alt="" coords="528,363,673,404"/>
+</map>

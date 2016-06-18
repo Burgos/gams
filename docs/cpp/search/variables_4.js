@@ -1,6 +1,7 @@
 var searchData=
 [
   ['earth_5fradius',['EARTH_RADIUS',['../da/d07/classgams_1_1utility_1_1GPSFrame.html#ae4843d4216860ad6b50be74a33a8f49f',1,'gams::utility::GPSFrame']]],
+  ['election_5fprefix_5f',['election_prefix_',['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#ad0faa48a414aa09ce8a7911d8e0218bf',1,'gams::elections::ElectionBase']]],
   ['end_5f',['end_',['../d3/df5/classgams_1_1algorithms_1_1FormationSync.html#aa0bf5aed9b12630d213b7cc077d4be7f',1,'gams::algorithms::FormationSync']]],
   ['end_5ftime_5f',['end_time_',['../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#aeb78a1f11490c18349dbea1ceaa62560',1,'gams::algorithms::area_coverage::BaseAreaCoverage::end_time_()'],['../d9/d03/classgams_1_1algorithms_1_1Executor.html#a99e7315d6172e195f3ced8c696988b70',1,'gams::algorithms::Executor::end_time_()'],['../dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html#a6bdb90646602f20deeea6c089ddc9c98',1,'gams::algorithms::KarlEvaluator::end_time_()'],['../d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#ac311eb03de6e6ca1a71291e42042389d',1,'gams::algorithms::PerimeterPatrol::end_time_()'],['../d9/d6f/classgams_1_1algorithms_1_1Wait.html#a93cefe507d6d3490768368d8157866f3',1,'gams::algorithms::Wait::end_time_()']]],
   ['enemies_5f',['enemies_',['../da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a45e970acf780f4785f9b2f0b316a3d20',1,'gams::algorithms::ZoneCoverage']]],

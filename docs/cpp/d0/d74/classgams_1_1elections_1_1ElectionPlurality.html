@@ -108,6 +108,7 @@ $(document).ready(function(){initNavTree('d0/d74/classgams_1_1elections_1_1Elect
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d0/d0a/classgams_1_1elections_1_1ElectionPlurality-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -115,7 +116,7 @@ $(document).ready(function(){initNavTree('d0/d74/classgams_1_1elections_1_1Elect
 </div><!--header-->
 <div class="contents">
 
-<p>A fixed list of agent members.  
+<p>An election that implements plurality voting (NOT IMPLEMENTED)  
  <a href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d7/d18/ElectionPlurality_8h_source.html">ElectionPlurality.h</a>&gt;</code></p>
@@ -131,66 +132,96 @@ Collaboration diagram for gams::elections::ElectionPlurality:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/dc0/classgams_1_1elections_1_1ElectionPlurality__coll__graph.png" border="0" usemap="#gams_1_1elections_1_1ElectionPlurality_coll__map" alt="Collaboration graph"/></div>
 <map name="gams_1_1elections_1_1ElectionPlurality_coll__map" id="gams_1_1elections_1_1ElectionPlurality_coll__map">
-<area shape="rect" id="node2" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html" title="Base class for an election. " alt="" coords="5,185,204,212"/><area shape="rect" id="node3" title="STL class. " alt="" coords="134,96,214,123"/><area shape="rect" id="node4" title="STL class. " alt="" coords="111,5,237,47"/></map>
+<area shape="rect" id="node2" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html" title="Base class for an election. " alt="" coords="5,200,204,227"/><area shape="rect" id="node3" title="STL class. " alt="" coords="65,96,145,123"/><area shape="rect" id="node4" title="STL class. " alt="" coords="41,5,168,47"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac29f70eb3362b065e1686e42a208ec1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#ac29f70eb3362b065e1686e42a208ec1f">ElectionPlurality</a> (const std::string &amp;prefix=&quot;&quot;, madara::knowledge::KnowledgeBase *knowledge=0)</td></tr>
-<tr class="memdesc:ac29f70eb3362b065e1686e42a208ec1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ac29f70eb3362b065e1686e42a208ec1f">More...</a><br /></td></tr>
-<tr class="separator:ac29f70eb3362b065e1686e42a208ec1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab30ca248dc987228d4d071cb9c3bec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a6ab30ca248dc987228d4d071cb9c3bec">ElectionPlurality</a> (const std::string &amp;election_prefix=&quot;&quot;, const std::string &amp;agent_prefix=&quot;&quot;, madara::knowledge::KnowledgeBase *knowledge=0)</td></tr>
+<tr class="memdesc:a6ab30ca248dc987228d4d071cb9c3bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a6ab30ca248dc987228d4d071cb9c3bec">More...</a><br /></td></tr>
+<tr class="separator:a6ab30ca248dc987228d4d071cb9c3bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85a3799db55a11eff772abffd9ce1771"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a85a3799db55a11eff772abffd9ce1771">~ElectionPlurality</a> ()</td></tr>
 <tr class="memdesc:a85a3799db55a11eff772abffd9ce1771"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a85a3799db55a11eff772abffd9ce1771">More...</a><br /></td></tr>
 <tr class="separator:a85a3799db55a11eff772abffd9ce1771"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac9841e7123a0675768092d204b8db4a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#aac9841e7123a0675768092d204b8db4a">add_members</a> (const <a class="el" href="../../de/dd1/namespacegams_1_1elections.html#ac00efd5e9de206de3ffa022ee9b36df9">AgentVector</a> &amp;members)</td></tr>
-<tr class="memdesc:aac9841e7123a0675768092d204b8db4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the members to the election.  <a href="#aac9841e7123a0675768092d204b8db4a">More...</a><br /></td></tr>
-<tr class="separator:aac9841e7123a0675768092d204b8db4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dc1c9b4c7f497a8fc5e9dafdfe109cb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a7dc1c9b4c7f497a8fc5e9dafdfe109cb">clear_members</a> (void)</td></tr>
-<tr class="memdesc:a7dc1c9b4c7f497a8fc5e9dafdfe109cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the member list.  <a href="#a7dc1c9b4c7f497a8fc5e9dafdfe109cb">More...</a><br /></td></tr>
-<tr class="separator:a7dc1c9b4c7f497a8fc5e9dafdfe109cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2c28a2d0e00beeb356a015bf1960dd9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#ae2c28a2d0e00beeb356a015bf1960dd9">get_members</a> (<a class="el" href="../../de/dd1/namespacegams_1_1elections.html#ac00efd5e9de206de3ffa022ee9b36df9">AgentVector</a> &amp;members) const </td></tr>
-<tr class="memdesc:ae2c28a2d0e00beeb356a015bf1960dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the members from the election.  <a href="#ae2c28a2d0e00beeb356a015bf1960dd9">More...</a><br /></td></tr>
-<tr class="separator:ae2c28a2d0e00beeb356a015bf1960dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9dad17c2d193febfc8fe9af69e6069e"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#aa9dad17c2d193febfc8fe9af69e6069e">get_prefix</a> (void)</td></tr>
-<tr class="memdesc:aa9dad17c2d193febfc8fe9af69e6069e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the prefix for the election in the knowledge base.  <a href="#aa9dad17c2d193febfc8fe9af69e6069e">More...</a><br /></td></tr>
-<tr class="separator:aa9dad17c2d193febfc8fe9af69e6069e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2967c51d81ab88516d4f6c7f105148df"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a2967c51d81ab88516d4f6c7f105148df">is_member</a> (const std::string &amp;id) const </td></tr>
-<tr class="memdesc:a2967c51d81ab88516d4f6c7f105148df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the agent is a member of the formation.  <a href="#a2967c51d81ab88516d4f6c7f105148df">More...</a><br /></td></tr>
-<tr class="separator:a2967c51d81ab88516d4f6c7f105148df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeae3fb9c3397fee89774fb1ca9a83379"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#aeae3fb9c3397fee89774fb1ca9a83379">set_prefix</a> (const std::string &amp;prefix, madara::knowledge::KnowledgeBase *knowledge=0)</td></tr>
-<tr class="memdesc:aeae3fb9c3397fee89774fb1ca9a83379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the prefix for the election in the knowledge base.  <a href="#aeae3fb9c3397fee89774fb1ca9a83379">More...</a><br /></td></tr>
-<tr class="separator:aeae3fb9c3397fee89774fb1ca9a83379"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed8c39cef631163339874dac19793dac"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#aed8c39cef631163339874dac19793dac">size</a> (void)</td></tr>
-<tr class="memdesc:aed8c39cef631163339874dac19793dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of members in the election.  <a href="#aed8c39cef631163339874dac19793dac">More...</a><br /></td></tr>
-<tr class="separator:aed8c39cef631163339874dac19793dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3db9cb9a56d8fdd067b0ce3a13e7b31e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a3db9cb9a56d8fdd067b0ce3a13e7b31e">sync</a> (void)</td></tr>
-<tr class="memdesc:a3db9cb9a56d8fdd067b0ce3a13e7b31e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syncs the list to the knowledge base.  <a href="#a3db9cb9a56d8fdd067b0ce3a13e7b31e">More...</a><br /></td></tr>
-<tr class="separator:a3db9cb9a56d8fdd067b0ce3a13e7b31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee25b7d4952df4f80573c4fbd7a852bd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#aee25b7d4952df4f80573c4fbd7a852bd">write</a> (const std::string &amp;prefix=&quot;&quot;, madara::knowledge::KnowledgeBase *knowledge=0) const </td></tr>
-<tr class="memdesc:aee25b7d4952df4f80573c4fbd7a852bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the election information to a specified prefix in a knowledge base.  <a href="#aee25b7d4952df4f80573c4fbd7a852bd">More...</a><br /></td></tr>
-<tr class="separator:aee25b7d4952df4f80573c4fbd7a852bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a215b6d01c1a98bd04306b63adb6819c9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a215b6d01c1a98bd04306b63adb6819c9">add_voters</a> (<a class="el" href="../../da/d36/classgams_1_1groups_1_1GroupBase.html">groups::GroupBase</a> *group)</td></tr>
+<tr class="memdesc:a215b6d01c1a98bd04306b63adb6819c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a group of voters.  <a href="#a215b6d01c1a98bd04306b63adb6819c9">More...</a><br /></td></tr>
+<tr class="separator:a215b6d01c1a98bd04306b63adb6819c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa495c97a3727398108a76ccfbc621f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a3aa495c97a3727398108a76ccfbc621f">advance_round</a> (void)</td></tr>
+<tr class="memdesc:a3aa495c97a3727398108a76ccfbc621f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proceeds to the next election round in a multi-round election.  <a href="#a3aa495c97a3727398108a76ccfbc621f">More...</a><br /></td></tr>
+<tr class="separator:a3aa495c97a3727398108a76ccfbc621f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf906fafb6c65bc07a5e7f6ec2233243"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#adf906fafb6c65bc07a5e7f6ec2233243">get_agent_prefix</a> (void) const </td></tr>
+<tr class="memdesc:adf906fafb6c65bc07a5e7f6ec2233243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the prefix for the current agent.  <a href="#adf906fafb6c65bc07a5e7f6ec2233243">More...</a><br /></td></tr>
+<tr class="separator:adf906fafb6c65bc07a5e7f6ec2233243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ff0376c7d191fe68940036c0bc4340"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#aa3ff0376c7d191fe68940036c0bc4340">get_election_prefix</a> (void) const </td></tr>
+<tr class="memdesc:aa3ff0376c7d191fe68940036c0bc4340"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the prefix for the election in the knowledge base.  <a href="#aa3ff0376c7d191fe68940036c0bc4340">More...</a><br /></td></tr>
+<tr class="separator:aa3ff0376c7d191fe68940036c0bc4340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9fdbe60e3e88426cc11466fccfeea03"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#ac9fdbe60e3e88426cc11466fccfeea03">get_leader</a> (void)</td></tr>
+<tr class="memdesc:ac9fdbe60e3e88426cc11466fccfeea03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the leader of the voting.  <a href="#ac9fdbe60e3e88426cc11466fccfeea03">More...</a><br /></td></tr>
+<tr class="separator:ac9fdbe60e3e88426cc11466fccfeea03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08502fda489a460061342e17acef2a8b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../de/dd1/namespacegams_1_1elections.html#a54103d869d7e03157d59ff14bd7d0dd8">CandidateList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a08502fda489a460061342e17acef2a8b">get_leaders</a> (int num_leaders=1)</td></tr>
+<tr class="memdesc:a08502fda489a460061342e17acef2a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the leaders of the election in order of popularity or whatever conditions constitute winning the election.  <a href="#a08502fda489a460061342e17acef2a8b">More...</a><br /></td></tr>
+<tr class="separator:a08502fda489a460061342e17acef2a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305ca44b570c986a9c4c065c002e29e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a305ca44b570c986a9c4c065c002e29e9">get_round</a> (void) const </td></tr>
+<tr class="memdesc:a305ca44b570c986a9c4c065c002e29e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the round number, usually in a multi-round election.  <a href="#a305ca44b570c986a9c4c065c002e29e9">More...</a><br /></td></tr>
+<tr class="separator:a305ca44b570c986a9c4c065c002e29e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac711719e6563aab832573ffb606416db"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../de/dd1/namespacegams_1_1elections.html#a54103d869d7e03157d59ff14bd7d0dd8">CandidateList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#ac711719e6563aab832573ffb606416db">get_votes</a> (const std::string &amp;voter)</td></tr>
+<tr class="memdesc:ac711719e6563aab832573ffb606416db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the agent is a member of the action participants.  <a href="#ac711719e6563aab832573ffb606416db">More...</a><br /></td></tr>
+<tr class="separator:ac711719e6563aab832573ffb606416db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1f8c68e8913c6e6e300636b9b558bb8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#ad1f8c68e8913c6e6e300636b9b558bb8">has_voted</a> (const std::string &amp;agent_prefix)</td></tr>
+<tr class="memdesc:ad1f8c68e8913c6e6e300636b9b558bb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the agent has voted in this round.  <a href="#ad1f8c68e8913c6e6e300636b9b558bb8">More...</a><br /></td></tr>
+<tr class="separator:ad1f8c68e8913c6e6e300636b9b558bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd14950ce3db7b827c8ae9993f2b57d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#abdd14950ce3db7b827c8ae9993f2b57d">reset_round</a> (void)</td></tr>
+<tr class="memdesc:abdd14950ce3db7b827c8ae9993f2b57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the round.  <a href="#abdd14950ce3db7b827c8ae9993f2b57d">More...</a><br /></td></tr>
+<tr class="separator:abdd14950ce3db7b827c8ae9993f2b57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaec4b725d126741acd454939c60ff136"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#aaec4b725d126741acd454939c60ff136">set_agent_prefix</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:aaec4b725d126741acd454939c60ff136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the prefix for the current bidding agent.  <a href="#aaec4b725d126741acd454939c60ff136">More...</a><br /></td></tr>
+<tr class="separator:aaec4b725d126741acd454939c60ff136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a009ffc464d3ec26910f05544f63a53c5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a009ffc464d3ec26910f05544f63a53c5">set_election_prefix</a> (const std::string &amp;prefix)</td></tr>
+<tr class="memdesc:a009ffc464d3ec26910f05544f63a53c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the prefix for the election in the knowledge base.  <a href="#a009ffc464d3ec26910f05544f63a53c5">More...</a><br /></td></tr>
+<tr class="separator:a009ffc464d3ec26910f05544f63a53c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ccc12a6f509696cf9f2148d4e1128bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a5ccc12a6f509696cf9f2148d4e1128bb">set_knowledge_base</a> (madara::knowledge::KnowledgeBase *knowledge)</td></tr>
+<tr class="memdesc:a5ccc12a6f509696cf9f2148d4e1128bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the knowledge base.  <a href="#a5ccc12a6f509696cf9f2148d4e1128bb">More...</a><br /></td></tr>
+<tr class="separator:a5ccc12a6f509696cf9f2148d4e1128bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60cdda48588316c67ebba7e9460cb0e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a60cdda48588316c67ebba7e9460cb0e6">sync</a> (void)</td></tr>
+<tr class="memdesc:a60cdda48588316c67ebba7e9460cb0e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syncs the election information from the knowledge base.  <a href="#a60cdda48588316c67ebba7e9460cb0e6">More...</a><br /></td></tr>
+<tr class="separator:a60cdda48588316c67ebba7e9460cb0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa24db77f1ae94f9550afc1f4411e6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a3aa24db77f1ae94f9550afc1f4411e6b">vote</a> (const std::string &amp;candidate, int votes=1)</td></tr>
+<tr class="memdesc:a3aa24db77f1ae94f9550afc1f4411e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Votes in the election.  <a href="#a3aa24db77f1ae94f9550afc1f4411e6b">More...</a><br /></td></tr>
+<tr class="separator:a3aa24db77f1ae94f9550afc1f4411e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a782b710df0914dc686b642060fe9f9c7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a782b710df0914dc686b642060fe9f9c7">vote</a> (const std::string &amp;agent, const std::string &amp;candidate, int votes=1)</td></tr>
+<tr class="memdesc:a782b710df0914dc686b642060fe9f9c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bids in the election.  <a href="#a782b710df0914dc686b642060fe9f9c7">More...</a><br /></td></tr>
+<tr class="separator:a782b710df0914dc686b642060fe9f9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ae2dcfbc97da686c323d7261bbe5fa0cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#ae2dcfbc97da686c323d7261bbe5fa0cf">reset_votes_pointer</a> (void)</td></tr>
+<tr class="memdesc:ae2dcfbc97da686c323d7261bbe5fa0cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls a reset on the votes_ location in the knowledge base using election_prefix_ + "." + round_.  <a href="#ae2dcfbc97da686c323d7261bbe5fa0cf">More...</a><br /></td></tr>
+<tr class="separator:ae2dcfbc97da686c323d7261bbe5fa0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:af98f08ff4a51efb04653f0f5bd83a4c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dd1/namespacegams_1_1elections.html#ac00efd5e9de206de3ffa022ee9b36df9">AgentVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#af98f08ff4a51efb04653f0f5bd83a4c8">fast_members_</a></td></tr>
-<tr class="memdesc:af98f08ff4a51efb04653f0f5bd83a4c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">member list for fast access  <a href="#af98f08ff4a51efb04653f0f5bd83a4c8">More...</a><br /></td></tr>
-<tr class="separator:af98f08ff4a51efb04653f0f5bd83a4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95adc27969f6c2ec09755764ea9ab812"><td class="memItemLeft" align="right" valign="top">madara::knowledge::KnowledgeBase *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a95adc27969f6c2ec09755764ea9ab812">knowledge_</a></td></tr>
-<tr class="memdesc:a95adc27969f6c2ec09755764ea9ab812"><td class="mdescLeft">&#160;</td><td class="mdescRight">The knowledge base to use as a data plane.  <a href="#a95adc27969f6c2ec09755764ea9ab812">More...</a><br /></td></tr>
-<tr class="separator:a95adc27969f6c2ec09755764ea9ab812"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acce0a2932a3c9a655af648d9da6a1b98"><td class="memItemLeft" align="right" valign="top">madara::knowledge::containers::StringVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#acce0a2932a3c9a655af648d9da6a1b98">members_</a></td></tr>
-<tr class="memdesc:acce0a2932a3c9a655af648d9da6a1b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source member list in the knowledge base.  <a href="#acce0a2932a3c9a655af648d9da6a1b98">More...</a><br /></td></tr>
-<tr class="separator:acce0a2932a3c9a655af648d9da6a1b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa19f1d18a2fea2e4399db843009e2a41"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#aa19f1d18a2fea2e4399db843009e2a41">prefix_</a></td></tr>
-<tr class="memdesc:aa19f1d18a2fea2e4399db843009e2a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">the prefix for the election  <a href="#aa19f1d18a2fea2e4399db843009e2a41">More...</a><br /></td></tr>
-<tr class="separator:aa19f1d18a2fea2e4399db843009e2a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff22e2cc401d3c7f170666ec3452c21e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#aff22e2cc401d3c7f170666ec3452c21e">agent_prefix_</a></td></tr>
+<tr class="memdesc:aff22e2cc401d3c7f170666ec3452c21e"><td class="mdescLeft">&#160;</td><td class="mdescRight">self prefix of the agent  <a href="#aff22e2cc401d3c7f170666ec3452c21e">More...</a><br /></td></tr>
+<tr class="separator:aff22e2cc401d3c7f170666ec3452c21e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0faa48a414aa09ce8a7911d8e0218bf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#ad0faa48a414aa09ce8a7911d8e0218bf">election_prefix_</a></td></tr>
+<tr class="memdesc:ad0faa48a414aa09ce8a7911d8e0218bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">the prefix for the election  <a href="#ad0faa48a414aa09ce8a7911d8e0218bf">More...</a><br /></td></tr>
+<tr class="separator:ad0faa48a414aa09ce8a7911d8e0218bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d5ed8ea4bb384e56737ad54a46012b8"><td class="memItemLeft" align="right" valign="top">madara::knowledge::KnowledgeBase *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a1d5ed8ea4bb384e56737ad54a46012b8">knowledge_</a></td></tr>
+<tr class="memdesc:a1d5ed8ea4bb384e56737ad54a46012b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The knowledge base to use as a data plane.  <a href="#a1d5ed8ea4bb384e56737ad54a46012b8">More...</a><br /></td></tr>
+<tr class="separator:a1d5ed8ea4bb384e56737ad54a46012b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16caa5914ad1a42f188efbe23471ff60"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a16caa5914ad1a42f188efbe23471ff60">round_</a></td></tr>
+<tr class="memdesc:a16caa5914ad1a42f188efbe23471ff60"><td class="mdescLeft">&#160;</td><td class="mdescRight">the election round in a multi-round election  <a href="#a16caa5914ad1a42f188efbe23471ff60">More...</a><br /></td></tr>
+<tr class="separator:a16caa5914ad1a42f188efbe23471ff60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a34aa24e73ec42e2fd2f0ec61ddf17a"><td class="memItemLeft" align="right" valign="top">madara::knowledge::containers::Map&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a6a34aa24e73ec42e2fd2f0ec61ddf17a">votes_</a></td></tr>
+<tr class="memdesc:a6a34aa24e73ec42e2fd2f0ec61ddf17a"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience class for bids  <a href="#a6a34aa24e73ec42e2fd2f0ec61ddf17a">More...</a><br /></td></tr>
+<tr class="separator:a6a34aa24e73ec42e2fd2f0ec61ddf17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A fixed list of agent members. </p>
+<div class="textblock"><p>An election that implements plurality voting (NOT IMPLEMENTED) </p>
 
 <p>Definition at line <a class="el" href="../../d7/d18/ElectionPlurality_8h_source.html#l00073">73</a> of file <a class="el" href="../../d7/d18/ElectionPlurality_8h_source.html">ElectionPlurality.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ac29f70eb3362b065e1686e42a208ec1f"></a>
+<a class="anchor" id="a6ab30ca248dc987228d4d071cb9c3bec"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -198,7 +229,13 @@ Protected Attributes</h2></td></tr>
           <td class="memname">gams::elections::ElectionPlurality::ElectionPlurality </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>prefix</em> = <code>&quot;&quot;</code>, </td>
+          <td class="paramname"><em>election_prefix</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>agent_prefix</em> = <code>&quot;&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -215,9 +252,10 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<p>Note that if you do not specify prefix and knowledge base, then you are essentially just working with a local election with no connection to other agents. </p><dl class="params"><dt>Parameters</dt><dd>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>the name of the election (e.g. election.protectors) </td></tr>
+    <tr><td class="paramname">election_prefix</td><td>the name of the election (e.g. election.leader) </td></tr>
+    <tr><td class="paramname">agent_prefix</td><td>the name of this bidder (e.g. agent.0) </td></tr>
     <tr><td class="paramname">knowledge</td><td>the knowledge base to use for syncing </td></tr>
   </table>
   </dd>
@@ -255,7 +293,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aac9841e7123a0675768092d204b8db4a"></a>
+<a class="anchor" id="a215b6d01c1a98bd04306b63adb6819c9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -263,35 +301,33 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gams::elections::ElectionPlurality::add_members </td>
+          <td class="memname">void gams::elections::ElectionBase::add_voters </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../de/dd1/namespacegams_1_1elections.html#ac00efd5e9de206de3ffa022ee9b36df9">AgentVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>members</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../da/d36/classgams_1_1groups_1_1GroupBase.html">groups::GroupBase</a> *&#160;</td>
+          <td class="paramname"><em>group</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Adds the members to the election. </p>
+<p>Adds a group of voters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">members</td><td>list of members to add to formation </td></tr>
+    <tr><td class="paramname">group</td><td>a group of bidders joining the election </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a1cd3e964a3797e1d62d6dec7134f0787">gams::elections::ElectionBase</a>.</p>
-
-<p>Definition at line <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html">ElectionPlurality.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html">ElectionBase.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7dc1c9b4c7f497a8fc5e9dafdfe109cb"></a>
+<a class="anchor" id="a3aa495c97a3727398108a76ccfbc621f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -299,7 +335,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gams::elections::ElectionPlurality::clear_members </td>
+          <td class="memname">void gams::elections::ElectionBase::advance_round </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -308,20 +344,18 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Clears the member list. </p>
+<p>Proceeds to the next election round in a multi-round election. </p>
 
-<p>Implements <a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a336482a5d30859a52df6aefbc07370cd">gams::elections::ElectionBase</a>.</p>
-
-<p>Definition at line <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html">ElectionPlurality.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html#l00128">128</a> of file <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html">ElectionBase.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae2c28a2d0e00beeb356a015bf1960dd9"></a>
+<a class="anchor" id="adf906fafb6c65bc07a5e7f6ec2233243"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -329,35 +363,28 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gams::elections::ElectionPlurality::get_members </td>
+          <td class="memname">const std::string &amp; gams::elections::ElectionBase::get_agent_prefix </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/dd1/namespacegams_1_1elections.html#ac00efd5e9de206de3ffa022ee9b36df9">AgentVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>members</em></td><td>)</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Retrieves the members from the election. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">members</td><td>a list of the members currently in the election </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Gets the prefix for the current agent. </p>
+<dl class="section return"><dt>Returns</dt><dd>the name of this bidding agent (e.g. agent.0) </dd></dl>
 
-<p>Implements <a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#ad40c3791d80a1954b39b569f4a9646e6">gams::elections::ElectionBase</a>.</p>
-
-<p>Definition at line <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html#l00135">135</a> of file <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html">ElectionPlurality.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html#l00060">60</a> of file <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html">ElectionBase.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa9dad17c2d193febfc8fe9af69e6069e"></a>
+<a class="anchor" id="aa3ff0376c7d191fe68940036c0bc4340"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -365,11 +392,11 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; gams::elections::ElectionBase::get_prefix </td>
+          <td class="memname">const std::string &amp; gams::elections::ElectionBase::get_election_prefix </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -382,11 +409,31 @@ Protected Attributes</h2></td></tr>
 <p>Gets the prefix for the election in the knowledge base. </p>
 <dl class="section return"><dt>Returns</dt><dd>the name of the election (e.g. election.protectors) </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html#l00054">54</a> of file <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html">ElectionBase.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html#l00072">72</a> of file <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html">ElectionBase.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2967c51d81ab88516d4f6c7f105148df"></a>
+<a class="anchor" id="ac9fdbe60e3e88426cc11466fccfeea03"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string gams::elections::ElectionPlurality::get_leader </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the leader of the voting. </p>
+
+<p>Definition at line <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html#l00116">116</a> of file <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html">ElectionPlurality.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a08502fda489a460061342e17acef2a8b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -394,11 +441,11 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool gams::elections::ElectionPlurality::is_member </td>
+          <td class="memname"><a class="el" href="../../de/dd1/namespacegams_1_1elections.html#a54103d869d7e03157d59ff14bd7d0dd8">gams::elections::CandidateList</a> gams::elections::ElectionPlurality::get_leaders </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_leaders</em> = <code>1</code></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -408,22 +455,22 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks if the agent is a member of the formation. </p>
+<p>Returns the leaders of the election in order of popularity or whatever conditions constitute winning the election. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">id</td><td>the agent id (e.g. agent.0 or agent.leader). If null, uses the current agent's id </td></tr>
+    <tr><td class="paramname">num_leaders</td><td>maximum leaders to return </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if the agent is a member of the election </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the leaders of the election up to num_leaders </dd></dl>
 
-<p>Implements <a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#ad6408ffa6512bc168c2943bb78d9be78">gams::elections::ElectionBase</a>.</p>
+<p>Implements <a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#aad6baf9816523658f9c13894e3d15add">gams::elections::ElectionBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html#l00148">148</a> of file <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html">ElectionPlurality.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html#l00095">95</a> of file <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html">ElectionPlurality.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aeae3fb9c3397fee89774fb1ca9a83379"></a>
+<a class="anchor" id="a305ca44b570c986a9c4c065c002e29e9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -431,16 +478,302 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gams::elections::ElectionPlurality::set_prefix </td>
+          <td class="memname">int gams::elections::ElectionBase::get_round </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the round number, usually in a multi-round election. </p>
+<dl class="section return"><dt>Returns</dt><dd>the agent prefix of the leader of the election </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html#l00054">54</a> of file <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html">ElectionBase.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac711719e6563aab832573ffb606416db"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/dd1/namespacegams_1_1elections.html#a54103d869d7e03157d59ff14bd7d0dd8">gams::elections::CandidateList</a> gams::elections::ElectionBase::get_votes </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>prefix</em>, </td>
+          <td class="paramname"><em>voter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the agent is a member of the action participants. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voter</td><td>the agent id (e.g. agent.0 or agent.leader). If null, uses the current agent's id </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the Candidates that the voter </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html">ElectionBase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad1f8c68e8913c6e6e300636b9b558bb8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gams::elections::ElectionBase::has_voted </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>agent_prefix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the agent has voted in this round. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">agent_prefix</td><td>the participating agent's prefix (e.g. agent.0) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the agent is a member of the election </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html#l00083">83</a> of file <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html">ElectionBase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abdd14950ce3db7b827c8ae9993f2b57d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::elections::ElectionBase::reset_round </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resets the round. </p>
+<dl class="section return"><dt>Returns</dt><dd>the agent prefix of the leader of the election </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html#l00134">134</a> of file <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html">ElectionBase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae2dcfbc97da686c323d7261bbe5fa0cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::elections::ElectionBase::reset_votes_pointer </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>calls a reset on the votes_ location in the knowledge base using election_prefix_ + "." + round_. </p>
+
+<p>Definition at line <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html#l00078">78</a> of file <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html">ElectionBase.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaec4b725d126741acd454939c60ff136"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::elections::ElectionBase::set_agent_prefix </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>prefix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the prefix for the current bidding agent. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefix</td><td>the name of the agent (e.g. agent.0) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html#l00066">66</a> of file <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html">ElectionBase.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a009ffc464d3ec26910f05544f63a53c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::elections::ElectionBase::set_election_prefix </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>prefix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the prefix for the election in the knowledge base. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefix</td><td>the name of the election (e.g. election.protectors) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html#l00096">96</a> of file <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html">ElectionBase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ccc12a6f509696cf9f2148d4e1128bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::elections::ElectionBase::set_knowledge_base </td>
+          <td>(</td>
+          <td class="paramtype">madara::knowledge::KnowledgeBase *&#160;</td>
+          <td class="paramname"><em>knowledge</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the knowledge base. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">knowledge</td><td>the knowledge base to use for syncing </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html#l00104">104</a> of file <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html">ElectionBase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a60cdda48588316c67ebba7e9460cb0e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::elections::ElectionBase::sync </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Syncs the election information from the knowledge base. </p>
+
+<p>Definition at line <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html">ElectionBase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3aa24db77f1ae94f9550afc1f4411e6b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::elections::ElectionBase::vote </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>candidate</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">madara::knowledge::KnowledgeBase *&#160;</td>
-          <td class="paramname"><em>knowledge</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>votes</em> = <code>1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -450,27 +783,25 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets the prefix for the election in the knowledge base. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Votes in the election. </p>
+<p>Uses the agent prefix that has been set in this Election as the voter id. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">prefix</td><td>the name of the election (e.g. election.protectors) </td></tr>
-    <tr><td class="paramname">knowledge</td><td>the knowledge base to use for syncing </td></tr>
+    <tr><td class="paramname">candidate</td><td>the candidate receiving votes </td></tr>
+    <tr><td class="paramname">votes</td><td>the number of votes cast </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a49be896cea4e1c92ab00244507801c44">gams::elections::ElectionBase</a>.</p>
-
-<p>Definition at line <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html">ElectionPlurality.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html#l00091">91</a> of file <a class="el" href="../../d9/dbe/ElectionBase_8inl_source.html">ElectionBase.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aed8c39cef631163339874dac19793dac"></a>
+<a class="anchor" id="a782b710df0914dc686b642060fe9f9c7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -478,109 +809,52 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t gams::elections::ElectionPlurality::size </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the number of members in the election. </p>
-<dl class="section return"><dt>Returns</dt><dd>the number of members </dd></dl>
-
-<p>Implements <a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#af7b459366a9539cfe20735c90f5d1776">gams::elections::ElectionBase</a>.</p>
-
-<p>Definition at line <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html#l00175">175</a> of file <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html">ElectionPlurality.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3db9cb9a56d8fdd067b0ce3a13e7b31e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gams::elections::ElectionPlurality::sync </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Syncs the list to the knowledge base. </p>
-<p>we optimize for the expected situation that any resize will be growing the list and leaving earlier elements the same. A string check is much faster than a string mutate.</p>
-
-<p>Implements <a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a9c443574d25e3048736e71db9ae03812">gams::elections::ElectionBase</a>.</p>
-
-<p>Definition at line <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html#l00181">181</a> of file <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html">ElectionPlurality.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aee25b7d4952df4f80573c4fbd7a852bd"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gams::elections::ElectionPlurality::write </td>
+          <td class="memname">void gams::elections::ElectionBase::vote </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>prefix</em> = <code>&quot;&quot;</code>, </td>
+          <td class="paramname"><em>agent</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">madara::knowledge::KnowledgeBase *&#160;</td>
-          <td class="paramname"><em>knowledge</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>candidate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>votes</em> = <code>1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Writes the election information to a specified prefix in a knowledge base. </p>
-<p>If no knowledge base is specified, then saves in the original knowledge base. If no prefix is specified, then saves in the original prefix location </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Bids in the election. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">prefix</td><td>the name of the election (e.g. election.protectors) </td></tr>
-    <tr><td class="paramname">knowledge</td><td>the knowledge base to save into </td></tr>
+    <tr><td class="paramname">agent</td><td>the agent prefix who is bidding </td></tr>
+    <tr><td class="paramname">candidate</td><td>the candidate receiving votes </td></tr>
+    <tr><td class="paramname">votes</td><td>the number of votes cast </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="../../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a3df30a97f6c69e5743912255d85848ed">gams::elections::ElectionBase</a>.</p>
-
-<p>Definition at line <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html#l00216">216</a> of file <a class="el" href="../../d4/de5/ElectionPlurality_8cpp_source.html">ElectionPlurality.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html#l00118">118</a> of file <a class="el" href="../../d4/d4a/ElectionBase_8cpp_source.html">ElectionBase.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="af98f08ff4a51efb04653f0f5bd83a4c8"></a>
+<a class="anchor" id="aff22e2cc401d3c7f170666ec3452c21e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -588,23 +862,23 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/dd1/namespacegams_1_1elections.html#ac00efd5e9de206de3ffa022ee9b36df9">AgentVector</a> gams::elections::ElectionPlurality::fast_members_</td>
+          <td class="memname">std::string gams::elections::ElectionBase::agent_prefix_</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>member list for fast access </p>
+<p>self prefix of the agent </p>
 
-<p>Definition at line <a class="el" href="../../d7/d18/ElectionPlurality_8h_source.html#l00161">161</a> of file <a class="el" href="../../d7/d18/ElectionPlurality_8h_source.html">ElectionPlurality.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d20/ElectionBase_8h_source.html#l00217">217</a> of file <a class="el" href="../../de/d20/ElectionBase_8h_source.html">ElectionBase.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a95adc27969f6c2ec09755764ea9ab812"></a>
+<a class="anchor" id="ad0faa48a414aa09ce8a7911d8e0218bf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -612,55 +886,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">madara::knowledge::KnowledgeBase* gams::elections::ElectionPlurality::knowledge_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The knowledge base to use as a data plane. </p>
-
-<p>Definition at line <a class="el" href="../../d7/d18/ElectionPlurality_8h_source.html#l00151">151</a> of file <a class="el" href="../../d7/d18/ElectionPlurality_8h_source.html">ElectionPlurality.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="acce0a2932a3c9a655af648d9da6a1b98"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">madara::knowledge::containers::StringVector gams::elections::ElectionPlurality::members_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The source member list in the knowledge base. </p>
-
-<p>Definition at line <a class="el" href="../../d7/d18/ElectionPlurality_8h_source.html#l00156">156</a> of file <a class="el" href="../../d7/d18/ElectionPlurality_8h_source.html">ElectionPlurality.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa19f1d18a2fea2e4399db843009e2a41"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string gams::elections::ElectionBase::prefix_</td>
+          <td class="memname">std::string gams::elections::ElectionBase::election_prefix_</td>
         </tr>
       </table>
   </td>
@@ -672,7 +898,79 @@ Protected Attributes</h2></td></tr>
 
 <p>the prefix for the election </p>
 
-<p>Definition at line <a class="el" href="../../de/d20/ElectionBase_8h_source.html#l00166">166</a> of file <a class="el" href="../../de/d20/ElectionBase_8h_source.html">ElectionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d20/ElectionBase_8h_source.html#l00212">212</a> of file <a class="el" href="../../de/d20/ElectionBase_8h_source.html">ElectionBase.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d5ed8ea4bb384e56737ad54a46012b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">madara::knowledge::KnowledgeBase* gams::elections::ElectionBase::knowledge_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The knowledge base to use as a data plane. </p>
+
+<p>Definition at line <a class="el" href="../../de/d20/ElectionBase_8h_source.html#l00207">207</a> of file <a class="el" href="../../de/d20/ElectionBase_8h_source.html">ElectionBase.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a16caa5914ad1a42f188efbe23471ff60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gams::elections::ElectionBase::round_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the election round in a multi-round election </p>
+
+<p>Definition at line <a class="el" href="../../de/d20/ElectionBase_8h_source.html#l00222">222</a> of file <a class="el" href="../../de/d20/ElectionBase_8h_source.html">ElectionBase.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6a34aa24e73ec42e2fd2f0ec61ddf17a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">madara::knowledge::containers::Map gams::elections::ElectionBase::votes_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convenience class for bids </p>
+
+<p>Definition at line <a class="el" href="../../de/d20/ElectionBase_8h_source.html#l00227">227</a> of file <a class="el" href="../../de/d20/ElectionBase_8h_source.html">ElectionBase.h</a>.</p>
 
 </div>
 </div>
@@ -686,7 +984,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../de/dd1/namespacegams_1_1elections.html">elections</a></li><li class="navelem"><a class="el" href="../../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html">ElectionPlurality</a></li>
-    <li class="footer">Generated on Fri Jun 17 2016 14:02:43 for GAMS by
+    <li class="footer">Generated on Sat Jun 18 2016 02:58:12 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

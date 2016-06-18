@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['grouptypes',['GroupTypes',['../d4/da6/namespacegams_1_1groups.html#a1a6d883b2cc0aab22baf83837b3ab95d',1,'gams::groups']]]
+  ['formationtypes',['FormationTypes',['../d3/df5/classgams_1_1algorithms_1_1FormationSync.html#ada9faac32b774122d668d35843f66001',1,'gams::algorithms::FormationSync']]]
 ];

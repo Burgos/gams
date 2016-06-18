@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['formationtypes',['FormationTypes',['../d3/df5/classgams_1_1algorithms_1_1FormationSync.html#ada9faac32b774122d668d35843f66001',1,'gams::algorithms::FormationSync']]]
+  ['electiontypes',['ElectionTypes',['../de/dd1/namespacegams_1_1elections.html#ab2d4c94ec064bcd2562a045bc273774e',1,'gams::elections']]]
 ];

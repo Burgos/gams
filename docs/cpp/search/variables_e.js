@@ -18,7 +18,7 @@ var searchData=
   ['precond',['precond',['../d5/d79/classgams_1_1algorithms_1_1AlgorithmMetaData.html#ad8b94362d95c5c5a53b6aded81ccf194',1,'gams::algorithms::AlgorithmMetaData']]],
   ['precond_5fmet_5f',['precond_met_',['../d9/d03/classgams_1_1algorithms_1_1Executor.html#a8e71d203a2c9e1d3e077f46c731d7743',1,'gams::algorithms::Executor']]],
   ['prefix',['prefix',['../d8/d12/classgams_1_1variables_1_1Agent.html#a1bb3b15ef9ec2e47756e940f0b2f00d3',1,'gams::variables::Agent::prefix()'],['../d4/d98/classgams_1_1variables_1_1Self.html#ac22c96c2d43be6ff5ebd8dc2741d52ef',1,'gams::variables::Self::prefix()']]],
-  ['prefix_5f',['prefix_',['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#aa19f1d18a2fea2e4399db843009e2a41',1,'gams::elections::ElectionBase::prefix_()'],['../da/d36/classgams_1_1groups_1_1GroupBase.html#ac0dacb8a1fc888befca8310fe80bf00b',1,'gams::groups::GroupBase::prefix_()']]],
+  ['prefix_5f',['prefix_',['../da/d36/classgams_1_1groups_1_1GroupBase.html#ac0dacb8a1fc888befca8310fe80bf00b',1,'gams::groups::GroupBase']]],
   ['present',['present',['../d4/d3a/structgams_1_1algorithms_1_1MessageProfiling_1_1MessageFilter_1_1MessageData.html#a09f6a0ca5db3b96ffe1140f9ad3f3e0c',1,'gams::algorithms::MessageProfiling::MessageFilter::MessageData']]],
   ['prev_5fkb_5f',['prev_kb_',['../de/d8c/classgams_1_1utility_1_1Containerize.html#a7d294216225562806df86b698963b1ed',1,'gams::utility::Containerize']]],
   ['previous_5flocations_5f',['previous_locations_',['../d9/d7a/classgams_1_1algorithms_1_1Follow.html#a4c7e1c37021b5a7f9a7e5cb1580ad479',1,'gams::algorithms::Follow']]],

@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d4/d19/classgams_1_1elections_1_1ElectionFactory.html" title="Base class for a election factory. " alt="" coords="5,5,175,47"/>
-<area shape="rect" id="node2" href="$d0/d76/classgams_1_1elections_1_1ElectionPluralityFactory.html" title="Factory for creating ElectionPlurality elections. " alt="" coords="223,5,392,47"/>
+<area shape="rect" id="node1" href="$d4/d19/classgams_1_1elections_1_1ElectionFactory.html" title="Base class for an auction factory. " alt="" coords="5,5,175,47"/>
+<area shape="rect" id="node2" href="$d0/d76/classgams_1_1elections_1_1ElectionPluralityFactory.html" title="Factory for creating plurality elections. " alt="" coords="223,5,392,47"/>
 </map>

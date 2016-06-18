@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['electionbase',['ElectionBase',['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a8a7e343ef331381e658b2504b1b911dc',1,'gams::elections::ElectionBase']]],
+  ['electionbase',['ElectionBase',['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#aeaa0ea3a0cd6c90eec709a79ca9785fa',1,'gams::elections::ElectionBase']]],
   ['electionfactory',['ElectionFactory',['../d4/d19/classgams_1_1elections_1_1ElectionFactory.html#ae3c1ac8b6afbb0719898ca576619763a',1,'gams::elections::ElectionFactory']]],
-  ['electionfactoryrepository',['ElectionFactoryRepository',['../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a7859e3668c35fd82c93e503eeba67fc8',1,'gams::elections::ElectionFactoryRepository']]],
-  ['electionplurality',['ElectionPlurality',['../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#ac29f70eb3362b065e1686e42a208ec1f',1,'gams::elections::ElectionPlurality']]],
+  ['electionfactoryrepository',['ElectionFactoryRepository',['../d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html#a23e87b380db34dff071da00ca7d34984',1,'gams::elections::ElectionFactoryRepository']]],
+  ['electionplurality',['ElectionPlurality',['../d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a6ab30ca248dc987228d4d071cb9c3bec',1,'gams::elections::ElectionPlurality']]],
   ['electionpluralityfactory',['ElectionPluralityFactory',['../d0/d76/classgams_1_1elections_1_1ElectionPluralityFactory.html#a09b544864abaf45a12309a7f68dcfb9c',1,'gams::elections::ElectionPluralityFactory']]],
   ['end',['end',['../dc/d83/classgams_1_1utility_1_1ArgumentParser.html#a3611ff5b2e9a1a86678a57b3749f89d2',1,'gams::utility::ArgumentParser']]],
   ['eular_5fa',['eular_a',['../d0/d43/structgams_1_1utility_1_1euler_1_1detail_1_1EulerFormulas_3_01X_00_01Y_00_01Z_01_4.html#a458b53469e416ae61dd2c96e3d295ef9',1,'gams::utility::euler::detail::EulerFormulas&lt; X, Y, Z &gt;::eular_a()'],['../d1/dbc/structgams_1_1utility_1_1euler_1_1detail_1_1EulerFormulas_3_01Z_00_01Y_00_01X_01_4.html#a42ad7c3e18b79d58c8ef82b4dbf18dc8',1,'gams::utility::euler::detail::EulerFormulas&lt; Z, Y, X &gt;::eular_a()']]],
