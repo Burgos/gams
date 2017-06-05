@@ -19,6 +19,8 @@ var namespacegams_1_1algorithms =
     [ "FormationSyncFactory", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory" ],
     [ "GroupBarrier", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier" ],
     [ "GroupBarrierFactory", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory" ],
+    [ "Home", "da/dce/classgams_1_1algorithms_1_1Home.html", "da/dce/classgams_1_1algorithms_1_1Home" ],
+    [ "HomeFactory", "da/d32/classgams_1_1algorithms_1_1HomeFactory.html", "da/d32/classgams_1_1algorithms_1_1HomeFactory" ],
     [ "JavaAlgorithm", "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html", "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm" ],
     [ "JavaAlgorithmFactory", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory" ],
     [ "KarlEvaluator", "dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html", "dd/d41/classgams_1_1algorithms_1_1KarlEvaluator" ],

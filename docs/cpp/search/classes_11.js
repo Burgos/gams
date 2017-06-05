@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['searcharea',['SearchArea',['../da/d42/classgams_1_1utility_1_1SearchArea.html',1,'gams::utility']]],
-  ['searcharea',['SearchArea',['../d0/d23/classgams_1_1variables_1_1SearchArea.html',1,'gams::variables']]],
-  ['self',['Self',['../d4/d98/classgams_1_1variables_1_1Self.html',1,'gams::variables']]],
-  ['sensor',['Sensor',['../db/d7d/classgams_1_1variables_1_1Sensor.html',1,'gams::variables']]],
-  ['simplerotateframe',['SimpleRotateFrame',['../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html',1,'gams::utility']]],
-  ['snakeareacoverage',['SnakeAreaCoverage',['../d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html',1,'gams::algorithms::area_coverage']]],
-  ['snakeareacoveragefactory',['SnakeAreaCoverageFactory',['../df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html',1,'gams::algorithms::area_coverage']]],
-  ['structuralformation',['StructuralFormation',['../db/d4e/classgams_1_1formations_1_1StructuralFormation.html',1,'gams::formations']]],
-  ['swarm',['Swarm',['../d4/dde/classgams_1_1variables_1_1Swarm.html',1,'gams::variables']]]
+  ['radians_5ft',['radians_t',['../d7/da7/structgams_1_1pose_1_1detail_1_1radians__t.html',1,'gams::pose::detail']]],
+  ['radixless',['RadixLess',['../da/d05/classgams_1_1utility_1_1RadixLess.html',1,'gams::utility']]],
+  ['referenceframe',['ReferenceFrame',['../d3/d24/classgams_1_1pose_1_1ReferenceFrame.html',1,'gams::pose']]],
+  ['region',['Region',['../d1/d5e/classgams_1_1variables_1_1Region.html',1,'gams::variables']]],
+  ['region',['Region',['../da/db7/classgams_1_1utility_1_1Region.html',1,'gams::utility']]],
+  ['revolutions_5ft',['revolutions_t',['../d3/d4d/structgams_1_1pose_1_1detail_1_1revolutions__t.html',1,'gams::pose::detail']]]
 ];

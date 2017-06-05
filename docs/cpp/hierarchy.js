@@ -24,6 +24,7 @@ var hierarchy =
       [ "gams::algorithms::FormationFlyingFactory", "de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html", null ],
       [ "gams::algorithms::FormationSyncFactory", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html", null ],
       [ "gams::algorithms::GroupBarrierFactory", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html", null ],
+      [ "gams::algorithms::HomeFactory", "da/d32/classgams_1_1algorithms_1_1HomeFactory.html", null ],
       [ "gams::algorithms::JavaAlgorithmFactory", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html", null ],
       [ "gams::algorithms::KarlEvaluatorFactory", "d5/d3d/classgams_1_1algorithms_1_1KarlEvaluatorFactory.html", null ],
       [ "gams::algorithms::LandFactory", "d0/d56/classgams_1_1algorithms_1_1LandFactory.html", null ],
@@ -42,11 +43,16 @@ var hierarchy =
     [ "gams::utility::ArgumentParser", "dc/d83/classgams_1_1utility_1_1ArgumentParser.html", null ],
     [ "gams::auctions::AuctionBase", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html", [
       [ "gams::auctions::AuctionMaximumBid", "d9/d5d/classgams_1_1auctions_1_1AuctionMaximumBid.html", null ],
-      [ "gams::auctions::AuctionMinimumBid", "d4/d30/classgams_1_1auctions_1_1AuctionMinimumBid.html", null ]
+      [ "gams::auctions::AuctionMinimumBid", "d4/d30/classgams_1_1auctions_1_1AuctionMinimumBid.html", null ],
+      [ "gams::auctions::AuctionMinimumDistance", "d1/d58/classgams_1_1auctions_1_1AuctionMinimumDistance.html", null ]
     ] ],
+    [ "gams::auctions::AuctionBid", "d2/d37/classgams_1_1auctions_1_1AuctionBid.html", null ],
+    [ "gams::auctions::AuctionBidAscending", "db/d32/classgams_1_1auctions_1_1AuctionBidAscending.html", null ],
+    [ "gams::auctions::AuctionBidDescending", "dc/dc6/classgams_1_1auctions_1_1AuctionBidDescending.html", null ],
     [ "gams::auctions::AuctionFactory", "d9/d5d/classgams_1_1auctions_1_1AuctionFactory.html", [
       [ "gams::auctions::AuctionMaximumBidFactory", "d7/d9b/classgams_1_1auctions_1_1AuctionMaximumBidFactory.html", null ],
-      [ "gams::auctions::AuctionMinimumBidFactory", "d3/de6/classgams_1_1auctions_1_1AuctionMinimumBidFactory.html", null ]
+      [ "gams::auctions::AuctionMinimumBidFactory", "d3/de6/classgams_1_1auctions_1_1AuctionMinimumBidFactory.html", null ],
+      [ "gams::auctions::AuctionMinimumDistanceFactory", "de/d2c/classgams_1_1auctions_1_1AuctionMinimumDistanceFactory.html", null ]
     ] ],
     [ "gams::auctions::AuctionFactoryRepository", "d4/d38/classgams_1_1auctions_1_1AuctionFactoryRepository.html", null ],
     [ "gams::utility::Axes", "d0/db6/classgams_1_1utility_1_1Axes.html", null ],
@@ -70,6 +76,7 @@ var hierarchy =
       [ "gams::algorithms::FormationFlying", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html", null ],
       [ "gams::algorithms::FormationSync", "d3/df5/classgams_1_1algorithms_1_1FormationSync.html", null ],
       [ "gams::algorithms::GroupBarrier", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html", null ],
+      [ "gams::algorithms::Home", "da/dce/classgams_1_1algorithms_1_1Home.html", null ],
       [ "gams::algorithms::JavaAlgorithm", "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html", null ],
       [ "gams::algorithms::KarlEvaluator", "dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html", null ],
       [ "gams::algorithms::Land", "d3/d06/classgams_1_1algorithms_1_1Land.html", null ],
@@ -97,20 +104,19 @@ var hierarchy =
       ] ],
       [ "gams::utility::SearchArea", "da/d42/classgams_1_1utility_1_1SearchArea.html", null ]
     ] ],
-    [ "gams::utility::CoordinateBase", "d0/d20/classgams_1_1utility_1_1CoordinateBase.html", [
-      [ "gams::utility::Coordinate< Location >", "da/deb/classgams_1_1utility_1_1Coordinate.html", [
-        [ "gams::utility::Location", "de/df6/classgams_1_1utility_1_1Location.html", null ]
+    [ "gams::pose::CoordinateBase", "d3/d5c/classgams_1_1pose_1_1CoordinateBase.html", [
+      [ "gams::pose::Coordinate< Orientation >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
+        [ "gams::pose::Orientation", "d4/d22/classgams_1_1pose_1_1Orientation.html", null ]
       ] ],
-      [ "gams::utility::Coordinate< Pose >", "da/deb/classgams_1_1utility_1_1Coordinate.html", [
-        [ "gams::utility::Pose", "dd/d85/classgams_1_1utility_1_1Pose.html", null ]
+      [ "gams::pose::Coordinate< Pose >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
+        [ "gams::pose::Pose", "dd/d61/classgams_1_1pose_1_1Pose.html", null ]
       ] ],
-      [ "gams::utility::Coordinate< Rotation >", "da/deb/classgams_1_1utility_1_1Coordinate.html", [
-        [ "gams::utility::Rotation", "da/da5/classgams_1_1utility_1_1Rotation.html", null ]
+      [ "gams::pose::Coordinate< Position >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
+        [ "gams::pose::Position", "d6/d4a/classgams_1_1pose_1_1Position.html", null ]
       ] ],
-      [ "gams::utility::Coordinate< CoordType >", "da/deb/classgams_1_1utility_1_1Coordinate.html", null ]
+      [ "gams::pose::Coordinate< CoordType >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", null ]
     ] ],
-    [ "gams::utility::euler::detail::degrees_t", "d9/de2/structgams_1_1utility_1_1euler_1_1detail_1_1degrees__t.html", null ],
-    [ "gams::utility::detail::degrees_t", "d4/dfd/structgams_1_1utility_1_1detail_1_1degrees__t.html", null ],
+    [ "gams::pose::detail::degrees_t", "d9/dda/structgams_1_1pose_1_1detail_1_1degrees__t.html", null ],
     [ "gams::elections::ElectionBase", "d9/d61/classgams_1_1elections_1_1ElectionBase.html", [
       [ "gams::elections::ElectionCumulative", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html", null ],
       [ "gams::elections::ElectionPlurality", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html", null ]
@@ -120,24 +126,24 @@ var hierarchy =
       [ "gams::elections::ElectionPluralityFactory", "d0/d76/classgams_1_1elections_1_1ElectionPluralityFactory.html", null ]
     ] ],
     [ "gams::elections::ElectionFactoryRepository", "d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html", null ],
-    [ "gams::utility::euler::Euler< A, B, C, Conv >", "d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html", null ],
-    [ "gams::utility::euler::detail::EulerFormulas< A, B, C >", "dd/d81/structgams_1_1utility_1_1euler_1_1detail_1_1EulerFormulas.html", null ],
-    [ "gams::utility::euler::detail::EulerFormulas< X, Y, Z >", "d0/d43/structgams_1_1utility_1_1euler_1_1detail_1_1EulerFormulas_3_01X_00_01Y_00_01Z_01_4.html", null ],
-    [ "gams::utility::euler::detail::EulerFormulas< Z, Y, X >", "d1/dbc/structgams_1_1utility_1_1euler_1_1detail_1_1EulerFormulas_3_01Z_00_01Y_00_01X_01_4.html", null ],
-    [ "gams::utility::euler::detail::EulerTrigABA", "da/dc9/structgams_1_1utility_1_1euler_1_1detail_1_1EulerTrigABA.html", null ],
-    [ "gams::utility::euler::detail::EulerTrigABC", "db/d30/structgams_1_1utility_1_1euler_1_1detail_1_1EulerTrigABC.html", null ],
+    [ "gams::pose::euler::Euler< A, B, C, Conv >", "d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html", null ],
+    [ "gams::pose::euler::detail::EulerFormulas< A, B, C >", "d1/d48/structgams_1_1pose_1_1euler_1_1detail_1_1EulerFormulas.html", null ],
+    [ "gams::pose::euler::detail::EulerFormulas< X, Y, Z >", "d4/dc1/structgams_1_1pose_1_1euler_1_1detail_1_1EulerFormulas_3_01X_00_01Y_00_01Z_01_4.html", null ],
+    [ "gams::pose::euler::detail::EulerFormulas< Z, Y, X >", "dd/dfa/structgams_1_1pose_1_1euler_1_1detail_1_1EulerFormulas_3_01Z_00_01Y_00_01X_01_4.html", null ],
+    [ "gams::pose::euler::detail::EulerTrigABA", "d5/d09/structgams_1_1pose_1_1euler_1_1detail_1_1EulerTrigABA.html", null ],
+    [ "gams::pose::euler::detail::EulerTrigABC", "d6/d47/structgams_1_1pose_1_1euler_1_1detail_1_1EulerTrigABC.html", null ],
     [ "std::exception", null, [
       [ "std::runtime_error", null, [
-        [ "gams::utility::bad_coord_type< CoordType >", "d1/d2e/classgams_1_1utility_1_1bad__coord__type.html", null ],
-        [ "gams::utility::undefined_transform", "d0/d94/classgams_1_1utility_1_1undefined__transform.html", null ],
-        [ "gams::utility::unrelated_frames", "d5/d1a/classgams_1_1utility_1_1unrelated__frames.html", null ]
+        [ "gams::pose::bad_coord_type< CoordType >", "db/dcf/classgams_1_1pose_1_1bad__coord__type.html", null ],
+        [ "gams::pose::undefined_transform", "dd/ddd/classgams_1_1pose_1_1undefined__transform.html", null ],
+        [ "gams::pose::unrelated_frames", "dc/db8/classgams_1_1pose_1_1unrelated__frames.html", null ]
       ] ]
     ] ],
-    [ "gams::utility::euler::conv::Extr", "d3/dfd/structgams_1_1utility_1_1euler_1_1conv_1_1Extr.html", null ],
-    [ "gams::utility::euler::detail::GetEulerTrig< A, B, C >", "d2/d9c/structgams_1_1utility_1_1euler_1_1detail_1_1GetEulerTrig.html", null ],
-    [ "gams::utility::euler::detail::GetEulerTrig< A, B, A >", "dc/d15/structgams_1_1utility_1_1euler_1_1detail_1_1GetEulerTrig_3_01A_00_01B_00_01A_01_4.html", null ],
-    [ "gams::utility::euler::detail::GetTypes< A, B, C, Conv >", "d6/d25/structgams_1_1utility_1_1euler_1_1detail_1_1GetTypes.html", null ],
-    [ "gams::utility::euler::detail::GetTypes< A, B, C, Extr >", "d0/d16/structgams_1_1utility_1_1euler_1_1detail_1_1GetTypes_3_01A_00_01B_00_01C_00_01Extr_01_4.html", null ],
+    [ "gams::pose::euler::conv::Extr", "d6/d8e/structgams_1_1pose_1_1euler_1_1conv_1_1Extr.html", null ],
+    [ "gams::pose::euler::detail::GetEulerTrig< A, B, C >", "df/d65/structgams_1_1pose_1_1euler_1_1detail_1_1GetEulerTrig.html", null ],
+    [ "gams::pose::euler::detail::GetEulerTrig< A, B, A >", "d6/d4b/structgams_1_1pose_1_1euler_1_1detail_1_1GetEulerTrig_3_01A_00_01B_00_01A_01_4.html", null ],
+    [ "gams::pose::euler::detail::GetTypes< A, B, C, Conv >", "da/d10/structgams_1_1pose_1_1euler_1_1detail_1_1GetTypes.html", null ],
+    [ "gams::pose::euler::detail::GetTypes< A, B, C, Extr >", "d0/da4/structgams_1_1pose_1_1euler_1_1detail_1_1GetTypes_3_01A_00_01B_00_01C_00_01Extr_01_4.html", null ],
     [ "gams::variables::Grid", "de/d94/classgams_1_1variables_1_1Grid.html", null ],
     [ "gams::groups::GroupBase", "da/d36/classgams_1_1groups_1_1GroupBase.html", [
       [ "gams::groups::GroupFixedList", "d4/d23/classgams_1_1groups_1_1GroupFixedList.html", null ],
@@ -148,20 +154,20 @@ var hierarchy =
       [ "gams::groups::GroupTransientFactory", "df/df5/classgams_1_1groups_1_1GroupTransientFactory.html", null ]
     ] ],
     [ "gams::groups::GroupFactoryRepository", "db/dd0/classgams_1_1groups_1_1GroupFactoryRepository.html", null ],
-    [ "gams::utility::euler::conv::Intr", "df/dba/structgams_1_1utility_1_1euler_1_1conv_1_1Intr.html", null ],
+    [ "gams::pose::euler::conv::Intr", "d2/d41/structgams_1_1pose_1_1euler_1_1conv_1_1Intr.html", null ],
     [ "iterator", null, [
       [ "gams::utility::ArgumentParser::my_iterator< map_iterator >", "d4/d48/classgams_1_1utility_1_1ArgumentParser_1_1my__iterator.html", null ]
-    ] ],
-    [ "gams::utility::LocationVector", "d8/d57/classgams_1_1utility_1_1LocationVector.html", [
-      [ "gams::utility::Location", "de/df6/classgams_1_1utility_1_1Location.html", null ],
-      [ "gams::utility::PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html", [
-        [ "gams::utility::Pose", "dd/d85/classgams_1_1utility_1_1Pose.html", null ]
-      ] ]
     ] ],
     [ "gams::controllers::MapeLoop", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html", null ],
     [ "gams::algorithms::MessageProfiling::MessageFilter::MessageData", "d4/d3a/structgams_1_1algorithms_1_1MessageProfiling_1_1MessageFilter_1_1MessageData.html", null ],
     [ "gams::controllers::Multicontroller", "db/d65/classgams_1_1controllers_1_1Multicontroller.html", null ],
-    [ "gams::utility::order::Order< i0_, i1_, i2_ >", "d5/d82/classgams_1_1utility_1_1order_1_1Order.html", null ],
+    [ "gams::pose::order::Order< i0_, i1_, i2_ >", "d7/d12/classgams_1_1pose_1_1order_1_1Order.html", null ],
+    [ "gams::pose::OrientationVector", "db/d73/classgams_1_1pose_1_1OrientationVector.html", [
+      [ "gams::pose::Orientation", "d4/d22/classgams_1_1pose_1_1Orientation.html", null ],
+      [ "gams::pose::PoseVector", "dc/ddd/classgams_1_1pose_1_1PoseVector.html", [
+        [ "gams::pose::Pose", "dd/d61/classgams_1_1pose_1_1Pose.html", null ]
+      ] ]
+    ] ],
     [ "onion::placement", "da/d1a/structonion_1_1placement.html", null ],
     [ "gams::platforms::PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html", [
       [ "gams::platforms::DebugPlatformFactory", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html", null ],
@@ -173,29 +179,27 @@ var hierarchy =
     [ "gams::utility::Position", "df/d4e/classgams_1_1utility_1_1Position.html", [
       [ "gams::utility::GPSPosition", "da/d5e/classgams_1_1utility_1_1GPSPosition.html", null ]
     ] ],
-    [ "gams::utility::Quaternion", "db/d2d/classgams_1_1utility_1_1Quaternion.html", null ],
-    [ "gams::utility::detail::radians_t", "d7/d40/structgams_1_1utility_1_1detail_1_1radians__t.html", null ],
-    [ "gams::utility::euler::detail::radians_t", "da/d49/structgams_1_1utility_1_1euler_1_1detail_1_1radians__t.html", null ],
+    [ "gams::pose::PositionVector", "db/ddd/classgams_1_1pose_1_1PositionVector.html", [
+      [ "gams::pose::PoseVector", "dc/ddd/classgams_1_1pose_1_1PoseVector.html", null ],
+      [ "gams::pose::Position", "d6/d4a/classgams_1_1pose_1_1Position.html", null ]
+    ] ],
+    [ "gams::pose::Quaternion", "d6/d13/classgams_1_1pose_1_1Quaternion.html", null ],
+    [ "gams::pose::detail::radians_t", "d7/da7/structgams_1_1pose_1_1detail_1_1radians__t.html", null ],
     [ "gams::utility::RadixLess", "da/d05/classgams_1_1utility_1_1RadixLess.html", null ],
-    [ "gams::utility::ReferenceFrame", "d0/d25/classgams_1_1utility_1_1ReferenceFrame.html", [
-      [ "gams::utility::SimpleRotateFrame", "dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html", [
-        [ "gams::utility::CartesianFrame", "de/d60/classgams_1_1utility_1_1CartesianFrame.html", null ],
-        [ "gams::utility::GPSFrame", "da/d07/classgams_1_1utility_1_1GPSFrame.html", null ]
+    [ "gams::pose::ReferenceFrame", "d3/d24/classgams_1_1pose_1_1ReferenceFrame.html", [
+      [ "gams::pose::SimpleRotateFrame", "d6/dd3/classgams_1_1pose_1_1SimpleRotateFrame.html", [
+        [ "gams::pose::CartesianFrame", "d8/d85/classgams_1_1pose_1_1CartesianFrame.html", null ],
+        [ "gams::pose::GPSFrame", "d9/d26/classgams_1_1pose_1_1GPSFrame.html", null ]
       ] ]
     ] ],
     [ "gams::variables::Region", "d1/d5e/classgams_1_1variables_1_1Region.html", null ],
-    [ "gams::utility::euler::detail::revolutions_t", "dd/d93/structgams_1_1utility_1_1euler_1_1detail_1_1revolutions__t.html", null ],
-    [ "gams::utility::detail::revolutions_t", "df/db3/structgams_1_1utility_1_1detail_1_1revolutions__t.html", null ],
-    [ "gams::utility::RotationVector", "d4/d0d/classgams_1_1utility_1_1RotationVector.html", [
-      [ "gams::utility::PoseVector", "d6/de9/classgams_1_1utility_1_1PoseVector.html", null ],
-      [ "gams::utility::Rotation", "da/da5/classgams_1_1utility_1_1Rotation.html", null ]
-    ] ],
+    [ "gams::pose::detail::revolutions_t", "d3/d4d/structgams_1_1pose_1_1detail_1_1revolutions__t.html", null ],
     [ "gams::variables::SearchArea", "d0/d23/classgams_1_1variables_1_1SearchArea.html", null ],
     [ "gams::variables::Self", "d4/d98/classgams_1_1variables_1_1Self.html", null ],
     [ "gams::variables::Sensor", "db/d7d/classgams_1_1variables_1_1Sensor.html", null ],
     [ "gams::formations::StructuralFormation", "db/d4e/classgams_1_1formations_1_1StructuralFormation.html", null ],
     [ "gams::variables::Swarm", "d4/dde/classgams_1_1variables_1_1Swarm.html", null ],
-    [ "gams::utility::euler::conv::X", "db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html", null ],
-    [ "gams::utility::euler::conv::Y", "d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html", null ],
-    [ "gams::utility::euler::conv::Z", "dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html", null ]
+    [ "gams::pose::euler::conv::X", "d8/d65/structgams_1_1pose_1_1euler_1_1conv_1_1X.html", null ],
+    [ "gams::pose::euler::conv::Y", "df/d6a/structgams_1_1pose_1_1euler_1_1conv_1_1Y.html", null ],
+    [ "gams::pose::euler::conv::Z", "d4/d6c/structgams_1_1pose_1_1euler_1_1conv_1_1Z.html", null ]
 ];

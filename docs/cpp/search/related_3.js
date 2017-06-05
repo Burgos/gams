@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['referenceframe',['ReferenceFrame',['../d8/d57/classgams_1_1utility_1_1LocationVector.html#abe4227ec1bb3904d86a85e2874cad16d',1,'gams::utility::LocationVector::ReferenceFrame()'],['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#abe4227ec1bb3904d86a85e2874cad16d',1,'gams::utility::RotationVector::ReferenceFrame()']]]
+  ['referenceframe',['ReferenceFrame',['../db/d73/classgams_1_1pose_1_1OrientationVector.html#abe4227ec1bb3904d86a85e2874cad16d',1,'gams::pose::OrientationVector::ReferenceFrame()'],['../db/ddd/classgams_1_1pose_1_1PositionVector.html#abe4227ec1bb3904d86a85e2874cad16d',1,'gams::pose::PositionVector::ReferenceFrame()']]]
 ];

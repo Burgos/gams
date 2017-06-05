@@ -12,7 +12,7 @@ var classgams_1_1utility_1_1LocationVector =
     [ "as_vec", "d8/d57/classgams_1_1utility_1_1LocationVector.html#a4d026a626f504f9f4cc9cf2f579bc69b", null ],
     [ "as_vec", "d8/d57/classgams_1_1utility_1_1LocationVector.html#a27c4d960834910875a5c0f543b0396c7", null ],
     [ "get", "d8/d57/classgams_1_1utility_1_1LocationVector.html#a97d3e0862f05f26a2c2c00a2f594c16e", null ],
-    [ "is_invalid", "d8/d57/classgams_1_1utility_1_1LocationVector.html#a7377249ad872e0b7941d5a319cafff61", null ],
+    [ "is_set", "d8/d57/classgams_1_1utility_1_1LocationVector.html#a9227efa1ea7a72be376e8fa05f015017", null ],
     [ "is_zero", "d8/d57/classgams_1_1utility_1_1LocationVector.html#aaf104c57f135151db2e73ca4f19578e5", null ],
     [ "lat", "d8/d57/classgams_1_1utility_1_1LocationVector.html#a061a56b45b9b09053880a063616ff533", null ],
     [ "lat", "d8/d57/classgams_1_1utility_1_1LocationVector.html#a5991caafcbcbdd8cd16dba9835a96ab0", null ],

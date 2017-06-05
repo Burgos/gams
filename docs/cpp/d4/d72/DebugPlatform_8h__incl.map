@@ -1,37 +1,51 @@
 <map id="src/gams/platforms/DebugPlatform.h" name="src/gams/platforms/DebugPlatform.h">
-<area shape="rect" id="node4" href="$da/d3d/Self_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="331,401,477,427"/>
-<area shape="rect" id="node24" href="$d5/d65/Sensor_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2706,244,2870,271"/>
-<area shape="rect" id="node25" href="$df/d53/GPSPosition_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3605,565,3784,591"/>
-<area shape="rect" id="node35" href="$da/d37/PlatformStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1529,401,1738,427"/>
-<area shape="rect" id="node36" href="$d4/de8/BasePlatform_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3527,169,3731,196"/>
-<area shape="rect" id="node60" href="$d1/d58/PlatformFactory_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1388,95,1607,121"/>
-<area shape="rect" id="node5" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="2025,825,2172,852"/>
-<area shape="rect" id="node7" href="$da/da5/Agent_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1307,483,1373,509"/>
-<area shape="rect" id="node15" href="$d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1227,565,1339,591"/>
-<area shape="rect" id="node16" href="$d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="1885,565,2062,591"/>
-<area shape="rect" id="node18" href="$d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="2262,654,2399,681"/>
-<area shape="rect" id="node19" href="$d4/d83/GroupBase_8inl.html" title="GroupBase.inl" alt="" coords="1781,654,1885,681"/>
-<area shape="rect" id="node20" href="$d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="83,743,274,770"/>
-<area shape="rect" id="node27" href="$de/dff/Position_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3437,654,3517,681"/>
-<area shape="rect" id="node28" href="$d6/d1b/utility_2SearchArea_8h.html" title="gams/utility/SearchArea.h" alt="" coords="2861,319,3033,345"/>
-<area shape="rect" id="node29" href="$d9/d98/PrioritizedRegion_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3257,393,3407,435"/>
-<area shape="rect" id="node33" href="$d2/db0/SearchArea_8inl.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="2800,401,2907,427"/>
-<area shape="rect" id="node30" href="$da/d9f/utility_2Region_8h.html" title="gams/utility/Region.h" alt="" coords="3260,483,3404,509"/>
-<area shape="rect" id="node32" href="$dd/df2/Containerize_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2011,654,2187,681"/>
-<area shape="rect" id="node37" href="$d3/d6e/Axes_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3593,654,3727,681"/>
-<area shape="rect" id="node38" href="$dc/dba/GPSFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4062,244,4231,271"/>
-<area shape="rect" id="node42" href="$d7/db5/Pose_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4351,565,4414,591"/>
-<area shape="rect" id="node44" href="$d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4859,654,5013,681"/>
-<area shape="rect" id="node59" href="$d5/d38/BasePlatform_8inl.html" title="BasePlatform.inl" alt="" coords="3667,244,3784,271"/>
-<area shape="rect" id="node39" href="$dc/d49/ReferenceFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4167,401,4295,427"/>
-<area shape="rect" id="node58" href="$d6/dd0/GPSFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4095,319,4199,345"/>
-<area shape="rect" id="node40" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="4603,825,4763,852"/>
-<area shape="rect" id="node57" href="$d4/d05/ReferenceFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4265,483,4399,509"/>
-<area shape="rect" id="node52" href="$d0/d8f/Rotation_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4307,654,4459,681"/>
-<area shape="rect" id="node56" href="$d0/d33/Pose_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4213,654,4283,681"/>
-<area shape="rect" id="node45" href="$d6/df6/Coordinate_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4721,743,4887,770"/>
-<area shape="rect" id="node51" href="$df/d2b/Location_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5023,743,5111,770"/>
-<area shape="rect" id="node48" href="$de/d36/Coordinate_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4941,825,5043,852"/>
-<area shape="rect" id="node54" href="$d6/d2a/AngleUnits_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4245,743,4341,770"/>
-<area shape="rect" id="node55" href="$d8/d6e/Rotation_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4911,743,4998,770"/>
+<area shape="rect" id="node4" href="$da/d3d/Self_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="489,699,634,726"/>
+<area shape="rect" id="node24" href="$d5/d65/Sensor_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2531,543,2695,569"/>
+<area shape="rect" id="node25" href="$df/d53/GPSPosition_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3651,863,3829,890"/>
+<area shape="rect" id="node35" href="$da/d37/PlatformStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1630,699,1839,726"/>
+<area shape="rect" id="node36" href="$d4/de8/BasePlatform_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3613,169,3817,196"/>
+<area shape="rect" id="node71" href="$d1/d58/PlatformFactory_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1441,95,1660,121"/>
+<area shape="rect" id="node72" href="$d3/d86/utility_2CartesianFrame_8h.html" title="gams/utility/CartesianFrame.h" alt="" coords="4550,169,4746,196"/>
+<area shape="rect" id="node5" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="2501,1124,2648,1151"/>
+<area shape="rect" id="node7" href="$da/da5/Agent_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1192,781,1259,808"/>
+<area shape="rect" id="node15" href="$d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1123,863,1235,890"/>
+<area shape="rect" id="node16" href="$d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="1986,863,2163,890"/>
+<area shape="rect" id="node18" href="$d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="2113,953,2250,979"/>
+<area shape="rect" id="node19" href="$d4/d83/GroupBase_8inl.html" title="GroupBase.inl" alt="" coords="1832,953,1936,979"/>
+<area shape="rect" id="node20" href="$d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="83,1042,274,1069"/>
+<area shape="rect" id="node27" href="$da/d39/utility_2Position_8h.html" title="Position.h" alt="" coords="3648,953,3728,979"/>
+<area shape="rect" id="node28" href="$d6/d1b/utility_2SearchArea_8h.html" title="gams/utility/SearchArea.h" alt="" coords="2909,617,3081,644"/>
+<area shape="rect" id="node29" href="$d9/d98/PrioritizedRegion_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3327,692,3478,733"/>
+<area shape="rect" id="node33" href="$d2/db0/SearchArea_8inl.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="2941,699,3048,726"/>
+<area shape="rect" id="node30" href="$da/d9f/utility_2Region_8h.html" title="gams/utility/Region.h" alt="" coords="3331,781,3475,808"/>
+<area shape="rect" id="node32" href="$dd/df2/Containerize_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2984,953,3160,979"/>
+<area shape="rect" id="node37" href="$d3/d6e/Axes_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3438,953,3573,979"/>
+<area shape="rect" id="node38" href="$de/d6a/utility_2ReferenceFrame_8h.html" title="gams/utility/ReferenceFrame.h" alt="" coords="4549,244,4747,271"/>
+<area shape="rect" id="node58" href="$dd/d60/utility_2Pose_8h.html" title="gams/utility/Pose.h" alt="" coords="4581,319,4715,345"/>
+<area shape="rect" id="node59" href="$d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4678,393,4831,420"/>
+<area shape="rect" id="node70" href="$d5/d38/BasePlatform_8inl.html" title="BasePlatform.inl" alt="" coords="3955,319,4072,345"/>
+<area shape="rect" id="node39" href="$d5/df8/pose_2ReferenceFrame_8h.html" title="gams/pose/ReferenceFrame.h" alt="" coords="4994,699,5190,726"/>
+<area shape="rect" id="node40" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="4899,1124,5059,1151"/>
+<area shape="rect" id="node42" href="$d3/db6/pose_2Pose_8h.html" title="Pose.h" alt="" coords="5045,863,5107,890"/>
+<area shape="rect" id="node57" href="$d4/d05/ReferenceFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5009,781,5143,808"/>
+<area shape="rect" id="node44" href="$dc/d98/pose_2Position_8h.html" title="gams/pose/Position.h" alt="" coords="4862,953,5010,979"/>
+<area shape="rect" id="node52" href="$d2/df7/pose_2Orientation_8h.html" title="gams/pose/Orientation.h" alt="" coords="4411,953,4575,979"/>
+<area shape="rect" id="node56" href="$d0/d33/Pose_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="5249,953,5319,979"/>
+<area shape="rect" id="node45" href="$df/d28/pose_2Coordinate_8h.html" title="gams/pose/Coordinate.h" alt="" coords="4613,1042,4776,1069"/>
+<area shape="rect" id="node51" href="$d8/d85/Position_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4978,1042,5065,1069"/>
+<area shape="rect" id="node48" href="$de/d36/Coordinate_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4765,1124,4867,1151"/>
+<area shape="rect" id="node54" href="$d1/d19/pose_2AngleUnits_8h.html" title="AngleUnits.h" alt="" coords="4139,1042,4235,1069"/>
+<area shape="rect" id="node55" href="$d4/d70/Orientation_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4851,1042,4954,1069"/>
+<area shape="rect" id="node61" href="$d1/d54/utility_2Orientation_8h.html" title="gams/utility/Orientation.h" alt="" coords="4458,393,4625,420"/>
+<area shape="rect" id="node60" href="$de/dc3/utility_2Coordinate_8h.html" title="gams/utility/Coordinate.h" alt="" coords="4701,468,4867,495"/>
+<area shape="rect" id="node62" href="$d3/d13/utility_2AngleUnits_8h.html" title="gams/utility/AngleUnits.h" alt="" coords="4458,617,4625,644"/>
+<area shape="rect" id="node63" href="$d7/d25/utility_2Quaternion_8h.html" title="gams/utility/Quaternion.h" alt="" coords="4458,468,4625,495"/>
+<area shape="rect" id="node66" href="$d8/d3f/utility_2Euler_8h.html" title="gams/utility/Euler.h" alt="" coords="4341,543,4475,569"/>
+<area shape="rect" id="node64" href="$dd/d35/pose_2Quaternion_8h.html" title="gams/pose/Quaternion.h" alt="" coords="4531,781,4695,808"/>
+<area shape="rect" id="node65" href="$da/db5/Quaternion_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4542,863,4645,890"/>
+<area shape="rect" id="node67" href="$d8/d07/pose_2Euler_8h.html" title="gams/pose/Euler.h" alt="" coords="4267,617,4397,644"/>
+<area shape="rect" id="node68" href="$dc/d42/EulerFormulas_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4334,699,4525,726"/>
+<area shape="rect" id="node69" href="$d3/dd6/Euler_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="4208,781,4277,808"/>
+<area shape="rect" id="node73" href="$d9/dbb/pose_2CartesianFrame_8h.html" title="gams/pose/CartesianFrame.h" alt="" coords="5045,543,5238,569"/>
+<area shape="rect" id="node74" href="$d5/d42/CartesianFrame_8inl.html" title="CartesianFrame.inl" alt="" coords="5044,617,5175,644"/>
 </map>

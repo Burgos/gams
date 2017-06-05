@@ -1,9 +1,13 @@
 <map id="src/gams/auctions/AuctionBase.inl" name="src/gams/auctions/AuctionBase.inl">
-<area shape="rect" id="node2" href="$d4/d3d/AuctionBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="338,95,445,121"/>
-<area shape="rect" id="node14" href="$d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="974,341,1164,367"/>
-<area shape="rect" id="node8" href="$dc/dd8/AuctionTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="106,259,253,285"/>
-<area shape="rect" id="node9" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="672,423,818,449"/>
-<area shape="rect" id="node11" href="$d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="491,177,668,203"/>
-<area shape="rect" id="node12" href="$d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="430,259,567,285"/>
-<area shape="rect" id="node13" href="$d4/d83/GroupBase_8inl.html" title="GroupBase.inl" alt="" coords="794,259,898,285"/>
+<area shape="rect" id="node2" href="$d4/d3d/AuctionBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="814,95,921,121"/>
+<area shape="rect" id="node14" href="$d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="1452,505,1643,531"/>
+<area shape="rect" id="node8" href="$dc/dd8/AuctionTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="1221,423,1367,449"/>
+<area shape="rect" id="node9" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="834,587,981,613"/>
+<area shape="rect" id="node11" href="$d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="887,348,1064,375"/>
+<area shape="rect" id="node18" href="$d2/d49/GroupFixedList_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="767,177,967,203"/>
+<area shape="rect" id="node21" href="$da/d98/AuctionBid_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="189,423,375,449"/>
+<area shape="rect" id="node12" href="$d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="907,423,1044,449"/>
+<area shape="rect" id="node13" href="$d4/d83/GroupBase_8inl.html" title="GroupBase.inl" alt="" coords="1442,423,1546,449"/>
+<area shape="rect" id="node20" href="$d6/d33/GroupFactory_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="722,266,834,293"/>
+<area shape="rect" id="node23" href="$d2/d98/AuctionBid_8inl.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="28,505,131,531"/>
 </map>

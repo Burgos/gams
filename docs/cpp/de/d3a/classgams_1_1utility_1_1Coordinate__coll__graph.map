@@ -1,9 +1,9 @@
 <map id="gams::utility::Coordinate&lt; CoordType &gt;" name="gams::utility::Coordinate&lt; CoordType &gt;">
-<area shape="rect" id="node2" href="$d0/d20/classgams_1_1utility_1_1CoordinateBase.html" title="For internal use. " alt="" coords="5,5,199,32"/>
-<area shape="rect" id="node8" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="139,81,302,123"/>
-<area shape="rect" id="node3" href="$d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="111,275,269,316"/>
-<area shape="rect" id="node4" href="$dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="279,185,410,212"/>
-<area shape="rect" id="node5" href="$d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="327,89,496,115"/>
-<area shape="rect" id="node6" href="$d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="269,5,457,32"/>
-<area shape="rect" id="node7" href="$d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="482,5,669,32"/>
+<area shape="rect" id="node2" href="$d0/d20/classgams_1_1utility_1_1CoordinateBase.html" title="For internal use. " alt="" coords="5,13,199,39"/>
+<area shape="rect" id="node8" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="139,96,302,137"/>
+<area shape="rect" id="node3" href="$d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="111,289,269,331"/>
+<area shape="rect" id="node4" href="$dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. " alt="" coords="279,200,410,227"/>
+<area shape="rect" id="node5" href="$d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="327,103,496,130"/>
+<area shape="rect" id="node6" href="$d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="269,13,457,39"/>
+<area shape="rect" id="node7" href="$d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="481,5,645,47"/>
 </map>

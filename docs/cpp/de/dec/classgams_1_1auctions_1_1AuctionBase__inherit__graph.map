@@ -1,4 +1,5 @@
 <map id="gams::auctions::AuctionBase" name="gams::auctions::AuctionBase">
-<area shape="rect" id="node2" href="$d9/d5d/classgams_1_1auctions_1_1AuctionMaximumBid.html" title="An auction where the winner is the highest bidder. " alt="" coords="5,80,244,107"/>
-<area shape="rect" id="node3" href="$d4/d30/classgams_1_1auctions_1_1AuctionMinimumBid.html" title="An auction where the winner is the lowest bidder. " alt="" coords="269,80,503,107"/>
+<area shape="rect" id="node2" href="$d9/d5d/classgams_1_1auctions_1_1AuctionMaximumBid.html" title="An auction where the winner is the highest bidder. " alt="" coords="247,5,485,32"/>
+<area shape="rect" id="node3" href="$d4/d30/classgams_1_1auctions_1_1AuctionMinimumBid.html" title="An auction where the winner is the lowest bidder. " alt="" coords="249,56,483,83"/>
+<area shape="rect" id="node4" href="$d1/d58/classgams_1_1auctions_1_1AuctionMinimumDistance.html" title="An auction where the winner is the closest agent to a location. " alt="" coords="258,107,474,149"/>
 </map>

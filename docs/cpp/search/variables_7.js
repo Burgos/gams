@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['had_5fvalid_5fdest_5forientation_5f',['had_valid_dest_orientation_',['../d9/d7a/classgams_1_1algorithms_1_1Follow.html#a49e3fb15c6d069704086c9c9035c57e6',1,'gams::algorithms::Follow']]],
   ['head_5f',['head_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#ac30602c6cf79cf6e261ddfeb494207c0',1,'gams::algorithms::FormationFlying']]],
   ['head_5falgo_5f',['head_algo_',['../d7/da5/classgams_1_1algorithms_1_1FormationCoverage.html#aca1eac9e64641ff3f6b7970d558eb03e',1,'gams::algorithms::FormationCoverage']]],
   ['head_5fdestination_5f',['head_destination_',['../d7/da5/classgams_1_1algorithms_1_1FormationCoverage.html#aae644b52af65703697de280001657ddb',1,'gams::algorithms::FormationCoverage::head_destination_()'],['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a19f519b25057e35427b5b6dfa142811a',1,'gams::algorithms::FormationFlying::head_destination_()']]],

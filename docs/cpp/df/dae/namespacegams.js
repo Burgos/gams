@@ -7,6 +7,7 @@ var namespacegams =
     [ "formations", "d3/df7/namespacegams_1_1formations.html", "d3/df7/namespacegams_1_1formations" ],
     [ "groups", "d4/da6/namespacegams_1_1groups.html", "d4/da6/namespacegams_1_1groups" ],
     [ "platforms", "d2/dd3/namespacegams_1_1platforms.html", "d2/dd3/namespacegams_1_1platforms" ],
+    [ "pose", "d3/d79/namespacegams_1_1pose.html", "d3/d79/namespacegams_1_1pose" ],
     [ "utility", "da/d4b/namespacegams_1_1utility.html", "da/d4b/namespacegams_1_1utility" ],
     [ "variables", "d8/df1/namespacegams_1_1variables.html", "d8/df1/namespacegams_1_1variables" ]
 ];

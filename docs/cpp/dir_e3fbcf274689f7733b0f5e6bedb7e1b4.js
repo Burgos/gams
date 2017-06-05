@@ -5,6 +5,9 @@ var dir_e3fbcf274689f7733b0f5e6bedb7e1b4 =
       [ "AuctionBase", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html", "d1/d10/classgams_1_1auctions_1_1AuctionBase" ]
     ] ],
     [ "AuctionBase.inl", "d7/d97/AuctionBase_8inl.html", "d7/d97/AuctionBase_8inl" ],
+    [ "AuctionBid.cpp", "d7/daa/AuctionBid_8cpp.html", null ],
+    [ "AuctionBid.h", "da/d98/AuctionBid_8h.html", "da/d98/AuctionBid_8h" ],
+    [ "AuctionBid.inl", "d2/d98/AuctionBid_8inl.html", "d2/d98/AuctionBid_8inl" ],
     [ "AuctionFactory.cpp", "d7/d9d/AuctionFactory_8cpp.html", null ],
     [ "AuctionFactory.h", "de/dd9/AuctionFactory_8h.html", [
       [ "AuctionFactory", "d9/d5d/classgams_1_1auctions_1_1AuctionFactory.html", "d9/d5d/classgams_1_1auctions_1_1AuctionFactory" ]
@@ -21,6 +24,11 @@ var dir_e3fbcf274689f7733b0f5e6bedb7e1b4 =
     [ "AuctionMinimumBid.h", "d0/df4/AuctionMinimumBid_8h.html", [
       [ "AuctionMinimumBid", "d4/d30/classgams_1_1auctions_1_1AuctionMinimumBid.html", "d4/d30/classgams_1_1auctions_1_1AuctionMinimumBid" ],
       [ "AuctionMinimumBidFactory", "d3/de6/classgams_1_1auctions_1_1AuctionMinimumBidFactory.html", "d3/de6/classgams_1_1auctions_1_1AuctionMinimumBidFactory" ]
+    ] ],
+    [ "AuctionMinimumDistance.cpp", "df/d1c/AuctionMinimumDistance_8cpp.html", null ],
+    [ "AuctionMinimumDistance.h", "d5/db5/AuctionMinimumDistance_8h.html", [
+      [ "AuctionMinimumDistance", "d1/d58/classgams_1_1auctions_1_1AuctionMinimumDistance.html", "d1/d58/classgams_1_1auctions_1_1AuctionMinimumDistance" ],
+      [ "AuctionMinimumDistanceFactory", "de/d2c/classgams_1_1auctions_1_1AuctionMinimumDistanceFactory.html", "de/d2c/classgams_1_1auctions_1_1AuctionMinimumDistanceFactory" ]
     ] ],
     [ "AuctionTypesEnum.h", "dc/dd8/AuctionTypesEnum_8h.html", "dc/dd8/AuctionTypesEnum_8h" ]
 ];

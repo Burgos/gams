@@ -1,7 +1,7 @@
 var ReferenceFrame_8inl =
 [
-    [ "_GAMS_UTILITY_REFERENCE_FRAME_INL_", "d4/d05/ReferenceFrame_8inl.html#a27e6f2e9d87db9b10fdd2b62e3bb027a", null ],
-    [ "operator<<", "d4/d05/ReferenceFrame_8inl.html#a7f6adf3bf3718b4482d02d3f3356ca26", null ],
-    [ "operator<<", "d4/d05/ReferenceFrame_8inl.html#ae8d1a195779d1bf8ed0886fef38f4d69", null ],
-    [ "operator<<", "d4/d05/ReferenceFrame_8inl.html#a8aed5ce1bf5d9ff664e95ff64f6ee1d8", null ]
+    [ "_GAMS_POSE_REFERENCE_FRAME_INL_", "d4/d05/ReferenceFrame_8inl.html#aa39c128d34da58269ac3310927ae16e4", null ],
+    [ "operator<<", "d4/d05/ReferenceFrame_8inl.html#a8b61898cc4b8539a68daf2514e87449c", null ],
+    [ "operator<<", "d4/d05/ReferenceFrame_8inl.html#a284bdf2daef39ee8be3b20737c5e23b2", null ],
+    [ "operator<<", "d4/d05/ReferenceFrame_8inl.html#a067385f259749e46d52bf9c8840f44d3", null ]
 ];

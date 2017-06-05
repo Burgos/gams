@@ -10,6 +10,7 @@ var searchData=
   ['algorithmnames',['AlgorithmNames',['../d8/df1/namespacegams_1_1variables.html#ad8febcc2b25d22941393028ff07bead3',1,'gams::variables']]],
   ['algorithms',['Algorithms',['../d3/d47/namespacegams_1_1algorithms.html#aec4c8ea87f3a71f860a36ecd37a94790',1,'gams::algorithms::Algorithms()'],['../d8/df1/namespacegams_1_1variables.html#a2d836308e272cc8ca1f5243174e54942',1,'gams::variables::Algorithms()']]],
   ['algorithmstatuses',['AlgorithmStatuses',['../d8/df1/namespacegams_1_1variables.html#afea4afb5b61c49dbf99b2f932e3cb6e1',1,'gams::variables']]],
+  ['auctionbids',['AuctionBids',['../d3/dfe/namespacegams_1_1auctions.html#a0ae17614fcf2b9034c7c5090791a6f21',1,'gams::auctions']]],
   ['auctionfactorymap',['AuctionFactoryMap',['../d3/dfe/namespacegams_1_1auctions.html#aec2fea29c8d02d9b692dbf01890c3a7e',1,'gams::auctions']]],
   ['auctiontype',['AuctionType',['../d3/dfe/namespacegams_1_1auctions.html#a4a61aa56ff5e46bdead203da43e80085',1,'gams::auctions']]]
 ];

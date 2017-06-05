@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['platform',['Platform',['../d8/df1/namespacegams_1_1variables.html#a2d8258607a8f1ccba9b817874bcbc679',1,'gams::variables']]],
-  ['platformnames',['PlatformNames',['../d8/df1/namespacegams_1_1variables.html#a1573a14e32ab71689eba74ddda97e6b1',1,'gams::variables']]],
-  ['platforms',['Platforms',['../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f',1,'gams::variables']]],
-  ['platformstatuses',['PlatformStatuses',['../d8/df1/namespacegams_1_1variables.html#a905310afe0c364648e75d04b6cd19adb',1,'gams::variables']]],
-  ['positions',['Positions',['../da/d4b/namespacegams_1_1utility.html#a7c0a9c81e2015d8892801cb3e095257e',1,'gams::utility']]]
+  ['order',['Order',['../d0/d14/namespacegams_1_1utility_1_1order.html#ac43e8fcc23450c9a5f4aeaf62956e38d',1,'gams::utility::order']]],
+  ['orientation',['Orientation',['../da/d4b/namespacegams_1_1utility.html#a2a00efe18f79f7bcfd03a412c1a5d2e0',1,'gams::utility']]],
+  ['orientationvector',['OrientationVector',['../da/d4b/namespacegams_1_1utility.html#a35e96d95e01ed21dce40f077ebcfe2e0',1,'gams::utility']]]
 ];

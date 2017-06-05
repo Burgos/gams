@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['bad_5fcoord_5ftype',['bad_coord_type',['../d1/d2e/classgams_1_1utility_1_1bad__coord__type.html',1,'gams::utility']]],
+  ['bad_5fcoord_5ftype',['bad_coord_type',['../db/dcf/classgams_1_1pose_1_1bad__coord__type.html',1,'gams::pose']]],
   ['basealgorithm',['BaseAlgorithm',['../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html',1,'gams::algorithms']]],
   ['baseareacoverage',['BaseAreaCoverage',['../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html',1,'gams::algorithms::area_coverage']]],
   ['basecontroller',['BaseController',['../df/d21/classgams_1_1controllers_1_1BaseController.html',1,'gams::controllers']]],

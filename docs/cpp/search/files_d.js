@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['quaternion_2eh',['Quaternion.h',['../d1/d4a/Quaternion_8h.html',1,'']]],
-  ['quaternion_2einl',['Quaternion.inl',['../da/db5/Quaternion_8inl.html',1,'']]]
+  ['orientation_2ecpp',['Orientation.cpp',['../d2/df6/Orientation_8cpp.html',1,'']]],
+  ['orientation_2eh',['Orientation.h',['../d2/df7/pose_2Orientation_8h.html',1,'']]],
+  ['orientation_2eh',['Orientation.h',['../d1/d54/utility_2Orientation_8h.html',1,'']]],
+  ['orientation_2einl',['Orientation.inl',['../d4/d70/Orientation_8inl.html',1,'']]]
 ];

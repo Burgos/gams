@@ -1,4 +1,6 @@
 <map id="gams::auctions::AuctionBase" name="gams::auctions::AuctionBase">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="62,96,142,123"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="39,5,165,47"/>
+<area shape="rect" id="node2" href="$d4/d23/classgams_1_1groups_1_1GroupFixedList.html" title="A fixed list of agent members. " alt="" coords="95,289,293,316"/>
+<area shape="rect" id="node3" href="$da/d36/classgams_1_1groups_1_1GroupBase.html" title="Base class for a group of agents. " alt="" coords="96,185,271,212"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="143,96,223,123"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="120,5,247,47"/>
 </map>

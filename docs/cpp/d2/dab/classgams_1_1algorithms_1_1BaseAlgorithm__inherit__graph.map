@@ -7,17 +7,18 @@
 <area shape="rect" id="node16" href="$d9/df9/classgams_1_1algorithms_1_1FormationFlying.html" title="An algorithm for moving in formation. " alt="" coords="285,545,473,586"/>
 <area shape="rect" id="node17" href="$d3/df5/classgams_1_1algorithms_1_1FormationSync.html" title="An algorithm for covering an area in formation with a synchronous model of computation. " alt="" coords="270,611,489,637"/>
 <area shape="rect" id="node18" href="$d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html" title="An algorithm for covering an area in formation with a synchronous model of computation. " alt="" coords="278,661,481,688"/>
-<area shape="rect" id="node19" href="$d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html" title="A facade for Java algorithms. " alt="" coords="274,712,485,739"/>
-<area shape="rect" id="node20" href="$dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html" title="An algorithm capable of executing other algorithms. " alt="" coords="276,763,483,789"/>
-<area shape="rect" id="node21" href="$d3/d06/classgams_1_1algorithms_1_1Land.html" title="An algorithm for landing. " alt="" coords="300,813,459,840"/>
-<area shape="rect" id="node22" href="$d2/d64/classgams_1_1algorithms_1_1MessageProfiling.html" title="An algorithm for profiling message generation and receipt. " alt="" coords="288,865,471,906"/>
-<area shape="rect" id="node23" href="$d2/d4c/classgams_1_1algorithms_1_1Move.html" title="An algorithm for moving to a location. " alt="" coords="299,931,459,957"/>
-<area shape="rect" id="node24" href="$dd/de4/classgams_1_1algorithms_1_1NullAlgorithm.html" title="An algorithm that performs no&#45;ops for all methods. " alt="" coords="276,981,483,1008"/>
-<area shape="rect" id="node25" href="$dc/d12/classgams_1_1algorithms_1_1PerformanceProfiling.html" title="An algorithm for testing computational speed. " alt="" coords="278,1033,481,1074"/>
-<area shape="rect" id="node26" href="$d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html" title="An algorithm for patrolling a region. " alt="" coords="286,1098,473,1139"/>
-<area shape="rect" id="node27" href="$dd/dce/classgams_1_1algorithms_1_1Takeoff.html" title="An algorithm for taking off. " alt="" coords="294,1164,465,1191"/>
-<area shape="rect" id="node28" href="$d9/d6f/classgams_1_1algorithms_1_1Wait.html" title="An algorithm for waiting. " alt="" coords="301,1215,458,1241"/>
-<area shape="rect" id="node29" href="$da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html" title="An algorithm for covering an area in formation with a synchronous model of computation. " alt="" coords="274,1265,485,1292"/>
+<area shape="rect" id="node19" href="$da/dce/classgams_1_1algorithms_1_1Home.html" title="An algorithm for taking off. " alt="" coords="297,712,461,739"/>
+<area shape="rect" id="node20" href="$d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html" title="A facade for Java algorithms. " alt="" coords="274,763,485,789"/>
+<area shape="rect" id="node21" href="$dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html" title="An algorithm capable of executing other algorithms. " alt="" coords="276,813,483,840"/>
+<area shape="rect" id="node22" href="$d3/d06/classgams_1_1algorithms_1_1Land.html" title="An algorithm for landing. " alt="" coords="300,864,459,891"/>
+<area shape="rect" id="node23" href="$d2/d64/classgams_1_1algorithms_1_1MessageProfiling.html" title="An algorithm for profiling message generation and receipt. " alt="" coords="288,915,471,957"/>
+<area shape="rect" id="node24" href="$d2/d4c/classgams_1_1algorithms_1_1Move.html" title="An algorithm for moving to a location. " alt="" coords="299,981,459,1008"/>
+<area shape="rect" id="node25" href="$dd/de4/classgams_1_1algorithms_1_1NullAlgorithm.html" title="An algorithm that performs no&#45;ops for all methods. " alt="" coords="276,1032,483,1059"/>
+<area shape="rect" id="node26" href="$dc/d12/classgams_1_1algorithms_1_1PerformanceProfiling.html" title="An algorithm for testing computational speed. " alt="" coords="278,1083,481,1125"/>
+<area shape="rect" id="node27" href="$d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html" title="An algorithm for patrolling a region. " alt="" coords="286,1149,473,1190"/>
+<area shape="rect" id="node28" href="$dd/dce/classgams_1_1algorithms_1_1Takeoff.html" title="An algorithm for taking off. " alt="" coords="294,1215,465,1241"/>
+<area shape="rect" id="node29" href="$d9/d6f/classgams_1_1algorithms_1_1Wait.html" title="An algorithm for waiting. " alt="" coords="301,1265,458,1292"/>
+<area shape="rect" id="node30" href="$da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html" title="An algorithm for covering an area in formation with a synchronous model of computation. " alt="" coords="274,1316,485,1343"/>
 <area shape="rect" id="node3" href="$d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html" title="gams::algorithms::area\l_coverage::LocalPheremoneArea\lCoverage" alt="" coords="549,5,761,61"/>
 <area shape="rect" id="node4" href="$db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html" title="gams::algorithms::area\l_coverage::MinTimeAreaCoverage" alt="" coords="546,86,763,127"/>
 <area shape="rect" id="node6" href="$d4/de8/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolCoverage.html" title="gams::algorithms::area\l_coverage::PerimeterPatrolCoverage" alt="" coords="539,151,770,193"/>

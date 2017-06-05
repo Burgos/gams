@@ -1,8 +1,8 @@
 <map id="gams::utility::Pose" name="gams::utility::Pose">
 <area shape="rect" id="node7" href="$d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="683,25,841,66"/>
 <area shape="rect" id="node2" href="$d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="243,69,412,96"/>
-<area shape="rect" id="node3" href="$d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="5,44,193,71"/>
-<area shape="rect" id="node4" href="$d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="6,95,193,121"/>
+<area shape="rect" id="node3" href="$d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="5,40,193,67"/>
+<area shape="rect" id="node4" href="$d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="17,91,181,133"/>
 <area shape="rect" id="node5" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="1221,33,1384,74"/>
 <area shape="rect" id="node6" href="$d0/d20/classgams_1_1utility_1_1CoordinateBase.html" title="For internal use. " alt="" coords="979,40,1172,67"/>
 </map>

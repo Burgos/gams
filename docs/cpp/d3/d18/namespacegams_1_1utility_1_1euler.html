@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.11</span>
    </div>
   </td>
  </tr>
@@ -106,9 +106,7 @@ $(document).ready(function(){initNavTree('d3/d18/namespacegams_1_1utility_1_1eul
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">gams::utility::euler Namespace Reference</div>  </div>
 </div><!--header-->
@@ -117,60 +115,103 @@ $(document).ready(function(){initNavTree('d3/d18/namespacegams_1_1utility_1_1eul
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html">conv</a></td></tr>
-<tr class="memdesc:d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv"><td class="mdescLeft">&#160;</td><td class="mdescRight">This namespace holds type tags used by the <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> class template to specify a <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> convention. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d0/d00/namespacegams_1_1utility_1_1euler_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d00/namespacegams_1_1utility_1_1euler_1_1detail.html">detail</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class template for representing an angle in <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> notation.  <a href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv"><td class="mdescLeft">&#160;</td><td class="mdescRight">This namespace holds type tags used by the Euler class template to specify a Euler convention. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a49b93d37ce709bc296c89d908c93b1a3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt; <a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>, <a class="el" href="../../d3/dfd/structgams_1_1utility_1_1euler_1_1conv_1_1Extr.html">conv::Extr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a49b93d37ce709bc296c89d908c93b1a3">EulerExtrXYZ</a></td></tr>
+<tr class="memitem:a928540b8a9d2fbd78e64bd6d5c1a32f9"><td class="memTemplParams" colspan="2">template&lt;typename A , typename B , typename C , typename Conv  = conv::Intr&gt; </td></tr>
+<tr class="memitem:a928540b8a9d2fbd78e64bd6d5c1a32f9"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a> = <a class="el" href="../../d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html">gams::pose::euler::Euler</a>&lt; A, B, C, Conv &gt;</td></tr>
+<tr class="memdesc:a928540b8a9d2fbd78e64bd6d5c1a32f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class template for representing an angle in Euler notation.  <a href="#a928540b8a9d2fbd78e64bd6d5c1a32f9">More...</a><br /></td></tr>
+<tr class="separator:a928540b8a9d2fbd78e64bd6d5c1a32f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49b93d37ce709bc296c89d908c93b1a3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt; <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a9d22a3dd4e9e7c784965a47e44e86dea">conv::Extr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a49b93d37ce709bc296c89d908c93b1a3">EulerExtrXYZ</a></td></tr>
 <tr class="separator:a49b93d37ce709bc296c89d908c93b1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab84e3bd73152e4556c77470c915a3a69"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt; <a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>, <a class="el" href="../../d3/dfd/structgams_1_1utility_1_1euler_1_1conv_1_1Extr.html">conv::Extr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ab84e3bd73152e4556c77470c915a3a69">EulerExtrZYX</a></td></tr>
+<tr class="memitem:a71849f7a61c93d40ecbfc6459fadc551"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt; <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a9d22a3dd4e9e7c784965a47e44e86dea">conv::Extr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a71849f7a61c93d40ecbfc6459fadc551">EulerExtrYXZ</a></td></tr>
+<tr class="separator:a71849f7a61c93d40ecbfc6459fadc551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab84e3bd73152e4556c77470c915a3a69"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt; <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a9d22a3dd4e9e7c784965a47e44e86dea">conv::Extr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ab84e3bd73152e4556c77470c915a3a69">EulerExtrZYX</a></td></tr>
 <tr class="separator:ab84e3bd73152e4556c77470c915a3a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad89c7ea4e046cf5b01eb49298b7fa7d3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt; <a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>, <a class="el" href="../../df/dba/structgams_1_1utility_1_1euler_1_1conv_1_1Intr.html">conv::Intr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ad89c7ea4e046cf5b01eb49298b7fa7d3">EulerIntrXYZ</a></td></tr>
+<tr class="memitem:ad89c7ea4e046cf5b01eb49298b7fa7d3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt; <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a0ab9298fc6aaae2fd85984688f28c251">conv::Intr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ad89c7ea4e046cf5b01eb49298b7fa7d3">EulerIntrXYZ</a></td></tr>
 <tr class="separator:ad89c7ea4e046cf5b01eb49298b7fa7d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d5b3cdf478d8aec69315f5be4667833"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt; <a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>, <a class="el" href="../../df/dba/structgams_1_1utility_1_1euler_1_1conv_1_1Intr.html">conv::Intr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a4d5b3cdf478d8aec69315f5be4667833">EulerIntrZYX</a></td></tr>
+<tr class="memitem:a20e4ac87d7d46daeece14d2eed7ddfda"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt; <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a0ab9298fc6aaae2fd85984688f28c251">conv::Intr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a20e4ac87d7d46daeece14d2eed7ddfda">EulerIntrYXZ</a></td></tr>
+<tr class="separator:a20e4ac87d7d46daeece14d2eed7ddfda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d5b3cdf478d8aec69315f5be4667833"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt; <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a0ab9298fc6aaae2fd85984688f28c251">conv::Intr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a4d5b3cdf478d8aec69315f5be4667833">EulerIntrZYX</a></td></tr>
 <tr class="separator:a4d5b3cdf478d8aec69315f5be4667833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3d6d5ca0c87d9aa09588cfaafcf5171"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ad89c7ea4e046cf5b01eb49298b7fa7d3">EulerIntrXYZ</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ad3d6d5ca0c87d9aa09588cfaafcf5171">EulerVREP</a></td></tr>
-<tr class="memdesc:ad3d6d5ca0c87d9aa09588cfaafcf5171"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> convention used by VREP.  <a href="#ad3d6d5ca0c87d9aa09588cfaafcf5171">More...</a><br /></td></tr>
+<tr class="memdesc:ad3d6d5ca0c87d9aa09588cfaafcf5171"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Euler convention used by VREP.  <a href="#ad3d6d5ca0c87d9aa09588cfaafcf5171">More...</a><br /></td></tr>
 <tr class="separator:ad3d6d5ca0c87d9aa09588cfaafcf5171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7d161e8101703e8002d798894211683"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt; <a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#aa7d161e8101703e8002d798894211683">EulerXYZ</a></td></tr>
+<tr class="memitem:aa7d161e8101703e8002d798894211683"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt; <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#aa7d161e8101703e8002d798894211683">EulerXYZ</a></td></tr>
 <tr class="separator:aa7d161e8101703e8002d798894211683"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf83d737c51d3f3a52a23e4f2afd54ed"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a4d5b3cdf478d8aec69315f5be4667833">EulerIntrZYX</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#aaf83d737c51d3f3a52a23e4f2afd54ed">EulerYPR</a></td></tr>
-<tr class="memdesc:aaf83d737c51d3f3a52a23e4f2afd54ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">The most commonly used <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> convention: Yaw-Pitch-Roll.  <a href="#aaf83d737c51d3f3a52a23e4f2afd54ed">More...</a><br /></td></tr>
+<tr class="memdesc:aaf83d737c51d3f3a52a23e4f2afd54ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">A commonly used Euler convention: Yaw-Pitch-Roll.  <a href="#aaf83d737c51d3f3a52a23e4f2afd54ed">More...</a><br /></td></tr>
 <tr class="separator:aaf83d737c51d3f3a52a23e4f2afd54ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55f01a0a5a1ad604669d4ce2f2129315"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt; <a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a55f01a0a5a1ad604669d4ce2f2129315">EulerZYX</a></td></tr>
+<tr class="memitem:a045f20b98ed1e5496716d8d49a84bf29"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt; <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a045f20b98ed1e5496716d8d49a84bf29">EulerYXZ</a></td></tr>
+<tr class="separator:a045f20b98ed1e5496716d8d49a84bf29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f01a0a5a1ad604669d4ce2f2129315"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt; <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a55f01a0a5a1ad604669d4ce2f2129315">EulerZYX</a></td></tr>
 <tr class="separator:a55f01a0a5a1ad604669d4ce2f2129315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a2634e9196d124a7c73c9e60cefebdb"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a49b93d37ce709bc296c89d908c93b1a3">EulerExtrXYZ</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a2a2634e9196d124a7c73c9e60cefebdb">RollPitchYaw</a></td></tr>
+<tr class="memdesc:a2a2634e9196d124a7c73c9e60cefebdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The most common vernacular usage of roll, pitch and yaw.  <a href="#a2a2634e9196d124a7c73c9e60cefebdb">More...</a><br /></td></tr>
+<tr class="separator:a2a2634e9196d124a7c73c9e60cefebdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a379e9a1d2d61ffc96b6fe78216dac7f3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#aaf83d737c51d3f3a52a23e4f2afd54ed">EulerYPR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a379e9a1d2d61ffc96b6fe78216dac7f3">YawPitchRoll</a></td></tr>
-<tr class="memdesc:a379e9a1d2d61ffc96b6fe78216dac7f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The most commonly used <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> convention: Yaw-Pitch-Roll.  <a href="#a379e9a1d2d61ffc96b6fe78216dac7f3">More...</a><br /></td></tr>
+<tr class="memdesc:a379e9a1d2d61ffc96b6fe78216dac7f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">A commonly used Euler convention: Yaw-Pitch-Roll.  <a href="#a379e9a1d2d61ffc96b6fe78216dac7f3">More...</a><br /></td></tr>
 <tr class="separator:a379e9a1d2d61ffc96b6fe78216dac7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ae3b17e42af278e15b1d954f3481163a1"><td class="memTemplParams" colspan="2">template&lt;typename A , typename B , typename C , typename Conv &gt; </td></tr>
-<tr class="memitem:ae3b17e42af278e15b1d954f3481163a1"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ae3b17e42af278e15b1d954f3481163a1">operator&lt;&lt;</a> (std::ostream &amp;o, const <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt; A, B, C, Conv &gt; &amp;e)</td></tr>
-<tr class="memdesc:ae3b17e42af278e15b1d954f3481163a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream operator for <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> angles.  <a href="#ae3b17e42af278e15b1d954f3481163a1">More...</a><br /></td></tr>
-<tr class="separator:ae3b17e42af278e15b1d954f3481163a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a928540b8a9d2fbd78e64bd6d5c1a32f9"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename A , typename B , typename C , typename Conv  = conv::Intr&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">gams::utility::euler::Euler</a> = typedef <a class="el" href="../../d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html">gams::pose::euler::Euler</a>&lt;A, B, C, Conv&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Class template for representing an angle in Euler notation. </p>
+<p>Euler notation represents an angle as a sequence of orientations about axes applied in an order. The order of orientations, and whether they are applied to axes that follow the object as it orients, or stay fixed throughout, are the Euler convention. The template parameters of this class template specify the convention, using type tags from the "conv" namespace.</p>
+<p>There are typedefs for all supported conventions provided for convenience. In particular, EulerVREP, and YawPitchRoll may be of most common utility.</p>
+<p>Each convention requires specific support in the code. See <a class="el" href="../../dc/d42/EulerFormulas_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. ">EulerFormulas.inl</a> for implementation details. If you use an unsupported convention, you will get a compile time error.</p>
+<p>Avoid manipulating angles in this notation. It is better to convert to a Quaternion (or Orientation) and back, than to try to directly manipulate a Euler angle.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">A</td><td>the first axis of orientation </td></tr>
+    <tr><td class="paramname">B</td><td>the second axis of orientation </td></tr>
+    <tr><td class="paramname">C</td><td>the third axis of orientation </td></tr>
+    <tr><td class="paramname">Conv</td><td>whether to use Extrinsic (<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a9d22a3dd4e9e7c784965a47e44e86dea">conv::Extr</a>) or Intrisic (<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a0ab9298fc6aaae2fd85984688f28c251">conv::Intr</a>) orientations in this convention. Default is Intr </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00122">122</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a49b93d37ce709bc296c89d908c93b1a3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt;<a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>, <a class="el" href="../../d3/dfd/structgams_1_1utility_1_1euler_1_1conv_1_1Extr.html">conv::Extr</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a49b93d37ce709bc296c89d908c93b1a3">gams::utility::euler::EulerExtrXYZ</a></td>
+          <td class="memname">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt;<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a9d22a3dd4e9e7c784965a47e44e86dea">conv::Extr</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a49b93d37ce709bc296c89d908c93b1a3">gams::utility::euler::EulerExtrXYZ</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d43/Euler_8h_source.html#l00262">262</a> of file <a class="el" href="../../df/d43/Euler_8h_source.html">Euler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00128">128</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a71849f7a61c93d40ecbfc6459fadc551"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt;<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a9d22a3dd4e9e7c784965a47e44e86dea">conv::Extr</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a71849f7a61c93d40ecbfc6459fadc551">gams::utility::euler::EulerExtrYXZ</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00129">129</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
 
 </div>
 </div>
@@ -179,12 +220,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt;<a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>, <a class="el" href="../../d3/dfd/structgams_1_1utility_1_1euler_1_1conv_1_1Extr.html">conv::Extr</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ab84e3bd73152e4556c77470c915a3a69">gams::utility::euler::EulerExtrZYX</a></td>
+          <td class="memname">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt;<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a9d22a3dd4e9e7c784965a47e44e86dea">conv::Extr</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ab84e3bd73152e4556c77470c915a3a69">gams::utility::euler::EulerExtrZYX</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d43/Euler_8h_source.html#l00265">265</a> of file <a class="el" href="../../df/d43/Euler_8h_source.html">Euler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00132">132</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
 
 </div>
 </div>
@@ -193,12 +234,26 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt;<a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>, <a class="el" href="../../df/dba/structgams_1_1utility_1_1euler_1_1conv_1_1Intr.html">conv::Intr</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ad89c7ea4e046cf5b01eb49298b7fa7d3">gams::utility::euler::EulerIntrXYZ</a></td>
+          <td class="memname">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt;<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a0ab9298fc6aaae2fd85984688f28c251">conv::Intr</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#ad89c7ea4e046cf5b01eb49298b7fa7d3">gams::utility::euler::EulerIntrXYZ</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d43/Euler_8h_source.html#l00261">261</a> of file <a class="el" href="../../df/d43/Euler_8h_source.html">Euler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00126">126</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a20e4ac87d7d46daeece14d2eed7ddfda"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt;<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a0ab9298fc6aaae2fd85984688f28c251">conv::Intr</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a20e4ac87d7d46daeece14d2eed7ddfda">gams::utility::euler::EulerIntrYXZ</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00127">127</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
 
 </div>
 </div>
@@ -207,12 +262,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt;<a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>, <a class="el" href="../../df/dba/structgams_1_1utility_1_1euler_1_1conv_1_1Intr.html">conv::Intr</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a4d5b3cdf478d8aec69315f5be4667833">gams::utility::euler::EulerIntrZYX</a></td>
+          <td class="memname">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt;<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a0ab9298fc6aaae2fd85984688f28c251">conv::Intr</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a4d5b3cdf478d8aec69315f5be4667833">gams::utility::euler::EulerIntrZYX</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d43/Euler_8h_source.html#l00264">264</a> of file <a class="el" href="../../df/d43/Euler_8h_source.html">Euler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00131">131</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
 
 </div>
 </div>
@@ -226,9 +281,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> convention used by VREP. </p>
+<p>The Euler convention used by VREP. </p>
 
-<p>Definition at line <a class="el" href="../../df/d43/Euler_8h_source.html#l00268">268</a> of file <a class="el" href="../../df/d43/Euler_8h_source.html">Euler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00135">135</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
 
 </div>
 </div>
@@ -237,12 +292,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt;<a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#aa7d161e8101703e8002d798894211683">gams::utility::euler::EulerXYZ</a></td>
+          <td class="memname">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt;<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#aa7d161e8101703e8002d798894211683">gams::utility::euler::EulerXYZ</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d43/Euler_8h_source.html#l00260">260</a> of file <a class="el" href="../../df/d43/Euler_8h_source.html">Euler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00124">124</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
 
 </div>
 </div>
@@ -256,9 +311,23 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The most commonly used <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> convention: Yaw-Pitch-Roll. </p>
+<p>A commonly used Euler convention: Yaw-Pitch-Roll. </p>
 
-<p>Definition at line <a class="el" href="../../df/d43/Euler_8h_source.html#l00271">271</a> of file <a class="el" href="../../df/d43/Euler_8h_source.html">Euler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00138">138</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a045f20b98ed1e5496716d8d49a84bf29"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt;<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a045f20b98ed1e5496716d8d49a84bf29">gams::utility::euler::EulerYXZ</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00125">125</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
 
 </div>
 </div>
@@ -267,12 +336,28 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt;<a class="el" href="../../dd/d49/structgams_1_1utility_1_1euler_1_1conv_1_1Z.html">conv::Z</a>, <a class="el" href="../../d1/d8d/structgams_1_1utility_1_1euler_1_1conv_1_1Y.html">conv::Y</a>, <a class="el" href="../../db/d53/structgams_1_1utility_1_1euler_1_1conv_1_1X.html">conv::X</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a55f01a0a5a1ad604669d4ce2f2129315">gams::utility::euler::EulerZYX</a></td>
+          <td class="memname">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a928540b8a9d2fbd78e64bd6d5c1a32f9">Euler</a>&lt;<a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a036d7e1d07d675cf47bbada6ad854954">conv::Z</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#ad3b447f0ca7d70a54490016619206c93">conv::Y</a>, <a class="el" href="../../d0/d9d/namespacegams_1_1utility_1_1euler_1_1conv.html#a274878da6f02d18b45a74590eeb4597e">conv::X</a>&gt; <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a55f01a0a5a1ad604669d4ce2f2129315">gams::utility::euler::EulerZYX</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d43/Euler_8h_source.html#l00263">263</a> of file <a class="el" href="../../df/d43/Euler_8h_source.html">Euler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00130">130</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2a2634e9196d124a7c73c9e60cefebdb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a49b93d37ce709bc296c89d908c93b1a3">EulerExtrXYZ</a> <a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html#a2a2634e9196d124a7c73c9e60cefebdb">gams::utility::euler::RollPitchYaw</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The most common vernacular usage of roll, pitch and yaw. </p>
+
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00144">144</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
 
 </div>
 </div>
@@ -286,50 +371,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The most commonly used <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> convention: Yaw-Pitch-Roll. </p>
+<p>A commonly used Euler convention: Yaw-Pitch-Roll. </p>
 
-<p>Definition at line <a class="el" href="../../df/d43/Euler_8h_source.html#l00274">274</a> of file <a class="el" href="../../df/d43/Euler_8h_source.html">Euler.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ae3b17e42af278e15b1d954f3481163a1"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename A , typename B , typename C , typename Conv &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream &amp; gams::utility::euler::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>o</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html">Euler</a>&lt; A, B, C, Conv &gt; &amp;&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Stream operator for <a class="el" href="../../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html" title="Class template for representing an angle in Euler notation. ">Euler</a> angles. </p>
-
-<p>Definition at line <a class="el" href="../../d3/dd6/Euler_8inl_source.html#l00132">132</a> of file <a class="el" href="../../d3/dd6/Euler_8inl_source.html">Euler.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html#l00141">141</a> of file <a class="el" href="../../d8/d3f/utility_2Euler_8h_source.html">Euler.h</a>.</p>
 
 </div>
 </div>
@@ -339,7 +383,7 @@ template&lt;typename A , typename B , typename C , typename Conv &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html">euler</a></li>
-    <li class="footer">Generated on Sat Jun 18 2016 15:37:44 for GAMS by
+    <li class="footer">Generated on Mon Jun 5 2017 09:20:21 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

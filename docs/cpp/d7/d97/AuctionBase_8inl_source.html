@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.11</span>
    </div>
   </td>
  </tr>
@@ -144,39 +144,47 @@ $(document).ready(function(){initNavTree('d7/d97/AuctionBase_8inl_source.html','
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">if</span> (knowledge_ &amp;&amp; auction_prefix_ != <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  {</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    std::stringstream buffer;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    buffer &lt;&lt; auction_prefix_;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    buffer &lt;&lt; <span class="stringliteral">&quot;.&quot;</span>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    buffer &lt;&lt; round_;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    bids_.set_name (buffer.str (), *knowledge_);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  }</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a571e87af6c95e69b8d71d6277a965594">   91</a></span>&#160;<a class="code" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a571e87af6c95e69b8d71d6277a965594">gams::auctions::AuctionBase::bid</a> (</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">madara::knowledge::KnowledgeRecord</a> &amp; amount)</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  bid (agent_prefix_, amount);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    bids_.set_name (get_auction_round_prefix (), *knowledge_);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">inline</span> std::string</div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a0bb92224a167f04dd16a6fadb84893c3">   87</a></span>&#160;<a class="code" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a0bb92224a167f04dd16a6fadb84893c3">gams::auctions::AuctionBase::get_auction_round_prefix</a> (<span class="keywordtype">void</span>)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  std::stringstream buffer;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  buffer &lt;&lt; auction_prefix_;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  buffer &lt;&lt; <span class="stringliteral">&quot;.&quot;</span>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  buffer &lt;&lt; round_;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordflow">return</span> buffer.str ();</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#endif // _GAMS_AUCTIONS_AUCTION_BASE_INL_</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a571e87af6c95e69b8d71d6277a965594">   98</a></span>&#160;<a class="code" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a571e87af6c95e69b8d71d6277a965594">gams::auctions::AuctionBase::bid</a> (</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="keyword">const</span> <a class="code" href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">madara::knowledge::KnowledgeRecord</a> &amp; amount)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  bid (agent_prefix_, amount);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#endif // _GAMS_AUCTIONS_AUCTION_BASE_INL_</span></div>
 <div class="ttc" id="AuctionBase_8h_html"><div class="ttname"><a href="../../d4/d3d/AuctionBase_8h.html">AuctionBase.h</a></div><div class="ttdoc">Copyright (c) 2016 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_aedfeb0204537b6eee5889ed7de307097"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#aedfeb0204537b6eee5889ed7de307097">gams::auctions::AuctionBase::get_round</a></div><div class="ttdeci">int get_round(void) const </div><div class="ttdoc">Retrieves the round number, usually in a multi-round auction. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d97/AuctionBase_8inl_source.html#l00054">AuctionBase.inl:54</a></div></div>
 <div class="ttc" id="Executor_8cpp_html_ab81cfab508380f12dfb849a4915dde6d"><div class="ttname"><a href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">KnowledgeRecord</a></div><div class="ttdeci">knowledge::KnowledgeRecord KnowledgeRecord</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/Executor_8cpp_source.html#l00067">Executor.cpp:67</a></div></div>
 <div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_a605912b39cc82aa55da886610c14dd72"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a605912b39cc82aa55da886610c14dd72">gams::auctions::AuctionBase::set_agent_prefix</a></div><div class="ttdeci">virtual void set_agent_prefix(const std::string &amp;prefix)</div><div class="ttdoc">Sets the prefix for the current bidding agent. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d97/AuctionBase_8inl_source.html#l00066">AuctionBase.inl:66</a></div></div>
 <div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_a30596b14eff956c6e54eb2cbe0ecf3e6"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a30596b14eff956c6e54eb2cbe0ecf3e6">gams::auctions::AuctionBase::get_agent_prefix</a></div><div class="ttdeci">const std::string &amp; get_agent_prefix(void) const </div><div class="ttdoc">Gets the prefix for the current agent. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d97/AuctionBase_8inl_source.html#l00060">AuctionBase.inl:60</a></div></div>
-<div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_a28a017726e9246787abe35c1d59342e7"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a28a017726e9246787abe35c1d59342e7">gams::auctions::AuctionBase::round_</a></div><div class="ttdeci">int round_</div><div class="ttdoc">the auction round in a multi-round auction </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3d/AuctionBase_8h_source.html#l00228">AuctionBase.h:228</a></div></div>
+<div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_a28a017726e9246787abe35c1d59342e7"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a28a017726e9246787abe35c1d59342e7">gams::auctions::AuctionBase::round_</a></div><div class="ttdeci">int round_</div><div class="ttdoc">the auction round in a multi-round auction </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3d/AuctionBase_8h_source.html#l00265">AuctionBase.h:265</a></div></div>
 <div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_aa31b32c73305250be1634b07fe2f2bd8"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#aa31b32c73305250be1634b07fe2f2bd8">gams::auctions::AuctionBase::get_auction_prefix</a></div><div class="ttdeci">const std::string &amp; get_auction_prefix(void) const </div><div class="ttdoc">Gets the prefix for the auction in the knowledge base. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d97/AuctionBase_8inl_source.html#l00072">AuctionBase.inl:72</a></div></div>
 <div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_afc8326e3229ddae054d85523d0e62a2e"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#afc8326e3229ddae054d85523d0e62a2e">gams::auctions::AuctionBase::reset_bids_pointer</a></div><div class="ttdeci">void reset_bids_pointer(void)</div><div class="ttdoc">calls a reset on the bids_ location in the knowledge base using auction_prefix_ + "...</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d97/AuctionBase_8inl_source.html#l00078">AuctionBase.inl:78</a></div></div>
 <div class="ttc" id="GlobalLogger_8h_html"><div class="ttname"><a href="../../d9/ddd/GlobalLogger_8h.html">GlobalLogger.h</a></div></div>
-<div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_a571e87af6c95e69b8d71d6277a965594"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a571e87af6c95e69b8d71d6277a965594">gams::auctions::AuctionBase::bid</a></div><div class="ttdeci">void bid(const madara::knowledge::KnowledgeRecord &amp;amount)</div><div class="ttdoc">Bids in the auction. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d97/AuctionBase_8inl_source.html#l00091">AuctionBase.inl:91</a></div></div>
+<div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_a571e87af6c95e69b8d71d6277a965594"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a571e87af6c95e69b8d71d6277a965594">gams::auctions::AuctionBase::bid</a></div><div class="ttdeci">void bid(const madara::knowledge::KnowledgeRecord &amp;amount)</div><div class="ttdoc">Bids in the auction. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d97/AuctionBase_8inl_source.html#l00098">AuctionBase.inl:98</a></div></div>
+<div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_a0bb92224a167f04dd16a6fadb84893c3"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a0bb92224a167f04dd16a6fadb84893c3">gams::auctions::AuctionBase::get_auction_round_prefix</a></div><div class="ttdeci">std::string get_auction_round_prefix(void) const </div><div class="ttdoc">Returns the full auction prefix string, including round. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d97/AuctionBase_8inl_source.html#l00087">AuctionBase.inl:87</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_e3fbcf274689f7733b0f5e6bedb7e1b4.html">auctions</a></li><li class="navelem"><a class="el" href="../../d7/d97/AuctionBase_8inl.html">AuctionBase.inl</a></li>
-    <li class="footer">Generated on Sat Jun 18 2016 15:37:37 for GAMS by
+    <li class="footer">Generated on Mon Jun 5 2017 09:20:13 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

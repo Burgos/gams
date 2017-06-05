@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.10</span>
    </div>
   </td>
  </tr>
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('de/d60/classgams_1_1utility_1_1Cartesi
 </div><!--header-->
 <div class="contents">
 
-<p>Locations represented as meters distance, in x, y, and z, from an origin Rotations represented in Axis Angle notation.  
+<p>Locations represented as meters distance, in x, y, and z, from an origin Orientations represented in Axis Angle notation.  
  <a href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../dc/d28/CartesianFrame_8h_source.html">CartesianFrame.h</a>&gt;</code></p>
@@ -133,7 +133,7 @@ Collaboration diagram for gams::utility::CartesianFrame:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/dae/classgams_1_1utility_1_1CartesianFrame__coll__graph.png" border="0" usemap="#gams_1_1utility_1_1CartesianFrame_coll__map" alt="Collaboration graph"/></div>
 <map name="gams_1_1utility_1_1CartesianFrame_coll__map" id="gams_1_1utility_1_1CartesianFrame_coll__map">
-<area shape="rect" id="node2" href="../../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html" title="For internal use. " alt="" coords="309,5,487,47"/><area shape="rect" id="node3" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="5,89,164,131"/><area shape="rect" id="node8" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="589,119,751,160"/><area shape="rect" id="node9" href="../../d0/d20/classgams_1_1utility_1_1CoordinateBase.html" title="For internal use. " alt="" coords="301,134,495,161"/><area shape="rect" id="node4" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="804,185,935,211"/><area shape="rect" id="node5" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="585,235,755,262"/><area shape="rect" id="node6" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="304,235,492,262"/><area shape="rect" id="node7" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="305,286,491,313"/></map>
+<area shape="rect" id="node2" href="../../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html" title="For internal use. " alt="" coords="309,5,487,47"/><area shape="rect" id="node3" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="5,89,164,131"/><area shape="rect" id="node8" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="589,119,751,160"/><area shape="rect" id="node9" href="../../d0/d20/classgams_1_1utility_1_1CoordinateBase.html" title="For internal use. " alt="" coords="301,134,495,161"/><area shape="rect" id="node4" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. " alt="" coords="804,185,935,211"/><area shape="rect" id="node5" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="585,235,755,262"/><area shape="rect" id="node6" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="304,235,492,262"/><area shape="rect" id="node7" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="316,287,480,328"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -142,20 +142,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abc7f807dbf4b4ebfe06a4cc51749d944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#abc7f807dbf4b4ebfe06a4cc51749d944">More...</a><br /></td></tr>
 <tr class="separator:abc7f807dbf4b4ebfe06a4cc51749d944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a928ad4140f79471e2a39a85e40944559"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a928ad4140f79471e2a39a85e40944559">CartesianFrame</a> (const <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> &amp;<a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#ac6a52ea4718decd42729fb55ae038119">origin</a>)</td></tr>
-<tr class="memdesc:a928ad4140f79471e2a39a85e40944559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of the origin <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> passed in.  <a href="#a928ad4140f79471e2a39a85e40944559">More...</a><br /></td></tr>
+<tr class="memdesc:a928ad4140f79471e2a39a85e40944559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of the origin <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> passed in.  <a href="#a928ad4140f79471e2a39a85e40944559">More...</a><br /></td></tr>
 <tr class="separator:a928ad4140f79471e2a39a85e40944559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd2d405e987e86631d0bd5fdcb373612"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#abd2d405e987e86631d0bd5fdcb373612">CartesianFrame</a> (<a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> *<a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#ac6a52ea4718decd42729fb55ae038119">origin</a>)</td></tr>
-<tr class="memdesc:abd2d405e987e86631d0bd5fdcb373612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses an existing <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> as origin, and maintains a pointer to it.  <a href="#abd2d405e987e86631d0bd5fdcb373612">More...</a><br /></td></tr>
+<tr class="memdesc:abd2d405e987e86631d0bd5fdcb373612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses an existing <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> as origin, and maintains a pointer to it.  <a href="#abd2d405e987e86631d0bd5fdcb373612">More...</a><br /></td></tr>
 <tr class="separator:abd2d405e987e86631d0bd5fdcb373612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5877c606904992551e3e29e9b5a37ee5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a5877c606904992551e3e29e9b5a37ee5">bind_origin</a> (const <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> *new_origin)</td></tr>
-<tr class="memdesc:a5877c606904992551e3e29e9b5a37ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind this frame's origin to a <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>.  <a href="#a5877c606904992551e3e29e9b5a37ee5">More...</a><br /></td></tr>
+<tr class="memdesc:a5877c606904992551e3e29e9b5a37ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind this frame's origin to a <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>.  <a href="#a5877c606904992551e3e29e9b5a37ee5">More...</a><br /></td></tr>
 <tr class="separator:a5877c606904992551e3e29e9b5a37ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a557739574785fa136df4117762652d28"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a557739574785fa136df4117762652d28"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a557739574785fa136df4117762652d28">calc_difference</a> (const <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html">Location</a> &amp;loc1, const <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html">Location</a> &amp;loc2)</td></tr>
 <tr class="separator:a557739574785fa136df4117762652d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e7657fb439fe6a165d2907898fae6c0"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a0e7657fb439fe6a165d2907898fae6c0"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a0e7657fb439fe6a165d2907898fae6c0">calc_difference</a> (const <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html">Rotation</a> &amp;rot1, const <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html">Rotation</a> &amp;rot2)</td></tr>
-<tr class="separator:a0e7657fb439fe6a165d2907898fae6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455fbe8e7a2233935156847f1363cc9f"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a455fbe8e7a2233935156847f1363cc9f"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a455fbe8e7a2233935156847f1363cc9f">calc_difference</a> (const <a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html">Orientation</a> &amp;rot1, const <a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html">Orientation</a> &amp;rot2)</td></tr>
+<tr class="separator:a455fbe8e7a2233935156847f1363cc9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a867ffe74c08c25edc2bf5c9abfec08a8"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a867ffe74c08c25edc2bf5c9abfec08a8"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a867ffe74c08c25edc2bf5c9abfec08a8">calc_difference</a> (const <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> &amp;pose1, const <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> &amp;pose2)</td></tr>
 <tr class="separator:a867ffe74c08c25edc2bf5c9abfec08a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,21 +165,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae9483b5b829cb1ba985e3c4c7567db9"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:aae9483b5b829cb1ba985e3c4c7567db9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#aae9483b5b829cb1ba985e3c4c7567db9">normalize</a> (<a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html">Location</a> &amp;loc)</td></tr>
 <tr class="separator:aae9483b5b829cb1ba985e3c4c7567db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb5a0819018ee02ce4534035265b1eae"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:aeb5a0819018ee02ce4534035265b1eae"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#aeb5a0819018ee02ce4534035265b1eae">normalize</a> (<a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html">Rotation</a> &amp;rot)</td></tr>
-<tr class="separator:aeb5a0819018ee02ce4534035265b1eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4d96cbeca4609119bda19238c31efa3"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:ad4d96cbeca4609119bda19238c31efa3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#ad4d96cbeca4609119bda19238c31efa3">normalize</a> (<a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html">Orientation</a> &amp;rot)</td></tr>
+<tr class="separator:ad4d96cbeca4609119bda19238c31efa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b806529295065e5a9ababbdae6a9ae1"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a4b806529295065e5a9ababbdae6a9ae1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a4b806529295065e5a9ababbdae6a9ae1">normalize</a> (<a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> &amp;pose)</td></tr>
 <tr class="separator:a4b806529295065e5a9ababbdae6a9ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa36ada9cf7d2aa92d59278eb97eafc49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#aa36ada9cf7d2aa92d59278eb97eafc49">normalize_location</a> (double &amp;x, double &amp;y, double &amp;z) const </td></tr>
 <tr class="memdesc:aa36ada9cf7d2aa92d59278eb97eafc49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes individual doubles representing a location.  <a href="#aa36ada9cf7d2aa92d59278eb97eafc49">More...</a><br /></td></tr>
 <tr class="separator:aa36ada9cf7d2aa92d59278eb97eafc49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b379a3e4f00d38c8ed83e294423c3f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a7b379a3e4f00d38c8ed83e294423c3f4">normalize_orientation</a> (double &amp;rx, double &amp;ry, double &amp;rz) const </td></tr>
+<tr class="memdesc:a7b379a3e4f00d38c8ed83e294423c3f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes individual doubles representing a orientation.  <a href="#a7b379a3e4f00d38c8ed83e294423c3f4">More...</a><br /></td></tr>
+<tr class="separator:a7b379a3e4f00d38c8ed83e294423c3f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba6a8c506a7f1f139b92d6228fa00ba5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#aba6a8c506a7f1f139b92d6228fa00ba5">normalize_pose</a> (double &amp;x, double &amp;y, double &amp;z, double &amp;rx, double &amp;ry, double &amp;rz) const </td></tr>
 <tr class="memdesc:aba6a8c506a7f1f139b92d6228fa00ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes individual doubles representing a pose.  <a href="#aba6a8c506a7f1f139b92d6228fa00ba5">More...</a><br /></td></tr>
 <tr class="separator:aba6a8c506a7f1f139b92d6228fa00ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9c60ff82ab5398c6eb0d7c1ba42ac94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#ae9c60ff82ab5398c6eb0d7c1ba42ac94">normalize_rotation</a> (double &amp;rx, double &amp;ry, double &amp;rz) const </td></tr>
-<tr class="memdesc:ae9c60ff82ab5398c6eb0d7c1ba42ac94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes individual doubles representing a rotation.  <a href="#ae9c60ff82ab5398c6eb0d7c1ba42ac94">More...</a><br /></td></tr>
-<tr class="separator:ae9c60ff82ab5398c6eb0d7c1ba42ac94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a905a5bb755f578ea9980c0fb6655d328"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a905a5bb755f578ea9980c0fb6655d328">operator!=</a> (const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;other) const </td></tr>
 <tr class="memdesc:a905a5bb755f578ea9980c0fb6655d328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator.  <a href="#a905a5bb755f578ea9980c0fb6655d328">More...</a><br /></td></tr>
 <tr class="separator:a905a5bb755f578ea9980c0fb6655d328"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,18 +200,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45300062179c622b79b2b95d68a134f2"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a45300062179c622b79b2b95d68a134f2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a45300062179c622b79b2b95d68a134f2">transform_from_origin</a> (<a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html">Location</a> &amp;in, const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;to_frame)</td></tr>
 <tr class="separator:a45300062179c622b79b2b95d68a134f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57c1d5c135a2fe9778a52d83b0c15991"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a57c1d5c135a2fe9778a52d83b0c15991"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a57c1d5c135a2fe9778a52d83b0c15991">transform_from_origin</a> (<a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html">Rotation</a> &amp;in, const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;to_frame)</td></tr>
-<tr class="separator:a57c1d5c135a2fe9778a52d83b0c15991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56103d9fdc7cacadfbc8a12e23c7867f"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a56103d9fdc7cacadfbc8a12e23c7867f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a56103d9fdc7cacadfbc8a12e23c7867f">transform_from_origin</a> (<a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html">Orientation</a> &amp;in, const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;to_frame)</td></tr>
+<tr class="separator:a56103d9fdc7cacadfbc8a12e23c7867f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf62da51351cea1c6917c68b2b5eba2b"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:abf62da51351cea1c6917c68b2b5eba2b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#abf62da51351cea1c6917c68b2b5eba2b">transform_from_origin</a> (<a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> &amp;in, const <a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;to_frame)</td></tr>
 <tr class="separator:abf62da51351cea1c6917c68b2b5eba2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa40c5c6eaad8e9e60af64ce990836144"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:aa40c5c6eaad8e9e60af64ce990836144"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#aa40c5c6eaad8e9e60af64ce990836144">transform_to_origin</a> (<a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html">Location</a> &amp;in)</td></tr>
 <tr class="separator:aa40c5c6eaad8e9e60af64ce990836144"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada5d626ecfb2a6f2d265939ab6b73f56"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ada5d626ecfb2a6f2d265939ab6b73f56"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#ada5d626ecfb2a6f2d265939ab6b73f56">transform_to_origin</a> (<a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html">Rotation</a> &amp;in)</td></tr>
-<tr class="separator:ada5d626ecfb2a6f2d265939ab6b73f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca2a27df91e6847c5a118d4c7a8239fc"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:aca2a27df91e6847c5a118d4c7a8239fc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#aca2a27df91e6847c5a118d4c7a8239fc">transform_to_origin</a> (<a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html">Orientation</a> &amp;in)</td></tr>
+<tr class="separator:aca2a27df91e6847c5a118d4c7a8239fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a269ad70c4905160a035dec2f3efa8e84"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a269ad70c4905160a035dec2f3efa8e84"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a269ad70c4905160a035dec2f3efa8e84">transform_to_origin</a> (<a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html">Pose</a> &amp;in)</td></tr>
 <tr class="separator:a269ad70c4905160a035dec2f3efa8e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,18 +224,18 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a15cc41780568bfc972d67d5450bf7294"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a15cc41780568bfc972d67d5450bf7294">do_normalize_location</a> (double &amp;x, double &amp;y, double &amp;z) const </td></tr>
 <tr class="memdesc:a15cc41780568bfc972d67d5450bf7294"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for new coordinate systems that can require normalization of coordinates, e.g., angle-based systems.  <a href="#a15cc41780568bfc972d67d5450bf7294">More...</a><br /></td></tr>
 <tr class="separator:a15cc41780568bfc972d67d5450bf7294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b20611e7862e01b458a876589c901b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a83b20611e7862e01b458a876589c901b">do_normalize_orientation</a> (double &amp;rx, double &amp;ry, double &amp;rz) const </td></tr>
+<tr class="memdesc:a83b20611e7862e01b458a876589c901b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for new coordinate systems that can require normalization of coordinates, e.g., angl-based systems.  <a href="#a83b20611e7862e01b458a876589c901b">More...</a><br /></td></tr>
+<tr class="separator:a83b20611e7862e01b458a876589c901b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4399758ea6ecce81104b0ebf31be8886"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a4399758ea6ecce81104b0ebf31be8886">do_normalize_pose</a> (double &amp;x, double &amp;y, double &amp;z, double &amp;rx, double &amp;ry, double &amp;rz) const </td></tr>
 <tr class="memdesc:a4399758ea6ecce81104b0ebf31be8886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for new coordinate systems that can require normalization of coordinates, e.g., angle-based systems.  <a href="#a4399758ea6ecce81104b0ebf31be8886">More...</a><br /></td></tr>
 <tr class="separator:a4399758ea6ecce81104b0ebf31be8886"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a417196c589a53d62bd0f6fc268f7f963"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d25/classgams_1_1utility_1_1ReferenceFrame.html#a417196c589a53d62bd0f6fc268f7f963">do_normalize_rotation</a> (double &amp;rx, double &amp;ry, double &amp;rz) const </td></tr>
-<tr class="memdesc:a417196c589a53d62bd0f6fc268f7f963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for new coordinate systems that can require normalization of coordinates, e.g., angl-based systems.  <a href="#a417196c589a53d62bd0f6fc268f7f963">More...</a><br /></td></tr>
-<tr class="separator:a417196c589a53d62bd0f6fc268f7f963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a735b31d9763361573426322f570f7069"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a735b31d9763361573426322f570f7069">get_name</a> () const </td></tr>
 <tr class="memdesc:a735b31d9763361573426322f570f7069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of this type of reference frame.  <a href="#a735b31d9763361573426322f570f7069">More...</a><br /></td></tr>
 <tr class="separator:a735b31d9763361573426322f570f7069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25066f8354eacc0b2b663c3ce0848cdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html#a25066f8354eacc0b2b663c3ce0848cdb">rotate_location_vec</a> (double &amp;x, double &amp;y, double &amp;z, const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;rot, bool reverse=false) const </td></tr>
-<tr class="memdesc:a25066f8354eacc0b2b663c3ce0848cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates a <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> according to a <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a>.  <a href="#a25066f8354eacc0b2b663c3ce0848cdb">More...</a><br /></td></tr>
-<tr class="separator:a25066f8354eacc0b2b663c3ce0848cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a664c379ad9fcebfebf7946dfb09cb49f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html#a664c379ad9fcebfebf7946dfb09cb49f">orient_location_vec</a> (double &amp;x, double &amp;y, double &amp;z, const <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp;rot, bool reverse=false) const </td></tr>
+<tr class="memdesc:a664c379ad9fcebfebf7946dfb09cb49f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates a <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> according to a <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a>.  <a href="#a664c379ad9fcebfebf7946dfb09cb49f">More...</a><br /></td></tr>
+<tr class="separator:a664c379ad9fcebfebf7946dfb09cb49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0086b87ac05e7fa2e87bf0348778ae7e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html#a0086b87ac05e7fa2e87bf0348778ae7e">transform_location_from_origin</a> (double &amp;x, double &amp;y, double &amp;z) const </td></tr>
 <tr class="memdesc:a0086b87ac05e7fa2e87bf0348778ae7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a location from origin.  <a href="#a0086b87ac05e7fa2e87bf0348778ae7e">More...</a><br /></td></tr>
 <tr class="separator:a0086b87ac05e7fa2e87bf0348778ae7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,8 +293,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ae4aa64fedf21d3fa4bd0534f3dbe2915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Locations represented as meters distance, in x, y, and z, from an origin Rotations represented in Axis Angle notation. </p>
-<p>All conversions to/from child and parent CartesianFrames are supported. Conversions to/from a parent <a class="el" href="../../da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default...">GPSFrame</a> are supported, except converting <a class="el" href="../../da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default...">GPSFrame</a> to a child <a class="el" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html" title="Locations represented as meters distance, in x, y, and z, from an origin Rotations represented in Axi...">CartesianFrame</a> that is rotated w.r.t. the <a class="el" href="../../da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default...">GPSFrame</a> Converting to <a class="el" href="../../da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default...">GPSFrame</a> from a rotated child Cartesian is supported. </p>
+<div class="textblock"><p>Locations represented as meters distance, in x, y, and z, from an origin Orientations represented in Axis Angle notation. </p>
+<p>All conversions to/from child and parent CartesianFrames are supported. Conversions to/from a parent <a class="el" href="../../da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default...">GPSFrame</a> are supported, except converting <a class="el" href="../../da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default...">GPSFrame</a> to a child <a class="el" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html" title="Locations represented as meters distance, in x, y, and z, from an origin Orientations represented in ...">CartesianFrame</a> that is orientd w.r.t. the <a class="el" href="../../da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default...">GPSFrame</a> Converting to <a class="el" href="../../da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default...">GPSFrame</a> from a orientd child Cartesian is supported. </p>
 
 <p>Definition at line <a class="el" href="../../dc/d28/CartesianFrame_8h_source.html#l00072">72</a> of file <a class="el" href="../../dc/d28/CartesianFrame_8h_source.html">CartesianFrame.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -348,7 +348,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Creates a copy of the origin <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> passed in. </p>
+<p>Creates a copy of the origin <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> passed in. </p>
 
 <p>Definition at line <a class="el" href="../../d5/d42/CartesianFrame_8inl_source.html#l00067">67</a> of file <a class="el" href="../../d5/d42/CartesianFrame_8inl_source.html">CartesianFrame.inl</a>.</p>
 
@@ -376,7 +376,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Uses an existing <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> as origin, and maintains a pointer to it. </p>
+<p>Uses an existing <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> as origin, and maintains a pointer to it. </p>
 <p>Changes to it affect this frame </p>
 
 <p>Definition at line <a class="el" href="../../d5/d42/CartesianFrame_8inl_source.html#l00070">70</a> of file <a class="el" href="../../d5/d42/CartesianFrame_8inl_source.html">CartesianFrame.inl</a>.</p>
@@ -406,8 +406,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Bind this frame's origin to a <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>. </p>
-<p>Changes to that <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> will affect this frame. It must not be deallocated before this Frame is.</p>
+<p>Bind this frame's origin to a <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>. </p>
+<p>Changes to that <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> will affect this frame. It must not be deallocated before this Frame is.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">new_origin</td><td>the new origin, which this frame will be bound to </td></tr>
@@ -457,7 +457,7 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a0e7657fb439fe6a165d2907898fae6c0"></a>
+<a class="anchor" id="a455fbe8e7a2233935156847f1363cc9f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -469,13 +469,13 @@ template&lt;&gt; </div>
         <tr>
           <td class="memname">double gams::utility::ReferenceFrame::calc_difference </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html">Rotation</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html">Orientation</a> &amp;&#160;</td>
           <td class="paramname"><em>rot1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html">Rotation</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html">Orientation</a> &amp;&#160;</td>
           <td class="paramname"><em>rot2</em>&#160;</td>
         </tr>
         <tr>
@@ -570,7 +570,7 @@ template&lt;typename CoordType &gt; </div>
 <p>Calculates distance between coordinates within a specific frame For coordinate types which can be expressed in terms of existing coordinate types, specialize this function to express this fact. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
+    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
   </table>
   </dd>
 </dl>
@@ -701,7 +701,7 @@ template&lt;typename CoordType &gt; </div>
 <p>If no common parent exists, throws, <a class="el" href="../../d5/d1a/classgams_1_1utility_1_1unrelated__frames.html" title="Thrown when an an attempt is made to transform between frames that do not belong to the same frame tr...">unrelated_frames</a> exception</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
+    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
   </table>
   </dd>
 </dl>
@@ -761,7 +761,7 @@ template&lt;typename CoordType &gt; </div>
 <p>Transform into common parent, if coordinates are not directly related. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
+    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
   </table>
   </dd>
 </dl>
@@ -822,7 +822,7 @@ template&lt;typename CoordType &gt; </div>
 <p>If they have different frames, first transform to their lowest common parent Called by the distance_to member function of Coordinates</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
+    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
   </table>
   </dd>
 </dl>
@@ -894,6 +894,59 @@ template&lt;typename CoordType &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a83b20611e7862e01b458a876589c901b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::ReferenceFrame::do_normalize_orientation </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>ry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>rz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Override for new coordinate systems that can require normalization of coordinates, e.g., angl-based systems. </p>
+<p>NOP by default.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rx</td><td>x axis of orientation </td></tr>
+    <tr><td class="paramname">ry</td><td>y axis of orientation </td></tr>
+    <tr><td class="paramname">rz</td><td>z axis of orientation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d1/d3a/ReferenceFrame_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../d1/d3a/ReferenceFrame_8cpp_source.html">ReferenceFrame.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a4399758ea6ecce81104b0ebf31be8886"></a>
 <div class="memitem">
 <div class="memproto">
@@ -957,67 +1010,14 @@ template&lt;typename CoordType &gt; </div>
     <tr><td class="paramname">x</td><td>the x axis for the coordinate to translate </td></tr>
     <tr><td class="paramname">y</td><td>the y axis for the coordinate to translate </td></tr>
     <tr><td class="paramname">z</td><td>the z axis for the coordinate to translate </td></tr>
-    <tr><td class="paramname">rx</td><td>x axis of rotation </td></tr>
-    <tr><td class="paramname">ry</td><td>y axis of rotation </td></tr>
-    <tr><td class="paramname">rz</td><td>z axis of rotation </td></tr>
+    <tr><td class="paramname">rx</td><td>x axis of orientation </td></tr>
+    <tr><td class="paramname">ry</td><td>y axis of orientation </td></tr>
+    <tr><td class="paramname">rz</td><td>z axis of orientation </td></tr>
   </table>
   </dd>
 </dl>
 
 <p>Definition at line <a class="el" href="../../d1/d3a/ReferenceFrame_8cpp_source.html#l00149">149</a> of file <a class="el" href="../../d1/d3a/ReferenceFrame_8cpp_source.html">ReferenceFrame.cpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a417196c589a53d62bd0f6fc268f7f963"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gams::utility::ReferenceFrame::do_normalize_rotation </td>
-          <td>(</td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>rx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>ry</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>rz</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Override for new coordinate systems that can require normalization of coordinates, e.g., angl-based systems. </p>
-<p>NOP by default.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">rx</td><td>x axis of rotation </td></tr>
-    <tr><td class="paramname">ry</td><td>y axis of rotation </td></tr>
-    <tr><td class="paramname">rz</td><td>z axis of rotation </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d1/d3a/ReferenceFrame_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../d1/d3a/ReferenceFrame_8cpp_source.html">ReferenceFrame.cpp</a>.</p>
 
 </div>
 </div>
@@ -1159,7 +1159,7 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aeb5a0819018ee02ce4534035265b1eae"></a>
+<a class="anchor" id="ad4d96cbeca4609119bda19238c31efa3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1171,7 +1171,7 @@ template&lt;&gt; </div>
         <tr>
           <td class="memname">void gams::utility::ReferenceFrame::normalize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html">Rotation</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html">Orientation</a> &amp;&#160;</td>
           <td class="paramname"><em>rot</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1216,7 +1216,7 @@ template&lt;typename CoordType &gt; </div>
 <p>If adding a new composite coordinate type, specialize this template function accordingly.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
+    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1303,6 +1303,50 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a7b379a3e4f00d38c8ed83e294423c3f4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::ReferenceFrame::normalize_orientation </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>ry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>rz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Normalizes individual doubles representing a orientation. </p>
+
+<p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00423">423</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aba6a8c506a7f1f139b92d6228fa00ba5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1362,50 +1406,6 @@ template&lt;&gt; </div>
 <p>Normalizes individual doubles representing a pose. </p>
 
 <p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00429">429</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae9c60ff82ab5398c6eb0d7c1ba42ac94"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gams::utility::ReferenceFrame::normalize_rotation </td>
-          <td>(</td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>rx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>ry</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>rz</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Normalizes individual doubles representing a rotation. </p>
-
-<p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00423">423</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
 
 </div>
 </div>
@@ -1479,6 +1479,72 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a664c379ad9fcebfebf7946dfb09cb49f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::utility::SimpleRotateFrame::orient_location_vec </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>rot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reverse</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rotates a <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> according to a <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>the x coordinate to orient (in-place) </td></tr>
+    <tr><td class="paramname">y</td><td>the y coordinate to orient (in-place) </td></tr>
+    <tr><td class="paramname">z</td><td>the z coordinate to orient (in-place) </td></tr>
+    <tr><td class="paramname">rot</td><td>the orientation to apply, axis-angle notation </td></tr>
+    <tr><td class="paramname">reverse</td><td>if true, apply orientation in opposite direction </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d1/d3a/ReferenceFrame_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../d1/d3a/ReferenceFrame_8cpp_source.html">ReferenceFrame.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ac6a52ea4718decd42729fb55ae038119"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1501,7 +1567,7 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p>Gets the origin of this Frame. </p>
-<dl class="section return"><dt>Returns</dt><dd>the <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> which is the origin within this frame's parent, or, a <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> within this own frame, with all zeros for coordinates, if this frame has no parent. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> which is the origin within this frame's parent, or, a <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> within this own frame, with all zeros for coordinates, if this frame has no parent. </dd></dl>
 
 <p>Definition at line <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html#l00170">170</a> of file <a class="el" href="../../d4/d05/ReferenceFrame_8inl_source.html">ReferenceFrame.inl</a>.</p>
 
@@ -1595,72 +1661,6 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a25066f8354eacc0b2b663c3ce0848cdb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void gams::utility::SimpleRotateFrame::rotate_location_vec </td>
-          <td>(</td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double &amp;&#160;</td>
-          <td class="paramname"><em>z</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>rot</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>reverse</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Rotates a <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> according to a <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>the x coordinate to rotate (in-place) </td></tr>
-    <tr><td class="paramname">y</td><td>the y coordinate to rotate (in-place) </td></tr>
-    <tr><td class="paramname">z</td><td>the z coordinate to rotate (in-place) </td></tr>
-    <tr><td class="paramname">rot</td><td>the rotation to apply, axis-angle notation </td></tr>
-    <tr><td class="paramname">reverse</td><td>if true, apply rotation in opposite direction </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d1/d3a/ReferenceFrame_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../d1/d3a/ReferenceFrame_8cpp_source.html">ReferenceFrame.cpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a930f6ef6336f0ae8f7aec32847b6d581"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1699,7 +1699,7 @@ template&lt;typename CoordType &gt; </div>
 <p>Called by the transform_to member function of Coordinates</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
+    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1759,7 +1759,7 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a57c1d5c135a2fe9778a52d83b0c15991"></a>
+<a class="anchor" id="a56103d9fdc7cacadfbc8a12e23c7867f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1771,7 +1771,7 @@ template&lt;&gt; </div>
         <tr>
           <td class="memname">void gams::utility::ReferenceFrame::transform_from_origin </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html">Rotation</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html">Orientation</a> &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
@@ -1873,7 +1873,7 @@ template&lt;typename CoordType &gt; </div>
 <p>For coordinate types which can be expressed in terms of existing coordinate types, specialize this function to express this fact</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
+    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2034,7 +2034,7 @@ template&lt;typename CoordType &gt; </div>
 <p>Transform into another frame, if coordinates are not directly related. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
+    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2084,7 +2084,7 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ada5d626ecfb2a6f2d265939ab6b73f56"></a>
+<a class="anchor" id="aca2a27df91e6847c5a118d4c7a8239fc"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -2096,7 +2096,7 @@ template&lt;&gt; </div>
         <tr>
           <td class="memname">void gams::utility::ReferenceFrame::transform_to_origin </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html">Rotation</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html">Orientation</a> &amp;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2168,7 +2168,7 @@ template&lt;typename CoordType &gt; </div>
 <p>For coordinate types which can be expressed in terms of existing coordinate types, specialize this function to express this fact</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
+    <tr><td class="paramname">CoordType</td><td>the type of <a class="el" href="../../da/deb/classgams_1_1utility_1_1Coordinate.html" title="New coordinate types which are frame-dependant can inherit from this class. ">Coordinate</a> (e.g., <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a>) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2239,7 +2239,7 @@ template&lt;typename CoordType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../de/d60/classgams_1_1utility_1_1CartesianFrame.html">CartesianFrame</a></li>
-    <li class="footer">Generated on Sat Jun 18 2016 15:37:43 for GAMS by
+    <li class="footer">Generated on Sun Apr 30 2017 20:34:22 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

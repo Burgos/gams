@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y',['y',['../d8/d57/classgams_1_1utility_1_1LocationVector.html#a580b3615538d4cd6ee0352e5095ed08e',1,'gams::utility::LocationVector::y() const '],['../d8/d57/classgams_1_1utility_1_1LocationVector.html#a0a24ea88a0508a25e8e5d1b56494e39a',1,'gams::utility::LocationVector::y(double new_y)'],['../db/d2d/classgams_1_1utility_1_1Quaternion.html#a589951d2890cc6af70772fb0fb24975f',1,'gams::utility::Quaternion::y() const '],['../db/d2d/classgams_1_1utility_1_1Quaternion.html#a9631f47098e8740114bf3121d268f9c3',1,'gams::utility::Quaternion::y(double new_y)']]]
+  ['y',['y',['../db/ddd/classgams_1_1pose_1_1PositionVector.html#a3d6fcb7133f5356b641b1d6f53a70677',1,'gams::pose::PositionVector::y() const '],['../db/ddd/classgams_1_1pose_1_1PositionVector.html#aa82a6278c243df92e20231c69c85253d',1,'gams::pose::PositionVector::y(double new_y)'],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#ad960b19cb74c44633801bb4f6608ad20',1,'gams::pose::Quaternion::y() const '],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#a6e5d63600b579b7f4050523f110a4782',1,'gams::pose::Quaternion::y(double new_y)']]]
 ];

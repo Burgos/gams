@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1Follow =
 [
-    [ "Follow", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a278d7ad9b8a8b2889e0f930a742d56d4", null ],
+    [ "Follow", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a17e3cba77f846aff4107cf99d17d8779", null ],
     [ "~Follow", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a6e16fc33f71e487ddc7821f93faaca04", null ],
     [ "analyze", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#ab981ec4ee15f53a6e54c25d0c67d3673", null ],
     [ "execute", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a6338f6ea69bdc60d81019c092f8c71aa", null ],
@@ -17,14 +17,22 @@ var classgams_1_1algorithms_1_1Follow =
     [ "set_self", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#ad920b6d9c42a15529caa43a4f39963d6", null ],
     [ "set_sensors", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a18b343d67f26332177c241e61fb6ff8c", null ],
     [ "agents_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a133d2550bf57c0d55ab09a364261aed6", null ],
-    [ "delay_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#afa52a5e54605b2e4d299836b73fabf75", null ],
     [ "executions_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#aabcf4087f663326bbab8b5b7609b5795", null ],
+    [ "had_valid_dest_orientation_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a49e3fb15c6d069704086c9c9035c57e6", null ],
     [ "knowledge_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a20e036f225ac448da8cc0fd1812d88c5", null ],
-    [ "next_position_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a9e5fa93cc55e9d4271a996a1b17971df", null ],
+    [ "last_dest_orientation", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#acc7a13b78ebd994a26c2f356649a626e", null ],
+    [ "last_location_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a8fcf25b397ff5759366779c6b0204b79", null ],
+    [ "last_target_destination_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a9db51b77c2722724b68fcd3b03d39ded", null ],
+    [ "minimum_buffer_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a92f157c5db0ce1ca8067d8ca4c5ea5a3", null ],
+    [ "need_move_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#ab071111cebf10ef5744323f4c2b5dcef", null ],
+    [ "offset_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#acf86c773a6a26f336e81752ef6d88ba8", null ],
     [ "platform_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a0f5466d6fb389a75a44eabafe96f0c6f", null ],
-    [ "previous_locations_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a4c7e1c37021b5a7f9a7e5cb1580ad479", null ],
     [ "self_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a8b4ef5e73d4d4629172b5dca1d100ebd", null ],
     [ "sensors_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a6b4d6a9dd192a2167249b1f0a90847a3", null ],
     [ "status_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#ab8cc4e9330ef031317a3f1308d6d6f89", null ],
-    [ "target_location_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a60555de7c379af04d5bd629ec32b441e", null ]
+    [ "target_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a48db69641a1f10e0c8dca8db66098ef6", null ],
+    [ "target_destination_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#acbd30999bcb20d8c3196e3f55b316524", null ],
+    [ "target_last_location_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#adc98fefa4e2c3436f4ea599593be2e7b", null ],
+    [ "target_location_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#af61fbeea1126d03e845e629048bcdfef", null ],
+    [ "target_orientation_", "d9/d7a/classgams_1_1algorithms_1_1Follow.html#a8e1363c02a62b4412c526172a16b535e", null ]
 ];

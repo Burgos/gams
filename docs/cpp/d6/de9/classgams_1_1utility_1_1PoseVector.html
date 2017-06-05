@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.10</span>
    </div>
   </td>
  </tr>
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d6/de9/classgams_1_1utility_1_1PoseVec
 </div><!--header-->
 <div class="contents">
 
-<p>Container for <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> information, not bound to a frame.  
+<p>Container for <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> information, not bound to a frame.  
  <a href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d7/db5/Pose_8h_source.html">Pose.h</a>&gt;</code></p>
@@ -125,14 +125,14 @@ Inheritance diagram for gams::utility::PoseVector:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d29/classgams_1_1utility_1_1PoseVector__inherit__graph.png" border="0" usemap="#gams_1_1utility_1_1PoseVector_inherit__map" alt="Inheritance graph"/></div>
 <map name="gams_1_1utility_1_1PoseVector_inherit__map" id="gams_1_1utility_1_1PoseVector_inherit__map">
-<area shape="rect" id="node4" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="139,155,270,181"/><area shape="rect" id="node2" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="5,5,193,32"/><area shape="rect" id="node3" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="218,5,405,32"/></map>
+<area shape="rect" id="node4" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. " alt="" coords="134,169,265,196"/><area shape="rect" id="node2" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="5,13,193,39"/><area shape="rect" id="node3" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="217,5,381,47"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for gams::utility::PoseVector:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/d69/classgams_1_1utility_1_1PoseVector__coll__graph.png" border="0" usemap="#gams_1_1utility_1_1PoseVector_coll__map" alt="Collaboration graph"/></div>
 <map name="gams_1_1utility_1_1PoseVector_coll__map" id="gams_1_1utility_1_1PoseVector_coll__map">
-<area shape="rect" id="node2" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="5,5,193,32"/><area shape="rect" id="node3" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="218,5,405,32"/></map>
+<area shape="rect" id="node2" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="5,13,193,39"/><area shape="rect" id="node3" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="217,5,381,47"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -142,18 +142,18 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7fb5e3d90643bbbded631da514ded2de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a7fb5e3d90643bbbded631da514ded2de">PoseVector</a> (double <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#adb7f5bc603337e355b55e576603df2ce">x</a>, double <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#a580b3615538d4cd6ee0352e5095ed08e">y</a>, double <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#a0452fead4cf23db03f96682b2bc9cd5a">z</a>, double <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a412c0590ec8498402a13ebc4c9ade3f3">rx</a>, double <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a16f2ac4748398ed641618f762364f793">ry</a>, double <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a12549d5e07a1f4b87267147c78755fbd">rz</a>)</td></tr>
-<tr class="memdesc:a7fb5e3d90643bbbded631da514ded2de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. ">PoseVector</a> from individual location and rotation values.  <a href="#a7fb5e3d90643bbbded631da514ded2de">More...</a><br /></td></tr>
+<tr class="memitem:a7fb5e3d90643bbbded631da514ded2de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a7fb5e3d90643bbbded631da514ded2de">PoseVector</a> (double <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#adb7f5bc603337e355b55e576603df2ce">x</a>, double <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#a580b3615538d4cd6ee0352e5095ed08e">y</a>, double <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#a0452fead4cf23db03f96682b2bc9cd5a">z</a>, double <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html#a1127814ec2e01928c82ae19bab798487">rx</a>, double <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html#aa4ad3cf897f7860ddccb6c4a5f61c13a">ry</a>, double <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html#ad944ed692f2c6228303b4bcd545379f8">rz</a>)</td></tr>
+<tr class="memdesc:a7fb5e3d90643bbbded631da514ded2de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. ">PoseVector</a> from individual location and orientation values.  <a href="#a7fb5e3d90643bbbded631da514ded2de">More...</a><br /></td></tr>
 <tr class="separator:a7fb5e3d90643bbbded631da514ded2de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ec86cf942d6f973d8919584f03fef04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a5ec86cf942d6f973d8919584f03fef04">PoseVector</a> (const <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html">LocationVector</a> &amp;loc)</td></tr>
 <tr class="memdesc:a5ec86cf942d6f973d8919584f03fef04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. ">PoseVector</a> from a <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a>.  <a href="#a5ec86cf942d6f973d8919584f03fef04">More...</a><br /></td></tr>
 <tr class="separator:a5ec86cf942d6f973d8919584f03fef04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70d20bea75206966a2b2a44c8260683a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a70d20bea75206966a2b2a44c8260683a">PoseVector</a> (const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;rot)</td></tr>
-<tr class="memdesc:a70d20bea75206966a2b2a44c8260683a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. ">PoseVector</a> from a <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a>.  <a href="#a70d20bea75206966a2b2a44c8260683a">More...</a><br /></td></tr>
-<tr class="separator:a70d20bea75206966a2b2a44c8260683a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addc84bb33a304858189c5e86e89ff1df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#addc84bb33a304858189c5e86e89ff1df">PoseVector</a> (const <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html">LocationVector</a> &amp;loc, const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;rot)</td></tr>
-<tr class="memdesc:addc84bb33a304858189c5e86e89ff1df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from individual <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> and <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a>.  <a href="#addc84bb33a304858189c5e86e89ff1df">More...</a><br /></td></tr>
-<tr class="separator:addc84bb33a304858189c5e86e89ff1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36ccf6bc37ff47c4b3d8544c56feff3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a36ccf6bc37ff47c4b3d8544c56feff3f">PoseVector</a> (const <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp;rot)</td></tr>
+<tr class="memdesc:a36ccf6bc37ff47c4b3d8544c56feff3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. ">PoseVector</a> from a <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a>.  <a href="#a36ccf6bc37ff47c4b3d8544c56feff3f">More...</a><br /></td></tr>
+<tr class="separator:a36ccf6bc37ff47c4b3d8544c56feff3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed9025dcdc3438bfd2574de28f61fbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a3ed9025dcdc3438bfd2574de28f61fbd">PoseVector</a> (const <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html">LocationVector</a> &amp;loc, const <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp;rot)</td></tr>
+<tr class="memdesc:a3ed9025dcdc3438bfd2574de28f61fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from individual <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> and <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a>.  <a href="#a3ed9025dcdc3438bfd2574de28f61fbd">More...</a><br /></td></tr>
+<tr class="separator:a3ed9025dcdc3438bfd2574de28f61fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a504b533a96216fdd096047d8e8c3db7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a504b533a96216fdd096047d8e8c3db7f">PoseVector</a> ()</td></tr>
 <tr class="memdesc:a504b533a96216fdd096047d8e8c3db7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a504b533a96216fdd096047d8e8c3db7f">More...</a><br /></td></tr>
 <tr class="separator:a504b533a96216fdd096047d8e8c3db7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,10 +164,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ada7eb002350292583bc25188616b0b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from MADARA NativeDoubleVector.  <a href="#ada7eb002350292583bc25188616b0b76">More...</a><br /></td></tr>
 <tr class="separator:ada7eb002350292583bc25188616b0b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6638176262f1369b931adba6067ffac1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a6638176262f1369b931adba6067ffac1">PoseVector</a> (const madara::knowledge::containers::DoubleVector &amp;vec_loc, const madara::knowledge::containers::DoubleVector &amp;vec_rot)</td></tr>
-<tr class="memdesc:a6638176262f1369b931adba6067ffac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from two MADARA DoubleVectors, for location and rotation.  <a href="#a6638176262f1369b931adba6067ffac1">More...</a><br /></td></tr>
+<tr class="memdesc:a6638176262f1369b931adba6067ffac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from two MADARA DoubleVectors, for location and orientation.  <a href="#a6638176262f1369b931adba6067ffac1">More...</a><br /></td></tr>
 <tr class="separator:a6638176262f1369b931adba6067ffac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af517c057846d58b9418cd6397fb6ee73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#af517c057846d58b9418cd6397fb6ee73">PoseVector</a> (const madara::knowledge::containers::NativeDoubleVector &amp;vec_loc, const madara::knowledge::containers::NativeDoubleVector &amp;vec_rot)</td></tr>
-<tr class="memdesc:af517c057846d58b9418cd6397fb6ee73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from two MADARA NativeDoubleVector, for location/rotation.  <a href="#af517c057846d58b9418cd6397fb6ee73">More...</a><br /></td></tr>
+<tr class="memdesc:af517c057846d58b9418cd6397fb6ee73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor from two MADARA NativeDoubleVector, for location/orientation.  <a href="#af517c057846d58b9418cd6397fb6ee73">More...</a><br /></td></tr>
 <tr class="separator:af517c057846d58b9418cd6397fb6ee73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6009fcc5ffe7d9aa49808a95a2ad33fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#a6009fcc5ffe7d9aa49808a95a2ad33fe">alt</a> () const </td></tr>
 <tr class="memdesc:a6009fcc5ffe7d9aa49808a95a2ad33fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for altitude, a synonym for z.  <a href="#a6009fcc5ffe7d9aa49808a95a2ad33fe">More...</a><br /></td></tr>
@@ -181,12 +181,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aafd2e0f7a317861a7a3e58b0f9f12200"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> const <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html">LocationVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#aafd2e0f7a317861a7a3e58b0f9f12200">as_location_vec</a> () const </td></tr>
 <tr class="memdesc:aafd2e0f7a317861a7a3e58b0f9f12200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a const reference to this object's <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a> part.  <a href="#aafd2e0f7a317861a7a3e58b0f9f12200">More...</a><br /></td></tr>
 <tr class="separator:aafd2e0f7a317861a7a3e58b0f9f12200"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0375e94652184cc2d5960606325fa33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#aa0375e94652184cc2d5960606325fa33">as_rotation_vec</a> ()</td></tr>
-<tr class="memdesc:aa0375e94652184cc2d5960606325fa33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a reference to this object's <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a> part.  <a href="#aa0375e94652184cc2d5960606325fa33">More...</a><br /></td></tr>
-<tr class="separator:aa0375e94652184cc2d5960606325fa33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf9b926b9aac60f425fed28828f763e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#adf9b926b9aac60f425fed28828f763e4">as_rotation_vec</a> () const </td></tr>
-<tr class="memdesc:adf9b926b9aac60f425fed28828f763e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a const reference to this object's <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a> part.  <a href="#adf9b926b9aac60f425fed28828f763e4">More...</a><br /></td></tr>
-<tr class="separator:adf9b926b9aac60f425fed28828f763e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9730bbba83fe82baf5d132c85d6a3fc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a9730bbba83fe82baf5d132c85d6a3fc6">as_orientation_vec</a> ()</td></tr>
+<tr class="memdesc:a9730bbba83fe82baf5d132c85d6a3fc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a reference to this object's <a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. ">Orientation</a> part.  <a href="#a9730bbba83fe82baf5d132c85d6a3fc6">More...</a><br /></td></tr>
+<tr class="separator:a9730bbba83fe82baf5d132c85d6a3fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5cf0f45cfa08fc042c573129cf0d3d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> const <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#ac5cf0f45cfa08fc042c573129cf0d3d3">as_orientation_vec</a> () const </td></tr>
+<tr class="memdesc:ac5cf0f45cfa08fc042c573129cf0d3d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a const reference to this object's <a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. ">Orientation</a> part.  <a href="#ac5cf0f45cfa08fc042c573129cf0d3d3">More...</a><br /></td></tr>
+<tr class="separator:ac5cf0f45cfa08fc042c573129cf0d3d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8588f954fc8d1a9aab28f383d312147"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#a14b9d5980c9c9967433ea789e57906e8">BaseType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#af8588f954fc8d1a9aab28f383d312147">as_vec</a> ()</td></tr>
 <tr class="memdesc:af8588f954fc8d1a9aab28f383d312147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a reference to this object.  <a href="#af8588f954fc8d1a9aab28f383d312147">More...</a><br /></td></tr>
 <tr class="separator:af8588f954fc8d1a9aab28f383d312147"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,15 +196,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a34a281b6607c260d58b97d96de74f05f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a34a281b6607c260d58b97d96de74f05f">get</a> (int i) const </td></tr>
 <tr class="memdesc:a34a281b6607c260d58b97d96de74f05f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrives i'th coordinate, 0-indexed, in order x, y, z, rx, ry, rz.  <a href="#a34a281b6607c260d58b97d96de74f05f">More...</a><br /></td></tr>
 <tr class="separator:a34a281b6607c260d58b97d96de74f05f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf47d0bf16f8a44ce53ff9bd082cbe6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#acf47d0bf16f8a44ce53ff9bd082cbe6c">is_invalid</a> () const </td></tr>
-<tr class="memdesc:acf47d0bf16f8a44ce53ff9bd082cbe6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if this <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> is invalid; i.e., any values are INVAL_COORD.  <a href="#acf47d0bf16f8a44ce53ff9bd082cbe6c">More...</a><br /></td></tr>
-<tr class="separator:acf47d0bf16f8a44ce53ff9bd082cbe6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c072c9fa0323b97f54ffb6f4359a967"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a3c072c9fa0323b97f54ffb6f4359a967">is_location_set</a> () const </td></tr>
+<tr class="memdesc:a3c072c9fa0323b97f54ffb6f4359a967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if the location is set (valid).  <a href="#a3c072c9fa0323b97f54ffb6f4359a967">More...</a><br /></td></tr>
+<tr class="separator:a3c072c9fa0323b97f54ffb6f4359a967"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a779531bc47e78b354267bb2e60306aa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a779531bc47e78b354267bb2e60306aa6">is_location_zero</a> () const </td></tr>
 <tr class="memdesc:a779531bc47e78b354267bb2e60306aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if all location information is zero.  <a href="#a779531bc47e78b354267bb2e60306aa6">More...</a><br /></td></tr>
 <tr class="separator:a779531bc47e78b354267bb2e60306aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a13cadec9b290dbea1021f605dd24a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a2a13cadec9b290dbea1021f605dd24a9">is_rotation_zero</a> () const </td></tr>
-<tr class="memdesc:a2a13cadec9b290dbea1021f605dd24a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if all rotation information is zero.  <a href="#a2a13cadec9b290dbea1021f605dd24a9">More...</a><br /></td></tr>
-<tr class="separator:a2a13cadec9b290dbea1021f605dd24a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a070e82bedf2f083d26d558bf4e7cd7f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a070e82bedf2f083d26d558bf4e7cd7f7">is_orientation_set</a> () const </td></tr>
+<tr class="memdesc:a070e82bedf2f083d26d558bf4e7cd7f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if the orientation/orientation has been set.  <a href="#a070e82bedf2f083d26d558bf4e7cd7f7">More...</a><br /></td></tr>
+<tr class="separator:a070e82bedf2f083d26d558bf4e7cd7f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94c8a01f8bc2d27afbcb93bda49f4dff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a94c8a01f8bc2d27afbcb93bda49f4dff">is_orientation_zero</a> () const </td></tr>
+<tr class="memdesc:a94c8a01f8bc2d27afbcb93bda49f4dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if all orientation information is zero.  <a href="#a94c8a01f8bc2d27afbcb93bda49f4dff">More...</a><br /></td></tr>
+<tr class="separator:a94c8a01f8bc2d27afbcb93bda49f4dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7e100db89d98ba001f36245abb912c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#ae7e100db89d98ba001f36245abb912c1">is_set</a> () const </td></tr>
+<tr class="memdesc:ae7e100db89d98ba001f36245abb912c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if this <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> is invalid; i.e., any values are INVAL_COORD.  <a href="#ae7e100db89d98ba001f36245abb912c1">More...</a><br /></td></tr>
+<tr class="separator:ae7e100db89d98ba001f36245abb912c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98525233b090856f1d78f2fa2a9d056e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a98525233b090856f1d78f2fa2a9d056e">is_zero</a> () const </td></tr>
 <tr class="memdesc:a98525233b090856f1d78f2fa2a9d056e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if all pose information is zero.  <a href="#a98525233b090856f1d78f2fa2a9d056e">More...</a><br /></td></tr>
 <tr class="separator:a98525233b090856f1d78f2fa2a9d056e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,9 +229,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a745633ff026d29a48357bc526c958039"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#a745633ff026d29a48357bc526c958039">operator==</a> (const <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html">LocationVector</a> &amp;rhs) const </td></tr>
 <tr class="memdesc:a745633ff026d29a48357bc526c958039"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if all values in this <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a> are the same as the ones in the rhs.  <a href="#a745633ff026d29a48357bc526c958039">More...</a><br /></td></tr>
 <tr class="separator:a745633ff026d29a48357bc526c958039"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9da4c1aff4077b509d63dea26e1a17bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a9da4c1aff4077b509d63dea26e1a17bd">operator==</a> (const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;rhs) const </td></tr>
-<tr class="memdesc:a9da4c1aff4077b509d63dea26e1a17bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests for perfect equality with another <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a>.  <a href="#a9da4c1aff4077b509d63dea26e1a17bd">More...</a><br /></td></tr>
-<tr class="separator:a9da4c1aff4077b509d63dea26e1a17bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa902a5f1e737fab9284236fbeb6300d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html#afa902a5f1e737fab9284236fbeb6300d">operator==</a> (const <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp;rhs) const </td></tr>
+<tr class="memdesc:afa902a5f1e737fab9284236fbeb6300d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests for perfect equality with another <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a>.  <a href="#afa902a5f1e737fab9284236fbeb6300d">More...</a><br /></td></tr>
+<tr class="separator:afa902a5f1e737fab9284236fbeb6300d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a792f0598cdfea53e154a16b5adf34f2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a792f0598cdfea53e154a16b5adf34f2e">operator==</a> (const <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html">PoseVector</a> &amp;rhs) const </td></tr>
 <tr class="memdesc:a792f0598cdfea53e154a16b5adf34f2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests for exact equality.  <a href="#a792f0598cdfea53e154a16b5adf34f2e">More...</a><br /></td></tr>
 <tr class="separator:a792f0598cdfea53e154a16b5adf34f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,24 +253,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab81cd75a59a8530da061974f14f649a4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html#ab81cd75a59a8530da061974f14f649a4">rho</a> (double new_rho)</td></tr>
 <tr class="memdesc:ab81cd75a59a8530da061974f14f649a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for rho, a synonym for x for Cylindrical systems.  <a href="#ab81cd75a59a8530da061974f14f649a4">More...</a><br /></td></tr>
 <tr class="separator:ab81cd75a59a8530da061974f14f649a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a412c0590ec8498402a13ebc4c9ade3f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a412c0590ec8498402a13ebc4c9ade3f3">rx</a> () const </td></tr>
-<tr class="memdesc:a412c0590ec8498402a13ebc4c9ade3f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for rx.  <a href="#a412c0590ec8498402a13ebc4c9ade3f3">More...</a><br /></td></tr>
-<tr class="separator:a412c0590ec8498402a13ebc4c9ade3f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf7d6bddc3d7560a923f7971b9a9fc78"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#aaf7d6bddc3d7560a923f7971b9a9fc78">rx</a> (double new_rx)</td></tr>
-<tr class="memdesc:aaf7d6bddc3d7560a923f7971b9a9fc78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for rx.  <a href="#aaf7d6bddc3d7560a923f7971b9a9fc78">More...</a><br /></td></tr>
-<tr class="separator:aaf7d6bddc3d7560a923f7971b9a9fc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16f2ac4748398ed641618f762364f793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a16f2ac4748398ed641618f762364f793">ry</a> () const </td></tr>
-<tr class="memdesc:a16f2ac4748398ed641618f762364f793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for ry.  <a href="#a16f2ac4748398ed641618f762364f793">More...</a><br /></td></tr>
-<tr class="separator:a16f2ac4748398ed641618f762364f793"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dd88eb61af2d998d808ca843476fc93"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a1dd88eb61af2d998d808ca843476fc93">ry</a> (double new_ry)</td></tr>
-<tr class="memdesc:a1dd88eb61af2d998d808ca843476fc93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for ry.  <a href="#a1dd88eb61af2d998d808ca843476fc93">More...</a><br /></td></tr>
-<tr class="separator:a1dd88eb61af2d998d808ca843476fc93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12549d5e07a1f4b87267147c78755fbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a12549d5e07a1f4b87267147c78755fbd">rz</a> () const </td></tr>
-<tr class="memdesc:a12549d5e07a1f4b87267147c78755fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for rz.  <a href="#a12549d5e07a1f4b87267147c78755fbd">More...</a><br /></td></tr>
-<tr class="separator:a12549d5e07a1f4b87267147c78755fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c8a73aee83c0604ad89e2f4ec10e58a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a9c8a73aee83c0604ad89e2f4ec10e58a">rz</a> (double new_rz)</td></tr>
-<tr class="memdesc:a9c8a73aee83c0604ad89e2f4ec10e58a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for rz.  <a href="#a9c8a73aee83c0604ad89e2f4ec10e58a">More...</a><br /></td></tr>
-<tr class="separator:a9c8a73aee83c0604ad89e2f4ec10e58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1127814ec2e01928c82ae19bab798487"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html#a1127814ec2e01928c82ae19bab798487">rx</a> () const </td></tr>
+<tr class="memdesc:a1127814ec2e01928c82ae19bab798487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for rx.  <a href="#a1127814ec2e01928c82ae19bab798487">More...</a><br /></td></tr>
+<tr class="separator:a1127814ec2e01928c82ae19bab798487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fc29539d1503177e8bb60c3abc7de1e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html#a5fc29539d1503177e8bb60c3abc7de1e">rx</a> (double new_rx)</td></tr>
+<tr class="memdesc:a5fc29539d1503177e8bb60c3abc7de1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for rx.  <a href="#a5fc29539d1503177e8bb60c3abc7de1e">More...</a><br /></td></tr>
+<tr class="separator:a5fc29539d1503177e8bb60c3abc7de1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ad3cf897f7860ddccb6c4a5f61c13a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html#aa4ad3cf897f7860ddccb6c4a5f61c13a">ry</a> () const </td></tr>
+<tr class="memdesc:aa4ad3cf897f7860ddccb6c4a5f61c13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for ry.  <a href="#aa4ad3cf897f7860ddccb6c4a5f61c13a">More...</a><br /></td></tr>
+<tr class="separator:aa4ad3cf897f7860ddccb6c4a5f61c13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d910cc2497b99f2c2e6e601ba5c2e25"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html#a8d910cc2497b99f2c2e6e601ba5c2e25">ry</a> (double new_ry)</td></tr>
+<tr class="memdesc:a8d910cc2497b99f2c2e6e601ba5c2e25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for ry.  <a href="#a8d910cc2497b99f2c2e6e601ba5c2e25">More...</a><br /></td></tr>
+<tr class="separator:a8d910cc2497b99f2c2e6e601ba5c2e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad944ed692f2c6228303b4bcd545379f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html#ad944ed692f2c6228303b4bcd545379f8">rz</a> () const </td></tr>
+<tr class="memdesc:ad944ed692f2c6228303b4bcd545379f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for rz.  <a href="#ad944ed692f2c6228303b4bcd545379f8">More...</a><br /></td></tr>
+<tr class="separator:ad944ed692f2c6228303b4bcd545379f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b51415043980c052795cfcd7f60796c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html#a5b51415043980c052795cfcd7f60796c">rz</a> (double new_rz)</td></tr>
+<tr class="memdesc:a5b51415043980c052795cfcd7f60796c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for rz.  <a href="#a5b51415043980c052795cfcd7f60796c">More...</a><br /></td></tr>
+<tr class="separator:a5b51415043980c052795cfcd7f60796c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90a059ebbaa1e57c27574271e70f58b2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a90a059ebbaa1e57c27574271e70f58b2">set</a> (int i, double val)</td></tr>
 <tr class="memdesc:a90a059ebbaa1e57c27574271e70f58b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets i'th coordinate, 0-indexed, in order x, y, z, rx, ry, rz.  <a href="#a90a059ebbaa1e57c27574271e70f58b2">More...</a><br /></td></tr>
 <tr class="separator:a90a059ebbaa1e57c27574271e70f58b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -306,10 +312,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a213b4461940fec95cf837a234b263986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Container for <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> information, not bound to a frame. </p>
-<p>See <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> and <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> for representation deatils </p>
+<div class="textblock"><p>Container for <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> information, not bound to a frame. </p>
+<p>See <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> and <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a> for representation deatils </p>
 
-<p>Definition at line <a class="el" href="../../d7/db5/Pose_8h_source.html#l00073">73</a> of file <a class="el" href="../../d7/db5/Pose_8h_source.html">Pose.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/db5/Pose_8h_source.html#l00071">71</a> of file <a class="el" href="../../d7/db5/Pose_8h_source.html">Pose.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a6ebd8d3926d5fbc5f47c88cb4cc690dc"></a>
 <div class="memitem">
@@ -321,7 +327,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/db5/Pose_8h_source.html#l00223">223</a> of file <a class="el" href="../../d7/db5/Pose_8h_source.html">Pose.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/db5/Pose_8h_source.html#l00235">235</a> of file <a class="el" href="../../d7/db5/Pose_8h_source.html">Pose.h</a>.</p>
 
 </div>
 </div>
@@ -382,20 +388,20 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. ">PoseVector</a> from individual location and rotation values. </p>
+<p>Constructs a <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. ">PoseVector</a> from individual location and orientation values. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>position along x-axis </td></tr>
     <tr><td class="paramname">y</td><td>position along y-axis </td></tr>
     <tr><td class="paramname">z</td><td>position along z-axis </td></tr>
-    <tr><td class="paramname">rx</td><td>length of rotation vector along x-axis </td></tr>
-    <tr><td class="paramname">ry</td><td>length of rotation vector along y-axis </td></tr>
-    <tr><td class="paramname">rz</td><td>length of rotation vector along z-axis </td></tr>
+    <tr><td class="paramname">rx</td><td>length of orientation vector along x-axis </td></tr>
+    <tr><td class="paramname">ry</td><td>length of orientation vector along y-axis </td></tr>
+    <tr><td class="paramname">rz</td><td>length of orientation vector along z-axis </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00063">63</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00065">65</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -422,7 +428,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Construct a <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. ">PoseVector</a> from a <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a>. </p>
-<p><a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a> info will be all zeros (<a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a2a13cadec9b290dbea1021f605dd24a9" title="Tests if all rotation information is zero. ">is_rotation_zero()</a> == true)</p>
+<p><a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. ">Orientation</a> info will be all zeros (is_orientation_zero () == true)</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">loc</td><td>the <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> to get location info from. </td></tr>
@@ -430,11 +436,11 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00067">67</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00069">69</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a70d20bea75206966a2b2a44c8260683a"></a>
+<a class="anchor" id="a36ccf6bc37ff47c4b3d8544c56feff3f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -444,7 +450,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> gams::utility::PoseVector::PoseVector </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp;&#160;</td>
           <td class="paramname"><em>rot</em></td><td>)</td>
           <td></td>
         </tr>
@@ -456,20 +462,20 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Construct a <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. ">PoseVector</a> from a <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a>. </p>
-<p><a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a> info will be all zeros (<a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html#a779531bc47e78b354267bb2e60306aa6" title="Tests if all location information is zero. ">is_location_zero()</a> == true)</p>
+<p>Construct a <a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. ">PoseVector</a> from a <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a>. </p>
+<p><a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a> info will be all zeros (is_location_zero () == true)</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rot</td><td>the <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> to get location info from. </td></tr>
+    <tr><td class="paramname">rot</td><td>the <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a> to get location info from. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00070">70</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00074">74</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="addc84bb33a304858189c5e86e89ff1df"></a>
+<a class="anchor" id="a3ed9025dcdc3438bfd2574de28f61fbd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -485,7 +491,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp;&#160;</td>
           <td class="paramname"><em>rot</em>&#160;</td>
         </tr>
         <tr>
@@ -501,16 +507,16 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Construct from individual <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> and <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a>. </p>
+<p>Construct from individual <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> and <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">loc</td><td>the <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> </td></tr>
-    <tr><td class="paramname">rot</td><td>the <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> </td></tr>
+    <tr><td class="paramname">rot</td><td>the <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a> </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00073">73</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00079">79</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -538,7 +544,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Default constructor. </p>
 <p>All values will be INVAL_COORD </p>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00077">77</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00083">83</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -572,7 +578,7 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00080">80</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00086">86</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -606,7 +612,7 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00091">91</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00097">97</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -642,16 +648,16 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructor from two MADARA DoubleVectors, for location and rotation. </p>
+<p>Constructor from two MADARA DoubleVectors, for location and orientation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec_loc</td><td>location values from (0, 1, 2 into x, y, z) </td></tr>
-    <tr><td class="paramname">vec_rot</td><td>rotation values from (0, 1, 2 into rx, ry, rz) </td></tr>
+    <tr><td class="paramname">vec_rot</td><td>orientation values from (0, 1, 2 into rx, ry, rz) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00085">85</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00091">91</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -687,16 +693,16 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructor from two MADARA NativeDoubleVector, for location/rotation. </p>
+<p>Constructor from two MADARA NativeDoubleVector, for location/orientation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec_loc</td><td>location values from (0, 1, 2 into x, y, z) </td></tr>
-    <tr><td class="paramname">vec_rot</td><td>rotation values from (0, 1, 2 into rx, ry, rz) </td></tr>
+    <tr><td class="paramname">vec_rot</td><td>orientation values from (0, 1, 2 into rx, ry, rz) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00096">96</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00105">105</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -788,7 +794,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Gets a reference to this object's <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a> part. </p>
 <dl class="section return"><dt>Returns</dt><dd>reference to the <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00163">163</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00182">182</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -816,11 +822,11 @@ Static Public Member Functions</h2></td></tr>
 <p>Gets a const reference to this object's <a class="el" href="../../de/df6/classgams_1_1utility_1_1Location.html" title="Represents a Location within a reference frame. ">Location</a> part. </p>
 <dl class="section return"><dt>Returns</dt><dd>const reference to the <a class="el" href="../../d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. ">LocationVector</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00168">168</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00187">187</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa0375e94652184cc2d5960606325fa33"></a>
+<a class="anchor" id="a9730bbba83fe82baf5d132c85d6a3fc6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -828,7 +834,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp; gams::utility::PoseVector::as_rotation_vec </td>
+          <td class="memname"><a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp; gams::utility::PoseVector::as_orientation_vec </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -841,14 +847,14 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets a reference to this object's <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a> part. </p>
-<dl class="section return"><dt>Returns</dt><dd>reference to the <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> </dd></dl>
+<p>Gets a reference to this object's <a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. ">Orientation</a> part. </p>
+<dl class="section return"><dt>Returns</dt><dd>reference to the <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00173">173</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00192">192</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="adf9b926b9aac60f425fed28828f763e4"></a>
+<a class="anchor" id="ac5cf0f45cfa08fc042c573129cf0d3d3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -856,7 +862,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp; gams::utility::PoseVector::as_rotation_vec </td>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> const <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp; gams::utility::PoseVector::as_orientation_vec </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -869,10 +875,10 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets a const reference to this object's <a class="el" href="../../da/da5/classgams_1_1utility_1_1Rotation.html" title="Represents a rotation or orientation within a reference frame. ">Rotation</a> part. </p>
-<dl class="section return"><dt>Returns</dt><dd>const reference to the <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a> </dd></dl>
+<p>Gets a const reference to this object's <a class="el" href="../../de/d4d/classgams_1_1utility_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. ">Orientation</a> part. </p>
+<dl class="section return"><dt>Returns</dt><dd>const reference to the <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00178">178</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00197">197</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -901,7 +907,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Useful for derived types.</p>
 <dl class="section return"><dt>Returns</dt><dd>reference to this object. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00153">153</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00172">172</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -930,7 +936,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Useful for derived types.</p>
 <dl class="section return"><dt>Returns</dt><dd>const reference to this object. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00158">158</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00177">177</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -971,11 +977,11 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00139">139</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00158">158</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="acf47d0bf16f8a44ce53ff9bd082cbe6c"></a>
+<a class="anchor" id="a3c072c9fa0323b97f54ffb6f4359a967"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -983,7 +989,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool gams::utility::PoseVector::is_invalid </td>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool gams::utility::PoseVector::is_location_set </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -996,10 +1002,10 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Tests if this <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. ">Pose</a> is invalid; i.e., any values are INVAL_COORD. </p>
-<dl class="section return"><dt>Returns</dt><dd>true if at least one value is INVAL_COORD </dd></dl>
+<p>Tests if the location is set (valid). </p>
+<dl class="section return"><dt>Returns</dt><dd>true if location has been set to something valid </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00102">102</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00116">116</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -1027,11 +1033,11 @@ Static Public Member Functions</h2></td></tr>
 <p>Tests if all location information is zero. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if all location information is zero </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00107">107</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00126">126</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2a13cadec9b290dbea1021f605dd24a9"></a>
+<a class="anchor" id="a070e82bedf2f083d26d558bf4e7cd7f7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1039,7 +1045,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool gams::utility::PoseVector::is_rotation_zero </td>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool gams::utility::PoseVector::is_orientation_set </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1052,10 +1058,66 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Tests if all rotation information is zero. </p>
-<dl class="section return"><dt>Returns</dt><dd>true if all rotation information is zero </dd></dl>
+<p>Tests if the orientation/orientation has been set. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if orientation has been set to something valid </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00112">112</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00121">121</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a94c8a01f8bc2d27afbcb93bda49f4dff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool gams::utility::PoseVector::is_orientation_zero </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tests if all orientation information is zero. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if all orientation information is zero </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00131">131</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7e100db89d98ba001f36245abb912c1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool gams::utility::PoseVector::is_set </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tests if this <a class="el" href="../../dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Orientation within a single reference frame. ">Pose</a> is invalid; i.e., any values are INVAL_COORD. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if at least one value is INVAL_COORD </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00111">111</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -1081,10 +1143,10 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Tests if all pose information is zero. </p>
-<p>If true, is_location_zero and is_rotation_zero are also true</p>
+<p>If true, is_location_zero and is_orientation_zero are also true</p>
 <dl class="section return"><dt>Returns</dt><dd>true if all pose information is zero </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00117">117</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00136">136</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -1238,7 +1300,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Get the name of this coordinate type. </p>
 <dl class="section return"><dt>Returns</dt><dd>"Pose" </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00129">129</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00148">148</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -1276,7 +1338,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9da4c1aff4077b509d63dea26e1a17bd"></a>
+<a class="anchor" id="afa902a5f1e737fab9284236fbeb6300d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1284,9 +1346,9 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool gams::utility::RotationVector::operator== </td>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> bool gams::utility::OrientationVector::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html">RotationVector</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html">OrientationVector</a> &amp;&#160;</td>
           <td class="paramname"><em>rhs</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1298,7 +1360,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Tests for perfect equality with another <a class="el" href="../../d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. ">RotationVector</a>. </p>
+<p>Tests for perfect equality with another <a class="el" href="../../d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. ">OrientationVector</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rhs</td><td>the other vector to compare to </td></tr>
@@ -1307,7 +1369,7 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if all values are equal to corresponding values </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00096">96</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d70/Orientation_8inl_source.html#l00096">96</a> of file <a class="el" href="../../d4/d70/Orientation_8inl_source.html">Orientation.inl</a>.</p>
 
 </div>
 </div>
@@ -1342,7 +1404,7 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if all values equal corresponding values in other pose </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00122">122</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00141">141</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -1535,7 +1597,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a412c0590ec8498402a13ebc4c9ade3f3"></a>
+<a class="anchor" id="a1127814ec2e01928c82ae19bab798487"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1543,7 +1605,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double gams::utility::RotationVector::rx </td>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double gams::utility::OrientationVector::rx </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1559,11 +1621,11 @@ Static Public Member Functions</h2></td></tr>
 <p>Getter for rx. </p>
 <dl class="section return"><dt>Returns</dt><dd>rx value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00107">107</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d70/Orientation_8inl_source.html#l00107">107</a> of file <a class="el" href="../../d4/d70/Orientation_8inl_source.html">Orientation.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aaf7d6bddc3d7560a923f7971b9a9fc78"></a>
+<a class="anchor" id="a5fc29539d1503177e8bb60c3abc7de1e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1571,7 +1633,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double gams::utility::RotationVector::rx </td>
+          <td class="memname">double gams::utility::OrientationVector::rx </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>new_rx</em></td><td>)</td>
@@ -1594,11 +1656,11 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new rx value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00111">111</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d70/Orientation_8inl_source.html#l00111">111</a> of file <a class="el" href="../../d4/d70/Orientation_8inl_source.html">Orientation.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a16f2ac4748398ed641618f762364f793"></a>
+<a class="anchor" id="aa4ad3cf897f7860ddccb6c4a5f61c13a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1606,7 +1668,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double gams::utility::RotationVector::ry </td>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double gams::utility::OrientationVector::ry </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1622,11 +1684,11 @@ Static Public Member Functions</h2></td></tr>
 <p>Getter for ry. </p>
 <dl class="section return"><dt>Returns</dt><dd>ry value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00108">108</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d70/Orientation_8inl_source.html#l00108">108</a> of file <a class="el" href="../../d4/d70/Orientation_8inl_source.html">Orientation.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1dd88eb61af2d998d808ca843476fc93"></a>
+<a class="anchor" id="a8d910cc2497b99f2c2e6e601ba5c2e25"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1634,7 +1696,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double gams::utility::RotationVector::ry </td>
+          <td class="memname">double gams::utility::OrientationVector::ry </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>new_ry</em></td><td>)</td>
@@ -1657,11 +1719,11 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new ry value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00112">112</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d70/Orientation_8inl_source.html#l00112">112</a> of file <a class="el" href="../../d4/d70/Orientation_8inl_source.html">Orientation.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a12549d5e07a1f4b87267147c78755fbd"></a>
+<a class="anchor" id="ad944ed692f2c6228303b4bcd545379f8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1669,7 +1731,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double gams::utility::RotationVector::rz </td>
+          <td class="memname"><a class="el" href="../../d5/d69/CPP11__compat_8h.html#a72f0657181cca64b44eb186b707eb380">constexpr</a> double gams::utility::OrientationVector::rz </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1685,11 +1747,11 @@ Static Public Member Functions</h2></td></tr>
 <p>Getter for rz. </p>
 <dl class="section return"><dt>Returns</dt><dd>rz value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00109">109</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d70/Orientation_8inl_source.html#l00109">109</a> of file <a class="el" href="../../d4/d70/Orientation_8inl_source.html">Orientation.inl</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9c8a73aee83c0604ad89e2f4ec10e58a"></a>
+<a class="anchor" id="a5b51415043980c052795cfcd7f60796c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1697,7 +1759,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double gams::utility::RotationVector::rz </td>
+          <td class="memname">double gams::utility::OrientationVector::rz </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>new_rz</em></td><td>)</td>
@@ -1720,7 +1782,7 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new rz value </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6e/Rotation_8inl_source.html#l00113">113</a> of file <a class="el" href="../../d8/d6e/Rotation_8inl_source.html">Rotation.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d70/Orientation_8inl_source.html#l00113">113</a> of file <a class="el" href="../../d4/d70/Orientation_8inl_source.html">Orientation.inl</a>.</p>
 
 </div>
 </div>
@@ -1772,7 +1834,7 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00145">145</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00164">164</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -1801,7 +1863,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Get the number of values this coordinate type uses. </p>
 <dl class="section return"><dt>Returns</dt><dd>6 </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00134">134</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/Pose_8inl_source.html#l00153">153</a> of file <a class="el" href="../../d0/d33/Pose_8inl_source.html">Pose.inl</a>.</p>
 
 </div>
 </div>
@@ -2096,7 +2158,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../d6/de9/classgams_1_1utility_1_1PoseVector.html">PoseVector</a></li>
-    <li class="footer">Generated on Sat Jun 18 2016 15:37:44 for GAMS by
+    <li class="footer">Generated on Sun Apr 30 2017 20:34:23 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

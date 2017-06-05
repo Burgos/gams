@@ -12,6 +12,8 @@ var classgams_1_1algorithms_1_1AlgorithmFactoryRepository =
     [ "set_sensors", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a9ce03e0251307254fcee8f14d9e0d32b", null ],
     [ "agents_", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#aa9c734523c31f29f1933806458454532", null ],
     [ "factory_map_", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a6cca4b23bca58bc86c21e917e82fd4e2", null ],
+    [ "init_finished_", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a81ed7a8e27a7d94a7e66ccf166566359", null ],
+    [ "init_started_", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#aa3650e8a68687765128960439caa0a73", null ],
     [ "knowledge_", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#aca3affc0e2f56ac4e5211d5bc283ae0b", null ],
     [ "platform_", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a8b617f75d12bf03d663aeac7ec1d5d85", null ],
     [ "self_", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a787d0f1e8679783df05b0c3368a40dde", null ],

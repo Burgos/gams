@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1Move =
 [
-    [ "Move", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a22c468739e4159656fbae956ee579557", null ],
+    [ "Move", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a4b26b22f5dcc4f06e24165672190d153", null ],
     [ "~Move", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a94e50a53f1aa874a599f92aa7c6e9369", null ],
     [ "analyze", "d2/d4c/classgams_1_1algorithms_1_1Move.html#ad79c66f2ab504fda14d972f7bc48f87f", null ],
     [ "execute", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a4c47d8f5f7ed1ccb49d9622620fcf8ca", null ],
@@ -18,13 +18,18 @@ var classgams_1_1algorithms_1_1Move =
     [ "set_sensors", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a18b343d67f26332177c241e61fb6ff8c", null ],
     [ "agents_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a133d2550bf57c0d55ab09a364261aed6", null ],
     [ "cycles_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a9d31633cb6ef75b1ad4bfb20667343c1", null ],
+    [ "end_time_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a896bd663a9ee528c167e8cb528dd3b35", null ],
     [ "executions_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#aabcf4087f663326bbab8b5b7609b5795", null ],
+    [ "finished_moving_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a151ee9d303f6e3cbd1191381da671fe0", null ],
+    [ "frame_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a728afc85a6ab552ac3d7067be327aae0", null ],
     [ "knowledge_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a20e036f225ac448da8cc0fd1812d88c5", null ],
-    [ "locations_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#accf0230ef07bf5abb1c33f6c815bfae5", null ],
     [ "move_index_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a6138c656d29e365e057b7462586e6d89", null ],
     [ "platform_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a0f5466d6fb389a75a44eabafe96f0c6f", null ],
+    [ "poses_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a70de572c1b1692da1918bcdc5086d79d", null ],
     [ "repeat_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a352012c4833bcb1486ea8ce81c5a6feb", null ],
     [ "self_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a8b4ef5e73d4d4629172b5dca1d100ebd", null ],
     [ "sensors_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a6b4d6a9dd192a2167249b1f0a90847a3", null ],
-    [ "status_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#ab8cc4e9330ef031317a3f1308d6d6f89", null ]
+    [ "status_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#ab8cc4e9330ef031317a3f1308d6d6f89", null ],
+    [ "wait_time_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a4e3155e1caf575cd4e7dc95c590983a7", null ],
+    [ "waiting_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a1092a09c169cbd6fcc18d2d52f412d37", null ]
 ];

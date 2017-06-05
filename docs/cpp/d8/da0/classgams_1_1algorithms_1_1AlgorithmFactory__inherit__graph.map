@@ -15,15 +15,16 @@
 <area shape="rect" id="node15" href="$de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html" title="A factory class for creating Formation Flying algorithms. " alt="" coords="261,987,449,1029"/>
 <area shape="rect" id="node16" href="$d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html" title="A factory class for creating Formation Coverage algorithms. " alt="" coords="261,1053,449,1094"/>
 <area shape="rect" id="node17" href="$d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html" title="A factory class for creating Formation Coverage algorithms. " alt="" coords="253,1118,456,1159"/>
-<area shape="rect" id="node18" href="$dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html" title="A factory class for creating Java Algorithms. " alt="" coords="249,1183,460,1225"/>
-<area shape="rect" id="node19" href="$d5/d3d/classgams_1_1algorithms_1_1KarlEvaluatorFactory.html" title="A factory class for creating KarlEvaluator algorithms. " alt="" coords="251,1249,458,1290"/>
-<area shape="rect" id="node20" href="$d0/d56/classgams_1_1algorithms_1_1LandFactory.html" title="A factory class for creating Landing algorithms. " alt="" coords="253,1315,456,1341"/>
-<area shape="rect" id="node21" href="$d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html" title="A factory class for creating MessageProfiling Algorithms. " alt="" coords="263,1366,446,1407"/>
-<area shape="rect" id="node22" href="$d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html" title="A factory class for creating Move algorithms. " alt="" coords="253,1432,457,1459"/>
-<area shape="rect" id="node23" href="$d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html" title="A factory class for creating Null algorithms. " alt="" coords="251,1483,458,1525"/>
-<area shape="rect" id="node24" href="$dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html" title="A factory class for creating PerformanceProfiling Algorithms. " alt="" coords="253,1549,456,1590"/>
-<area shape="rect" id="node25" href="$da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html" title="A factory class for creating PerimeterPatrol algorithms. " alt="" coords="261,1614,448,1655"/>
-<area shape="rect" id="node26" href="$d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html" title="A factory class for creating Null algorithms. " alt="" coords="269,1679,440,1721"/>
-<area shape="rect" id="node27" href="$da/dc3/classgams_1_1algorithms_1_1WaitFactory.html" title="A factory class for creating Wait algorithms. " alt="" coords="254,1745,455,1772"/>
-<area shape="rect" id="node28" href="$d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html" title="A factory class for creating Formation Coverage algorithms. " alt="" coords="249,1797,460,1838"/>
+<area shape="rect" id="node18" href="$da/d32/classgams_1_1algorithms_1_1HomeFactory.html" title="A factory class for creating Null algorithms. " alt="" coords="251,1184,459,1211"/>
+<area shape="rect" id="node19" href="$dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html" title="A factory class for creating Java Algorithms. " alt="" coords="249,1235,460,1277"/>
+<area shape="rect" id="node20" href="$d5/d3d/classgams_1_1algorithms_1_1KarlEvaluatorFactory.html" title="A factory class for creating KarlEvaluator algorithms. " alt="" coords="251,1301,458,1342"/>
+<area shape="rect" id="node21" href="$d0/d56/classgams_1_1algorithms_1_1LandFactory.html" title="A factory class for creating Landing algorithms. " alt="" coords="253,1367,456,1393"/>
+<area shape="rect" id="node22" href="$d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html" title="A factory class for creating MessageProfiling Algorithms. " alt="" coords="263,1418,446,1459"/>
+<area shape="rect" id="node23" href="$d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html" title="A factory class for creating Move algorithms. " alt="" coords="253,1484,457,1511"/>
+<area shape="rect" id="node24" href="$d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html" title="A factory class for creating Null algorithms. " alt="" coords="251,1535,458,1577"/>
+<area shape="rect" id="node25" href="$dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html" title="A factory class for creating PerformanceProfiling Algorithms. " alt="" coords="253,1601,456,1642"/>
+<area shape="rect" id="node26" href="$da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html" title="A factory class for creating PerimeterPatrol algorithms. " alt="" coords="261,1666,448,1707"/>
+<area shape="rect" id="node27" href="$d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html" title="A factory class for creating Null algorithms. " alt="" coords="269,1731,440,1773"/>
+<area shape="rect" id="node28" href="$da/dc3/classgams_1_1algorithms_1_1WaitFactory.html" title="A factory class for creating Wait algorithms. " alt="" coords="254,1797,455,1824"/>
+<area shape="rect" id="node29" href="$d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html" title="A factory class for creating Formation Coverage algorithms. " alt="" coords="249,1849,460,1890"/>
 </map>

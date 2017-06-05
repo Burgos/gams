@@ -2,7 +2,7 @@ var classgams_1_1algorithms_1_1ZoneCoverage =
 [
     [ "formation_func", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a9ea67b86e2a250aaf826f42716520e61", null ],
     [ "MadaraArrayVec", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#ab14d889cef28086f15748128a0ba665e", null ],
-    [ "ZoneCoverage", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a3dc574b94e37d1d2c0ded8211e9fda20", null ],
+    [ "ZoneCoverage", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#ae40357d602bfad06667ebba4033d3857", null ],
     [ "~ZoneCoverage", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a58edc932c4f620ade05dab125364815d", null ],
     [ "analyze", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a4b6068dc796f507ffa476a91514968ba", null ],
     [ "arc_formation", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a9e793b099c1509303aeb46208a84e402", null ],
@@ -40,6 +40,7 @@ var classgams_1_1algorithms_1_1ZoneCoverage =
     [ "executions_", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#aabcf4087f663326bbab8b5b7609b5795", null ],
     [ "form_func_", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#aa285620986cd9a2ae2fb89effb951e7f", null ],
     [ "formation_", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a8cc40ae364b6d5fbe467f5660db0c996", null ],
+    [ "frame_", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a2b64acdea0965713ff8e12e49960fba5", null ],
     [ "index_", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a3f5cb108e032db67b1e1c583e19979ee", null ],
     [ "knowledge_", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a20e036f225ac448da8cc0fd1812d88c5", null ],
     [ "next_loc_", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#ad37b77d4bfcfab3b9a16347dacbaf0b7", null ],

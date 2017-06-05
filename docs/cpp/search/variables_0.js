@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_5f',['a_',['../d4/d76/classgams_1_1utility_1_1euler_1_1Euler.html#a3a2e3cdf016d5f16868e033884929230',1,'gams::utility::euler::Euler']]],
+  ['a_5f',['a_',['../d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html#a26304aea1254de96a0c6c7960763fd9d',1,'gams::pose::euler::Euler']]],
   ['accents',['accents',['../d8/d12/classgams_1_1variables_1_1Agent.html#acf0c2dc8f6d6d22ac0f31e2e92118b2c',1,'gams::variables::Agent::accents()'],['../d4/dde/classgams_1_1variables_1_1Swarm.html#ac8dc8565f58582d00baa871dc98717ab',1,'gams::variables::Swarm::accents()'],['../dc/d61/gams__controller_8cpp.html#a7a8184cd712a2cb884729b30455085c2',1,'accents():&#160;gams_controller.cpp']]],
   ['accents_5f',['accents_',['../df/d21/classgams_1_1controllers_1_1BaseController.html#a7bade0f143000bfe169744ce4861999a',1,'gams::controllers::BaseController::accents_()'],['../db/d65/classgams_1_1controllers_1_1Multicontroller.html#ad9129a2cb26bd1d95fe1380c7b33cfb7',1,'gams::controllers::Multicontroller::accents_()']]],
   ['agent',['agent',['../d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled.html#a53b60fc926bb0659c04d0dbdb1851e92',1,'gams::algorithms::FormationFlying::Compiled::agent()'],['../d4/d98/classgams_1_1variables_1_1Self.html#a4e10d32ff1b8ad63fe37121e765da0d4',1,'gams::variables::Self::agent()']]],
@@ -14,8 +14,8 @@ var searchData=
   ['algorithm_5fchanged',['algorithm_changed',['../d8/d12/classgams_1_1variables_1_1Agent.html#ad9a23d73f162595f5a3904c0706b17b1',1,'gams::variables::Agent']]],
   ['algorithm_5fid',['algorithm_id',['../d8/d12/classgams_1_1variables_1_1Agent.html#a6cb72e967a972b2a1c86968da42a2180',1,'gams::variables::Agent::algorithm_id()'],['../d4/dde/classgams_1_1variables_1_1Swarm.html#a9996987148f8d6dfbe71018ede4e81e5',1,'gams::variables::Swarm::algorithm_id()']]],
   ['algorithms_5f',['algorithms_',['../d9/d03/classgams_1_1algorithms_1_1Executor.html#ab6bf5b4a45af00895e5523b6cd5240eb',1,'gams::algorithms::Executor::algorithms_()'],['../df/d21/classgams_1_1controllers_1_1BaseController.html#af2908f22bc96cca2b6681fb970386205',1,'gams::controllers::BaseController::algorithms_()'],['../db/d65/classgams_1_1controllers_1_1Multicontroller.html#a888fcb4edf85c24793df59b8184978f3',1,'gams::controllers::Multicontroller::algorithms_()']]],
-  ['alt',['Alt',['../d0/d14/namespacegams_1_1utility_1_1order.html#a8baa779c3da66fe4d0ca5d47d1cae181',1,'gams::utility::order']]],
-  ['angle',['angle',['../d8/d12/classgams_1_1variables_1_1Agent.html#a44fe24a71c85ab32ef478203e8af5362',1,'gams::variables::Agent']]],
+  ['alt',['Alt',['../d6/dcb/namespacegams_1_1pose_1_1order.html#ae70867acede24b21064e59a11895f96b',1,'gams::pose::order::Alt()'],['../d0/d14/namespacegams_1_1utility_1_1order.html#a8baa779c3da66fe4d0ca5d47d1cae181',1,'gams::utility::order::Alt()']]],
+  ['amount',['amount',['../d2/d37/classgams_1_1auctions_1_1AuctionBid.html#aeef3fc018057b973fa741083477032f7',1,'gams::auctions::AuctionBid']]],
   ['area_5f',['area_',['../d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#ad4aaef52331b56cdc2f26f9c59e3085a',1,'gams::algorithms::PerimeterPatrol']]],
   ['args',['args',['../d5/d79/classgams_1_1algorithms_1_1AlgorithmMetaData.html#a383d51e9c6602592a54992100cfc282b',1,'gams::algorithms::AlgorithmMetaData']]],
   ['asset_5fgroup_5f',['asset_group_',['../da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a368d2cfda2fe078dfd56954c21d0a2d9',1,'gams::algorithms::ZoneCoverage']]],

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.9.1"/>
-<title>GAMS: src/gams/utility/CartesianFrame.cpp File Reference</title>
+<title>GAMS: src/gams/pose/CartesianFrame.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.11</span>
    </div>
   </td>
  </tr>
@@ -110,15 +110,15 @@ $(document).ready(function(){initNavTree('d0/d9c/CartesianFrame_8cpp.html','../.
 <div class="title">CartesianFrame.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dc/d28/CartesianFrame_8h_source.html">CartesianFrame.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/dba/GPSFrame_8h_source.html">GPSFrame.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d94/UTMFrame_8h_source.html">UTMFrame.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/dbb/pose_2CartesianFrame_8h_source.html">CartesianFrame.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dc5/pose_2GPSFrame_8h_source.html">GPSFrame.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d5a/pose_2UTMFrame_8h_source.html">UTMFrame.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for CartesianFrame.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/d4f/CartesianFrame_8cpp__incl.png" border="0" usemap="#src_2gams_2utility_2CartesianFrame_8cpp" alt=""/></div>
-<map name="src_2gams_2utility_2CartesianFrame_8cpp" id="src_2gams_2utility_2CartesianFrame_8cpp">
-<area shape="rect" id="node2" href="../../dc/d28/CartesianFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1013,95,1139,121"/><area shape="rect" id="node29" href="../../dc/dba/GPSFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1191,95,1289,121"/><area shape="rect" id="node31" href="../../dc/d94/UTMFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1314,95,1411,121"/><area shape="rect" id="node3" href="../../dc/d49/ReferenceFrame_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1063,244,1191,271"/><area shape="rect" id="node28" href="../../d5/d42/CartesianFrame_8inl.html" title="CartesianFrame.inl" alt="" coords="1011,169,1141,196"/><area shape="rect" id="node4" href="../../d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="5,632,152,659"/><area shape="rect" id="node6" href="../../d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="227,632,387,659"/><area shape="rect" id="node10" href="../../d7/db5/Pose_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="990,393,1053,420"/><area shape="rect" id="node27" href="../../d4/d05/ReferenceFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1059,319,1194,345"/><area shape="rect" id="node12" href="../../d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1361,468,1514,495"/><area shape="rect" id="node22" href="../../d0/d8f/Rotation_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="651,468,803,495"/><area shape="rect" id="node26" href="../../d0/d33/Pose_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="987,468,1056,495"/><area shape="rect" id="node13" href="../../d6/df6/Coordinate_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="582,550,749,577"/><area shape="rect" id="node21" href="../../df/d2b/Location_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1525,550,1613,577"/><area shape="rect" id="node16" href="../../de/d36/Coordinate_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="616,632,717,659"/><area shape="rect" id="node24" href="../../d6/d2a/AngleUnits_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="461,550,557,577"/><area shape="rect" id="node25" href="../../d8/d6e/Rotation_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="825,550,911,577"/><area shape="rect" id="node30" href="../../d6/dd0/GPSFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1216,169,1320,196"/></map>
+<div class="center"><img src="../../d7/d4f/CartesianFrame_8cpp__incl.png" border="0" usemap="#src_2gams_2pose_2CartesianFrame_8cpp" alt=""/></div>
+<map name="src_2gams_2pose_2CartesianFrame_8cpp" id="src_2gams_2pose_2CartesianFrame_8cpp">
+<area shape="rect" id="node2" href="../../d9/dbb/pose_2CartesianFrame_8h.html" title="CartesianFrame.h" alt="" coords="1331,80,1457,107"/><area shape="rect" id="node29" href="../../d6/dc5/pose_2GPSFrame_8h.html" title="GPSFrame.h" alt="" coords="1509,80,1607,107"/><area shape="rect" id="node31" href="../../da/d5a/pose_2UTMFrame_8h.html" title="UTMFrame.h" alt="" coords="1632,80,1729,107"/><area shape="rect" id="node3" href="../../d5/df8/pose_2ReferenceFrame_8h.html" title="ReferenceFrame.h" alt="" coords="1381,229,1509,256"/><area shape="rect" id="node28" href="../../d5/d42/CartesianFrame_8inl.html" title="CartesianFrame.inl" alt="" coords="1329,155,1459,181"/><area shape="rect" id="node4" href="../../d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="206,617,353,644"/><area shape="rect" id="node6" href="../../d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="22,617,182,644"/><area shape="rect" id="node10" href="../../d3/db6/pose_2Pose_8h.html" title="Pose.h" alt="" coords="1308,379,1371,405"/><area shape="rect" id="node27" href="../../d4/d05/ReferenceFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1377,304,1512,331"/><area shape="rect" id="node12" href="../../dc/d98/pose_2Position_8h.html" title="gams/pose/Position.h" alt="" coords="1265,453,1413,480"/><area shape="rect" id="node22" href="../../d2/df7/pose_2Orientation_8h.html" title="gams/pose/Orientation.h" alt="" coords="591,453,755,480"/><area shape="rect" id="node26" href="../../d0/d33/Pose_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="497,453,566,480"/><area shape="rect" id="node13" href="../../df/d28/pose_2Coordinate_8h.html" title="gams/pose/Coordinate.h" alt="" coords="447,535,610,562"/><area shape="rect" id="node21" href="../../d8/d85/Position_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1403,535,1489,562"/><area shape="rect" id="node16" href="../../de/d36/Coordinate_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="377,617,478,644"/><area shape="rect" id="node24" href="../../d1/d19/pose_2AngleUnits_8h.html" title="AngleUnits.h" alt="" coords="327,535,423,562"/><area shape="rect" id="node25" href="../../d4/d70/Orientation_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="736,535,839,562"/><area shape="rect" id="node30" href="../../d6/dd0/GPSFrame_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="1534,155,1638,181"/></map>
 </div>
 </div>
 <p><a href="../../d0/d9c/CartesianFrame_8cpp_source.html">Go to the source code of this file.</a></p>
@@ -126,9 +126,9 @@ Include dependency graph for CartesianFrame.cpp:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:df/dae/namespacegams"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dae/namespacegams.html">gams</a></td></tr>
-<tr class="memdesc:df/dae/namespacegams"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copyright (c) 2015 Carnegie Mellon University. <br /></td></tr>
+<tr class="memdesc:df/dae/namespacegams"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains all GAMS-related tools, classes and code. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:da/d4b/namespacegams_1_1utility"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">gams::utility</a></td></tr>
+<tr class="memitem:d3/d79/namespacegams_1_1pose"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d79/namespacegams_1_1pose.html">gams::pose</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -136,8 +136,8 @@ Namespaces</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_e1406cd850b444c8c135213175f9bbdb.html">utility</a></li><li class="navelem"><a class="el" href="../../d0/d9c/CartesianFrame_8cpp.html">CartesianFrame.cpp</a></li>
-    <li class="footer">Generated on Sat Jun 18 2016 15:37:40 for GAMS by
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_db7d7d8666285f43a328e1ca0ed954ab.html">pose</a></li><li class="navelem"><a class="el" href="../../d0/d9c/CartesianFrame_8cpp.html">CartesianFrame.cpp</a></li>
+    <li class="footer">Generated on Mon Jun 5 2017 09:20:15 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['radians',['radians',['../da/d4b/namespacegams_1_1utility.html#abb4ff74f8cb3c6667d37296efd09735d',1,'gams::utility']]],
+  ['radians',['radians',['../d3/d79/namespacegams_1_1pose.html#a4f963acb1b9fd135fb343cedbf56f6a2',1,'gams::pose::radians()'],['../da/d4b/namespacegams_1_1utility.html#a4189fa9f78090ab39e3c5edc8febdceb',1,'gams::utility::radians()']]],
   ['range_5f',['range_',['../db/d7d/classgams_1_1variables_1_1Sensor.html#a737a548d36a6fa08361329ba55ddadaf',1,'gams::variables::Sensor']]],
   ['rank',['rank',['../da/d1a/structonion_1_1placement.html#a4b45ee7eaea01dea965198533280dd3c',1,'onion::placement']]],
   ['reduced_5fmovement',['reduced_movement',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a791031382009265904526cac03e938a2',1,'gams::variables::PlatformStatus']]],
@@ -10,12 +10,12 @@ var searchData=
   ['region_5fid_5f',['region_id_',['../d4/de8/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolCoverage.html#af9d65b784d9d2a6a4c3015b8f881dbb7',1,'gams::algorithms::area_coverage::PerimeterPatrolCoverage::region_id_()'],['../d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html#a24a2e593158c0ad0e874251bd65d9b80',1,'gams::algorithms::area_coverage::SnakeAreaCoverage::region_id_()']]],
   ['regions_5f',['regions_',['../da/d42/classgams_1_1utility_1_1SearchArea.html#a24b782fde5fc69754f58a47eea7d313b',1,'gams::utility::SearchArea']]],
   ['repeat_5f',['repeat_',['../d9/d03/classgams_1_1algorithms_1_1Executor.html#a850ed218dd64d32acf3f8da7b7670a6a',1,'gams::algorithms::Executor::repeat_()'],['../d2/d4c/classgams_1_1algorithms_1_1Move.html#a352012c4833bcb1486ea8ce81c5a6feb',1,'gams::algorithms::Move::repeat_()']]],
-  ['reverse',['reverse',['../df/dba/structgams_1_1utility_1_1euler_1_1conv_1_1Intr.html#a93148afe3e8d2769eb5a7a32d0c6aae9',1,'gams::utility::euler::conv::Intr::reverse()'],['../d3/dfd/structgams_1_1utility_1_1euler_1_1conv_1_1Extr.html#a8c22f54ab1d603083e7d8bbcc3e5dd95',1,'gams::utility::euler::conv::Extr::reverse()']]],
-  ['revolutions',['revolutions',['../da/d4b/namespacegams_1_1utility.html#a1e4cf353c3cbfef7a1a491eab1ca151a',1,'gams::utility']]],
+  ['reverse',['reverse',['../d2/d41/structgams_1_1pose_1_1euler_1_1conv_1_1Intr.html#a3599b54b83b4cac77cbd49ea210480b3',1,'gams::pose::euler::conv::Intr::reverse()'],['../d6/d8e/structgams_1_1pose_1_1euler_1_1conv_1_1Extr.html#aad132b54470e4a86142e8838cef478bd',1,'gams::pose::euler::conv::Extr::reverse()']]],
+  ['revolutions',['revolutions',['../d3/d79/namespacegams_1_1pose.html#a14d6af9f4e4af54a28b91444109855df',1,'gams::pose::revolutions()'],['../da/d4b/namespacegams_1_1utility.html#a5f95170c7521327d25043126ce33263b',1,'gams::utility::revolutions()']]],
   ['rho_5f',['rho_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#aef35d28997b6ad58bf17721d5aa9fe04',1,'gams::algorithms::FormationFlying']]],
   ['rotating',['rotating',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a2c464919f890ae59e055642153dbc545',1,'gams::variables::PlatformStatus']]],
   ['round_5f',['round_',['../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a28a017726e9246787abe35c1d59342e7',1,'gams::auctions::AuctionBase::round_()'],['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a16caa5914ad1a42f188efbe23471ff60',1,'gams::elections::ElectionBase::round_()']]],
-  ['rx_5f',['rx_',['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a2ee66b7f26e9b07e4f29f21033f961ad',1,'gams::utility::RotationVector']]],
-  ['ry_5f',['ry_',['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#a42ad8c950385ba72562a10ec31bc1a00',1,'gams::utility::RotationVector']]],
-  ['rz_5f',['rz_',['../d4/d0d/classgams_1_1utility_1_1RotationVector.html#ad77f1f8e69debf1d199d8d918752e8d2',1,'gams::utility::RotationVector']]]
+  ['rx_5f',['rx_',['../db/d73/classgams_1_1pose_1_1OrientationVector.html#a91ff57cd74ca2034e80376cea3954292',1,'gams::pose::OrientationVector']]],
+  ['ry_5f',['ry_',['../db/d73/classgams_1_1pose_1_1OrientationVector.html#a01c920163aef1f13772beef8edaf383a',1,'gams::pose::OrientationVector']]],
+  ['rz_5f',['rz_',['../db/d73/classgams_1_1pose_1_1OrientationVector.html#adb233781d062909341bd4f1d26862bd3',1,'gams::pose::OrientationVector']]]
 ];

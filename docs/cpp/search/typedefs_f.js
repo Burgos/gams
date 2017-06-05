@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['xyz',['XYZ',['../d0/d14/namespacegams_1_1utility_1_1order.html#a7752e80b413c444942ba11848423208f',1,'gams::utility::order']]],
-  ['xzy',['XZY',['../d0/d14/namespacegams_1_1utility_1_1order.html#a4703419186c090a562eae587f1d250a9',1,'gams::utility::order']]]
+  ['trig',['Trig',['../d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html#ac8ec1ee0b2d16fc82ea5df2a7570b16b',1,'gams::pose::euler::Euler::Trig()'],['../da/d10/structgams_1_1pose_1_1euler_1_1detail_1_1GetTypes.html#a29eb3b03495f7000a6a525a11dbbb7e4',1,'gams::pose::euler::detail::GetTypes::Trig()'],['../d0/da4/structgams_1_1pose_1_1euler_1_1detail_1_1GetTypes_3_01A_00_01B_00_01C_00_01Extr_01_4.html#a77c1573c8f8020b0044ebae382bc1415',1,'gams::pose::euler::detail::GetTypes&lt; A, B, C, Extr &gt;::Trig()'],['../d4/dc1/structgams_1_1pose_1_1euler_1_1detail_1_1EulerFormulas_3_01X_00_01Y_00_01Z_01_4.html#a9efac3eb82ee115967faeaf306b984f8',1,'gams::pose::euler::detail::EulerFormulas&lt; X, Y, Z &gt;::Trig()'],['../dd/dfa/structgams_1_1pose_1_1euler_1_1detail_1_1EulerFormulas_3_01Z_00_01Y_00_01X_01_4.html#ad8ad96a6e3c600512f17e2b290ac80f7',1,'gams::pose::euler::detail::EulerFormulas&lt; Z, Y, X &gt;::Trig()']]],
+  ['type',['type',['../df/d65/structgams_1_1pose_1_1euler_1_1detail_1_1GetEulerTrig.html#ae0cbd5ac92b5fc255b9b7c5043d50584',1,'gams::pose::euler::detail::GetEulerTrig::type()'],['../d6/d4b/structgams_1_1pose_1_1euler_1_1detail_1_1GetEulerTrig_3_01A_00_01B_00_01A_01_4.html#a24e2f28d5379339922b0a7dda9439c65',1,'gams::pose::euler::detail::GetEulerTrig&lt; A, B, A &gt;::type()']]]
 ];

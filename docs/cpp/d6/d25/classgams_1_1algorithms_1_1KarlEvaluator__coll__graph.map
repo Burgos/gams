@@ -1,22 +1,13 @@
 <map id="gams::algorithms::KarlEvaluator" name="gams::algorithms::KarlEvaluator">
-<area shape="rect" id="node2" href="$d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1685,167,1900,193"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="1072,297,1193,324"/>
-<area shape="rect" id="node13" href="$d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="1379,204,1580,231"/>
-<area shape="rect" id="node24" title="STL class. " alt="" coords="1241,375,1355,401"/>
-<area shape="rect" id="node6" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="1061,171,1204,197"/>
-<area shape="rect" id="node7" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="651,167,806,193"/>
-<area shape="rect" id="node9" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="5,199,204,225"/>
-<area shape="rect" id="node10" title="STL class. " alt="" coords="362,83,442,109"/>
-<area shape="rect" id="node12" href="$d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html" title="A container for algorithm status information. " alt="" coords="849,50,1024,91"/>
-<area shape="rect" id="node14" href="$db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="853,101,1021,142"/>
-<area shape="rect" id="node11" title="STL class. " alt="" coords="41,75,168,117"/>
-<area shape="rect" id="node15" href="$da/d07/classgams_1_1utility_1_1GPSFrame.html" title="Locations represented as GPS coordinates, and an altitude, assuming a spherical planet (by default..." alt="" coords="1049,223,1216,249"/>
-<area shape="rect" id="node16" href="$dc/d3b/classgams_1_1utility_1_1SimpleRotateFrame.html" title="For internal use. " alt="" coords="639,218,818,259"/>
-<area shape="rect" id="node17" href="$d0/d25/classgams_1_1utility_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="323,435,481,477"/>
-<area shape="rect" id="node22" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Pose \&gt;" alt="" coords="1051,465,1214,506"/>
-<area shape="rect" id="node23" href="$d0/d20/classgams_1_1utility_1_1CoordinateBase.html" title="For internal use. " alt="" coords="632,480,825,507"/>
-<area shape="rect" id="node18" href="$dd/d85/classgams_1_1utility_1_1Pose.html" title="Represents a combination of Location and Rotation within a single reference frame. " alt="" coords="1414,531,1545,557"/>
-<area shape="rect" id="node19" href="$d6/de9/classgams_1_1utility_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="1048,581,1217,608"/>
-<area shape="rect" id="node20" href="$d8/d57/classgams_1_1utility_1_1LocationVector.html" title="Container for Location information, not bound to a frame. " alt="" coords="635,581,823,608"/>
-<area shape="rect" id="node21" href="$d4/d0d/classgams_1_1utility_1_1RotationVector.html" title="Container for Rotation information, not bound to a frame. " alt="" coords="635,632,822,659"/>
+<area shape="rect" id="node2" href="$d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1581,220,1796,247"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="981,244,1103,271"/>
+<area shape="rect" id="node13" href="$d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="1275,180,1476,207"/>
+<area shape="rect" id="node15" title="STL class. " alt="" coords="1137,316,1251,343"/>
+<area shape="rect" id="node6" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="971,105,1113,132"/>
+<area shape="rect" id="node7" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="593,105,748,132"/>
+<area shape="rect" id="node9" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="5,7,204,33"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="362,137,442,164"/>
+<area shape="rect" id="node12" href="$d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html" title="A container for algorithm status information. " alt="" coords="772,365,947,406"/>
+<area shape="rect" id="node14" href="$db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="775,167,943,209"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="41,130,168,171"/>
 </map>

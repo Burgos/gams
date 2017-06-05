@@ -1,5 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d8/d47/classgams_1_1groups_1_1GroupFactory.html" title="Base class for a group factory. " alt="" coords="5,46,193,73"/>
-<area shape="rect" id="node2" href="$d7/dfd/classgams_1_1groups_1_1GroupFixedListFactory.html" title="Factory for creating GroupFixedList groups. " alt="" coords="252,5,428,47"/>
-<area shape="rect" id="node3" href="$df/df5/classgams_1_1groups_1_1GroupTransientFactory.html" title="Factory for creating GroupTransient groups. " alt="" coords="241,71,439,112"/>
+<area shape="rect" id="node1" href="$db/d12/classgams_1_1formations_1_1AgentFormation.html" title="An agent formation. " alt="" coords="5,5,228,32"/>
 </map>

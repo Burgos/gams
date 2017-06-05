@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0.11</span>
    </div>
   </td>
  </tr>
@@ -132,7 +132,7 @@ Collaboration diagram for gams::auctions::AuctionMaximumBid:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/dd6/classgams_1_1auctions_1_1AuctionMaximumBid__coll__graph.png" border="0" usemap="#gams_1_1auctions_1_1AuctionMaximumBid_coll__map" alt="Collaboration graph"/></div>
 <map name="gams_1_1auctions_1_1AuctionMaximumBid_coll__map" id="gams_1_1auctions_1_1AuctionMaximumBid_coll__map">
-<area shape="rect" id="node2" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html" title="Base class for an auction. " alt="" coords="28,200,221,227"/><area shape="rect" id="node3" title="STL class. " alt="" coords="85,96,165,123"/><area shape="rect" id="node4" title="STL class. " alt="" coords="61,5,188,47"/></map>
+<area shape="rect" id="node2" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html" title="Base class for an auction. " alt="" coords="28,379,221,405"/><area shape="rect" id="node3" href="../../d4/d23/classgams_1_1groups_1_1GroupFixedList.html" title="A fixed list of agent members. " alt="" coords="118,289,315,316"/><area shape="rect" id="node4" href="../../da/d36/classgams_1_1groups_1_1GroupBase.html" title="Base class for a group of agents. " alt="" coords="119,185,293,212"/><area shape="rect" id="node5" title="STL class. " alt="" coords="166,96,246,123"/><area shape="rect" id="node6" title="STL class. " alt="" coords="143,5,269,47"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -155,24 +155,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af7a0f4e9240706be3449c972a141ec1d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#af7a0f4e9240706be3449c972a141ec1d">bid</a> (const std::string &amp;agent, const <a class="el" href="../../d4/de5/ElectionPlurality_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">madara::knowledge::KnowledgeRecord</a> &amp;amount)</td></tr>
 <tr class="memdesc:af7a0f4e9240706be3449c972a141ec1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bids in the auction.  <a href="#af7a0f4e9240706be3449c972a141ec1d">More...</a><br /></td></tr>
 <tr class="separator:af7a0f4e9240706be3449c972a141ec1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae304bf9486b27c0ec3ea24a3e7471584"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#ae304bf9486b27c0ec3ea24a3e7471584">clear_group</a> (void)</td></tr>
+<tr class="memdesc:ae304bf9486b27c0ec3ea24a3e7471584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the underlying auction participants group.  <a href="#ae304bf9486b27c0ec3ea24a3e7471584">More...</a><br /></td></tr>
+<tr class="separator:ae304bf9486b27c0ec3ea24a3e7471584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30596b14eff956c6e54eb2cbe0ecf3e6"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a30596b14eff956c6e54eb2cbe0ecf3e6">get_agent_prefix</a> (void) const </td></tr>
 <tr class="memdesc:a30596b14eff956c6e54eb2cbe0ecf3e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the prefix for the current agent.  <a href="#a30596b14eff956c6e54eb2cbe0ecf3e6">More...</a><br /></td></tr>
 <tr class="separator:a30596b14eff956c6e54eb2cbe0ecf3e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa31b32c73305250be1634b07fe2f2bd8"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#aa31b32c73305250be1634b07fe2f2bd8">get_auction_prefix</a> (void) const </td></tr>
 <tr class="memdesc:aa31b32c73305250be1634b07fe2f2bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the prefix for the auction in the knowledge base.  <a href="#aa31b32c73305250be1634b07fe2f2bd8">More...</a><br /></td></tr>
 <tr class="separator:aa31b32c73305250be1634b07fe2f2bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb92224a167f04dd16a6fadb84893c3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a0bb92224a167f04dd16a6fadb84893c3">get_auction_round_prefix</a> (void) const </td></tr>
+<tr class="memdesc:a0bb92224a167f04dd16a6fadb84893c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the full auction prefix string, including round.  <a href="#a0bb92224a167f04dd16a6fadb84893c3">More...</a><br /></td></tr>
+<tr class="separator:a0bb92224a167f04dd16a6fadb84893c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab566107d7e221e0dfe49b7bfce7bfc39"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/de5/ElectionPlurality_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">madara::knowledge::KnowledgeRecord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#ab566107d7e221e0dfe49b7bfce7bfc39">get_bid</a> (const std::string &amp;id)</td></tr>
 <tr class="memdesc:ab566107d7e221e0dfe49b7bfce7bfc39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the agent is a member of the action participants.  <a href="#ab566107d7e221e0dfe49b7bfce7bfc39">More...</a><br /></td></tr>
 <tr class="separator:ab566107d7e221e0dfe49b7bfce7bfc39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e59bbbc475bea076afb5c826828af8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#ac7e59bbbc475bea076afb5c826828af8">get_bids</a> (<a class="el" href="../../d3/dfe/namespacegams_1_1auctions.html#a0ae17614fcf2b9034c7c5090791a6f21">AuctionBids</a> &amp;bids, bool strip_prefix=true, bool include_all_members=false) const </td></tr>
+<tr class="memdesc:ac7e59bbbc475bea076afb5c826828af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of bids in this round.  <a href="#ac7e59bbbc475bea076afb5c826828af8">More...</a><br /></td></tr>
+<tr class="separator:ac7e59bbbc475bea076afb5c826828af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3aa3707ccbd872befa299911e250277"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5d/classgams_1_1auctions_1_1AuctionMaximumBid.html#ac3aa3707ccbd872befa299911e250277">get_leader</a> (void)</td></tr>
 <tr class="memdesc:ac3aa3707ccbd872befa299911e250277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the leader of the bidding process.  <a href="#ac3aa3707ccbd872befa299911e250277">More...</a><br /></td></tr>
 <tr class="separator:ac3aa3707ccbd872befa299911e250277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46ba90372ad82e072e0a9845816ec1b8"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a46ba90372ad82e072e0a9845816ec1b8">get_participation</a> (void) const </td></tr>
+<tr class="memdesc:a46ba90372ad82e072e0a9845816ec1b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets participation rate in the group for this round.  <a href="#a46ba90372ad82e072e0a9845816ec1b8">More...</a><br /></td></tr>
+<tr class="separator:a46ba90372ad82e072e0a9845816ec1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedfeb0204537b6eee5889ed7de307097"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#aedfeb0204537b6eee5889ed7de307097">get_round</a> (void) const </td></tr>
 <tr class="memdesc:aedfeb0204537b6eee5889ed7de307097"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the round number, usually in a multi-round auction.  <a href="#aedfeb0204537b6eee5889ed7de307097">More...</a><br /></td></tr>
 <tr class="separator:aedfeb0204537b6eee5889ed7de307097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a904add838311e71cf80c6adbda540831"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a904add838311e71cf80c6adbda540831">is_member</a> (const std::string &amp;agent_prefix)</td></tr>
-<tr class="memdesc:a904add838311e71cf80c6adbda540831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the agent is a member of the action participants.  <a href="#a904add838311e71cf80c6adbda540831">More...</a><br /></td></tr>
-<tr class="separator:a904add838311e71cf80c6adbda540831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bf3c9e44c9f066e846bb7761c7c50fe"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a7bf3c9e44c9f066e846bb7761c7c50fe">is_member</a> (const std::string &amp;agent_prefix) const </td></tr>
+<tr class="memdesc:a7bf3c9e44c9f066e846bb7761c7c50fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the agent is a member of the action participants.  <a href="#a7bf3c9e44c9f066e846bb7761c7c50fe">More...</a><br /></td></tr>
+<tr class="separator:a7bf3c9e44c9f066e846bb7761c7c50fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99f31a277a6147bbf7115e2caa1210ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a99f31a277a6147bbf7115e2caa1210ff">reset_round</a> (void)</td></tr>
 <tr class="memdesc:a99f31a277a6147bbf7115e2caa1210ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the round.  <a href="#a99f31a277a6147bbf7115e2caa1210ff">More...</a><br /></td></tr>
 <tr class="separator:a99f31a277a6147bbf7115e2caa1210ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,6 +197,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4884cb30cf4deebbe2c1c855dfafecbc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a4884cb30cf4deebbe2c1c855dfafecbc">set_knowledge_base</a> (madara::knowledge::KnowledgeBase *knowledge)</td></tr>
 <tr class="memdesc:a4884cb30cf4deebbe2c1c855dfafecbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the knowledge base.  <a href="#a4884cb30cf4deebbe2c1c855dfafecbc">More...</a><br /></td></tr>
 <tr class="separator:a4884cb30cf4deebbe2c1c855dfafecbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07889366f464ac646d2982e873cf1b66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a07889366f464ac646d2982e873cf1b66">set_round</a> (int round)</td></tr>
+<tr class="memdesc:a07889366f464ac646d2982e873cf1b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explicitly sets the round number.  <a href="#a07889366f464ac646d2982e873cf1b66">More...</a><br /></td></tr>
+<tr class="separator:a07889366f464ac646d2982e873cf1b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5328d5bb07ceaae36bb967060be7016e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a5328d5bb07ceaae36bb967060be7016e">sync</a> (void)</td></tr>
 <tr class="memdesc:a5328d5bb07ceaae36bb967060be7016e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syncs the auction information from the knowledge base.  <a href="#a5328d5bb07ceaae36bb967060be7016e">More...</a><br /></td></tr>
 <tr class="separator:a5328d5bb07ceaae36bb967060be7016e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,6 +221,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a69f68e9ed1a0fc1450bc0614793fda2a"><td class="memItemLeft" align="right" valign="top">madara::knowledge::containers::Map&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a69f68e9ed1a0fc1450bc0614793fda2a">bids_</a></td></tr>
 <tr class="memdesc:a69f68e9ed1a0fc1450bc0614793fda2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience class for bids  <a href="#a69f68e9ed1a0fc1450bc0614793fda2a">More...</a><br /></td></tr>
 <tr class="separator:a69f68e9ed1a0fc1450bc0614793fda2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb8d507201d17cbca9c02493ae749e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d23/classgams_1_1groups_1_1GroupFixedList.html">groups::GroupFixedList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a4cb8d507201d17cbca9c02493ae749e1">group_</a></td></tr>
+<tr class="memdesc:a4cb8d507201d17cbca9c02493ae749e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the expected participant group  <a href="#a4cb8d507201d17cbca9c02493ae749e1">More...</a><br /></td></tr>
+<tr class="separator:a4cb8d507201d17cbca9c02493ae749e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a697c1b5ecd39694ea5d22463f77cf4a6"><td class="memItemLeft" align="right" valign="top">madara::knowledge::KnowledgeBase *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a697c1b5ecd39694ea5d22463f77cf4a6">knowledge_</a></td></tr>
 <tr class="memdesc:a697c1b5ecd39694ea5d22463f77cf4a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The knowledge base to use as a data plane.  <a href="#a697c1b5ecd39694ea5d22463f77cf4a6">More...</a><br /></td></tr>
 <tr class="separator:a697c1b5ecd39694ea5d22463f77cf4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,7 +303,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Constructor. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d86/AuctionMaximumBid_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../d7/d86/AuctionMaximumBid_8cpp_source.html">AuctionMaximumBid.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d86/AuctionMaximumBid_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../d7/d86/AuctionMaximumBid_8cpp_source.html">AuctionMaximumBid.cpp</a>.</p>
 
 </div>
 </div>
@@ -348,7 +366,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Proceeds to the next auction round in a multi-round auction. </p>
 
-<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00139">139</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -382,7 +400,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d7/d97/AuctionBase_8inl_source.html#l00091">91</a> of file <a class="el" href="../../d7/d97/AuctionBase_8inl_source.html">AuctionBase.inl</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d97/AuctionBase_8inl_source.html#l00098">98</a> of file <a class="el" href="../../d7/d97/AuctionBase_8inl_source.html">AuctionBase.inl</a>.</p>
 
 </div>
 </div>
@@ -427,7 +445,35 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00113">113</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00133">133</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae304bf9486b27c0ec3ea24a3e7471584"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::auctions::AuctionBase::clear_group </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clears the underlying auction participants group. </p>
+
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -489,6 +535,35 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0bb92224a167f04dd16a6fadb84893c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string gams::auctions::AuctionBase::get_auction_round_prefix </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the full auction prefix string, including round. </p>
+<dl class="section return"><dt>Returns</dt><dd>the actual prefix in the knowledge base corresponding to the current round of this auction </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d7/d97/AuctionBase_8inl_source.html#l00087">87</a> of file <a class="el" href="../../d7/d97/AuctionBase_8inl_source.html">AuctionBase.inl</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab566107d7e221e0dfe49b7bfce7bfc39"></a>
 <div class="memitem">
 <div class="memproto">
@@ -520,7 +595,59 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the bid of the agent. KnowledgeRecord is false/invalid if no bid has been made or if the agent is not actually an auction participant. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00085">85</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00087">87</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac7e59bbbc475bea076afb5c826828af8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::auctions::AuctionBase::get_bids </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/dfe/namespacegams_1_1auctions.html#a0ae17614fcf2b9034c7c5090791a6f21">AuctionBids</a> &amp;&#160;</td>
+          <td class="paramname"><em>bids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>strip_prefix</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include_all_members</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the list of bids in this round. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bids</td><td>the map of bidders to bid amount </td></tr>
+    <tr><td class="paramname">strip_prefix</td><td>if true, strips auction prefix from bidder </td></tr>
+    <tr><td class="paramname">include_all_members</td><td>if true, includes empty bids from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -551,7 +678,36 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a86da16a0433cea347a3f5ca10ad82d0e">gams::auctions::AuctionBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d7/d86/AuctionMaximumBid_8cpp_source.html#l00095">95</a> of file <a class="el" href="../../d7/d86/AuctionMaximumBid_8cpp_source.html">AuctionMaximumBid.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d86/AuctionMaximumBid_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../d7/d86/AuctionMaximumBid_8cpp_source.html">AuctionMaximumBid.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a46ba90372ad82e072e0a9845816ec1b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double gams::auctions::AuctionBase::get_participation </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets participation rate in the group for this round. </p>
+<dl class="section return"><dt>Returns</dt><dd>the percentage of participation (0.0-1.0) </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -584,7 +740,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a904add838311e71cf80c6adbda540831"></a>
+<a class="anchor" id="a7bf3c9e44c9f066e846bb7761c7c50fe"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -596,7 +752,7 @@ Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>agent_prefix</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -615,7 +771,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the agent is a member of the auction </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00079">79</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00081">81</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -670,9 +826,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Resets the round. </p>
-<dl class="section return"><dt>Returns</dt><dd>the agent prefix of the leader of the auction </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00125">125</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00145">145</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -740,7 +895,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -774,7 +929,41 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07889366f464ac646d2982e873cf1b66"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gams::auctions::AuctionBase::set_round </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>round</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Explicitly sets the round number. </p>
+<p>Should only be used by advanced users </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">round</td><td>the round number for the auction </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00151">151</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -802,7 +991,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Syncs the auction information from the knowledge base. </p>
 
-<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00107">107</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html#l00127">127</a> of file <a class="el" href="../../d6/de1/AuctionBase_8cpp_source.html">AuctionBase.cpp</a>.</p>
 
 </div>
 </div>
@@ -827,7 +1016,7 @@ Protected Attributes</h2></td></tr>
 
 <p>self prefix of the agent </p>
 
-<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00223">223</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00260">260</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
 
 </div>
 </div>
@@ -851,7 +1040,7 @@ Protected Attributes</h2></td></tr>
 
 <p>the prefix for the auction </p>
 
-<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00218">218</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00255">255</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
 
 </div>
 </div>
@@ -875,7 +1064,31 @@ Protected Attributes</h2></td></tr>
 
 <p>convenience class for bids </p>
 
-<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00233">233</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00270">270</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4cb8d507201d17cbca9c02493ae749e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d23/classgams_1_1groups_1_1GroupFixedList.html">groups::GroupFixedList</a> gams::auctions::AuctionBase::group_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the expected participant group </p>
+
+<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00275">275</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
 
 </div>
 </div>
@@ -899,7 +1112,7 @@ Protected Attributes</h2></td></tr>
 
 <p>The knowledge base to use as a data plane. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00213">213</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00250">250</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
 
 </div>
 </div>
@@ -923,7 +1136,7 @@ Protected Attributes</h2></td></tr>
 
 <p>the auction round in a multi-round auction </p>
 
-<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00228">228</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html#l00265">265</a> of file <a class="el" href="../../d4/d3d/AuctionBase_8h_source.html">AuctionBase.h</a>.</p>
 
 </div>
 </div>
@@ -937,7 +1150,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d3/dfe/namespacegams_1_1auctions.html">auctions</a></li><li class="navelem"><a class="el" href="../../d9/d5d/classgams_1_1auctions_1_1AuctionMaximumBid.html">AuctionMaximumBid</a></li>
-    <li class="footer">Generated on Sat Jun 18 2016 15:37:43 for GAMS by
+    <li class="footer">Generated on Mon Jun 5 2017 09:20:18 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
