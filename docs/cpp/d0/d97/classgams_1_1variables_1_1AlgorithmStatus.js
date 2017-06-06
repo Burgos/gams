@@ -5,7 +5,7 @@ var classgams_1_1variables_1_1AlgorithmStatus =
     [ "init_variable_values", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a93dd6dfbb6936e128754ed5518c08208", null ],
     [ "init_vars", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#ae86a1ee53f8de2c6cab5d5e8fb296c1a", null ],
     [ "init_vars", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a6cca154cde7d840c9cdad3631ba88438", null ],
-    [ "make_variable_prefix", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a2d2fc91d6e0620d4879b4ba92edb473c", null ],
+    [ "make_variable_prefix", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a2e1c66083e5afad25dc06594e5b93545", null ],
     [ "operator=", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a2e2225bbbfc5b9900f5123b75b1ebb59", null ],
     [ "deadlocked", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a8cdb341f08e5dc61796c6b497ed9f873", null ],
     [ "failed", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html#a82a6bbe6a1e55f07e15494bfb0e824a6", null ],

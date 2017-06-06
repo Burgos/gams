@@ -17,6 +17,7 @@ var gams__controller_8cpp =
     [ "platform", "dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06", null ],
     [ "print_usage", "dc/d61/gams__controller_8cpp.html#a5724b5d5bd1fb93f9ae44b8d46b64328", null ],
     [ "accents", "dc/d61/gams__controller_8cpp.html#a7a8184cd712a2cb884729b30455085c2", null ],
+    [ "controller_settings", "dc/d61/gams__controller_8cpp.html#a870798875407fd034b8a1821a2742010", null ],
     [ "file_path", "dc/d61/gams__controller_8cpp.html#abf5d4571e49256d0c9d862dfe4936e55", null ],
     [ "madara_commands", "dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177", null ],
     [ "plat_set", "dc/d61/gams__controller_8cpp.html#a7f9805e384e72197c583a2d18af8d7c7", null ],

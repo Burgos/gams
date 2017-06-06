@@ -1,7 +1,7 @@
 var classgams_1_1formations_1_1AgentFormation =
 [
     [ "AgentFormation", "db/d12/classgams_1_1formations_1_1AgentFormation.html#a05b25b8d85d568ee9f14df6a88f0f093", null ],
-    [ "~AgentFormation", "db/d12/classgams_1_1formations_1_1AgentFormation.html#a255fc6e83648fd32e59fdda49c20d063", null ],
+    [ "~AgentFormation", "db/d12/classgams_1_1formations_1_1AgentFormation.html#a196574f7ff7f578c91c3ddb5e0bbe611", null ],
     [ "from_args", "db/d12/classgams_1_1formations_1_1AgentFormation.html#ace626cb656846dd7d998b5e89adcc67f", null ],
     [ "goodness", "db/d12/classgams_1_1formations_1_1AgentFormation.html#aa84790af2115c8c66808ee153d724134", null ],
     [ "is_extra", "db/d12/classgams_1_1formations_1_1AgentFormation.html#adc085e29a103a740eb384afdaa383008", null ],

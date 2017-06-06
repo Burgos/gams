@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.11</span>
+   &#160;<span id="projectnumber">1.0.12</span>
    </div>
   </td>
  </tr>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('d4/d3d/AuctionBase_8h_source.html','..
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">bool</span> is_member (<span class="keyword">const</span> std::string &amp; agent_prefix) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="keyword">virtual</span> <a class="code" href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">madara::knowledge::KnowledgeRecord</a> get_bid (</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="keyword">virtual</span> madara::knowledge::KnowledgeRecord get_bid (</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keyword">const</span> std::string &amp; <span class="keywordtype">id</span>);</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> set_agent_prefix (<span class="keyword">const</span> std::string &amp; prefix);</div>
@@ -163,10 +163,10 @@ $(document).ready(function(){initNavTree('d4/d3d/AuctionBase_8h_source.html','..
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">double</span> get_participation (<span class="keywordtype">void</span>) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      <span class="keywordtype">void</span> bid (<span class="keyword">const</span> <a class="code" href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">madara::knowledge::KnowledgeRecord</a> &amp; amount);</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      <span class="keywordtype">void</span> bid (<span class="keyword">const</span> madara::knowledge::KnowledgeRecord &amp; amount);</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;      <span class="keyword">virtual</span> <span class="keywordtype">void</span> bid (<span class="keyword">const</span> std::string &amp; agent,</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">madara::knowledge::KnowledgeRecord</a> &amp; amount);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keyword">const</span> madara::knowledge::KnowledgeRecord &amp; amount);</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;      <span class="keyword">virtual</span> std::string get_leader (<span class="keywordtype">void</span>) = 0;</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
@@ -203,15 +203,13 @@ $(document).ready(function(){initNavTree('d4/d3d/AuctionBase_8h_source.html','..
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;  }</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;}</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d97/AuctionBase_8inl.html">AuctionBase.inl</a>&quot;</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor">#include &quot;AuctionBase.inl&quot;</span></div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor">#endif // _GAMS_AUCTIONS_AUCTION_BASE_H_</span></div>
 <div class="ttc" id="classgams_1_1groups_1_1GroupFixedList_html"><div class="ttname"><a href="../../d4/d23/classgams_1_1groups_1_1GroupFixedList.html">gams::groups::GroupFixedList</a></div><div class="ttdoc">A fixed list of agent members. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d49/GroupFixedList_8h_source.html#l00073">GroupFixedList.h:73</a></div></div>
 <div class="ttc" id="GroupBase_8h_html"><div class="ttname"><a href="../../d1/dd8/GroupBase_8h.html">GroupBase.h</a></div><div class="ttdoc">Copyright (c) 2016 Carnegie Mellon University. </div></div>
 <div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_ab8643cc2388c894ce5916e95bfb12946"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#ab8643cc2388c894ce5916e95bfb12946">gams::auctions::AuctionBase::auction_prefix_</a></div><div class="ttdeci">std::string auction_prefix_</div><div class="ttdoc">the prefix for the auction </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3d/AuctionBase_8h_source.html#l00255">AuctionBase.h:255</a></div></div>
-<div class="ttc" id="AuctionBase_8inl_html"><div class="ttname"><a href="../../d7/d97/AuctionBase_8inl.html">AuctionBase.inl</a></div></div>
 <div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html">gams::auctions::AuctionBase</a></div><div class="ttdoc">Base class for an auction. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3d/AuctionBase_8h_source.html#l00078">AuctionBase.h:78</a></div></div>
-<div class="ttc" id="Executor_8cpp_html_ab81cfab508380f12dfb849a4915dde6d"><div class="ttname"><a href="../../d1/da9/Executor_8cpp.html#ab81cfab508380f12dfb849a4915dde6d">KnowledgeRecord</a></div><div class="ttdeci">knowledge::KnowledgeRecord KnowledgeRecord</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/Executor_8cpp_source.html#l00067">Executor.cpp:67</a></div></div>
 <div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_a28a017726e9246787abe35c1d59342e7"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a28a017726e9246787abe35c1d59342e7">gams::auctions::AuctionBase::round_</a></div><div class="ttdeci">int round_</div><div class="ttdoc">the auction round in a multi-round auction </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3d/AuctionBase_8h_source.html#l00265">AuctionBase.h:265</a></div></div>
 <div class="ttc" id="classgams_1_1auctions_1_1AuctionBase_html_a69f68e9ed1a0fc1450bc0614793fda2a"><div class="ttname"><a href="../../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a69f68e9ed1a0fc1450bc0614793fda2a">gams::auctions::AuctionBase::bids_</a></div><div class="ttdeci">madara::knowledge::containers::Map bids_</div><div class="ttdoc">convenience class for bids </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3d/AuctionBase_8h_source.html#l00270">AuctionBase.h:270</a></div></div>
 <div class="ttc" id="GAMSExport_8h_html"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html">GAMSExport.h</a></div></div>
@@ -231,7 +229,7 @@ $(document).ready(function(){initNavTree('d4/d3d/AuctionBase_8h_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_e3fbcf274689f7733b0f5e6bedb7e1b4.html">auctions</a></li><li class="navelem"><a class="el" href="../../d4/d3d/AuctionBase_8h.html">AuctionBase.h</a></li>
-    <li class="footer">Generated on Mon Jun 5 2017 09:20:13 for GAMS by
+    <li class="footer">Generated on Tue Jun 6 2017 13:27:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

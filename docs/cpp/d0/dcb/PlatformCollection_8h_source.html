@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.11</span>
+   &#160;<span id="projectnumber">1.0.12</span>
    </div>
   </td>
  </tr>
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('d0/dcb/PlatformCollection_8h_source.ht
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../df/dae/namespacegams.html">gams</a></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;{</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keyword">namespace </span><a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keyword">namespace </span>platforms</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  {</div>
 <div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html">   73</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a> <a class="code" href="../../d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html">PlatformCollection</a> : <span class="keyword">public</span> <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">BasePlatform</a></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div>
@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('d0/dcb/PlatformCollection_8h_source.ht
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      <a class="code" href="../../d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html">PlatformCollection</a> (</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        madara::knowledge::KnowledgeBase * knowledge,</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a>,</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * platforms,</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>);</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      ~<a class="code" href="../../d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html">PlatformCollection</a> ();</div>
@@ -172,10 +172,10 @@ $(document).ready(function(){initNavTree('d0/dcb/PlatformCollection_8h_source.ht
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;      <span class="keyword">virtual</span> <a class="code" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">BasePlatform</a> * create (</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">madara::knowledge::KnowledgeMap</a> &amp; args,</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keyword">const</span> madara::knowledge::KnowledgeMap &amp; args,</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        madara::knowledge::KnowledgeBase * knowledge,</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a>,</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * platforms,</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>);</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    };</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  }</div>
@@ -194,7 +194,6 @@ $(document).ready(function(){initNavTree('d0/dcb/PlatformCollection_8h_source.ht
 <div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
 <div class="ttc" id="PlatformStatus_8h_html"><div class="ttname"><a href="../../da/d37/PlatformStatus_8h.html">PlatformStatus.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a1d8592a3009319dc38a04b2b7879912f"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">gams::variables::Platforms</a></div><div class="ttdeci">std::map&lt; std::string, PlatformStatus &gt; Platforms</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d37/PlatformStatus_8h_source.html#l00176">PlatformStatus.h:176</a></div></div>
-<div class="ttc" id="namespacegams_1_1platforms_html"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a></div><div class="ttdoc">Provides platform abstractions for hardware and simulations. </div></div>
 <div class="ttc" id="classgams_1_1platforms_1_1PlatformFactory_html"><div class="ttname"><a href="../../d5/d99/classgams_1_1platforms_1_1PlatformFactory.html">gams::platforms::PlatformFactory</a></div><div class="ttdoc">Base class for platform factories to create BasePlatforms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d58/PlatformFactory_8h_source.html#l00070">PlatformFactory.h:70</a></div></div>
 <div class="ttc" id="classgams_1_1platforms_1_1PlatformCollectionFactory_html"><div class="ttname"><a href="../../dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory.html">gams::platforms::PlatformCollectionFactory</a></div><div class="ttdoc">A factory class for creating null (no-op) platforms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcb/PlatformCollection_8h_source.html#l00180">PlatformCollection.h:180</a></div></div>
 <div class="ttc" id="classgams_1_1pose_1_1ReferenceFrame_html"><div class="ttname"><a href="../../d3/d24/classgams_1_1pose_1_1ReferenceFrame.html">gams::pose::ReferenceFrame</a></div><div class="ttdoc">Base class for Reference Frames. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df8/pose_2ReferenceFrame_8h_source.html#l00177">ReferenceFrame.h:177</a></div></div>
@@ -203,14 +202,13 @@ $(document).ready(function(){initNavTree('d0/dcb/PlatformCollection_8h_source.ht
 <div class="ttc" id="GAMSExport_8h_html_aa821e916a389426064269d24e4925080"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a></div><div class="ttdeci">#define GAMSExport</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/GAMSExport_8h_source.html#l00026">GAMSExport.h:26</a></div></div>
 <div class="ttc" id="classgams_1_1platforms_1_1PlatformCollection_html"><div class="ttname"><a href="../../d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html">gams::platforms::PlatformCollection</a></div><div class="ttdoc">A collection of platforms. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcb/PlatformCollection_8h_source.html#l00073">PlatformCollection.h:73</a></div></div>
 <div class="ttc" id="BasePlatform_8h_html"><div class="ttname"><a href="../../d4/de8/BasePlatform_8h.html">BasePlatform.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="LocalPheremoneAreaCoverage_8cpp_html_af740329c4ae9da209bed5d1685a781ba"><div class="ttname"><a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">KnowledgeMap</a></div><div class="ttdeci">madara::knowledge::KnowledgeMap KnowledgeMap</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp_source.html#l00073">LocalPheremoneAreaCoverage.cpp:73</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_1e78112e2e00ee93d190d5382866a0e7.html">platforms</a></li><li class="navelem"><a class="el" href="../../d0/dcb/PlatformCollection_8h.html">PlatformCollection.h</a></li>
-    <li class="footer">Generated on Mon Jun 5 2017 09:20:13 for GAMS by
+    <li class="footer">Generated on Tue Jun 6 2017 13:27:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

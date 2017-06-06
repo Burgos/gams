@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.11</span>
+   &#160;<span id="projectnumber">1.0.12</span>
    </div>
   </td>
  </tr>
@@ -111,6 +111,9 @@ $(document).ready(function(){initNavTree('d3/d18/namespacegams_1_1utility_1_1eul
 <div class="title">gams::utility::euler Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>DEPRECATED: Provides classes here have been moved to <a class="el" href="../../d3/d83/namespacegams_1_1pose_1_1euler.html" title="Provides support for Euler tools for positions and orientations. ">gams::pose::euler</a>.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -155,7 +158,9 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:a379e9a1d2d61ffc96b6fe78216dac7f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">A commonly used Euler convention: Yaw-Pitch-Roll.  <a href="#a379e9a1d2d61ffc96b6fe78216dac7f3">More...</a><br /></td></tr>
 <tr class="separator:a379e9a1d2d61ffc96b6fe78216dac7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>DEPRECATED: Provides classes here have been moved to <a class="el" href="../../d3/d83/namespacegams_1_1pose_1_1euler.html" title="Provides support for Euler tools for positions and orientations. ">gams::pose::euler</a>. </p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="a928540b8a9d2fbd78e64bd6d5c1a32f9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -171,7 +176,7 @@ template&lt;typename A , typename B , typename C , typename Conv  = conv::Intr&g
 <p>Class template for representing an angle in Euler notation. </p>
 <p>Euler notation represents an angle as a sequence of orientations about axes applied in an order. The order of orientations, and whether they are applied to axes that follow the object as it orients, or stay fixed throughout, are the Euler convention. The template parameters of this class template specify the convention, using type tags from the "conv" namespace.</p>
 <p>There are typedefs for all supported conventions provided for convenience. In particular, EulerVREP, and YawPitchRoll may be of most common utility.</p>
-<p>Each convention requires specific support in the code. See <a class="el" href="../../dc/d42/EulerFormulas_8inl.html" title="Copyright (c) 2015 Carnegie Mellon University. ">EulerFormulas.inl</a> for implementation details. If you use an unsupported convention, you will get a compile time error.</p>
+<p>Each convention requires specific support in the code. See EulerFormulas.inl for implementation details. If you use an unsupported convention, you will get a compile time error.</p>
 <p>Avoid manipulating angles in this notation. It is better to convert to a Quaternion (or Orientation) and back, than to try to directly manipulate a Euler angle.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -383,7 +388,7 @@ template&lt;typename A , typename B , typename C , typename Conv  = conv::Intr&g
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li><li class="navelem"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html">euler</a></li>
-    <li class="footer">Generated on Mon Jun 5 2017 09:20:21 for GAMS by
+    <li class="footer">Generated on Tue Jun 6 2017 13:27:16 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

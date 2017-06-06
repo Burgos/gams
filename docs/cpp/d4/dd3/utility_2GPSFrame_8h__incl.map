@@ -1,0 +1,21 @@
+<map id="src/gams/utility/GPSFrame.h" name="src/gams/utility/GPSFrame.h">
+<area shape="rect" id="node2" href="$d6/dc5/pose_2GPSFrame_8h.html" title="gams/pose/GPSFrame.h" alt="" coords="96,304,263,331"/>
+<area shape="rect" id="node29" href="$de/d6a/utility_2ReferenceFrame_8h.html" title="gams/utility/ReferenceFrame.h" alt="" coords="225,80,424,107"/>
+<area shape="rect" id="node3" href="$d5/df8/pose_2ReferenceFrame_8h.html" title="ReferenceFrame.h" alt="" coords="201,379,329,405"/>
+<area shape="rect" id="node4" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="803,692,950,719"/>
+<area shape="rect" id="node6" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="1337,692,1497,719"/>
+<area shape="rect" id="node10" href="$d3/db6/pose_2Pose_8h.html" title="Pose.h" alt="" coords="371,453,433,480"/>
+<area shape="rect" id="node12" href="$dc/d98/pose_2Position_8h.html" title="gams/pose/Position.h" alt="" coords="424,528,572,555"/>
+<area shape="rect" id="node22" href="$d2/df7/pose_2Orientation_8h.html" title="gams/pose/Orientation.h" alt="" coords="932,528,1096,555"/>
+<area shape="rect" id="node13" href="$df/d28/pose_2Coordinate_8h.html" title="gams/pose/Coordinate.h" alt="" coords="1053,610,1215,637"/>
+<area shape="rect" id="node24" href="$d1/d19/pose_2AngleUnits_8h.html" title="AngleUnits.h" alt="" coords="831,610,927,637"/>
+<area shape="rect" id="node30" href="$dd/d60/utility_2Pose_8h.html" title="gams/utility/Pose.h" alt="" coords="405,155,540,181"/>
+<area shape="rect" id="node31" href="$d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="440,229,593,256"/>
+<area shape="rect" id="node33" href="$d1/d54/utility_2Orientation_8h.html" title="gams/utility/Orientation.h" alt="" coords="1231,229,1397,256"/>
+<area shape="rect" id="node32" href="$de/dc3/utility_2Coordinate_8h.html" title="gams/utility/Coordinate.h" alt="" coords="1047,304,1213,331"/>
+<area shape="rect" id="node34" href="$d3/d13/utility_2AngleUnits_8h.html" title="gams/utility/AngleUnits.h" alt="" coords="1273,453,1440,480"/>
+<area shape="rect" id="node35" href="$d7/d25/utility_2Quaternion_8h.html" title="gams/utility/Quaternion.h" alt="" coords="1364,304,1531,331"/>
+<area shape="rect" id="node38" href="$d8/d3f/utility_2Euler_8h.html" title="gams/utility/Euler.h" alt="" coords="1289,379,1424,405"/>
+<area shape="rect" id="node36" href="$dd/d35/pose_2Quaternion_8h.html" title="gams/pose/Quaternion.h" alt="" coords="1993,528,2157,555"/>
+<area shape="rect" id="node39" href="$d8/d07/pose_2Euler_8h.html" title="gams/pose/Euler.h" alt="" coords="1522,453,1653,480"/>
+</map>

@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1PerimeterPatrolFactory =
 [
-    [ "create", "da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html#aeb99fc67e87c47dd489b78617be6a871", null ],
+    [ "create", "da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html#ac2c68c2cdc41a32d76047ee7d1a56ec0", null ],
     [ "set_agents", "da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

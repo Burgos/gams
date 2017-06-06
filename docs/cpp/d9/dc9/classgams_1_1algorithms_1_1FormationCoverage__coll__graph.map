@@ -1,7 +1,7 @@
 <map id="gams::algorithms::FormationCoverage" name="gams::algorithms::FormationCoverage">
 <area shape="rect" id="node2" href="$d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1771,193,1985,220"/>
 <area shape="rect" id="node16" href="$d9/df9/classgams_1_1algorithms_1_1FormationFlying.html" title="An algorithm for moving in formation. " alt="" coords="2128,330,2316,371"/>
-<area shape="rect" id="node22" href="$df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="gams::algorithms::area\l_coverage::BaseAreaCoverage" alt="" coords="2123,231,2321,273"/>
+<area shape="rect" id="node22" href="$df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="Base class for all area coverages. " alt="" coords="2123,231,2321,273"/>
 <area shape="rect" id="node3" title="STL class. " alt="" coords="995,161,1116,188"/>
 <area shape="rect" id="node13" href="$d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="1357,273,1559,300"/>
 <area shape="rect" id="node15" title="STL class. " alt="" coords="1185,85,1299,112"/>

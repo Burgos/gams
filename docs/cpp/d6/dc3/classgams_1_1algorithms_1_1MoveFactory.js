@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1MoveFactory =
 [
-    [ "create", "d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#adddb87a37a6374bc388f416ae632d550", null ],
+    [ "create", "d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#ad29364485dd4a65fe23b6d235246e727", null ],
     [ "set_agents", "d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "d6/dc3/classgams_1_1algorithms_1_1MoveFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory =
 [
-    [ "create", "df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html#a6398ef2a606721212fafb95566753635", null ],
+    [ "create", "df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html#ab9c35482369035338582fcb0f276e8cc", null ],
     [ "set_agents", "df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

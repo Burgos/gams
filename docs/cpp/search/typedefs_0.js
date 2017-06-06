@@ -3,7 +3,7 @@ var searchData=
   ['accentstatuses',['AccentStatuses',['../d8/df1/namespacegams_1_1variables.html#af6fac9453d7fec171bcf00fd33bf465e',1,'gams::variables']]],
   ['agentmap',['AgentMap',['../d4/da6/namespacegams_1_1groups.html#af2d7a56ba3a07e7154e678cda4625689',1,'gams::groups']]],
   ['agents',['Agents',['../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef',1,'gams::variables']]],
-  ['agentvector',['AgentVector',['../d3/d2c/FormationCoverage_8cpp.html#a9c4458b5b0d738a1890ba5758f7ba469',1,'AgentVector():&#160;FormationCoverage.cpp'],['../d7/d8a/FormationFlying_8cpp.html#a9c4458b5b0d738a1890ba5758f7ba469',1,'AgentVector():&#160;FormationFlying.cpp'],['../d4/da6/namespacegams_1_1groups.html#a643ee357f9a2db5eccd9d707077bd197',1,'gams::groups::AgentVector()']]],
+  ['agentvector',['AgentVector',['../d4/da6/namespacegams_1_1groups.html#a643ee357f9a2db5eccd9d707077bd197',1,'gams::groups']]],
   ['algorithm',['Algorithm',['../d8/df1/namespacegams_1_1variables.html#a9b4ab66e6dbace57973bb0b96077b41f',1,'gams::variables']]],
   ['algorithmfactorymap',['AlgorithmFactoryMap',['../d3/d47/namespacegams_1_1algorithms.html#a6ec1a818d54a28968e942156859e1e80',1,'gams::algorithms']]],
   ['algorithmmetadatas',['AlgorithmMetaDatas',['../d3/d47/namespacegams_1_1algorithms.html#a2dab9ea675623fbf3e4ce5583811fee0',1,'gams::algorithms']]],

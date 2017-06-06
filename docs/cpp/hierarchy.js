@@ -104,6 +104,7 @@ var hierarchy =
       ] ],
       [ "gams::utility::SearchArea", "da/d42/classgams_1_1utility_1_1SearchArea.html", null ]
     ] ],
+    [ "gams::controllers::ControllerSettings", "d0/dc2/classgams_1_1controllers_1_1ControllerSettings.html", null ],
     [ "gams::pose::CoordinateBase", "d3/d5c/classgams_1_1pose_1_1CoordinateBase.html", [
       [ "gams::pose::Coordinate< Orientation >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
         [ "gams::pose::Orientation", "d4/d22/classgams_1_1pose_1_1Orientation.html", null ]
@@ -127,11 +128,6 @@ var hierarchy =
     ] ],
     [ "gams::elections::ElectionFactoryRepository", "d8/de4/classgams_1_1elections_1_1ElectionFactoryRepository.html", null ],
     [ "gams::pose::euler::Euler< A, B, C, Conv >", "d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html", null ],
-    [ "gams::pose::euler::detail::EulerFormulas< A, B, C >", "d1/d48/structgams_1_1pose_1_1euler_1_1detail_1_1EulerFormulas.html", null ],
-    [ "gams::pose::euler::detail::EulerFormulas< X, Y, Z >", "d4/dc1/structgams_1_1pose_1_1euler_1_1detail_1_1EulerFormulas_3_01X_00_01Y_00_01Z_01_4.html", null ],
-    [ "gams::pose::euler::detail::EulerFormulas< Z, Y, X >", "dd/dfa/structgams_1_1pose_1_1euler_1_1detail_1_1EulerFormulas_3_01Z_00_01Y_00_01X_01_4.html", null ],
-    [ "gams::pose::euler::detail::EulerTrigABA", "d5/d09/structgams_1_1pose_1_1euler_1_1detail_1_1EulerTrigABA.html", null ],
-    [ "gams::pose::euler::detail::EulerTrigABC", "d6/d47/structgams_1_1pose_1_1euler_1_1detail_1_1EulerTrigABC.html", null ],
     [ "std::exception", null, [
       [ "std::runtime_error", null, [
         [ "gams::pose::bad_coord_type< CoordType >", "db/dcf/classgams_1_1pose_1_1bad__coord__type.html", null ],
@@ -140,10 +136,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "gams::pose::euler::conv::Extr", "d6/d8e/structgams_1_1pose_1_1euler_1_1conv_1_1Extr.html", null ],
-    [ "gams::pose::euler::detail::GetEulerTrig< A, B, C >", "df/d65/structgams_1_1pose_1_1euler_1_1detail_1_1GetEulerTrig.html", null ],
-    [ "gams::pose::euler::detail::GetEulerTrig< A, B, A >", "d6/d4b/structgams_1_1pose_1_1euler_1_1detail_1_1GetEulerTrig_3_01A_00_01B_00_01A_01_4.html", null ],
-    [ "gams::pose::euler::detail::GetTypes< A, B, C, Conv >", "da/d10/structgams_1_1pose_1_1euler_1_1detail_1_1GetTypes.html", null ],
-    [ "gams::pose::euler::detail::GetTypes< A, B, C, Extr >", "d0/da4/structgams_1_1pose_1_1euler_1_1detail_1_1GetTypes_3_01A_00_01B_00_01C_00_01Extr_01_4.html", null ],
     [ "gams::variables::Grid", "de/d94/classgams_1_1variables_1_1Grid.html", null ],
     [ "gams::groups::GroupBase", "da/d36/classgams_1_1groups_1_1GroupBase.html", [
       [ "gams::groups::GroupFixedList", "d4/d23/classgams_1_1groups_1_1GroupFixedList.html", null ],
@@ -168,7 +160,6 @@ var hierarchy =
         [ "gams::pose::Pose", "dd/d61/classgams_1_1pose_1_1Pose.html", null ]
       ] ]
     ] ],
-    [ "onion::placement", "da/d1a/structonion_1_1placement.html", null ],
     [ "gams::platforms::PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html", [
       [ "gams::platforms::DebugPlatformFactory", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html", null ],
       [ "gams::platforms::NullPlatformFactory", "d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html", null ],

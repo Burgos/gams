@@ -3,7 +3,7 @@ var classgams_1_1platforms_1_1PlatformFactoryRepository =
     [ "PlatformFactoryRepository", "df/d69/classgams_1_1platforms_1_1PlatformFactoryRepository.html#abcb3071647ca8ab5403fd2a516518847", null ],
     [ "~PlatformFactoryRepository", "df/d69/classgams_1_1platforms_1_1PlatformFactoryRepository.html#a453fd08b1ff5e99a3aed11fcde53b2b8", null ],
     [ "add", "df/d69/classgams_1_1platforms_1_1PlatformFactoryRepository.html#afed5ea1591e39742fe10e40bc9f17537", null ],
-    [ "create", "df/d69/classgams_1_1platforms_1_1PlatformFactoryRepository.html#a764e294063e80c14286cd1657b57f10b", null ],
+    [ "create", "df/d69/classgams_1_1platforms_1_1PlatformFactoryRepository.html#af0fc4689d5e854f6b329b44922d89971", null ],
     [ "initialize_default_mappings", "df/d69/classgams_1_1platforms_1_1PlatformFactoryRepository.html#a83968a94f9200e4c3ba1b8522e9e34ea", null ],
     [ "set_knowledge", "df/d69/classgams_1_1platforms_1_1PlatformFactoryRepository.html#a52e68edc2ca2782137a91726dd196b4e", null ],
     [ "set_platforms", "df/d69/classgams_1_1platforms_1_1PlatformFactoryRepository.html#ab74211ccf7080c5259ec85c91f6cc279", null ],

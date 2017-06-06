@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1FollowFactory =
 [
-    [ "create", "d3/d86/classgams_1_1algorithms_1_1FollowFactory.html#a05cd345a6b65177b393068497fa2f66c", null ],
+    [ "create", "d3/d86/classgams_1_1algorithms_1_1FollowFactory.html#aa699e34ce9fd73f4d5ef57d99ffc130f", null ],
     [ "set_agents", "d3/d86/classgams_1_1algorithms_1_1FollowFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "d3/d86/classgams_1_1algorithms_1_1FollowFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "d3/d86/classgams_1_1algorithms_1_1FollowFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

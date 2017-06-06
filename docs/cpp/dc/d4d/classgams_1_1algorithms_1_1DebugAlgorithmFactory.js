@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1DebugAlgorithmFactory =
 [
-    [ "create", "dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html#aa555d204ed63020ef6efb217f80cc332", null ],
+    [ "create", "dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html#aaf6ef206389a50c1a8349fa4c2fe6baa", null ],
     [ "set_agents", "dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "dc/d4d/classgams_1_1algorithms_1_1DebugAlgorithmFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

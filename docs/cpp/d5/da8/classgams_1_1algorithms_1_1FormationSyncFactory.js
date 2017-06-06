@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1FormationSyncFactory =
 [
-    [ "create", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html#a695d633c79c285363097dd32cd86ad36", null ],
+    [ "create", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html#a152a0b04a1c3d366ce1c748af97ef804", null ],
     [ "set_agents", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

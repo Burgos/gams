@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory =
 [
-    [ "create", "df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html#ae1f82bdc283860b635c410a4eb43996c", null ],
+    [ "create", "df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html#a478ad718ec3514cd954d7a5aacf38a96", null ],
     [ "set_agents", "df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

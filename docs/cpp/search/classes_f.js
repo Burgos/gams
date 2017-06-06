@@ -6,7 +6,6 @@ var searchData=
   ['perimeterpatrolcoverage',['PerimeterPatrolCoverage',['../d4/de8/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolCoverage.html',1,'gams::algorithms::area_coverage']]],
   ['perimeterpatrolcoveragefactory',['PerimeterPatrolCoverageFactory',['../de/d89/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolCoverageFactory.html',1,'gams::algorithms::area_coverage']]],
   ['perimeterpatrolfactory',['PerimeterPatrolFactory',['../da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html',1,'gams::algorithms']]],
-  ['placement',['placement',['../da/d1a/structonion_1_1placement.html',1,'onion']]],
   ['platformcollection',['PlatformCollection',['../d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html',1,'gams::platforms']]],
   ['platformcollectionfactory',['PlatformCollectionFactory',['../dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory.html',1,'gams::platforms']]],
   ['platformfactory',['PlatformFactory',['../d5/d99/classgams_1_1platforms_1_1PlatformFactory.html',1,'gams::platforms']]],

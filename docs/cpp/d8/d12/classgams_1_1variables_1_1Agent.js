@@ -6,7 +6,7 @@ var classgams_1_1variables_1_1Agent =
     [ "init_vars", "d8/d12/classgams_1_1variables_1_1Agent.html#a5fa6c87937f2033b5af70ca255306bad", null ],
     [ "init_vars", "d8/d12/classgams_1_1variables_1_1Agent.html#a14c06c770e3b3b4b1357d067d79618da", null ],
     [ "init_vars", "d8/d12/classgams_1_1variables_1_1Agent.html#a7ada80d0136ab23f5c05a47092afb2d0", null ],
-    [ "make_variable_name", "d8/d12/classgams_1_1variables_1_1Agent.html#a9ffa3c7898089dede9301924e7a56af4", null ],
+    [ "make_variable_name", "d8/d12/classgams_1_1variables_1_1Agent.html#a31d3b67e287a1563ede524a4b6a2c66f", null ],
     [ "operator=", "d8/d12/classgams_1_1variables_1_1Agent.html#acdf5edeac34baddf6b6bb50b4b167e19", null ],
     [ "accents", "d8/d12/classgams_1_1variables_1_1Agent.html#acf0c2dc8f6d6d22ac0f31e2e92118b2c", null ],
     [ "algorithm", "d8/d12/classgams_1_1variables_1_1Agent.html#a7057105787c37da3bbfd0db0b92f43af", null ],

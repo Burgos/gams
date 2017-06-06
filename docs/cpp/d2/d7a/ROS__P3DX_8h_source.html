@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.11</span>
+   &#160;<span id="projectnumber">1.0.12</span>
    </div>
   </td>
  </tr>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('d2/d7a/ROS__P3DX_8h_source.html','../.
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../df/dae/namespacegams.html">gams</a></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keyword">namespace </span><a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keyword">namespace </span>platforms</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  {</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">class </span><a class="code" href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a> ROS_P3DX : <span class="keyword">public</span> ROSBase</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
@@ -138,8 +138,8 @@ $(document).ready(function(){initNavTree('d2/d7a/ROS__P3DX_8h_source.html','../.
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      ROS_P3DX (</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        Madara::KnowledgeEngine::KnowledgeBase * knowledge,</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a>,</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * platforms,</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        variables::Self * <span class="keyword">self</span>);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      <span class="keyword">virtual</span> ~ROS_P3DX ();</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      </div>
@@ -171,8 +171,8 @@ $(document).ready(function(){initNavTree('d2/d7a/ROS__P3DX_8h_source.html','../.
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keyword">const</span> Madara::KnowledgeVector &amp; args,</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        Madara::KnowledgeEngine::KnowledgeBase * knowledge,</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * <a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a>,</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">variables::Platforms</a> * platforms,</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        variables::Self * <span class="keyword">self</span>);</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;      }; <span class="comment">// class ROS_P3DXFactory</span></div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  } <span class="comment">// namespace platform</span></div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;} <span class="comment">// namespace gams</span></div>
@@ -187,10 +187,8 @@ $(document).ready(function(){initNavTree('d2/d7a/ROS__P3DX_8h_source.html','../.
 <div class="ttc" id="Sensor_8h_html"><div class="ttname"><a href="../../d5/d65/Sensor_8h.html">Sensor.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="Self_8h_html"><div class="ttname"><a href="../../da/d3d/Self_8h.html">Self.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Contains all GAMS-related tools, classes and code. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d80/AlgorithmFactory_8h_source.html#l00064">AlgorithmFactory.h:64</a></div></div>
-<div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
 <div class="ttc" id="PlatformStatus_8h_html"><div class="ttname"><a href="../../da/d37/PlatformStatus_8h.html">PlatformStatus.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_1_1variables_html_a1d8592a3009319dc38a04b2b7879912f"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a1d8592a3009319dc38a04b2b7879912f">gams::variables::Platforms</a></div><div class="ttdeci">std::map&lt; std::string, PlatformStatus &gt; Platforms</div><div class="ttdoc">a map of sensor names to the sensor information </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d37/PlatformStatus_8h_source.html#l00176">PlatformStatus.h:176</a></div></div>
-<div class="ttc" id="namespacegams_1_1platforms_html"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a></div><div class="ttdoc">Provides platform abstractions for hardware and simulations. </div></div>
 <div class="ttc" id="GAMSExport_8h_html_aa821e916a389426064269d24e4925080"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a></div><div class="ttdeci">#define GAMSExport</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/GAMSExport_8h_source.html#l00026">GAMSExport.h:26</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -198,7 +196,7 @@ $(document).ready(function(){initNavTree('d2/d7a/ROS__P3DX_8h_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_1e78112e2e00ee93d190d5382866a0e7.html">platforms</a></li><li class="navelem"><a class="el" href="../../dir_c6a0f65e46154e960d0036f57195e948.html">ros</a></li><li class="navelem"><a class="el" href="../../d2/d7a/ROS__P3DX_8h.html">ROS_P3DX.h</a></li>
-    <li class="footer">Generated on Mon Jun 5 2017 09:20:13 for GAMS by
+    <li class="footer">Generated on Tue Jun 6 2017 13:27:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

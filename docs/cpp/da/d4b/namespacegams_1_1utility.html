@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.11</span>
+   &#160;<span id="projectnumber">1.0.12</span>
    </div>
   </td>
  </tr>
@@ -121,11 +121,13 @@ $(document).ready(function(){initNavTree('da/d4b/namespacegams_1_1utility.html',
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d3/d18/namespacegams_1_1utility_1_1euler"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d18/namespacegams_1_1utility_1_1euler.html">euler</a></td></tr>
+<tr class="memdesc:d3/d18/namespacegams_1_1utility_1_1euler"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECATED: Provides classes here have been moved to <a class="el" href="../../d3/d83/namespacegams_1_1pose_1_1euler.html" title="Provides support for Euler tools for positions and orientations. ">gams::pose::euler</a>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:da/d6d/namespacegams_1_1utility_1_1java"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d6d/namespacegams_1_1utility_1_1java.html">java</a></td></tr>
 <tr class="memdesc:da/d6d/namespacegams_1_1utility_1_1java"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides utility functions and classes for common Java tasks and needs. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d0/d14/namespacegams_1_1utility_1_1order"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d14/namespacegams_1_1utility_1_1order.html">order</a></td></tr>
+<tr class="memdesc:d0/d14/namespacegams_1_1utility_1_1order"><td class="mdescLeft">&#160;</td><td class="mdescRight">DEPRECATED: Provides classes here have been moved to <a class="el" href="../../d6/dcb/namespacegams_1_1pose_1_1order.html" title="Provides support for ordering reference-frame inputss. ">gams::pose::order</a>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -213,7 +215,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a712efd032ffcd8209bc803de9ca75dae"><td class="memItemLeft" align="right" valign="top">madara::knowledge::KnowledgeVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a712efd032ffcd8209bc803de9ca75dae">kmap2kvec</a> (const <a class="el" href="../../d6/d3c/ZoneCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">madara::knowledge::KnowledgeMap</a> &amp;kmap)</td></tr>
+<tr class="memitem:a712efd032ffcd8209bc803de9ca75dae"><td class="memItemLeft" align="right" valign="top">madara::knowledge::KnowledgeVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html#a712efd032ffcd8209bc803de9ca75dae">kmap2kvec</a> (const madara::knowledge::KnowledgeMap &amp;kmap)</td></tr>
 <tr class="memdesc:a712efd032ffcd8209bc803de9ca75dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a knowledge map into a knowledge vector by adding the values from the map in numerical order (as defined by radix order: shorter strings always come before longer strings, and equal length strings are sorted in lexicographicaly order)  <a href="#a712efd032ffcd8209bc803de9ca75dae">More...</a><br /></td></tr>
 <tr class="separator:a712efd032ffcd8209bc803de9ca75dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -231,7 +233,6 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides utility functions and classes for common tasks and needs. </p>
-<p>Provides MADARA variables for GAMS-related entities and information. </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="a4ba495e3aab992793c1c041eade8e640"></a>
 <div class="memitem">
@@ -548,7 +549,7 @@ template&lt;typename CoordType &gt; </div>
         <tr>
           <td class="memname">madara::knowledge::KnowledgeVector gams::utility::kmap2kvec </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/d3c/ZoneCoverage_8cpp.html#af740329c4ae9da209bed5d1685a781ba">madara::knowledge::KnowledgeMap</a> &amp;&#160;</td>
+          <td class="paramtype">const madara::knowledge::KnowledgeMap &amp;&#160;</td>
           <td class="paramname"><em>kmap</em></td><td>)</td>
           <td></td>
         </tr>
@@ -646,7 +647,7 @@ template&lt;typename CoordType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../da/d4b/namespacegams_1_1utility.html">utility</a></li>
-    <li class="footer">Generated on Mon Jun 5 2017 09:20:19 for GAMS by
+    <li class="footer">Generated on Tue Jun 6 2017 13:27:16 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

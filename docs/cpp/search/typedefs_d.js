@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['record',['Record',['../dc/d61/gams__controller_8cpp.html#abaaae61bd3a8fa0865e1a39d781f1c6a',1,'gams_controller.cpp']]],
-  ['referenceframe',['ReferenceFrame',['../da/d4b/namespacegams_1_1utility.html#a62d34af616e6e25d1e28a7dec26437dd',1,'gams::utility']]],
-  ['rollpitchyaw',['RollPitchYaw',['../d3/d83/namespacegams_1_1pose_1_1euler.html#adb98e1841f126f90003dbbbefcb3a907',1,'gams::pose::euler::RollPitchYaw()'],['../d3/d18/namespacegams_1_1utility_1_1euler.html#a2a2634e9196d124a7c73c9e60cefebdb',1,'gams::utility::euler::RollPitchYaw()']]]
+  ['sensornames',['SensorNames',['../d8/df1/namespacegams_1_1variables.html#a4f79448d3a1aeec86bd99c8912c489ea',1,'gams::variables']]],
+  ['sensors',['Sensors',['../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930',1,'gams::variables']]]
 ];

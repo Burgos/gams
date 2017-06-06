@@ -1,0 +1,8 @@
+<map id="gams::pose::Pose" name="gams::pose::Pose">
+<area shape="rect" id="node7" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="688,39,881,65"/>
+<area shape="rect" id="node2" href="$dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="253,68,420,95"/>
+<area shape="rect" id="node3" href="$db/ddd/classgams_1_1pose_1_1PositionVector.html" title="Container for Position information, not bound to a frame. " alt="" coords="13,43,196,69"/>
+<area shape="rect" id="node4" href="$db/d73/classgams_1_1pose_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="5,93,204,120"/>
+<area shape="rect" id="node5" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Pose \&gt;" alt="" coords="1259,31,1419,73"/>
+<area shape="rect" id="node6" href="$d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="1019,39,1209,65"/>
+</map>

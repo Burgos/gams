@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['geteulertrig',['GetEulerTrig',['../df/d65/structgams_1_1pose_1_1euler_1_1detail_1_1GetEulerTrig.html',1,'gams::pose::euler::detail']]],
-  ['geteulertrig_3c_20a_2c_20b_2c_20a_20_3e',['GetEulerTrig&lt; A, B, A &gt;',['../d6/d4b/structgams_1_1pose_1_1euler_1_1detail_1_1GetEulerTrig_3_01A_00_01B_00_01A_01_4.html',1,'gams::pose::euler::detail']]],
-  ['gettypes',['GetTypes',['../da/d10/structgams_1_1pose_1_1euler_1_1detail_1_1GetTypes.html',1,'gams::pose::euler::detail']]],
-  ['gettypes_3c_20a_2c_20b_2c_20c_2c_20extr_20_3e',['GetTypes&lt; A, B, C, Extr &gt;',['../d0/da4/structgams_1_1pose_1_1euler_1_1detail_1_1GetTypes_3_01A_00_01B_00_01C_00_01Extr_01_4.html',1,'gams::pose::euler::detail']]],
   ['gpsframe',['GPSFrame',['../d9/d26/classgams_1_1pose_1_1GPSFrame.html',1,'gams::pose']]],
   ['gpsposition',['GPSPosition',['../da/d5e/classgams_1_1utility_1_1GPSPosition.html',1,'gams::utility']]],
   ['grid',['Grid',['../de/d94/classgams_1_1variables_1_1Grid.html',1,'gams::variables']]],

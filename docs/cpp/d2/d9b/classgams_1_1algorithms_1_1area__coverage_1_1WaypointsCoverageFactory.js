@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory =
 [
-    [ "create", "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#a75c6d8a55de4d18581d769b2e2e0a937", null ],
+    [ "create", "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#aaedf7d43f7f72ba32a5e51c4c7a20290", null ],
     [ "set_agents", "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "d2/d9b/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverageFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

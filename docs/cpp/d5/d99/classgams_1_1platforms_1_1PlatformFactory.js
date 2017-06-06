@@ -1,7 +1,7 @@
 var classgams_1_1platforms_1_1PlatformFactory =
 [
     [ "PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#a006ccc7bad9f22a242237a0707328ce4", null ],
-    [ "~PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#a8c93b16651997282500c9af3a7df6c18", null ],
+    [ "~PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#afb7993f48a3ae6be77407165fbf01ba3", null ],
     [ "create", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#a56b3f6aac98f143ec84da68ad4abc80e", null ],
     [ "set_knowledge", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#acb48c325cc59efa6cc5ab2c1e329c0c4", null ],
     [ "set_platforms", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html#ae326b15c62f0dc6f5c6f98e8642c8f19", null ],

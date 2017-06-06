@@ -2,7 +2,6 @@ var searchData=
 [
   ['radians',['radians',['../d3/d79/namespacegams_1_1pose.html#a4f963acb1b9fd135fb343cedbf56f6a2',1,'gams::pose::radians()'],['../da/d4b/namespacegams_1_1utility.html#a4189fa9f78090ab39e3c5edc8febdceb',1,'gams::utility::radians()']]],
   ['range_5f',['range_',['../db/d7d/classgams_1_1variables_1_1Sensor.html#a737a548d36a6fa08361329ba55ddadaf',1,'gams::variables::Sensor']]],
-  ['rank',['rank',['../da/d1a/structonion_1_1placement.html#a4b45ee7eaea01dea965198533280dd3c',1,'onion::placement']]],
   ['reduced_5fmovement',['reduced_movement',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a791031382009265904526cac03e938a2',1,'gams::variables::PlatformStatus']]],
   ['reduced_5fsensing',['reduced_sensing',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a42214948010b69607eb6846f12c64acf',1,'gams::variables::PlatformStatus']]],
   ['ref',['ref',['../d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled.html#a0695edb108ce0add193909e31837008f',1,'gams::algorithms::FormationFlying::Compiled']]],
@@ -15,6 +14,7 @@ var searchData=
   ['rho_5f',['rho_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#aef35d28997b6ad58bf17721d5aa9fe04',1,'gams::algorithms::FormationFlying']]],
   ['rotating',['rotating',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a2c464919f890ae59e055642153dbc545',1,'gams::variables::PlatformStatus']]],
   ['round_5f',['round_',['../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a28a017726e9246787abe35c1d59342e7',1,'gams::auctions::AuctionBase::round_()'],['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a16caa5914ad1a42f188efbe23471ff60',1,'gams::elections::ElectionBase::round_()']]],
+  ['run_5ftime',['run_time',['../d0/dc2/classgams_1_1controllers_1_1ControllerSettings.html#ac9a5a95979ef0ed71d5b1932d67b5a6a',1,'gams::controllers::ControllerSettings']]],
   ['rx_5f',['rx_',['../db/d73/classgams_1_1pose_1_1OrientationVector.html#a91ff57cd74ca2034e80376cea3954292',1,'gams::pose::OrientationVector']]],
   ['ry_5f',['ry_',['../db/d73/classgams_1_1pose_1_1OrientationVector.html#a01c920163aef1f13772beef8edaf383a',1,'gams::pose::OrientationVector']]],
   ['rz_5f',['rz_',['../db/d73/classgams_1_1pose_1_1OrientationVector.html#adb233781d062909341bd4f1d26862bd3',1,'gams::pose::OrientationVector']]]

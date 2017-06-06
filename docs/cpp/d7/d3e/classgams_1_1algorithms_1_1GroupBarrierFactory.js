@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1GroupBarrierFactory =
 [
-    [ "create", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html#a71cbfc9b7cb174594a707a5e6e04b551", null ],
+    [ "create", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html#a31dcea4fdde445e601c93326cb80da7d", null ],
     [ "set_agents", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

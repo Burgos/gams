@@ -1,8 +1,4 @@
 <map id="src/gams/algorithms/FormationFlying.h" name="src/gams/algorithms/FormationFlying.h">
-<area shape="rect" id="node2" href="$d2/da1/AlgorithmFactoryRepository_8cpp.html" title="src/gams/algorithms\l/AlgorithmFactoryRepository.cpp" alt="" coords="169,184,381,225"/>
-<area shape="rect" id="node3" href="$dd/d8c/Executor_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="97,95,237,136"/>
-<area shape="rect" id="node5" href="$d0/dcf/FormationCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="313,95,461,136"/>
-<area shape="rect" id="node7" href="$d7/d8a/FormationFlying_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="486,95,630,136"/>
-<area shape="rect" id="node4" href="$d1/da9/Executor_8cpp.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="5,184,145,225"/>
-<area shape="rect" id="node6" href="$d3/d2c/FormationCoverage_8cpp.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="406,184,569,225"/>
+<area shape="rect" id="node2" href="$dd/d8c/Executor_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="5,95,145,136"/>
+<area shape="rect" id="node3" href="$d0/dcf/FormationCoverage_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="169,95,317,136"/>
 </map>

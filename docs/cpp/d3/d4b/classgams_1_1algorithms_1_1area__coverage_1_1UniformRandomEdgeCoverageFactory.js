@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory =
 [
-    [ "create", "d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html#ab2e09ebb5609f6fc1e77373815dd75c9", null ],
+    [ "create", "d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html#a85aeba1dab52257254415d5b0ebf7868", null ],
     [ "set_agents", "d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "d3/d4b/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverageFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

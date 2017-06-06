@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.11</span>
+   &#160;<span id="projectnumber">1.0.12</span>
    </div>
   </td>
  </tr>
@@ -105,7 +105,8 @@ $(document).ready(function(){initNavTree('d7/d41/namespacegams_1_1controllers.ht
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">gams::controllers Namespace Reference</div>  </div>
 </div><!--header-->
@@ -119,22 +120,56 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/classgams_1_1controllers_1_1BaseController.html">BaseController</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The basic controller that can be used to perform actions on platforms and algorithms.  <a href="../../df/d21/classgams_1_1controllers_1_1BaseController.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc2/classgams_1_1controllers_1_1ControllerSettings.html">ControllerSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Settings used for initializing GAMS controllers.  <a href="../../d0/dc2/classgams_1_1controllers_1_1ControllerSettings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d84/classgams_1_1controllers_1_1MapeLoop.html">MapeLoop</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A highly extensible MAPE loop.  <a href="../../d3/d84/classgams_1_1controllers_1_1MapeLoop.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/classgams_1_1controllers_1_1Multicontroller.html">Multicontroller</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A controller that has the capability of starting many different threads.  <a href="../../db/d65/classgams_1_1controllers_1_1Multicontroller.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae7e97e02efc90e760bc25cb5c19d2a60"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/namespacegams_1_1controllers.html#ae7e97e02efc90e760bc25cb5c19d2a60">CheckpointStrategies</a> { <a class="el" href="../../d7/d41/namespacegams_1_1controllers.html#ae7e97e02efc90e760bc25cb5c19d2a60aa7a0ae08317b08f05d11541c1046f993">CHECKPOINT_NONE</a> = 0, 
+<a class="el" href="../../d7/d41/namespacegams_1_1controllers.html#ae7e97e02efc90e760bc25cb5c19d2a60adb6e1369b1c417beaf9e4d9a768944f9">CHECKPOINT_EVERY_LOOP</a> = 1, 
+<a class="el" href="../../d7/d41/namespacegams_1_1controllers.html#ae7e97e02efc90e760bc25cb5c19d2a60a217c223bec20f5dd690a2a1b81310e38">CHECKPOINT_EVERY_SEND</a> =2
+ }</td></tr>
+<tr class="separator:ae7e97e02efc90e760bc25cb5c19d2a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides controllers for managing autonomy and execution. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ae7e97e02efc90e760bc25cb5c19d2a60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d7/d41/namespacegams_1_1controllers.html#ae7e97e02efc90e760bc25cb5c19d2a60">gams::controllers::CheckpointStrategies</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ae7e97e02efc90e760bc25cb5c19d2a60aa7a0ae08317b08f05d11541c1046f993"></a>CHECKPOINT_NONE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae7e97e02efc90e760bc25cb5c19d2a60adb6e1369b1c417beaf9e4d9a768944f9"></a>CHECKPOINT_EVERY_LOOP&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae7e97e02efc90e760bc25cb5c19d2a60a217c223bec20f5dd690a2a1b81310e38"></a>CHECKPOINT_EVERY_SEND&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="../../d2/db0/ControllerSettings_8h_source.html#l00065">65</a> of file <a class="el" href="../../d2/db0/ControllerSettings_8h_source.html">ControllerSettings.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d7/d41/namespacegams_1_1controllers.html">controllers</a></li>
-    <li class="footer">Generated on Mon Jun 5 2017 09:20:18 for GAMS by
+    <li class="footer">Generated on Tue Jun 6 2017 13:27:15 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

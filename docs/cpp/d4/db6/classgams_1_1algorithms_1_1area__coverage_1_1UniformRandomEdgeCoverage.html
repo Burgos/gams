@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.11</span>
+   &#160;<span id="projectnumber">1.0.12</span>
    </div>
   </td>
  </tr>
@@ -116,84 +116,87 @@ $(document).ready(function(){initNavTree('d4/db6/classgams_1_1algorithms_1_1area
 </div><!--header-->
 <div class="contents">
 
+<p>Area coverage that selects region edge locations in a uniform distribution.  
+ <a href="../../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html">UniformRandomEdgeCoverage.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for gams::algorithms::area_coverage::UniformRandomEdgeCoverage:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d9d/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage__inherit__graph.png" border="0" usemap="#gams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage_inherit__map" alt="Inheritance graph"/></div>
 <map name="gams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage_inherit__map" id="gams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage_inherit__map">
-<area shape="rect" id="node2" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="gams::algorithms::area\l_coverage::BaseAreaCoverage" alt="" coords="13,80,212,121"/><area shape="rect" id="node3" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="5,5,220,32"/></map>
+<area shape="rect" id="node2" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="Base class for all area coverages. " alt="" coords="13,80,212,121"/><area shape="rect" id="node3" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="5,5,220,32"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for gams::algorithms::area_coverage::UniformRandomEdgeCoverage:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d8d/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage__coll__graph.png" border="0" usemap="#gams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage_coll__map" alt="Collaboration graph"/></div>
 <map name="gams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage_coll__map" id="gams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage_coll__map">
-<area shape="rect" id="node2" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="gams::algorithms::area\l_coverage::BaseAreaCoverage" alt="" coords="1959,109,2157,150"/><area shape="rect" id="node3" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1647,259,1861,285"/><area shape="rect" id="node4" title="STL class. " alt="" coords="984,344,1105,371"/><area shape="rect" id="node14" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="1340,296,1541,323"/><area shape="rect" id="node16" title="STL class. " alt="" coords="1173,421,1286,448"/><area shape="rect" id="node7" href="../../d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="973,267,1116,293"/><area shape="rect" id="node8" href="../../d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="593,267,748,293"/><area shape="rect" id="node10" href="../../dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="5,292,204,319"/><area shape="rect" id="node11" title="STL class. " alt="" coords="362,172,442,199"/><area shape="rect" id="node13" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html" title="A container for algorithm status information. " alt="" coords="772,138,947,179"/><area shape="rect" id="node15" href="../../db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="775,194,943,235"/><area shape="rect" id="node20" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html" title="A class meant to assist with retrieving information into GAMS containers. " alt="" coords="1143,5,1316,32"/><area shape="rect" id="node12" title="STL class. " alt="" coords="41,165,168,206"/><area shape="rect" id="node17" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html" title="A position in the global positioning system reference frame. " alt="" coords="1353,77,1529,104"/><area shape="rect" id="node18" href="../../df/d4e/classgams_1_1utility_1_1Position.html" title="A position in an x, y, z coordinate system. " alt="" coords="971,77,1119,104"/><area shape="rect" id="node19" href="../../da/db7/classgams_1_1utility_1_1Region.html" title="A helper class for region information. " alt="" coords="1987,56,2129,83"/></map>
+<area shape="rect" id="node2" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="Base class for all area coverages. " alt="" coords="1959,109,2157,150"/><area shape="rect" id="node3" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="1647,259,1861,285"/><area shape="rect" id="node4" title="STL class. " alt="" coords="984,344,1105,371"/><area shape="rect" id="node14" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="1340,296,1541,323"/><area shape="rect" id="node16" title="STL class. " alt="" coords="1173,421,1286,448"/><area shape="rect" id="node7" href="../../d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="973,267,1116,293"/><area shape="rect" id="node8" href="../../d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="593,267,748,293"/><area shape="rect" id="node10" href="../../dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="5,292,204,319"/><area shape="rect" id="node11" title="STL class. " alt="" coords="362,172,442,199"/><area shape="rect" id="node13" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html" title="A container for algorithm status information. " alt="" coords="772,138,947,179"/><area shape="rect" id="node15" href="../../db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="775,194,943,235"/><area shape="rect" id="node20" href="../../de/d8c/classgams_1_1utility_1_1Containerize.html" title="A class meant to assist with retrieving information into GAMS containers. " alt="" coords="1143,5,1316,32"/><area shape="rect" id="node12" title="STL class. " alt="" coords="41,165,168,206"/><area shape="rect" id="node17" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html" title="A position in the global positioning system reference frame. " alt="" coords="1353,77,1529,104"/><area shape="rect" id="node18" href="../../df/d4e/classgams_1_1utility_1_1Position.html" title="A position in an x, y, z coordinate system. " alt="" coords="971,77,1119,104"/><area shape="rect" id="node19" href="../../da/db7/classgams_1_1utility_1_1Region.html" title="A helper class for region information. " alt="" coords="1987,56,2129,83"/></map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2278f4633b3771b3b430005c9670359e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#a2278f4633b3771b3b430005c9670359e">UniformRandomEdgeCoverage</a> (const std::string &amp;prefix, const ACE_Time_Value &amp;e_time, madara::knowledge::KnowledgeBase *knowledge=0, <a class="el" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> *<a class="el" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>=0, <a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> *sensors=0, <a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> *self=0, <a class="el" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> *agents=0)</td></tr>
+<tr class="memitem:a2278f4633b3771b3b430005c9670359e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#a2278f4633b3771b3b430005c9670359e">UniformRandomEdgeCoverage</a> (const std::string &amp;prefix, const ACE_Time_Value &amp;e_time, madara::knowledge::KnowledgeBase *knowledge=0, <a class="el" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> *platform=0, <a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> *sensors=0, <a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> *self=0, <a class="el" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> *agents=0)</td></tr>
 <tr class="memdesc:a2278f4633b3771b3b430005c9670359e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a2278f4633b3771b3b430005c9670359e">More...</a><br /></td></tr>
 <tr class="separator:a2278f4633b3771b3b430005c9670359e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d3dc40a8fba8c037bd44d066f5d5441"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#a7d3dc40a8fba8c037bd44d066f5d5441">~UniformRandomEdgeCoverage</a> ()</td></tr>
 <tr class="memdesc:a7d3dc40a8fba8c037bd44d066f5d5441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a7d3dc40a8fba8c037bd44d066f5d5441">More...</a><br /></td></tr>
 <tr class="separator:a7d3dc40a8fba8c037bd44d066f5d5441"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab20630f5c90f7b6e761c0c8e128195e4"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#ab20630f5c90f7b6e761c0c8e128195e4">analyze</a> (void)</td></tr>
-<tr class="memdesc:ab20630f5c90f7b6e761c0c8e128195e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analyzes environment, platform, or other information.  <a href="#ab20630f5c90f7b6e761c0c8e128195e4">More...</a><br /></td></tr>
-<tr class="separator:ab20630f5c90f7b6e761c0c8e128195e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef833eac77cd9fac66be344dc8667826"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#aef833eac77cd9fac66be344dc8667826">execute</a> (void)</td></tr>
-<tr class="memdesc:aef833eac77cd9fac66be344dc8667826"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plans the next execution of the algorithm.  <a href="#aef833eac77cd9fac66be344dc8667826">More...</a><br /></td></tr>
-<tr class="separator:aef833eac77cd9fac66be344dc8667826"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac487e261d4e183f0477c603785ed5ed5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ac487e261d4e183f0477c603785ed5ed5">get_agents</a> (void)</td></tr>
-<tr class="memdesc:ac487e261d4e183f0477c603785ed5ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of agents.  <a href="#ac487e261d4e183f0477c603785ed5ed5">More...</a><br /></td></tr>
-<tr class="separator:ac487e261d4e183f0477c603785ed5ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a642acdd1721b50092b34bb1760620ea4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html">variables::AlgorithmStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a642acdd1721b50092b34bb1760620ea4">get_algorithm_status</a> (void)</td></tr>
-<tr class="memdesc:a642acdd1721b50092b34bb1760620ea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets algorithm status variables.  <a href="#a642acdd1721b50092b34bb1760620ea4">More...</a><br /></td></tr>
-<tr class="separator:a642acdd1721b50092b34bb1760620ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af67e6e70ad2cbd1f50df9987acfd7928"><td class="memItemLeft" align="right" valign="top">madara::knowledge::KnowledgeBase *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#af67e6e70ad2cbd1f50df9987acfd7928">get_knowledge_base</a> (void)</td></tr>
-<tr class="memdesc:af67e6e70ad2cbd1f50df9987acfd7928"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the knowledge base.  <a href="#af67e6e70ad2cbd1f50df9987acfd7928">More...</a><br /></td></tr>
-<tr class="separator:af67e6e70ad2cbd1f50df9987acfd7928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6a9e7d34e54142ccbbd9b994ff20902"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">utility::GPSPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#ae6a9e7d34e54142ccbbd9b994ff20902">get_next_position</a> (void) const </td></tr>
-<tr class="memdesc:ae6a9e7d34e54142ccbbd9b994ff20902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get next position.  <a href="#ae6a9e7d34e54142ccbbd9b994ff20902">More...</a><br /></td></tr>
-<tr class="separator:ae6a9e7d34e54142ccbbd9b994ff20902"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a4b18604620a20173f54b955057a473"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a2a4b18604620a20173f54b955057a473">get_platform</a> (void)</td></tr>
-<tr class="memdesc:a2a4b18604620a20173f54b955057a473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the platform.  <a href="#a2a4b18604620a20173f54b955057a473">More...</a><br /></td></tr>
-<tr class="separator:a2a4b18604620a20173f54b955057a473"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0a6c2f59c544341cf778154f622b41a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#aa0a6c2f59c544341cf778154f622b41a">get_self</a> (void)</td></tr>
-<tr class="memdesc:aa0a6c2f59c544341cf778154f622b41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets self-defined variables.  <a href="#aa0a6c2f59c544341cf778154f622b41a">More...</a><br /></td></tr>
-<tr class="separator:aa0a6c2f59c544341cf778154f622b41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27c3bf33a4525d3789bd49ae3c56063d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a27c3bf33a4525d3789bd49ae3c56063d">get_sensors</a> (void)</td></tr>
-<tr class="memdesc:a27c3bf33a4525d3789bd49ae3c56063d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the available sensor information.  <a href="#a27c3bf33a4525d3789bd49ae3c56063d">More...</a><br /></td></tr>
-<tr class="separator:a27c3bf33a4525d3789bd49ae3c56063d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9326ce8b2e68f63f460f8e8dbbab466"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#ab9326ce8b2e68f63f460f8e8dbbab466">analyze</a> (void)</td></tr>
+<tr class="memdesc:ab9326ce8b2e68f63f460f8e8dbbab466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analyzes environment, platform, or other information.  <a href="#ab9326ce8b2e68f63f460f8e8dbbab466">More...</a><br /></td></tr>
+<tr class="separator:ab9326ce8b2e68f63f460f8e8dbbab466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62f1f8f868e2c3a437ae74a5b155e9e0"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#a62f1f8f868e2c3a437ae74a5b155e9e0">execute</a> (void)</td></tr>
+<tr class="memdesc:a62f1f8f868e2c3a437ae74a5b155e9e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plans the next execution of the algorithm.  <a href="#a62f1f8f868e2c3a437ae74a5b155e9e0">More...</a><br /></td></tr>
+<tr class="separator:a62f1f8f868e2c3a437ae74a5b155e9e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09f0cb5af79b0b32dff951bec6474256"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a09f0cb5af79b0b32dff951bec6474256">get_agents</a> (void)</td></tr>
+<tr class="memdesc:a09f0cb5af79b0b32dff951bec6474256"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the list of agents.  <a href="#a09f0cb5af79b0b32dff951bec6474256">More...</a><br /></td></tr>
+<tr class="separator:a09f0cb5af79b0b32dff951bec6474256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8b8fb901fb9b641c70b31c916e5f7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html">variables::AlgorithmStatus</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a6c8b8fb901fb9b641c70b31c916e5f7a">get_algorithm_status</a> (void)</td></tr>
+<tr class="memdesc:a6c8b8fb901fb9b641c70b31c916e5f7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets algorithm status variables.  <a href="#a6c8b8fb901fb9b641c70b31c916e5f7a">More...</a><br /></td></tr>
+<tr class="separator:a6c8b8fb901fb9b641c70b31c916e5f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ffc6367e8010d481529bbb5555cafe"><td class="memItemLeft" align="right" valign="top">madara::knowledge::KnowledgeBase *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#af2ffc6367e8010d481529bbb5555cafe">get_knowledge_base</a> (void)</td></tr>
+<tr class="memdesc:af2ffc6367e8010d481529bbb5555cafe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the knowledge base.  <a href="#af2ffc6367e8010d481529bbb5555cafe">More...</a><br /></td></tr>
+<tr class="separator:af2ffc6367e8010d481529bbb5555cafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcaa30af328c66f2e0daef243c5e946f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">utility::GPSPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#abcaa30af328c66f2e0daef243c5e946f">get_next_position</a> (void) const </td></tr>
+<tr class="memdesc:abcaa30af328c66f2e0daef243c5e946f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get next position.  <a href="#abcaa30af328c66f2e0daef243c5e946f">More...</a><br /></td></tr>
+<tr class="separator:abcaa30af328c66f2e0daef243c5e946f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f76ada53c3e6118ffc4095be2ed0b2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a4f76ada53c3e6118ffc4095be2ed0b2b">get_platform</a> (void)</td></tr>
+<tr class="memdesc:a4f76ada53c3e6118ffc4095be2ed0b2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the platform.  <a href="#a4f76ada53c3e6118ffc4095be2ed0b2b">More...</a><br /></td></tr>
+<tr class="separator:a4f76ada53c3e6118ffc4095be2ed0b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52a8522e19c027061d490d22dd98b63d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a52a8522e19c027061d490d22dd98b63d">get_self</a> (void)</td></tr>
+<tr class="memdesc:a52a8522e19c027061d490d22dd98b63d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets self-defined variables.  <a href="#a52a8522e19c027061d490d22dd98b63d">More...</a><br /></td></tr>
+<tr class="separator:a52a8522e19c027061d490d22dd98b63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8ebbe077a2e9579980eb0d46a2dfaae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#aa8ebbe077a2e9579980eb0d46a2dfaae">get_sensors</a> (void)</td></tr>
+<tr class="memdesc:aa8ebbe077a2e9579980eb0d46a2dfaae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the available sensor information.  <a href="#aa8ebbe077a2e9579980eb0d46a2dfaae">More...</a><br /></td></tr>
+<tr class="separator:aa8ebbe077a2e9579980eb0d46a2dfaae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae52ffea2c12680966c1149dca96ada7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#ae52ffea2c12680966c1149dca96ada7f">operator=</a> (const <a class="el" href="../../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html">UniformRandomEdgeCoverage</a> &amp;rhs)</td></tr>
 <tr class="memdesc:ae52ffea2c12680966c1149dca96ada7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#ae52ffea2c12680966c1149dca96ada7f">More...</a><br /></td></tr>
 <tr class="separator:ae52ffea2c12680966c1149dca96ada7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a655b0126180171454748319d84324181"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#a655b0126180171454748319d84324181">plan</a> (void)</td></tr>
-<tr class="memdesc:a655b0126180171454748319d84324181"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plans the next execution of the algorithm.  <a href="#a655b0126180171454748319d84324181">More...</a><br /></td></tr>
-<tr class="separator:a655b0126180171454748319d84324181"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a087981d688a2dc90bdff19f3b5354d73"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a087981d688a2dc90bdff19f3b5354d73">set_agents</a> (<a class="el" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> *agents)</td></tr>
-<tr class="memdesc:a087981d688a2dc90bdff19f3b5354d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the list of agents in the swarm.  <a href="#a087981d688a2dc90bdff19f3b5354d73">More...</a><br /></td></tr>
-<tr class="separator:a087981d688a2dc90bdff19f3b5354d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b86d9fda118e9399d38a34f0ffd783b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a3b86d9fda118e9399d38a34f0ffd783b">set_platform</a> (<a class="el" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> *<a class="el" href="../../dc/d61/gams__controller_8cpp.html#a6615fcccb5acbeab9bcda3de434f9a06">platform</a>)</td></tr>
-<tr class="memdesc:a3b86d9fda118e9399d38a34f0ffd783b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the platform.  <a href="#a3b86d9fda118e9399d38a34f0ffd783b">More...</a><br /></td></tr>
-<tr class="separator:a3b86d9fda118e9399d38a34f0ffd783b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad920b6d9c42a15529caa43a4f39963d6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ad920b6d9c42a15529caa43a4f39963d6">set_self</a> (<a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> *self)</td></tr>
-<tr class="memdesc:ad920b6d9c42a15529caa43a4f39963d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the map of sensor names to sensor information.  <a href="#ad920b6d9c42a15529caa43a4f39963d6">More...</a><br /></td></tr>
-<tr class="separator:ad920b6d9c42a15529caa43a4f39963d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18b343d67f26332177c241e61fb6ff8c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a18b343d67f26332177c241e61fb6ff8c">set_sensors</a> (<a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> *sensors)</td></tr>
-<tr class="memdesc:a18b343d67f26332177c241e61fb6ff8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the map of sensor names to sensor information.  <a href="#a18b343d67f26332177c241e61fb6ff8c">More...</a><br /></td></tr>
-<tr class="separator:a18b343d67f26332177c241e61fb6ff8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa95cb5f5db40e847a30f46a0d63f61d6"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#aa95cb5f5db40e847a30f46a0d63f61d6">plan</a> (void)</td></tr>
+<tr class="memdesc:aa95cb5f5db40e847a30f46a0d63f61d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plans the next execution of the algorithm.  <a href="#aa95cb5f5db40e847a30f46a0d63f61d6">More...</a><br /></td></tr>
+<tr class="separator:aa95cb5f5db40e847a30f46a0d63f61d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a994733f320f8c93dbfe47094f7947972"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a994733f320f8c93dbfe47094f7947972">set_agents</a> (<a class="el" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> *agents)</td></tr>
+<tr class="memdesc:a994733f320f8c93dbfe47094f7947972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the list of agents in the swarm.  <a href="#a994733f320f8c93dbfe47094f7947972">More...</a><br /></td></tr>
+<tr class="separator:a994733f320f8c93dbfe47094f7947972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada25b9b427a8595f4f38fe5c4f4cf5c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#ada25b9b427a8595f4f38fe5c4f4cf5c3">set_platform</a> (<a class="el" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> *platform)</td></tr>
+<tr class="memdesc:ada25b9b427a8595f4f38fe5c4f4cf5c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the platform.  <a href="#ada25b9b427a8595f4f38fe5c4f4cf5c3">More...</a><br /></td></tr>
+<tr class="separator:ada25b9b427a8595f4f38fe5c4f4cf5c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb24c9c81ff631e0dec7c10ad7d7db47"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#acb24c9c81ff631e0dec7c10ad7d7db47">set_self</a> (<a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> *self)</td></tr>
+<tr class="memdesc:acb24c9c81ff631e0dec7c10ad7d7db47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the map of sensor names to sensor information.  <a href="#acb24c9c81ff631e0dec7c10ad7d7db47">More...</a><br /></td></tr>
+<tr class="separator:acb24c9c81ff631e0dec7c10ad7d7db47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a864bcd8cdd72487f89747875fb6beca3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a864bcd8cdd72487f89747875fb6beca3">set_sensors</a> (<a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> *sensors)</td></tr>
+<tr class="memdesc:a864bcd8cdd72487f89747875fb6beca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the map of sensor names to sensor information.  <a href="#a864bcd8cdd72487f89747875fb6beca3">More...</a><br /></td></tr>
+<tr class="separator:a864bcd8cdd72487f89747875fb6beca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a19661db06cf827c252481d6ebca563b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#a19661db06cf827c252481d6ebca563b3">check_if_finished</a> (int ret_val) const </td></tr>
 <tr class="memdesc:a19661db06cf827c252481d6ebca563b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if finished based on time.  <a href="#a19661db06cf827c252481d6ebca563b3">More...</a><br /></td></tr>
 <tr class="separator:a19661db06cf827c252481d6ebca563b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afda52f008e184f2abb77f35b6b16efb1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#afda52f008e184f2abb77f35b6b16efb1">generate_new_position</a> (void)</td></tr>
-<tr class="memdesc:afda52f008e184f2abb77f35b6b16efb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate new next position.  <a href="#afda52f008e184f2abb77f35b6b16efb1">More...</a><br /></td></tr>
-<tr class="separator:afda52f008e184f2abb77f35b6b16efb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcaebbc9e70a65bd31d45211e54a44aa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#adcaebbc9e70a65bd31d45211e54a44aa">generate_new_position</a> (void)</td></tr>
+<tr class="memdesc:adcaebbc9e70a65bd31d45211e54a44aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate new next position.  <a href="#adcaebbc9e70a65bd31d45211e54a44aa">More...</a><br /></td></tr>
+<tr class="separator:adcaebbc9e70a65bd31d45211e54a44aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -235,8 +238,9 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ab8cc4e9330ef031317a3f1308d6d6f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html#l00073">73</a> of file <a class="el" href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html">UniformRandomEdgeCoverage.h</a>.</p>
+<div class="textblock"><p>Area coverage that selects region edge locations in a uniform distribution. </p>
+
+<p>Definition at line <a class="el" href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html#l00078">78</a> of file <a class="el" href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html">UniformRandomEdgeCoverage.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a2278f4633b3771b3b430005c9670359e"></a>
 <div class="memitem">
@@ -306,8 +310,6 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d5/d11/UniformRandomEdgeCoverage_8cpp_source.html#l00153">153</a> of file <a class="el" href="../../d5/d11/UniformRandomEdgeCoverage_8cpp_source.html">UniformRandomEdgeCoverage.cpp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a7d3dc40a8fba8c037bd44d066f5d5441"></a>
@@ -325,12 +327,10 @@ Protected Attributes</h2></td></tr>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d11/UniformRandomEdgeCoverage_8cpp_source.html#l00201">201</a> of file <a class="el" href="../../d5/d11/UniformRandomEdgeCoverage_8cpp_source.html">UniformRandomEdgeCoverage.cpp</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab20630f5c90f7b6e761c0c8e128195e4"></a>
+<a class="anchor" id="ab9326ce8b2e68f63f460f8e8dbbab466"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -338,7 +338,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int gams::algorithms::area_coverage::BaseAreaCoverage::analyze </td>
+          <td class="memname">virtual int gams::algorithms::area_coverage::BaseAreaCoverage::analyze </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -353,16 +353,12 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Analyzes environment, platform, or other information. </p>
-<p>Many of the area coverage algorithms need only increment the execution counter in their analyze phase.</p>
 <dl class="section return"><dt>Returns</dt><dd>bitmask status of the platform. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>Status.</dd></dl>
-<p>Algorithms using sensors will override this with sensor analysis. </p>
+<dl class="section see"><dt>See also</dt><dd>Status. </dd></dl>
 
 <p>Implements <a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a8118a96a3cb2caa0fed71ca82a9bc979">gams::algorithms::BaseAlgorithm</a>.</p>
 
-<p>Reimplemented in <a class="el" href="../../db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#a3004225891015c12f329728d17712f7e">gams::algorithms::area_coverage::MinTimeAreaCoverage</a>, and <a class="el" href="../../de/d2e/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverage.html#af46e3660431a29a8cf910756530042e6">gams::algorithms::area_coverage::WaypointsCoverage</a>.</p>
-
-<p>Definition at line <a class="el" href="../../df/d16/BaseAreaCoverage_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../df/d16/BaseAreaCoverage_8cpp_source.html">BaseAreaCoverage.cpp</a>.</p>
+<p>Reimplemented in <a class="el" href="../../de/d2e/classgams_1_1algorithms_1_1area__coverage_1_1WaypointsCoverage.html#a2402735d39533eeafd7349980a2ce5c3">gams::algorithms::area_coverage::WaypointsCoverage</a>, and <a class="el" href="../../db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#a2f1fb100fa95125f95e5f7282bdff0b4">gams::algorithms::area_coverage::MinTimeAreaCoverage</a>.</p>
 
 </div>
 </div>
@@ -390,11 +386,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Check if finished based on time. </p>
 
-<p>Definition at line <a class="el" href="../../df/d16/BaseAreaCoverage_8cpp_source.html#l00198">198</a> of file <a class="el" href="../../df/d16/BaseAreaCoverage_8cpp_source.html">BaseAreaCoverage.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="aef833eac77cd9fac66be344dc8667826"></a>
+<a class="anchor" id="a62f1f8f868e2c3a437ae74a5b155e9e0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -402,7 +396,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int gams::algorithms::area_coverage::BaseAreaCoverage::execute </td>
+          <td class="memname">virtual int gams::algorithms::area_coverage::BaseAreaCoverage::execute </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -417,17 +411,14 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Plans the next execution of the algorithm. </p>
-<p>All of the area coverage algorithms have simple execution steps of just moving to their destination.</p>
 <dl class="section return"><dt>Returns</dt><dd>bitmask status of the platform. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>Status. </dd></dl>
 
 <p>Implements <a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a3db71427e0558e2c6c157594849ddb30">gams::algorithms::BaseAlgorithm</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d16/BaseAreaCoverage_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../df/d16/BaseAreaCoverage_8cpp_source.html">BaseAreaCoverage.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="afda52f008e184f2abb77f35b6b16efb1"></a>
+<a class="anchor" id="adcaebbc9e70a65bd31d45211e54a44aa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -435,7 +426,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gams::algorithms::area_coverage::UniformRandomEdgeCoverage::generate_new_position </td>
+          <td class="memname">virtual void gams::algorithms::area_coverage::UniformRandomEdgeCoverage::generate_new_position </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -450,15 +441,12 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generate new next position. </p>
-<p>An edge is selected at uniform random and then a point on that edge is selected at uniform random. </p>
 
 <p>Implements <a class="el" href="../../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#a553e1cdfc4eb9231a7d6a28a287b8c43">gams::algorithms::area_coverage::BaseAreaCoverage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/d11/UniformRandomEdgeCoverage_8cpp_source.html#l00221">221</a> of file <a class="el" href="../../d5/d11/UniformRandomEdgeCoverage_8cpp_source.html">UniformRandomEdgeCoverage.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="ac487e261d4e183f0477c603785ed5ed5"></a>
+<a class="anchor" id="a09f0cb5af79b0b32dff951bec6474256"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -466,7 +454,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> * gams::algorithms::BaseAlgorithm::get_agents </td>
+          <td class="memname"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a>* gams::algorithms::BaseAlgorithm::get_agents </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -482,11 +470,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Gets the list of agents. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00110">110</a> of file <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html">BaseAlgorithm.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a642acdd1721b50092b34bb1760620ea4"></a>
+<a class="anchor" id="a6c8b8fb901fb9b641c70b31c916e5f7a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -494,7 +480,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html">variables::AlgorithmStatus</a> * gams::algorithms::BaseAlgorithm::get_algorithm_status </td>
+          <td class="memname"><a class="el" href="../../d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html">variables::AlgorithmStatus</a>* gams::algorithms::BaseAlgorithm::get_algorithm_status </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -510,11 +496,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Gets algorithm status variables. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00140">140</a> of file <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html">BaseAlgorithm.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="af67e6e70ad2cbd1f50df9987acfd7928"></a>
+<a class="anchor" id="af2ffc6367e8010d481529bbb5555cafe"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -522,7 +506,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">madara::knowledge::KnowledgeBase * gams::algorithms::BaseAlgorithm::get_knowledge_base </td>
+          <td class="memname">madara::knowledge::KnowledgeBase* gams::algorithms::BaseAlgorithm::get_knowledge_base </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -538,11 +522,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Gets the knowledge base. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00116">116</a> of file <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html">BaseAlgorithm.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="ae6a9e7d34e54142ccbbd9b994ff20902"></a>
+<a class="anchor" id="abcaa30af328c66f2e0daef243c5e946f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -550,7 +532,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">gams::utility::GPSPosition</a> gams::algorithms::area_coverage::BaseAreaCoverage::get_next_position </td>
+          <td class="memname"><a class="el" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">utility::GPSPosition</a> gams::algorithms::area_coverage::BaseAreaCoverage::get_next_position </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -567,11 +549,9 @@ Protected Attributes</h2></td></tr>
 <p>Get next position. </p>
 <dl class="section return"><dt>Returns</dt><dd>next_position_ member </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d16/BaseAreaCoverage_8cpp_source.html#l00192">192</a> of file <a class="el" href="../../df/d16/BaseAreaCoverage_8cpp_source.html">BaseAreaCoverage.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a2a4b18604620a20173f54b955057a473"></a>
+<a class="anchor" id="a4f76ada53c3e6118ffc4095be2ed0b2b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -579,7 +559,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> * gams::algorithms::BaseAlgorithm::get_platform </td>
+          <td class="memname"><a class="el" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a>* gams::algorithms::BaseAlgorithm::get_platform </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -595,11 +575,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Gets the platform. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00122">122</a> of file <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html">BaseAlgorithm.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="aa0a6c2f59c544341cf778154f622b41a"></a>
+<a class="anchor" id="a52a8522e19c027061d490d22dd98b63d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -607,7 +585,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * gams::algorithms::BaseAlgorithm::get_self </td>
+          <td class="memname"><a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a>* gams::algorithms::BaseAlgorithm::get_self </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -623,11 +601,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Gets self-defined variables. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00128">128</a> of file <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html">BaseAlgorithm.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a27c3bf33a4525d3789bd49ae3c56063d"></a>
+<a class="anchor" id="aa8ebbe077a2e9579980eb0d46a2dfaae"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -635,7 +611,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * gams::algorithms::BaseAlgorithm::get_sensors </td>
+          <td class="memname"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a>* gams::algorithms::BaseAlgorithm::get_sensors </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -650,8 +626,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the available sensor information. </p>
-
-<p>Definition at line <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00134">134</a> of file <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html">BaseAlgorithm.cpp</a>.</p>
 
 </div>
 </div>
@@ -677,11 +651,9 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d5/d11/UniformRandomEdgeCoverage_8cpp_source.html#l00206">206</a> of file <a class="el" href="../../d5/d11/UniformRandomEdgeCoverage_8cpp_source.html">UniformRandomEdgeCoverage.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a655b0126180171454748319d84324181"></a>
+<a class="anchor" id="aa95cb5f5db40e847a30f46a0d63f61d6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -689,7 +661,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int gams::algorithms::area_coverage::BaseAreaCoverage::plan </td>
+          <td class="memname">virtual int gams::algorithms::area_coverage::BaseAreaCoverage::plan </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -704,18 +676,14 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Plans the next execution of the algorithm. </p>
-<p>All of the area coverage algorithms just check if they have reached close enough to their destination.</p>
 <dl class="section return"><dt>Returns</dt><dd>bitmask status of the platform. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>Status.</dd></dl>
-<p>If so, they generate a new destination. </p>
+<dl class="section see"><dt>See also</dt><dd>Status. </dd></dl>
 
 <p>Implements <a class="el" href="../../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a73ac0a70f5e61a181c967ca75033cc92">gams::algorithms::BaseAlgorithm</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d16/BaseAreaCoverage_8cpp_source.html#l00162">162</a> of file <a class="el" href="../../df/d16/BaseAreaCoverage_8cpp_source.html">BaseAreaCoverage.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a087981d688a2dc90bdff19f3b5354d73"></a>
+<a class="anchor" id="a994733f320f8c93dbfe47094f7947972"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -723,7 +691,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gams::algorithms::BaseAlgorithm::set_agents </td>
+          <td class="memname">virtual void gams::algorithms::BaseAlgorithm::set_agents </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html#aff41567fa3512f56d14c536c854a2fef">variables::Agents</a> *&#160;</td>
           <td class="paramname"><em>agents</em></td><td>)</td>
@@ -745,11 +713,9 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html">BaseAlgorithm.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a3b86d9fda118e9399d38a34f0ffd783b"></a>
+<a class="anchor" id="ada25b9b427a8595f4f38fe5c4f4cf5c3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -757,7 +723,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gams::algorithms::BaseAlgorithm::set_platform </td>
+          <td class="memname">virtual void gams::algorithms::BaseAlgorithm::set_platform </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/df3/classgams_1_1platforms_1_1BasePlatform.html">platforms::BasePlatform</a> *&#160;</td>
           <td class="paramname"><em>platform</em></td><td>)</td>
@@ -779,11 +745,9 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html">BaseAlgorithm.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="ad920b6d9c42a15529caa43a4f39963d6"></a>
+<a class="anchor" id="acb24c9c81ff631e0dec7c10ad7d7db47"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -791,7 +755,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gams::algorithms::BaseAlgorithm::set_self </td>
+          <td class="memname">virtual void gams::algorithms::BaseAlgorithm::set_self </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> *&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -813,11 +777,9 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00098">98</a> of file <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html">BaseAlgorithm.cpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a18b343d67f26332177c241e61fb6ff8c"></a>
+<a class="anchor" id="a864bcd8cdd72487f89747875fb6beca3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -825,7 +787,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void gams::algorithms::BaseAlgorithm::set_sensors </td>
+          <td class="memname">virtual void gams::algorithms::BaseAlgorithm::set_sensors </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> *&#160;</td>
           <td class="paramname"><em>sensors</em></td><td>)</td>
@@ -846,8 +808,6 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Definition at line <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html#l00104">104</a> of file <a class="el" href="../../d6/d46/BaseAlgorithm_8cpp_source.html">BaseAlgorithm.cpp</a>.</p>
 
 </div>
 </div>
@@ -896,7 +856,7 @@ Protected Attributes</h2></td></tr>
 
 <p>end time </p>
 
-<p>Definition at line <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html#l00142">142</a> of file <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html">BaseAreaCoverage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html#l00145">145</a> of file <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html">BaseAreaCoverage.h</a>.</p>
 
 </div>
 </div>
@@ -920,7 +880,7 @@ Protected Attributes</h2></td></tr>
 
 <p>execution time </p>
 
-<p>Definition at line <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html#l00139">139</a> of file <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html">BaseAreaCoverage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html#l00142">142</a> of file <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html">BaseAreaCoverage.h</a>.</p>
 
 </div>
 </div>
@@ -968,7 +928,7 @@ Protected Attributes</h2></td></tr>
 
 <p>indicates whether the algorithm is initialized </p>
 
-<p>Definition at line <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html#l00145">145</a> of file <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html">BaseAreaCoverage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html#l00148">148</a> of file <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html">BaseAreaCoverage.h</a>.</p>
 
 </div>
 </div>
@@ -1016,7 +976,7 @@ Protected Attributes</h2></td></tr>
 
 <p>next position </p>
 
-<p>Definition at line <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html#l00136">136</a> of file <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html">BaseAreaCoverage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html#l00139">139</a> of file <a class="el" href="../../d3/d0a/BaseAreaCoverage_8h_source.html">BaseAreaCoverage.h</a>.</p>
 
 </div>
 </div>
@@ -1064,7 +1024,7 @@ Protected Attributes</h2></td></tr>
 
 <p>convex hull of coverage region </p>
 
-<p>Definition at line <a class="el" href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html#l00113">113</a> of file <a class="el" href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html">UniformRandomEdgeCoverage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html#l00118">118</a> of file <a class="el" href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html">UniformRandomEdgeCoverage.h</a>.</p>
 
 </div>
 </div>
@@ -1140,9 +1100,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/gams/algorithms/area_coverage/<a class="el" href="../../d7/d13/UniformRandomEdgeCoverage_8h_source.html">UniformRandomEdgeCoverage.h</a></li>
-<li>src/gams/algorithms/area_coverage/<a class="el" href="../../d5/d11/UniformRandomEdgeCoverage_8cpp_source.html">UniformRandomEdgeCoverage.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1150,7 +1109,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d3/d47/namespacegams_1_1algorithms.html">algorithms</a></li><li class="navelem"><a class="el" href="../../dc/d75/namespacegams_1_1algorithms_1_1area__coverage.html">area_coverage</a></li><li class="navelem"><a class="el" href="../../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html">UniformRandomEdgeCoverage</a></li>
-    <li class="footer">Generated on Mon Jun 5 2017 09:20:18 for GAMS by
+    <li class="footer">Generated on Tue Jun 6 2017 13:27:15 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

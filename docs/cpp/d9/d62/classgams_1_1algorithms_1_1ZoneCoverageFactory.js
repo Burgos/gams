@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1ZoneCoverageFactory =
 [
-    [ "create", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html#a63287423785983c39fc3dfd632318a16", null ],
+    [ "create", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html#ad08ea180aa3d778146f3041e30e855bb", null ],
     [ "set_agents", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

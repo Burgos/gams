@@ -1,7 +1,7 @@
 var classgams_1_1algorithms_1_1AlgorithmFactory =
 [
     [ "AlgorithmFactory", "d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a9dee1d0006b2b80c2002abed1970d1ad", null ],
-    [ "~AlgorithmFactory", "d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a2559f54ea9be7063e35c978a62a054e3", null ],
+    [ "~AlgorithmFactory", "d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#af26f443d40e4d9e01d0904ffbf5107b8", null ],
     [ "create", "d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#ab0f0d2ba82b5ac35fd58138fa962d9e8", null ],
     [ "set_agents", "d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "d7/d5c/classgams_1_1algorithms_1_1AlgorithmFactory.html#acb841e8c409d920fab7300cee62b1457", null ],

@@ -1,0 +1,5 @@
+<map id="gams::utility::Orientation" name="gams::utility::Orientation">
+<area shape="rect" id="node2" href="$d4/dcb/classgams_1_1utility_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="5,80,169,121"/>
+<area shape="rect" id="node3" href="$da/deb/classgams_1_1utility_1_1Coordinate.html" title="gams::utility::Coordinate\l\&lt; Orientation \&gt;" alt="" coords="194,80,357,121"/>
+<area shape="rect" id="node4" href="$d0/d20/classgams_1_1utility_1_1CoordinateBase.html" title="For internal use. " alt="" coords="179,5,372,32"/>
+</map>

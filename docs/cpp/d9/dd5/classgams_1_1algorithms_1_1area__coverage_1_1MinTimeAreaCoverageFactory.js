@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory =
 [
-    [ "create", "d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html#a4a52a936339c87d676af241a9ccfee60", null ],
+    [ "create", "d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html#ac6e3accc4bb4b934511db4184cbe14f1", null ],
     [ "set_agents", "d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

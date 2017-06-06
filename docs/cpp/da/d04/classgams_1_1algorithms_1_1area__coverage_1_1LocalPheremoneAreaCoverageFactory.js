@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory =
 [
-    [ "create", "da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html#ac6a6d3b3b264ef9741efdee28739a720", null ],
+    [ "create", "da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html#a64676548f3c879c693b37e3f3f6a28d4", null ],
     [ "set_agents", "da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "da/d04/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverageFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

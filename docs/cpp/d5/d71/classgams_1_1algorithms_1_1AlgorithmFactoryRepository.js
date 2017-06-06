@@ -3,7 +3,7 @@ var classgams_1_1algorithms_1_1AlgorithmFactoryRepository =
     [ "AlgorithmFactoryRepository", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a4f51c631c1470a1fbd30150eef61578c", null ],
     [ "~AlgorithmFactoryRepository", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a333bfa477b7568941210f2de23c1b699", null ],
     [ "add", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#adf9a383f931654d70c1f6cea8ac93178", null ],
-    [ "create", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a3b86ff2bb1bedb1721d3211291f6f396", null ],
+    [ "create", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a9b7cb7445b3f24c03df3e5874a2f1a6f", null ],
     [ "initialize_default_mappings", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#a70c93ed3847eb54e5e5393e4a51e2fe9", null ],
     [ "set_agents", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#ad4008582a2565f6cbaac87966ccb4d6b", null ],
     [ "set_knowledge", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html#aed723b22ac00736ce8a8813090072ab3", null ],

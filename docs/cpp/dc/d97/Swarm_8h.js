@@ -1,6 +1,6 @@
 var Swarm_8h =
 [
     [ "Swarm", "d4/dde/classgams_1_1variables_1_1Swarm.html", "d4/dde/classgams_1_1variables_1_1Swarm" ],
-    [ "init_vars", "dc/d97/Swarm_8h.html#a4ed8d23842c17b5566e893657dc97b42", null ],
-    [ "init_vars", "dc/d97/Swarm_8h.html#a7aba2fe48dd727122a69be3065e15716", null ]
+    [ "init_vars", "dc/d97/Swarm_8h.html#aed48f1771c9c7196fcd10212b8c58a46", null ],
+    [ "init_vars", "dc/d97/Swarm_8h.html#a9c97a2e9db4704174b8f3939aee1136f", null ]
 ];

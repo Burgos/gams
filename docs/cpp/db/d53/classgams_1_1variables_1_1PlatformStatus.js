@@ -5,7 +5,7 @@ var classgams_1_1variables_1_1PlatformStatus =
     [ "init_variable_values", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#aa3f5f987b62f062a06a44d8deced4053", null ],
     [ "init_vars", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a3096a209fe4ba26af24a114384807568", null ],
     [ "init_vars", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#abc3cde58ef7037869db0b31b9b897ff8", null ],
-    [ "make_variable_prefix", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a9ffd395cfc308fb117e1a26a6dbaecc5", null ],
+    [ "make_variable_prefix", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#a840c6a5c7271427d1698e5e254b457c6", null ],
     [ "operator=", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#afdb96e05a7a48492ce3802e88c3a6d2d", null ],
     [ "communication_available", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#acb210fdb6bd300b5d2ce1517d21413bc", null ],
     [ "deadlocked", "db/d53/classgams_1_1variables_1_1PlatformStatus.html#abde3096fa131b494a0b3f115b3e9ed7b", null ],

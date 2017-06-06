@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1FormationCoverageFactory =
 [
-    [ "create", "da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html#a1f7a0d4559d4c3b7c3947224aba60d89", null ],
+    [ "create", "da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html#aced10f108b381e724d78ecdd8abd813b", null ],
     [ "set_agents", "da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

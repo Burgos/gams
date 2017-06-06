@@ -1,8 +1,8 @@
 var classgams_1_1algorithms_1_1JavaAlgorithmFactory =
 [
     [ "JavaAlgorithmFactory", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#abfbcb46349de74b873ec722b2b7b8d4a", null ],
-    [ "~JavaAlgorithmFactory", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#a371f3aa9a0b32f070e20c8afbdfc5dc7", null ],
-    [ "create", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#ad046a710b8d50281a1918a15c5d2b43c", null ],
+    [ "~JavaAlgorithmFactory", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#aaabe24b52f718188225adbbdc6f03b69", null ],
+    [ "create", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#ad10f66474474c83c235e3f9c1ad6917b", null ],
     [ "get_java_instance", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#a65ac31165f57685fb0d44d2fe49d9f0a", null ],
     [ "set_agents", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#acb841e8c409d920fab7300cee62b1457", null ],

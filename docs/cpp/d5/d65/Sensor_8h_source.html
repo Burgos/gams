@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.11</span>
+   &#160;<span id="projectnumber">1.0.12</span>
    </div>
   </td>
  </tr>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('d5/d65/Sensor_8h_source.html','../../'
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../df/dae/namespacegams.html">gams</a></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keyword">namespace </span><a class="code" href="../../d8/df1/namespacegams_1_1variables.html">variables</a></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keyword">namespace </span>variables</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  {</div>
 <div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="../../db/d7d/classgams_1_1variables_1_1Sensor.html">   80</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a> <a class="code" href="../../db/d7d/classgams_1_1variables_1_1Sensor.html">Sensor</a></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
@@ -175,13 +175,13 @@ $(document).ready(function(){initNavTree('d5/d65/Sensor_8h_source.html','../../'
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      <span class="keywordtype">void</span> set_range (<span class="keyword">const</span> <span class="keywordtype">double</span>&amp; range);</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      <span class="keywordtype">void</span> set_value (<span class="keyword">const</span> <a class="code" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">utility::GPSPosition</a>&amp; pos, <span class="keyword">const</span> <span class="keywordtype">double</span>&amp; val,</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keyword">const</span> madara::knowledge::KnowledgeUpdateSettings&amp; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a> =</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keyword">const</span> madara::knowledge::KnowledgeUpdateSettings&amp; settings =</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;          madara::knowledge::KnowledgeUpdateSettings());</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;      <span class="keywordtype">void</span> set_value (<span class="keyword">const</span> <a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html">utility::Position</a>&amp; pos, <span class="keyword">const</span> <span class="keywordtype">double</span>&amp; val,</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keyword">const</span> madara::knowledge::KnowledgeUpdateSettings&amp; <a class="code" href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a> =</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keyword">const</span> madara::knowledge::KnowledgeUpdateSettings&amp; settings =</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;          madara::knowledge::KnowledgeUpdateSettings());</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">init_vars</a> (<span class="keyword">const</span> std::string &amp; name,</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a060d270d3e9e9f6ac51eec7ac3415f9f">init_vars</a> (<span class="keyword">const</span> std::string &amp; name,</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        madara::knowledge::KnowledgeBase* knowledge,</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">double</span> &amp; range = 0.0,</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keyword">const</span> <a class="code" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">utility::GPSPosition</a> &amp; origin = <a class="code" href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">utility::GPSPosition</a> (DBL_MAX));</div>
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('d5/d65/Sensor_8h_source.html','../../'
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;      std::string index_pos_to_index (<span class="keyword">const</span> <a class="code" href="../../df/d4e/classgams_1_1utility_1_1Position.html">utility::Position</a>&amp; pos) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">init_vars</a> ();</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      <span class="keywordtype">void</span> <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a060d270d3e9e9f6ac51eec7ac3415f9f">init_vars</a> ();</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div>
 <div class="line"><a name="l00234"></a><span class="lineno"><a class="line" href="../../db/d7d/classgams_1_1variables_1_1Sensor.html#a2e99966b5beba8efd694c308fc5108f0">  234</a></span>&#160;      madara::knowledge::containers::Map <a class="code" href="../../db/d7d/classgams_1_1variables_1_1Sensor.html#a2e99966b5beba8efd694c308fc5108f0">value_</a>;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
@@ -222,21 +222,19 @@ $(document).ready(function(){initNavTree('d5/d65/Sensor_8h_source.html','../../'
 <div class="ttc" id="namespacegams_1_1variables_html_a4f79448d3a1aeec86bd99c8912c489ea"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a4f79448d3a1aeec86bd99c8912c489ea">gams::variables::SensorNames</a></div><div class="ttdeci">std::vector&lt; std::string &gt; SensorNames</div><div class="ttdoc">a list of sensor names </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/Sensor_8h_source.html#l00253">Sensor.h:253</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1Region_html"><div class="ttname"><a href="../../da/db7/classgams_1_1utility_1_1Region.html">gams::utility::Region</a></div><div class="ttdoc">A helper class for region information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9f/utility_2Region_8h_source.html#l00073">Region.h:73</a></div></div>
 <div class="ttc" id="classgams_1_1variables_1_1Sensor_html_a3b92eb287192c4ea378349e7c173a00e"><div class="ttname"><a href="../../db/d7d/classgams_1_1variables_1_1Sensor.html#a3b92eb287192c4ea378349e7c173a00e">gams::variables::Sensor::origin_</a></div><div class="ttdeci">madara::knowledge::containers::DoubleArray origin_</div><div class="ttdoc">origin for index calculations </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d65/Sensor_8h_source.html#l00246">Sensor.h:246</a></div></div>
-<div class="ttc" id="namespacegams_1_1variables_html_a87083f1a052b87f9b75de8bac6c6a864"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a87083f1a052b87f9b75de8bac6c6a864">gams::variables::init_vars</a></div><div class="ttdeci">GAMSExport void init_vars(AccentStatuses &amp;variables, madara::knowledge::KnowledgeBase &amp;knowledge, const std::string &amp;prefix)</div><div class="ttdoc">Initializes accent status containers. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da3/AccentStatus_8cpp_source.html#l00100">AccentStatus.cpp:100</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1Position_html"><div class="ttname"><a href="../../df/d4e/classgams_1_1utility_1_1Position.html">gams::utility::Position</a></div><div class="ttdoc">A position in an x, y, z coordinate system. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d39/utility_2Position_8h_source.html#l00070">Position.h:70</a></div></div>
 <div class="ttc" id="GPSPosition_8h_html"><div class="ttname"><a href="../../df/d53/GPSPosition_8h.html">GPSPosition.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
-<div class="ttc" id="gams__controller_8cpp_html_aeec674db9554192e56960857e748f0ab"><div class="ttname"><a href="../../dc/d61/gams__controller_8cpp.html#aeec674db9554192e56960857e748f0ab">settings</a></div><div class="ttdeci">madara::transport::QoSTransportSettings settings</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/gams__controller_8cpp_source.html#l00063">gams_controller.cpp:63</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1GPSPosition_html"><div class="ttname"><a href="../../da/d5e/classgams_1_1utility_1_1GPSPosition.html">gams::utility::GPSPosition</a></div><div class="ttdoc">A position in the global positioning system reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/GPSPosition_8h_source.html#l00070">GPSPosition.h:70</a></div></div>
 <div class="ttc" id="classgams_1_1utility_1_1SearchArea_html"><div class="ttname"><a href="../../da/d42/classgams_1_1utility_1_1SearchArea.html">gams::utility::SearchArea</a></div><div class="ttdoc">A utility class for search areas. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d1b/utility_2SearchArea_8h_source.html#l00069">SearchArea.h:69</a></div></div>
 <div class="ttc" id="GAMSExport_8h_html_aa821e916a389426064269d24e4925080"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a></div><div class="ttdeci">#define GAMSExport</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/GAMSExport_8h_source.html#l00026">GAMSExport.h:26</a></div></div>
-<div class="ttc" id="namespacegams_1_1variables_html"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html">gams::variables</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/Grid_8h_source.html#l00065">Grid.h:65</a></div></div>
+<div class="ttc" id="namespacegams_1_1variables_html_a060d270d3e9e9f6ac51eec7ac3415f9f"><div class="ttname"><a href="../../d8/df1/namespacegams_1_1variables.html#a060d270d3e9e9f6ac51eec7ac3415f9f">gams::variables::init_vars</a></div><div class="ttdeci">GAMSExport void init_vars(AccentStatuses &amp;variables, madara::knowledge::KnowledgeBase &amp;knowledge, const std::string &amp;prefix)</div><div class="ttdoc">Initializes accent status containers. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_0e5c20b817b77fc20ca6d9cc098d1d10.html">variables</a></li><li class="navelem"><a class="el" href="../../d5/d65/Sensor_8h.html">Sensor.h</a></li>
-    <li class="footer">Generated on Mon Jun 5 2017 09:20:14 for GAMS by
+    <li class="footer">Generated on Tue Jun 6 2017 13:27:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

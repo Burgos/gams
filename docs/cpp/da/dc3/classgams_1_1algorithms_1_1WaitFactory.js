@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1WaitFactory =
 [
-    [ "create", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html#a028a590204725384e3f46da9e80e35cd", null ],
+    [ "create", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html#a80a9aea39878d36c70db84b3986d7f40", null ],
     [ "set_agents", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

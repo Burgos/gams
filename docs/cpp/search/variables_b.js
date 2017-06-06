@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['madara_5fcommands',['madara_commands',['../dc/d61/gams__controller_8cpp.html#aa29d439d2009d11570344604918bd177',1,'gams_controller.cpp']]],
   ['madara_5fdebug_5flevel',['madara_debug_level',['../d8/d12/classgams_1_1variables_1_1Agent.html#a9ef897c9176b9eac80b8e80d66806d53',1,'gams::variables::Agent']]],
+  ['madara_5flog_5flevel',['madara_log_level',['../d0/dc2/classgams_1_1controllers_1_1ControllerSettings.html#a8ef1bc52160f613775a99016f98b711f',1,'gams::controllers::ControllerSettings']]],
   ['mape_5floop_5f',['mape_loop_',['../d3/d84/classgams_1_1controllers_1_1MapeLoop.html#a2e5a6759273768e1fd01f062920a7c4e',1,'gams::controllers::MapeLoop']]],
   ['mars_5fradius',['MARS_RADIUS',['../d9/d26/classgams_1_1pose_1_1GPSFrame.html#a506fe753581c2dc1e83077dbcb1fbb12',1,'gams::pose::GPSFrame']]],
   ['max_5falt_5f',['max_alt_',['../da/db7/classgams_1_1utility_1_1Region.html#a68243d57650ab979e1d6e5c0e0b193aa',1,'gams::utility::Region::max_alt_()'],['../da/d42/classgams_1_1utility_1_1SearchArea.html#afb03a53d481e562c6ea3e9b99dbf7d10',1,'gams::utility::SearchArea::max_alt_()']]],

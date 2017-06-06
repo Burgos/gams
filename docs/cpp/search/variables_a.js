@@ -14,5 +14,6 @@ var searchData=
   ['location',['location',['../d8/d12/classgams_1_1variables_1_1Agent.html#adc726ba70539e33be068c63544f1d540',1,'gams::variables::Agent']]],
   ['locations_5f',['locations_',['../d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#ad1905e3d88696422634733a4dc44228b',1,'gams::algorithms::PerimeterPatrol']]],
   ['logic_5f',['logic_',['../dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html#a9f0f2b1b367664856151227abca53217',1,'gams::algorithms::KarlEvaluator']]],
+  ['loop_5fhertz',['loop_hertz',['../d0/dc2/classgams_1_1controllers_1_1ControllerSettings.html#a3d7f6156e17482bec37a19c71fa43871',1,'gams::controllers::ControllerSettings']]],
   ['loop_5fhz',['loop_hz',['../d8/d12/classgams_1_1variables_1_1Agent.html#a00a2bdcd49c827da88555c7a4ee9af15',1,'gams::variables::Agent']]]
 ];

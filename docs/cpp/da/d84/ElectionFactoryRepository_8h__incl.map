@@ -1,13 +1,8 @@
 <map id="src/gams/elections/ElectionFactoryRepository.h" name="src/gams/elections/ElectionFactoryRepository.h">
-<area shape="rect" id="node6" href="$d8/d84/ElectionFactory_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="618,266,742,293"/>
-<area shape="rect" id="node20" href="$dc/d10/ElectionFactoryRepository_8inl.html" title="ElectionFactoryRepository.inl" alt="" coords="437,95,629,121"/>
-<area shape="rect" id="node7" href="$de/d20/ElectionBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="625,348,735,375"/>
-<area shape="rect" id="node9" href="$dd/da5/ElectionTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="549,512,699,539"/>
-<area shape="rect" id="node10" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="663,676,809,703"/>
-<area shape="rect" id="node12" href="$d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="754,430,931,457"/>
-<area shape="rect" id="node19" href="$d9/dbe/ElectionBase_8inl.html" title="ElectionBase.inl" alt="" coords="1075,430,1191,457"/>
-<area shape="rect" id="node13" href="$d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="774,512,911,539"/>
-<area shape="rect" id="node14" href="$d4/d83/GroupBase_8inl.html" title="GroupBase.inl" alt="" coords="987,512,1091,539"/>
-<area shape="rect" id="node15" href="$d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="1073,594,1263,621"/>
-<area shape="rect" id="node22" href="$d7/d18/ElectionPlurality_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="424,177,643,203"/>
+<area shape="rect" id="node6" href="$d8/d84/ElectionFactory_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="1083,102,1207,129"/>
+<area shape="rect" id="node7" href="$de/d20/ElectionBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="891,184,1002,211"/>
+<area shape="rect" id="node9" href="$dd/da5/ElectionTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="448,348,597,375"/>
+<area shape="rect" id="node10" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="533,430,680,457"/>
+<area shape="rect" id="node12" href="$d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="623,266,801,293"/>
+<area shape="rect" id="node13" href="$d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="622,348,759,375"/>
 </map>

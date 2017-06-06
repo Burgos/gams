@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1TakeoffFactory =
 [
-    [ "create", "d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html#a7f1d4cd914f0b264c9232268a7025b82", null ],
+    [ "create", "d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html#a0df44b92340ba6c28153cf1682cec326", null ],
     [ "set_agents", "d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],

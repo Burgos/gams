@@ -1,9 +1,8 @@
 <map id="src/gams/platforms/vrep/VREPBase.h" name="src/gams/platforms/vrep/VREPBase.h">
 <area shape="rect" id="node2" href="$d5/d0d/VREPAnt_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="5,95,139,136"/>
-<area shape="rect" id="node3" href="$d5/df9/VREPBase_8inl.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="163,95,299,136"/>
-<area shape="rect" id="node4" href="$d1/dc9/VREPBoat_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="323,95,456,136"/>
-<area shape="rect" id="node5" href="$d8/d42/VREPQuad_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="531,95,664,136"/>
-<area shape="rect" id="node6" href="$dc/de1/VREPQuadCDRA_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="414,184,581,225"/>
-<area shape="rect" id="node7" href="$d6/d00/VREPQuadLaser_8h.html" title="src/gams/platforms\l/vrep/VREPQuadLaser.h" alt="" coords="615,184,777,225"/>
-<area shape="rect" id="node8" href="$da/d91/VREPSummit_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="739,95,885,136"/>
+<area shape="rect" id="node3" href="$d1/dc9/VREPBoat_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="163,95,296,136"/>
+<area shape="rect" id="node4" href="$d8/d42/VREPQuad_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="371,95,504,136"/>
+<area shape="rect" id="node5" href="$dc/de1/VREPQuadCDRA_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="254,184,421,225"/>
+<area shape="rect" id="node6" href="$d6/d00/VREPQuadLaser_8h.html" title="src/gams/platforms\l/vrep/VREPQuadLaser.h" alt="" coords="455,184,617,225"/>
+<area shape="rect" id="node7" href="$da/d91/VREPSummit_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="579,95,725,136"/>
 </map>

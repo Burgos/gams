@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['sensornames',['SensorNames',['../d8/df1/namespacegams_1_1variables.html#a4f79448d3a1aeec86bd99c8912c489ea',1,'gams::variables']]],
-  ['sensors',['Sensors',['../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930',1,'gams::variables']]]
+  ['trig',['Trig',['../d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html#ac8ec1ee0b2d16fc82ea5df2a7570b16b',1,'gams::pose::euler::Euler']]]
 ];

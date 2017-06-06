@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">GAMS
-   &#160;<span id="projectnumber">1.0.11</span>
+   &#160;<span id="projectnumber">1.0.12</span>
    </div>
   </td>
  </tr>
@@ -137,7 +137,7 @@ $(document).ready(function(){initNavTree('df/d08/VREPBase_8h_source.html','../..
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../df/dae/namespacegams.html">gams</a></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keyword">namespace </span><a class="code" href="../../d2/dd3/namespacegams_1_1platforms.html">platforms</a></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keyword">namespace </span>platforms</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  {</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keyword">class </span><a class="code" href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a> VREPBase : <span class="keyword">public</span> BasePlatform</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    {</div>
@@ -147,7 +147,7 @@ $(document).ready(function(){initNavTree('df/d08/VREPBase_8h_source.html','../..
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        simxUChar is_client_side,</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        madara::knowledge::KnowledgeBase * knowledge,</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <a class="code" href="../../d8/df1/namespacegams_1_1variables.html#a886cb9f6fade67222f4162b90ed80930">variables::Sensors</a> * sensors,</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <a class="code" href="../../d4/d98/classgams_1_1variables_1_1Self.html">variables::Self</a> * <span class="keyword">self</span>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        variables::Self * <span class="keyword">self</span>);</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      <span class="keyword">virtual</span> ~VREPBase ();</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
@@ -258,11 +258,11 @@ $(document).ready(function(){initNavTree('df/d08/VREPBase_8h_source.html','../..
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;      simxUChar is_client_side_;</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;      <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">madara::knowledge::containers::Integer</a> begin_sim_;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;      madara::knowledge::containers::Integer begin_sim_;</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;      <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">madara::knowledge::containers::Integer</a> vrep_ready_;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;      madara::knowledge::containers::Integer vrep_ready_;</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;      <a class="code" href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">madara::knowledge::containers::Integer</a> agent_ready_;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;      madara::knowledge::containers::Integer agent_ready_;</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;      <a class="code" href="../../da/d4b/namespacegams_1_1utility.html#adeb8913406c44faae125ea486dfa6b25">utility::Pose</a> get_sw_pose(<span class="keyword">const</span> <a class="code" href="../../da/d4b/namespacegams_1_1utility.html#a62d34af616e6e25d1e28a7dec26437dd">utility::ReferenceFrame</a> &amp;frame);</div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
@@ -275,7 +275,7 @@ $(document).ready(function(){initNavTree('df/d08/VREPBase_8h_source.html','../..
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;  } <span class="comment">// namespace platform</span></div>
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;} <span class="comment">// namespace gams</span></div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/df9/VREPBase_8inl.html">VREPBase.inl</a>&quot;</span></div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="preprocessor">#include &quot;VREPBase.inl&quot;</span></div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="preprocessor">#endif // _GAMS_VREP_</span></div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
@@ -288,20 +288,16 @@ $(document).ready(function(){initNavTree('df/d08/VREPBase_8h_source.html','../..
 <div class="ttc" id="Sensor_8h_html"><div class="ttname"><a href="../../d5/d65/Sensor_8h.html">Sensor.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="Self_8h_html"><div class="ttname"><a href="../../da/d3d/Self_8h.html">Self.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_html"><div class="ttname"><a href="../../df/dae/namespacegams.html">gams</a></div><div class="ttdoc">Contains all GAMS-related tools, classes and code. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d80/AlgorithmFactory_8h_source.html#l00064">AlgorithmFactory.h:64</a></div></div>
-<div class="ttc" id="classgams_1_1variables_1_1Self_html"><div class="ttname"><a href="../../d4/d98/classgams_1_1variables_1_1Self.html">gams::variables::Self</a></div><div class="ttdoc">A container for self referencing information. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3d/Self_8h_source.html#l00069">Self.h:69</a></div></div>
 <div class="ttc" id="PlatformStatus_8h_html"><div class="ttname"><a href="../../da/d37/PlatformStatus_8h.html">PlatformStatus.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="namespacegams_1_1utility_html_af547c5a08cd290b27e0406b508953cc7"><div class="ttname"><a href="../../da/d4b/namespacegams_1_1utility.html#af547c5a08cd290b27e0406b508953cc7">gams::utility::Location</a></div><div class="ttdeci">gams::pose::Position Location</div><div class="ttdoc">Represents a Location within a reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dd3/Location_8h_source.html#l00099">Location.h:99</a></div></div>
 <div class="ttc" id="namespacegams_1_1utility_html_a2a00efe18f79f7bcfd03a412c1a5d2e0"><div class="ttname"><a href="../../da/d4b/namespacegams_1_1utility.html#a2a00efe18f79f7bcfd03a412c1a5d2e0">gams::utility::Orientation</a></div><div class="ttdeci">gams::pose::Orientation Orientation</div><div class="ttdoc">Represents a orientation or orientation within a reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d54/utility_2Orientation_8h_source.html#l00090">Orientation.h:90</a></div></div>
 <div class="ttc" id="namespacegams_1_1utility_html_a25fec90cdd2d0385f2ab7826e598c084"><div class="ttname"><a href="../../da/d4b/namespacegams_1_1utility.html#a25fec90cdd2d0385f2ab7826e598c084">gams::utility::CartesianFrame</a></div><div class="ttdeci">gams::pose::CartesianFrame CartesianFrame</div><div class="ttdoc">Locations represented as meters distance, in x, y, and z, from an origin Orientations represented in ...</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d86/utility_2CartesianFrame_8h_source.html#l00073">CartesianFrame.h:73</a></div></div>
-<div class="ttc" id="namespacegams_1_1platforms_html"><div class="ttname"><a href="../../d2/dd3/namespacegams_1_1platforms.html">gams::platforms</a></div><div class="ttdoc">Provides platform abstractions for hardware and simulations. </div></div>
 <div class="ttc" id="namespacegams_1_1utility_html_a62d34af616e6e25d1e28a7dec26437dd"><div class="ttname"><a href="../../da/d4b/namespacegams_1_1utility.html#a62d34af616e6e25d1e28a7dec26437dd">gams::utility::ReferenceFrame</a></div><div class="ttdeci">gams::pose::ReferenceFrame ReferenceFrame</div><div class="ttdoc">Base class for Reference Frames. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d6a/utility_2ReferenceFrame_8h_source.html#l00101">ReferenceFrame.h:101</a></div></div>
 <div class="ttc" id="namespacegams_1_1utility_html_adeb8913406c44faae125ea486dfa6b25"><div class="ttname"><a href="../../da/d4b/namespacegams_1_1utility.html#adeb8913406c44faae125ea486dfa6b25">gams::utility::Pose</a></div><div class="ttdeci">gams::pose::Pose Pose</div><div class="ttdoc">Represents a combination of Location and Orientation within a single reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d60/utility_2Pose_8h_source.html#l00075">Pose.h:75</a></div></div>
-<div class="ttc" id="LocalPheremoneAreaCoverage_8cpp_html_acc4bec50759eb3128b079e77bfe5c721"><div class="ttname"><a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp.html#acc4bec50759eb3128b079e77bfe5c721">Integer</a></div><div class="ttdeci">madara::knowledge::KnowledgeRecord::Integer Integer</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de0/LocalPheremoneAreaCoverage_8cpp_source.html#l00072">LocalPheremoneAreaCoverage.cpp:72</a></div></div>
 <div class="ttc" id="GPSPosition_8h_html"><div class="ttname"><a href="../../df/d53/GPSPosition_8h.html">GPSPosition.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 <div class="ttc" id="GlobalLogger_8h_html"><div class="ttname"><a href="../../d9/ddd/GlobalLogger_8h.html">GlobalLogger.h</a></div></div>
 <div class="ttc" id="Location_8h_html"><div class="ttname"><a href="../../d2/dd3/Location_8h.html">Location.h</a></div><div class="ttdoc">Copyright (c) 2015 Carnegie Mellon University. </div></div>
 <div class="ttc" id="GAMSExport_8h_html_aa821e916a389426064269d24e4925080"><div class="ttname"><a href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a></div><div class="ttdeci">#define GAMSExport</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de3/GAMSExport_8h_source.html#l00026">GAMSExport.h:26</a></div></div>
-<div class="ttc" id="VREPBase_8inl_html"><div class="ttname"><a href="../../d5/df9/VREPBase_8inl.html">VREPBase.inl</a></div><div class="ttdoc">Copyright (c) 2016 Carnegie Mellon University. </div></div>
 <div class="ttc" id="BasePlatform_8h_html"><div class="ttname"><a href="../../d4/de8/BasePlatform_8h.html">BasePlatform.h</a></div><div class="ttdoc">Copyright (c) 2014 Carnegie Mellon University. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -309,7 +305,7 @@ $(document).ready(function(){initNavTree('df/d08/VREPBase_8h_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_6c455ffda7930f83b3bac201e39444dd.html">gams</a></li><li class="navelem"><a class="el" href="../../dir_1e78112e2e00ee93d190d5382866a0e7.html">platforms</a></li><li class="navelem"><a class="el" href="../../dir_28c2d94377217a92e4c789135976939c.html">vrep</a></li><li class="navelem"><a class="el" href="../../df/d08/VREPBase_8h.html">VREPBase.h</a></li>
-    <li class="footer">Generated on Mon Jun 5 2017 09:20:13 for GAMS by
+    <li class="footer">Generated on Tue Jun 6 2017 13:27:08 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory =
 [
-    [ "create", "df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html#a2b8b3c16962be086edd0045f91dcd54b", null ],
+    [ "create", "df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html#a1c296be49f17536f4984a42e8f7cecdc", null ],
     [ "set_agents", "df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html#a10d00b5194d66acb4c42d1945eab3438", null ],
     [ "set_knowledge", "df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html#acb841e8c409d920fab7300cee62b1457", null ],
     [ "set_platform", "df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html#aecd6bd7cbafa8a7fc60fdb0cb6b5b74e", null ],
