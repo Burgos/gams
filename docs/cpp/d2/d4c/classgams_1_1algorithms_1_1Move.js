@@ -1,6 +1,6 @@
 var classgams_1_1algorithms_1_1Move =
 [
-    [ "Move", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a4b26b22f5dcc4f06e24165672190d153", null ],
+    [ "Move", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a848b03dab67b139b94c1d03ffc0dc0d5", null ],
     [ "~Move", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a94e50a53f1aa874a599f92aa7c6e9369", null ],
     [ "analyze", "d2/d4c/classgams_1_1algorithms_1_1Move.html#abd8168df529ed685873622a916c1b1d2", null ],
     [ "execute", "d2/d4c/classgams_1_1algorithms_1_1Move.html#af81171680d58d4f49e6f0ac2216d6733", null ],
@@ -25,7 +25,7 @@ var classgams_1_1algorithms_1_1Move =
     [ "knowledge_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a20e036f225ac448da8cc0fd1812d88c5", null ],
     [ "move_index_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a6138c656d29e365e057b7462586e6d89", null ],
     [ "platform_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a0f5466d6fb389a75a44eabafe96f0c6f", null ],
-    [ "poses_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a70de572c1b1692da1918bcdc5086d79d", null ],
+    [ "poses_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a2156e39cc084966128e6cc3d30216b2c", null ],
     [ "repeat_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a352012c4833bcb1486ea8ce81c5a6feb", null ],
     [ "self_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a8b4ef5e73d4d4629172b5dca1d100ebd", null ],
     [ "sensors_", "d2/d4c/classgams_1_1algorithms_1_1Move.html#a6b4d6a9dd192a2167249b1f0a90847a3", null ],

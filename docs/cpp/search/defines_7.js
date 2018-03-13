@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['static_5fassert',['static_assert',['../d5/d69/CPP11__compat_8h.html#a1f114f56ce514e65cd208e49a3854ea8',1,'CPP11_compat.h']]]
+  ['warn_5funused',['WARN_UNUSED',['../d5/d69/CPP11__compat_8h.html#a6bd66cd1442dfcf69db0b0c7b80b0c7e',1,'CPP11_compat.h']]]
 ];

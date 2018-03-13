@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d5/d99/classgams_1_1platforms_1_1PlatformFactory.html" title="Base class for platform factories to create BasePlatforms. " alt="" coords="5,71,176,112"/>
-<area shape="rect" id="node2" href="$dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html" title="A factory class for creating debug platforms. " alt="" coords="224,5,432,47"/>
-<area shape="rect" id="node3" href="$d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html" title="A factory class for creating null (no&#45;op) platforms. " alt="" coords="231,71,425,112"/>
-<area shape="rect" id="node4" href="$dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory.html" title="A factory class for creating null (no&#45;op) platforms. " alt="" coords="243,136,413,177"/>
+<area shape="rect" id="node1" href="$d5/d99/classgams_1_1platforms_1_1PlatformFactory.html" title="Base class for platform factories to create BasePlatforms. " alt="" coords="5,71,179,112"/>
+<area shape="rect" id="node2" href="$dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html" title="A factory class for creating debug platforms. " alt="" coords="227,5,437,47"/>
+<area shape="rect" id="node3" href="$d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html" title="A factory class for creating null (no&#45;op) platforms. " alt="" coords="234,71,430,112"/>
+<area shape="rect" id="node4" href="$dd/d20/classgams_1_1platforms_1_1PlatformCollectionFactory.html" title="A factory class for creating null (no&#45;op) platforms. " alt="" coords="245,136,419,177"/>
 </map>

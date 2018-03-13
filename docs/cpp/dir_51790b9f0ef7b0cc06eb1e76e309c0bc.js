@@ -33,6 +33,10 @@ var dir_51790b9f0ef7b0cc06eb1e76e309c0bc =
       [ "GroupBarrier", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier" ],
       [ "GroupBarrierFactory", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory" ]
     ] ],
+    [ "Hold.h", "d7/d99/Hold_8h.html", [
+      [ "Hold", "da/d71/classgams_1_1algorithms_1_1Hold.html", "da/d71/classgams_1_1algorithms_1_1Hold" ],
+      [ "HoldFactory", "d9/df5/classgams_1_1algorithms_1_1HoldFactory.html", "d9/df5/classgams_1_1algorithms_1_1HoldFactory" ]
+    ] ],
     [ "Home.h", "da/d61/Home_8h.html", [
       [ "Home", "da/dce/classgams_1_1algorithms_1_1Home.html", "da/dce/classgams_1_1algorithms_1_1Home" ],
       [ "HomeFactory", "da/d32/classgams_1_1algorithms_1_1HomeFactory.html", "da/d32/classgams_1_1algorithms_1_1HomeFactory" ]
@@ -66,6 +70,10 @@ var dir_51790b9f0ef7b0cc06eb1e76e309c0bc =
     [ "PerimeterPatrol.h", "d1/d28/PerimeterPatrol_8h.html", [
       [ "PerimeterPatrol", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol" ],
       [ "PerimeterPatrolFactory", "da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html", "da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory" ]
+    ] ],
+    [ "Spell.h", "d0/d78/Spell_8h.html", [
+      [ "Spell", "d3/d59/classgams_1_1algorithms_1_1Spell.html", "d3/d59/classgams_1_1algorithms_1_1Spell" ],
+      [ "SpellFactory", "d5/df0/classgams_1_1algorithms_1_1SpellFactory.html", "d5/df0/classgams_1_1algorithms_1_1SpellFactory" ]
     ] ],
     [ "Takeoff.h", "d0/df4/Takeoff_8h.html", [
       [ "Takeoff", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html", "dd/dce/classgams_1_1algorithms_1_1Takeoff" ],

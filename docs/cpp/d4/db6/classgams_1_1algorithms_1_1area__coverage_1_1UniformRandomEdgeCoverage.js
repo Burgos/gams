@@ -27,7 +27,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage =
     [ "knowledge_", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#a20e036f225ac448da8cc0fd1812d88c5", null ],
     [ "next_position_", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#ac9dcadd0122a8f64d022bba94f3a261e", null ],
     [ "platform_", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#a0f5466d6fb389a75a44eabafe96f0c6f", null ],
-    [ "region_", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#ad90f3ee64265c4a22ed92a2ed2b1e0c6", null ],
+    [ "region_", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#a42d931c25e34a2b019c25a317d7bbbf4", null ],
     [ "self_", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#a8b4ef5e73d4d4629172b5dca1d100ebd", null ],
     [ "sensors_", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#a6b4d6a9dd192a2167249b1f0a90847a3", null ],
     [ "status_", "d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#ab8cc4e9330ef031317a3f1308d6d6f89", null ]

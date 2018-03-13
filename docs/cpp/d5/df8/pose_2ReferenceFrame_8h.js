@@ -6,5 +6,6 @@ var pose_2ReferenceFrame_8h =
     [ "undefined_transform", "dd/ddd/classgams_1_1pose_1_1undefined__transform.html", "dd/ddd/classgams_1_1pose_1_1undefined__transform" ],
     [ "unrelated_frames", "dc/db8/classgams_1_1pose_1_1unrelated__frames.html", "dc/db8/classgams_1_1pose_1_1unrelated__frames" ],
     [ "GAMS_NO_INL", "d5/df8/pose_2ReferenceFrame_8h.html#a526da55cf163066f3aeaeacb106ab9c5", null ],
-    [ "GAMS_WITH_FRAME_TYPE", "d5/df8/pose_2ReferenceFrame_8h.html#a015d75afd2cf0b901b899164fe098ce5", null ]
+    [ "GAMS_WITH_FRAME_TYPE", "d5/df8/pose_2ReferenceFrame_8h.html#a015d75afd2cf0b901b899164fe098ce5", null ],
+    [ "default_frame", "d5/df8/pose_2ReferenceFrame_8h.html#af8f167470eb4edf659a85fd9d20c2f92", null ]
 ];

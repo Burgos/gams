@@ -7,7 +7,9 @@ var searchData=
   ['needs_5fdetach',['needs_detach',['../df/d12/classgams_1_1utility_1_1java_1_1Acquire__VM.html#aca8730c6cfd9f87871482c5f4d84f27d',1,'gams::utility::java::Acquire_VM']]],
   ['next_5fbarrier_5f',['next_barrier_',['../d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html#a72e529bc57461e07b2b24e776ae12dbf',1,'gams::algorithms::GroupBarrier']]],
   ['next_5fcoverage_5ftype',['next_coverage_type',['../d8/d12/classgams_1_1variables_1_1Agent.html#af0642efb1408571108462059c21e1da5',1,'gams::variables::Agent']]],
-  ['next_5floc_5f',['next_loc_',['../da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#ad37b77d4bfcfab3b9a16347dacbaf0b7',1,'gams::algorithms::ZoneCoverage']]],
-  ['next_5fposition_5f',['next_position_',['../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#ac9dcadd0122a8f64d022bba94f3a261e',1,'gams::algorithms::area_coverage::BaseAreaCoverage::next_position_()'],['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a8c580fd438aafe080e974eb7c2540d7f',1,'gams::algorithms::FormationFlying::next_position_()']]],
+  ['next_5floc_5f',['next_loc_',['../da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a9bdf64aaa2ca790b7db14f7b6a7a30b0',1,'gams::algorithms::ZoneCoverage']]],
+  ['next_5fpos_5f',['next_pos_',['../d3/d59/classgams_1_1algorithms_1_1Spell.html#a63c58e579af60bc5c20d1c3ce37dde3c',1,'gams::algorithms::Spell']]],
+  ['next_5fposition_5f',['next_position_',['../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#ac9dcadd0122a8f64d022bba94f3a261e',1,'gams::algorithms::area_coverage::BaseAreaCoverage::next_position_()'],['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a58aaefb17142c28197e6b232bbb3b331',1,'gams::algorithms::FormationFlying::next_position_()']]],
+  ['node_5f',['node_',['../d3/d59/classgams_1_1algorithms_1_1Spell.html#a4fd6ed273f8331289ea5a89fc7fed400',1,'gams::algorithms::Spell']]],
   ['num_5fagents_5f',['num_agents_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a6a68dadd21fdb24a23cc92f4b3e2f3c1',1,'gams::algorithms::FormationFlying']]]
 ];

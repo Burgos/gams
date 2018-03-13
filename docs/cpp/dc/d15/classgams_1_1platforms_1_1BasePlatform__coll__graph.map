@@ -1,9 +1,9 @@
 <map id="gams::platforms::BasePlatform" name="gams::platforms::BasePlatform">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="15,329,136,356"/>
-<area shape="rect" id="node5" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="160,329,303,356"/>
-<area shape="rect" id="node6" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="150,213,305,240"/>
-<area shape="rect" id="node8" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="76,13,275,39"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="315,109,395,136"/>
-<area shape="rect" id="node11" href="$db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="271,264,439,305"/>
-<area shape="rect" id="node10" title="STL class. " alt="" coords="299,5,425,47"/>
+<area shape="rect" id="node2" title="STL class. " alt="" coords="13,329,135,356"/>
+<area shape="rect" id="node5" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="160,329,305,356"/>
+<area shape="rect" id="node6" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="151,213,307,240"/>
+<area shape="rect" id="node8" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="77,13,279,39"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="318,109,398,136"/>
+<area shape="rect" id="node11" href="$db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="273,264,443,305"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="303,5,429,47"/>
 </map>

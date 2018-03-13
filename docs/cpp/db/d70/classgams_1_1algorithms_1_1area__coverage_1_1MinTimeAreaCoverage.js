@@ -31,7 +31,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage =
     [ "next_position_", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#ac9dcadd0122a8f64d022bba94f3a261e", null ],
     [ "platform_", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#a0f5466d6fb389a75a44eabafe96f0c6f", null ],
     [ "position_value_map_", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#a310d1275368685cea25ebb4706471084", null ],
-    [ "search_area_", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#a46ae36f7661f26f42a6e221ed44274f3", null ],
+    [ "search_area_", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#ac2e99a18ba0fb00edd7349e7312419d4", null ],
     [ "self_", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#a8b4ef5e73d4d4629172b5dca1d100ebd", null ],
     [ "sensors_", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#a6b4d6a9dd192a2167249b1f0a90847a3", null ],
     [ "status_", "db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#ab8cc4e9330ef031317a3f1308d6d6f89", null ],

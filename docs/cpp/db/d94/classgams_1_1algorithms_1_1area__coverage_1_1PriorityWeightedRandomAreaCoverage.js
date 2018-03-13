@@ -27,7 +27,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCover
     [ "next_position_", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html#ac9dcadd0122a8f64d022bba94f3a261e", null ],
     [ "platform_", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html#a0f5466d6fb389a75a44eabafe96f0c6f", null ],
     [ "priority_total_by_region_", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html#a13c4b3cfd3c8af39035866a39190dae3", null ],
-    [ "search_area_", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html#a71a2a7de622c36c57c8570b6fdcf5dea", null ],
+    [ "search_area_", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html#ab0a7458f2432dff8bacfed86460b1822", null ],
     [ "self_", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html#a8b4ef5e73d4d4629172b5dca1d100ebd", null ],
     [ "sensors_", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html#a6b4d6a9dd192a2167249b1f0a90847a3", null ],
     [ "status_", "db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html#ab8cc4e9330ef031317a3f1308d6d6f89", null ],

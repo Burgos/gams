@@ -23,7 +23,7 @@ var classgams_1_1pose_1_1ReferenceFrame =
     [ "normalize_pose", "d3/d24/classgams_1_1pose_1_1ReferenceFrame.html#ab4293b8d0ceea66ee6f4a4b02f837d09", null ],
     [ "normalize_position", "d3/d24/classgams_1_1pose_1_1ReferenceFrame.html#a7014d3ba089a0b67c1e1d941a05363db", null ],
     [ "operator!=", "d3/d24/classgams_1_1pose_1_1ReferenceFrame.html#a58caf5f4539663fafae41cfe061d721f", null ],
-    [ "operator=", "d3/d24/classgams_1_1pose_1_1ReferenceFrame.html#a816cb11c3c4853b0fdd81009ff28611f", null ],
+    [ "operator=", "d3/d24/classgams_1_1pose_1_1ReferenceFrame.html#a1907baa03b7ecef4e115aac02cd60e53", null ],
     [ "operator==", "d3/d24/classgams_1_1pose_1_1ReferenceFrame.html#af2b7a4666d1218f7d12b85b621d23722", null ],
     [ "origin", "d3/d24/classgams_1_1pose_1_1ReferenceFrame.html#a7b3485269c4357fc834a5777216f0602", null ],
     [ "origin", "d3/d24/classgams_1_1pose_1_1ReferenceFrame.html#a2fa44801b0b03d615caafbe99c00bbdc", null ],

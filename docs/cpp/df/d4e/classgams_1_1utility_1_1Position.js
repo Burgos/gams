@@ -2,6 +2,7 @@ var classgams_1_1utility_1_1Position =
 [
     [ "Position", "df/d4e/classgams_1_1utility_1_1Position.html#a503a153256a416c5b80ffaa38db4226d", null ],
     [ "Position", "df/d4e/classgams_1_1utility_1_1Position.html#a61aba62713d3d906138f55780c0308e3", null ],
+    [ "Position", "df/d4e/classgams_1_1utility_1_1Position.html#a2e6a976e74e97f7feb42556627b7fdbf", null ],
     [ "~Position", "df/d4e/classgams_1_1utility_1_1Position.html#a183f1030a5a5be540f9e1d9cfdb32ea5", null ],
     [ "approximately_equal", "df/d4e/classgams_1_1utility_1_1Position.html#abcc4362b917a5758a119686f1d7279a0", null ],
     [ "approximately_equal_2d", "df/d4e/classgams_1_1utility_1_1Position.html#a41dd53155122d83ae4acef206cb74dbc", null ],
@@ -29,6 +30,7 @@ var classgams_1_1utility_1_1Position =
     [ "slope_2d", "df/d4e/classgams_1_1utility_1_1Position.html#a5de215f6292877a33ceb3a32b10c8d77", null ],
     [ "to_container", "df/d4e/classgams_1_1utility_1_1Position.html#a27097eef0e70ff22bdec73ce1bb232ca", null ],
     [ "to_container", "df/d4e/classgams_1_1utility_1_1Position.html#a5bbabe5f41ed00775c8e4d8dfd7f1e37", null ],
+    [ "to_pos", "df/d4e/classgams_1_1utility_1_1Position.html#a1ff29b7b3b675e684bcf6c3e35960c4b", null ],
     [ "to_string", "df/d4e/classgams_1_1utility_1_1Position.html#a0a022f1aa53f34e7e922218f68034b30", null ],
     [ "x", "df/d4e/classgams_1_1utility_1_1Position.html#ac071cc672b202d902bf37015c33d4469", null ],
     [ "y", "df/d4e/classgams_1_1utility_1_1Position.html#a6045f7b6766f8fc25b2d9b09d1aaf45c", null ],

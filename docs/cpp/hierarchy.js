@@ -24,6 +24,7 @@ var hierarchy =
       [ "gams::algorithms::FormationFlyingFactory", "de/d36/classgams_1_1algorithms_1_1FormationFlyingFactory.html", null ],
       [ "gams::algorithms::FormationSyncFactory", "d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html", null ],
       [ "gams::algorithms::GroupBarrierFactory", "d7/d3e/classgams_1_1algorithms_1_1GroupBarrierFactory.html", null ],
+      [ "gams::algorithms::HoldFactory", "d9/df5/classgams_1_1algorithms_1_1HoldFactory.html", null ],
       [ "gams::algorithms::HomeFactory", "da/d32/classgams_1_1algorithms_1_1HomeFactory.html", null ],
       [ "gams::algorithms::JavaAlgorithmFactory", "dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html", null ],
       [ "gams::algorithms::KarlEvaluatorFactory", "d5/d3d/classgams_1_1algorithms_1_1KarlEvaluatorFactory.html", null ],
@@ -33,6 +34,7 @@ var hierarchy =
       [ "gams::algorithms::NullAlgorithmFactory", "d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html", null ],
       [ "gams::algorithms::PerformanceProfilingFactory", "dc/db2/classgams_1_1algorithms_1_1PerformanceProfilingFactory.html", null ],
       [ "gams::algorithms::PerimeterPatrolFactory", "da/d0c/classgams_1_1algorithms_1_1PerimeterPatrolFactory.html", null ],
+      [ "gams::algorithms::SpellFactory", "d5/df0/classgams_1_1algorithms_1_1SpellFactory.html", null ],
       [ "gams::algorithms::TakeoffFactory", "d2/d22/classgams_1_1algorithms_1_1TakeoffFactory.html", null ],
       [ "gams::algorithms::WaitFactory", "da/dc3/classgams_1_1algorithms_1_1WaitFactory.html", null ],
       [ "gams::algorithms::ZoneCoverageFactory", "d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html", null ]
@@ -76,6 +78,7 @@ var hierarchy =
       [ "gams::algorithms::FormationFlying", "d9/df9/classgams_1_1algorithms_1_1FormationFlying.html", null ],
       [ "gams::algorithms::FormationSync", "d3/df5/classgams_1_1algorithms_1_1FormationSync.html", null ],
       [ "gams::algorithms::GroupBarrier", "d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html", null ],
+      [ "gams::algorithms::Hold", "da/d71/classgams_1_1algorithms_1_1Hold.html", null ],
       [ "gams::algorithms::Home", "da/dce/classgams_1_1algorithms_1_1Home.html", null ],
       [ "gams::algorithms::JavaAlgorithm", "d4/d22/classgams_1_1algorithms_1_1JavaAlgorithm.html", null ],
       [ "gams::algorithms::KarlEvaluator", "dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html", null ],
@@ -85,6 +88,7 @@ var hierarchy =
       [ "gams::algorithms::NullAlgorithm", "dd/de4/classgams_1_1algorithms_1_1NullAlgorithm.html", null ],
       [ "gams::algorithms::PerformanceProfiling", "dc/d12/classgams_1_1algorithms_1_1PerformanceProfiling.html", null ],
       [ "gams::algorithms::PerimeterPatrol", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html", null ],
+      [ "gams::algorithms::Spell", "d3/d59/classgams_1_1algorithms_1_1Spell.html", null ],
       [ "gams::algorithms::Takeoff", "dd/dce/classgams_1_1algorithms_1_1Takeoff.html", null ],
       [ "gams::algorithms::Wait", "d9/d6f/classgams_1_1algorithms_1_1Wait.html", null ],
       [ "gams::algorithms::ZoneCoverage", "da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html", null ]
@@ -92,17 +96,16 @@ var hierarchy =
     [ "gams::controllers::BaseController", "df/d21/classgams_1_1controllers_1_1BaseController.html", null ],
     [ "gams::platforms::BasePlatform", "d0/df3/classgams_1_1platforms_1_1BasePlatform.html", [
       [ "gams::platforms::DebugPlatform", "d7/df2/classgams_1_1platforms_1_1DebugPlatform.html", null ],
-      [ "gams::platforms::Drone_RK", "df/d3b/classgams_1_1platforms_1_1Drone__RK.html", null ],
       [ "gams::platforms::JavaPlatform", "dc/d78/classgams_1_1platforms_1_1JavaPlatform.html", null ],
       [ "gams::platforms::NullPlatform", "d4/d7b/classgams_1_1platforms_1_1NullPlatform.html", null ],
       [ "gams::platforms::PlatformCollection", "d9/d3c/classgams_1_1platforms_1_1PlatformCollection.html", null ]
     ] ],
     [ "gams::algorithms::FormationFlying::Compiled", "d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled.html", null ],
     [ "gams::utility::Containerize", "de/d8c/classgams_1_1utility_1_1Containerize.html", [
-      [ "gams::utility::Region", "da/db7/classgams_1_1utility_1_1Region.html", [
-        [ "gams::utility::PrioritizedRegion", "d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html", null ]
+      [ "gams::pose::Region", "d3/dcb/classgams_1_1pose_1_1Region.html", [
+        [ "gams::pose::PrioritizedRegion", "dc/da3/classgams_1_1pose_1_1PrioritizedRegion.html", null ]
       ] ],
-      [ "gams::utility::SearchArea", "da/d42/classgams_1_1utility_1_1SearchArea.html", null ]
+      [ "gams::pose::SearchArea", "d1/d9e/classgams_1_1pose_1_1SearchArea.html", null ]
     ] ],
     [ "gams::controllers::ControllerSettings", "d0/dc2/classgams_1_1controllers_1_1ControllerSettings.html", null ],
     [ "gams::pose::CoordinateBase", "d3/d5c/classgams_1_1pose_1_1CoordinateBase.html", [

@@ -14,8 +14,11 @@ var namespacegams_1_1pose =
     [ "PoseVector", "dc/ddd/classgams_1_1pose_1_1PoseVector.html", "dc/ddd/classgams_1_1pose_1_1PoseVector" ],
     [ "Position", "d6/d4a/classgams_1_1pose_1_1Position.html", "d6/d4a/classgams_1_1pose_1_1Position" ],
     [ "PositionVector", "db/ddd/classgams_1_1pose_1_1PositionVector.html", "db/ddd/classgams_1_1pose_1_1PositionVector" ],
+    [ "PrioritizedRegion", "dc/da3/classgams_1_1pose_1_1PrioritizedRegion.html", "dc/da3/classgams_1_1pose_1_1PrioritizedRegion" ],
     [ "Quaternion", "d6/d13/classgams_1_1pose_1_1Quaternion.html", "d6/d13/classgams_1_1pose_1_1Quaternion" ],
     [ "ReferenceFrame", "d3/d24/classgams_1_1pose_1_1ReferenceFrame.html", "d3/d24/classgams_1_1pose_1_1ReferenceFrame" ],
+    [ "Region", "d3/dcb/classgams_1_1pose_1_1Region.html", "d3/dcb/classgams_1_1pose_1_1Region" ],
+    [ "SearchArea", "d1/d9e/classgams_1_1pose_1_1SearchArea.html", "d1/d9e/classgams_1_1pose_1_1SearchArea" ],
     [ "SimpleRotateFrame", "d6/dd3/classgams_1_1pose_1_1SimpleRotateFrame.html", "d6/dd3/classgams_1_1pose_1_1SimpleRotateFrame" ],
     [ "undefined_transform", "dd/ddd/classgams_1_1pose_1_1undefined__transform.html", "dd/ddd/classgams_1_1pose_1_1undefined__transform" ],
     [ "unrelated_frames", "dc/db8/classgams_1_1pose_1_1unrelated__frames.html", "dc/db8/classgams_1_1pose_1_1unrelated__frames" ]

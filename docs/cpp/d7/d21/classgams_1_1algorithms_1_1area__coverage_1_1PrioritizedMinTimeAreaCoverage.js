@@ -31,7 +31,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage 
     [ "next_position_", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html#ac9dcadd0122a8f64d022bba94f3a261e", null ],
     [ "platform_", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html#a0f5466d6fb389a75a44eabafe96f0c6f", null ],
     [ "position_value_map_", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html#a310d1275368685cea25ebb4706471084", null ],
-    [ "search_area_", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html#a46ae36f7661f26f42a6e221ed44274f3", null ],
+    [ "search_area_", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html#ac2e99a18ba0fb00edd7349e7312419d4", null ],
     [ "self_", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html#a8b4ef5e73d4d4629172b5dca1d100ebd", null ],
     [ "sensors_", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html#a6b4d6a9dd192a2167249b1f0a90847a3", null ],
     [ "status_", "d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html#ab8cc4e9330ef031317a3f1308d6d6f89", null ],

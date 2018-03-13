@@ -19,16 +19,7 @@ var dir_e1406cd850b444c8c135213175f9bbdb =
     [ "Orientation.h", "d1/d54/utility_2Orientation_8h.html", "d1/d54/utility_2Orientation_8h" ],
     [ "Pose.h", "dd/d60/utility_2Pose_8h.html", "dd/d60/utility_2Pose_8h" ],
     [ "Position.h", "da/d39/utility_2Position_8h.html", "da/d39/utility_2Position_8h" ],
-    [ "PrioritizedRegion.h", "d9/d98/PrioritizedRegion_8h.html", [
-      [ "PrioritizedRegion", "d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html", "d8/d11/classgams_1_1utility_1_1PrioritizedRegion" ]
-    ] ],
     [ "Quaternion.h", "d7/d25/utility_2Quaternion_8h.html", "d7/d25/utility_2Quaternion_8h" ],
     [ "ReferenceFrame.h", "de/d6a/utility_2ReferenceFrame_8h.html", "de/d6a/utility_2ReferenceFrame_8h" ],
-    [ "Region.h", "da/d9f/utility_2Region_8h.html", [
-      [ "Region", "da/db7/classgams_1_1utility_1_1Region.html", "da/db7/classgams_1_1utility_1_1Region" ]
-    ] ],
-    [ "SearchArea.h", "d6/d1b/utility_2SearchArea_8h.html", [
-      [ "SearchArea", "da/d42/classgams_1_1utility_1_1SearchArea.html", "da/d42/classgams_1_1utility_1_1SearchArea" ]
-    ] ],
     [ "UTMFrame.h", "d1/d2b/utility_2UTMFrame_8h.html", null ]
 ];

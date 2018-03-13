@@ -18,7 +18,7 @@ var searchData=
   ['positionvector',['PositionVector',['../db/ddd/classgams_1_1pose_1_1PositionVector.html',1,'gams::pose']]],
   ['prioritizedmintimeareacoverage',['PrioritizedMinTimeAreaCoverage',['../d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html',1,'gams::algorithms::area_coverage']]],
   ['prioritizedmintimeareacoveragefactory',['PrioritizedMinTimeAreaCoverageFactory',['../df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html',1,'gams::algorithms::area_coverage']]],
-  ['prioritizedregion',['PrioritizedRegion',['../d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html',1,'gams::utility']]],
+  ['prioritizedregion',['PrioritizedRegion',['../dc/da3/classgams_1_1pose_1_1PrioritizedRegion.html',1,'gams::pose']]],
   ['priorityweightedrandomareacoverage',['PriorityWeightedRandomAreaCoverage',['../db/d94/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverage.html',1,'gams::algorithms::area_coverage']]],
   ['priorityweightedrandomareacoveragefactory',['PriorityWeightedRandomAreaCoverageFactory',['../df/df5/classgams_1_1algorithms_1_1area__coverage_1_1PriorityWeightedRandomAreaCoverageFactory.html',1,'gams::algorithms::area_coverage']]]
 ];

@@ -27,7 +27,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage =
     [ "next_position_", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html#ac9dcadd0122a8f64d022bba94f3a261e", null ],
     [ "pheremone_", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html#aa0a560ab507ab011e34e5c5557ecec11", null ],
     [ "platform_", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html#a0f5466d6fb389a75a44eabafe96f0c6f", null ],
-    [ "search_area_", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html#a9b4aabdf982a03de68dadea92fd16cbe", null ],
+    [ "search_area_", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html#ac63df0b4f407edc6c185b8c4e1f28c9f", null ],
     [ "self_", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html#a8b4ef5e73d4d4629172b5dca1d100ebd", null ],
     [ "sensors_", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html#a6b4d6a9dd192a2167249b1f0a90847a3", null ],
     [ "status_", "d6/de5/classgams_1_1algorithms_1_1area__coverage_1_1LocalPheremoneAreaCoverage.html#ab8cc4e9330ef031317a3f1308d6d6f89", null ]

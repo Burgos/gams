@@ -12,8 +12,8 @@ var NAVTREE =
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
-    [ "Classes", null, [
-      [ "Class List", "annotated.html", "annotated" ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
@@ -39,21 +39,21 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d58/classgams_1_1auctions_1_1AuctionMinimumDistance.html#aa14a462116c1509a67b41804ce558d3d",
-"d3/d13/utility_2AngleUnits_8h.html#a5f95170c7521327d25043126ce33263b",
-"d4/d22/classgams_1_1pose_1_1Orientation.html#a98320f84ea14e2c13252aea64bacec16",
-"d4/de8/BasePlatform_8h.html#a3cd2025c12ef166003e8f3e143365ad5a58ebef6e9e30648d3bcc1b53022d9bf3",
-"d6/d4a/classgams_1_1pose_1_1Position.html#a46981c71c989879488b0536b434ae1be",
-"d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a09f0cb5af79b0b32dff951bec6474256",
-"d8/d07/pose_2Euler_8h.html#a97f030688f0cd130b60b72e37cf71d74",
-"d9/d03/classgams_1_1algorithms_1_1Executor.html#aabcf4087f663326bbab8b5b7609b5795",
-"d9/dd5/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverageFactory.html#ac6e3accc4bb4b934511db4184cbe14f1",
-"da/d73/classgams_1_1algorithms_1_1FormationCoverageFactory.html#a3202884ced130e1739915bfc90feef88",
-"db/d70/classgams_1_1algorithms_1_1area__coverage_1_1MinTimeAreaCoverage.html#a19661db06cf827c252481d6ebca563b3",
-"dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#af305cd76aed7e9d18195bf5d972c5257",
-"dd/d61/classgams_1_1pose_1_1Pose.html#a3d91cc4bd0f2c3c6d5098ccc518f2b88",
-"de/d8c/classgams_1_1utility_1_1Containerize.html#ac2961c89ba9820d014dbf4aeee34d166a22e3576bf03fb83912ff1bfafe96a683",
-"df/de9/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverageFactory.html#abce0341ed7fe1872fd664723583bb143"
+"d1/d58/classgams_1_1auctions_1_1AuctionMinimumDistance.html#a9bb4c1490c8f67ecbe637223cb28cc32",
+"d2/dac/namespacegams_1_1algorithms_1_1java.html",
+"d3/df5/classgams_1_1algorithms_1_1FormationSync.html#a0e4113054046e464458acbe74d6ccff9",
+"d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html#aa856f0d654869b941ac22ea462e1bd05",
+"d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html#ab8a985790f4b8f0eab86d09d46b03874",
+"d6/dcb/classgams_1_1pose_1_1Coordinate.html#a43c9d55940cb1d24a1f4b8a7f01a9987",
+"d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html#aa7e66b66891cae6dd09cfa1b0af3f7bc",
+"d8/d3f/utility_2Euler_8h.html#ab84e3bd73152e4556c77470c915a3a69",
+"d9/d61/classgams_1_1elections_1_1ElectionBase.html#a7911c64040602dcc0464791262d98087",
+"da/d37/PlatformStatus_8h.html#a905310afe0c364648e75d04b6cd19adb",
+"db/d53/classgams_1_1variables_1_1PlatformStatus.html#a42214948010b69607eb6846f12c64acf",
+"db/dfe/AlgorithmStatus_8h.html#ad8febcc2b25d22941393028ff07bead3",
+"dc/ddd/classgams_1_1pose_1_1PoseVector.html#a57d29b983980fa83149ae1af9bcd7bb5",
+"dd/de4/classgams_1_1algorithms_1_1NullAlgorithm.html#a0f5466d6fb389a75a44eabafe96f0c6f",
+"df/d4e/classgams_1_1utility_1_1Position.html#a37e35ccec702a0f08e066db69a8f6fc1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

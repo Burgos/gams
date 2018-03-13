@@ -27,7 +27,7 @@ var classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage =
     [ "knowledge_", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a20e036f225ac448da8cc0fd1812d88c5", null ],
     [ "next_position_", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#ac9dcadd0122a8f64d022bba94f3a261e", null ],
     [ "platform_", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a0f5466d6fb389a75a44eabafe96f0c6f", null ],
-    [ "region_", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a1035c75cfab7b8ea1c5ee82d53dd9d87", null ],
+    [ "region_", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a2e733737897ab7c4d1fa544d23f01138", null ],
     [ "self_", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a8b4ef5e73d4d4629172b5dca1d100ebd", null ],
     [ "sensors_", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a6b4d6a9dd192a2167249b1f0a90847a3", null ],
     [ "status_", "d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#ab8cc4e9330ef031317a3f1308d6d6f89", null ]

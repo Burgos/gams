@@ -24,7 +24,7 @@ var classgams_1_1algorithms_1_1PerimeterPatrol =
     [ "executions_", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#aabcf4087f663326bbab8b5b7609b5795", null ],
     [ "initialized_", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#ae0ee3cd6ac6c1457fc2b8350b24f5d2d", null ],
     [ "knowledge_", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#a20e036f225ac448da8cc0fd1812d88c5", null ],
-    [ "locations_", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#ad1905e3d88696422634733a4dc44228b", null ],
+    [ "locations_", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#ac7bd3f29d316f05b0d9cc87a89ba1b66", null ],
     [ "max_time_", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#a9372375fc55c2de069f391729b80b718", null ],
     [ "move_index_", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#a18e10db1b1411e1d4046b44e8f95ef81", null ],
     [ "platform_", "d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#a0f5466d6fb389a75a44eabafe96f0c6f", null ],

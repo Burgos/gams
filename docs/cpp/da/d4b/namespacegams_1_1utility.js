@@ -7,8 +7,5 @@ var namespacegams_1_1utility =
     [ "Containerize", "de/d8c/classgams_1_1utility_1_1Containerize.html", "de/d8c/classgams_1_1utility_1_1Containerize" ],
     [ "GPSPosition", "da/d5e/classgams_1_1utility_1_1GPSPosition.html", "da/d5e/classgams_1_1utility_1_1GPSPosition" ],
     [ "Position", "df/d4e/classgams_1_1utility_1_1Position.html", "df/d4e/classgams_1_1utility_1_1Position" ],
-    [ "PrioritizedRegion", "d8/d11/classgams_1_1utility_1_1PrioritizedRegion.html", "d8/d11/classgams_1_1utility_1_1PrioritizedRegion" ],
-    [ "RadixLess", "da/d05/classgams_1_1utility_1_1RadixLess.html", "da/d05/classgams_1_1utility_1_1RadixLess" ],
-    [ "Region", "da/db7/classgams_1_1utility_1_1Region.html", "da/db7/classgams_1_1utility_1_1Region" ],
-    [ "SearchArea", "da/d42/classgams_1_1utility_1_1SearchArea.html", "da/d42/classgams_1_1utility_1_1SearchArea" ]
+    [ "RadixLess", "da/d05/classgams_1_1utility_1_1RadixLess.html", "da/d05/classgams_1_1utility_1_1RadixLess" ]
 ];

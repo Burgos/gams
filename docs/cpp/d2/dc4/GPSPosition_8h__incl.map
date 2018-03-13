@@ -1,4 +1,12 @@
 <map id="src/gams/utility/GPSPosition.h" name="src/gams/utility/GPSPosition.h">
-<area shape="rect" id="node2" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="5,162,152,189"/>
-<area shape="rect" id="node6" href="$da/d39/utility_2Position_8h.html" title="Position.h" alt="" coords="311,80,391,107"/>
+<area shape="rect" id="node2" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="33,468,180,495"/>
+<area shape="rect" id="node6" href="$da/d39/utility_2Position_8h.html" title="Position.h" alt="" coords="252,80,332,107"/>
+<area shape="rect" id="node8" href="$dc/d98/pose_2Position_8h.html" title="gams/pose/Position.h" alt="" coords="829,304,977,331"/>
+<area shape="rect" id="node28" href="$d6/dc5/pose_2GPSFrame_8h.html" title="gams/pose/GPSFrame.h" alt="" coords="446,80,613,107"/>
+<area shape="rect" id="node20" href="$d5/df8/pose_2ReferenceFrame_8h.html" title="gams/pose/ReferenceFrame.h" alt="" coords="430,155,629,181"/>
+<area shape="rect" id="node12" href="$df/d28/pose_2Coordinate_8h.html" title="gams/pose/Coordinate.h" alt="" coords="846,386,1010,413"/>
+<area shape="rect" id="node15" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="535,468,697,495"/>
+<area shape="rect" id="node21" href="$d3/db6/pose_2Pose_8h.html" title="Pose.h" alt="" coords="1202,229,1265,256"/>
+<area shape="rect" id="node22" href="$d2/df7/pose_2Orientation_8h.html" title="gams/pose/Orientation.h" alt="" coords="1151,304,1315,331"/>
+<area shape="rect" id="node24" href="$d1/d19/pose_2AngleUnits_8h.html" title="AngleUnits.h" alt="" coords="1523,386,1621,413"/>
 </map>

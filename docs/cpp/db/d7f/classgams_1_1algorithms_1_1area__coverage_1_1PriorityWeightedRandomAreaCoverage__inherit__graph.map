@@ -1,4 +1,4 @@
 <map id="gams::algorithms::area_coverage::PriorityWeightedRandomAreaCoverage" name="gams::algorithms::area_coverage::PriorityWeightedRandomAreaCoverage">
-<area shape="rect" id="node2" href="$df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="Base class for all area coverages. " alt="" coords="22,80,221,121"/>
-<area shape="rect" id="node3" href="$d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="14,5,229,32"/>
+<area shape="rect" id="node2" href="$df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="Base class for all area coverages. " alt="" coords="21,80,224,121"/>
+<area shape="rect" id="node3" href="$d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="15,5,230,32"/>
 </map>

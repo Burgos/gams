@@ -4,7 +4,7 @@ var searchData=
   ['b_5f',['b_',['../d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html#ab9ffc543200bf47ffe12ca9f1da3844a',1,'gams::pose::euler::Euler']]],
   ['bad_5fcoord_5ftype',['bad_coord_type',['../db/dcf/classgams_1_1pose_1_1bad__coord__type.html',1,'gams::pose']]],
   ['bad_5fcoord_5ftype',['bad_coord_type',['../db/dcf/classgams_1_1pose_1_1bad__coord__type.html#ae275128180aaea0bde7da657f9de32a0',1,'gams::pose::bad_coord_type::bad_coord_type()'],['../da/d4b/namespacegams_1_1utility.html#a4ba495e3aab992793c1c041eade8e640',1,'gams::utility::bad_coord_type()']]],
-  ['barrier_5f',['barrier_',['../d3/df5/classgams_1_1algorithms_1_1FormationSync.html#a0e4113054046e464458acbe74d6ccff9',1,'gams::algorithms::FormationSync::barrier_()'],['../d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html#adad820935cd66dc2f3f99ee585a96159',1,'gams::algorithms::GroupBarrier::barrier_()']]],
+  ['barrier_5f',['barrier_',['../d3/df5/classgams_1_1algorithms_1_1FormationSync.html#a0e4113054046e464458acbe74d6ccff9',1,'gams::algorithms::FormationSync::barrier_()'],['../d6/df9/classgams_1_1algorithms_1_1GroupBarrier.html#adad820935cd66dc2f3f99ee585a96159',1,'gams::algorithms::GroupBarrier::barrier_()'],['../d3/d59/classgams_1_1algorithms_1_1Spell.html#a96d437842546efcb463773c80274037c',1,'gams::algorithms::Spell::barrier_()']]],
   ['base',['Base',['../d3/d47/namespacegams_1_1algorithms.html#acfb2965eb4fc377f62aa53cd61a981c9',1,'gams::algorithms::Base()'],['../d2/dd3/namespacegams_1_1platforms.html#a7effa6fef0707da2a801c09a859709c5',1,'gams::platforms::Base()']]],
   ['basealgorithm',['BaseAlgorithm',['../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html',1,'gams::algorithms']]],
   ['basealgorithm',['BaseAlgorithm',['../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#acad795613026b0d4a636bbca4740695f',1,'gams::algorithms::BaseAlgorithm']]],
@@ -26,5 +26,5 @@ var searchData=
   ['bids_5f',['bids_',['../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a69f68e9ed1a0fc1450bc0614793fda2a',1,'gams::auctions::AuctionBase']]],
   ['bind_5forigin',['bind_origin',['../d3/d24/classgams_1_1pose_1_1ReferenceFrame.html#a914e2186d9924cdb3c7826a030e0f8a9',1,'gams::pose::ReferenceFrame']]],
   ['bridge_5fid',['bridge_id',['../d8/d12/classgams_1_1variables_1_1Agent.html#a1fa63f53c9d06370784ce7ab3536cece',1,'gams::variables::Agent']]],
-  ['buffer_5f',['buffer_',['../d3/df5/classgams_1_1algorithms_1_1FormationSync.html#ac9d30933db08830fce8f1f3031aaefa6',1,'gams::algorithms::FormationSync::buffer_()'],['../da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a9fffccc7bcb126950ad0a39cfdce0550',1,'gams::algorithms::ZoneCoverage::buffer_()']]]
+  ['buffer_5f',['buffer_',['../d3/df5/classgams_1_1algorithms_1_1FormationSync.html#ac9d30933db08830fce8f1f3031aaefa6',1,'gams::algorithms::FormationSync::buffer_()'],['../d3/d59/classgams_1_1algorithms_1_1Spell.html#a7463f3e0fd8631082875972d2bdcc460',1,'gams::algorithms::Spell::buffer_()'],['../da/df8/classgams_1_1algorithms_1_1ZoneCoverage.html#a9fffccc7bcb126950ad0a39cfdce0550',1,'gams::algorithms::ZoneCoverage::buffer_()']]]
 ];
