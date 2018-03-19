@@ -1,0 +1,27 @@
+var classgams_1_1elections_1_1ElectionCumulative =
+[
+    [ "ElectionCumulative", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#afc3e3b5504d74b6df0d7a193630f8e80", null ],
+    [ "~ElectionCumulative", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#ac58420326f48af6b788d1b8665ce5c73", null ],
+    [ "advance_round", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#aa754a1f8ef73e6dfffa9aff0178527bd", null ],
+    [ "get_agent_prefix", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#af305cd76aed7e9d18195bf5d972c5257", null ],
+    [ "get_election_prefix", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a2969c42231be2feaaa6faa8d5df78d81", null ],
+    [ "get_leader", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a53c2e03c90f37d95e31d6730ddc181d5", null ],
+    [ "get_leaders", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a835ab97a21cd6ecbf92b226efaf63456", null ],
+    [ "get_round", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a305ca44b570c986a9c4c065c002e29e9", null ],
+    [ "get_votes", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#acadea97e7313f5b738a5742246103242", null ],
+    [ "get_votes", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#aa7c309ac1480675ad8c742ad4c59fdc8", null ],
+    [ "has_voted", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a8c1401c520df8d39e0260159c4129ea7", null ],
+    [ "reset_round", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#ab0b0dd033fc7416ca8cd17f9fc06f565", null ],
+    [ "reset_votes_pointer", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#ae2dcfbc97da686c323d7261bbe5fa0cf", null ],
+    [ "set_agent_prefix", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#afcdc40cc520eacff5ce5498ef7624b8d", null ],
+    [ "set_election_prefix", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a5354927cc83b402e7ed67d5aa50b4687", null ],
+    [ "set_knowledge_base", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a08b8a37984f9dba8c8470809f3a14b42", null ],
+    [ "sync", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a8488c554e81353e333082bddff801d3a", null ],
+    [ "vote", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a3aa24db77f1ae94f9550afc1f4411e6b", null ],
+    [ "vote", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a6d55208b80784601a047f4c34ee1926e", null ],
+    [ "agent_prefix_", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#aff22e2cc401d3c7f170666ec3452c21e", null ],
+    [ "election_prefix_", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#ad0faa48a414aa09ce8a7911d8e0218bf", null ],
+    [ "knowledge_", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a1d5ed8ea4bb384e56737ad54a46012b8", null ],
+    [ "round_", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a16caa5914ad1a42f188efbe23471ff60", null ],
+    [ "votes_", "dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a6a34aa24e73ec42e2fd2f0ec61ddf17a", null ]
+];

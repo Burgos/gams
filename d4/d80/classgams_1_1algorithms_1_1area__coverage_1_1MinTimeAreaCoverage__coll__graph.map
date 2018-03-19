@@ -1,0 +1,32 @@
+<map id="gams::algorithms::area_coverage::MinTimeAreaCoverage" name="gams::algorithms::area_coverage::MinTimeAreaCoverage">
+<area shape="rect" id="node2" href="$df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="Base class for all area coverages. " alt="" coords="2833,208,3036,249"/>
+<area shape="rect" id="node3" href="$d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="2444,222,2659,249"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="1830,154,1953,181"/>
+<area shape="rect" id="node14" href="$d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="2128,110,2331,137"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="1988,277,2104,303"/>
+<area shape="rect" id="node7" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="1819,205,1964,231"/>
+<area shape="rect" id="node8" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="1428,271,1584,298"/>
+<area shape="rect" id="node10" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="763,47,964,74"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="1125,310,1205,337"/>
+<area shape="rect" id="node13" href="$d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html" title="A container for algorithm status information. " alt="" coords="1617,341,1795,383"/>
+<area shape="rect" id="node15" href="$db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="1621,85,1791,127"/>
+<area shape="rect" id="node19" href="$db/d7d/classgams_1_1variables_1_1Sensor.html" title="A container for sensor information. " alt="" coords="1425,526,1587,553"/>
+<area shape="rect" id="node31" href="$de/d8c/classgams_1_1utility_1_1Containerize.html" title="A class meant to assist with retrieving information into GAMS containers. " alt="" coords="1419,399,1593,426"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="800,291,927,332"/>
+<area shape="rect" id="node17" href="$da/d5e/classgams_1_1utility_1_1GPSPosition.html" title="A position in the global positioning system reference frame. " alt="" coords="2463,115,2639,142"/>
+<area shape="rect" id="node18" href="$df/d4e/classgams_1_1utility_1_1Position.html" title="A position in an x, y, z coordinate system. " alt="" coords="2155,50,2303,77"/>
+<area shape="rect" id="node20" href="$d8/d85/classgams_1_1pose_1_1CartesianFrame.html" title="Positions represented as meters distance, in x, y, and z, from an origin Orientations represented in ..." alt="" coords="1069,617,1260,643"/>
+<area shape="rect" id="node21" href="$d6/dd3/classgams_1_1pose_1_1SimpleRotateFrame.html" title="For internal use. " alt="" coords="561,647,739,688"/>
+<area shape="rect" id="node22" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="5,439,200,466"/>
+<area shape="rect" id="node27" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Pose \&gt;" alt="" coords="783,421,944,463"/>
+<area shape="rect" id="node28" href="$d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="343,387,533,414"/>
+<area shape="rect" id="node37" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Position \&gt;" alt="" coords="783,356,944,397"/>
+<area shape="rect" id="node23" href="$dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Position and Orientation within a single reference frame. " alt="" coords="1101,539,1229,566"/>
+<area shape="rect" id="node24" href="$dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="780,539,947,566"/>
+<area shape="rect" id="node25" href="$db/ddd/classgams_1_1pose_1_1PositionVector.html" title="Container for Position information, not bound to a frame. " alt="" coords="347,501,529,527"/>
+<area shape="rect" id="node36" href="$d6/d4a/classgams_1_1pose_1_1Position.html" title="Represents a Position within a reference frame. " alt="" coords="1092,487,1237,514"/>
+<area shape="rect" id="node26" href="$db/d73/classgams_1_1pose_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="339,551,537,578"/>
+<area shape="rect" id="node30" href="$d1/d9e/classgams_1_1pose_1_1SearchArea.html" title="A utility class for search areas. " alt="" coords="2851,399,3018,426"/>
+<area shape="rect" id="node34" href="$d3/dcb/classgams_1_1pose_1_1Region.html" title="A helper class for region information. " alt="" coords="1822,458,1961,485"/>
+<area shape="rect" id="node33" href="$dc/da3/classgams_1_1pose_1_1PrioritizedRegion.html" title="A helper class for prioritized region information. " alt="" coords="2131,458,2328,485"/>
+</map>

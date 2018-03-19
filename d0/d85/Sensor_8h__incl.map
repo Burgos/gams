@@ -1,0 +1,16 @@
+<map id="src/gams/variables/Sensor.h" name="src/gams/variables/Sensor.h">
+<area shape="rect" id="node5" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="1802,751,1949,777"/>
+<area shape="rect" id="node10" href="$d2/d7e/pose_2SearchArea_8h.html" title="gams/pose/SearchArea.h" alt="" coords="1652,102,1822,129"/>
+<area shape="rect" id="node27" href="$d6/dc5/pose_2GPSFrame_8h.html" title="gams/pose/GPSFrame.h" alt="" coords="812,341,979,367"/>
+<area shape="rect" id="node37" href="$d9/dbb/pose_2CartesianFrame_8h.html" title="gams/pose/CartesianFrame.h" alt="" coords="1122,341,1317,367"/>
+<area shape="rect" id="node11" href="$d9/d98/PrioritizedRegion_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1741,184,1941,211"/>
+<area shape="rect" id="node12" href="$d2/db1/pose_2Region_8h.html" title="gams/pose/Region.h" alt="" coords="1644,259,1787,285"/>
+<area shape="rect" id="node14" href="$dc/d98/pose_2Position_8h.html" title="gams/pose/Position.h" alt="" coords="1055,587,1203,613"/>
+<area shape="rect" id="node40" href="$dd/df2/Containerize_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2040,341,2218,367"/>
+<area shape="rect" id="node17" href="$df/d28/pose_2Coordinate_8h.html" title="gams/pose/Coordinate.h" alt="" coords="1107,669,1271,695"/>
+<area shape="rect" id="node20" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="216,751,378,777"/>
+<area shape="rect" id="node28" href="$d5/df8/pose_2ReferenceFrame_8h.html" title="ReferenceFrame.h" alt="" coords="873,430,1004,457"/>
+<area shape="rect" id="node29" href="$d3/db6/pose_2Pose_8h.html" title="Pose.h" alt="" coords="628,512,691,539"/>
+<area shape="rect" id="node30" href="$d2/df7/pose_2Orientation_8h.html" title="gams/pose/Orientation.h" alt="" coords="423,587,587,613"/>
+<area shape="rect" id="node32" href="$d1/d19/pose_2AngleUnits_8h.html" title="AngleUnits.h" alt="" coords="134,669,231,695"/>
+</map>

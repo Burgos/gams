@@ -1,0 +1,8 @@
+<map id="src/gams/utility/Orientation.h" name="src/gams/utility/Orientation.h">
+<area shape="rect" id="node2" href="$d8/d3f/utility_2Euler_8h.html" title="src/gams/utility/Euler.h" alt="" coords="5,80,161,107"/>
+<area shape="rect" id="node3" href="$d7/d25/utility_2Quaternion_8h.html" title="src/gams/utility/Quaternion.h" alt="" coords="13,162,202,189"/>
+<area shape="rect" id="node4" href="$dd/d60/utility_2Pose_8h.html" title="src/gams/utility/Pose.h" alt="" coords="261,80,417,107"/>
+<area shape="rect" id="node5" href="$de/d6a/utility_2ReferenceFrame_8h.html" title="src/gams/utility/Reference\lFrame.h" alt="" coords="252,155,427,196"/>
+<area shape="rect" id="node6" href="$d3/d86/utility_2CartesianFrame_8h.html" title="src/gams/utility/Cartesian\lFrame.h" alt="" coords="151,244,322,285"/>
+<area shape="rect" id="node7" href="$d9/d5d/utility_2GPSFrame_8h.html" title="src/gams/utility/GPSFrame.h" alt="" coords="347,251,537,278"/>
+</map>

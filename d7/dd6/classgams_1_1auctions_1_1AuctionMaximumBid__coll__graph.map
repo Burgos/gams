@@ -1,0 +1,7 @@
+<map id="gams::auctions::AuctionMaximumBid" name="gams::auctions::AuctionMaximumBid">
+<area shape="rect" id="node2" href="$d1/d10/classgams_1_1auctions_1_1AuctionBase.html" title="Base class for an auction. " alt="" coords="28,379,221,405"/>
+<area shape="rect" id="node3" href="$d4/d23/classgams_1_1groups_1_1GroupFixedList.html" title="A fixed list of agent members. " alt="" coords="118,289,315,316"/>
+<area shape="rect" id="node4" href="$da/d36/classgams_1_1groups_1_1GroupBase.html" title="Base class for a group of agents. " alt="" coords="119,185,293,212"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="166,96,246,123"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="143,5,269,47"/>
+</map>

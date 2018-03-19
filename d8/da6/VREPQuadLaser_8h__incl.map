@@ -1,0 +1,30 @@
+<map id="src/gams/platforms/vrep/VREPQuadLaser.h" name="src/gams/platforms/vrep/VREPQuadLaser.h">
+<area shape="rect" id="node2" href="$d1/d58/PlatformFactory_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1937,191,2157,218"/>
+<area shape="rect" id="node5" href="$da/d3d/Self_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1494,348,1642,375"/>
+<area shape="rect" id="node23" href="$d5/d65/Sensor_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3189,348,3355,375"/>
+<area shape="rect" id="node57" href="$da/d37/PlatformStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2282,423,2494,449"/>
+<area shape="rect" id="node62" href="$df/d08/VREPBase_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3276,184,3417,225"/>
+<area shape="rect" id="node71" href="$d8/d42/VREPQuad_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2253,95,2395,136"/>
+<area shape="rect" id="node3" href="$d4/de8/BasePlatform_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3047,273,3254,300"/>
+<area shape="rect" id="node28" href="$dc/d98/pose_2Position_8h.html" title="gams/pose/Position.h" alt="" coords="4135,915,4283,941"/>
+<area shape="rect" id="node41" href="$d5/df8/pose_2ReferenceFrame_8h.html" title="ReferenceFrame.h" alt="" coords="4475,758,4605,785"/>
+<area shape="rect" id="node42" href="$d3/db6/pose_2Pose_8h.html" title="Pose.h" alt="" coords="4710,840,4773,867"/>
+<area shape="rect" id="node58" href="$df/d53/GPSPosition_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3656,579,3835,606"/>
+<area shape="rect" id="node6" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="2833,1079,2980,1105"/>
+<area shape="rect" id="node10" href="$da/da5/Agent_8h.html" title="Copyright (c) 2014&#45;2018 Carnegie Mellon University. " alt="" coords="1535,497,1601,524"/>
+<area shape="rect" id="node18" href="$d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1137,579,1249,606"/>
+<area shape="rect" id="node19" href="$d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="1678,579,1855,606"/>
+<area shape="rect" id="node20" href="$d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="2477,669,2616,695"/>
+<area shape="rect" id="node24" href="$d2/d7e/pose_2SearchArea_8h.html" title="gams/pose/SearchArea.h" alt="" coords="3442,423,3611,449"/>
+<area shape="rect" id="node40" href="$d6/dc5/pose_2GPSFrame_8h.html" title="gams/pose/GPSFrame.h" alt="" coords="4331,669,4498,695"/>
+<area shape="rect" id="node50" href="$d9/dbb/pose_2CartesianFrame_8h.html" title="gams/pose/CartesianFrame.h" alt="" coords="4749,669,4944,695"/>
+<area shape="rect" id="node25" href="$d9/d98/PrioritizedRegion_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3909,497,4109,524"/>
+<area shape="rect" id="node26" href="$d2/db1/pose_2Region_8h.html" title="gams/pose/Region.h" alt="" coords="3986,579,4129,606"/>
+<area shape="rect" id="node53" href="$dd/df2/Containerize_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3401,669,3578,695"/>
+<area shape="rect" id="node31" href="$df/d28/pose_2Coordinate_8h.html" title="gams/pose/Coordinate.h" alt="" coords="4849,997,5013,1023"/>
+<area shape="rect" id="node34" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="5405,1079,5566,1105"/>
+<area shape="rect" id="node43" href="$d2/df7/pose_2Orientation_8h.html" title="gams/pose/Orientation.h" alt="" coords="4849,915,5013,941"/>
+<area shape="rect" id="node45" href="$d1/d19/pose_2AngleUnits_8h.html" title="AngleUnits.h" alt="" coords="5322,997,5419,1023"/>
+<area shape="rect" id="node59" href="$da/d39/utility_2Position_8h.html" title="Position.h" alt="" coords="3653,669,3733,695"/>
+<area shape="rect" id="node66" href="$d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="4323,273,4514,300"/>
+</map>

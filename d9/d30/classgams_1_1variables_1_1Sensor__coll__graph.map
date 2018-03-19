@@ -1,0 +1,13 @@
+<map id="gams::variables::Sensor" name="gams::variables::Sensor">
+<area shape="rect" id="node2" href="$d8/d85/classgams_1_1pose_1_1CartesianFrame.html" title="Positions represented as meters distance, in x, y, and z, from an origin Orientations represented in ..." alt="" coords="628,70,819,97"/>
+<area shape="rect" id="node3" href="$d6/dd3/classgams_1_1pose_1_1SimpleRotateFrame.html" title="For internal use. " alt="" coords="349,71,527,112"/>
+<area shape="rect" id="node4" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="5,263,200,290"/>
+<area shape="rect" id="node9" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Pose \&gt;" alt="" coords="643,261,804,303"/>
+<area shape="rect" id="node10" href="$d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="343,301,533,327"/>
+<area shape="rect" id="node5" href="$dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Position and Orientation within a single reference frame. " alt="" coords="963,269,1091,295"/>
+<area shape="rect" id="node6" href="$dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="640,187,807,214"/>
+<area shape="rect" id="node7" href="$db/ddd/classgams_1_1pose_1_1PositionVector.html" title="Container for Position information, not bound to a frame. " alt="" coords="347,137,529,163"/>
+<area shape="rect" id="node8" href="$db/d73/classgams_1_1pose_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="339,187,537,214"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="683,14,763,41"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="375,5,501,47"/>
+</map>

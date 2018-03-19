@@ -1,0 +1,26 @@
+var classgams_1_1pose_1_1Coordinate =
+[
+    [ "Coordinate", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a85bee350d7a44f6ff796113d3958a057", null ],
+    [ "Coordinate", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#ada47046687fdc6896593f5bf6d06d795", null ],
+    [ "Coordinate", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a1ed602b12db47af0356dc39e31952889", null ],
+    [ "approximately_equal", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#af03f9f6fc2d2c78426d85f0112613e67", null ],
+    [ "as_coord_type", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a9ef979be0112c98642f3a323817f386f", null ],
+    [ "as_coord_type", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#aa7fbec286efa8c948b4e1ec498a62425", null ],
+    [ "as_type", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a7a0653f1fabc8391dc67662047d41bac", null ],
+    [ "as_type", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a4fd371b51cdcbb76d85e11fa78724a98", null ],
+    [ "default_frame", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a3fef5de23e174de7abe11549e6708e41", null ],
+    [ "distance_to", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a3d91cc4bd0f2c3c6d5098ccc518f2b88", null ],
+    [ "frame", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a3a0be60a9663c59e592111137d2495c5", null ],
+    [ "frame", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a6ac542d2d19d1e13454cf32307a77ee7", null ],
+    [ "from_array", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a71ad481576297ecbf6bc36fdd8a0edbe", null ],
+    [ "normalize", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a08349285cad107609db0b67716bbcded", null ],
+    [ "operator!=", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#aca192225ff6577c2d146fc06df44215f", null ],
+    [ "operator!=", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a43c9d55940cb1d24a1f4b8a7f01a9987", null ],
+    [ "operator<", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#aa087d3567dd2b47b3156bf9826415de6", null ],
+    [ "operator==", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#ab6cbc8c8fd55cb672b434482c62804bd", null ],
+    [ "operator==", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#ae8b66cf8849d3213050a07dd9b1d7280", null ],
+    [ "to_array", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#ad6b84505fe57042d27086df1ddfb2b85", null ],
+    [ "transform_this_to", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#ac3aa2958394f0f9cbfb3431d0d11cc11", null ],
+    [ "transform_to", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a3cadad7a8d2807dd3b83f39fd1c673a8", null ],
+    [ "frame_", "d6/dcb/classgams_1_1pose_1_1Coordinate.html#a3a65645ec2bd87bac003da17692fa2c4", null ]
+];

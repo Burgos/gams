@@ -1,0 +1,5 @@
+<map id="gams::pose::SimpleRotateFrame" name="gams::pose::SimpleRotateFrame">
+<area shape="rect" id="node3" href="$d8/d85/classgams_1_1pose_1_1CartesianFrame.html" title="Positions represented as meters distance, in x, y, and z, from an origin Orientations represented in ..." alt="" coords="5,169,196,196"/>
+<area shape="rect" id="node4" href="$d9/d26/classgams_1_1pose_1_1GPSFrame.html" title="Positions represented as GPS coordinates, and an altitude, assuming a spherical planet (by default..." alt="" coords="221,169,383,196"/>
+<area shape="rect" id="node2" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="103,5,298,32"/>
+</map>
