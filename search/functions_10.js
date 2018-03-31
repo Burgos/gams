@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['quaternion',['Quaternion',['../d6/d13/classgams_1_1pose_1_1Quaternion.html#ab6ab6a3a8c0832196336ab2380173902',1,'gams::pose::Quaternion::Quaternion()'],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#aa8e27fe39b029cad77ba36d06357c897',1,'gams::pose::Quaternion::Quaternion(double x, double y, double z, double w)'],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#a27159c835bbe1579d41b0d246d18d1bd',1,'gams::pose::Quaternion::Quaternion(double rx, double ry, double rz)'],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#af59a7dcaa83cc2023622a20317f9da8f',1,'gams::pose::Quaternion::Quaternion(const OrientationVector &amp;rot)'],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#aebfbeae6f36828c0908f0c7aa2fc7a2a',1,'gams::pose::Quaternion::Quaternion(const PositionVector &amp;loc)']]]
-];

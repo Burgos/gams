@@ -1,5 +1,0 @@
-<map id="gams::pose::OrientationVector" name="gams::pose::OrientationVector">
-<area shape="rect" id="node2" href="$d4/d22/classgams_1_1pose_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. " alt="" coords="5,80,167,107"/>
-<area shape="rect" id="node3" href="$dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="191,80,357,107"/>
-<area shape="rect" id="node4" href="$dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Position and Orientation within a single reference frame. " alt="" coords="210,155,338,181"/>
-</map>

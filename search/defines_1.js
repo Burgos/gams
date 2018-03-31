@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['deg_5fto_5frad',['DEG_TO_RAD',['../d2/df7/pose_2Orientation_8h.html#a8ed7b6a1f199b6d2af90e642918cf271',1,'Orientation.h']]]
-];

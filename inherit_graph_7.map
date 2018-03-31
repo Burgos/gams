@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d1/d10/classgams_1_1auctions_1_1AuctionBase.html" title="Base class for an auction. " alt="" coords="5,56,199,83"/>
-<area shape="rect" id="node2" href="$d9/d5d/classgams_1_1auctions_1_1AuctionMaximumBid.html" title="An auction where the winner is the highest bidder. " alt="" coords="247,5,485,32"/>
-<area shape="rect" id="node3" href="$d4/d30/classgams_1_1auctions_1_1AuctionMinimumBid.html" title="An auction where the winner is the lowest bidder. " alt="" coords="249,56,483,83"/>
-<area shape="rect" id="node4" href="$d1/d58/classgams_1_1auctions_1_1AuctionMinimumDistance.html" title="An auction where the winner is the closest agent to a location. " alt="" coords="258,107,474,149"/>
-</map>
