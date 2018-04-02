@@ -17,7 +17,7 @@ var searchData=
   ['_7eauctionminimumdistance',['~AuctionMinimumDistance',['../d1/d58/classgams_1_1auctions_1_1AuctionMinimumDistance.html#aa6b55299bf868082cca02fe856bd42ec',1,'gams::auctions::AuctionMinimumDistance']]],
   ['_7eauctionminimumdistancefactory',['~AuctionMinimumDistanceFactory',['../de/d2c/classgams_1_1auctions_1_1AuctionMinimumDistanceFactory.html#abfb87aa2e659edaeda0717ca141d6783',1,'gams::auctions::AuctionMinimumDistanceFactory']]],
   ['_7eaxes',['~Axes',['../d0/db6/classgams_1_1utility_1_1Axes.html#ae6b5ff4e3bc1bb876f1fa7e5e75405a4',1,'gams::utility::Axes']]],
-  ['_7ebad_5fcoord_5ftype',['~bad_coord_type',['../db/dcf/classgams_1_1pose_1_1bad__coord__type.html#a9d6e6ef7c81c6c3a2c4b14c5ea6e30c4',1,'gams::pose::bad_coord_type']]],
+  ['_7ebad_5fcoord_5ftype',['~bad_coord_type',['../db/dcf/classgams_1_1pose_1_1bad__coord__type.html#a58d3f1e319caaf66462469d7c52eeff4',1,'gams::pose::bad_coord_type']]],
   ['_7ebasealgorithm',['~BaseAlgorithm',['../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#a2f47b2e2aa528304b26e437932aba798',1,'gams::algorithms::BaseAlgorithm']]],
   ['_7ebaseareacoverage',['~BaseAreaCoverage',['../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#a1ccf9b5d5df68d09e952867c49e49555',1,'gams::algorithms::area_coverage::BaseAreaCoverage']]],
   ['_7ebasecontroller',['~BaseController',['../df/d21/classgams_1_1controllers_1_1BaseController.html#a712359d1c172a2386e52e7837375212e',1,'gams::controllers::BaseController']]],

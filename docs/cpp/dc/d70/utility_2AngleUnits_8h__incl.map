@@ -1,7 +1,8 @@
 <map id="src/gams/utility/AngleUnits.h" name="src/gams/utility/AngleUnits.h">
-<area shape="rect" id="node2" href="$d1/d19/pose_2AngleUnits_8h.html" title="gams/pose/AngleUnits.h" alt="" coords="357,80,523,107"/>
-<area shape="rect" id="node3" href="$d2/df7/pose_2Orientation_8h.html" title="Orientation.h" alt="" coords="392,155,488,181"/>
-<area shape="rect" id="node6" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="181,319,342,345"/>
-<area shape="rect" id="node7" href="$df/d28/pose_2Coordinate_8h.html" title="gams/pose/Coordinate.h" alt="" coords="358,237,522,263"/>
-<area shape="rect" id="node8" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="367,319,513,345"/>
+<area shape="rect" id="node2" href="$d1/d19/pose_2AngleUnits_8h.html" title="gams/pose/AngleUnits.h" alt="" coords="494,80,659,107"/>
+<area shape="rect" id="node3" href="$d2/df7/pose_2Orientation_8h.html" title="Orientation.h" alt="" coords="449,155,545,181"/>
+<area shape="rect" id="node6" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="408,393,569,420"/>
+<area shape="rect" id="node7" href="$df/d28/pose_2Coordinate_8h.html" title="gams/pose/Coordinate.h" alt="" coords="892,311,1056,338"/>
+<area shape="rect" id="node8" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="594,393,741,420"/>
+<area shape="rect" id="node15" href="$d1/d4b/Angular_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="624,229,769,256"/>
 </map>

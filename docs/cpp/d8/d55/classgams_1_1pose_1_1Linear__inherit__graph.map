@@ -1,0 +1,5 @@
+<map id="gams::pose::Linear&lt; C &gt;" name="gams::pose::Linear&lt; C &gt;">
+<area shape="rect" id="node2" href="$da/d48/classgams_1_1pose_1_1LinearVector.html" title="Container for Linear information, not bound to a frame. " alt="" coords="5,80,176,107"/>
+<area shape="rect" id="node3" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\&lt; C \&gt;" alt="" coords="200,80,395,107"/>
+<area shape="rect" id="node4" href="$d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="202,5,393,32"/>
+</map>

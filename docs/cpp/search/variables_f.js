@@ -15,7 +15,7 @@ var searchData=
   ['rotating',['rotating',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a2c464919f890ae59e055642153dbc545',1,'gams::variables::PlatformStatus']]],
   ['round_5f',['round_',['../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a28a017726e9246787abe35c1d59342e7',1,'gams::auctions::AuctionBase::round_()'],['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a16caa5914ad1a42f188efbe23471ff60',1,'gams::elections::ElectionBase::round_()']]],
   ['run_5ftime',['run_time',['../d0/dc2/classgams_1_1controllers_1_1ControllerSettings.html#ac9a5a95979ef0ed71d5b1932d67b5a6a',1,'gams::controllers::ControllerSettings']]],
-  ['rx_5f',['rx_',['../db/d73/classgams_1_1pose_1_1OrientationVector.html#a91ff57cd74ca2034e80376cea3954292',1,'gams::pose::OrientationVector']]],
-  ['ry_5f',['ry_',['../db/d73/classgams_1_1pose_1_1OrientationVector.html#a01c920163aef1f13772beef8edaf383a',1,'gams::pose::OrientationVector']]],
-  ['rz_5f',['rz_',['../db/d73/classgams_1_1pose_1_1OrientationVector.html#adb233781d062909341bd4f1d26862bd3',1,'gams::pose::OrientationVector']]]
+  ['rx_5f',['rx_',['../d0/d6b/classgams_1_1pose_1_1AngularVector.html#ac637bd00839728820110d26b9a10f098',1,'gams::pose::AngularVector']]],
+  ['ry_5f',['ry_',['../d0/d6b/classgams_1_1pose_1_1AngularVector.html#a801241d799e1171232783a3e7da60232',1,'gams::pose::AngularVector']]],
+  ['rz_5f',['rz_',['../d0/d6b/classgams_1_1pose_1_1AngularVector.html#ac39992d36a9956c9675c301d8e8d5aa6',1,'gams::pose::AngularVector']]]
 ];

@@ -1,10 +1,10 @@
 <map id="gams::pose::CartesianFrame" name="gams::pose::CartesianFrame">
-<area shape="rect" id="node2" href="$d6/dd3/classgams_1_1pose_1_1SimpleRotateFrame.html" title="For internal use. " alt="" coords="349,5,527,47"/>
-<area shape="rect" id="node3" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="5,97,200,123"/>
-<area shape="rect" id="node8" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Pose \&gt;" alt="" coords="643,119,804,160"/>
-<area shape="rect" id="node9" href="$d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="343,134,533,161"/>
-<area shape="rect" id="node4" href="$dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Position and Orientation within a single reference frame. " alt="" coords="868,185,996,211"/>
-<area shape="rect" id="node5" href="$dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="640,235,807,262"/>
-<area shape="rect" id="node6" href="$db/ddd/classgams_1_1pose_1_1PositionVector.html" title="Container for Position information, not bound to a frame. " alt="" coords="347,235,529,262"/>
-<area shape="rect" id="node7" href="$db/d73/classgams_1_1pose_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="339,286,537,313"/>
+<area shape="rect" id="node2" href="$d6/dd3/classgams_1_1pose_1_1SimpleRotateFrame.html" title="For internal use. " alt="" coords="12,95,189,136"/>
+<area shape="rect" id="node3" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="193,5,387,32"/>
+<area shape="rect" id="node8" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Pose \&gt;" alt="" coords="323,199,484,240"/>
+<area shape="rect" id="node9" href="$d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="308,102,499,129"/>
+<area shape="rect" id="node4" href="$dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Linear and Angular within a single reference frame. " alt="" coords="473,289,601,316"/>
+<area shape="rect" id="node5" href="$dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="576,206,743,233"/>
+<area shape="rect" id="node6" href="$da/d48/classgams_1_1pose_1_1LinearVector.html" title="Container for Linear information, not bound to a frame. " alt="" coords="574,102,745,129"/>
+<area shape="rect" id="node7" href="$d0/d6b/classgams_1_1pose_1_1AngularVector.html" title="Container for Angular information, not bound to a frame. " alt="" coords="769,102,949,129"/>
 </map>

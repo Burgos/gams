@@ -9,6 +9,7 @@ var classgams_1_1variables_1_1Agent =
     [ "is_agent", "d8/d12/classgams_1_1variables_1_1Agent.html#a02c495afaceb0b5519716745b6896cf1", null ],
     [ "make_variable_name", "d8/d12/classgams_1_1variables_1_1Agent.html#a31d3b67e287a1563ede524a4b6a2c66f", null ],
     [ "operator=", "d8/d12/classgams_1_1variables_1_1Agent.html#acdf5edeac34baddf6b6bb50b4b167e19", null ],
+    [ "acceleration", "d8/d12/classgams_1_1variables_1_1Agent.html#a44c5e42d2747aaf79ca1561c0ab179ce", null ],
     [ "accents", "d8/d12/classgams_1_1variables_1_1Agent.html#acf0c2dc8f6d6d22ac0f31e2e92118b2c", null ],
     [ "algorithm", "d8/d12/classgams_1_1variables_1_1Agent.html#a7057105787c37da3bbfd0db0b92f43af", null ],
     [ "algorithm_accepts", "d8/d12/classgams_1_1variables_1_1Agent.html#a5a0b3579ba1190059a61bc6de38b49ca", null ],
@@ -39,5 +40,6 @@ var classgams_1_1variables_1_1Agent =
     [ "send_hz", "d8/d12/classgams_1_1variables_1_1Agent.html#a2e3edc5adb05c344eb4a0fe9a80dea7c", null ],
     [ "source", "d8/d12/classgams_1_1variables_1_1Agent.html#a1e3a7a3f80d233652e6a0174540304b8", null ],
     [ "source_orientation", "d8/d12/classgams_1_1variables_1_1Agent.html#afda5f51c408644fe1e042246e37eda50", null ],
-    [ "temperature", "d8/d12/classgams_1_1variables_1_1Agent.html#a78f00d966440e258070285a396fc77a8", null ]
+    [ "temperature", "d8/d12/classgams_1_1variables_1_1Agent.html#a78f00d966440e258070285a396fc77a8", null ],
+    [ "velocity", "d8/d12/classgams_1_1variables_1_1Agent.html#aeb0dacbb63fc39d71d096dce469a5016", null ]
 ];

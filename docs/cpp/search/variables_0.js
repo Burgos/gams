@@ -1,6 +1,7 @@
 var searchData=
 [
   ['a_5f',['a_',['../d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html#a26304aea1254de96a0c6c7960763fd9d',1,'gams::pose::euler::Euler']]],
+  ['acceleration',['acceleration',['../d8/d12/classgams_1_1variables_1_1Agent.html#a44c5e42d2747aaf79ca1561c0ab179ce',1,'gams::variables::Agent']]],
   ['accents',['accents',['../d8/d12/classgams_1_1variables_1_1Agent.html#acf0c2dc8f6d6d22ac0f31e2e92118b2c',1,'gams::variables::Agent::accents()'],['../d4/dde/classgams_1_1variables_1_1Swarm.html#ac8dc8565f58582d00baa871dc98717ab',1,'gams::variables::Swarm::accents()']]],
   ['accents_5f',['accents_',['../df/d21/classgams_1_1controllers_1_1BaseController.html#a7bade0f143000bfe169744ce4861999a',1,'gams::controllers::BaseController::accents_()'],['../db/d65/classgams_1_1controllers_1_1Multicontroller.html#ad9129a2cb26bd1d95fe1380c7b33cfb7',1,'gams::controllers::Multicontroller::accents_()']]],
   ['agent',['agent',['../d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled.html#a53b60fc926bb0659c04d0dbdb1851e92',1,'gams::algorithms::FormationFlying::Compiled::agent()'],['../d4/d98/classgams_1_1variables_1_1Self.html#a4e10d32ff1b8ad63fe37121e765da0d4',1,'gams::variables::Self::agent()']]],

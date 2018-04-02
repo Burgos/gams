@@ -137,10 +137,10 @@ Collaboration diagram for gams::pose::Coordinate&lt; CoordType &gt;:</div>
 <area shape="rect" id="node2" href="../../d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="5,5,196,32"/>
 <area shape="rect" id="node8" href="../../d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Pose \&gt;" alt="" coords="139,81,300,123"/>
 <area shape="rect" id="node3" href="../../d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Base class for Reference Frames. " alt="" coords="101,275,295,301"/>
-<area shape="rect" id="node4" href="../../dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Position and Orientation within a single reference frame. " alt="" coords="281,185,409,212"/>
+<area shape="rect" id="node4" href="../../dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Linear and Angular within a single reference frame. " alt="" coords="281,185,409,212"/>
 <area shape="rect" id="node5" href="../../dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="324,89,491,115"/>
-<area shape="rect" id="node6" href="../../db/ddd/classgams_1_1pose_1_1PositionVector.html" title="Container for Position information, not bound to a frame. " alt="" coords="268,5,451,32"/>
-<area shape="rect" id="node7" href="../../db/d73/classgams_1_1pose_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="475,5,673,32"/>
+<area shape="rect" id="node6" href="../../da/d48/classgams_1_1pose_1_1LinearVector.html" title="Container for Linear information, not bound to a frame. " alt="" coords="271,5,442,32"/>
+<area shape="rect" id="node7" href="../../d0/d6b/classgams_1_1pose_1_1AngularVector.html" title="Container for Angular information, not bound to a frame. " alt="" coords="467,5,647,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -205,7 +205,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3fef5de23e174de7abe11549e6708e41"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/de3/GAMSExport_8h.html#aa821e916a389426064269d24e4925080">GAMSExport</a> const <a class="el" href="../../d3/d24/classgams_1_1pose_1_1ReferenceFrame.html">ReferenceFrame</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5c/classgams_1_1pose_1_1CoordinateBase.html#a3fef5de23e174de7abe11549e6708e41">default_frame</a> ()</td></tr>
-<tr class="memdesc:a3fef5de23e174de7abe11549e6708e41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the default frame that Coordinates (<a class="el" href="../../dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Position and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../d6/d4a/classgams_1_1pose_1_1Position.html" title="Represents a Position within a reference frame. ">Position</a>, <a class="el" href="../../d4/d22/classgams_1_1pose_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. ">Orientation</a>) that don't specify a frame will use.  <a href="#a3fef5de23e174de7abe11549e6708e41">More...</a><br /></td></tr>
+<tr class="memdesc:a3fef5de23e174de7abe11549e6708e41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the default frame that Coordinates (<a class="el" href="../../dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Linear and Angular within a single reference frame. ">Pose</a>, <a class="el" href="../../d6/d4a/classgams_1_1pose_1_1Position.html" title="Container for Position information, not bound to a frame. ">Position</a>, <a class="el" href="../../d4/d22/classgams_1_1pose_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. ">Orientation</a>) that don't specify a frame will use.  <a href="#a3fef5de23e174de7abe11549e6708e41">More...</a><br /></td></tr>
 <tr class="separator:a3fef5de23e174de7abe11549e6708e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -492,7 +492,7 @@ template&lt;typename Type &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Retrieves the default frame that Coordinates (<a class="el" href="../../dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Position and Orientation within a single reference frame. ">Pose</a>, <a class="el" href="../../d6/d4a/classgams_1_1pose_1_1Position.html" title="Represents a Position within a reference frame. ">Position</a>, <a class="el" href="../../d4/d22/classgams_1_1pose_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. ">Orientation</a>) that don't specify a frame will use. </p>
+<p>Retrieves the default frame that Coordinates (<a class="el" href="../../dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Linear and Angular within a single reference frame. ">Pose</a>, <a class="el" href="../../d6/d4a/classgams_1_1pose_1_1Position.html" title="Container for Position information, not bound to a frame. ">Position</a>, <a class="el" href="../../d4/d22/classgams_1_1pose_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. ">Orientation</a>) that don't specify a frame will use. </p>
 <dl class="section return"><dt>Returns</dt><dd>a reference to a <a class="el" href="../../d8/d85/classgams_1_1pose_1_1CartesianFrame.html" title="Positions represented as meters distance, in x, y, and z, from an origin Orientations represented in ...">CartesianFrame</a> object that serves as default </dd></dl>
 
 </div>
@@ -525,7 +525,7 @@ template&lt;typename CoordType&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>the distance according to the distance metric in the common frame, for CoordType. Typically, return will be meters or degrees.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="../../db/dcf/classgams_1_1pose_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Position, Orientation) that frame does not support. ">bad_coord_type</a></td><td>thrown if a frame along the conversion path does not support CoordType. </td></tr>
+    <tr><td class="paramname"><a class="el" href="../../db/dcf/classgams_1_1pose_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Linear, Angular) that frame does not support. ">bad_coord_type</a></td><td>thrown if a frame along the conversion path does not support CoordType. </td></tr>
     <tr><td class="paramname"><a class="el" href="../../dc/db8/classgams_1_1pose_1_1unrelated__frames.html" title="Thrown when an an attempt is made to transform between frames that do not belong to the same frame tr...">unrelated_frames</a></td><td>thrown if the target's reference frame is not part of the same tree as the current one. </td></tr>
     <tr><td class="paramname"><a class="el" href="../../dd/ddd/classgams_1_1pose_1_1undefined__transform.html" title="Thrown when an attempt is made to transform between two frame types, and there&#39;s not transform define...">undefined_transform</a></td><td>thrown if no conversion between two frames along the conversion path has been defined. </td></tr>
   </table>
@@ -846,7 +846,7 @@ template&lt;typename CoordType&gt; </div>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="../../db/dcf/classgams_1_1pose_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Position, Orientation) that frame does not support. ">bad_coord_type</a></td><td>thrown if the new reference frame does not support CoordType. </td></tr>
+    <tr><td class="paramname"><a class="el" href="../../db/dcf/classgams_1_1pose_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Linear, Angular) that frame does not support. ">bad_coord_type</a></td><td>thrown if the new reference frame does not support CoordType. </td></tr>
     <tr><td class="paramname"><a class="el" href="../../dc/db8/classgams_1_1pose_1_1unrelated__frames.html" title="Thrown when an an attempt is made to transform between frames that do not belong to the same frame tr...">unrelated_frames</a></td><td>thrown if the new reference frame is not part of the same tree as the current one. </td></tr>
     <tr><td class="paramname"><a class="el" href="../../dd/ddd/classgams_1_1pose_1_1undefined__transform.html" title="Thrown when an attempt is made to transform between two frame types, and there&#39;s not transform define...">undefined_transform</a></td><td>thrown if no conversion between two frames along the conversion path has been defined. </td></tr>
   </table>
@@ -882,7 +882,7 @@ template&lt;typename CoordType&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>the new coordinate in the new frame</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="../../db/dcf/classgams_1_1pose_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Position, Orientation) that frame does not support. ">bad_coord_type</a></td><td>thrown if the new reference frame does not support CoordType. </td></tr>
+    <tr><td class="paramname"><a class="el" href="../../db/dcf/classgams_1_1pose_1_1bad__coord__type.html" title="Thrown when a reference frame function is called with a Coordinate type (e.g., Pose, Linear, Angular) that frame does not support. ">bad_coord_type</a></td><td>thrown if the new reference frame does not support CoordType. </td></tr>
     <tr><td class="paramname"><a class="el" href="../../dc/db8/classgams_1_1pose_1_1unrelated__frames.html" title="Thrown when an an attempt is made to transform between frames that do not belong to the same frame tr...">unrelated_frames</a></td><td>thrown if the new reference frame is not part of the same tree as the current one. </td></tr>
     <tr><td class="paramname"><a class="el" href="../../dd/ddd/classgams_1_1pose_1_1undefined__transform.html" title="Thrown when an attempt is made to transform between two frame types, and there&#39;s not transform define...">undefined_transform</a></td><td>thrown if no conversion between two frames along the conversion path has been defined. </td></tr>
   </table>
@@ -925,7 +925,7 @@ template&lt;typename CoordType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dae/namespacegams.html">gams</a></li><li class="navelem"><a class="el" href="../../d3/d79/namespacegams_1_1pose.html">pose</a></li><li class="navelem"><a class="el" href="../../d6/dcb/classgams_1_1pose_1_1Coordinate.html">Coordinate</a></li>
-    <li class="footer">Generated on Tue Mar 13 2018 16:52:15 for GAMS by
+    <li class="footer">Generated on Mon Apr 2 2018 01:41:26 for GAMS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

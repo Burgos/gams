@@ -39,21 +39,23 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d58/classgams_1_1auctions_1_1AuctionMinimumDistance.html#a9bb4c1490c8f67ecbe637223cb28cc32",
-"d2/dac/namespacegams_1_1algorithms_1_1java.html",
-"d3/df5/classgams_1_1algorithms_1_1FormationSync.html#a0e4113054046e464458acbe74d6ccff9",
-"d4/d62/classgams_1_1algorithms_1_1MessageProfilingFactory.html#aa856f0d654869b941ac22ea462e1bd05",
-"d5/da8/classgams_1_1algorithms_1_1FormationSyncFactory.html#ab8a985790f4b8f0eab86d09d46b03874",
-"d6/dcb/classgams_1_1pose_1_1Coordinate.html#a43c9d55940cb1d24a1f4b8a7f01a9987",
-"d7/d5e/classgams_1_1algorithms_1_1NullAlgorithmFactory.html#aa7e66b66891cae6dd09cfa1b0af3f7bc",
-"d8/d3f/utility_2Euler_8h.html#ab84e3bd73152e4556c77470c915a3a69",
-"d9/d61/classgams_1_1elections_1_1ElectionBase.html#a7911c64040602dcc0464791262d98087",
-"da/d37/PlatformStatus_8h.html#a905310afe0c364648e75d04b6cd19adb",
-"db/d53/classgams_1_1variables_1_1PlatformStatus.html#a42214948010b69607eb6846f12c64acf",
-"db/dfe/AlgorithmStatus_8h.html#ad8febcc2b25d22941393028ff07bead3",
-"dc/ddd/classgams_1_1pose_1_1PoseVector.html#a57d29b983980fa83149ae1af9bcd7bb5",
-"dd/de4/classgams_1_1algorithms_1_1NullAlgorithm.html#a0f5466d6fb389a75a44eabafe96f0c6f",
-"df/d4e/classgams_1_1utility_1_1Position.html#a37e35ccec702a0f08e066db69a8f6fc1"
+"d1/d2b/utility_2UTMFrame_8h.html",
+"d2/d64/classgams_1_1algorithms_1_1MessageProfiling.html#acb24c9c81ff631e0dec7c10ad7d7db47",
+"d3/dcb/classgams_1_1pose_1_1Region.html#a02795c6fed7b49a142fbe69f09577ca2",
+"d4/d23/classgams_1_1groups_1_1GroupFixedList.html#aaabce0e76dd65493784b7be42c15f09e",
+"d4/de8/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolCoverage.html#aa8ebbe077a2e9579980eb0d46a2dfaae",
+"d6/d4a/classgams_1_1pose_1_1Position.html#aa4c2f925347a7baf1ea7a86c9d40e346",
+"d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a4f76ada53c3e6118ffc4095be2ed0b2b",
+"d7/df2/classgams_1_1platforms_1_1DebugPlatform.html#a995316588cca5e04b77c16da3cbc1ced",
+"d8/d9b/classgams_1_1pose_1_1Acceleration.html#a5f39f1d83970b42741d88d78da23de34",
+"d9/d62/classgams_1_1algorithms_1_1ZoneCoverageFactory.html#abf6a4670986a01f50ecddeefff9ed32b",
+"da/d48/classgams_1_1pose_1_1LinearVector.html#a3b96739f00cba7367d7f97ccfcf1be4d",
+"db/d12/classgams_1_1formations_1_1AgentFormation.html#a05b25b8d85d568ee9f14df6a88f0f093",
+"dc/d6b/classgams_1_1elections_1_1ElectionCumulative.html#a2969c42231be2feaaa6faa8d5df78d81",
+"dc/dc0/classgams_1_1algorithms_1_1JavaAlgorithmFactory.html#aaabe24b52f718188225adbbdc6f03b69",
+"dd/da5/ElectionTypesEnum_8h_source.html",
+"de/d8c/classgams_1_1utility_1_1Containerize.html#ac4bbe7f949ab542f2ec51eee5c36e176",
+"dir_6c455ffda7930f83b3bac201e39444dd.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

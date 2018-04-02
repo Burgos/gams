@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['acceleration_2eh',['Acceleration.h',['../d6/d96/Acceleration_8h.html',1,'']]],
   ['accentstatus_2eh',['AccentStatus.h',['../d4/db9/AccentStatus_8h.html',1,'']]],
   ['acquire_5fvm_2eh',['Acquire_VM.h',['../d7/d6e/Acquire__VM_8h.html',1,'']]],
   ['agent_2eh',['Agent.h',['../da/da5/Agent_8h.html',1,'']]],
@@ -9,6 +10,9 @@ var searchData=
   ['algorithmstatus_2eh',['AlgorithmStatus.h',['../db/dfe/AlgorithmStatus_8h.html',1,'']]],
   ['angleunits_2eh',['AngleUnits.h',['../d1/d19/pose_2AngleUnits_8h.html',1,'']]],
   ['angleunits_2eh',['AngleUnits.h',['../d3/d13/utility_2AngleUnits_8h.html',1,'']]],
+  ['angular_2eh',['Angular.h',['../d1/d4b/Angular_8h.html',1,'']]],
+  ['angularacceleration_2eh',['AngularAcceleration.h',['../d3/d6e/AngularAcceleration_8h.html',1,'']]],
+  ['angularvelocity_2eh',['AngularVelocity.h',['../d5/db9/AngularVelocity_8h.html',1,'']]],
   ['argumentparser_2eh',['ArgumentParser.h',['../d0/d47/ArgumentParser_8h.html',1,'']]],
   ['auctionbase_2eh',['AuctionBase.h',['../d4/d3d/AuctionBase_8h.html',1,'']]],
   ['auctionbid_2eh',['AuctionBid.h',['../da/d98/AuctionBid_8h.html',1,'']]],

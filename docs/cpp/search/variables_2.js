@@ -13,7 +13,6 @@ var searchData=
   ['communication_5favailable',['communication_available',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#acb210fdb6bd300b5d2ce1517d21413bc',1,'gams::variables::PlatformStatus']]],
   ['compiled_5fformation_5f',['compiled_formation_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#a29d99e0e8b129898367a859566e4d086',1,'gams::algorithms::FormationFlying']]],
   ['compiled_5flogic_5f',['compiled_logic_',['../dd/d41/classgams_1_1algorithms_1_1KarlEvaluator.html#aabec4f16c333da9f593031150e6586cb',1,'gams::algorithms::KarlEvaluator']]],
-  ['coord_5ftype_5fname',['coord_type_name',['../db/dcf/classgams_1_1pose_1_1bad__coord__type.html#a20b7a84b5fba0bd748dbe729fe092c7f',1,'gams::pose::bad_coord_type']]],
   ['count_5f',['count_',['../d3/d59/classgams_1_1algorithms_1_1Spell.html#ac626774c65170a9756c450e0fa3111ef',1,'gams::algorithms::Spell']]],
   ['counter_5f',['counter_',['../d7/dca/classgams_1_1algorithms_1_1PerimeterPatrol.html#a3304d1079cac9829641a58b464b94e07',1,'gams::algorithms::PerimeterPatrol']]],
   ['coverage_5ftype',['coverage_type',['../d8/d12/classgams_1_1variables_1_1Agent.html#a48e3b217e77c36140307d014c44beb6e',1,'gams::variables::Agent']]],

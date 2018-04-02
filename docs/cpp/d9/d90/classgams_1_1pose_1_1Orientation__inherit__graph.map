@@ -1,5 +1,6 @@
 <map id="gams::pose::Orientation" name="gams::pose::Orientation">
-<area shape="rect" id="node2" href="$db/d73/classgams_1_1pose_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="5,87,204,114"/>
-<area shape="rect" id="node3" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Orientation \&gt;" alt="" coords="228,80,389,121"/>
-<area shape="rect" id="node4" href="$d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="213,5,404,32"/>
+<area shape="rect" id="node2" href="$d4/d1d/classgams_1_1pose_1_1Angular.html" title="gams::pose::Angular\l\&lt; Orientation \&gt;" alt="" coords="121,169,264,211"/>
+<area shape="rect" id="node3" href="$d0/d6b/classgams_1_1pose_1_1AngularVector.html" title="Container for Angular information, not bound to a frame. " alt="" coords="5,87,185,114"/>
+<area shape="rect" id="node4" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Orientation \&gt;" alt="" coords="209,80,371,121"/>
+<area shape="rect" id="node5" href="$d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="195,5,385,32"/>
 </map>

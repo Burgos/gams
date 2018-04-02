@@ -42,6 +42,21 @@ var hierarchy =
     [ "gams::algorithms::AlgorithmFactoryRepository", "d5/d71/classgams_1_1algorithms_1_1AlgorithmFactoryRepository.html", null ],
     [ "gams::algorithms::AlgorithmMetaData", "d5/d79/classgams_1_1algorithms_1_1AlgorithmMetaData.html", null ],
     [ "gams::variables::AlgorithmStatus", "d0/d97/classgams_1_1variables_1_1AlgorithmStatus.html", null ],
+    [ "gams::pose::AngularVector", "d0/d6b/classgams_1_1pose_1_1AngularVector.html", [
+      [ "gams::pose::Angular< AngularAcceleration >", "d4/d1d/classgams_1_1pose_1_1Angular.html", [
+        [ "gams::pose::AngularAcceleration", "dc/d8c/classgams_1_1pose_1_1AngularAcceleration.html", null ]
+      ] ],
+      [ "gams::pose::Angular< AngularVelocity >", "d4/d1d/classgams_1_1pose_1_1Angular.html", [
+        [ "gams::pose::AngularVelocity", "d7/d98/classgams_1_1pose_1_1AngularVelocity.html", null ]
+      ] ],
+      [ "gams::pose::Angular< Orientation >", "d4/d1d/classgams_1_1pose_1_1Angular.html", [
+        [ "gams::pose::Orientation", "d4/d22/classgams_1_1pose_1_1Orientation.html", null ]
+      ] ],
+      [ "gams::pose::Angular< C >", "d4/d1d/classgams_1_1pose_1_1Angular.html", null ],
+      [ "gams::pose::PoseVector", "dc/ddd/classgams_1_1pose_1_1PoseVector.html", [
+        [ "gams::pose::Pose", "dd/d61/classgams_1_1pose_1_1Pose.html", null ]
+      ] ]
+    ] ],
     [ "gams::utility::ArgumentParser", "dc/d83/classgams_1_1utility_1_1ArgumentParser.html", null ],
     [ "gams::auctions::AuctionBase", "d1/d10/classgams_1_1auctions_1_1AuctionBase.html", [
       [ "gams::auctions::AuctionMaximumBid", "d9/d5d/classgams_1_1auctions_1_1AuctionMaximumBid.html", null ],
@@ -109,14 +124,36 @@ var hierarchy =
     ] ],
     [ "gams::controllers::ControllerSettings", "d0/dc2/classgams_1_1controllers_1_1ControllerSettings.html", null ],
     [ "gams::pose::CoordinateBase", "d3/d5c/classgams_1_1pose_1_1CoordinateBase.html", [
+      [ "gams::pose::Coordinate< Acceleration >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
+        [ "gams::pose::Linear< Acceleration >", "de/d06/classgams_1_1pose_1_1Linear.html", [
+          [ "gams::pose::Acceleration", "d8/d9b/classgams_1_1pose_1_1Acceleration.html", null ]
+        ] ]
+      ] ],
+      [ "gams::pose::Coordinate< AngularAcceleration >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
+        [ "gams::pose::Angular< AngularAcceleration >", "d4/d1d/classgams_1_1pose_1_1Angular.html", null ]
+      ] ],
+      [ "gams::pose::Coordinate< AngularVelocity >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
+        [ "gams::pose::Angular< AngularVelocity >", "d4/d1d/classgams_1_1pose_1_1Angular.html", null ]
+      ] ],
+      [ "gams::pose::Coordinate< C >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
+        [ "gams::pose::Angular< C >", "d4/d1d/classgams_1_1pose_1_1Angular.html", null ],
+        [ "gams::pose::Linear< C >", "de/d06/classgams_1_1pose_1_1Linear.html", null ]
+      ] ],
       [ "gams::pose::Coordinate< Orientation >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
-        [ "gams::pose::Orientation", "d4/d22/classgams_1_1pose_1_1Orientation.html", null ]
+        [ "gams::pose::Angular< Orientation >", "d4/d1d/classgams_1_1pose_1_1Angular.html", null ]
       ] ],
       [ "gams::pose::Coordinate< Pose >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
         [ "gams::pose::Pose", "dd/d61/classgams_1_1pose_1_1Pose.html", null ]
       ] ],
       [ "gams::pose::Coordinate< Position >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
-        [ "gams::pose::Position", "d6/d4a/classgams_1_1pose_1_1Position.html", null ]
+        [ "gams::pose::Linear< Position >", "de/d06/classgams_1_1pose_1_1Linear.html", [
+          [ "gams::pose::Position", "d6/d4a/classgams_1_1pose_1_1Position.html", null ]
+        ] ]
+      ] ],
+      [ "gams::pose::Coordinate< Velocity >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", [
+        [ "gams::pose::Linear< Velocity >", "de/d06/classgams_1_1pose_1_1Linear.html", [
+          [ "gams::pose::Velocity", "dc/d74/classgams_1_1pose_1_1Velocity.html", null ]
+        ] ]
       ] ],
       [ "gams::pose::Coordinate< CoordType >", "d6/dcb/classgams_1_1pose_1_1Coordinate.html", null ]
     ] ],
@@ -133,7 +170,7 @@ var hierarchy =
     [ "gams::pose::euler::Euler< A, B, C, Conv >", "d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html", null ],
     [ "std::exception", null, [
       [ "std::runtime_error", null, [
-        [ "gams::pose::bad_coord_type< CoordType >", "db/dcf/classgams_1_1pose_1_1bad__coord__type.html", null ],
+        [ "gams::pose::bad_coord_type", "db/dcf/classgams_1_1pose_1_1bad__coord__type.html", null ],
         [ "gams::pose::undefined_transform", "dd/ddd/classgams_1_1pose_1_1undefined__transform.html", null ],
         [ "gams::pose::unrelated_frames", "dc/db8/classgams_1_1pose_1_1unrelated__frames.html", null ]
       ] ]
@@ -153,16 +190,17 @@ var hierarchy =
     [ "iterator", null, [
       [ "gams::utility::ArgumentParser::my_iterator< map_iterator >", "d4/d48/classgams_1_1utility_1_1ArgumentParser_1_1my__iterator.html", null ]
     ] ],
+    [ "gams::pose::LinearVector", "da/d48/classgams_1_1pose_1_1LinearVector.html", [
+      [ "gams::pose::Linear< C >", "de/d06/classgams_1_1pose_1_1Linear.html", null ],
+      [ "gams::pose::PoseVector", "dc/ddd/classgams_1_1pose_1_1PoseVector.html", null ],
+      [ "gams::pose::Linear< Acceleration >", "de/d06/classgams_1_1pose_1_1Linear.html", null ],
+      [ "gams::pose::Linear< Position >", "de/d06/classgams_1_1pose_1_1Linear.html", null ],
+      [ "gams::pose::Linear< Velocity >", "de/d06/classgams_1_1pose_1_1Linear.html", null ]
+    ] ],
     [ "gams::controllers::MapeLoop", "d3/d84/classgams_1_1controllers_1_1MapeLoop.html", null ],
     [ "gams::algorithms::MessageProfiling::MessageFilter::MessageData", "d4/d3a/structgams_1_1algorithms_1_1MessageProfiling_1_1MessageFilter_1_1MessageData.html", null ],
     [ "gams::controllers::Multicontroller", "db/d65/classgams_1_1controllers_1_1Multicontroller.html", null ],
     [ "gams::pose::order::Order< i0_, i1_, i2_ >", "d7/d12/classgams_1_1pose_1_1order_1_1Order.html", null ],
-    [ "gams::pose::OrientationVector", "db/d73/classgams_1_1pose_1_1OrientationVector.html", [
-      [ "gams::pose::Orientation", "d4/d22/classgams_1_1pose_1_1Orientation.html", null ],
-      [ "gams::pose::PoseVector", "dc/ddd/classgams_1_1pose_1_1PoseVector.html", [
-        [ "gams::pose::Pose", "dd/d61/classgams_1_1pose_1_1Pose.html", null ]
-      ] ]
-    ] ],
     [ "gams::platforms::PlatformFactory", "d5/d99/classgams_1_1platforms_1_1PlatformFactory.html", [
       [ "gams::platforms::DebugPlatformFactory", "dd/dfd/classgams_1_1platforms_1_1DebugPlatformFactory.html", null ],
       [ "gams::platforms::NullPlatformFactory", "d6/d50/classgams_1_1platforms_1_1NullPlatformFactory.html", null ],
@@ -172,10 +210,6 @@ var hierarchy =
     [ "gams::variables::PlatformStatus", "db/d53/classgams_1_1variables_1_1PlatformStatus.html", null ],
     [ "gams::utility::Position", "df/d4e/classgams_1_1utility_1_1Position.html", [
       [ "gams::utility::GPSPosition", "da/d5e/classgams_1_1utility_1_1GPSPosition.html", null ]
-    ] ],
-    [ "gams::pose::PositionVector", "db/ddd/classgams_1_1pose_1_1PositionVector.html", [
-      [ "gams::pose::PoseVector", "dc/ddd/classgams_1_1pose_1_1PoseVector.html", null ],
-      [ "gams::pose::Position", "d6/d4a/classgams_1_1pose_1_1Position.html", null ]
     ] ],
     [ "gams::pose::Quaternion", "d6/d13/classgams_1_1pose_1_1Quaternion.html", null ],
     [ "gams::pose::detail::radians_t", "d7/da7/structgams_1_1pose_1_1detail_1_1radians__t.html", null ],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['b',['b',['../d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html#ad75d95ab1d087c24c5205aa1c696ddd3',1,'gams::pose::euler::Euler::b() const '],['../d2/d09/classgams_1_1pose_1_1euler_1_1Euler.html#a63c5b069fcca98c775145a6734ab7cdc',1,'gams::pose::euler::Euler::b(double n)']]],
-  ['bad_5fcoord_5ftype',['bad_coord_type',['../db/dcf/classgams_1_1pose_1_1bad__coord__type.html#ae275128180aaea0bde7da657f9de32a0',1,'gams::pose::bad_coord_type']]],
+  ['bad_5fcoord_5ftype',['bad_coord_type',['../db/dcf/classgams_1_1pose_1_1bad__coord__type.html#a3de3a6ec06d730593f69c9b0e4010912',1,'gams::pose::bad_coord_type']]],
   ['basealgorithm',['BaseAlgorithm',['../d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html#acad795613026b0d4a636bbca4740695f',1,'gams::algorithms::BaseAlgorithm']]],
   ['baseareacoverage',['BaseAreaCoverage',['../df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html#a2ebfb6c29c27d102aeedcd68478b23a8',1,'gams::algorithms::area_coverage::BaseAreaCoverage']]],
   ['basecontroller',['BaseController',['../df/d21/classgams_1_1controllers_1_1BaseController.html#a21683896ee3ac2c909511a0fb718eec4',1,'gams::controllers::BaseController']]],

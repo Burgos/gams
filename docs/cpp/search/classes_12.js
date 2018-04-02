@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['searcharea',['SearchArea',['../d1/d9e/classgams_1_1pose_1_1SearchArea.html',1,'gams::pose']]],
   ['searcharea',['SearchArea',['../d0/d23/classgams_1_1variables_1_1SearchArea.html',1,'gams::variables']]],
+  ['searcharea',['SearchArea',['../d1/d9e/classgams_1_1pose_1_1SearchArea.html',1,'gams::pose']]],
   ['self',['Self',['../d4/d98/classgams_1_1variables_1_1Self.html',1,'gams::variables']]],
   ['sensor',['Sensor',['../db/d7d/classgams_1_1variables_1_1Sensor.html',1,'gams::variables']]],
   ['simplerotateframe',['SimpleRotateFrame',['../d6/dd3/classgams_1_1pose_1_1SimpleRotateFrame.html',1,'gams::pose']]],

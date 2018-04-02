@@ -1,8 +1,8 @@
 <map id="gams::pose::ReferenceFrame" name="gams::pose::ReferenceFrame">
-<area shape="rect" id="node6" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Pose \&gt;" alt="" coords="631,25,792,66"/>
-<area shape="rect" id="node7" href="$d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="343,40,533,67"/>
-<area shape="rect" id="node2" href="$dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Position and Orientation within a single reference frame. " alt="" coords="844,91,972,117"/>
-<area shape="rect" id="node3" href="$dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="628,141,795,168"/>
-<area shape="rect" id="node4" href="$db/ddd/classgams_1_1pose_1_1PositionVector.html" title="Container for Position information, not bound to a frame. " alt="" coords="347,141,529,168"/>
-<area shape="rect" id="node5" href="$db/d73/classgams_1_1pose_1_1OrientationVector.html" title="Container for Orientation information, not bound to a frame. " alt="" coords="339,192,537,219"/>
+<area shape="rect" id="node6" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Pose \&gt;" alt="" coords="85,184,246,225"/>
+<area shape="rect" id="node7" href="$d3/d5c/classgams_1_1pose_1_1CoordinateBase.html" title="For internal use. " alt="" coords="70,95,261,121"/>
+<area shape="rect" id="node2" href="$dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Linear and Angular within a single reference frame. " alt="" coords="235,275,363,301"/>
+<area shape="rect" id="node3" href="$dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="338,191,505,218"/>
+<area shape="rect" id="node4" href="$da/d48/classgams_1_1pose_1_1LinearVector.html" title="Container for Linear information, not bound to a frame. " alt="" coords="336,95,507,121"/>
+<area shape="rect" id="node5" href="$d0/d6b/classgams_1_1pose_1_1AngularVector.html" title="Container for Angular information, not bound to a frame. " alt="" coords="532,95,712,121"/>
 </map>

@@ -15,7 +15,6 @@ var searchData=
   ['posevector',['PoseVector',['../dc/ddd/classgams_1_1pose_1_1PoseVector.html',1,'gams::pose']]],
   ['position',['Position',['../df/d4e/classgams_1_1utility_1_1Position.html',1,'gams::utility']]],
   ['position',['Position',['../d6/d4a/classgams_1_1pose_1_1Position.html',1,'gams::pose']]],
-  ['positionvector',['PositionVector',['../db/ddd/classgams_1_1pose_1_1PositionVector.html',1,'gams::pose']]],
   ['prioritizedmintimeareacoverage',['PrioritizedMinTimeAreaCoverage',['../d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html',1,'gams::algorithms::area_coverage']]],
   ['prioritizedmintimeareacoveragefactory',['PrioritizedMinTimeAreaCoverageFactory',['../df/df0/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverageFactory.html',1,'gams::algorithms::area_coverage']]],
   ['prioritizedregion',['PrioritizedRegion',['../dc/da3/classgams_1_1pose_1_1PrioritizedRegion.html',1,'gams::pose']]],
