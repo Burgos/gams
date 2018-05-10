@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['quaternion',['Quaternion',['../d6/d13/classgams_1_1pose_1_1Quaternion.html',1,'gams::pose']]],
+  ['quaternion',['Quaternion',['../d0/d6b/classgams_1_1pose_1_1AngularVector.html#acb16be8799eca8a0ec6a02ac44750f90',1,'gams::pose::AngularVector::Quaternion()'],['../da/d48/classgams_1_1pose_1_1LinearVector.html#acb16be8799eca8a0ec6a02ac44750f90',1,'gams::pose::LinearVector::Quaternion()'],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#ab6ab6a3a8c0832196336ab2380173902',1,'gams::pose::Quaternion::Quaternion()'],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#aa8e27fe39b029cad77ba36d06357c897',1,'gams::pose::Quaternion::Quaternion(double x, double y, double z, double w)'],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#a27159c835bbe1579d41b0d246d18d1bd',1,'gams::pose::Quaternion::Quaternion(double rx, double ry, double rz)'],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#addb4268f8b937d82e2666bcbcd47b6e1',1,'gams::pose::Quaternion::Quaternion(const AngularVector &amp;rot)'],['../d6/d13/classgams_1_1pose_1_1Quaternion.html#aace32ff4c642afb154cc17232d902d33',1,'gams::pose::Quaternion::Quaternion(const LinearVector &amp;loc)'],['../da/d4b/namespacegams_1_1utility.html#ad36e069fc93eb73c53dccfec1d8cf2ce',1,'gams::utility::Quaternion()']]],
+  ['quaternion_2eh',['Quaternion.h',['../d7/d25/utility_2Quaternion_8h.html',1,'']]],
+  ['quaternion_2eh',['Quaternion.h',['../dd/d35/pose_2Quaternion_8h.html',1,'']]]
+];

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['radians',['radians',['../d3/d79/namespacegams_1_1pose.html#a4f963acb1b9fd135fb343cedbf56f6a2',1,'gams::pose::radians()'],['../da/d4b/namespacegams_1_1utility.html#a4189fa9f78090ab39e3c5edc8febdceb',1,'gams::utility::radians()']]],
+  ['radians_5f',['radians_',['../d7/ddc/classgams_1_1platforms_1_1Epsilon.html#a012f2b63708a74b318f9d7c5a972e24b',1,'gams::platforms::Epsilon']]],
+  ['range_5f',['range_',['../db/d7d/classgams_1_1variables_1_1Sensor.html#a737a548d36a6fa08361329ba55ddadaf',1,'gams::variables::Sensor']]],
+  ['reduced_5fmovement',['reduced_movement',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a791031382009265904526cac03e938a2',1,'gams::variables::PlatformStatus']]],
+  ['reduced_5fsensing',['reduced_sensing',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a42214948010b69607eb6846f12c64acf',1,'gams::variables::PlatformStatus']]],
+  ['ref',['ref',['../d3/ddf/structgams_1_1algorithms_1_1FormationFlying_1_1Compiled.html#a0695edb108ce0add193909e31837008f',1,'gams::algorithms::FormationFlying::Compiled']]],
+  ['region_5f',['region_',['../d7/d1e/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomAreaCoverage.html#a2e733737897ab7c4d1fa544d23f01138',1,'gams::algorithms::area_coverage::UniformRandomAreaCoverage::region_()'],['../d4/db6/classgams_1_1algorithms_1_1area__coverage_1_1UniformRandomEdgeCoverage.html#a42d931c25e34a2b019c25a317d7bbbf4',1,'gams::algorithms::area_coverage::UniformRandomEdgeCoverage::region_()']]],
+  ['region_5fid_5f',['region_id_',['../d4/de8/classgams_1_1algorithms_1_1area__coverage_1_1PerimeterPatrolCoverage.html#af9d65b784d9d2a6a4c3015b8f881dbb7',1,'gams::algorithms::area_coverage::PerimeterPatrolCoverage::region_id_()'],['../d8/d2d/classgams_1_1algorithms_1_1area__coverage_1_1SnakeAreaCoverage.html#a24a2e593158c0ad0e874251bd65d9b80',1,'gams::algorithms::area_coverage::SnakeAreaCoverage::region_id_()']]],
+  ['regions_5f',['regions_',['../d1/d9e/classgams_1_1pose_1_1SearchArea.html#a7e9d7ffb8b6e44c6f80ddcf5c5bec17e',1,'gams::pose::SearchArea']]],
+  ['repeat_5f',['repeat_',['../d9/d03/classgams_1_1algorithms_1_1Executor.html#a850ed218dd64d32acf3f8da7b7670a6a',1,'gams::algorithms::Executor::repeat_()'],['../d2/d4c/classgams_1_1algorithms_1_1Move.html#a352012c4833bcb1486ea8ce81c5a6feb',1,'gams::algorithms::Move::repeat_()']]],
+  ['reverse',['reverse',['../d2/d41/structgams_1_1pose_1_1euler_1_1conv_1_1Intr.html#a3599b54b83b4cac77cbd49ea210480b3',1,'gams::pose::euler::conv::Intr::reverse()'],['../d6/d8e/structgams_1_1pose_1_1euler_1_1conv_1_1Extr.html#aad132b54470e4a86142e8838cef478bd',1,'gams::pose::euler::conv::Extr::reverse()']]],
+  ['revolutions',['revolutions',['../d3/d79/namespacegams_1_1pose.html#a14d6af9f4e4af54a28b91444109855df',1,'gams::pose::revolutions()'],['../da/d4b/namespacegams_1_1utility.html#a5f95170c7521327d25043126ce33263b',1,'gams::utility::revolutions()']]],
+  ['rho_5f',['rho_',['../d9/df9/classgams_1_1algorithms_1_1FormationFlying.html#aef35d28997b6ad58bf17721d5aa9fe04',1,'gams::algorithms::FormationFlying']]],
+  ['rotating',['rotating',['../db/d53/classgams_1_1variables_1_1PlatformStatus.html#a2c464919f890ae59e055642153dbc545',1,'gams::variables::PlatformStatus']]],
+  ['round_5f',['round_',['../d1/d10/classgams_1_1auctions_1_1AuctionBase.html#a28a017726e9246787abe35c1d59342e7',1,'gams::auctions::AuctionBase::round_()'],['../d9/d61/classgams_1_1elections_1_1ElectionBase.html#a16caa5914ad1a42f188efbe23471ff60',1,'gams::elections::ElectionBase::round_()']]],
+  ['run_5ftime',['run_time',['../d0/dc2/classgams_1_1controllers_1_1ControllerSettings.html#ac9a5a95979ef0ed71d5b1932d67b5a6a',1,'gams::controllers::ControllerSettings']]],
+  ['rv_5f',['rv_',['../d0/d6b/classgams_1_1pose_1_1AngularVector.html#ad6d5f1c46ac1cbba392ede5784e7c4a1',1,'gams::pose::AngularVector']]]
+];

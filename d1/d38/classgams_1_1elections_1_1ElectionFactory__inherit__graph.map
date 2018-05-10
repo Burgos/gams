@@ -1,0 +1,4 @@
+<map id="gams::elections::ElectionFactory" name="gams::elections::ElectionFactory">
+<area shape="rect" id="node2" href="$d0/ddd/classgams_1_1elections_1_1ElectionCumulativeFactory.html" title="Factory for creating plurality elections. " alt="" coords="223,5,392,47"/>
+<area shape="rect" id="node3" href="$d0/d76/classgams_1_1elections_1_1ElectionPluralityFactory.html" title="Factory for creating plurality elections. " alt="" coords="223,71,392,112"/>
+</map>

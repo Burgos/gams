@@ -1,0 +1,11 @@
+<map id="gams::pose::AngularVector" name="gams::pose::AngularVector">
+<area shape="rect" id="node2" href="$d4/d1d/classgams_1_1pose_1_1Angular.html" title="gams::pose::Angular\l\&lt; AngularAcceleration \&gt;" alt="" coords="240,5,403,47"/>
+<area shape="rect" id="node4" href="$d4/d1d/classgams_1_1pose_1_1Angular.html" title="gams::pose::Angular\l\&lt; AngularVelocity \&gt;" alt="" coords="250,71,393,112"/>
+<area shape="rect" id="node6" href="$d4/d1d/classgams_1_1pose_1_1Angular.html" title="gams::pose::Angular\l\&lt; Orientation \&gt;" alt="" coords="250,136,393,177"/>
+<area shape="rect" id="node8" href="$d4/d1d/classgams_1_1pose_1_1Angular.html" title="Represents a orientation or orientation within a reference frame. " alt="" coords="233,202,409,229"/>
+<area shape="rect" id="node9" href="$dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="238,253,405,279"/>
+<area shape="rect" id="node3" href="$dc/d8c/classgams_1_1pose_1_1AngularAcceleration.html" title="Represents a orientation or orientation within a reference frame. " alt="" coords="457,13,672,39"/>
+<area shape="rect" id="node5" href="$d7/d98/classgams_1_1pose_1_1AngularVelocity.html" title="Represents a orientation or orientation within a reference frame. " alt="" coords="470,78,659,105"/>
+<area shape="rect" id="node7" href="$d4/d22/classgams_1_1pose_1_1Orientation.html" title="Represents a orientation or orientation within a reference frame. " alt="" coords="484,143,645,170"/>
+<area shape="rect" id="node10" href="$dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Linear and Angular within a single reference frame. " alt="" coords="501,253,629,279"/>
+</map>

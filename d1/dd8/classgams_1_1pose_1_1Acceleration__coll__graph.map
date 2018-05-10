@@ -1,0 +1,6 @@
+<map id="gams::pose::Acceleration" name="gams::pose::Acceleration">
+<area shape="rect" id="node2" href="$de/d06/classgams_1_1pose_1_1Linear.html" title="gams::pose::Linear\l\&lt; Acceleration \&gt;" alt="" coords="140,185,273,227"/>
+<area shape="rect" id="node3" href="$da/d48/classgams_1_1pose_1_1LinearVector.html" title="Container for Linear information, not bound to a frame. " alt="" coords="5,102,176,129"/>
+<area shape="rect" id="node5" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Acceleration \&gt;" alt="" coords="205,95,366,136"/>
+<area shape="rect" id="node6" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Provides Reference Frame (i.e., coordinate systemm) transforms. " alt="" coords="189,5,384,32"/>
+</map>

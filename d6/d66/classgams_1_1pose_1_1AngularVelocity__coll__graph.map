@@ -1,0 +1,6 @@
+<map id="gams::pose::AngularVelocity" name="gams::pose::AngularVelocity">
+<area shape="rect" id="node2" href="$d4/d1d/classgams_1_1pose_1_1Angular.html" title="gams::pose::Angular\l\&lt; AngularVelocity \&gt;" alt="" coords="141,185,284,227"/>
+<area shape="rect" id="node3" href="$d0/d6b/classgams_1_1pose_1_1AngularVector.html" title="Container for Angular information, not bound to a frame. " alt="" coords="5,102,185,129"/>
+<area shape="rect" id="node5" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; AngularVelocity \&gt;" alt="" coords="211,95,372,136"/>
+<area shape="rect" id="node6" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Provides Reference Frame (i.e., coordinate systemm) transforms. " alt="" coords="195,5,390,32"/>
+</map>

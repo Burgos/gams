@@ -1,0 +1,4 @@
+<map id="gams::platforms::PositionBounds" name="gams::platforms::PositionBounds">
+<area shape="rect" id="node2" href="$df/d90/classgams_1_1platforms_1_1PoseBounds.html" title="Interface for defining a bounds checker for Poses, a combination of position and orientation checking..." alt="" coords="5,95,204,121"/>
+<area shape="rect" id="node3" href="$d7/ddc/classgams_1_1platforms_1_1Epsilon.html" title="A simple bounds checker which tests whether the current position is within the given number of meters..." alt="" coords="21,169,188,196"/>
+</map>

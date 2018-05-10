@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d0/db4/classgams_1_1platforms_1_1OrientationBounds.html" title="Interface for defining a bounds checker for Orientations. " alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$df/d90/classgams_1_1platforms_1_1PoseBounds.html" title="Interface for defining a bounds checker for Poses, a combination of position and orientation checking..." alt="" coords="240,46,439,73"/>
+<area shape="rect" id="node3" href="$d7/ddc/classgams_1_1platforms_1_1Epsilon.html" title="A simple bounds checker which tests whether the current position is within the given number of meters..." alt="" coords="487,46,653,73"/>
+<area shape="rect" id="node4" href="$d2/d6b/classgams_1_1platforms_1_1PositionBounds.html" title="Interface for defining a bounds checker for Positions. " alt="" coords="13,71,184,112"/>
+</map>

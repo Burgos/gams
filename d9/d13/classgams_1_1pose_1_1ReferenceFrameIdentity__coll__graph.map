@@ -1,0 +1,12 @@
+<map id="gams::pose::ReferenceFrameIdentity" name="gams::pose::ReferenceFrameIdentity">
+<area shape="rect" id="node4" href="$d0/d69/classgams_1_1pose_1_1ReferenceFrameVersion.html" title="For internal use. " alt="" coords="1049,78,1244,119"/>
+<area shape="rect" id="node6" href="$dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Linear and Angular within a single reference frame. " alt="" coords="783,85,911,112"/>
+<area shape="rect" id="node7" href="$dc/ddd/classgams_1_1pose_1_1PoseVector.html" title="Container for Pose information, not bound to a frame. " alt="" coords="519,49,685,76"/>
+<area shape="rect" id="node8" href="$da/d48/classgams_1_1pose_1_1LinearVector.html" title="Container for Linear information, not bound to a frame. " alt="" coords="243,5,413,32"/>
+<area shape="rect" id="node10" href="$d0/d6b/classgams_1_1pose_1_1AngularVector.html" title="Container for Angular information, not bound to a frame. " alt="" coords="238,56,418,83"/>
+<area shape="rect" id="node11" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Pose \&gt;" alt="" coords="521,101,683,142"/>
+<area shape="rect" id="node12" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Provides Reference Frame (i.e., coordinate systemm) transforms. " alt="" coords="231,108,425,135"/>
+<area shape="rect" id="node13" href="$d8/d50/structgams_1_1pose_1_1ReferenceFrameType.html" title="For internal use. " alt="" coords="735,136,959,163"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="1711,13,1791,40"/>
+<area shape="rect" id="node17" title="STL class. " alt="" coords="1358,6,1485,47"/>
+</map>

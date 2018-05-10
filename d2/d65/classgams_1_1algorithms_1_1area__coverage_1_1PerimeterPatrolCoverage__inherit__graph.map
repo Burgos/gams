@@ -1,0 +1,4 @@
+<map id="gams::algorithms::area_coverage::PerimeterPatrolCoverage" name="gams::algorithms::area_coverage::PerimeterPatrolCoverage">
+<area shape="rect" id="node2" href="$df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="Base class for all area coverages. " alt="" coords="22,80,225,121"/>
+<area shape="rect" id="node3" href="$d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="16,5,231,32"/>
+</map>

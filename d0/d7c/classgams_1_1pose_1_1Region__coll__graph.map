@@ -1,0 +1,10 @@
+<map id="gams::pose::Region" name="gams::pose::Region">
+<area shape="rect" id="node2" href="$de/d8c/classgams_1_1utility_1_1Containerize.html" title="A class meant to assist with retrieving information into GAMS containers. " alt="" coords="5,402,180,429"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="53,276,133,303"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="29,185,156,227"/>
+<area shape="rect" id="node6" href="$d6/d4a/classgams_1_1pose_1_1Position.html" title="Container for Position information, not bound to a frame. " alt="" coords="200,276,345,303"/>
+<area shape="rect" id="node7" href="$de/d06/classgams_1_1pose_1_1Linear.html" title="gams::pose::Linear\l\&lt; Position \&gt;" alt="" coords="206,185,339,227"/>
+<area shape="rect" id="node8" href="$da/d48/classgams_1_1pose_1_1LinearVector.html" title="Container for Linear information, not bound to a frame. " alt="" coords="70,102,241,129"/>
+<area shape="rect" id="node10" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Position \&gt;" alt="" coords="269,95,431,136"/>
+<area shape="rect" id="node11" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Provides Reference Frame (i.e., coordinate systemm) transforms. " alt="" coords="254,5,449,32"/>
+</map>

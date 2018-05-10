@@ -1,0 +1,7 @@
+<map id="gams::auctions::AuctionMinimumBid" name="gams::auctions::AuctionMinimumBid">
+<area shape="rect" id="node2" href="$d1/d10/classgams_1_1auctions_1_1AuctionBase.html" title="Base class for an auction. " alt="" coords="26,379,219,405"/>
+<area shape="rect" id="node3" href="$d4/d23/classgams_1_1groups_1_1GroupFixedList.html" title="A fixed list of agent members. " alt="" coords="116,289,313,316"/>
+<area shape="rect" id="node4" href="$da/d36/classgams_1_1groups_1_1GroupBase.html" title="Base class for a group of agents. " alt="" coords="117,185,291,212"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="164,96,244,123"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="141,5,267,47"/>
+</map>

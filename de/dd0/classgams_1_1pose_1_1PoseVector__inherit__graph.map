@@ -1,0 +1,5 @@
+<map id="gams::pose::PoseVector" name="gams::pose::PoseVector">
+<area shape="rect" id="node4" href="$dd/d61/classgams_1_1pose_1_1Pose.html" title="Represents a combination of Linear and Angular within a single reference frame. " alt="" coords="127,155,255,181"/>
+<area shape="rect" id="node2" href="$da/d48/classgams_1_1pose_1_1LinearVector.html" title="Container for Linear information, not bound to a frame. " alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node3" href="$d0/d6b/classgams_1_1pose_1_1AngularVector.html" title="Container for Angular information, not bound to a frame. " alt="" coords="201,5,381,32"/>
+</map>

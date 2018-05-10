@@ -1,0 +1,29 @@
+<map id="src/gams/algorithms/DebugAlgorithm.h" name="src/gams/algorithms/DebugAlgorithm.h">
+<area shape="rect" id="node4" href="$d9/de3/GAMSExport_8h.html" title="gams/GAMSExport.h" alt="" coords="3519,1011,3665,1038"/>
+<area shape="rect" id="node6" href="$d5/d65/Sensor_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3126,333,3293,360"/>
+<area shape="rect" id="node55" href="$d4/de8/BasePlatform_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2882,259,3089,285"/>
+<area shape="rect" id="node56" href="$da/d3d/Self_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="6130,408,6278,435"/>
+<area shape="rect" id="node70" href="$db/dfe/AlgorithmStatus_8h.html" title="gams/variables/Algorithm\lStatus.h" alt="" coords="5895,557,6065,599"/>
+<area shape="rect" id="node71" href="$d2/d6f/BaseAlgorithm_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3988,184,4207,211"/>
+<area shape="rect" id="node75" href="$dc/d80/AlgorithmFactory_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="4478,95,4655,136"/>
+<area shape="rect" id="node12" href="$d2/d7e/pose_2SearchArea_8h.html" title="gams/pose/SearchArea.h" alt="" coords="3125,408,3294,435"/>
+<area shape="rect" id="node33" href="$d6/dc5/pose_2GPSFrame_8h.html" title="gams/pose/GPSFrame.h" alt="" coords="2306,654,2473,681"/>
+<area shape="rect" id="node38" href="$d9/dbb/pose_2CartesianFrame_8h.html" title="CartesianFrame.h" alt="" coords="2143,833,2270,859"/>
+<area shape="rect" id="node13" href="$d9/d98/PrioritizedRegion_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="2696,483,2896,509"/>
+<area shape="rect" id="node14" href="$d2/db1/pose_2Region_8h.html" title="gams/pose/Region.h" alt="" coords="2725,565,2867,591"/>
+<area shape="rect" id="node16" href="$dc/d98/pose_2Position_8h.html" title="gams/pose/Position.h" alt="" coords="909,654,1057,681"/>
+<area shape="rect" id="node51" href="$dd/df2/Containerize_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="3122,833,3299,859"/>
+<area shape="rect" id="node17" href="$de/de0/Linear_8h.html" title="Copyright (c) 2018 Carnegie Mellon University. " alt="" coords="801,743,869,770"/>
+<area shape="rect" id="node21" href="$df/d28/pose_2Coordinate_8h.html" title="gams/pose/Coordinate.h" alt="" coords="602,833,766,859"/>
+<area shape="rect" id="node24" href="$d5/d69/CPP11__compat_8h.html" title="gams/CPP11_compat.h" alt="" coords="859,1011,1021,1038"/>
+<area shape="rect" id="node25" href="$dc/de8/ReferenceFrameFwd_8h.html" title="ReferenceFrameFwd.h" alt="" coords="1028,922,1183,949"/>
+<area shape="rect" id="node34" href="$d5/df8/pose_2ReferenceFrame_8h.html" title="ReferenceFrame.h" alt="" coords="1780,743,1911,770"/>
+<area shape="rect" id="node65" href="$da/d37/PlatformStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="4461,565,4673,591"/>
+<area shape="rect" id="node66" href="$df/d53/GPSPosition_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="1099,483,1277,509"/>
+<area shape="rect" id="node57" href="$da/da5/Agent_8h.html" title="Copyright (c) 2014&#45;2018 Carnegie Mellon University. " alt="" coords="4855,654,4921,681"/>
+<area shape="rect" id="node60" href="$d4/db9/AccentStatus_8h.html" title="Copyright (c) 2014 Carnegie Mellon University. " alt="" coords="4717,743,4829,770"/>
+<area shape="rect" id="node61" href="$d1/dd8/GroupBase_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="5467,743,5645,770"/>
+<area shape="rect" id="node62" href="$d6/dd2/GroupTypesEnum_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="5329,833,5468,859"/>
+<area shape="rect" id="node67" href="$da/d39/utility_2Position_8h.html" title="Position.h" alt="" coords="1148,565,1228,591"/>
+<area shape="rect" id="node72" href="$d9/ddd/GlobalLogger_8h.html" title="gams/loggers/GlobalLogger.h" alt="" coords="3983,743,4174,770"/>
+</map>

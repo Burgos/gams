@@ -1,0 +1,11 @@
+<map id="src/gams/utility/Coordinate.h" name="src/gams/utility/Coordinate.h">
+<area shape="rect" id="node2" href="$d2/dd3/Location_8h.html" title="Copyright (c) 2015 Carnegie Mellon University. " alt="" coords="171,80,345,107"/>
+<area shape="rect" id="node8" href="$d1/d54/utility_2Orientation_8h.html" title="src/gams/utility/Orientation.h" alt="" coords="370,80,559,107"/>
+<area shape="rect" id="node3" href="$d5/db5/AuctionMinimumDistance_8h.html" title="Copyright (c) 2016 Carnegie Mellon University. " alt="" coords="5,155,183,196"/>
+<area shape="rect" id="node4" href="$dd/d60/utility_2Pose_8h.html" title="src/gams/utility/Pose.h" alt="" coords="207,162,363,189"/>
+<area shape="rect" id="node5" href="$de/d6a/utility_2ReferenceFrame_8h.html" title="src/gams/utility/Reference\lFrame.h" alt="" coords="197,244,372,285"/>
+<area shape="rect" id="node6" href="$d3/d86/utility_2CartesianFrame_8h.html" title="src/gams/utility/Cartesian\lFrame.h" alt="" coords="97,333,267,375"/>
+<area shape="rect" id="node7" href="$d9/d5d/utility_2GPSFrame_8h.html" title="src/gams/utility/GPSFrame.h" alt="" coords="292,341,483,367"/>
+<area shape="rect" id="node9" href="$d8/d3f/utility_2Euler_8h.html" title="src/gams/utility/Euler.h" alt="" coords="387,162,543,189"/>
+<area shape="rect" id="node10" href="$d7/d25/utility_2Quaternion_8h.html" title="src/gams/utility/Quaternion.h" alt="" coords="447,251,637,278"/>
+</map>

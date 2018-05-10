@@ -1,0 +1,27 @@
+var classgams_1_1elections_1_1ElectionPlurality =
+[
+    [ "ElectionPlurality", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a6ab30ca248dc987228d4d071cb9c3bec", null ],
+    [ "~ElectionPlurality", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a6c5f49df78fb148faea7a4677cb0d8e8", null ],
+    [ "advance_round", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#aa754a1f8ef73e6dfffa9aff0178527bd", null ],
+    [ "get_agent_prefix", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#af305cd76aed7e9d18195bf5d972c5257", null ],
+    [ "get_election_prefix", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a2969c42231be2feaaa6faa8d5df78d81", null ],
+    [ "get_leader", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#ac9fdbe60e3e88426cc11466fccfeea03", null ],
+    [ "get_leaders", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a5b960943178e47d7835a251201011060", null ],
+    [ "get_round", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a305ca44b570c986a9c4c065c002e29e9", null ],
+    [ "get_votes", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#acadea97e7313f5b738a5742246103242", null ],
+    [ "get_votes", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#aa7c309ac1480675ad8c742ad4c59fdc8", null ],
+    [ "has_voted", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a8c1401c520df8d39e0260159c4129ea7", null ],
+    [ "reset_round", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#ab0b0dd033fc7416ca8cd17f9fc06f565", null ],
+    [ "reset_votes_pointer", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#ae2dcfbc97da686c323d7261bbe5fa0cf", null ],
+    [ "set_agent_prefix", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#afcdc40cc520eacff5ce5498ef7624b8d", null ],
+    [ "set_election_prefix", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a5354927cc83b402e7ed67d5aa50b4687", null ],
+    [ "set_knowledge_base", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a08b8a37984f9dba8c8470809f3a14b42", null ],
+    [ "sync", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a8488c554e81353e333082bddff801d3a", null ],
+    [ "vote", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a3aa24db77f1ae94f9550afc1f4411e6b", null ],
+    [ "vote", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a6d55208b80784601a047f4c34ee1926e", null ],
+    [ "agent_prefix_", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#aff22e2cc401d3c7f170666ec3452c21e", null ],
+    [ "election_prefix_", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#ad0faa48a414aa09ce8a7911d8e0218bf", null ],
+    [ "knowledge_", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a1d5ed8ea4bb384e56737ad54a46012b8", null ],
+    [ "round_", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a16caa5914ad1a42f188efbe23471ff60", null ],
+    [ "votes_", "d0/d74/classgams_1_1elections_1_1ElectionPlurality.html#a6a34aa24e73ec42e2fd2f0ec61ddf17a", null ]
+];

@@ -1,0 +1,5 @@
+<map id="gams::pose::Velocity" name="gams::pose::Velocity">
+<area shape="rect" id="node2" href="$de/d06/classgams_1_1pose_1_1Linear.html" title="gams::pose::Linear\l\&lt; Velocity \&gt;" alt="" coords="119,95,252,136"/>
+<area shape="rect" id="node3" href="$da/d48/classgams_1_1pose_1_1LinearVector.html" title="Container for Linear information, not bound to a frame. " alt="" coords="5,13,176,39"/>
+<area shape="rect" id="node4" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Velocity \&gt;" alt="" coords="201,5,362,47"/>
+</map>

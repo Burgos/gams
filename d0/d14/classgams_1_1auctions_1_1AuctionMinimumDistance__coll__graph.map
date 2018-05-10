@@ -1,0 +1,18 @@
+<map id="gams::auctions::AuctionMinimumDistance" name="gams::auctions::AuctionMinimumDistance">
+<area shape="rect" id="node2" href="$d1/d10/classgams_1_1auctions_1_1AuctionBase.html" title="Base class for an auction. " alt="" coords="1313,241,1506,268"/>
+<area shape="rect" id="node3" href="$d4/d23/classgams_1_1groups_1_1GroupFixedList.html" title="A fixed list of agent members. " alt="" coords="1005,271,1203,297"/>
+<area shape="rect" id="node4" href="$da/d36/classgams_1_1groups_1_1GroupBase.html" title="Base class for a group of agents. " alt="" coords="612,271,787,297"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="369,220,449,247"/>
+<area shape="rect" id="node13" href="$d8/d12/classgams_1_1variables_1_1Agent.html" title="A container for agent information. " alt="" coords="621,107,777,133"/>
+<area shape="rect" id="node16" href="$db/d53/classgams_1_1variables_1_1PlatformStatus.html" title="A container for platform status information. " alt="" coords="811,153,981,194"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="43,213,169,254"/>
+<area shape="rect" id="node8" href="$d0/df3/classgams_1_1platforms_1_1BasePlatform.html" title="The base platform for all platforms to use. " alt="" coords="1308,135,1511,161"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="1043,56,1165,83"/>
+<area shape="rect" id="node12" href="$d4/d98/classgams_1_1variables_1_1Self.html" title="A container for self referencing information. " alt="" coords="1031,107,1177,133"/>
+<area shape="rect" id="node15" href="$dd/dc7/classgams_1_1variables_1_1AccentStatus.html" title="A container for accent status information. " alt="" coords="5,64,207,91"/>
+<area shape="rect" id="node17" href="$d6/d4a/classgams_1_1pose_1_1Position.html" title="Container for Position information, not bound to a frame. " alt="" coords="1337,319,1482,345"/>
+<area shape="rect" id="node18" href="$de/d06/classgams_1_1pose_1_1Linear.html" title="gams::pose::Linear\l\&lt; Position \&gt;" alt="" coords="1037,373,1171,414"/>
+<area shape="rect" id="node19" href="$da/d48/classgams_1_1pose_1_1LinearVector.html" title="Container for Linear information, not bound to a frame. " alt="" coords="614,439,785,465"/>
+<area shape="rect" id="node21" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Position \&gt;" alt="" coords="619,373,780,414"/>
+<area shape="rect" id="node22" href="$d3/d24/classgams_1_1pose_1_1ReferenceFrame.html" title="Provides Reference Frame (i.e., coordinate systemm) transforms. " alt="" coords="312,380,507,407"/>
+</map>

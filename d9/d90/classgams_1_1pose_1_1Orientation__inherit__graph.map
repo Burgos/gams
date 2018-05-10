@@ -1,0 +1,5 @@
+<map id="gams::pose::Orientation" name="gams::pose::Orientation">
+<area shape="rect" id="node2" href="$d4/d1d/classgams_1_1pose_1_1Angular.html" title="gams::pose::Angular\l\&lt; Orientation \&gt;" alt="" coords="121,95,264,136"/>
+<area shape="rect" id="node3" href="$d0/d6b/classgams_1_1pose_1_1AngularVector.html" title="Container for Angular information, not bound to a frame. " alt="" coords="5,13,185,39"/>
+<area shape="rect" id="node4" href="$d6/dcb/classgams_1_1pose_1_1Coordinate.html" title="gams::pose::Coordinate\l\&lt; Orientation \&gt;" alt="" coords="209,5,371,47"/>
+</map>

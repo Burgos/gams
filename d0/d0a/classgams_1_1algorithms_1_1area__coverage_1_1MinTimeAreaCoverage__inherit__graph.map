@@ -1,0 +1,5 @@
+<map id="gams::algorithms::area_coverage::MinTimeAreaCoverage" name="gams::algorithms::area_coverage::MinTimeAreaCoverage">
+<area shape="rect" id="node4" href="$d7/d21/classgams_1_1algorithms_1_1area__coverage_1_1PrioritizedMinTimeAreaCoverage.html" title="Focuses on high priority areas over low priority, and attempts to do minimum time coverage..." alt="" coords="17,259,216,315"/>
+<area shape="rect" id="node2" href="$df/dbe/classgams_1_1algorithms_1_1area__coverage_1_1BaseAreaCoverage.html" title="Base class for all area coverages. " alt="" coords="15,80,218,121"/>
+<area shape="rect" id="node3" href="$d1/dbe/classgams_1_1algorithms_1_1BaseAlgorithm.html" title="The base class that algorithms in GAMS use. " alt="" coords="9,5,224,32"/>
+</map>
